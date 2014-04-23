@@ -10,12 +10,12 @@ object specification
 <tbody>
 <tr>
 <td><code>address_components</code></td>
-<td><code>Array.&lt;<a href="#GeocoderAddressComponent">GeocoderAddressComponent</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderAddressComponent.md">GeocoderAddressComponent</a>&gt;</code></td>
 <td>The collection of address components for this Place's location.</td>
 </tr>
 <tr>
 <td><code>aspects</code></td>
-<td><code>Array.&lt;<a href="#PlaceAspectRating">PlaceAspectRating</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceAspectRating.md">PlaceAspectRating</a>&gt;</code></td>
 <td>The rated aspects of this Place, based on Google and Zagat user reviews. The ratings are on a scale of 0 to 30.</td>
 </tr>
 <tr>
@@ -30,7 +30,7 @@ object specification
 </tr>
 <tr>
 <td><code>geometry</code></td>
-<td><code><a href="#PlaceGeometry">PlaceGeometry</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceGeometry.md">PlaceGeometry</a></code></td>
 <td>The Place's geometry-related information.</td>
 </tr>
 <tr>
@@ -65,7 +65,7 @@ object specification
 </tr>
 <tr>
 <td><code>photos</code></td>
-<td><code>Array.&lt;<a href="#PlacePhoto">PlacePhoto</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacePhoto.md">PlacePhoto</a>&gt;</code></td>
 <td>Photos of this Place. The collection will contain up to ten <code>PlacePhoto</code> objects.</td>
 </tr>
 <tr>
@@ -81,11 +81,11 @@ object specification
 <tr>
 <td><code>reference</code></td>
 <td><code>string</code></td>
-<td>An opaque string that may be used to retrieve up-to-date information about this Place (via <code><a href="#PlacesService"> PlacesService</a>.getDetails()</code>). <code>reference</code> contains a unique token that you can use to retrieve additional information about this Place in a Place Details request. You can store this token and use it at any time in future to refresh cached data about this Place, but the same token is not guaranteed to be returned for any given Place across different searches.</td>
+<td>An opaque string that may be used to retrieve up-to-date information about this Place (via <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesService.md"> PlacesService</a>.getDetails()</code>). <code>reference</code> contains a unique token that you can use to retrieve additional information about this Place in a Place Details request. You can store this token and use it at any time in future to refresh cached data about this Place, but the same token is not guaranteed to be returned for any given Place across different searches.</td>
 </tr>
 <tr>
 <td><code>reviews</code></td>
-<td><code>Array.&lt;<a href="#PlaceReview">PlaceReview</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceReview.md">PlaceReview</a>&gt;</code></td>
 <td>A list of reviews of this Place.</td>
 </tr>
 <tr>

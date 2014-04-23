@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>bounds</code></td>
-<td><code><a href="#LatLngBounds">LatLngBounds</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
 <td>The bounds within which to search for Places. Both <code>location</code> and <code>radius</code> will be ignored if <code>bounds</code> is set.</td>
 </tr>
 <tr>
@@ -20,7 +20,7 @@ object specification
 </tr>
 <tr>
 <td><code>location</code></td>
-<td><code><a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a></code></td>
 <td>The location around which to search for Places.</td>
 </tr>
 <tr>
@@ -50,13 +50,13 @@ object specification
 </tr>
 <tr>
 <td><code>rankBy</code></td>
-<td><code><a href="#RankBy">RankBy</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.RankBy.md">RankBy</a></code></td>
 <td>Specifies the ranking method to use when returning results.</td>
 </tr>
 <tr>
 <td><code>types</code></td>
 <td><code>Array.&lt;string&gt;</code></td>
-<td>Restricts the Place search results to Places with a type matching at least one of the specified types in this array. Valid types are given <a href="/maps/documentation/places/supported_types?hl=es">here</a>.</td>
+<td>Restricts the Place search results to Places with a type matching at least one of the specified types in this array. Valid types are given <a href="/maps/documentation/places/supported_types">here</a>.</td>
 </tr>
 </tbody>
 </table>

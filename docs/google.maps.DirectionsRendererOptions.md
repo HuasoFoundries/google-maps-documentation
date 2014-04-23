@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>directions</code></td>
-<td><code><a href="#DirectionsResult">DirectionsResult</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a></code></td>
 <td>The directions to display on the map and/or in a <code>&lt;div&gt;</code> panel, retrieved as a <code>DirectionsResult</code> object from <code>DirectionsService</code>.</td>
 </tr>
 <tr>
@@ -25,17 +25,17 @@ object specification
 </tr>
 <tr>
 <td><code>infoWindow</code></td>
-<td><code><a href="#InfoWindow">InfoWindow</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.InfoWindow.md">InfoWindow</a></code></td>
 <td>The <code>InfoWindow</code> in which to render text information when a marker is clicked. Existing info window content will be overwritten and its position moved. If no info window is specified, the <code>DirectionsRenderer</code> will create and use its own info window. This property will be ignored if <code>suppressInfoWindows</code> is set to true.</td>
 </tr>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>Map on which to display the directions.</td>
 </tr>
 <tr>
 <td><code>markerOptions</code></td>
-<td><code><a href="#MarkerOptions">MarkerOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MarkerOptions.md">MarkerOptions</a></code></td>
 <td>Options for the markers. All markers rendered by the <code>DirectionsRenderer</code> will use these options.</td>
 </tr>
 <tr>
@@ -45,7 +45,7 @@ object specification
 </tr>
 <tr>
 <td><code>polylineOptions</code></td>
-<td><code><a href="#PolylineOptions">PolylineOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PolylineOptions.md">PolylineOptions</a></code></td>
 <td>Options for the polylines. All polylines rendered by the <code>DirectionsRenderer</code> will use these options.</td>
 </tr>
 <tr>

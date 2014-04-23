@@ -16,21 +16,21 @@ object specification
 <tr>
 <td><code>id</code></td>
 <td><code>string</code></td>
-<td>A stable ID for this place, intended to be interoperable with those returned by the <a href="#PlaceResult">place search service</a>.</td>
+<td>A stable ID for this place, intended to be interoperable with those returned by the <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceResult.md">place search service</a>.</td>
 </tr>
 <tr>
 <td><code>matched_substrings</code></td>
-<td><code>Array.&lt;<a href="#PredictionSubstring">PredictionSubstring</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PredictionSubstring.md">PredictionSubstring</a>&gt;</code></td>
 <td>A set of substrings in the place's description that match elements in the user's input, suitable for use in highlighting those substrings. Each substring is identified by an offset and a length, expressed in unicode characters.</td>
 </tr>
 <tr>
 <td><code>reference</code></td>
 <td><code>string</code></td>
-<td>A reference that can be used to retrieve details about this place using the place details service (see <code><a href="#PlacesService"> PlacesService</a>.getDetails()</code>).</td>
+<td>A reference that can be used to retrieve details about this place using the place details service (see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesService.md"> PlacesService</a>.getDetails()</code>).</td>
 </tr>
 <tr>
 <td><code>terms</code></td>
-<td><code>Array.&lt;<a href="#PredictionTerm">PredictionTerm</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PredictionTerm.md">PredictionTerm</a>&gt;</code></td>
 <td>Information about individual terms in the above description, from most to least specific. For example, "Taco Bell", "Willitis", and "CA".</td>
 </tr>
 <tr>

@@ -15,7 +15,7 @@ object specification
 </tr>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>The map on which to display the layer.</td>
 </tr>
 <tr>

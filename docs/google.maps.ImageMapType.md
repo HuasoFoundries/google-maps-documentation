@@ -2,7 +2,7 @@
 google.maps.ImageMapType
 class
 </h2><p>This class implements the MapType interface and is provided for rendering image tiles.</p><p>This class extends
-<code><a href="#MVCObject">MVCObject</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
 </p><h3>Constructor</h3><table summary="class ImageMapType - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +10,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>ImageMapType(opts:<a href="#ImageMapTypeOptions"><em>ImageMapTypeOptions</em></a>)</code></td>
+<td><code>ImageMapType(opts:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ImageMapTypeOptions.md"><em>ImageMapTypeOptions</em></a>)</code></td>
 <td>Constructs an ImageMapType using the provided ImageMapTypeOptions</td>
 </tr>
 </tbody>
@@ -27,7 +27,7 @@ class
 <td>Returns the opacity level (<code>0</code> (transparent) to <code>1.0</code>) of the <code>ImageMapType</code> tiles.</td>
 </tr>
 <tr>
-<td><code>getTile(tileCoord:<a href="#Point">Point</a>, zoom:number, ownerDocument:Document)</code></td>
+<td><code>getTile(tileCoord:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a>, zoom:number, ownerDocument:Document)</code></td>
 <td><code>Node</code></td>
 <td></td>
 </tr>
@@ -71,7 +71,7 @@ class
 </tr>
 <tr>
 <td><code>projection</code></td>
-<td><code><a href="#Projection">Projection</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Projection.md">Projection</a></code></td>
 <td></td>
 </tr>
 <tr>
@@ -81,7 +81,7 @@ class
 </tr>
 <tr>
 <td><code>tileSize</code></td>
-<td><code><a href="#Size">Size</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
 <td></td>
 </tr>
 </tbody>

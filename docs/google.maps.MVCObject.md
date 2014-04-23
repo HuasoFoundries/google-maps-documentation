@@ -21,11 +21,11 @@ class
 <tbody>
 <tr>
 <td><code>addListener(eventName:string, handler:Function)</code></td>
-<td><code><a href="#MapsEventListener">MapsEventListener</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapsEventListener.md">MapsEventListener</a></code></td>
 <td>Adds the given listener function to the given event name. Returns an identifier for this listener that can be used with <code>google.maps.event.removeListener</code>.</td>
 </tr>
 <tr>
-<td><code>bindTo(key:string, target:<a href="#MVCObject">MVCObject</a>, targetKey?:string, noNotify?:boolean)</code></td>
+<td><code>bindTo(key:string, target:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a>, targetKey?:string, noNotify?:boolean)</code></td>
 <td><code>None</code></td>
 <td>Binds a View to a Model.</td>
 </tr>

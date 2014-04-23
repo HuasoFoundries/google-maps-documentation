@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>anchor</code></td>
-<td><code><a href="#Point">Point</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a></code></td>
 <td>The position of the symbol relative to the marker or polyline. The coordinates of the symbol's path are translated left and up by the anchor's x and y coordinates respectively. By default, a symbol is anchored at <code>(0, 0)</code>. The position is expressed in the same coordinate system as the symbol's path.</td>
 </tr>
 <tr>
@@ -25,7 +25,7 @@ object specification
 </tr>
 <tr>
 <td><code>path</code></td>
-<td><code><a href="#SymbolPath">SymbolPath</a>|string</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.SymbolPath.md">SymbolPath</a>|string</code></td>
 <td>The symbol's path, which is a built-in symbol path, or a custom path expressed using <a href="http://www.w3.org/TR/SVG/paths.html#PathData">SVG path notation</a>. Required.</td>
 </tr>
 <tr>

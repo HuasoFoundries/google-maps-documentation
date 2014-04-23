@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>geometry</code></td>
-<td><code><a href="#Data.Geometry">Data.Geometry</a>|<a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a></code></td>
 <td>The feature geometry. If none is specified when a feature is constructed, the feature's geometry will be null. If a <code>LatLng</code> object or <code>LatLngLiteral</code> is given, this will be converted to a <code>Data.Point</code> geometry.</td>
 </tr>
 <tr>

@@ -23,7 +23,7 @@ object specification
 <tbody>
 <tr>
 <td><code>latLng</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>The latitude/longitude that was below the cursor when the event occurred.</td>
 </tr>
 </tbody>

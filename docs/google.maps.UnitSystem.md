@@ -1,7 +1,7 @@
 <h2 id="UnitSystem">
 google.maps.UnitSystem
 class
-</h2><p>The valid unit systems that can be specified in a <i><code><a href="#DirectionsRequest">DirectionsRequest</a></code></i>.</p><h3>Constant</h3><table summary="class UnitSystem - Constants" width="100%">
+</h2><p>The valid unit systems that can be specified in a <i><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsRequest.md">DirectionsRequest</a></code></i>.</p><h3>Constant</h3><table summary="class UnitSystem - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>address_components</code></td>
-<td><code>Array.&lt;<a href="#GeocoderAddressComponent">GeocoderAddressComponent</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderAddressComponent.md">GeocoderAddressComponent</a>&gt;</code></td>
 <td>An array of <code>GeocoderAddressComponent</code>s</td>
 </tr>
 <tr>
@@ -20,7 +20,7 @@ object specification
 </tr>
 <tr>
 <td><code>geometry</code></td>
-<td><code><a href="#GeocoderGeometry">GeocoderGeometry</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderGeometry.md">GeocoderGeometry</a></code></td>
 <td>A <code>GeocoderGeometry</code> object</td>
 </tr>
 <tr>
@@ -36,7 +36,7 @@ object specification
 <tr>
 <td><code>types</code></td>
 <td><code>Array.&lt;string&gt;</code></td>
-<td>An array of strings denoting the type of the returned geocoded element. For a list of possible strings, refer to the <a href="/maps/documentation/javascript/geocoding?hl=es#GeocodingAddressTypes"> Address Component Types</a> section of the Developer's Guide.</td>
+<td>An array of strings denoting the type of the returned geocoded element. For a list of possible strings, refer to the <a href="/maps/documentation/javascript/geocoding#GeocodingAddressTypes"> Address Component Types</a> section of the Developer's Guide.</td>
 </tr>
 </tbody>
 </table>

@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>style</code></td>
-<td><code><a href="#ScaleControlStyle">ScaleControlStyle</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ScaleControlStyle.md">ScaleControlStyle</a></code></td>
 <td>Style id. Used to select what style of scale control to display.</td>
 </tr>
 </tbody>

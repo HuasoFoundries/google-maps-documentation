@@ -10,12 +10,12 @@ object specification
 <tbody>
 <tr>
 <td><code>position</code></td>
-<td><code><a href="#ControlPosition">ControlPosition</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ControlPosition.md">ControlPosition</a></code></td>
 <td>Position id. Used to specify the position of the control on the map. The default position is <code>TOP_LEFT</code>.</td>
 </tr>
 <tr>
 <td><code>style</code></td>
-<td><code><a href="#ZoomControlStyle">ZoomControlStyle</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ZoomControlStyle.md">ZoomControlStyle</a></code></td>
 <td>Style id. Used to select what style of zoom control to display.</td>
 </tr>
 </tbody>

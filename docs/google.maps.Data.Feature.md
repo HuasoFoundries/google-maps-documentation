@@ -8,7 +8,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Data.Feature(options?:<a href="#Data.FeatureOptions">Data.FeatureOptions</a>)</code></td>
+<td><code>Data.Feature(options?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.FeatureOptions.md">Data.FeatureOptions</a>)</code></td>
 <td>Constructs a Feature with the given options.</td>
 </tr>
 </tbody>
@@ -26,7 +26,7 @@ class
 </tr>
 <tr>
 <td><code>getGeometry()</code></td>
-<td><code><a href="#Data.Geometry">Data.Geometry</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code></td>
 <td>Returns the feature's geometry.</td>
 </tr>
 <tr>
@@ -45,7 +45,7 @@ class
 <td>Removes the property with the given name.</td>
 </tr>
 <tr>
-<td><code>setGeometry(newGeometry:<a href="#Data.Geometry">Data.Geometry</a>|<a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a>)</code></td>
+<td><code>setGeometry(newGeometry:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>)</code></td>
 <td><code>None</code></td>
 <td>Sets the feature's geometry.</td>
 </tr>
@@ -64,17 +64,17 @@ class
 <tbody>
 <tr>
 <td><code>remove_property</code></td>
-<td><code><a href="#Data.RemovePropertyEvent">Data.RemovePropertyEvent</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.RemovePropertyEvent.md">Data.RemovePropertyEvent</a></code></td>
 <td>This event is triggered when a feature's property is removed.</td>
 </tr>
 <tr>
 <td><code>set_geometry</code></td>
-<td><code><a href="#Data.SetGeometryEvent">Data.SetGeometryEvent</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.SetGeometryEvent.md">Data.SetGeometryEvent</a></code></td>
 <td>This event is triggered when a feature's geometry is set.</td>
 </tr>
 <tr>
 <td><code>set_property</code></td>
-<td><code><a href="#Data.SetPropertyEvent">Data.SetPropertyEvent</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.SetPropertyEvent.md">Data.SetPropertyEvent</a></code></td>
 <td>This event is triggered when a feature's property is set.</td>
 </tr>
 </tbody>

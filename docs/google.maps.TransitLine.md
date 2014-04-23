@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>agencies</code></td>
-<td><code>Array.&lt;<a href="#TransitAgency">TransitAgency</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitAgency.md">TransitAgency</a>&gt;</code></td>
 <td>The transit agency that operates this transit line.</td>
 </tr>
 <tr>
@@ -45,7 +45,7 @@ object specification
 </tr>
 <tr>
 <td><code>vehicle</code></td>
-<td><code><a href="#TransitVehicle">TransitVehicle</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitVehicle.md">TransitVehicle</a></code></td>
 <td>The type of vehicle used, e.g. train or bus.</td>
 </tr>
 </tbody>

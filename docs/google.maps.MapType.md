@@ -9,7 +9,7 @@ object specification
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getTile(tileCoord:<a href="#Point">Point</a>, zoom:number, ownerDocument:Document)</code></td>
+<td><code>getTile(tileCoord:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a>, zoom:number, ownerDocument:Document)</code></td>
 <td><code>Node</code></td>
 <td>Returns a tile for the given tile coordinate (x, y) and zoom level. This tile will be appended to the given ownerDocument. Not available for base map types.</td>
 </tr>
@@ -48,7 +48,7 @@ object specification
 </tr>
 <tr>
 <td><code>projection</code></td>
-<td><code><a href="#Projection">Projection</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Projection.md">Projection</a></code></td>
 <td>The Projection used to render this MapType. Optional; defaults to Mercator.</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ object specification
 </tr>
 <tr>
 <td><code>tileSize</code></td>
-<td><code><a href="#Size">Size</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
 <td>The dimensions of each tile. Required.</td>
 </tr>
 </tbody>

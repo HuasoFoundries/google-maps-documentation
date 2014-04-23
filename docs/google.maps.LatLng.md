@@ -20,7 +20,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>equals(other:<a href="#LatLng">LatLng</a>)</code></td>
+<td><code>equals(other:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>)</code></td>
 <td><code>boolean</code></td>
 <td>Comparison function.</td>
 </tr>

@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>featureDetails</code></td>
-<td><code><a href="#WeatherFeature">WeatherFeature</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherFeature.md">WeatherFeature</a></code></td>
 <td>A <code>WeatherFeature</code> object containing information about the clicked feature.</td>
 </tr>
 <tr>
@@ -20,12 +20,12 @@ object specification
 </tr>
 <tr>
 <td><code>latLng</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>The position at which to anchor an info window on the clicked feature.</td>
 </tr>
 <tr>
 <td><code>pixelOffset</code></td>
-<td><code><a href="#Size">Size</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
 <td>The offset to apply to an info window anchored on the clicked feature.</td>
 </tr>
 </tbody>

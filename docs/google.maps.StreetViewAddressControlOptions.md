@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>position</code></td>
-<td><code><a href="#ControlPosition">ControlPosition</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ControlPosition.md">ControlPosition</a></code></td>
 <td>Position id. This id is used to specify the position of the control on the map. The default position is <code>TOP_LEFT</code>.</td>
 </tr>
 </tbody>

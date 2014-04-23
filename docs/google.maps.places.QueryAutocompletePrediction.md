@@ -15,12 +15,12 @@ object specification
 </tr>
 <tr>
 <td><code>matched_substrings</code></td>
-<td><code>Array.&lt;<a href="#PredictionSubstring">PredictionSubstring</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PredictionSubstring.md">PredictionSubstring</a>&gt;</code></td>
 <td>A set of substrings in the place's description that match elements in the user's input, suitable for use in highlighting those substrings. Each substring is identified by an offset and a length, expressed in unicode characters.</td>
 </tr>
 <tr>
 <td><code>terms</code></td>
-<td><code>Array.&lt;<a href="#PredictionTerm">PredictionTerm</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PredictionTerm.md">PredictionTerm</a>&gt;</code></td>
 <td>Information about individual terms in the above description. Categorical terms come first (e.g., "restaurant"). Address terms appear from most to least specific. For example, "San Francisco", and "CA".</td>
 </tr>
 </tbody>

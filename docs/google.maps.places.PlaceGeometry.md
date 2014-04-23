@@ -10,12 +10,12 @@ object specification
 <tbody>
 <tr>
 <td><code>location</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>The Place's position.</td>
 </tr>
 <tr>
 <td><code>viewport</code></td>
-<td><code><a href="#LatLngBounds">LatLngBounds</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
 <td>The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known.</td>
 </tr>
 </tbody>

@@ -10,17 +10,17 @@ object specification
 <tbody>
 <tr>
 <td><code>distance</code></td>
-<td><code><a href="#Distance">Distance</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Distance.md">Distance</a></code></td>
 <td>The distance for this origin-destination pairing. This property may be undefined as the distance may be unknown.</td>
 </tr>
 <tr>
 <td><code>duration</code></td>
-<td><code><a href="#Duration">Duration</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Duration.md">Duration</a></code></td>
 <td>The duration for this origin-destination pairing. This property may be undefined as the duration may be unknown.</td>
 </tr>
 <tr>
 <td><code>status</code></td>
-<td><code><a href="#DistanceMatrixElementStatus">DistanceMatrixElementStatus</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixElementStatus.md">DistanceMatrixElementStatus</a></code></td>
 <td>The status of this particular origin-destination pairing.</td>
 </tr>
 </tbody>

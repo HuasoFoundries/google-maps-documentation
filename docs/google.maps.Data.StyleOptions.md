@@ -30,12 +30,12 @@ object specification
 </tr>
 <tr>
 <td><code>icon</code></td>
-<td><code>string|<a href="#Icon">Icon</a>|<a href="#Symbol">Symbol</a></code></td>
+<td><code>string|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Icon.md">Icon</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Symbol.md">Symbol</a></code></td>
 <td>Icon for the foreground. If a string is provided, it is treated as though it were an <code>Icon</code> with the string as <code>url</code>. Only applies to point geometries.</td>
 </tr>
 <tr>
 <td><code>shape</code></td>
-<td><code><a href="#MarkerShape">MarkerShape</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MarkerShape.md">MarkerShape</a></code></td>
 <td>Defines the image map used for hit detection. Only applies to point geometries.</td>
 </tr>
 <tr>

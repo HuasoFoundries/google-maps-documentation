@@ -20,7 +20,7 @@ object specification
 </tr>
 <tr>
 <td><code>rows</code></td>
-<td><code>Array.&lt;<a href="#DistanceMatrixResponseRow">DistanceMatrixResponseRow</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponseRow.md">DistanceMatrixResponseRow</a>&gt;</code></td>
 <td>The rows of the matrix, corresponding to the origin addresses.</td>
 </tr>
 </tbody>

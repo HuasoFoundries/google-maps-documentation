@@ -9,7 +9,7 @@ object specification
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getDetails(callback:function(<a href="#MapsEngineMouseEvent">MapsEngineMouseEvent</a>))</code></td>
+<td><code>getDetails(callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.MapsEngineMouseEvent.md">MapsEngineMouseEvent</a>))</code></td>
 <td><code>None</code></td>
 <td>Takes a callback that will be called with details about the feature that may be used to render an info window.</td>
 </tr>
@@ -28,7 +28,7 @@ object specification
 </tr>
 <tr>
 <td><code>latLng</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>The latitude/longitude that was below the cursor when the event occurred.</td>
 </tr>
 </tbody>

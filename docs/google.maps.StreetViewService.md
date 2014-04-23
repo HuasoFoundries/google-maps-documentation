@@ -9,12 +9,12 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getPanoramaById(pano:string, callback:function(<a href="#StreetViewPanoramaData">StreetViewPanoramaData</a>, <a href="#StreetViewStatus">StreetViewStatus</a>))</code></td>
+<td><code>getPanoramaById(pano:string, callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaData.md">StreetViewPanoramaData</a>, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewStatus.md">StreetViewStatus</a>))</code></td>
 <td><code>None</code></td>
 <td>Retrieves the data for the given pano id and passes it to the provided callback as a <code>StreetViewPanoramaData</code> object. Pano ids are unique per panorama and stable for the lifetime of a session, but are liable to change between sessions.</td>
 </tr>
 <tr>
-<td><code>getPanoramaByLocation(latlng:<a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a>, radius:number, callback:function(<a href="#StreetViewPanoramaData">StreetViewPanoramaData</a>, <a href="#StreetViewStatus">StreetViewStatus</a>))</code></td>
+<td><code>getPanoramaByLocation(latlng:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>, radius:number, callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaData.md">StreetViewPanoramaData</a>, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewStatus.md">StreetViewStatus</a>))</code></td>
 <td><code>None</code></td>
 <td>Retrieves the <code>StreetViewPanoramaData</code> for a panorama within a given radius of the given <code>LatLng</code>. The <code>StreetViewPanoramaData</code> is passed to the provided callback. If the radius is less than 50 meters, the nearest panorama will be returned.</td>
 </tr>

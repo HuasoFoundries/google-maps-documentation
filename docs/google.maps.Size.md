@@ -20,7 +20,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>equals(other:<a href="#Size">Size</a>)</code></td>
+<td><code>equals(other:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a>)</code></td>
 <td><code>boolean</code></td>
 <td>Compares two Sizes.</td>
 </tr>

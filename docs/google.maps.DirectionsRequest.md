@@ -1,7 +1,7 @@
 <h2 id="DirectionsRequest">
 google.maps.DirectionsRequest
 object specification
-</h2><p>A directions query to be sent to the <code><a href="#DirectionsService">DirectionsService</a></code>.</p><h3>Properties</h3><table summary="interface DirectionsRequest - Properties" width="100%">
+</h2><p>A directions query to be sent to the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsService.md">DirectionsService</a></code>.</p><h3>Properties</h3><table summary="interface DirectionsRequest - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -25,7 +25,7 @@ object specification
 </tr>
 <tr>
 <td><code>destination</code></td>
-<td><code><a href="#LatLng">LatLng</a>|string</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|string</code></td>
 <td>Location of destination. This can be specified as either a string to be geocoded or a <code>LatLng</code>. Required.</td>
 </tr>
 <tr>
@@ -40,7 +40,7 @@ object specification
 </tr>
 <tr>
 <td><code>origin</code></td>
-<td><code><a href="#LatLng">LatLng</a>|string</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|string</code></td>
 <td>Location of origin. This can be specified as either a string to be geocoded or a <code>LatLng</code>. Required.</td>
 </tr>
 <tr>
@@ -55,22 +55,22 @@ object specification
 </tr>
 <tr>
 <td><code>transitOptions</code></td>
-<td><code><a href="#TransitOptions">TransitOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitOptions.md">TransitOptions</a></code></td>
 <td>Settings that apply only to requests where <code>travelMode</code> is TRANSIT. This object will have no effect for other travel modes.</td>
 </tr>
 <tr>
 <td><code>travelMode</code></td>
-<td><code><a href="#TravelMode">TravelMode</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TravelMode.md">TravelMode</a></code></td>
 <td>Type of routing requested. Required.</td>
 </tr>
 <tr>
 <td><code>unitSystem</code></td>
-<td><code><a href="#UnitSystem">UnitSystem</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.UnitSystem.md">UnitSystem</a></code></td>
 <td>Preferred unit system to use when displaying distance. Defaults to the unit system used in the country of origin.</td>
 </tr>
 <tr>
 <td><code>waypoints</code></td>
-<td><code>Array.&lt;<a href="#DirectionsWaypoint">DirectionsWaypoint</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsWaypoint.md">DirectionsWaypoint</a>&gt;</code></td>
 <td>Array of intermediate waypoints. Directions will be calculated from the origin to the destination by way of each waypoint in this array. The maximum allowed waypoints is 8, plus the origin, and destination. Maps API for Business customers are allowed 23 waypoints, plus the origin, and destination. Waypoints are not supported for transit directions. Optional.</td>
 </tr>
 </tbody>

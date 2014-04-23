@@ -15,12 +15,12 @@ object specification
 </tr>
 <tr>
 <td><code>bounds</code></td>
-<td><code><a href="#LatLngBounds">LatLngBounds</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
 <td>LatLngBounds within which to search. Optional.</td>
 </tr>
 <tr>
 <td><code>location</code></td>
-<td><code><a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a></code></td>
 <td>LatLng about which to search. Optional.</td>
 </tr>
 <tr>

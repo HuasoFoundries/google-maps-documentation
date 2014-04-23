@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>location</code></td>
-<td><code><a href="#LatLng">LatLng</a>|string</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|string</code></td>
 <td>Waypoint location. Can be an address string or <code>LatLng</code>. Optional.</td>
 </tr>
 <tr>

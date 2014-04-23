@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>panoProvider(panoId:string)</code></td>
-<td><code><a href="#StreetViewPanoramaData">StreetViewPanoramaData</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaData.md">StreetViewPanoramaData</a></code></td>
 <td>Custom panorama provider, which takes a string pano id and returns an object defining the panorama given that id. This function must be defined to specify custom panorama imagery.</td>
 </tr>
 </tbody>
@@ -28,7 +28,7 @@ object specification
 </tr>
 <tr>
 <td><code>addressControlOptions</code></td>
-<td><code><a href="#StreetViewAddressControlOptions">StreetViewAddressControlOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewAddressControlOptions.md">StreetViewAddressControlOptions</a></code></td>
 <td>The display options for the address control.</td>
 </tr>
 <tr>
@@ -68,7 +68,7 @@ object specification
 </tr>
 <tr>
 <td><code>panControlOptions</code></td>
-<td><code><a href="#PanControlOptions">PanControlOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PanControlOptions.md">PanControlOptions</a></code></td>
 <td>The display options for the pan control.</td>
 </tr>
 <tr>
@@ -78,12 +78,12 @@ object specification
 </tr>
 <tr>
 <td><code>position</code></td>
-<td><code><a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a></code></td>
 <td>The <code>LatLng</code> position of the Street View panorama.</td>
 </tr>
 <tr>
 <td><code>pov</code></td>
-<td><code><a href="#StreetViewPov">StreetViewPov</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPov.md">StreetViewPov</a></code></td>
 <td>The camera orientation, specified as heading and pitch, for the panorama.</td>
 </tr>
 <tr>
@@ -103,7 +103,7 @@ object specification
 </tr>
 <tr>
 <td><code>zoomControlOptions</code></td>
-<td><code><a href="#ZoomControlOptions">ZoomControlOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ZoomControlOptions.md">ZoomControlOptions</a></code></td>
 <td>The display options for the zoom control.</td>
 </tr>
 </tbody>

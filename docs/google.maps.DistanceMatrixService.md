@@ -20,7 +20,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getDistanceMatrix(request:<a href="#DistanceMatrixRequest"><em>DistanceMatrixRequest</em></a>, callback:function(<a href="#DistanceMatrixResponse">DistanceMatrixResponse</a>, <a href="#DistanceMatrixStatus">DistanceMatrixStatus</a>))</code></td>
+<td><code>getDistanceMatrix(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixRequest.md"><em>DistanceMatrixRequest</em></a>, callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponse.md">DistanceMatrixResponse</a>, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixStatus.md">DistanceMatrixStatus</a>))</code></td>
 <td><code>None</code></td>
 <td>Issues a distance matrix request.</td>
 </tr>

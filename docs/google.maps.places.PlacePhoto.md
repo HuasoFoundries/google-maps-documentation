@@ -9,7 +9,7 @@ object specification
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getUrl(opts:<a href="#PhotoOptions"><em>PhotoOptions</em></a>)</code></td>
+<td><code>getUrl(opts:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PhotoOptions.md"><em>PhotoOptions</em></a>)</code></td>
 <td><code>string</code></td>
 <td>Returns the image URL corresponding to the specified options. You must include a PhotoOptions object with at least one of maxWidth or maxHeight specified.</td>
 </tr>

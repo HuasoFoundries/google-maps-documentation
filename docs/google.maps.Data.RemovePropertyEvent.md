@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>feature</code></td>
-<td><code><a href="#Data.Feature">Data.Feature</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a></code></td>
 <td>The feature whose property was removed.</td>
 </tr>
 <tr>

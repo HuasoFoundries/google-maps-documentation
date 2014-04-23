@@ -15,7 +15,7 @@ object specification
 </tr>
 <tr>
 <td><code>location</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>The location of this elevation result.</td>
 </tr>
 <tr>

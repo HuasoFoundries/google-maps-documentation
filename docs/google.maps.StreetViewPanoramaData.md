@@ -20,17 +20,17 @@ object specification
 </tr>
 <tr>
 <td><code>links</code></td>
-<td><code>Array.&lt;<a href="#StreetViewLink">StreetViewLink</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLink.md">StreetViewLink</a>&gt;</code></td>
 <td>Specifies the navigational links to adjacent panoramas.</td>
 </tr>
 <tr>
 <td><code>location</code></td>
-<td><code><a href="#StreetViewLocation">StreetViewLocation</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLocation.md">StreetViewLocation</a></code></td>
 <td>Specifies the location meta-data for this panorama.</td>
 </tr>
 <tr>
 <td><code>tiles</code></td>
-<td><code><a href="#StreetViewTileData">StreetViewTileData</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewTileData.md">StreetViewTileData</a></code></td>
 <td>Specifies the custom tiles for this panorama.</td>
 </tr>
 </tbody>

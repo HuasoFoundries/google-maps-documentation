@@ -2,7 +2,7 @@
 google.maps.Data.Polygon
 class
 </h2><p>A Polygon geometry contains a number of <code>Data.LinearRing</code>s. The first linear-ring must be the polygon exterior boundary, and subsequent linear-rings must be interior boundaries or "holes".</p><p>This class extends
-<code><a href="#Data.Geometry">Data.Geometry</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
 </p><h3>Constructor</h3><table summary="class Data.Polygon - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +10,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Data.Polygon(elements:Array.&lt;<a href="#Data.LinearRing">Data.LinearRing</a>|Array.&lt;<a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a>&gt;&gt;)</code></td>
+<td><code>Data.Polygon(elements:Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.LinearRing.md">Data.LinearRing</a>|Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>&gt;&gt;)</code></td>
 <td>Constructs a <code>Data.Polygon</code> from the given <code>Data.LinearRing</code>s or arrays of positions.</td>
 </tr>
 </tbody>
@@ -23,12 +23,12 @@ class
 <tbody>
 <tr>
 <td><code>getArray()</code></td>
-<td><code>Array.&lt;<a href="#Data.LinearRing">Data.LinearRing</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.LinearRing.md">Data.LinearRing</a>&gt;</code></td>
 <td>Returns an array of the contained <code>Data.LinearRing</code>s. A new array is returned each time <code>getArray()</code> is called.</td>
 </tr>
 <tr>
 <td><code>getAt(n:number)</code></td>
-<td><code><a href="#Data.LinearRing">Data.LinearRing</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.LinearRing.md">Data.LinearRing</a></code></td>
 <td>Returns the <code>n</code>-th contained <code>Data.LinearRing</code>.</td>
 </tr>
 <tr>

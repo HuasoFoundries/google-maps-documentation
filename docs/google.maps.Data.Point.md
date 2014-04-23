@@ -2,7 +2,7 @@
 google.maps.Data.Point
 class
 </h2><p>A Point geometry contains a single <code>LatLng</code>.</p><p>This class extends
-<code><a href="#Data.Geometry">Data.Geometry</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
 </p><h3>Constructor</h3><table summary="class Data.Point - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +10,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Data.Point(latLng:<a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a>)</code></td>
+<td><code>Data.Point(latLng:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>)</code></td>
 <td>Constructs a <code>Data.Point</code> from the given <code>LatLng</code> or <code>LatLngLiteral</code>.</td>
 </tr>
 </tbody>
@@ -23,7 +23,7 @@ class
 <tbody>
 <tr>
 <td><code>get()</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>Returns the contained <code>LatLng</code>.</td>
 </tr>
 <tr>

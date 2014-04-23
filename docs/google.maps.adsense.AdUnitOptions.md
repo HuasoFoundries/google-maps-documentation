@@ -25,17 +25,17 @@ object specification
 </tr>
 <tr>
 <td><code>format</code></td>
-<td><code><a href="#AdFormat">AdFormat</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.adsense.AdFormat.md">AdFormat</a></code></td>
 <td>the Format of the <code>AdUnit</code>. See <a href="https://google.com/adsense/adformats">https://google.com/adsense/adformats</a>. (Optional)</td>
 </tr>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>The map associated with this <code>AdUnit</code>. Ads will be targeted to the location the map's viewport. (Required)</td>
 </tr>
 <tr>
 <td><code>position</code></td>
-<td><code><a href="#ControlPosition">ControlPosition</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ControlPosition.md">ControlPosition</a></code></td>
 <td>The position of the <code>AdUnit</code>. If specified, the <code>AdUnit</code> will be displayed at this position. Otherwise, it will not be added to the map. (Optional)</td>
 </tr>
 <tr>

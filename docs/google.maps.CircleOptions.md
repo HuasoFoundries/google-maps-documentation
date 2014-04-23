@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>center</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>The center</td>
 </tr>
 <tr>
@@ -40,7 +40,7 @@ object specification
 </tr>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>Map on which to display Circle.</td>
 </tr>
 <tr>
@@ -60,7 +60,7 @@ object specification
 </tr>
 <tr>
 <td><code>strokePosition</code></td>
-<td><code><a href="#StrokePosition">StrokePosition</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StrokePosition.md">StrokePosition</a></code></td>
 <td>The stroke position. Defaults to CENTER. This property is not supported on Internet Explorer 8 and earlier.</td>
 </tr>
 <tr>

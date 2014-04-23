@@ -2,7 +2,7 @@
 google.maps.StyledMapType
 class
 </h2><p>Creates a <code>MapType</code> with a custom style.</p><p>This class extends
-<code><a href="#MVCObject">MVCObject</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
 </p><h3>Constructor</h3><table summary="class StyledMapType - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +10,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>StyledMapType(styles:Array.&lt;<a href="#MapTypeStyle">MapTypeStyle</a>&gt;, options?:<a href="#StyledMapTypeOptions"><em>StyledMapTypeOptions</em></a>)</code></td>
+<td><code>StyledMapType(styles:Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeStyle.md">MapTypeStyle</a>&gt;, options?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StyledMapTypeOptions.md"><em>StyledMapTypeOptions</em></a>)</code></td>
 <td>Creates a styled <code>MapType</code> with the specified options. The <code>StyledMapType</code> takes an array of <code>MapTypeStyle</code>s, where each <code>MapTypeStyle</code> is applied to the map consecutively. A later <code>MapTypeStyle</code> that applies the same <code>MapTypeStyler</code>s to the same selectors as an earlier <code>MapTypeStyle</code> will override the earlier <code>MapTypeStyle</code>.</td>
 </tr>
 </tbody>
@@ -22,7 +22,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getTile(tileCoord:<a href="#Point">Point</a>, zoom:number, ownerDocument:Document)</code></td>
+<td><code>getTile(tileCoord:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a>, zoom:number, ownerDocument:Document)</code></td>
 <td><code>Node</code></td>
 <td></td>
 </tr>
@@ -61,7 +61,7 @@ class
 </tr>
 <tr>
 <td><code>projection</code></td>
-<td><code><a href="#Projection">Projection</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Projection.md">Projection</a></code></td>
 <td></td>
 </tr>
 <tr>
@@ -71,7 +71,7 @@ class
 </tr>
 <tr>
 <td><code>tileSize</code></td>
-<td><code><a href="#Size">Size</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
 <td></td>
 </tr>
 </tbody>

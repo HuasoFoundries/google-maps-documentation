@@ -15,12 +15,12 @@ object specification
 </tr>
 <tr>
 <td><code>labelColor</code></td>
-<td><code><a href="#LabelColor">LabelColor</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.LabelColor.md">LabelColor</a></code></td>
 <td>The color of labels on the weather layer. If this is not explicitly set, the label color is chosen automatically depending on the map type.</td>
 </tr>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>The map on which to display the layer.</td>
 </tr>
 <tr>
@@ -30,12 +30,12 @@ object specification
 </tr>
 <tr>
 <td><code>temperatureUnits</code></td>
-<td><code><a href="#TemperatureUnit">TemperatureUnit</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.TemperatureUnit.md">TemperatureUnit</a></code></td>
 <td>The units to use for temperature.</td>
 </tr>
 <tr>
 <td><code>windSpeedUnits</code></td>
-<td><code><a href="#WindSpeedUnit">WindSpeedUnit</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WindSpeedUnit.md">WindSpeedUnit</a></code></td>
 <td>The units to use for wind speed.</td>
 </tr>
 </tbody>

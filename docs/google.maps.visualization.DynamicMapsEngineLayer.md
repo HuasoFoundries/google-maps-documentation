@@ -2,7 +2,7 @@
 google.maps.visualization.DynamicMapsEngineLayer
 class
 </h2><p>A <code>DynamicMapsEngineLayer</code> allows you to display data from <a href="http://www.google.com/enterprise/mapsearth/products/mapsengine.html">Google Maps Engine</a> or the <a href="http://www.google.com/gadgets/directory?synd=earth">Google Earth Gallery</a>.</p><p>This class extends
-<code><a href="#MVCObject">MVCObject</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
 </p><h3>Library</h3><p>visualization</p><h3>Constructor</h3><table summary="class DynamicMapsEngineLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +10,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>DynamicMapsEngineLayer(options:<a href="#DynamicMapsEngineLayerOptions"><em>DynamicMapsEngineLayerOptions</em></a>)</code></td>
+<td><code>DynamicMapsEngineLayer(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineLayerOptions.md"><em>DynamicMapsEngineLayerOptions</em></a>)</code></td>
 <td>Creates a new instance of <code>DynamicMapsEngineLayer</code>.</td>
 </tr>
 </tbody>
@@ -23,7 +23,7 @@ class
 <tbody>
 <tr>
 <td><code>getFeatureStyle(featureId:string)</code></td>
-<td><code><a href="#FeatureStyle">FeatureStyle</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.FeatureStyle.md">FeatureStyle</a></code></td>
 <td>Returns the style for the given feature, with which individual style properties can be retrieved or set.</td>
 </tr>
 <tr>
@@ -38,7 +38,7 @@ class
 </tr>
 <tr>
 <td><code>getMap()</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>Returns the map on which this layer is displayed.</td>
 </tr>
 <tr>
@@ -53,7 +53,7 @@ class
 </tr>
 <tr>
 <td><code>getStatus()</code></td>
-<td><code><a href="#MapsEngineStatus">MapsEngineStatus</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.MapsEngineStatus.md">MapsEngineStatus</a></code></td>
 <td>Returns the status of the layer, set once the requested layer has loaded.</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ class
 <td>Sets the key of the layer to be displayed. Maps Engine Layer Keys are only unique within a single map, and can be changed by map owners. Changing this value will cause the layer to be redrawn.</td>
 </tr>
 <tr>
-<td><code>setMap(map:<a href="#Map">Map</a>)</code></td>
+<td><code>setMap(map:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a>)</code></td>
 <td><code>None</code></td>
 <td>Renders the layer on the specified map. If map is set to null, the layer will be removed.</td>
 </tr>
@@ -82,7 +82,7 @@ class
 <td>Sets the opacity of the layer, expressed as a number between 0 and 1. Applies only to imagery layers. Note: Be careful of setting this option for other layer types, as it may become effective in the future.</td>
 </tr>
 <tr>
-<td><code>setOptions(options:<a href="#DynamicMapsEngineLayerOptions"><em>DynamicMapsEngineLayerOptions</em></a>)</code></td>
+<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineLayerOptions.md"><em>DynamicMapsEngineLayerOptions</em></a>)</code></td>
 <td><code>None</code></td>
 <td></td>
 </tr>
@@ -96,37 +96,37 @@ class
 <tbody>
 <tr>
 <td><code>click</code></td>
-<td><code><a href="#DynamicMapsEngineMouseEvent"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineMouseEvent.md"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
 <td>This event is fired when a feature in the layer is clicked.</td>
 </tr>
 <tr>
 <td><code>dblclick</code></td>
-<td><code><a href="#DynamicMapsEngineMouseEvent"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineMouseEvent.md"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
 <td>This event is fired when a feature in the layer is double clicked.</td>
 </tr>
 <tr>
 <td><code>mousedown</code></td>
-<td><code><a href="#DynamicMapsEngineMouseEvent"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineMouseEvent.md"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
 <td>This event is fired for a mousedown on a feature in the layer.</td>
 </tr>
 <tr>
 <td><code>mousemove</code></td>
-<td><code><a href="#DynamicMapsEngineMouseEvent"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineMouseEvent.md"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
 <td>This event is fired when the mouse moves over a feature in the layer.</td>
 </tr>
 <tr>
 <td><code>mouseout</code></td>
-<td><code><a href="#DynamicMapsEngineMouseEvent"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineMouseEvent.md"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
 <td>This event is fired when the mouse leaves a feature in the layer.</td>
 </tr>
 <tr>
 <td><code>mouseover</code></td>
-<td><code><a href="#DynamicMapsEngineMouseEvent"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineMouseEvent.md"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
 <td>This event is fired when the mouse enters a feature in the layer.</td>
 </tr>
 <tr>
 <td><code>mouseup</code></td>
-<td><code><a href="#DynamicMapsEngineMouseEvent"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineMouseEvent.md"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
 <td>This event is fired for a mouseup on a feature in the layer.</td>
 </tr>
 <tr>
@@ -136,7 +136,7 @@ class
 </tr>
 <tr>
 <td><code>rightclick</code></td>
-<td><code><a href="#DynamicMapsEngineMouseEvent"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineMouseEvent.md"><em>DynamicMapsEngineMouseEvent</em></a></code></td>
 <td>This event is fired for a rightclick on a feature in the layer.</td>
 </tr>
 <tr>

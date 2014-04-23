@@ -31,7 +31,7 @@ object specification
 <tr>
 <td><code>select</code></td>
 <td><code>string</code></td>
-<td>A column, containing geographic features to be displayed on the map. See <a href="/maps/documentation/javascript/layers?hl=es#FusionTablesSetup"> Fusion Tables Setup</a> in the Maps API documentation for information about valid columns.</td>
+<td>A column, containing geographic features to be displayed on the map. See <a href="/maps/documentation/javascript/layers#FusionTablesSetup"> Fusion Tables Setup</a> in the Maps API documentation for information about valid columns.</td>
 </tr>
 <tr>
 <td><code>where</code></td>

@@ -1,7 +1,7 @@
 <h2 id="DirectionsRoute">
 google.maps.DirectionsRoute
 object specification
-</h2><p>A single route containing a set of legs in a <code><a href="#DirectionsResult">DirectionsResult</a></code>. Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><h3>Properties</h3><table summary="interface DirectionsRoute - Properties" width="100%">
+</h2><p>A single route containing a set of legs in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a></code>. Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><h3>Properties</h3><table summary="interface DirectionsRoute - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>bounds</code></td>
-<td><code><a href="#LatLngBounds">LatLngBounds</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
 <td>The bounds for this route.</td>
 </tr>
 <tr>
@@ -20,12 +20,12 @@ object specification
 </tr>
 <tr>
 <td><code>legs</code></td>
-<td><code>Array.&lt;<a href="#DirectionsLeg">DirectionsLeg</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsLeg.md">DirectionsLeg</a>&gt;</code></td>
 <td>An array of <code>DirectionsLeg</code>s, each of which contains information about the steps of which it is composed. There will be one leg for each waypoint or destination specified. So a route with no waypoints will contain one <code>DirectionsLeg</code> and a route with one waypoint will contain two.</td>
 </tr>
 <tr>
 <td><code>overview_path</code></td>
-<td><code>Array.&lt;<a href="#LatLng">LatLng</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
 <td>An array of <code>LatLng</code>s representing the entire course of this route. The path is simplified in order to make it suitable in contexts where a small number of vertices is required (such as Static Maps API URLs).</td>
 </tr>
 <tr>

@@ -25,7 +25,7 @@ object specification
 </tr>
 <tr>
 <td><code>type</code></td>
-<td><code><a href="#VehicleType">VehicleType</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.VehicleType.md">VehicleType</a></code></td>
 <td>The type of vehicle used, e.g. train, bus, or ferry.</td>
 </tr>
 </tbody>

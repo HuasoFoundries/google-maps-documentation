@@ -2,7 +2,7 @@
 google.maps.Data.LinearRing
 class
 </h2><p>A LinearRing geometry contains a number of <code>LatLng</code>s, representing a closed LineString. There is no need to make the first <code>LatLng</code> equal to the last <code>LatLng</code>. The LinearRing is closed implicitly.</p><p>This class extends
-<code><a href="#Data.Geometry">Data.Geometry</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
 </p><h3>Constructor</h3><table summary="class Data.LinearRing - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +10,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Data.LinearRing(elements:Array.&lt;<a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a>&gt;)</code></td>
+<td><code>Data.LinearRing(elements:Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>&gt;)</code></td>
 <td>Constructs a <code>Data.LinearRing</code> from the given <code>LatLng</code>s or <code>LatLngLiteral</code>s.</td>
 </tr>
 </tbody>
@@ -23,12 +23,12 @@ class
 <tbody>
 <tr>
 <td><code>getArray()</code></td>
-<td><code>Array.&lt;<a href="#LatLng">LatLng</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
 <td>Returns an array of the contained <code>LatLng</code>s. A new array is returned each time <code>getArray()</code> is called.</td>
 </tr>
 <tr>
 <td><code>getAt(n:number)</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>Returns the <code>n</code>-th contained <code>LatLng</code>.</td>
 </tr>
 <tr>

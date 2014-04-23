@@ -2,7 +2,7 @@
 google.maps.MVCArray
 class
 </h2><p>This class extends
-<code><a href="#MVCObject">MVCObject</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
 </p><h3>Constructor</h3><table summary="class MVCArray - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>

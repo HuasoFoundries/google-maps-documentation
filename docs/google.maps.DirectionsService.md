@@ -20,7 +20,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>route(request:<a href="#DirectionsRequest"><em>DirectionsRequest</em></a>, callback:function(<a href="#DirectionsResult">DirectionsResult</a>, <a href="#DirectionsStatus">DirectionsStatus</a>))</code></td>
+<td><code>route(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsRequest.md"><em>DirectionsRequest</em></a>, callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a>, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStatus.md">DirectionsStatus</a>))</code></td>
 <td><code>None</code></td>
 <td>Issue a directions search request.</td>
 </tr>

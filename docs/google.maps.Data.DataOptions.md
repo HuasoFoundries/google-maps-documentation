@@ -10,13 +10,13 @@ object specification
 <tbody>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>Map on which to display the features in the collection.</td>
 </tr>
 <tr>
 <td><code>style</code></td>
-<td><code><a href="#Data.StylingFunction">Data.StylingFunction</a>|<a href="#Data.StyleOptions">Data.StyleOptions</a></code></td>
-<td>Style for all features in the collection. For more details, see the <code><a href="#Data">setStyle()</a></code> method above.</td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.StylingFunction.md">Data.StylingFunction</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.StyleOptions.md">Data.StyleOptions</a></code></td>
+<td>Style for all features in the collection. For more details, see the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.md">setStyle()</a></code> method above.</td>
 </tr>
 </tbody>
 </table>

@@ -28,12 +28,12 @@ object specification
 </tr>
 <tr>
 <td><code>tileSize</code></td>
-<td><code><a href="#Size">Size</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
 <td>The size (in pixels) at which tiles will be rendered.</td>
 </tr>
 <tr>
 <td><code>worldSize</code></td>
-<td><code><a href="#Size">Size</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
 <td>The size (in pixels) of the whole panorama's "world".</td>
 </tr>
 </tbody>

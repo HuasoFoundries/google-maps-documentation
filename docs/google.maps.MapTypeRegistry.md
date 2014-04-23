@@ -2,7 +2,7 @@
 google.maps.MapTypeRegistry
 class
 </h2><p>This class extends
-<code><a href="#MVCObject">MVCObject</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
 </p><h3>Constructor</h3><table summary="class MapTypeRegistry - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -22,7 +22,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>set(id:string, mapType:<a href="#MapType"><em>MapType</em></a>)</code></td>
+<td><code>set(id:string, mapType:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapType.md"><em>MapType</em></a>)</code></td>
 <td><code>None</code></td>
 <td>Sets the registry to associate the passed string identifier with the passed MapType.</td>
 </tr>

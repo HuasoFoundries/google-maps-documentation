@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>elements</code></td>
-<td><code>Array.&lt;<a href="#DistanceMatrixResponseElement">DistanceMatrixResponseElement</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponseElement.md">DistanceMatrixResponseElement</a>&gt;</code></td>
 <td>The row's elements, corresponding to the destination addresses.</td>
 </tr>
 </tbody>

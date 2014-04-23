@@ -9,7 +9,7 @@ object specification
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getTileUrl(coordinate:<a href="#Point">Point</a>, zoom:number)</code></td>
+<td><code>getTileUrl(coordinate:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a>, zoom:number)</code></td>
 <td><code>string</code></td>
 <td>Returns a string (URL) for given tile coordinate (x, y) and zoom level.</td>
 </tr>
@@ -48,7 +48,7 @@ object specification
 </tr>
 <tr>
 <td><code>tileSize</code></td>
-<td><code><a href="#Size">Size</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
 <td>The tile size.</td>
 </tr>
 </tbody>

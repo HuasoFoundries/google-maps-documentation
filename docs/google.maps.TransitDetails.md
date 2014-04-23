@@ -10,22 +10,22 @@ object specification
 <tbody>
 <tr>
 <td><code>arrival_stop</code></td>
-<td><code><a href="#TransitStop">TransitStop</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitStop.md">TransitStop</a></code></td>
 <td>The arrival stop of this transit step.</td>
 </tr>
 <tr>
 <td><code>arrival_time</code></td>
-<td><code><a href="#Time">Time</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Time.md">Time</a></code></td>
 <td>The arrival time of this step, specified as a Time object.</td>
 </tr>
 <tr>
 <td><code>departure_stop</code></td>
-<td><code><a href="#TransitStop">TransitStop</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitStop.md">TransitStop</a></code></td>
 <td>The departure stop of this transit step.</td>
 </tr>
 <tr>
 <td><code>departure_time</code></td>
-<td><code><a href="#Time">Time</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Time.md">Time</a></code></td>
 <td>The departure time of this step, specified as a Time object.</td>
 </tr>
 <tr>
@@ -40,7 +40,7 @@ object specification
 </tr>
 <tr>
 <td><code>line</code></td>
-<td><code><a href="#TransitLine">TransitLine</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitLine.md">TransitLine</a></code></td>
 <td>Details about the transit line used in this step.</td>
 </tr>
 <tr>

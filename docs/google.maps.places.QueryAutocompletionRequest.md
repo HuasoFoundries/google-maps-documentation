@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>bounds</code></td>
-<td><code><a href="#LatLngBounds">LatLngBounds</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
 <td>Bounds for prediction biasing. Predictions will be biased towards, but not restricted to, the given <code>bounds</code>. Both <code>location</code> and <code>radius</code> will be ignored if <code>bounds</code> is set.</td>
 </tr>
 <tr>
@@ -20,7 +20,7 @@ object specification
 </tr>
 <tr>
 <td><code>location</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>Location for prediction biasing. Predictions will be biased towards the given <code>location</code> and <code>radius</code>. Alternatively, <code>bounds</code> can be used.</td>
 </tr>
 <tr>

@@ -2,7 +2,7 @@
 google.maps.StreetViewPanorama
 class
 </h2><p>Displays the panorama for a given <code>LatLng</code> or panorama ID. A <code>StreetViewPanorama</code> object provides a Street View "viewer" which can be stand-alone within a separate <code>&lt;div&gt;</code> or bound to a <code>Map</code>.</p><p>This class extends
-<code><a href="#MVCObject">MVCObject</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
 </p><h3>Constructor</h3><table summary="class StreetViewPanorama - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +10,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>StreetViewPanorama(container:Node, opts?:<a href="#StreetViewPanoramaOptions"><em>StreetViewPanoramaOptions</em></a>)</code></td>
+<td><code>StreetViewPanorama(container:Node, opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaOptions.md"><em>StreetViewPanoramaOptions</em></a>)</code></td>
 <td>Creates a panorama with the passed <code>StreetViewPanoramaOptions</code>.</td>
 </tr>
 </tbody>
@@ -23,7 +23,7 @@ class
 <tbody>
 <tr>
 <td><code>getLinks()</code></td>
-<td><code>Array.&lt;<a href="#StreetViewLink">StreetViewLink</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLink.md">StreetViewLink</a>&gt;</code></td>
 <td>Returns the set of navigation links for the Street View panorama.</td>
 </tr>
 <tr>
@@ -33,17 +33,17 @@ class
 </tr>
 <tr>
 <td><code>getPhotographerPov()</code></td>
-<td><code><a href="#StreetViewPov">StreetViewPov</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPov.md">StreetViewPov</a></code></td>
 <td>Returns the heading and pitch of the photographer when this panorama was taken. For Street View panoramas on the road, this also reveals in which direction the car was travelling. This data is available after the <code>pano_changed</code> event.</td>
 </tr>
 <tr>
 <td><code>getPosition()</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>Returns the current <code>LatLng</code> position for the Street View panorama.</td>
 </tr>
 <tr>
 <td><code>getPov()</code></td>
-<td><code><a href="#StreetViewPov">StreetViewPov</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPov.md">StreetViewPov</a></code></td>
 <td>Returns the current point of view for the Street View panorama.</td>
 </tr>
 <tr>
@@ -57,12 +57,12 @@ class
 <td>Returns the zoom level of the panorama. Fully zoomed-out is level 0, where the field of view is 180 degrees. Zooming in increases the zoom level.</td>
 </tr>
 <tr>
-<td><code>registerPanoProvider(provider:function(string):<a href="#StreetViewPanoramaData">StreetViewPanoramaData</a>)</code></td>
+<td><code>registerPanoProvider(provider:function(string):<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaData.md">StreetViewPanoramaData</a>)</code></td>
 <td><code>None</code></td>
 <td>Set the custom panorama provider called on pano change to load custom panoramas.</td>
 </tr>
 <tr>
-<td><code>setOptions(options:<a href="#StreetViewPanoramaOptions"><em>StreetViewPanoramaOptions</em></a>)</code></td>
+<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaOptions.md"><em>StreetViewPanoramaOptions</em></a>)</code></td>
 <td><code>None</code></td>
 <td>Sets a collection of key-value pairs.</td>
 </tr>
@@ -72,12 +72,12 @@ class
 <td>Sets the current panorama ID for the Street View panorama.</td>
 </tr>
 <tr>
-<td><code>setPosition(latLng:<a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a>)</code></td>
+<td><code>setPosition(latLng:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>)</code></td>
 <td><code>None</code></td>
 <td>Sets the current <code>LatLng</code> position for the Street View panorama.</td>
 </tr>
 <tr>
-<td><code>setPov(pov:<a href="#StreetViewPov"><em>StreetViewPov</em></a>)</code></td>
+<td><code>setPov(pov:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPov.md"><em>StreetViewPov</em></a>)</code></td>
 <td><code>None</code></td>
 <td>Sets the point of view for the Street View panorama.</td>
 </tr>
@@ -101,7 +101,7 @@ class
 <tbody>
 <tr>
 <td><code>controls</code></td>
-<td><code>Array.&lt;<a href="#MVCArray">MVCArray</a>.&lt;Node&gt;&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>.&lt;Node&gt;&gt;</code></td>
 <td>Additional controls to attach to the panorama. To add a control to the panorama, add the control's <code>&lt;div&gt;</code> to the <code>MVCArray</code> corresponding to the <code>ControlPosition</code> where it should be rendered.</td>
 </tr>
 </tbody>
@@ -140,7 +140,7 @@ class
 <tr>
 <td><code>resize</code></td>
 <td><code>None</code></td>
-<td>Developers should trigger this event on the panorama when its div changes size: <code> <a href="#event">google.maps.event.trigger</a>(panorama, 'resize')</code>.</td>
+<td>Developers should trigger this event on the panorama when its div changes size: <code> <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.event.md">google.maps.event.trigger</a>(panorama, 'resize')</code>.</td>
 </tr>
 <tr>
 <td><code>visible_changed</code></td>

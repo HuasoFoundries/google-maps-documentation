@@ -40,13 +40,13 @@ object specification
 </tr>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>Map on which to display Polygon.</td>
 </tr>
 <tr>
 <td><code>paths</code></td>
-<td><code><a href="#MVCArray">MVCArray</a>.&lt;<a href="#MVCArray">MVCArray</a>.&lt;<a href="#LatLng">LatLng</a>&gt;&gt;|<a href="#MVCArray">MVCArray</a>.&lt;<a href="#LatLng">LatLng</a>&gt;|Array.&lt;Array.&lt;<a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a>&gt;&gt;|Array.&lt;<a href="#LatLng">LatLng</a>|<a href="#LatLngLiteral">LatLngLiteral</a>&gt;</code></td>
-<td>The ordered sequence of coordinates that designates a closed loop. Unlike polylines, a polygon may consist of one or more paths. As a result, the paths property may specify one or more arrays of <code>LatLng</code> coordinates. Paths are closed automatically; do not repeat the first vertex of the path as the last vertex. Simple polygons may be defined using a single array of <code>LatLng</code>s. More complex polygons may specify an array of arrays. Any simple arrays are converted into <code><a href="#MVCArray">MVCArray</a></code>s. Inserting or removing <code>LatLng</code>s from the <code>MVCArray</code> will automatically update the polygon on the map.</td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;&gt;|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;|Array.&lt;Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>&gt;&gt;|Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>&gt;</code></td>
+<td>The ordered sequence of coordinates that designates a closed loop. Unlike polylines, a polygon may consist of one or more paths. As a result, the paths property may specify one or more arrays of <code>LatLng</code> coordinates. Paths are closed automatically; do not repeat the first vertex of the path as the last vertex. Simple polygons may be defined using a single array of <code>LatLng</code>s. More complex polygons may specify an array of arrays. Any simple arrays are converted into <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a></code>s. Inserting or removing <code>LatLng</code>s from the <code>MVCArray</code> will automatically update the polygon on the map.</td>
 </tr>
 <tr>
 <td><code>strokeColor</code></td>
@@ -60,7 +60,7 @@ object specification
 </tr>
 <tr>
 <td><code>strokePosition</code></td>
-<td><code><a href="#StrokePosition">StrokePosition</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StrokePosition.md">StrokePosition</a></code></td>
 <td>The stroke position. Defaults to CENTER. This property is not supported on Internet Explorer 8 and earlier.</td>
 </tr>
 <tr>

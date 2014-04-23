@@ -15,7 +15,7 @@ object specification
 </tr>
 <tr>
 <td><code>icon</code></td>
-<td><code><a href="#Symbol">Symbol</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Symbol.md">Symbol</a></code></td>
 <td>The icon to render on the line.</td>
 </tr>
 <tr>

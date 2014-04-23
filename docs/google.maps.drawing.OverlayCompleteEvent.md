@@ -10,12 +10,12 @@ object specification
 <tbody>
 <tr>
 <td><code>overlay</code></td>
-<td><code><a href="#Marker">Marker</a>|<a href="#Polygon">Polygon</a>|<a href="#Polyline">Polyline</a>|<a href="#Rectangle">Rectangle</a>|<a href="#Circle">Circle</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Marker.md">Marker</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Polygon.md">Polygon</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Polyline.md">Polyline</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Rectangle.md">Rectangle</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Circle.md">Circle</a></code></td>
 <td>The completed overlay.</td>
 </tr>
 <tr>
 <td><code>type</code></td>
-<td><code><a href="#OverlayType">OverlayType</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.drawing.OverlayType.md">OverlayType</a></code></td>
 <td>The completed overlay's type.</td>
 </tr>
 </tbody>

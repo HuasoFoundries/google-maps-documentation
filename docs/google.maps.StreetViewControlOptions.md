@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>position</code></td>
-<td><code><a href="#ControlPosition">ControlPosition</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ControlPosition.md">ControlPosition</a></code></td>
 <td>Position id. Used to specify the position of the control on the map. The default position is embedded within the navigation (zoom and pan) controls. If this position is empty or the same as that specified in the <code>zoomControlOptions</code> or <code>panControlOptions</code>, the Street View control will be displayed as part of the navigation controls. Otherwise, it will be displayed separately.</td>
 </tr>
 </tbody>

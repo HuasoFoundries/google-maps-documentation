@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>bounds</code></td>
-<td><code><a href="#LatLngBounds">LatLngBounds</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
 <td>The area towards which to bias query predictions. Predictions are biased towards, but not restricted to, queries targeting these bounds.</td>
 </tr>
 </tbody>

@@ -15,22 +15,22 @@ object specification
 </tr>
 <tr>
 <td><code>heatmap</code></td>
-<td><code><a href="#FusionTablesHeatmap">FusionTablesHeatmap</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesHeatmap.md">FusionTablesHeatmap</a></code></td>
 <td>Options which define the appearance of the layer as a heatmap.</td>
 </tr>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>The map on which to display the layer.</td>
 </tr>
 <tr>
 <td><code>query</code></td>
-<td><code><a href="#FusionTablesQuery">FusionTablesQuery</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesQuery.md">FusionTablesQuery</a></code></td>
 <td>Options defining the data to display.</td>
 </tr>
 <tr>
 <td><code>styles</code></td>
-<td><code>Array.&lt;<a href="#FusionTablesStyle">FusionTablesStyle</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesStyle.md">FusionTablesStyle</a>&gt;</code></td>
 <td>An array of up to 5 style specifications, which control the appearance of features within the layer.</td>
 </tr>
 <tr>

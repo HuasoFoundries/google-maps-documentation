@@ -10,12 +10,12 @@ object specification
 <tbody>
 <tr>
 <td><code>anchorPoint</code></td>
-<td><code><a href="#Point">Point</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a></code></td>
 <td>The offset from the marker's position to the tip of an InfoWindow that has been opened with the marker as anchor.</td>
 </tr>
 <tr>
 <td><code>animation</code></td>
-<td><code><a href="#Animation">Animation</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Animation.md">Animation</a></code></td>
 <td>Which animation to play when marker is added to a map.</td>
 </tr>
 <tr>
@@ -40,12 +40,12 @@ object specification
 </tr>
 <tr>
 <td><code>icon</code></td>
-<td><code>string|<a href="#Icon">Icon</a>|<a href="#Symbol">Symbol</a></code></td>
+<td><code>string|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Icon.md">Icon</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Symbol.md">Symbol</a></code></td>
 <td>Icon for the foreground. If a string is provided, it is treated as though it were an <code>Icon</code> with the string as <code>url</code>.</td>
 </tr>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="#Map">Map</a>|<a href="#StreetViewPanorama">StreetViewPanorama</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanorama.md">StreetViewPanorama</a></code></td>
 <td>Map on which to display Marker.</td>
 </tr>
 <tr>
@@ -55,7 +55,7 @@ object specification
 </tr>
 <tr>
 <td><code>position</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>Marker position. Required.</td>
 </tr>
 <tr>
@@ -65,7 +65,7 @@ object specification
 </tr>
 <tr>
 <td><code>shape</code></td>
-<td><code><a href="#MarkerShape">MarkerShape</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MarkerShape.md">MarkerShape</a></code></td>
 <td>Image map region definition used for drag/click.</td>
 </tr>
 <tr>

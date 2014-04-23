@@ -2,7 +2,7 @@
 google.maps.KmlLayer
 class
 </h2><p>A <code>KmlLayer</code> adds geographic markup to the map from a KML, KMZ or GeoRSS file that is hosted on a publicly accessible web server. A <code>KmlFeatureData</code> object is provided for each feature when clicked.</p><p>This class extends
-<code><a href="#MVCObject">MVCObject</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
 </p><h3>Constructor</h3><table summary="class KmlLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +10,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>KmlLayer(opts?:<a href="#KmlLayerOptions"><em>KmlLayerOptions</em></a>)</code></td>
+<td><code>KmlLayer(opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlLayerOptions.md"><em>KmlLayerOptions</em></a>)</code></td>
 <td>Creates a <code>KmlLayer</code> which renders the contents of the specified KML/KMZ file (<a href="https://developers.google.com/kml/documentation/kmlreference">https://developers.google.com/kml/documentation/kmlreference</a>) or GeoRSS file (<a href="http://www.georss.org">http://www.georss.org</a>).</td>
 </tr>
 </tbody>
@@ -23,22 +23,22 @@ class
 <tbody>
 <tr>
 <td><code>getDefaultViewport()</code></td>
-<td><code><a href="#LatLngBounds">LatLngBounds</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
 <td>Get the default viewport for the layer being displayed.</td>
 </tr>
 <tr>
 <td><code>getMap()</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>Get the map on which the KML Layer is being rendered.</td>
 </tr>
 <tr>
 <td><code>getMetadata()</code></td>
-<td><code><a href="#KmlLayerMetadata">KmlLayerMetadata</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlLayerMetadata.md">KmlLayerMetadata</a></code></td>
 <td>Get the metadata associated with this layer, as specified in the layer markup.</td>
 </tr>
 <tr>
 <td><code>getStatus()</code></td>
-<td><code><a href="#KmlLayerStatus">KmlLayerStatus</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlLayerStatus.md">KmlLayerStatus</a></code></td>
 <td>Get the status of the layer, set once the requested document has loaded.</td>
 </tr>
 <tr>
@@ -52,7 +52,7 @@ class
 <td>Gets the z-index of the KML Layer.</td>
 </tr>
 <tr>
-<td><code>setMap(map:<a href="#Map">Map</a>)</code></td>
+<td><code>setMap(map:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a>)</code></td>
 <td><code>None</code></td>
 <td>Renders the KML Layer on the specified map. If map is set to null, the layer is removed.</td>
 </tr>
@@ -76,7 +76,7 @@ class
 <tbody>
 <tr>
 <td><code>click</code></td>
-<td><code><a href="#KmlMouseEvent"><em>KmlMouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlMouseEvent.md"><em>KmlMouseEvent</em></a></code></td>
 <td>This event is fired when a feature in the layer is clicked.</td>
 </tr>
 <tr>

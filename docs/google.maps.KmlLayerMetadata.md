@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>author</code></td>
-<td><code><a href="#KmlAuthor">KmlAuthor</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlAuthor.md">KmlAuthor</a></code></td>
 <td>The layer's <code>&lt;atom:author&gt;</code>, extracted from the layer markup.</td>
 </tr>
 <tr>

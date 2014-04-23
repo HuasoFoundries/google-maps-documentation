@@ -15,17 +15,17 @@ object specification
 </tr>
 <tr>
 <td><code>latLng</code></td>
-<td><code><a href="#LatLng">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>The position at which to anchor an infowindow on the clicked feature.</td>
 </tr>
 <tr>
 <td><code>pixelOffset</code></td>
-<td><code><a href="#Size">Size</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
 <td>The offset to apply to an infowindow anchored on the clicked feature.</td>
 </tr>
 <tr>
 <td><code>row</code></td>
-<td><code>Object.&lt;<a href="#FusionTablesCell">FusionTablesCell</a>&gt;</code></td>
+<td><code>Object.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesCell.md">FusionTablesCell</a>&gt;</code></td>
 <td>A collection of <code>FusionTablesCell</code> objects, indexed by column name, representing the contents of the table row which included the clicked feature.</td>
 </tr>
 </tbody>

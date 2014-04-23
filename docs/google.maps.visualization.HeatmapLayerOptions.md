@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>data</code></td>
-<td><code><a href="#MVCArray">MVCArray</a>.&lt;<a href="#LatLng">LatLng</a>&gt;</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
 <td>The data points to display. Required.</td>
 </tr>
 <tr>
@@ -25,7 +25,7 @@ object specification
 </tr>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="#Map">Map</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
 <td>The map on which to display the layer.</td>
 </tr>
 <tr>

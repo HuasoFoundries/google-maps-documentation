@@ -10,17 +10,17 @@ object specification
 <tbody>
 <tr>
 <td><code>markerOptions</code></td>
-<td><code><a href="#FusionTablesMarkerOptions">FusionTablesMarkerOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesMarkerOptions.md">FusionTablesMarkerOptions</a></code></td>
 <td>Options which control the appearance of point features.</td>
 </tr>
 <tr>
 <td><code>polygonOptions</code></td>
-<td><code><a href="#FusionTablesPolygonOptions">FusionTablesPolygonOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesPolygonOptions.md">FusionTablesPolygonOptions</a></code></td>
 <td>Options which control the appearance of polygons.</td>
 </tr>
 <tr>
 <td><code>polylineOptions</code></td>
-<td><code><a href="#FusionTablesPolylineOptions">FusionTablesPolylineOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesPolylineOptions.md">FusionTablesPolylineOptions</a></code></td>
 <td>Options which control the appearance of polylines.</td>
 </tr>
 <tr>

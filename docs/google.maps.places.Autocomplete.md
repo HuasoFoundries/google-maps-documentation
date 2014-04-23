@@ -2,7 +2,7 @@
 google.maps.places.Autocomplete
 class
 </h2><p>A service to provide Place predictions based on a user's text input. It attaches to an input element of type <code>text</code>, and listens for text entry in that field. The list of predictions is presented as a drop-down list, and is updated as text is entered.</p><p>This class extends
-<code><a href="#MVCObject">MVCObject</a></code>.
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
 </p><h3>Library</h3><p>places</p><h3>Constructor</h3><table summary="class Autocomplete - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +10,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Autocomplete(inputField:HTMLInputElement, opts?:<a href="#AutocompleteOptions"><em>AutocompleteOptions</em></a>)</code></td>
+<td><code>Autocomplete(inputField:HTMLInputElement, opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.AutocompleteOptions.md"><em>AutocompleteOptions</em></a>)</code></td>
 <td>Creates a new instance of <code>Autocomplete</code> that attaches to the specified input text field with the given options.</td>
 </tr>
 </tbody>
@@ -23,21 +23,21 @@ class
 <tbody>
 <tr>
 <td><code>getBounds()</code></td>
-<td><code><a href="#LatLngBounds">LatLngBounds</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
 <td>Returns the bounds to which predictions are biased.</td>
 </tr>
 <tr>
 <td><code>getPlace()</code></td>
-<td><code><a href="#PlaceResult">PlaceResult</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceResult.md">PlaceResult</a></code></td>
 <td>Returns the details of the Place selected by user if the details were successfully&nbsp;retrieved. Otherwise returns a stub Place object, with the <code>name</code> property set to the current value of the input field.</td>
 </tr>
 <tr>
-<td><code>setBounds(bounds:<a href="#LatLngBounds">LatLngBounds</a>)</code></td>
+<td><code>setBounds(bounds:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a>)</code></td>
 <td><code>None</code></td>
 <td>Sets the preferred area within which to return Place results. Results are biased towards, but not restricted to, this area.</td>
 </tr>
 <tr>
-<td><code>setComponentRestrictions(restrictions:<a href="#ComponentRestrictions"><em>ComponentRestrictions</em></a>)</code></td>
+<td><code>setComponentRestrictions(restrictions:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.ComponentRestrictions.md"><em>ComponentRestrictions</em></a>)</code></td>
 <td><code>None</code></td>
 <td>Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.</td>
 </tr>

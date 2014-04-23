@@ -20,7 +20,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>geocode(request:<a href="#GeocoderRequest"><em>GeocoderRequest</em></a>, callback:function(Array.&lt;<a href="#GeocoderResult">GeocoderResult</a>&gt;, <a href="#GeocoderStatus">GeocoderStatus</a>))</code></td>
+<td><code>geocode(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderRequest.md"><em>GeocoderRequest</em></a>, callback:function(Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderResult.md">GeocoderResult</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderStatus.md">GeocoderStatus</a>))</code></td>
 <td><code>None</code></td>
 <td>Geocode a request.</td>
 </tr>

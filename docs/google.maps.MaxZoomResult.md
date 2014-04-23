@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>status</code></td>
-<td><code><a href="#MaxZoomStatus">MaxZoomStatus</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MaxZoomStatus.md">MaxZoomStatus</a></code></td>
 <td>Status of the request.</td>
 </tr>
 <tr>

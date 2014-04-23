@@ -10,12 +10,12 @@ object specification
 <tbody>
 <tr>
 <td><code>bounds</code></td>
-<td><code><a href="#LatLngBounds">LatLngBounds</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
 <td>The area in which to search for places. Results are biased towards, but not restricted to, places contained within these bounds.</td>
 </tr>
 <tr>
 <td><code>componentRestrictions</code></td>
-<td><code><a href="#ComponentRestrictions">ComponentRestrictions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.ComponentRestrictions.md">ComponentRestrictions</a></code></td>
 <td>The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.</td>
 </tr>
 <tr>

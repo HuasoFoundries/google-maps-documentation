@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>aspects</code></td>
-<td><code>Array.&lt;<a href="#PlaceAspectRating">PlaceAspectRating</a>&gt;</code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceAspectRating.md">PlaceAspectRating</a>&gt;</code></td>
 <td>The aspects rated by the review. The ratings on a scale of 0 to 3.</td>
 </tr>
 <tr>
