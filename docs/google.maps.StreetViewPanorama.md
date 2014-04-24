@@ -47,6 +47,11 @@ class
 <td>Returns the current point of view for the Street View panorama.</td>
 </tr>
 <tr>
+<td><code>getStatus()</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewStatus.md">StreetViewStatus</a></code></td>
+<td>Returns the status of the panorama on completion of the <code>setPosition()</code> or <code>setPano()</code> request.</td>
+</tr>
+<tr>
 <td><code>getVisible()</code></td>
 <td><code>boolean</code></td>
 <td>Returns <code>true</code> if the panorama is visible. It does not specify whether Street View imagery is available at the specified position.</td>
@@ -141,6 +146,11 @@ class
 <td><code>resize</code></td>
 <td><code>None</code></td>
 <td>Developers should trigger this event on the panorama when its div changes size: <code> <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.event.md">google.maps.event.trigger</a>(panorama, 'resize')</code>.</td>
+</tr>
+<tr>
+<td><code>status_changed</code></td>
+<td><code>None</code></td>
+<td>This event is fired after every panorama lookup by id or location, via <code>setPosition()</code> or <code>setPano()</code>.</td>
 </tr>
 <tr>
 <td><code>visible_changed</code></td>
