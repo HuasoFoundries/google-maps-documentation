@@ -231,4 +231,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Wednesday, April 09, 2014
+Last updated Tuesday, April 22, 2014
