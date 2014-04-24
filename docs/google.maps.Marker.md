@@ -52,6 +52,11 @@ class
 <td></td>
 </tr>
 <tr>
+<td><code>getOpacity()</code></td>
+<td><code>number</code></td>
+<td></td>
+</tr>
+<tr>
 <td><code>getPosition()</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td></td>
@@ -105,6 +110,11 @@ class
 <td><code>setMap(map:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanorama.md">StreetViewPanorama</a>)</code></td>
 <td><code>None</code></td>
 <td>Renders the marker on the specified map or panorama. If map is set to null, the marker will be removed.</td>
+</tr>
+<tr>
+<td><code>setOpacity(opacity:number)</code></td>
+<td><code>None</code></td>
+<td></td>
 </tr>
 <tr>
 <td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MarkerOptions.md"><em>MarkerOptions</em></a>)</code></td>
