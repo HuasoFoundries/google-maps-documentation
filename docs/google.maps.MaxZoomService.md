@@ -20,7 +20,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getMaxZoomAtLatLng(latlng:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>, callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MaxZoomResult.md">MaxZoomResult</a>))</code></td>
+<td><code>getMaxZoomAtLatLng(latlng:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>, callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MaxZoomResult.md">MaxZoomResult</a>))</code></td>
 <td><code>None</code></td>
 <td>Returns the maximum zoom level available at a particular <code>LatLng</code> for the Satellite map type. As this request is asynchronous, you must pass a <code>callback</code> function which will be executed upon completion of the request, being passed a <code>MaxZoomResult</code>.</td>
 </tr>
