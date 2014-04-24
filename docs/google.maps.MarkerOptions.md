@@ -26,7 +26,7 @@ object specification
 <tr>
 <td><code>crossOnDrag</code></td>
 <td><code>boolean</code></td>
-<td>If false, disables cross that appears beneath the marker when dragging. This option is <code>true</code> by default. This option is only enabled when <code>google.maps.visualRefresh</code> is set to <code>true</code>. For backwards compatibility, if <code>raiseOnDrag</code> is set to <code>false</code> then the default for <code>crossOnDrag</code> changes to <code>false</code>.</td>
+<td>If false, disables cross that appears beneath the marker when dragging. This option is <code>true</code> by default.</td>
 </tr>
 <tr>
 <td><code>cursor</code></td>
@@ -49,6 +49,11 @@ object specification
 <td>Map on which to display Marker.</td>
 </tr>
 <tr>
+<td><code>opacity</code></td>
+<td><code>number</code></td>
+<td>The marker's opacity between 0.0 and 1.0.</td>
+</tr>
+<tr>
 <td><code>optimized</code></td>
 <td><code>boolean</code></td>
 <td>Optimization renders many markers as a single static element. Optimized rendering is enabled by default. Disable optimized rendering for animated GIFs or PNGs, or when each marker must be rendered as a separate DOM element (advanced usage only).</td>
@@ -57,11 +62,6 @@ object specification
 <td><code>position</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
 <td>Marker position. Required.</td>
-</tr>
-<tr>
-<td><code>raiseOnDrag</code></td>
-<td><code>boolean</code></td>
-<td>If false, disables raising and lowering the marker on drag. This option is <code>true</code> by default. This option is disabled when <code>google.maps.visualRefresh</code> is set to <code>true</code>. Instead, a cross will appear beneath the marker icon while dragging. Please refer to the <code>crossOnDrag</code> property for new code. For backwards compatibility, if this is set to <code>false</code> then the default for <code>crossOnDrag</code> changes to <code>false</code>.</td>
 </tr>
 <tr>
 <td><code>shape</code></td>
