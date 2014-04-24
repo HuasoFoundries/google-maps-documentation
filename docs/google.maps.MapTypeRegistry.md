@@ -22,7 +22,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>set(id:string, mapType:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapType.md"><em>MapType</em></a>)</code></td>
+<td><code>set(id:string, mapType:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapType.md">MapType</a>|undefined)</code></td>
 <td><code>None</code></td>
 <td>Sets the registry to associate the passed string identifier with the passed MapType.</td>
 </tr>
