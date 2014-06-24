@@ -11,7 +11,7 @@ object specification
 <tr>
 <td><code>location</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The location of data point.</td>
+<td>The location of the data point.</td>
 </tr>
 <tr>
 <td><code>weight</code></td>
