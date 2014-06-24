@@ -27,6 +27,11 @@ class
 <td>Returns the set of navigation links for the Street View panorama.</td>
 </tr>
 <tr>
+<td><code>getLocation()</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLocation.md">StreetViewLocation</a></code></td>
+<td>Returns the StreetViewLocation of the current panorama.</td>
+</tr>
+<tr>
 <td><code>getPano()</code></td>
 <td><code>string</code></td>
 <td>Returns the current panorama ID for the Street View panorama. This id is stable within the browser's current session only.</td>
@@ -65,6 +70,11 @@ class
 <td><code>registerPanoProvider(provider:function(string):<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaData.md">StreetViewPanoramaData</a>)</code></td>
 <td><code>None</code></td>
 <td>Set the custom panorama provider called on pano change to load custom panoramas.</td>
+</tr>
+<tr>
+<td><code>setLinks(links:Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLink.md">StreetViewLink</a>&gt;)</code></td>
+<td><code>None</code></td>
+<td>Sets the set of navigation links for the Street View panorama.</td>
 </tr>
 <tr>
 <td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaOptions.md"><em>StreetViewPanoramaOptions</em></a>)</code></td>
