@@ -16,7 +16,7 @@ object specification
 <tr>
 <td><code>id</code></td>
 <td><code>string</code></td>
-<td>A stable ID for this place, intended to be interoperable with those returned by the <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceResult.md">place search service</a>.</td>
+<td>A stable ID for this place, intended to be interoperable with those returned by the <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceResult.md">place search service</a>. Note: This has been deprecated in favor of <code>place_id</code>.</td>
 </tr>
 <tr>
 <td><code>matched_substrings</code></td>
@@ -24,9 +24,14 @@ object specification
 <td>A set of substrings in the place's description that match elements in the user's input, suitable for use in highlighting those substrings. Each substring is identified by an offset and a length, expressed in unicode characters.</td>
 </tr>
 <tr>
+<td><code>place_id</code></td>
+<td><code>string</code></td>
+<td>A place ID that can be used to retrieve details about this place using the place details service (see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesService.md"> PlacesService</a>.getDetails()</code>).</td>
+</tr>
+<tr>
 <td><code>reference</code></td>
 <td><code>string</code></td>
-<td>A reference that can be used to retrieve details about this place using the place details service (see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesService.md"> PlacesService</a>.getDetails()</code>).</td>
+<td>A reference that can be used to retrieve details about this place using the place details service (see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesService.md"> PlacesService</a>.getDetails()</code>). Note: This has been deprecated in favor of <code>place_id</code>.</td>
 </tr>
 <tr>
 <td><code>terms</code></td>
