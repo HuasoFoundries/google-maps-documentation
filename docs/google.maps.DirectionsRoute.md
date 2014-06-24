@@ -29,6 +29,11 @@ object specification
 <td>An array of <code>LatLng</code>s representing the entire course of this route. The path is simplified in order to make it suitable in contexts where a small number of vertices is required (such as Static Maps API URLs).</td>
 </tr>
 <tr>
+<td><code>overview_polyline</code></td>
+<td><code>string</code></td>
+<td>An <a href="/maps/documentation/utilities/polylinealgorithm">encoded polyline representation</a> of the route in overview_path. This polyline is an approximate (smoothed) path of the resulting directions.</td>
+</tr>
+<tr>
 <td><code>warnings</code></td>
 <td><code>Array.&lt;string&gt;</code></td>
 <td>Warnings to be displayed when showing these directions.</td>
