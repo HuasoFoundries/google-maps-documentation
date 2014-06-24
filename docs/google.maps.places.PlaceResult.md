@@ -46,7 +46,7 @@ object specification
 <tr>
 <td><code>id</code></td>
 <td><code>string</code></td>
-<td>A unique identifier denoting this Place. This identifier may not be used to retrieve information about this Place, and to verify the identity of a Place across separate searches. As <code>id</code>s can occasionally change, it is recommended that the stored <code>id</code> for a Place be compared with the <code>id</code> returned in later Details requests for the same Place, and updated if necessary.</td>
+<td>A unique identifier denoting this Place. This identifier may not be used to retrieve information about this Place, and to verify the identity of a Place across separate searches. As <code>id</code>s can occasionally change, it is recommended that the stored <code>id</code> for a Place be compared with the <code>id</code> returned in later Details requests for the same Place, and updated if necessary. Note: This has been deprecated in favor of <code>place_id</code>.</td>
 </tr>
 <tr>
 <td><code>international_phone_number</code></td>
@@ -69,6 +69,11 @@ object specification
 <td>Photos of this Place. The collection will contain up to ten <code>PlacePhoto</code> objects.</td>
 </tr>
 <tr>
+<td><code>place_id</code></td>
+<td><code>string</code></td>
+<td>A unique identifier for a place.</td>
+</tr>
+<tr>
 <td><code>price_level</code></td>
 <td><code>number</code></td>
 <td>The price level of the Place, on a scale of 0 to 4. Price levels are interpreted as follows: <table> <tbody><tr> <th>Value</th> <th>Description</th> </tr> <tr> <td>0</td> <td>Free</td> </tr> <tr> <td>1</td> <td>Inexpensive</td> </tr> <tr> <td>2</td> <td>Moderate</td> </tr> <tr> <td>3</td> <td>Expensive</td> </tr> <tr> <td>4</td> <td>Very Expensive</td> </tr> </tbody></table></td>
@@ -81,7 +86,7 @@ object specification
 <tr>
 <td><code>reference</code></td>
 <td><code>string</code></td>
-<td>An opaque string that may be used to retrieve up-to-date information about this Place (via <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesService.md"> PlacesService</a>.getDetails()</code>). <code>reference</code> contains a unique token that you can use to retrieve additional information about this Place in a Place Details request. You can store this token and use it at any time in future to refresh cached data about this Place, but the same token is not guaranteed to be returned for any given Place across different searches.</td>
+<td>An opaque string that may be used to retrieve up-to-date information about this Place (via <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesService.md"> PlacesService</a>.getDetails()</code>). <code>reference</code> contains a unique token that you can use to retrieve additional information about this Place in a Place Details request. You can store this token and use it at any time in future to refresh cached data about this Place, but the same token is not guaranteed to be returned for any given Place across different searches. Note: This has been deprecated in favor of <code>place_id</code>.</td>
 </tr>
 <tr>
 <td><code>reviews</code></td>
