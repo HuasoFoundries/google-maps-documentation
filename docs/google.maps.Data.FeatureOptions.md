@@ -15,8 +15,8 @@ object specification
 </tr>
 <tr>
 <td><code>id</code></td>
-<td><code>string</code></td>
-<td>Feature ID is optional. If provided, it can be used to lookup the feature in a <code>Data</code> object using the <code>getFeatureById()</code> method. Note that a feature's ID cannot be subsequently changed.</td>
+<td><code>number|string</code></td>
+<td>Feature ID is optional. If provided, it can be used to look up the feature in a <code>Data</code> object using the <code>getFeatureById()</code> method. Note that a feature's ID cannot be subsequently changed.</td>
 </tr>
 <tr>
 <td><code>properties</code></td>
