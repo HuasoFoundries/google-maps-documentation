@@ -9,9 +9,14 @@ object specification
 </tr></thead>
 <tbody>
 <tr>
+<td><code>placeId</code></td>
+<td><code>string</code></td>
+<td>The Place ID of the Place for which details are being requested.</td>
+</tr>
+<tr>
 <td><code>reference</code></td>
 <td><code>string</code></td>
-<td>The reference of the Place for which details are being requested.</td>
+<td>The reference of the Place for which details are being requested. Note: This has been deprecated in favor of <code>placeId</code>.</td>
 </tr>
 </tbody>
 </table>
