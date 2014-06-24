@@ -22,18 +22,18 @@ class
 <tr>
 <td><code>getDetails(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceDetailsRequest.md"><em>PlaceDetailsRequest</em></a>, callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceResult.md">PlaceResult</a>, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesServiceStatus.md">PlacesServiceStatus</a>))</code></td>
 <td><code>None</code></td>
-<td>Retrieves details about the Place identified by the given reference.</td>
+<td>Retrieves details about the Place identified by the given <code>placeId</code> or <code>reference</code>. (Note: <code>reference</code> is deprecated in favor of <code>placeId</code>.)</td>
 </tr>
 <tr>
 <td><code>nearbySearch(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceSearchRequest.md"><em>PlaceSearchRequest</em></a>, callback:function(Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceResult.md">PlaceResult</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesServiceStatus.md">PlacesServiceStatus</a>,
 <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceSearchPagination.md">PlaceSearchPagination</a>))</code></td>
 <td><code>None</code></td>
-<td>Retrieves a list of Places in a given area. The <code>PlaceResult</code>s passed to the callback are stripped-down versions of a full PlaceResult. A more detailed <code>PlaceResult</code> for each Place can be obtained by sending a Place Details request with the desired Place's <code>reference</code> value.</td>
+<td>Retrieves a list of Places in a given area. The <code>PlaceResult</code>s passed to the callback are stripped-down versions of a full PlaceResult. A more detailed <code>PlaceResult</code> for each Place can be obtained by sending a Place Details request with the desired Place's <code>reference</code> or <code>placeId</code> value. Note: <code>reference</code> is deprecated in favor of <code>placeId</code>.</td>
 </tr>
 <tr>
 <td><code>radarSearch(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.RadarSearchRequest.md"><em>RadarSearchRequest</em></a>, callback:function(Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceResult.md">PlaceResult</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesServiceStatus.md">PlacesServiceStatus</a>))</code></td>
 <td><code>None</code></td>
-<td>Similar to the <code>nearbySearch</code> function, with the following differences: the search response will include up to 200 Places, identified only by their geographic coordinates and Place <code>reference</code>.</td>
+<td>Similar to the <code>nearbySearch</code> function, with the following differences: the search response will include up to 200 Places, identified only by their geographic coordinates and Place <code>reference</code> or <code>place_id</code>. Note: <code>reference</code> is deprecated in favor of <code>placeId</code>.</td>
 </tr>
 <tr>
 <td><code>textSearch(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.TextSearchRequest.md"><em>TextSearchRequest</em></a>, callback:function(Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceResult.md">PlaceResult</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesServiceStatus.md">PlacesServiceStatus</a>))</code></td>
