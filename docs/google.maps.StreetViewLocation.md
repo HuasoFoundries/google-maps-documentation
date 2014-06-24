@@ -23,5 +23,10 @@ object specification
 <td><code>string</code></td>
 <td>A unique identifier for the panorama. This is stable within a session but unstable across sessions.</td>
 </tr>
+<tr>
+<td><code>shortDescription</code></td>
+<td><code>string</code></td>
+<td>Short description of the location.</td>
+</tr>
 </tbody>
 </table>
