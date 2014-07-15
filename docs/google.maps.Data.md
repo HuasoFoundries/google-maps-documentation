@@ -24,7 +24,7 @@ class
 <tr>
 <td><code>add(feature:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.FeatureOptions.md">Data.FeatureOptions</a>)</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a></code></td>
-<td>Adds a feature to the collection, and returns the added feature. <p>If the feature has an ID, it will replace any existing feature in the collection with the same ID. If no feature is given, a new feature will be created with null geometry and no properties. If <code>FeatureOptions</code> are given, a new feature will be created with the specified properties.</p></td>
+<td>Adds a feature to the collection, and returns the added feature. <p> If the feature has an ID, it will replace any existing feature in the collection with the same ID. If no feature is given, a new feature will be created with null geometry and no properties. If <code>FeatureOptions</code> are given, a new feature will be created with the specified properties. </p><p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Adding a feature with ID <code>1234</code> will replace a feature with ID <code>'1234'</code>, and vice versa.</p></td>
 </tr>
 <tr>
 <td><code>addGeoJson(geoJson:Object, options?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.GeoJsonOptions.md">Data.GeoJsonOptions</a>)</code></td>
@@ -42,9 +42,9 @@ class
 <td>Repeatedly invokes the given function, passing a feature in the collection to the function on each invocation. The order of iteration through the features is undefined.</td>
 </tr>
 <tr>
-<td><code>getFeatureById(id:string)</code></td>
+<td><code>getFeatureById(id:number|string)</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a>|undefined</code></td>
-<td>Returns the feature with the given ID, if it exists in the collection. Otherwise returns <code>undefined</code>.</td>
+<td>Returns the feature with the given ID, if it exists in the collection. Otherwise returns <code>undefined</code>. <p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Either can be used to look up the same feature.</p></td>
 </tr>
 <tr>
 <td><code>getMap()</code></td>
@@ -85,6 +85,11 @@ class
 <td><code>setStyle(style:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.StylingFunction.md">Data.StylingFunction</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.StyleOptions.md">Data.StyleOptions</a>)</code></td>
 <td><code>None</code></td>
 <td>Sets the style for all features in the collection. Styles specified on a per-feature basis via <code>overrideStyle()</code> continue to apply. <p>Pass either an object with the desired style options, or a function that computes the style for each feature. The function will be called every time a feature's properties are updated.</p></td>
+</tr>
+<tr>
+<td><code>toGeoJson(callback:function(Object))</code></td>
+<td><code>None</code></td>
+<td>Exports the features in the collection to a GeoJSON object.</td>
 </tr>
 </tbody>
 </table><h3>Events</h3><table summary="class Data - Events" width="100%">
