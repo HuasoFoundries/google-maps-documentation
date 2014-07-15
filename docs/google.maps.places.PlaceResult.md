@@ -101,7 +101,7 @@ object specification
 <tr>
 <td><code>url</code></td>
 <td><code>string</code></td>
-<td>URL of the associated Google Place Page.</td>
+<td>URL of the official Google page for this place. This will be the establishment's Google+ page if the Google+ page exists, otherwise it will be the Google-owned page that contains the best available information about the place.</td>
 </tr>
 <tr>
 <td><code>vicinity</code></td>
