@@ -31,7 +31,7 @@ class
 </tr>
 <tr>
 <td><code>getId()</code></td>
-<td><code>string|undefined</code></td>
+<td><code>number|string|undefined</code></td>
 <td>Returns the feature ID.</td>
 </tr>
 <tr>
@@ -53,6 +53,11 @@ class
 <td><code>setProperty(name:string, newValue:*)</code></td>
 <td><code>None</code></td>
 <td>Sets the value of the specified property. If <code>newValue</code> is <code>undefined</code> this is equivalent to calling <code>removeProperty</code>.</td>
+</tr>
+<tr>
+<td><code>toGeoJson(callback:function(Object))</code></td>
+<td><code>None</code></td>
+<td>Exports the feature to a GeoJSON object.</td>
 </tr>
 </tbody>
 </table><h3>Events</h3><table summary="class Data.Feature - Events" width="100%">
