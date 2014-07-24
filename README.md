@@ -1,5 +1,5 @@
-google-maps-documentation
-=========================
+Google Maps Api v3 Documentation
+================================
 
 in sync, versioned copy of google.maps API v3 documentation
 
@@ -231,4 +231,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Wednesday, July 09, 2014
+Last updated Tuesday, July 29, 2014
