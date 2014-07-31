@@ -4,18 +4,6 @@ Google Maps Api v3 Documentation
 in sync, versioned copy of google.maps API v3 documentation
 
 
-### What is this?
-
-This repo mirrors the contents of [https://developers.google.com/maps/documentation/javascript/3.exp/reference](https://developers.google.com/maps/documentation/javascript/3.exp/reference)
-
-There's no easy way to check what's different after each update to the documentation.
-
-![whatchanged](https://cloud.githubusercontent.com/assets/238439/3692617/4ae66a30-135e-11e4-9a86-0e50686cb2da.jpg)
-
-So I made an app to parse and commit any differences between their version and mine, so I can run a diff between versions.
-
-
-
 ### Table Of Contents 
 
 * [google.maps.Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md)
@@ -243,4 +231,4 @@ So I made an app to parse and commit any differences between their version and m
 
 
 
-Last updated Wednesday, July 09, 2014
+Last updated Tuesday, July 29, 2014
