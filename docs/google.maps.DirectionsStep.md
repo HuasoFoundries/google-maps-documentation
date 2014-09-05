@@ -40,7 +40,7 @@ object specification
 </tr>
 <tr>
 <td><code>steps</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStep.md">DirectionsStep</a></code></td>
+<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStep.md">DirectionsStep</a>&gt;</code></td>
 <td>Sub-steps of this step. Specified for non-transit sections of transit routes.</td>
 </tr>
 <tr>
