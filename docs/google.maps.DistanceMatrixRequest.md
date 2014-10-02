@@ -31,7 +31,7 @@ object specification
 <tr>
 <td><code>durationInTraffic</code></td>
 <td><code>boolean</code></td>
-<td>Whether or not we should provide trip durations based on current traffic conditions. Only available to Maps API for Business customers.</td>
+<td>Whether or not we should provide trip durations based on current traffic conditions. Only available to Maps API for Work customers.</td>
 </tr>
 <tr>
 <td><code>origins</code></td>
