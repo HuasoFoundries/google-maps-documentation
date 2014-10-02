@@ -13,7 +13,7 @@ class
 </tr>
 <tr>
 <td><code>MAX_WAYPOINTS_EXCEEDED</code></td>
-<td>Too many <code>DirectionsWaypoint</code>s were provided in the <code>DirectionsRequest</code>. The total allowed waypoints is 8, plus the origin and destination. Maps API for Business customers are allowed 23 waypoints, plus the origin, and destination.</td>
+<td>Too many <code>DirectionsWaypoint</code>s were provided in the <code>DirectionsRequest</code>. The total allowed waypoints is 8, plus the origin and destination. Maps API for Work customers are allowed 23 waypoints, plus the origin, and destination.</td>
 </tr>
 <tr>
 <td><code>NOT_FOUND</code></td>
