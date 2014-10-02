@@ -31,7 +31,7 @@ object specification
 <tr>
 <td><code>duration_in_traffic</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Duration.md">Duration</a></code></td>
-<td>The total duration of this leg, taking into account current traffic conditions. This property may be undefined as the duration may be unknown. Only available to Maps API for Business customers when <code>durationInTraffic</code> is set to <code>true</code> when making the request.</td>
+<td>The total duration of this leg, taking into account current traffic conditions. This property may be undefined as the duration may be unknown. Only available to Maps API for Work customers when <code>durationInTraffic</code> is set to <code>true</code> when making the request.</td>
 </tr>
 <tr>
 <td><code>end_address</code></td>
