@@ -44,11 +44,6 @@ object specification
 <td>URL to an image resource that can be used to represent this Place's category.</td>
 </tr>
 <tr>
-<td><code>id</code></td>
-<td><code>string</code></td>
-<td>A unique identifier denoting this Place. This identifier may not be used to retrieve information about this Place, and to verify the identity of a Place across separate searches. As <code>id</code>s can occasionally change, it is recommended that the stored <code>id</code> for a Place be compared with the <code>id</code> returned in later Details requests for the same Place, and updated if necessary. Note: This has been deprecated in favor of <code>place_id</code>.</td>
-</tr>
-<tr>
 <td><code>international_phone_number</code></td>
 <td><code>string</code></td>
 <td>The Place's phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign.</td>
@@ -82,11 +77,6 @@ object specification
 <td><code>rating</code></td>
 <td><code>number</code></td>
 <td>A rating, between 1.0 to 5.0, based on user reviews of this Place.</td>
-</tr>
-<tr>
-<td><code>reference</code></td>
-<td><code>string</code></td>
-<td>An opaque string that may be used to retrieve up-to-date information about this Place (via <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesService.md"> PlacesService</a>.getDetails()</code>). <code>reference</code> contains a unique token that you can use to retrieve additional information about this Place in a Place Details request. You can store this token and use it at any time in future to refresh cached data about this Place, but the same token is not guaranteed to be returned for any given Place across different searches. Note: This has been deprecated in favor of <code>place_id</code>.</td>
 </tr>
 <tr>
 <td><code>reviews</code></td>
