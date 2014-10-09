@@ -81,7 +81,7 @@ object specification
 </tr>
 <tr>
 <td><code>poi.place_of_worship</code></td>
-<td>Apply the rule to places of worship, such as church, temple, or mosque.</td>
+<td>Apply the rule to places of worship, such as churches, temples, or mosques.</td>
 </tr>
 <tr>
 <td><code>poi.school</code></td>
