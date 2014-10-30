@@ -19,6 +19,11 @@ object specification
 <td>Which animation to play when marker is added to a map.</td>
 </tr>
 <tr>
+<td><code>attribution</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Attribution.md">Attribution</a></code></td>
+<td>Contains all the information needed to identify your application as the source of a save. In this context, 'place' means a business, point of interest or geographic location. <code>attribution</code> must be specified with a <code>place</code> in order to enable a save.</td>
+</tr>
+<tr>
 <td><code>clickable</code></td>
 <td><code>boolean</code></td>
 <td>If true, the marker receives mouse and touch events. Default value is true.</td>
@@ -57,6 +62,11 @@ object specification
 <td><code>optimized</code></td>
 <td><code>boolean</code></td>
 <td>Optimization renders many markers as a single static element. Optimized rendering is enabled by default. Disable optimized rendering for animated GIFs or PNGs, or when each marker must be rendered as a separate DOM element (advanced usage only).</td>
+</tr>
+<tr>
+<td><code>place</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Place.md">Place</a></code></td>
+<td>Place information, used to identify and describe the place associated with this <code>Marker</code>. In this context, 'place' means a business, point of interest or geographic location. To allow a user to save this place, open an info window anchored on this marker. The info window will contain information about the place and an option for the user to save it. Only one of position or place can be specified.</td>
 </tr>
 <tr>
 <td><code>position</code></td>
