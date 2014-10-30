@@ -27,6 +27,11 @@ class
 <td></td>
 </tr>
 <tr>
+<td><code>getAttribution()</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Attribution.md">Attribution</a></code></td>
+<td></td>
+</tr>
+<tr>
 <td><code>getClickable()</code></td>
 <td><code>boolean</code></td>
 <td></td>
@@ -54,6 +59,11 @@ class
 <tr>
 <td><code>getOpacity()</code></td>
 <td><code>number</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>getPlace()</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Place.md">Place</a></code></td>
 <td></td>
 </tr>
 <tr>
@@ -87,6 +97,11 @@ class
 <td>Start an animation. Any ongoing animation will be cancelled. Currently supported animations are: BOUNCE, DROP. Passing in <code>null</code> will cause any animation to stop.</td>
 </tr>
 <tr>
+<td><code>setAttribution(attribution:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Attribution.md"><em>Attribution</em></a>)</code></td>
+<td><code>None</code></td>
+<td></td>
+</tr>
+<tr>
 <td><code>setClickable(flag:boolean)</code></td>
 <td><code>None</code></td>
 <td></td>
@@ -118,6 +133,11 @@ class
 </tr>
 <tr>
 <td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MarkerOptions.md"><em>MarkerOptions</em></a>)</code></td>
+<td><code>None</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>setPlace(place:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Place.md"><em>Place</em></a>)</code></td>
 <td><code>None</code></td>
 <td></td>
 </tr>
