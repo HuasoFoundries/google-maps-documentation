@@ -112,6 +112,10 @@ in sync, versioned copy of google.maps API v3 documentation
 * [google.maps.DistanceMatrixResponseElement](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponseElement.md)
 * [google.maps.DistanceMatrixStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixStatus.md)
 * [google.maps.DistanceMatrixElementStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixElementStatus.md)
+* [google.maps.Attribution](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Attribution.md)
+* [google.maps.Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Place.md)
+* [google.maps.SaveWidget](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.SaveWidget.md)
+* [google.maps.SaveWidgetOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.SaveWidgetOptions.md)
 * [google.maps.MapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapType.md)
 * [google.maps.MapTypeRegistry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeRegistry.md)
 * [google.maps.Projection](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Projection.md)
@@ -231,4 +235,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Wednesday, October 08, 2014
+Last updated Wednesday, October 29, 2014
