@@ -19,6 +19,11 @@ object specification
 <td>LatLngBounds within which to search. Optional.</td>
 </tr>
 <tr>
+<td><code>componentRestrictions</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderComponentRestrictions.md">GeocoderComponentRestrictions</a></code></td>
+<td>Components are used to restrict results to a specific area. A filter consists of one or more of: <code>route</code>, <code>locality</code>, <code>administrativeArea</code>, <code>postalCode</code>, <code>country</code>. Only the results that match all the filters will be returned. Filter values support the same methods of spelling correction and partial matching as other geocoding requests. Optional.</td>
+</tr>
+<tr>
 <td><code>location</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a></code></td>
 <td>LatLng about which to search. Optional.</td>
