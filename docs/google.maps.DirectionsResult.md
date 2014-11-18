@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>routes</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsRoute.md">DirectionsRoute</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsRoute.md">DirectionsRoute</a>&gt;</code></td>
 <td>An array of <code>DirectionsRoute</code>s, each of which contains information about the legs and steps of which it is composed. There will only be one route unless the <code>DirectionsRequest</code> was made with <code>provideRouteAlternatives</code> set to <code>true</code>.</td>
 </tr>
 </tbody>
