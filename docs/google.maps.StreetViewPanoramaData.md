@@ -20,7 +20,7 @@ object specification
 </tr>
 <tr>
 <td><code>links</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLink.md">StreetViewLink</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLink.md">StreetViewLink</a>&gt;</code></td>
 <td>Specifies the navigational links to adjacent panoramas.</td>
 </tr>
 <tr>
