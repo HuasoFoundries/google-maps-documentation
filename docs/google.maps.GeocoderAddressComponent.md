@@ -20,7 +20,7 @@ object specification
 </tr>
 <tr>
 <td><code>types</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>An array of strings denoting the type of this address component. A list of valid types can be found <a href="/maps/documentation/geocoding/#Types">here</a></td>
 </tr>
 </tbody>
