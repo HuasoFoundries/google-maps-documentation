@@ -40,7 +40,7 @@ object specification
 </tr>
 <tr>
 <td><code>types</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>The types of predictions to be returned. Four types are supported: <code>'establishment'</code> for businesses, <code>'geocode'</code> for addresses, <code>'(regions)'</code> for administrative regions and <code> '(cities)'</code> for localities. If nothing is specified, all types are returned.</td>
 </tr>
 </tbody>
