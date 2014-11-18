@@ -55,7 +55,7 @@ object specification
 </tr>
 <tr>
 <td><code>types</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>Restricts the Place search results to Places with a type matching at least one of the specified types in this array. Valid types are given <a href="/maps/documentation/places/supported_types">here</a>.</td>
 </tr>
 </tbody>
