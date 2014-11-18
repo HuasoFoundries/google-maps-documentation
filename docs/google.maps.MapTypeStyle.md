@@ -20,7 +20,7 @@ object specification
 </tr>
 <tr>
 <td><code>stylers</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeStyler.md">MapTypeStyler</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeStyler.md">MapTypeStyler</a>&gt;</code></td>
 <td>The style rules to apply to the selectors. The rules are applied to the map's elements in the order they are listed in this array.</td>
 </tr>
 </tbody>
