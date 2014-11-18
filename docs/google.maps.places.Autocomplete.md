@@ -42,7 +42,7 @@ class
 <td>Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.</td>
 </tr>
 <tr>
-<td><code>setTypes(types:Array.&lt;string&gt;)</code></td>
+<td><code>setTypes(types:Array&lt;string&gt;)</code></td>
 <td><code>None</code></td>
 <td>Sets the types of predictions to be returned. Supported types are '<code>establishment</code>' for businesses and '<code>geocode</code>' for addresses. If no type is specified, both types will be returned. The <code>setTypes</code> method accepts a single element array.</td>
 </tr>
