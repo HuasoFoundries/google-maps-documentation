@@ -15,7 +15,7 @@ object specification
 </tr>
 <tr>
 <td><code>forecast</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherForecast.md">WeatherForecast</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherForecast.md">WeatherForecast</a>&gt;</code></td>
 <td>A forecast of weather conditions over the next four days. The forecast array is always in chronological order.</td>
 </tr>
 <tr>
