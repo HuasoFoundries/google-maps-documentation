@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>path</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
 <td>The path along which to collect elevation values.</td>
 </tr>
 <tr>
