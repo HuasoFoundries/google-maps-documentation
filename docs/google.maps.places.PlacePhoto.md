@@ -28,7 +28,7 @@ object specification
 </tr>
 <tr>
 <td><code>html_attributions</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>Attribution text to be displayed for this photo.</td>
 </tr>
 <tr>
