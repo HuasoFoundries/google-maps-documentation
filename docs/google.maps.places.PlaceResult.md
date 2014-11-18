@@ -10,12 +10,12 @@ object specification
 <tbody>
 <tr>
 <td><code>address_components</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderAddressComponent.md">GeocoderAddressComponent</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderAddressComponent.md">GeocoderAddressComponent</a>&gt;</code></td>
 <td>The collection of address components for this Place's location.</td>
 </tr>
 <tr>
 <td><code>aspects</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceAspectRating.md">PlaceAspectRating</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceAspectRating.md">PlaceAspectRating</a>&gt;</code></td>
 <td>The rated aspects of this Place, based on Google and Zagat user reviews. The ratings are on a scale of 0 to 30.</td>
 </tr>
 <tr>
@@ -35,7 +35,7 @@ object specification
 </tr>
 <tr>
 <td><code>html_attributions</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>Attribution text to be displayed for this Place result.</td>
 </tr>
 <tr>
@@ -60,7 +60,7 @@ object specification
 </tr>
 <tr>
 <td><code>photos</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacePhoto.md">PlacePhoto</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacePhoto.md">PlacePhoto</a>&gt;</code></td>
 <td>Photos of this Place. The collection will contain up to ten <code>PlacePhoto</code> objects.</td>
 </tr>
 <tr>
@@ -80,12 +80,12 @@ object specification
 </tr>
 <tr>
 <td><code>reviews</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceReview.md">PlaceReview</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceReview.md">PlaceReview</a>&gt;</code></td>
 <td>A list of reviews of this Place.</td>
 </tr>
 <tr>
 <td><code>types</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>An array of types for this Place (e.g., <code>["political",&nbsp; "locality"]</code> or <code>["restaurant", "establishment"]</code>).</td>
 </tr>
 <tr>
