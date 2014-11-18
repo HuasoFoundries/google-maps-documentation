@@ -28,7 +28,7 @@ class
 </tr>
 <tr>
 <td><code>addGeoJson(geoJson:Object, options?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.GeoJsonOptions.md">Data.GeoJsonOptions</a>)</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a>&gt;</code></td>
 <td>Adds GeoJSON features to the collection. Give this method a parsed JSON. The imported features are returned. Throws an exception if the GeoJSON could not be imported.</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ class
 <td>Gets the style for all features in the collection.</td>
 </tr>
 <tr>
-<td><code>loadGeoJson(url:string, options?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.GeoJsonOptions.md">Data.GeoJsonOptions</a>)</code></td>
+<td><code>loadGeoJson(url:string, options?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.GeoJsonOptions.md">Data.GeoJsonOptions</a>, callback?:function(Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a>&gt;))</code></td>
 <td><code>None</code></td>
 <td>Loads GeoJSON from a URL, and adds the features to the collection.</td>
 </tr>
