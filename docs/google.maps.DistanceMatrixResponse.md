@@ -10,17 +10,17 @@ object specification
 <tbody>
 <tr>
 <td><code>destinationAddresses</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>The formatted destination addresses.</td>
 </tr>
 <tr>
 <td><code>originAddresses</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>The formatted origin addresses.</td>
 </tr>
 <tr>
 <td><code>rows</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponseRow.md">DistanceMatrixResponseRow</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponseRow.md">DistanceMatrixResponseRow</a>&gt;</code></td>
 <td>The rows of the matrix, corresponding to the origin addresses.</td>
 </tr>
 </tbody>
