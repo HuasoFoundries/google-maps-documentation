@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>coords</code></td>
-<td><code>Array.&lt;number&gt;</code></td>
+<td><code>Array&lt;number&gt;</code></td>
 <td>The format of this attribute depends on the value of the <code>type</code> and follows the w3 AREA <code>coords</code> specification found at <a href="http://www.w3.org/TR/REC-html40/struct/objects.html#adef-coords"> http://www.w3.org/TR/REC-html40/struct/objects.html#adef-coords</a>. <br>The <code>coords</code> attribute is an array of integers that specify the pixel position of the shape relative to the top-left corner of the target image. The coordinates depend on the value of <code>type</code> as follows: <br>&nbsp;&nbsp;- <code>circle</code>: coords is <code>[x1,y1,r]</code> where x1,y2 are the coordinates of the center of the circle, and r is the radius of the circle. <br>&nbsp;&nbsp;- <code>poly</code>: coords is <code>[x1,y1,x2,y2...xn,yn]</code> where each x,y pair contains the coordinates of one vertex of the polygon. <br>&nbsp;&nbsp;- <code>rect</code>: coords is <code>[x1,y1,x2,y2]</code> where x1,y1 are the coordinates of the upper-left corner of the rectangle and x2,y2 are the coordinates of the lower-right coordinates of the rectangle.</td>
 </tr>
 <tr>
