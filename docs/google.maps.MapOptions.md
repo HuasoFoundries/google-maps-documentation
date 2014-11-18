@@ -150,7 +150,7 @@ object specification
 </tr>
 <tr>
 <td><code>styles</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeStyle.md">MapTypeStyle</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeStyle.md">MapTypeStyle</a>&gt;</code></td>
 <td>Styles to apply to each of the default map types. Note that for Satellite/Hybrid and Terrain modes, these styles will only apply to labels and geometry.</td>
 </tr>
 <tr>
