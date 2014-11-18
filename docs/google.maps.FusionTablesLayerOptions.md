@@ -30,7 +30,7 @@ object specification
 </tr>
 <tr>
 <td><code>styles</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesStyle.md">FusionTablesStyle</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesStyle.md">FusionTablesStyle</a>&gt;</code></td>
 <td>An array of up to 5 style specifications, which control the appearance of features within the layer.</td>
 </tr>
 <tr>
