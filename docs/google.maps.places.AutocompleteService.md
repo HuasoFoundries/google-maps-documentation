@@ -20,12 +20,12 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getPlacePredictions(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.AutocompletionRequest.md"><em>AutocompletionRequest</em></a>, callback:function(Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.AutocompletePrediction.md">AutocompletePrediction</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesServiceStatus.md">PlacesServiceStatus</a>))</code></td>
+<td><code>getPlacePredictions(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.AutocompletionRequest.md"><em>AutocompletionRequest</em></a>, callback:function(Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.AutocompletePrediction.md">AutocompletePrediction</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesServiceStatus.md">PlacesServiceStatus</a>))</code></td>
 <td><code>None</code></td>
 <td>Retrieves place autocomplete predictions based on the supplied autocomplete request.</td>
 </tr>
 <tr>
-<td><code>getQueryPredictions(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.QueryAutocompletionRequest.md"><em>QueryAutocompletionRequest</em></a>, callback:function(Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.QueryAutocompletePrediction.md">QueryAutocompletePrediction</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesServiceStatus.md">PlacesServiceStatus</a>))</code></td>
+<td><code>getQueryPredictions(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.QueryAutocompletionRequest.md"><em>QueryAutocompletionRequest</em></a>, callback:function(Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.QueryAutocompletePrediction.md">QueryAutocompletePrediction</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesServiceStatus.md">PlacesServiceStatus</a>))</code></td>
 <td><code>None</code></td>
 <td>Retrieves query autocomplete predictions based on the supplied query autocomplete request.</td>
 </tr>
