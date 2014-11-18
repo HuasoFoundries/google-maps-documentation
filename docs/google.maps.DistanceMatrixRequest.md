@@ -25,7 +25,7 @@ object specification
 </tr>
 <tr>
 <td><code>destinations</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;|Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;|Array&lt;string&gt;</code></td>
 <td>An array containing destination address strings and/or <code>LatLng</code>s, to which to calculate distance and time. Required.</td>
 </tr>
 <tr>
@@ -35,7 +35,7 @@ object specification
 </tr>
 <tr>
 <td><code>origins</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;|Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;|Array&lt;string&gt;</code></td>
 <td>An array containing origin address strings and/or <code>LatLng</code>s, from which to calculate distance and time. Required.</td>
 </tr>
 <tr>
