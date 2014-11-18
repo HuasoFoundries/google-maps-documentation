@@ -131,7 +131,7 @@ class
 <tbody>
 <tr>
 <td><code>controls</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>.&lt;Node&gt;&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>&lt;Node&gt;&gt;</code></td>
 <td>Additional controls to attach to the map. To add a control to the map, add the control's <code>&lt;div&gt;</code> to the <code>MVCArray</code> corresponding to the <code>ControlPosition</code> where it should be rendered.</td>
 </tr>
 <tr>
@@ -146,7 +146,7 @@ class
 </tr>
 <tr>
 <td><code>overlayMapTypes</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapType.md">MapType</a>&gt;</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapType.md">MapType</a>&gt;</code></td>
 <td>Additional map types to overlay.</td>
 </tr>
 </tbody>
