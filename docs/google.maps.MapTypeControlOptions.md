@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>mapTypeIds</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeId.md">MapTypeId</a>&gt;|Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeId.md">MapTypeId</a>&gt;|Array&lt;string&gt;</code></td>
 <td>IDs of map types to show in the control.</td>
 </tr>
 <tr>
