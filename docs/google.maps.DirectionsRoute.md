@@ -20,12 +20,12 @@ object specification
 </tr>
 <tr>
 <td><code>legs</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsLeg.md">DirectionsLeg</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsLeg.md">DirectionsLeg</a>&gt;</code></td>
 <td>An array of <code>DirectionsLeg</code>s, each of which contains information about the steps of which it is composed. There will be one leg for each waypoint or destination specified. So a route with no waypoints will contain one <code>DirectionsLeg</code> and a route with one waypoint will contain two.</td>
 </tr>
 <tr>
 <td><code>overview_path</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
 <td>An array of <code>LatLng</code>s representing the entire course of this route. The path is simplified in order to make it suitable in contexts where a small number of vertices is required (such as Static Maps API URLs).</td>
 </tr>
 <tr>
@@ -35,12 +35,12 @@ object specification
 </tr>
 <tr>
 <td><code>warnings</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>Warnings to be displayed when showing these directions.</td>
 </tr>
 <tr>
 <td><code>waypoint_order</code></td>
-<td><code>Array.&lt;number&gt;</code></td>
+<td><code>Array&lt;number&gt;</code></td>
 <td>If <code>optimizeWaypoints</code> was set to <code>true</code>, this field will contain the re-ordered permutation of the input waypoints. For example, if the input was:<br> &nbsp;&nbsp;Origin: Los Angeles<br> &nbsp;&nbsp;Waypoints: Dallas, Bangor, Phoenix<br> &nbsp;&nbsp;Destination: New York<br> and the optimized output was ordered as follows:<br> &nbsp;&nbsp;Origin: Los Angeles<br> &nbsp;&nbsp;Waypoints: Phoenix, Dallas, Bangor<br> &nbsp;&nbsp;Destination: New York<br> then this field will be an <code>Array</code> containing the values [2, 0, 1]. Note that the numbering of waypoints is zero-based.<br> If any of the input waypoints has <code>stopover</code> set to <code>false</code>, this field will be empty, since route optimization is not available for such queries.</td>
 </tr>
 </tbody>
