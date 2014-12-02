@@ -68,17 +68,17 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>remove_property</code></td>
+<td><code>removeproperty</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.RemovePropertyEvent.md">Data.RemovePropertyEvent</a></code></td>
 <td>This event is triggered when a feature's property is removed.</td>
 </tr>
 <tr>
-<td><code>set_geometry</code></td>
+<td><code>setgeometry</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.SetGeometryEvent.md">Data.SetGeometryEvent</a></code></td>
 <td>This event is triggered when a feature's geometry is set.</td>
 </tr>
 <tr>
-<td><code>set_property</code></td>
+<td><code>setproperty</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.SetPropertyEvent.md">Data.SetPropertyEvent</a></code></td>
 <td>This event is triggered when a feature's property is set.</td>
 </tr>
