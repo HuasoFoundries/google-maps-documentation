@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>agencies</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitAgency.md">TransitAgency</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitAgency.md">TransitAgency</a>&gt;</code></td>
 <td>The transit agency that operates this transit line.</td>
 </tr>
 <tr>
