@@ -70,7 +70,7 @@ object specification
 </tr>
 <tr>
 <td><code>waypoints</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsWaypoint.md">DirectionsWaypoint</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsWaypoint.md">DirectionsWaypoint</a>&gt;</code></td>
 <td>Array of intermediate waypoints. Directions will be calculated from the origin to the destination by way of each waypoint in this array. The maximum allowed waypoints is 8, plus the origin, and destination. Maps API for Business customers are allowed 23 waypoints, plus the origin, and destination. Waypoints are not supported for transit directions. Optional.</td>
 </tr>
 </tbody>
