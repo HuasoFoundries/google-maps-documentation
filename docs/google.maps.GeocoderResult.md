@@ -10,7 +10,7 @@ object specification
 <tbody>
 <tr>
 <td><code>address_components</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderAddressComponent.md">GeocoderAddressComponent</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderAddressComponent.md">GeocoderAddressComponent</a>&gt;</code></td>
 <td>An array of <code>GeocoderAddressComponent</code>s</td>
 </tr>
 <tr>
@@ -30,12 +30,12 @@ object specification
 </tr>
 <tr>
 <td><code>postcode_localities</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>An array of strings denoting all the localities contained in a postal code. This is only present when the result is a postal code that contains multiple localities.</td>
 </tr>
 <tr>
 <td><code>types</code></td>
-<td><code>Array.&lt;string&gt;</code></td>
+<td><code>Array&lt;string&gt;</code></td>
 <td>An array of strings denoting the type of the returned geocoded element. For a list of possible strings, refer to the <a href="/maps/documentation/javascript/geocoding#GeocodingAddressTypes"> Address Component Types</a> section of the Developer's Guide.</td>
 </tr>
 </tbody>
