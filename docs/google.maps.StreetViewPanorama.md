@@ -23,7 +23,7 @@ class
 <tbody>
 <tr>
 <td><code>getLinks()</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLink.md">StreetViewLink</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLink.md">StreetViewLink</a>&gt;</code></td>
 <td>Returns the set of navigation links for the Street View panorama.</td>
 </tr>
 <tr>
@@ -72,7 +72,7 @@ class
 <td>Set the custom panorama provider called on pano change to load custom panoramas.</td>
 </tr>
 <tr>
-<td><code>setLinks(links:Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLink.md">StreetViewLink</a>&gt;)</code></td>
+<td><code>setLinks(links:Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLink.md">StreetViewLink</a>&gt;)</code></td>
 <td><code>None</code></td>
 <td>Sets the set of navigation links for the Street View panorama.</td>
 </tr>
@@ -116,7 +116,7 @@ class
 <tbody>
 <tr>
 <td><code>controls</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>.&lt;Node&gt;&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>&lt;Node&gt;&gt;</code></td>
 <td>Additional controls to attach to the panorama. To add a control to the panorama, add the control's <code>&lt;div&gt;</code> to the <code>MVCArray</code> corresponding to the <code>ControlPosition</code> where it should be rendered.</td>
 </tr>
 </tbody>
