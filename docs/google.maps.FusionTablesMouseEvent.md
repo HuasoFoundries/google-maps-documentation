@@ -25,7 +25,7 @@ object specification
 </tr>
 <tr>
 <td><code>row</code></td>
-<td><code>Object.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesCell.md">FusionTablesCell</a>&gt;</code></td>
+<td><code>Object&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesCell.md">FusionTablesCell</a>&gt;</code></td>
 <td>A collection of <code>FusionTablesCell</code> objects, indexed by column name, representing the contents of the table row which included the clicked feature.</td>
 </tr>
 </tbody>
