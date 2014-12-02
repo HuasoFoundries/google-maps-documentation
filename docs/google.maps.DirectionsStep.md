@@ -30,7 +30,7 @@ object specification
 </tr>
 <tr>
 <td><code>path</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
 <td>A sequence of <code>LatLng</code>s describing the course of this step.</td>
 </tr>
 <tr>
@@ -40,7 +40,7 @@ object specification
 </tr>
 <tr>
 <td><code>steps</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStep.md">DirectionsStep</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStep.md">DirectionsStep</a>&gt;</code></td>
 <td>Sub-steps of this step. Specified for non-transit sections of transit routes.</td>
 </tr>
 <tr>
