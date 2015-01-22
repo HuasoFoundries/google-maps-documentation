@@ -82,6 +82,9 @@ in sync, versioned copy of google.maps API v3 documentation
 * [google.maps.TravelMode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TravelMode.md)
 * [google.maps.UnitSystem](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.UnitSystem.md)
 * [google.maps.TransitOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitOptions.md)
+* [google.maps.TransitMode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitMode.md)
+* [google.maps.TransitRoutePreference](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitRoutePreference.md)
+* [google.maps.TransitFare](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitFare.md)
 * [google.maps.DirectionsWaypoint](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsWaypoint.md)
 * [google.maps.DirectionsStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStatus.md)
 * [google.maps.DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md)
@@ -235,4 +238,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Wednesday, November 26, 2014
+Last updated Monday, January 19, 2015
