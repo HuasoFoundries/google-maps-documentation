@@ -1,7 +1,7 @@
 <h2 id="FusionTablesQuery">
 google.maps.FusionTablesQuery
 object specification
-</h2><p>Specifies the data to retrieve from a Fusion Tables.</p><h3>Properties</h3><table summary="object FusionTablesQuery - Properties" width="100%">
+</h2><p>Specifies the data to retrieve from a Fusion Tables.</p><h3 id="devsite_header_181">Properties</h3><table summary="object FusionTablesQuery - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

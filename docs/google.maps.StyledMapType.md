@@ -3,7 +3,7 @@ google.maps.StyledMapType
 class
 </h2><p>Creates a <code>MapType</code> with a custom style.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class StyledMapType - Constructor" width="100%">
+</p><h3 id="devsite_header_167">Constructor</h3><table summary="class StyledMapType - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a styled <code>MapType</code> with the specified options. The <code>StyledMapType</code> takes an array of <code>MapTypeStyle</code>s, where each <code>MapTypeStyle</code> is applied to the map consecutively. A later <code>MapTypeStyle</code> that applies the same <code>MapTypeStyler</code>s to the same selectors as an earlier <code>MapTypeStyle</code> will override the earlier <code>MapTypeStyle</code>.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class StyledMapType - Methods" width="100%">
+</table><h3 id="devsite_header_168">Methods</h3><table summary="class StyledMapType - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -32,7 +32,7 @@ class
 <td></td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="class StyledMapType - Properties" width="100%">
+</table><h3 id="devsite_header_169">Properties</h3><table summary="class StyledMapType - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

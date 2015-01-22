@@ -3,7 +3,7 @@ google.maps.Data.Polygon
 class
 </h2><p>A Polygon geometry contains a number of <code>Data.LinearRing</code>s. The first linear-ring must be the polygon exterior boundary, and subsequent linear-rings must be interior boundaries or "holes".</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
-</p><h3>Constructor</h3><table summary="class Data.Polygon - Constructor" width="100%">
+</p><h3 id="devsite_header_44">Constructor</h3><table summary="class Data.Polygon - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Constructs a <code>Data.Polygon</code> from the given <code>Data.LinearRing</code>s or arrays of positions.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Data.Polygon - Methods" width="100%">
+</table><h3 id="devsite_header_45">Methods</h3><table summary="class Data.Polygon - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

@@ -3,7 +3,7 @@ google.maps.DirectionsRenderer
 class
 </h2><p>Renders directions retrieved in the form of a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a></code> object retrieved from the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsService.md">DirectionsService</a></code>.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class DirectionsRenderer - Constructor" width="100%">
+</p><h3 id="devsite_header_106">Constructor</h3><table summary="class DirectionsRenderer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates the renderer with the given options. Directions can be rendered on a map (as visual overlays) or additionally on a <code>&lt;div&gt;</code> panel (as textual instructions).</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class DirectionsRenderer - Methods" width="100%">
+</table><h3 id="devsite_header_107">Methods</h3><table summary="class DirectionsRenderer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -67,7 +67,7 @@ class
 <td>Set the (zero-based) index of the route in the <code>DirectionsResult</code> object to render. By default, the first route in the array will be rendered.</td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class DirectionsRenderer - Events" width="100%">
+</table><h3 id="devsite_header_108">Events</h3><table summary="class DirectionsRenderer - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

@@ -1,7 +1,7 @@
 <h2 id="WeatherForecast">
 google.maps.weather.WeatherForecast
 object specification
-</h2><p>Describes a single day's weather forecast.</p><h3>Library</h3><p>weather</p><h3>Properties</h3><table summary="interface WeatherForecast - Properties" width="100%">
+</h2><p>Describes a single day's weather forecast.</p><h3 id="devsite_header_354">Library</h3><p>weather</p><h3 id="devsite_header_355">Properties</h3><table summary="interface WeatherForecast - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

@@ -1,7 +1,7 @@
 <h2 id="AutocompletePrediction">
 google.maps.places.AutocompletePrediction
 object specification
-</h2><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface AutocompletePrediction - Properties" width="100%">
+</h2><h3 id="devsite_header_267">Library</h3><p>places</p><h3 id="devsite_header_268">Properties</h3><table summary="interface AutocompletePrediction - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

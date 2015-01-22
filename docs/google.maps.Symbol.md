@@ -1,7 +1,7 @@
 <h2 id="Symbol">
 google.maps.Symbol
 object specification
-</h2><h3>Properties</h3><table summary="interface Symbol - Properties" width="100%">
+</h2><h3 id="devsite_header_63">Properties</h3><table summary="interface Symbol - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

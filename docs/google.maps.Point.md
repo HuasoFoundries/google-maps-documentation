@@ -1,7 +1,7 @@
 <h2 id="Point">
 google.maps.Point
 class
-</h2><h3>Constructor</h3><table summary="class Point - Constructor" width="100%">
+</h2><h3 id="devsite_header_227">Constructor</h3><table summary="class Point - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -12,7 +12,7 @@ class
 <td>A point on a two-dimensional plane.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Point - Methods" width="100%">
+</table><h3 id="devsite_header_228">Methods</h3><table summary="class Point - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -30,7 +30,7 @@ class
 <td>Returns a string representation of this Point.</td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="class Point - Properties" width="100%">
+</table><h3 id="devsite_header_229">Properties</h3><table summary="class Point - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

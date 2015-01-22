@@ -1,7 +1,7 @@
 <h2 id="LatLngBounds">
 google.maps.LatLngBounds
 class
-</h2><p>A <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code> instance represents a rectangle in geographical coordinates, including one that crosses the 180 degrees longitudinal meridian.</p><h3>Constructor</h3><table summary="class LatLngBounds - Constructor" width="100%">
+</h2><p>A <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code> instance represents a rectangle in geographical coordinates, including one that crosses the 180 degrees longitudinal meridian.</p><h3 id="devsite_header_225">Constructor</h3><table summary="class LatLngBounds - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -12,7 +12,7 @@ class
 <td>Constructs a rectangle from the points at its south-west and north-east corners.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class LatLngBounds - Methods" width="100%">
+</table><h3 id="devsite_header_226">Methods</h3><table summary="class LatLngBounds - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

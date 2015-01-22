@@ -1,7 +1,7 @@
 <h2 id="DirectionsRoute">
 google.maps.DirectionsRoute
 object specification
-</h2><p>A single route containing a set of legs in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a></code>. Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><h3>Properties</h3><table summary="interface DirectionsRoute - Properties" width="100%">
+</h2><p>A single route containing a set of legs in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a></code>. Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><h3 id="devsite_header_121">Properties</h3><table summary="interface DirectionsRoute - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -17,6 +17,11 @@ object specification
 <td><code>copyrights</code></td>
 <td><code>string</code></td>
 <td>Copyrights text to be displayed for this route.</td>
+</tr>
+<tr>
+<td><code>fare</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitFare.md">TransitFare</a></code></td>
+<td>The total fare for the whole transit trip. Only applicable to transit requests.</td>
 </tr>
 <tr>
 <td><code>legs</code></td>
@@ -41,7 +46,7 @@ object specification
 <tr>
 <td><code>waypoint_order</code></td>
 <td><code>Array&lt;number&gt;</code></td>
-<td>If <code>optimizeWaypoints</code> was set to <code>true</code>, this field will contain the re-ordered permutation of the input waypoints. For example, if the input was:<br> &nbsp;&nbsp;Origin: Los Angeles<br> &nbsp;&nbsp;Waypoints: Dallas, Bangor, Phoenix<br> &nbsp;&nbsp;Destination: New York<br> and the optimized output was ordered as follows:<br> &nbsp;&nbsp;Origin: Los Angeles<br> &nbsp;&nbsp;Waypoints: Phoenix, Dallas, Bangor<br> &nbsp;&nbsp;Destination: New York<br> then this field will be an <code>Array</code> containing the values [2, 0, 1]. Note that the numbering of waypoints is zero-based.<br> If any of the input waypoints has <code>stopover</code> set to <code>false</code>, this field will be empty, since route optimization is not available for such queries.</td>
+<td>If <code>optimizeWaypoints</code> was set to <code>true</code>, this field will contain the re-ordered permutation of the input waypoints. For example, if the input was:<br> &nbsp;&nbsp;Origin: Los Angeles<br> &nbsp;&nbsp;Waypoints: Dallas, Bangor, Phoenix<br> &nbsp;&nbsp;Destination: New York<br> and the optimized output was ordered as follows:<br> &nbsp;&nbsp;Origin: Los Angeles<br> &nbsp;&nbsp;Waypoints: Phoenix, Dallas, Bangor<br> &nbsp;&nbsp;Destination: New York<br> then this field will be an <code>Array</code> containing the values [2, 0, 1]. Note that the numbering of waypoints is zero-based.<br> If any of the input waypoints has <code>stopover</code> set to <code>false</code>, this field will be empty, since route optimization is not available for such queries.<br><br><br><br><br><br><br><br><br></td>
 </tr>
 </tbody>
 </table>

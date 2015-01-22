@@ -1,7 +1,7 @@
 <h2 id="WindSpeedUnit">
 google.maps.weather.WindSpeedUnit
 class
-</h2><p>The wind speed unit displayed by the weather layer.</p><h3>Library</h3><p>weather</p><h3>Constant</h3><table summary="class WindSpeedUnit - Constants" width="100%">
+</h2><p>The wind speed unit displayed by the weather layer.</p><h3 id="devsite_header_344">Library</h3><p>weather</p><h3 id="devsite_header_345">Constant</h3><table summary="class WindSpeedUnit - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

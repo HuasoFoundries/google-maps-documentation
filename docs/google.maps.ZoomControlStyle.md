@@ -1,7 +1,7 @@
 <h2 id="ZoomControlStyle">
 google.maps.ZoomControlStyle
 class
-</h2><p>Identifiers for the zoom control.</p><h3>Constant</h3><table summary="class ZoomControlStyle - Constants" width="100%">
+</h2><p>Identifiers for the zoom control.</p><h3 id="devsite_header_21">Constant</h3><table summary="class ZoomControlStyle - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

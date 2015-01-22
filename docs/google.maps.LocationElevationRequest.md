@@ -1,7 +1,7 @@
 <h2 id="LocationElevationRequest">
 google.maps.LocationElevationRequest
 object specification
-</h2><p>An elevation request sent by the <code>ElevationService</code> containing the list of discrete coordinates (<code>LatLng</code>s) for which to return elevation data.</p><h3>Properties</h3><table summary="interface LocationElevationRequest - Properties" width="100%">
+</h2><p>An elevation request sent by the <code>ElevationService</code> containing the list of discrete coordinates (<code>LatLng</code>s) for which to return elevation data.</p><h3 id="devsite_header_135">Properties</h3><table summary="interface LocationElevationRequest - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

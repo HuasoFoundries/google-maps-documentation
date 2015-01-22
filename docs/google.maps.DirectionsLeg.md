@@ -1,7 +1,7 @@
 <h2 id="DirectionsLeg">
 google.maps.DirectionsLeg
 object specification
-</h2><p>A single leg consisting of a set of steps in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a></code>. Some fields in the leg may not be returned for all requests. Note that though this result is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><h3>Properties</h3><table summary="interface DirectionsLeg - Properties" width="100%">
+</h2><p>A single leg consisting of a set of steps in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a></code>. Some fields in the leg may not be returned for all requests. Note that though this result is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><h3 id="devsite_header_122">Properties</h3><table summary="interface DirectionsLeg - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -55,12 +55,12 @@ object specification
 </tr>
 <tr>
 <td><code>steps</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStep.md">DirectionsStep</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStep.md">DirectionsStep</a>&gt;</code></td>
 <td>An array of <code>DirectionsStep</code>s, each of which contains information about the individual steps in this leg.</td>
 </tr>
 <tr>
 <td><code>via_waypoints</code></td>
-<td><code>Array.&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
 <td>An array of waypoints along this leg that were not specified in the original request, either as a result of a user dragging the polyline or selecting an alternate route.</td>
 </tr>
 </tbody>

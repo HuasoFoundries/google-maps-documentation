@@ -1,7 +1,7 @@
 <h2 id="Data.DataOptions">
 google.maps.Data.DataOptions
 object specification
-</h2><p>DataOptions object used to define the properties that a developer can set on a <code>Data</code> object.</p><h3>Properties</h3><table summary="interface Data.DataOptions - Properties" width="100%">
+</h2><p>DataOptions object used to define the properties that a developer can set on a <code>Data</code> object.</p><h3 id="devsite_header_26">Properties</h3><table summary="interface Data.DataOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

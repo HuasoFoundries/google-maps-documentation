@@ -1,7 +1,7 @@
 <h2 id="DirectionsRendererOptions">
 google.maps.DirectionsRendererOptions
 object specification
-</h2><p>This object defines the properties that can be set on a <code>DirectionsRenderer</code> object.</p><h3>Properties</h3><table summary="interface DirectionsRendererOptions - Properties" width="100%">
+</h2><p>This object defines the properties that can be set on a <code>DirectionsRenderer</code> object.</p><h3 id="devsite_header_109">Properties</h3><table summary="interface DirectionsRendererOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

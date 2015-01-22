@@ -3,7 +3,7 @@ google.maps.Marker
 class
 </h2><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class Marker - Constructor" width="100%">
+</p><h3 id="devsite_header_56">Constructor</h3><table summary="class Marker - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a marker with the options specified. If a map is specified, the marker is added to the map upon construction. Note that the position must be set for the marker to display.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Marker - Methods" width="100%">
+</table><h3 id="devsite_header_57">Methods</h3><table summary="class Marker - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -167,7 +167,7 @@ class
 <td></td>
 </tr>
 </tbody>
-</table><h3>Constant</h3><table summary="class Marker - Constants" width="100%">
+</table><h3 id="devsite_header_58">Constant</h3><table summary="class Marker - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>
@@ -178,7 +178,7 @@ class
 <td>The maximum default z-index that the API will assign to a marker. You may set a higher z-index to bring a marker to the front.</td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class Marker - Events" width="100%">
+</table><h3 id="devsite_header_59">Events</h3><table summary="class Marker - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

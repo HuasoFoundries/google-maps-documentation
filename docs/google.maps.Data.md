@@ -1,9 +1,9 @@
 <h2 id="Data">
 google.maps.Data
 class
-</h2><p>A layer for displaying geospatial data. Points, line-strings and polygons can be displayed. </p><p> Every <code>Map</code> has a <code>Data</code> object by default, so most of the time there is no need to construct one. For example: </p><pre> var myMap = new google.maps.Map(...);<br> myMap.data.addGeoJson(...);<br> myMap.data.setStyle(...); </pre><code>Data</code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md"><code>Features</code></a><p></p><p>This class extends
+</h2><p>A layer for displaying geospatial data. Points, line-strings and polygons can be displayed. </p><p> Every <code>Map</code> has a <code>Data</code> object by default, so most of the time there is no need to construct one. For example: </p><pre> var myMap = new google.maps.Map(...);<br> myMap.data.addGeoJson(...);<br> myMap.data.setStyle(...); <br><br></pre><code>Data</code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md"><code>Features</code></a><p></p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class Data - Constructor" width="100%">
+</p><h3 id="devsite_header_23">Constructor</h3><table summary="class Data - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates an empty collection, with the given <code>DataOptions</code>.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Data - Methods" width="100%">
+</table><h3 id="devsite_header_24">Methods</h3><table summary="class Data - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -24,7 +24,7 @@ class
 <tr>
 <td><code>add(feature:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.FeatureOptions.md">Data.FeatureOptions</a>)</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a></code></td>
-<td>Adds a feature to the collection, and returns the added feature. <p> If the feature has an ID, it will replace any existing feature in the collection with the same ID. If no feature is given, a new feature will be created with null geometry and no properties. If <code>FeatureOptions</code> are given, a new feature will be created with the specified properties. </p><p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Adding a feature with ID <code>1234</code> will replace a feature with ID <code>'1234'</code>, and vice versa.</p></td>
+<td>Adds a feature to the collection, and returns the added feature. <p> If the feature has an ID, it will replace any existing feature in the collection with the same ID. If no feature is given, a new feature will be created with null geometry and no properties. If <code>FeatureOptions</code> are given, a new feature will be created with the specified properties. </p><p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Adding a feature with ID <code>1234</code> will replace a feature with ID <code>'1234'</code>, and vice versa.</p><p></p></td>
 </tr>
 <tr>
 <td><code>addGeoJson(geoJson:Object, options?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.GeoJsonOptions.md">Data.GeoJsonOptions</a>)</code></td>
@@ -92,7 +92,7 @@ class
 <td>Exports the features in the collection to a GeoJSON object.</td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class Data - Events" width="100%">
+</table><h3 id="devsite_header_25">Events</h3><table summary="class Data - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>
@@ -160,4 +160,4 @@ class
 <td>This event is fired when a feature's property is set.</td>
 </tr>
 </tbody>
-</table>
+</table><p></p>

@@ -1,7 +1,7 @@
 <h2 id="PanControlOptions">
 google.maps.PanControlOptions
 object specification
-</h2><p>Options for the rendering of the pan control.</p><h3>Properties</h3><table summary="interface PanControlOptions - Properties" width="100%">
+</h2><p>Options for the rendering of the pan control.</p><h3 id="devsite_header_15">Properties</h3><table summary="interface PanControlOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

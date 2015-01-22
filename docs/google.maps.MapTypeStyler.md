@@ -1,7 +1,7 @@
 <h2 id="MapTypeStyler">
 google.maps.MapTypeStyler
 object specification
-</h2><p>A styler affects how a map's elements will be styled. Each <code>MapTypeStyler</code> should contain one and only one key. If more than one key is specified in a single <code>MapTypeStyler</code>, all but one will be ignored. For example: <code>var rule = {hue: '#ff0000'}</code>.</p><h3>Properties</h3><table summary="interface MapTypeStyler - Properties" width="100%">
+</h2><p>A styler affects how a map's elements will be styled. Each <code>MapTypeStyler</code> should contain one and only one key. If more than one key is specified in a single <code>MapTypeStyler</code>, all but one will be ignored. For example: <code>var rule = {hue: '#ff0000'}</code>.</p><h3 id="devsite_header_174">Properties</h3><table summary="interface MapTypeStyler - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

@@ -1,7 +1,7 @@
 <h2 id="PlacePhoto">
 google.maps.places.PlacePhoto
 object specification
-</h2><p>Represents a photo element of a Place.</p><h3>Library</h3><p>places</p><h3>Methods</h3><table summary="interface PlacePhoto - Methods" width="100%">
+</h2><p>Represents a photo element of a Place.</p><h3 id="devsite_header_286">Library</h3><p>places</p><h3 id="devsite_header_287">Methods</h3><table summary="interface PlacePhoto - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -14,7 +14,7 @@ object specification
 <td>Returns the image URL corresponding to the specified options. You must include a PhotoOptions object with at least one of maxWidth or maxHeight specified.</td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="interface PlacePhoto - Properties" width="100%">
+</table><h3 id="devsite_header_288">Properties</h3><table summary="interface PlacePhoto - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

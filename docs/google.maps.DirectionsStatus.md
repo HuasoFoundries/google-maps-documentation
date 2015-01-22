@@ -1,7 +1,7 @@
 <h2 id="DirectionsStatus">
 google.maps.DirectionsStatus
 class
-</h2><p>The status returned by the <code>DirectionsService</code> on the completion of a call to <code>route()</code>.</p><h3>Constant</h3><table summary="class DirectionsStatus - Constants" width="100%">
+</h2><p>The status returned by the <code>DirectionsService</code> on the completion of a call to <code>route()</code>.</p><h3 id="devsite_header_119">Constant</h3><table summary="class DirectionsStatus - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

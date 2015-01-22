@@ -1,7 +1,7 @@
 <h2 id="MVCObject">
 google.maps.MVCObject
 class
-</h2><p>Base class implementing KVO. <br><br>The <code>MVCObject</code> constructor is guaranteed to be an empty function, and so you may inherit from <code>MVCObject</code> by simply writing <code>MySubclass.prototype = new google.maps.MVCObject();</code>. Unless otherwise noted, this is not true of other classes in the API, and inheriting from other classes in the API is not supported.</p><h3>Constructor</h3><table summary="class MVCObject - Constructor" width="100%">
+</h2><p>Base class implementing KVO. <br><br>The <code>MVCObject</code> constructor is guaranteed to be an empty function, and so you may inherit from <code>MVCObject</code> by simply writing <code>MySubclass.prototype = new google.maps.MVCObject();</code>. Unless otherwise noted, this is not true of other classes in the API, and inheriting from other classes in the API is not supported.<br><br></p><h3 id="devsite_header_233">Constructor</h3><table summary="class MVCObject - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -12,7 +12,7 @@ class
 <td>Creates an <code>MVCObject</code>.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class MVCObject - Methods" width="100%">
+</table><h3 id="devsite_header_234">Methods</h3><table summary="class MVCObject - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

@@ -1,7 +1,7 @@
 <h2 id="ScaleControlOptions">
 google.maps.ScaleControlOptions
 object specification
-</h2><p>Options for the rendering of the scale control.</p><h3>Properties</h3><table summary="interface ScaleControlOptions - Properties" width="100%">
+</h2><p>Options for the rendering of the scale control.</p><h3 id="devsite_header_17">Properties</h3><table summary="interface ScaleControlOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

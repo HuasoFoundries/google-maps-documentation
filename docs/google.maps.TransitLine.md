@@ -1,7 +1,7 @@
 <h2 id="TransitLine">
 google.maps.TransitLine
 object specification
-</h2><h3>Properties</h3><table summary="interface TransitLine - Properties" width="100%">
+</h2><h3 id="devsite_header_129">Properties</h3><table summary="interface TransitLine - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

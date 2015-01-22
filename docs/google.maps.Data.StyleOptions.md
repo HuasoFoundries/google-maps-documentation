@@ -1,7 +1,7 @@
 <h2 id="Data.StyleOptions">
 google.maps.Data.StyleOptions
 object specification
-</h2><p>These options specify the way a Feature should appear when displayed on a map.</p><h3>Properties</h3><table summary="interface Data.StyleOptions - Properties" width="100%">
+</h2><p>These options specify the way a Feature should appear when displayed on a map.</p><h3 id="devsite_header_28">Properties</h3><table summary="interface Data.StyleOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

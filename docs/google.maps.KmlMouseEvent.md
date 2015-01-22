@@ -1,7 +1,7 @@
 <h2 id="KmlMouseEvent">
 google.maps.KmlMouseEvent
 object specification
-</h2><p>The properties of a click event on a KML/KMZ or GeoRSS document.</p><h3>Properties</h3><table summary="object KmlMouseEvent - Properties" width="100%">
+</h2><p>The properties of a click event on a KML/KMZ or GeoRSS document.</p><h3 id="devsite_header_195">Properties</h3><table summary="object KmlMouseEvent - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

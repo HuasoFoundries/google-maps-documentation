@@ -1,7 +1,7 @@
 <h2 id="AdUnitOptions">
 google.maps.adsense.AdUnitOptions
 object specification
-</h2><h3>Library</h3><p>adsense</p><h3>Properties</h3><table summary="interface AdUnitOptions - Properties" width="100%">
+</h2><h3 id="devsite_header_247">Library</h3><p>adsense</p><h3 id="devsite_header_248">Properties</h3><table summary="interface AdUnitOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

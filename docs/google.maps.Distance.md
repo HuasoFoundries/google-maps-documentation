@@ -1,7 +1,7 @@
 <h2 id="Distance">
 google.maps.Distance
 object specification
-</h2><p>A representation of distance as a numeric value and a display string.</p><h3>Properties</h3><table summary="interface Distance - Properties" width="100%">
+</h2><p>A representation of distance as a numeric value and a display string.</p><h3 id="devsite_header_124">Properties</h3><table summary="interface Distance - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

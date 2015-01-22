@@ -1,7 +1,7 @@
 <h2 id="DistanceMatrixRequest">
 google.maps.DistanceMatrixRequest
 object specification
-</h2><p>A distance matrix query sent by the <code>DistanceMatrixService</code> containing arrays of origin and destination locations, and various options for computing metrics.</p><h3>Properties</h3><table summary="interface DistanceMatrixRequest - Properties" width="100%">
+</h2><p>A distance matrix query sent by the <code>DistanceMatrixService</code> containing arrays of origin and destination locations, and various options for computing metrics.</p><h3 id="devsite_header_145">Properties</h3><table summary="interface DistanceMatrixRequest - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -42,6 +42,11 @@ object specification
 <td><code>region</code></td>
 <td><code>string</code></td>
 <td>Region code used as a bias for geocoding requests. Optional.</td>
+</tr>
+<tr>
+<td><code>transitOptions</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitOptions.md">TransitOptions</a></code></td>
+<td>Settings that apply only to requests where <code>travelMode</code> is TRANSIT. This object will have no effect for other travel modes.</td>
 </tr>
 <tr>
 <td><code>travelMode</code></td>

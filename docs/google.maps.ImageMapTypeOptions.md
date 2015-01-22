@@ -1,7 +1,7 @@
 <h2 id="ImageMapTypeOptions">
 google.maps.ImageMapTypeOptions
 object specification
-</h2><p>This class is used to create a MapType that renders image tiles.</p><h3>Methods</h3><table summary="interface ImageMapTypeOptions - Methods" width="100%">
+</h2><p>This class is used to create a MapType that renders image tiles.</p><h3 id="devsite_header_165">Methods</h3><table summary="interface ImageMapTypeOptions - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -14,7 +14,7 @@ object specification
 <td>Returns a string (URL) for given tile coordinate (x, y) and zoom level.</td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="interface ImageMapTypeOptions - Properties" width="100%">
+</table><h3 id="devsite_header_166">Properties</h3><table summary="interface ImageMapTypeOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

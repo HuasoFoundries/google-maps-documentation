@@ -3,7 +3,7 @@ google.maps.Data.MultiPolygon
 class
 </h2><p>A MultiPolygon geometry contains a number of <code>Data.Polygon</code>s.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
-</p><h3>Constructor</h3><table summary="class Data.MultiPolygon - Constructor" width="100%">
+</p><h3 id="devsite_header_46">Constructor</h3><table summary="class Data.MultiPolygon - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Constructs a <code>Data.MultiPolygon</code> from the given <code>Data.Polygon</code>s or arrays of positions.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Data.MultiPolygon - Methods" width="100%">
+</table><h3 id="devsite_header_47">Methods</h3><table summary="class Data.MultiPolygon - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

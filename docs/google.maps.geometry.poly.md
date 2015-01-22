@@ -1,7 +1,7 @@
 <h2 id="poly">
 google.maps.geometry.poly
 namespace
-</h2><p>Utility functions for computations involving polygons and polylines.</p><h3>Library</h3><p>geometry</p><h3>Static Methods</h3><table summary="namespace poly - Static Methods" width="100%">
+</h2><p>Utility functions for computations involving polygons and polylines.</p><h3 id="devsite_header_242">Library</h3><p>geometry</p><h3 id="devsite_header_243">Static Methods</h3><table summary="namespace poly - Static Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

@@ -3,7 +3,7 @@ google.maps.visualization.MapsEngineLayer
 class
 </h2><p>A <code>MapsEngineLayer</code> allows you to display data from <a href="http://www.google.com/enterprise/mapsearth/products/mapsengine.html">Google Maps Engine</a> or the <a href="http://www.google.com/gadgets/directory?synd=earth">Google Earth Gallery</a>.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Library</h3><p>visualization</p><h3>Constructor</h3><table summary="class MapsEngineLayer - Constructor" width="100%">
+</p><h3 id="devsite_header_356">Library</h3><p>visualization</p><h3 id="devsite_header_357">Constructor</h3><table summary="class MapsEngineLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a new instance of <code>MapsEngineLayer</code>.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class MapsEngineLayer - Methods" width="100%">
+</table><h3 id="devsite_header_358">Methods</h3><table summary="class MapsEngineLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -97,7 +97,7 @@ class
 <td>Sets the z-index. Only applies to Vector and KML layers.</td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class MapsEngineLayer - Events" width="100%">
+</table><h3 id="devsite_header_359">Events</h3><table summary="class MapsEngineLayer - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

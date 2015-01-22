@@ -1,7 +1,7 @@
 <h2 id="ElevationStatus">
 google.maps.ElevationStatus
 class
-</h2><p>The status returned by the <code>ElevationService</code> upon completion of an elevation requerst.</p><h3>Constant</h3><table summary="class ElevationStatus - Constants" width="100%">
+</h2><p>The status returned by the <code>ElevationService</code> upon completion of an elevation requerst.</p><h3 id="devsite_header_138">Constant</h3><table summary="class ElevationStatus - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

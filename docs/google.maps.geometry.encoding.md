@@ -1,7 +1,7 @@
 <h2 id="encoding">
 google.maps.geometry.encoding
 namespace
-</h2><p>Utilities for polyline encoding and decoding.</p><h3>Library</h3><p>geometry</p><h3>Static Methods</h3><table summary="namespace encoding - Static Methods" width="100%">
+</h2><p>Utilities for polyline encoding and decoding.</p><h3 id="devsite_header_238">Library</h3><p>geometry</p><h3 id="devsite_header_239">Static Methods</h3><table summary="namespace encoding - Static Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

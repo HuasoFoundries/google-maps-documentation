@@ -3,7 +3,7 @@ google.maps.MVCArray
 class
 </h2><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class MVCArray - Constructor" width="100%">
+</p><h3 id="devsite_header_235">Constructor</h3><table summary="class MVCArray - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>A mutable MVC Array.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class MVCArray - Methods" width="100%">
+</table><h3 id="devsite_header_236">Methods</h3><table summary="class MVCArray - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -72,7 +72,7 @@ class
 <td>Sets an element at the specified index.</td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class MVCArray - Events" width="100%">
+</table><h3 id="devsite_header_237">Events</h3><table summary="class MVCArray - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

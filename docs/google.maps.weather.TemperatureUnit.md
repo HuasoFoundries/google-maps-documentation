@@ -1,7 +1,7 @@
 <h2 id="TemperatureUnit">
 google.maps.weather.TemperatureUnit
 class
-</h2><p>The temperature unit displayed by the weather layer.</p><h3>Library</h3><p>weather</p><h3>Constant</h3><table summary="class TemperatureUnit - Constants" width="100%">
+</h2><p>The temperature unit displayed by the weather layer.</p><h3 id="devsite_header_342">Library</h3><p>weather</p><h3 id="devsite_header_343">Constant</h3><table summary="class TemperatureUnit - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

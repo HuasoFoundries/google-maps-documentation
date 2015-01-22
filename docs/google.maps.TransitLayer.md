@@ -3,7 +3,7 @@ google.maps.TransitLayer
 class
 </h2><p>A transit layer.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class TransitLayer - Constructor" width="100%">
+</p><h3 id="devsite_header_200">Constructor</h3><table summary="class TransitLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>A layer that displays transit lines.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class TransitLayer - Methods" width="100%">
+</table><h3 id="devsite_header_201">Methods</h3><table summary="class TransitLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

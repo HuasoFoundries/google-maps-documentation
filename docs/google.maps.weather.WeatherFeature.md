@@ -1,7 +1,7 @@
 <h2 id="WeatherFeature">
 google.maps.weather.WeatherFeature
 object specification
-</h2><p>Describes a single Weather feature.</p><h3>Library</h3><p>weather</p><h3>Properties</h3><table summary="interface WeatherFeature - Properties" width="100%">
+</h2><p>Describes a single Weather feature.</p><h3 id="devsite_header_350">Library</h3><p>weather</p><h3 id="devsite_header_351">Properties</h3><table summary="interface WeatherFeature - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

@@ -1,7 +1,7 @@
 <h2 id="Animation">
 google.maps.Animation
 class
-</h2><p>Animations that can be played on a marker. Use the <code>setAnimation</code> method on Marker or the <code>animation</code> option to play an animation.</p><h3>Constant</h3><table summary="class Animation - Constants" width="100%">
+</h2><p>Animations that can be played on a marker. Use the <code>setAnimation</code> method on Marker or the <code>animation</code> option to play an animation.</p><h3 id="devsite_header_65">Constant</h3><table summary="class Animation - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

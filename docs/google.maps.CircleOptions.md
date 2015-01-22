@@ -1,7 +1,7 @@
 <h2 id="CircleOptions">
 google.maps.CircleOptions
 object specification
-</h2><h3>Properties</h3><table summary="interface CircleOptions - Properties" width="100%">
+</h2><h3 id="devsite_header_87">Properties</h3><table summary="interface CircleOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

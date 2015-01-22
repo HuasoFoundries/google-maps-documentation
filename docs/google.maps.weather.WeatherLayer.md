@@ -3,7 +3,7 @@ google.maps.weather.WeatherLayer
 class
 </h2><p>A layer that displays weather icons.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Library</h3><p>weather</p><h3>Constructor</h3><table summary="class WeatherLayer - Constructor" width="100%">
+</p><h3 id="devsite_header_336">Library</h3><p>weather</p><h3 id="devsite_header_337">Constructor</h3><table summary="class WeatherLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a new <code>WeatherLayer</code> instance that displays weather icons.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class WeatherLayer - Methods" width="100%">
+</table><h3 id="devsite_header_338">Methods</h3><table summary="class WeatherLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -37,7 +37,7 @@ class
 <td>Sets the <code>WeatherLayer</code>'s options.</td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class WeatherLayer - Events" width="100%">
+</table><h3 id="devsite_header_339">Events</h3><table summary="class WeatherLayer - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

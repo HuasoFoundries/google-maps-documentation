@@ -1,7 +1,7 @@
 <h2 id="MapType">
 google.maps.MapType
 object specification
-</h2><p>This interface defines the map type, and is typically used for custom map types. Immutable.</p><h3>Methods</h3><table summary="interface MapType - Methods" width="100%">
+</h2><p>This interface defines the map type, and is typically used for custom map types. Immutable.</p><h3 id="devsite_header_156">Methods</h3><table summary="interface MapType - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -19,7 +19,7 @@ object specification
 <td>Releases the given tile, performing any necessary cleanup. The provided tile will have already been removed from the document. Optional.</td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="interface MapType - Properties" width="100%">
+</table><h3 id="devsite_header_157">Properties</h3><table summary="interface MapType - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

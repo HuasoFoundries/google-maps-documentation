@@ -1,7 +1,7 @@
 <h2 id="FusionTablesMouseEvent">
 google.maps.FusionTablesMouseEvent
 object specification
-</h2><p>The properties of a mouse event on a <code>FusionTablesLayer</code>.</p><h3>Properties</h3><table summary="interface FusionTablesMouseEvent - Properties" width="100%">
+</h2><p>The properties of a mouse event on a <code>FusionTablesLayer</code>.</p><h3 id="devsite_header_187">Properties</h3><table summary="interface FusionTablesMouseEvent - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

@@ -1,7 +1,7 @@
 <h2 id="FusionTablesStyle">
 google.maps.FusionTablesStyle
 object specification
-</h2><p>Controls the appearance of a set of features within a <code>FusionTablesLayer</code>. Features which match the provided SQL predicate will be styled with the supplied options.</p><h3>Properties</h3><table summary="object FusionTablesStyle - Properties" width="100%">
+</h2><p>Controls the appearance of a set of features within a <code>FusionTablesLayer</code>. Features which match the provided SQL predicate will be styled with the supplied options.</p><h3 id="devsite_header_182">Properties</h3><table summary="object FusionTablesStyle - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

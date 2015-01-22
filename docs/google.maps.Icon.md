@@ -1,7 +1,7 @@
 <h2 id="Icon">
 google.maps.Icon
 object specification
-</h2><h3>Properties</h3><table summary="interface Icon - Properties" width="100%">
+</h2><h3 id="devsite_header_61">Properties</h3><table summary="interface Icon - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -11,7 +11,7 @@ object specification
 <tr>
 <td><code>anchor</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a></code></td>
-<td>The position at which to anchor an image in correspondance to the location of the marker on the map. By default, the anchor is located along the center point of the bottom of the image.</td>
+<td>The position at which to anchor an image in correspondence to the location of the marker on the map. By default, the anchor is located along the center point of the bottom of the image.</td>
 </tr>
 <tr>
 <td><code>origin</code></td>

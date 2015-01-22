@@ -3,7 +3,7 @@ google.maps.panoramio.PanoramioLayer
 class
 </h2><p>A <code>PanoramioLayer</code> displays photos from Panoramio as a rendered layer.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Library</h3><p>panoramio</p><h3>Constructor</h3><table summary="class PanoramioLayer - Constructor" width="100%">
+</p><h3 id="devsite_header_251">Library</h3><p>panoramio</p><h3 id="devsite_header_252">Constructor</h3><table summary="class PanoramioLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>A layer that displays data from Panoramio.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class PanoramioLayer - Methods" width="100%">
+</table><h3 id="devsite_header_253">Methods</h3><table summary="class PanoramioLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -57,7 +57,7 @@ class
 <td></td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class PanoramioLayer - Events" width="100%">
+</table><h3 id="devsite_header_254">Events</h3><table summary="class PanoramioLayer - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

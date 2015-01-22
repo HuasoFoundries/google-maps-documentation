@@ -1,7 +1,7 @@
 <h2 id="KmlLayerStatus">
 google.maps.KmlLayerStatus
 class
-</h2><p>The status returned by <code>KmlLayer</code> on the completion of loading a document.</p><h3>Constant</h3><table summary="class KmlLayerStatus - Constants" width="100%">
+</h2><p>The status returned by <code>KmlLayer</code> on the completion of loading a document.</p><h3 id="devsite_header_194">Constant</h3><table summary="class KmlLayerStatus - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

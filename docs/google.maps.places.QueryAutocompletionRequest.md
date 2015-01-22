@@ -1,7 +1,7 @@
 <h2 id="QueryAutocompletionRequest">
 google.maps.places.QueryAutocompletionRequest
 object specification
-</h2><p>An QueryAutocompletion request to be sent to the <code>QueryAutocompleteService</code>.</p><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface QueryAutocompletionRequest - Properties" width="100%">
+</h2><p>An QueryAutocompletion request to be sent to the <code>QueryAutocompleteService</code>.</p><h3 id="devsite_header_307">Library</h3><p>places</p><h3 id="devsite_header_308">Properties</h3><table summary="interface QueryAutocompletionRequest - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

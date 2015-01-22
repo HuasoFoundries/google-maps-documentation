@@ -3,7 +3,7 @@ google.maps.adsense.AdUnit
 class
 </h2><p>Implements AdSense for Content advertising on an associated map. To use an <code>AdUnit</code>, you must obtain and specify an AdSense for Content publisher ID within the <code>AdUnit</code>'s constructor options.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Library</h3><p>adsense</p><h3>Constructor</h3><table summary="class AdUnit - Constructor" width="100%">
+</p><h3 id="devsite_header_244">Library</h3><p>adsense</p><h3 id="devsite_header_245">Constructor</h3><table summary="class AdUnit - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates an AdSense for Content display ad on the associated map.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class AdUnit - Methods" width="100%">
+</table><h3 id="devsite_header_246">Methods</h3><table summary="class AdUnit - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

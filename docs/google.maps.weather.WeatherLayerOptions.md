@@ -1,7 +1,7 @@
 <h2 id="WeatherLayerOptions">
 google.maps.weather.WeatherLayerOptions
 object specification
-</h2><p>This object defines the properties that can be set on a <code>WeatherLayer</code> object.</p><h3>Library</h3><p>weather</p><h3>Properties</h3><table summary="interface WeatherLayerOptions - Properties" width="100%">
+</h2><p>This object defines the properties that can be set on a <code>WeatherLayer</code> object.</p><h3 id="devsite_header_340">Library</h3><p>weather</p><h3 id="devsite_header_341">Properties</h3><table summary="interface WeatherLayerOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

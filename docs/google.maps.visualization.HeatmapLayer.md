@@ -3,7 +3,7 @@ google.maps.visualization.HeatmapLayer
 class
 </h2><p>A layer that provides a client-side rendered heatmap, depicting the intensity of data at geographical points.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Library</h3><p>visualization</p><h3>Constructor</h3><table summary="class HeatmapLayer - Constructor" width="100%">
+</p><h3 id="devsite_header_380">Library</h3><p>visualization</p><h3 id="devsite_header_381">Constructor</h3><table summary="class HeatmapLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a new instance of <code>HeatmapLayer</code>.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class HeatmapLayer - Methods" width="100%">
+</table><h3 id="devsite_header_382">Methods</h3><table summary="class HeatmapLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

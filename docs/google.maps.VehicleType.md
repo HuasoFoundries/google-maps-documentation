@@ -1,7 +1,7 @@
 <h2 id="VehicleType">
 google.maps.VehicleType
 object specification
-</h2><p>Possible values for vehicle types. These values are specifed as strings, i.e. 'BUS' or 'TRAIN'.</p><h3>Constant</h3><table summary="object VehicleType - Constants" width="100%">
+</h2><p>Possible values for vehicle types. These values are specifed as strings, i.e. 'BUS' or 'TRAIN'.</p><h3 id="devsite_header_132">Constant</h3><table summary="object VehicleType - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

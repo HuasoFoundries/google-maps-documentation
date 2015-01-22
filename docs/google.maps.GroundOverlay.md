@@ -3,7 +3,7 @@ google.maps.GroundOverlay
 class
 </h2><p>A rectangular image overlay on the map.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class GroundOverlay - Constructor" width="100%">
+</p><h3 id="devsite_header_89">Constructor</h3><table summary="class GroundOverlay - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a ground overlay from the provided image URL and its <code>LatLngBounds</code>. The image is scaled to fit the current bounds, and projected using the current map projection.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class GroundOverlay - Methods" width="100%">
+</table><h3 id="devsite_header_90">Methods</h3><table summary="class GroundOverlay - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -52,7 +52,7 @@ class
 <td>Sets the opacity of this ground overlay.</td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class GroundOverlay - Events" width="100%">
+</table><h3 id="devsite_header_91">Events</h3><table summary="class GroundOverlay - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

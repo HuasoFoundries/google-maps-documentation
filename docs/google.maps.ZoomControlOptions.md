@@ -1,7 +1,7 @@
 <h2 id="ZoomControlOptions">
 google.maps.ZoomControlOptions
 object specification
-</h2><p>Options for the rendering of the zoom control.</p><h3>Properties</h3><table summary="interface ZoomControlOptions - Properties" width="100%">
+</h2><p>Options for the rendering of the zoom control.</p><h3 id="devsite_header_20">Properties</h3><table summary="interface ZoomControlOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

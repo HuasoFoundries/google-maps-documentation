@@ -1,7 +1,7 @@
 <h2 id="PlaceGeometry">
 google.maps.places.PlaceGeometry
 object specification
-</h2><p>Defines information about the geometry of a Place.</p><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface PlaceGeometry - Properties" width="100%">
+</h2><p>Defines information about the geometry of a Place.</p><h3 id="devsite_header_284">Library</h3><p>places</p><h3 id="devsite_header_285">Properties</h3><table summary="interface PlaceGeometry - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

@@ -1,7 +1,7 @@
 <h2 id="PlaceResult">
 google.maps.places.PlaceResult
 object specification
-</h2><p>Defines information about a Place.</p><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface PlaceResult - Properties" width="100%">
+</h2><p>Defines information about a Place.</p><h3 id="devsite_header_291">Library</h3><p>places</p><h3 id="devsite_header_292">Properties</h3><table summary="interface PlaceResult - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

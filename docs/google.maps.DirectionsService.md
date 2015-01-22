@@ -1,7 +1,7 @@
 <h2 id="DirectionsService">
 google.maps.DirectionsService
 class
-</h2><p>A service for computing directions between two or more places.</p><h3>Constructor</h3><table summary="class DirectionsService - Constructor" width="100%">
+</h2><p>A service for computing directions between two or more places.</p><h3 id="devsite_header_110">Constructor</h3><table summary="class DirectionsService - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -12,7 +12,7 @@ class
 <td>Creates a new instance of a <code>DirectionsService</code> that sends directions queries to Google servers.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class DirectionsService - Methods" width="100%">
+</table><h3 id="devsite_header_111">Methods</h3><table summary="class DirectionsService - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

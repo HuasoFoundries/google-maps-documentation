@@ -1,7 +1,7 @@
 <h2 id="DistanceMatrixElementStatus">
 google.maps.DistanceMatrixElementStatus
 class
-</h2><p>The element-level status about a particular origin-destination pairing returned by the <code>DistanceMatrixService</code> upon completion of a distance matrix request.</p><h3>Constant</h3><table summary="class DistanceMatrixElementStatus - Constants" width="100%">
+</h2><p>The element-level status about a particular origin-destination pairing returned by the <code>DistanceMatrixService</code> upon completion of a distance matrix request.</p><h3 id="devsite_header_150">Constant</h3><table summary="class DistanceMatrixElementStatus - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

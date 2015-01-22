@@ -1,7 +1,7 @@
 <h2 id="PlacesService">
 google.maps.places.PlacesService
 class
-</h2><p>Contains methods related to searching for Places and retrieving details about a Place.</p><h3>Library</h3><p>places</p><h3>Constructor</h3><table summary="class PlacesService - Constructor" width="100%">
+</h2><p>Contains methods related to searching for Places and retrieving details about a Place.</p><h3 id="devsite_header_300">Library</h3><p>places</p><h3 id="devsite_header_301">Constructor</h3><table summary="class PlacesService - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -12,7 +12,7 @@ class
 <td>Creates a new instance of the <code>PlacesService</code> that renders attributions in the specified container.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class PlacesService - Methods" width="100%">
+</table><h3 id="devsite_header_302">Methods</h3><table summary="class PlacesService - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

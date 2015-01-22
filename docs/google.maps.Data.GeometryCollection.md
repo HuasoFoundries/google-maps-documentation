@@ -3,7 +3,7 @@ google.maps.Data.GeometryCollection
 class
 </h2><p>A GeometryCollection contains a number of geometry objects. Any <code>LatLng</code> or <code>LatLngLiteral</code> objects are automatically converted to <code>Data.Point</code> geometry objects.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
-</p><h3>Constructor</h3><table summary="class Data.GeometryCollection - Constructor" width="100%">
+</p><h3 id="devsite_header_48">Constructor</h3><table summary="class Data.GeometryCollection - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Constructs a <code>Data.GeometryCollection</code> from the given geometry objects or <code>LatLng</code>s.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Data.GeometryCollection - Methods" width="100%">
+</table><h3 id="devsite_header_49">Methods</h3><table summary="class Data.GeometryCollection - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

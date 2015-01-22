@@ -3,7 +3,7 @@ google.maps.weather.CloudLayer
 class
 </h2><p>A layer showing cloud imagery.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Library</h3><p>weather</p><h3>Constructor</h3><table summary="class CloudLayer - Constructor" width="100%">
+</p><h3 id="devsite_header_333">Library</h3><p>weather</p><h3 id="devsite_header_334">Constructor</h3><table summary="class CloudLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a new <code>CloudLayer</code> instance that displays a cloud overlay.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class CloudLayer - Methods" width="100%">
+</table><h3 id="devsite_header_335">Methods</h3><table summary="class CloudLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

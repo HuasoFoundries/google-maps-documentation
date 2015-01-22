@@ -1,7 +1,7 @@
 <h2 id="StyledMapTypeOptions">
 google.maps.StyledMapTypeOptions
 object specification
-</h2><p>This class is used to specify options when creating a <code>StyledMapType</code>. These options cannot be changed after the <code>StyledMapType</code> is instantiated.</p><h3>Properties</h3><table summary="interface StyledMapTypeOptions - Properties" width="100%">
+</h2><p>This class is used to specify options when creating a <code>StyledMapType</code>. These options cannot be changed after the <code>StyledMapType</code> is instantiated.</p><h3 id="devsite_header_170">Properties</h3><table summary="interface StyledMapTypeOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

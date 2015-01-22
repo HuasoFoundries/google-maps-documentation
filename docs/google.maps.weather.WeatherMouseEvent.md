@@ -1,7 +1,7 @@
 <h2 id="WeatherMouseEvent">
 google.maps.weather.WeatherMouseEvent
 object specification
-</h2><p>The properties of a mouse event on a <code>WeatherLayer</code>.</p><h3>Library</h3><p>weather</p><h3>Properties</h3><table summary="interface WeatherMouseEvent - Properties" width="100%">
+</h2><p>The properties of a mouse event on a <code>WeatherLayer</code>.</p><h3 id="devsite_header_348">Library</h3><p>weather</p><h3 id="devsite_header_349">Properties</h3><table summary="interface WeatherMouseEvent - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

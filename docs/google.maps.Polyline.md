@@ -3,7 +3,7 @@ google.maps.Polyline
 class
 </h2><p>A polyline is a linear overlay of connected line segments on the map.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class Polyline - Constructor" width="100%">
+</p><h3 id="devsite_header_70">Constructor</h3><table summary="class Polyline - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Create a polyline using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PolylineOptions.md">PolylineOptions</a></em></code>, which specify both the path of the polyline and the stroke style to use when drawing the polyline. You may pass either an array of <code>LatLng</code>s or an <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a></code> of <code>LatLng</code>s when constructing a polyline, though simple arrays are converted to <code>MVCArray</code>s within the polyline upon instantiation.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Polyline - Methods" width="100%">
+</table><h3 id="devsite_header_71">Methods</h3><table summary="class Polyline - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -77,7 +77,7 @@ class
 <td>Hides this poly if set to <code>false</code>.</td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class Polyline - Events" width="100%">
+</table><h3 id="devsite_header_72">Events</h3><table summary="class Polyline - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>
