@@ -1,7 +1,7 @@
 <h2 id="PanoramioFeature">
 google.maps.panoramio.PanoramioFeature
 object specification
-</h2><p>Describes a single Panoramio feature.</p><h3 id="devsite_header_257">Library</h3><p>panoramio</p><h3 id="devsite_header_258">Properties</h3><table summary="interface PanoramioFeature - Properties" width="100%">
+</h2><p>Describes a single Panoramio feature.</p><h3>Library</h3><p>panoramio</p><h3>Properties</h3><table summary="interface PanoramioFeature - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

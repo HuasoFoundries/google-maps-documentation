@@ -1,7 +1,7 @@
 <h2 id="GeocoderLocationType">
 google.maps.GeocoderLocationType
 class
-</h2><p>Describes the type of location returned from a geocode.</p><h3 id="devsite_header_105">Constant</h3><table summary="class GeocoderLocationType - Constants" width="100%">
+</h2><p>Describes the type of location returned from a geocode.</p><h3>Constant</h3><table summary="class GeocoderLocationType - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

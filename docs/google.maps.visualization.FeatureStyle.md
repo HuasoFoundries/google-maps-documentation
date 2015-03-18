@@ -1,7 +1,7 @@
 <h2 id="FeatureStyle">
 google.maps.visualization.FeatureStyle
 object specification
-</h2><h3 id="devsite_header_377">Library</h3><p>visualization</p><h3 id="devsite_header_378">Methods</h3><table summary="interface FeatureStyle - Methods" width="100%">
+</h2><h3>Library</h3><p>visualization</p><h3>Methods</h3><table summary="interface FeatureStyle - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -19,7 +19,7 @@ object specification
 <td>Resets all style properties to their original values.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_379">Properties</h3><table summary="interface FeatureStyle - Properties" width="100%">
+</table><h3>Properties</h3><table summary="interface FeatureStyle - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

@@ -1,7 +1,7 @@
 <h2 id="DynamicMapsEngineMouseEvent">
 google.maps.visualization.DynamicMapsEngineMouseEvent
 object specification
-</h2><p>The properties of a mouse event on a <code>DynamicMapsEngineLayer</code>.</p><h3 id="devsite_header_374">Library</h3><p>visualization</p><h3 id="devsite_header_375">Methods</h3><table summary="interface DynamicMapsEngineMouseEvent - Methods" width="100%">
+</h2><p>The properties of a mouse event on a <code>DynamicMapsEngineLayer</code>.</p><h3>Library</h3><p>visualization</p><h3>Methods</h3><table summary="interface DynamicMapsEngineMouseEvent - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -14,7 +14,7 @@ object specification
 <td>Takes a callback that will be called with details about the feature that may be used to render an info window.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_376">Properties</h3><table summary="interface DynamicMapsEngineMouseEvent - Properties" width="100%">
+</table><h3>Properties</h3><table summary="interface DynamicMapsEngineMouseEvent - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

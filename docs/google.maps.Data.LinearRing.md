@@ -3,7 +3,7 @@ google.maps.Data.LinearRing
 class
 </h2><p>A LinearRing geometry contains a number of <code>LatLng</code>s, representing a closed LineString. There is no need to make the first <code>LatLng</code> equal to the last <code>LatLng</code>. The LinearRing is closed implicitly.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
-</p><h3 id="devsite_header_42">Constructor</h3><table summary="class Data.LinearRing - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class Data.LinearRing - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Constructs a <code>Data.LinearRing</code> from the given <code>LatLng</code>s or <code>LatLngLiteral</code>s.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_43">Methods</h3><table summary="class Data.LinearRing - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class Data.LinearRing - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

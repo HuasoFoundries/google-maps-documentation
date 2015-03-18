@@ -1,7 +1,7 @@
 <h2 id="KmlFeatureData">
 google.maps.KmlFeatureData
 object specification
-</h2><p>Data for a single KML feature in JSON format, returned when a KML feature is clicked. The data contained in this object mirrors that associated with the feature in the KML or GeoRSS markup in which it is declared.</p><h3 id="devsite_header_196">Properties</h3><table summary="object KmlFeatureData - Properties" width="100%">
+</h2><p>Data for a single KML feature in JSON format, returned when a KML feature is clicked. The data contained in this object mirrors that associated with the feature in the KML or GeoRSS markup in which it is declared.</p><h3>Properties</h3><table summary="object KmlFeatureData - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

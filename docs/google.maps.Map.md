@@ -3,7 +3,7 @@ google.maps.Map
 class
 </h2><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_6">Constructor</h3><table summary="class Map - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class Map - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a new map inside of the given HTML container, which is typically a <code>DIV</code> element.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_7">Methods</h3><table summary="class Map - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class Map - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -122,7 +122,7 @@ class
 <td></td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_8">Properties</h3><table summary="class Map - Properties" width="100%">
+</table><h3>Properties</h3><table summary="class Map - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -150,7 +150,7 @@ class
 <td>Additional map types to overlay.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_9">Events</h3><table summary="class Map - Events" width="100%">
+</table><h3>Events</h3><table summary="class Map - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

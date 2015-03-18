@@ -1,7 +1,7 @@
 <h2 id="PanoramioMouseEvent">
 google.maps.panoramio.PanoramioMouseEvent
 object specification
-</h2><p>The properties of a mouse event on a <code>PanoramioLayer</code>.</p><h3 id="devsite_header_259">Library</h3><p>panoramio</p><h3 id="devsite_header_260">Properties</h3><table summary="interface PanoramioMouseEvent - Properties" width="100%">
+</h2><p>The properties of a mouse event on a <code>PanoramioLayer</code>.</p><h3>Library</h3><p>panoramio</p><h3>Properties</h3><table summary="interface PanoramioMouseEvent - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

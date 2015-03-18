@@ -1,7 +1,7 @@
 <h2 id="PlaceSearchPagination">
 google.maps.places.PlaceSearchPagination
 object specification
-</h2><p>An object used to fetch additional pages of Places results.</p><h3 id="devsite_header_295">Library</h3><p>places</p><h3 id="devsite_header_296">Methods</h3><table summary="object PlaceSearchPagination - Methods" width="100%">
+</h2><p>An object used to fetch additional pages of Places results.</p><h3>Library</h3><p>places</p><h3>Methods</h3><table summary="object PlaceSearchPagination - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -14,7 +14,7 @@ object specification
 <td>Fetches the next page of results. Uses the same callback function that was provided to the first search request.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_297">Properties</h3><table summary="object PlaceSearchPagination - Properties" width="100%">
+</table><h3>Properties</h3><table summary="object PlaceSearchPagination - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

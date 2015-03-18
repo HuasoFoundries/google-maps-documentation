@@ -1,7 +1,7 @@
 <h2 id="MapsEngineMouseEvent">
 google.maps.visualization.MapsEngineMouseEvent
 object specification
-</h2><p>The properties of a mouse event on a <code>MapsEngineLayer</code>.</p><h3 id="devsite_header_364">Library</h3><p>visualization</p><h3 id="devsite_header_365">Properties</h3><table summary="interface MapsEngineMouseEvent - Properties" width="100%">
+</h2><p>The properties of a mouse event on a <code>MapsEngineLayer</code>.</p><h3>Library</h3><p>visualization</p><h3>Properties</h3><table summary="interface MapsEngineMouseEvent - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

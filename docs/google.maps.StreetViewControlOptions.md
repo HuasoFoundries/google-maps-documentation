@@ -1,7 +1,7 @@
 <h2 id="StreetViewControlOptions">
 google.maps.StreetViewControlOptions
 object specification
-</h2><p>Options for the rendering of the Street View pegman control on the map.</p><h3 id="devsite_header_19">Properties</h3><table summary="interface StreetViewControlOptions - Properties" width="100%">
+</h2><p>Options for the rendering of the Street View pegman control on the map.</p><h3>Properties</h3><table summary="interface StreetViewControlOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

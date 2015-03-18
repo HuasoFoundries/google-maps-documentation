@@ -1,20 +1,7 @@
 <h2 id="StreetViewPanoramaOptions">
 google.maps.StreetViewPanoramaOptions
 object specification
-</h2><p>Options defining the properties of a <code>StreetViewPanorama</code> object.</p><h3>Methods</h3><table summary="interface StreetViewPanoramaOptions - Methods" width="100%">
-<thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code>panoProvider(panoId:string)</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaData.md">StreetViewPanoramaData</a></code></td>
-<td>Custom panorama provider, which takes a string pano id and returns an object defining the panorama given that id. This function must be defined to specify custom panorama imagery.</td>
-</tr>
-</tbody>
-</table><h3>Properties</h3><table summary="interface StreetViewPanoramaOptions - Properties" width="100%">
+</h2><p>Options defining the properties of a <code>StreetViewPanorama</code> object.</p><h3>Properties</h3><table summary="interface StreetViewPanoramaOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -75,6 +62,11 @@ object specification
 <td><code>pano</code></td>
 <td><code>string</code></td>
 <td>The panorama ID, which should be set when specifying a custom panorama.</td>
+</tr>
+<tr>
+<td><code>panoProvider</code></td>
+<td><code>function(string): <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaData.md">StreetViewPanoramaData</a></code></td>
+<td>Custom panorama provider, which takes a string pano id and returns an object defining the panorama given that id. This function must be defined to specify custom panorama imagery.</td>
 </tr>
 <tr>
 <td><code>position</code></td>

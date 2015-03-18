@@ -1,7 +1,7 @@
 <h2 id="GeocoderGeometry">
 google.maps.GeocoderGeometry
 object specification
-</h2><p>Geometry information about this <code>GeocoderResult</code></p><h3 id="devsite_header_104">Properties</h3><table summary="object GeocoderGeometry - Properties" width="100%">
+</h2><p>Geometry information about this <code>GeocoderResult</code></p><h3>Properties</h3><table summary="object GeocoderGeometry - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

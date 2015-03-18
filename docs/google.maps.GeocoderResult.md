@@ -1,7 +1,7 @@
 <h2 id="GeocoderResult">
 google.maps.GeocoderResult
 object specification
-</h2><p>A single geocoder result retrieved from the geocode server. A geocode request may return multiple result objects. Note that though this result is "JSON-like," it is not strictly JSON, as it indirectly includes a <code>LatLng</code> object.</p><h3 id="devsite_header_102">Properties</h3><table summary="object GeocoderResult - Properties" width="100%">
+</h2><p>A single geocoder result retrieved from the geocode server. A geocode request may return multiple result objects. Note that though this result is "JSON-like," it is not strictly JSON, as it indirectly includes a <code>LatLng</code> object.</p><h3>Properties</h3><table summary="object GeocoderResult - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

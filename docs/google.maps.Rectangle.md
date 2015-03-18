@@ -3,7 +3,7 @@ google.maps.Rectangle
 class
 </h2><p>A rectangle overlay.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_80">Constructor</h3><table summary="class Rectangle - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class Rectangle - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Create a rectangle using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.RectangleOptions.md">RectangleOptions</a></em></code>, which specify the bounds and style.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_81">Methods</h3><table summary="class Rectangle - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class Rectangle - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -77,7 +77,7 @@ class
 <td>Hides this rectangle if set to <code>false</code>.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_82">Events</h3><table summary="class Rectangle - Events" width="100%">
+</table><h3>Events</h3><table summary="class Rectangle - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

@@ -1,7 +1,7 @@
 <h2 id="DrawingControlOptions">
 google.maps.drawing.DrawingControlOptions
 object specification
-</h2><p>Options for the rendering of the drawing control.</p><h3 id="devsite_header_327">Library</h3><p>drawing</p><h3 id="devsite_header_328">Properties</h3><table summary="interface DrawingControlOptions - Properties" width="100%">
+</h2><p>Options for the rendering of the drawing control.</p><h3>Library</h3><p>drawing</p><h3>Properties</h3><table summary="interface DrawingControlOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

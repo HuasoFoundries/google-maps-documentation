@@ -1,9 +1,9 @@
 <h2 id="DynamicMapsEngineLayer">
 google.maps.visualization.DynamicMapsEngineLayer
 class
-</h2><p>A <code>DynamicMapsEngineLayer</code> allows you to display data from <a href="http://www.google.com/enterprise/mapsearth/products/mapsengine.html">Google Maps Engine</a> or the <a href="http://www.google.com/gadgets/directory?synd=earth">Google Earth Gallery</a>.</p><p>This class extends
+</h2><p>A <code>DynamicMapsEngineLayer</code> allows you to display data from <a href="https://mapsengine.google.com/">Google Maps Engine</a> or the <a href="http://www.google.com/gadgets/directory?synd=earth">Google Earth Gallery</a>.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_368">Library</h3><p>visualization</p><h3 id="devsite_header_369">Constructor</h3><table summary="class DynamicMapsEngineLayer - Constructor" width="100%">
+</p><h3>Library</h3><p>visualization</p><h3>Constructor</h3><table summary="class DynamicMapsEngineLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a new instance of <code>DynamicMapsEngineLayer</code>.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_370">Methods</h3><table summary="class DynamicMapsEngineLayer - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class DynamicMapsEngineLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -87,7 +87,7 @@ class
 <td></td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_371">Events</h3><table summary="class DynamicMapsEngineLayer - Events" width="100%">
+</table><h3>Events</h3><table summary="class DynamicMapsEngineLayer - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

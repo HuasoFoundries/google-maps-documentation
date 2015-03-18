@@ -1,9 +1,9 @@
 <h2 id="Data">
 google.maps.Data
 class
-</h2><p>A layer for displaying geospatial data. Points, line-strings and polygons can be displayed. </p><p> Every <code>Map</code> has a <code>Data</code> object by default, so most of the time there is no need to construct one. For example: </p><pre> var myMap = new google.maps.Map(...);<br> myMap.data.addGeoJson(...);<br> myMap.data.setStyle(...); <br><br></pre><code>Data</code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md"><code>Features</code></a><p></p><p>This class extends
+</h2><p>A layer for displaying geospatial data. Points, line-strings and polygons can be displayed. </p><p> Every <code>Map</code> has a <code>Data</code> object by default, so most of the time there is no need to construct one. For example: </p><pre> var myMap = new google.maps.Map(...);<br> myMap.data.addGeoJson(...);<br> myMap.data.setStyle(...); </pre><code>Data</code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md"><code>Features</code></a><p></p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_23">Constructor</h3><table summary="class Data - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class Data - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates an empty collection, with the given <code>DataOptions</code>.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_24">Methods</h3><table summary="class Data - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class Data - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -24,7 +24,7 @@ class
 <tr>
 <td><code>add(feature:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.FeatureOptions.md">Data.FeatureOptions</a>)</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a></code></td>
-<td>Adds a feature to the collection, and returns the added feature. <p> If the feature has an ID, it will replace any existing feature in the collection with the same ID. If no feature is given, a new feature will be created with null geometry and no properties. If <code>FeatureOptions</code> are given, a new feature will be created with the specified properties. </p><p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Adding a feature with ID <code>1234</code> will replace a feature with ID <code>'1234'</code>, and vice versa.</p><p></p></td>
+<td>Adds a feature to the collection, and returns the added feature. <p> If the feature has an ID, it will replace any existing feature in the collection with the same ID. If no feature is given, a new feature will be created with null geometry and no properties. If <code>FeatureOptions</code> are given, a new feature will be created with the specified properties. </p><p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Adding a feature with ID <code>1234</code> will replace a feature with ID <code>'1234'</code>, and vice versa.</p></td>
 </tr>
 <tr>
 <td><code>addGeoJson(geoJson:Object, options?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.GeoJsonOptions.md">Data.GeoJsonOptions</a>)</code></td>
@@ -40,6 +40,21 @@ class
 <td><code>forEach(callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a>))</code></td>
 <td><code>None</code></td>
 <td>Repeatedly invokes the given function, passing a feature in the collection to the function on each invocation. The order of iteration through the features is undefined.</td>
+</tr>
+<tr>
+<td><code>getControlPosition()</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ControlPosition.md">ControlPosition</a></code></td>
+<td>Returns the position of the drawing controls on the map.</td>
+</tr>
+<tr>
+<td><code>getControls()</code></td>
+<td><code>Array&lt;string&gt;</code></td>
+<td>Returns which drawing modes are available for the user to select, in the order they are displayed. This does not include the null drawing mode, which is added by default. Possible drawing modes are <code>"Point"</code>, <code>"LineString"</code> or <code>"Polygon"</code>.</td>
+</tr>
+<tr>
+<td><code>getDrawingMode()</code></td>
+<td><code>string</code></td>
+<td>Returns the current drawing mode of the given Data layer. A drawing mode of null means that the user can interact with the map as normal, and clicks do not draw anything. Possible drawing modes are <code>null</code>, <code>"Point"</code>, <code>"LineString"</code> or <code>"Polygon"</code>.</td>
 </tr>
 <tr>
 <td><code>getFeatureById(id:number|string)</code></td>
@@ -77,6 +92,21 @@ class
 <td>Removes the effect of previous <code>overrideStyle()</code> calls. The style of the given feature reverts to the style specified by <code>setStyle()</code>. <p>If no feature is given, all features have their style reverted.</p></td>
 </tr>
 <tr>
+<td><code>setControlPosition(controlPosition:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ControlPosition.md">ControlPosition</a>)</code></td>
+<td><code>None</code></td>
+<td>Sets the position of the drawing controls on the map.</td>
+</tr>
+<tr>
+<td><code>setControls(controls:Array&lt;string&gt;)</code></td>
+<td><code>None</code></td>
+<td>Sets which drawing modes are available for the user to select, in the order they are displayed. This should not include the null drawing mode, which is added by default. If null, drawing controls are disabled and not displayed. Possible drawing modes are <code>"Point"</code>, <code>"LineString"</code> or <code>"Polygon"</code>.</td>
+</tr>
+<tr>
+<td><code>setDrawingMode(drawingMode:string)</code></td>
+<td><code>None</code></td>
+<td>Sets the current drawing mode of the given Data layer. A drawing mode of null means that the user can interact with the map as normal, and clicks do not draw anything. Possible drawing modes are <code>null</code>, <code>"Point"</code>, <code>"LineString"</code> or <code>"Polygon"</code>.</td>
+</tr>
+<tr>
 <td><code>setMap(map:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a>)</code></td>
 <td><code>None</code></td>
 <td>Renders the features on the specified map. If map is set to null, the features will be removed from the map.</td>
@@ -92,7 +122,7 @@ class
 <td>Exports the features in the collection to a GeoJSON object.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_25">Events</h3><table summary="class Data - Events" width="100%">
+</table><h3>Events</h3><table summary="class Data - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>
@@ -160,4 +190,4 @@ class
 <td>This event is fired when a feature's property is set.</td>
 </tr>
 </tbody>
-</table><p></p>
+</table>

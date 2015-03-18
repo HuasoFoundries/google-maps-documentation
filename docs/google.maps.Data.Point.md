@@ -3,7 +3,7 @@ google.maps.Data.Point
 class
 </h2><p>A Point geometry contains a single <code>LatLng</code>.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
-</p><h3 id="devsite_header_34">Constructor</h3><table summary="class Data.Point - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class Data.Point - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Constructs a <code>Data.Point</code> from the given <code>LatLng</code> or <code>LatLngLiteral</code>.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_35">Methods</h3><table summary="class Data.Point - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class Data.Point - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

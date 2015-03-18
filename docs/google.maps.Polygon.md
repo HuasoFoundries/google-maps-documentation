@@ -3,7 +3,7 @@ google.maps.Polygon
 class
 </h2><p>A polygon (like a polyline) defines a series of connected coordinates in an ordered sequence; additionally, polygons form a closed loop and define a filled region.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_75">Constructor</h3><table summary="class Polygon - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class Polygon - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Create a polygon using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PolygonOptions.md">PolygonOptions</a></em></code>, which specify the polygon's path, the stroke style for the polygon's edges, and the fill style for the polygon's interior regions. A polygon may contain one or more paths, where each path consists of an array of <code>LatLng</code>s. You may pass either an array of LatLngs or an <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a></code> of <code>LatLng</code>s when constructing these paths. Arrays are converted to <code>MVCArray</code>s within the polygon upon instantiation.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_76">Methods</h3><table summary="class Polygon - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class Polygon - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -87,7 +87,7 @@ class
 <td>Hides this poly if set to <code>false</code>.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_77">Events</h3><table summary="class Polygon - Events" width="100%">
+</table><h3>Events</h3><table summary="class Polygon - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

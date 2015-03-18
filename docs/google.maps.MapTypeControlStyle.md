@@ -1,7 +1,7 @@
 <h2 id="MapTypeControlStyle">
 google.maps.MapTypeControlStyle
 class
-</h2><p>Identifiers for common MapTypesControls.</p><h3 id="devsite_header_13">Constant</h3><table summary="class MapTypeControlStyle - Constants" width="100%">
+</h2><p>Identifiers for common MapTypesControls.</p><h3>Constant</h3><table summary="class MapTypeControlStyle - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

@@ -1,7 +1,7 @@
 <h2 id="Data.Feature">
 google.maps.Data.Feature
 class
-</h2><p>A feature has a geometry, an id, and a set of properties.</p><h3 id="devsite_header_29">Constructor</h3><table summary="class Data.Feature - Constructor" width="100%">
+</h2><p>A feature has a geometry, an id, and a set of properties.</p><h3>Constructor</h3><table summary="class Data.Feature - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -12,7 +12,7 @@ class
 <td>Constructs a Feature with the given options.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_30">Methods</h3><table summary="class Data.Feature - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class Data.Feature - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -60,7 +60,7 @@ class
 <td>Exports the feature to a GeoJSON object.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_31">Events</h3><table summary="class Data.Feature - Events" width="100%">
+</table><h3>Events</h3><table summary="class Data.Feature - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

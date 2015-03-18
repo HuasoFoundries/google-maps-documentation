@@ -1,7 +1,7 @@
 <h2 id="HeatmapLayerOptions">
 google.maps.visualization.HeatmapLayerOptions
 object specification
-</h2><p>This object defines the properties that can be set on a <code>HeatmapLayer</code> object.</p><h3 id="devsite_header_383">Library</h3><p>visualization</p><h3 id="devsite_header_384">Properties</h3><table summary="interface HeatmapLayerOptions - Properties" width="100%">
+</h2><p>This object defines the properties that can be set on a <code>HeatmapLayer</code> object.</p><h3>Library</h3><p>visualization</p><h3>Properties</h3><table summary="interface HeatmapLayerOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -16,7 +16,7 @@ object specification
 <tr>
 <td><code>dissipating</code></td>
 <td><code>boolean</code></td>
-<td>Specifies whether heatmaps dissipate on zoom. By default, the radius of influence of a data point is specified by the radius option only. When dissipating is disabled, the radius option is intepreted as a radius at zoom level 0.</td>
+<td>Specifies whether heatmaps dissipate on zoom. By default, the radius of influence of a data point is specified by the radius option only. When dissipating is disabled, the radius option is interpreted as a radius at zoom level 0.</td>
 </tr>
 <tr>
 <td><code>gradient</code></td>

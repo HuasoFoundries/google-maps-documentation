@@ -3,7 +3,7 @@ google.maps.StreetViewPanorama
 class
 </h2><p>Displays the panorama for a given <code>LatLng</code> or panorama ID. A <code>StreetViewPanorama</code> object provides a Street View "viewer" which can be stand-alone within a separate <code>&lt;div&gt;</code> or bound to a <code>Map</code>.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_202">Constructor</h3><table summary="class StreetViewPanorama - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class StreetViewPanorama - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a panorama with the passed <code>StreetViewPanoramaOptions</code>.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_203">Methods</h3><table summary="class StreetViewPanorama - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class StreetViewPanorama - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -107,7 +107,7 @@ class
 <td>Sets the zoom level of the panorama. Fully zoomed-out is level 0, where the field of view is 180 degrees. Zooming in increases the zoom level.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_204">Properties</h3><table summary="class StreetViewPanorama - Properties" width="100%">
+</table><h3>Properties</h3><table summary="class StreetViewPanorama - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -120,7 +120,7 @@ class
 <td>Additional controls to attach to the panorama. To add a control to the panorama, add the control's <code>&lt;div&gt;</code> to the <code>MVCArray</code> corresponding to the <code>ControlPosition</code> where it should be rendered.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_205">Events</h3><table summary="class StreetViewPanorama - Events" width="100%">
+</table><h3>Events</h3><table summary="class StreetViewPanorama - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

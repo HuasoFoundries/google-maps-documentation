@@ -1,7 +1,7 @@
 <h2 id="OverlayCompleteEvent">
 google.maps.drawing.OverlayCompleteEvent
 object specification
-</h2><p>The properties of an overlaycomplete event on a <code>DrawingManager</code>.</p><h3 id="devsite_header_329">Library</h3><p>drawing</p><h3 id="devsite_header_330">Properties</h3><table summary="object OverlayCompleteEvent - Properties" width="100%">
+</h2><p>The properties of an overlaycomplete event on a <code>DrawingManager</code>.</p><h3>Library</h3><p>drawing</p><h3>Properties</h3><table summary="object OverlayCompleteEvent - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

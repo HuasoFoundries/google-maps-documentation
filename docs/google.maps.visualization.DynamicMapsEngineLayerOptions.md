@@ -1,7 +1,7 @@
 <h2 id="DynamicMapsEngineLayerOptions">
 google.maps.visualization.DynamicMapsEngineLayerOptions
 object specification
-</h2><p>This object defines the properties that can be set on a <code>DynamicMapsEngineLayer</code> object. <code>layerId</code>, or both <code>mapId</code> and <code>layerKey</code> must be set.</p><h3 id="devsite_header_372">Library</h3><p>visualization</p><h3 id="devsite_header_373">Properties</h3><table summary="interface DynamicMapsEngineLayerOptions - Properties" width="100%">
+</h2><p>This object defines the properties that can be set on a <code>DynamicMapsEngineLayer</code> object. <code>layerId</code>, or both <code>mapId</code> and <code>layerKey</code> must be set.</p><h3>Library</h3><p>visualization</p><h3>Properties</h3><table summary="interface DynamicMapsEngineLayerOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

@@ -3,7 +3,7 @@ google.maps.InfoWindow
 class
 </h2><p>An overlay that looks like a bubble and is often connected to a marker.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_66">Constructor</h3><table summary="class InfoWindow - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class InfoWindow - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates an info window with the given options. An InfoWindow can be placed on a map at a particular position or above a marker, depending on what is specified in the options. Unless auto-pan is disabled, an InfoWindow will pan the map to make itself visible when it is opened. After constructing an InfoWindow, you must call open to display it on the map. The user can click the close button on the InfoWindow to remove it from the map, or the developer can call close() for the same effect.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_67">Methods</h3><table summary="class InfoWindow - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class InfoWindow - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -67,7 +67,7 @@ class
 <td></td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_68">Events</h3><table summary="class InfoWindow - Events" width="100%">
+</table><h3>Events</h3><table summary="class InfoWindow - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

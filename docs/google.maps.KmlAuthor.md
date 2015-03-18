@@ -1,7 +1,7 @@
 <h2 id="KmlAuthor">
 google.maps.KmlAuthor
 object specification
-</h2><p>Contains details of the author of a KML document or feature.</p><h3 id="devsite_header_197">Properties</h3><table summary="object KmlAuthor - Properties" width="100%">
+</h2><p>Contains details of the author of a KML document or feature.</p><h3>Properties</h3><table summary="object KmlAuthor - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

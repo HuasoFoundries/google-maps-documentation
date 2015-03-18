@@ -1,7 +1,7 @@
 <h2 id="MapOptions">
 google.maps.MapOptions
 object specification
-</h2><h3 id="devsite_header_10">Properties</h3><table summary="interface MapOptions - Properties" width="100%">
+</h2><h3>Properties</h3><table summary="interface MapOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

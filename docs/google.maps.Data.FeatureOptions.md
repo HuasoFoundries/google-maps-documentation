@@ -1,7 +1,7 @@
 <h2 id="Data.FeatureOptions">
 google.maps.Data.FeatureOptions
 object specification
-</h2><p>Optional parameters for creating <code>Data.Feature</code> objects.</p><h3 id="devsite_header_32">Properties</h3><table summary="interface Data.FeatureOptions - Properties" width="100%">
+</h2><p>Optional parameters for creating <code>Data.Feature</code> objects.</p><h3>Properties</h3><table summary="interface Data.FeatureOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
