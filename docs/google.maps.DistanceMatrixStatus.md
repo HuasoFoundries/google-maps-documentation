@@ -1,7 +1,7 @@
 <h2 id="DistanceMatrixStatus">
 google.maps.DistanceMatrixStatus
 class
-</h2><p>The top-level status about the request in general returned by the <code>DistanceMatrixService</code> upon completion of a distance matrix request.</p><h3 id="devsite_header_149">Constant</h3><table summary="class DistanceMatrixStatus - Constants" width="100%">
+</h2><p>The top-level status about the request in general returned by the <code>DistanceMatrixService</code> upon completion of a distance matrix request.</p><h3>Constant</h3><table summary="class DistanceMatrixStatus - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

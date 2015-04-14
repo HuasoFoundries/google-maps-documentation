@@ -3,7 +3,7 @@ google.maps.ImageMapType
 class
 </h2><p>This class implements the MapType interface and is provided for rendering image tiles.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_161">Constructor</h3><table summary="class ImageMapType - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class ImageMapType - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Constructs an ImageMapType using the provided ImageMapTypeOptions</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_162">Methods</h3><table summary="class ImageMapType - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class ImageMapType - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -42,7 +42,7 @@ class
 <td>Sets the opacity level (<code>0</code> (transparent) to <code>1.0</code>) of the <code>ImageMapType</code> tiles.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_163">Properties</h3><table summary="class ImageMapType - Properties" width="100%">
+</table><h3>Properties</h3><table summary="class ImageMapType - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -85,7 +85,7 @@ class
 <td></td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_164">Events</h3><table summary="class ImageMapType - Events" width="100%">
+</table><h3>Events</h3><table summary="class ImageMapType - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

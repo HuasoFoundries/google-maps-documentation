@@ -1,7 +1,7 @@
 <h2 id="FusionTablesCell">
 google.maps.FusionTablesCell
 object specification
-</h2><p>Describes a single cell from a Fusion Tables table.</p><h3 id="devsite_header_188">Properties</h3><table summary="interface FusionTablesCell - Properties" width="100%">
+</h2><p>Describes a single cell from a Fusion Tables table.</p><h3>Properties</h3><table summary="interface FusionTablesCell - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

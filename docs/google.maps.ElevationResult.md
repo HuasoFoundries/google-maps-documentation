@@ -1,7 +1,7 @@
 <h2 id="ElevationResult">
 google.maps.ElevationResult
 object specification
-</h2><p>The result of an <code>ElevationService</code> request, consisting of the set of elevation coordinates and their elevation values. Note that a single request may produce multiple <code>ElevationResult</code>s.</p><h3 id="devsite_header_137">Properties</h3><table summary="interface ElevationResult - Properties" width="100%">
+</h2><p>The result of an <code>ElevationService</code> request, consisting of the set of elevation coordinates and their elevation values. Note that a single request may produce multiple <code>ElevationResult</code>s.</p><h3>Properties</h3><table summary="interface ElevationResult - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

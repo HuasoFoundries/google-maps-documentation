@@ -1,7 +1,7 @@
 <h2 id="Data.RemovePropertyEvent">
 google.maps.Data.RemovePropertyEvent
 object specification
-</h2><p>The properties of a <code>removeproperty</code> event.</p><h3 id="devsite_header_55">Properties</h3><table summary="interface Data.RemovePropertyEvent - Properties" width="100%">
+</h2><p>The properties of a <code>removeproperty</code> event.</p><h3>Properties</h3><table summary="interface Data.RemovePropertyEvent - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

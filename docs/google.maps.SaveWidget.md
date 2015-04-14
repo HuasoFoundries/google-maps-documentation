@@ -30,7 +30,7 @@ class
 <td>Returns the <code>Place</code> associated with this <code>SaveWidget</code>.</td>
 </tr>
 <tr>
-<td><code>setAttribution(attribution:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Attribution.md">Attribution</a>)</code></td>
+<td><code>setAttribution(attribution:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Attribution.md"><em>Attribution</em></a>)</code></td>
 <td><code>None</code></td>
 <td>Sets the <code>Attribution</code> associated with this <code>SaveWidget</code>.</td>
 </tr>
@@ -40,7 +40,7 @@ class
 <td></td>
 </tr>
 <tr>
-<td><code>setPlace(place:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Place.md">Place</a>)</code></td>
+<td><code>setPlace(place:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Place.md"><em>Place</em></a>)</code></td>
 <td><code>None</code></td>
 <td>Changes the <code>Place</code> associated with this <code>SaveWidget</code>.</td>
 </tr>

@@ -3,7 +3,7 @@ google.maps.StreetViewCoverageLayer
 class
 </h2><p>A layer that illustrates the locations where Street View is available.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_217">Constructor</h3><table summary="class StreetViewCoverageLayer - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class StreetViewCoverageLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a new instance of <code>StreetViewCoverageLayer</code>.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_218">Methods</h3><table summary="class StreetViewCoverageLayer - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class StreetViewCoverageLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

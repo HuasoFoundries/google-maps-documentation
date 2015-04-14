@@ -3,7 +3,7 @@ google.maps.BicyclingLayer
 class
 </h2><p>A layer showing bike lanes and paths.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_175">Constructor</h3><table summary="class BicyclingLayer - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class BicyclingLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>A layer that displays bike lanes and paths and demotes large roads.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_176">Methods</h3><table summary="class BicyclingLayer - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class BicyclingLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

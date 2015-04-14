@@ -1,7 +1,7 @@
 <h2 id="ElevationService">
 google.maps.ElevationService
 class
-</h2><p>Defines a service class that talks directly to Google servers for requesting elevation data.</p><h3 id="devsite_header_133">Constructor</h3><table summary="class ElevationService - Constructor" width="100%">
+</h2><p>Defines a service class that talks directly to Google servers for requesting elevation data.</p><h3>Constructor</h3><table summary="class ElevationService - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -12,7 +12,7 @@ class
 <td>Creates a new instance of a <code>ElevationService</code> that sends elevation queries to Google servers.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_134">Methods</h3><table summary="class ElevationService - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class ElevationService - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

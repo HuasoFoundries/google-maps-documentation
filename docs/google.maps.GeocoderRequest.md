@@ -1,7 +1,7 @@
 <h2 id="GeocoderRequest">
 google.maps.GeocoderRequest
 object specification
-</h2><p>The specification for a geocoding request to be sent to the <code>Geocoder</code>.</p><h3 id="devsite_header_99">Properties</h3><table summary="interface GeocoderRequest - Properties" width="100%">
+</h2><p>The specification for a geocoding request to be sent to the <code>Geocoder</code>.</p><h3>Properties</h3><table summary="interface GeocoderRequest - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

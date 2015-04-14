@@ -1,7 +1,7 @@
 <h2 id="DrawingManagerOptions">
 google.maps.drawing.DrawingManagerOptions
 object specification
-</h2><p>Options for the drawing manager.</p><h3 id="devsite_header_325">Library</h3><p>drawing</p><h3 id="devsite_header_326">Properties</h3><table summary="interface DrawingManagerOptions - Properties" width="100%">
+</h2><p>Options for the drawing manager.</p><h3>Library</h3><p>drawing</p><h3>Properties</h3><table summary="interface DrawingManagerOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

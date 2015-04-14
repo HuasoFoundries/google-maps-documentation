@@ -1,7 +1,7 @@
 <h2 id="GroundOverlayOptions">
 google.maps.GroundOverlayOptions
 object specification
-</h2><p>This object defines the properties that can be set on a <code>GroundOverlay</code> object.</p><h3 id="devsite_header_92">Properties</h3><table summary="interface GroundOverlayOptions - Properties" width="100%">
+</h2><p>This object defines the properties that can be set on a <code>GroundOverlay</code> object.</p><h3>Properties</h3><table summary="interface GroundOverlayOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

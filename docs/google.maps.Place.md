@@ -1,7 +1,7 @@
 <h2 id="Place">
 google.maps.Place
 object specification
-</h2><h3 id="devsite_header_152">Properties</h3><table summary="interface Place - Properties" width="100%">
+</h2><h3>Properties</h3><table summary="interface Place - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

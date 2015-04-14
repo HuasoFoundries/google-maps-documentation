@@ -1,7 +1,7 @@
 <h2 id="PlaceAspectRating">
 google.maps.places.PlaceAspectRating
 object specification
-</h2><p>Defines information about an aspect of the place that users have reviewed.</p><h3 id="devsite_header_280">Library</h3><p>places</p><h3 id="devsite_header_281">Properties</h3><table summary="object PlaceAspectRating - Properties" width="100%">
+</h2><p>Defines information about an aspect of the place that users have reviewed.</p><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="object PlaceAspectRating - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

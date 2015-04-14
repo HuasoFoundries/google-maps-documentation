@@ -3,7 +3,7 @@ google.maps.MapCanvasProjection
 object specification
 </h2><p>This object is made available to the <code>OverlayView</code> from within the draw method. It is not guaranteed to be initialized until draw is called.</p><p>This object extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_96">Methods</h3><table summary="object MapCanvasProjection - Methods" width="100%">
+</p><h3>Methods</h3><table summary="object MapCanvasProjection - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

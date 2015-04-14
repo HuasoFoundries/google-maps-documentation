@@ -1,7 +1,7 @@
 <h2 id="spherical">
 google.maps.geometry.spherical
 namespace
-</h2><p>Utility functions for computing geodesic angles, distances and areas. The default radius is Earth's radius of 6378137 meters.</p><h3 id="devsite_header_240">Library</h3><p>geometry</p><h3 id="devsite_header_241">Static Methods</h3><table summary="namespace spherical - Static Methods" width="100%">
+</h2><p>Utility functions for computing geodesic angles, distances and areas. The default radius is Earth's radius of 6378137 meters.</p><h3>Library</h3><p>geometry</p><h3>Static Methods</h3><table summary="namespace spherical - Static Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>

@@ -1,7 +1,7 @@
 <h2 id="PathElevationRequest">
 google.maps.PathElevationRequest
 object specification
-</h2><p>An elevation query sent by the <code>ElevationService</code> containing the path along which to return sampled data. This request defines a continuous path along the earth along which elevation samples should be taken at evenly-spaced distances. All paths from vertex to vertex use segments of the great circle between those two points.</p><h3 id="devsite_header_136">Properties</h3><table summary="interface PathElevationRequest - Properties" width="100%">
+</h2><p>An elevation query sent by the <code>ElevationService</code> containing the path along which to return sampled data. This request defines a continuous path along the earth along which elevation samples should be taken at evenly-spaced distances. All paths from vertex to vertex use segments of the great circle between those two points.</p><h3>Properties</h3><table summary="interface PathElevationRequest - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

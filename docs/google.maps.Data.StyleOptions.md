@@ -19,6 +19,16 @@ object specification
 <td>Mouse cursor to show on hover. Only applies to point geometries.</td>
 </tr>
 <tr>
+<td><code>draggable</code></td>
+<td><code>boolean</code></td>
+<td>If <code>true</code>, the object can be dragged across the map and the underlying feature will have its geometry updated. Default value is <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>editable</code></td>
+<td><code>boolean</code></td>
+<td>If <code>true</code>, the object can be edited by dragging control points and the underlying feature will have its geometry updated. Only applies to LineString and Polygon geometries. Default value is <code>false</code>.</td>
+</tr>
+<tr>
 <td><code>fillColor</code></td>
 <td><code>string</code></td>
 <td>The fill color. All CSS3 colors are supported except for extended named colors. Only applies to polygon geometries.</td>
