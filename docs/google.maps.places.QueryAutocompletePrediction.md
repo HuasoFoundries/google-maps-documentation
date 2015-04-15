@@ -1,7 +1,7 @@
 <h2 id="QueryAutocompletePrediction">
 google.maps.places.QueryAutocompletePrediction
 object specification
-</h2><p>Represents a single Query Autocomplete prediction.</p><h3 id="devsite_header_305">Library</h3><p>places</p><h3 id="devsite_header_306">Properties</h3><table summary="interface QueryAutocompletePrediction - Properties" width="100%">
+</h2><p>Represents a single Query Autocomplete prediction.</p><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface QueryAutocompletePrediction - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

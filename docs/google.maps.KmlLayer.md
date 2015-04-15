@@ -3,7 +3,7 @@ google.maps.KmlLayer
 class
 </h2><p>A <code>KmlLayer</code> adds geographic markup to the map from a KML, KMZ or GeoRSS file that is hosted on a publicly accessible web server. A <code>KmlFeatureData</code> object is provided for each feature when clicked.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_189">Constructor</h3><table summary="class KmlLayer - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class KmlLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>Creates a <code>KmlLayer</code> which renders the contents of the specified KML/KMZ file (<a href="https://developers.google.com/kml/documentation/kmlreference">https://developers.google.com/kml/documentation/kmlreference</a>) or GeoRSS file (<a href="http://www.georss.org">http://www.georss.org</a>).</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_190">Methods</h3><table summary="class KmlLayer - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class KmlLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -67,7 +67,7 @@ class
 <td>Sets the z-index of the KML Layer.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_191">Events</h3><table summary="class KmlLayer - Events" width="100%">
+</table><h3>Events</h3><table summary="class KmlLayer - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

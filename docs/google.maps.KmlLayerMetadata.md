@@ -1,7 +1,7 @@
 <h2 id="KmlLayerMetadata">
 google.maps.KmlLayerMetadata
 object specification
-</h2><p>Metadata for a single KML layer, in JSON format.</p><h3 id="devsite_header_193">Properties</h3><table summary="object KmlLayerMetadata - Properties" width="100%">
+</h2><p>Metadata for a single KML layer, in JSON format.</p><h3>Properties</h3><table summary="object KmlLayerMetadata - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

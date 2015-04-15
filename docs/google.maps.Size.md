@@ -1,7 +1,7 @@
 <h2 id="Size">
 google.maps.Size
 class
-</h2><h3 id="devsite_header_230">Constructor</h3><table summary="class Size - Constructor" width="100%">
+</h2><h3>Constructor</h3><table summary="class Size - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -12,7 +12,7 @@ class
 <td>Two-dimensonal size, where width is the distance on the x-axis, and height is the distance on the y-axis.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_231">Methods</h3><table summary="class Size - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class Size - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -30,7 +30,7 @@ class
 <td>Returns a string representation of this Size.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_232">Properties</h3><table summary="class Size - Properties" width="100%">
+</table><h3>Properties</h3><table summary="class Size - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

@@ -1,7 +1,7 @@
 <h2 id="PlacesServiceStatus">
 google.maps.places.PlacesServiceStatus
 class
-</h2><p>The status returned by the <code>PlacesService</code> on the completion of its searches.</p><h3 id="devsite_header_303">Library</h3><p>places</p><h3 id="devsite_header_304">Constant</h3><table summary="class PlacesServiceStatus - Constants" width="100%">
+</h2><p>The status returned by the <code>PlacesService</code> on the completion of its searches.</p><h3>Library</h3><p>places</p><h3>Constant</h3><table summary="class PlacesServiceStatus - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>

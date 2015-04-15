@@ -1,7 +1,7 @@
 <h2 id="PlaceReview">
 google.maps.places.PlaceReview
 object specification
-</h2><p>Represents a single review of a place.</p><h3 id="devsite_header_293">Library</h3><p>places</p><h3 id="devsite_header_294">Properties</h3><table summary="object PlaceReview - Properties" width="100%">
+</h2><p>Represents a single review of a place.</p><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="object PlaceReview - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

@@ -1,7 +1,7 @@
 <h2 id="GeocoderComponentRestrictions">
 google.maps.GeocoderComponentRestrictions
 object specification
-</h2><p><code>GeocoderComponentRestrictions</code> represent a set of filters that resolve to a specific area. For details on how this works, see <a href="https://developers.google.com/maps/documentation/geocoding/#ComponentFiltering">Geocoding Component Filtering</a>.</p><h3 id="devsite_header_100">Properties</h3><table summary="interface GeocoderComponentRestrictions - Properties" width="100%">
+</h2><p><code>GeocoderComponentRestrictions</code> represent a set of filters that resolve to a specific area. For details on how this works, see <a href="https://developers.google.com/maps/documentation/geocoding/#ComponentFiltering">Geocoding Component Filtering</a>.</p><h3>Properties</h3><table summary="interface GeocoderComponentRestrictions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

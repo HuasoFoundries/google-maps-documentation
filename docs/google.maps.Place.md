@@ -16,7 +16,7 @@ object specification
 <tr>
 <td><code>placeId</code></td>
 <td><code>string</code></td>
-<td>The place ID of the place (such as a business or point of interest). The place ID is a unique identifier of a place in the Google Maps database. Note that the <code>placeId</code> is the most accurate way of identifying a place. If possible, you should specify the <code>placeId</code> rather than a <code>placeQuery</code>. A place ID can be retrieved from any request to the Places API, such as a <a href="https://developers.google.com/places/documentation/search"> TextSearch</a>.</td>
+<td>The place ID of the place (such as a business or point of interest). The place ID is a unique identifier of a place in the Google Maps database. Note that the <code>placeId</code> is the most accurate way of identifying a place. If possible, you should specify the <code>placeId</code> rather than a <code>placeQuery</code>. A place ID can be retrieved from any request to the Places API, such as a <a href="https://developers.google.com/places/webservice/search"> TextSearch</a>.</td>
 </tr>
 <tr>
 <td><code>query</code></td>

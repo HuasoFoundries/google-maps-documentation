@@ -238,4 +238,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Monday, March 23, 2015
+Last updated Monday, April 13, 2015

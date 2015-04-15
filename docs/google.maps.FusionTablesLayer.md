@@ -3,7 +3,7 @@ google.maps.FusionTablesLayer
 class
 </h2><p>A <code>FusionTablesLayer</code> allows you to display data from a Google Fusion Table on a map, as a rendered layer. (See <a href="https://developers.google.com/fusiontables/">https://developers.google.com/fusiontables/</a> for more information about Fusion Tables).</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3 id="devsite_header_177">Constructor</h3><table summary="class FusionTablesLayer - Constructor" width="100%">
+</p><h3>Constructor</h3><table summary="class FusionTablesLayer - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
 <th>Description</th>
@@ -14,7 +14,7 @@ class
 <td>A layer that displays data from a Fusion Table.</td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_178">Methods</h3><table summary="class FusionTablesLayer - Methods" width="100%">
+</table><h3>Methods</h3><table summary="class FusionTablesLayer - Methods" width="100%">
 <thead>
 <tr><th>Methods</th>
 <th>Return Value</th>
@@ -37,7 +37,7 @@ class
 <td></td>
 </tr>
 </tbody>
-</table><h3 id="devsite_header_179">Events</h3><table summary="class FusionTablesLayer - Events" width="100%">
+</table><h3>Events</h3><table summary="class FusionTablesLayer - Events" width="100%">
 <thead>
 <tr><th>Events</th>
 <th>Arguments</th>

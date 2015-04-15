@@ -1,20 +1,7 @@
 <h2 id="ImageMapTypeOptions">
 google.maps.ImageMapTypeOptions
 object specification
-</h2><p>This class is used to create a MapType that renders image tiles.</p><h3 id="devsite_header_165">Methods</h3><table summary="interface ImageMapTypeOptions - Methods" width="100%">
-<thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><code>getTileUrl(coordinate:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a>, zoom:number)</code></td>
-<td><code>string</code></td>
-<td>Returns a string (URL) for given tile coordinate (x, y) and zoom level.</td>
-</tr>
-</tbody>
-</table><h3 id="devsite_header_166">Properties</h3><table summary="interface ImageMapTypeOptions - Properties" width="100%">
+</h2><p>This class is used to create a MapType that renders image tiles.</p><h3>Properties</h3><table summary="interface ImageMapTypeOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -25,6 +12,11 @@ object specification
 <td><code>alt</code></td>
 <td><code>string</code></td>
 <td>Alt text to display when this MapType's button is hovered over in the MapTypeControl.</td>
+</tr>
+<tr>
+<td><code>getTileUrl</code></td>
+<td><code>function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a>, number): string</code></td>
+<td>Returns a string (URL) for given tile coordinate (x, y) and zoom level.</td>
 </tr>
 <tr>
 <td><code>maxZoom</code></td>
