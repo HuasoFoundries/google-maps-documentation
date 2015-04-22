@@ -42,5 +42,10 @@ Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/ma
 <td><code>None</code></td>
 <td>Renders the heatmap on the specified map. If map is set to null, the heatmap will be removed.</td>
 </tr>
+<tr>
+<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.HeatmapLayerOptions.md"><em>HeatmapLayerOptions</em></a>)</code></td>
+<td><code>None</code></td>
+<td></td>
+</tr>
 </tbody>
 </table>
