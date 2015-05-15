@@ -9,22 +9,22 @@ namespace
 </tr></thead>
 <tbody>
 <tr>
-<td><code>addDomListener(instance:Object, eventName:string, handler:Function, capture?:boolean)</code></td>
+<td><code>addDomListener(instance:Object, eventName:string, handler:function(?), capture?:boolean)</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapsEventListener.md">MapsEventListener</a></code></td>
 <td>Cross browser event handler registration. This listener is removed by calling removeListener(handle) for the handle that is returned by this function.</td>
 </tr>
 <tr>
-<td><code>addDomListenerOnce(instance:Object, eventName:string, handler:Function, capture?:boolean)</code></td>
+<td><code>addDomListenerOnce(instance:Object, eventName:string, handler:function(?), capture?:boolean)</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapsEventListener.md">MapsEventListener</a></code></td>
 <td>Wrapper around addDomListener that removes the listener after the first event.</td>
 </tr>
 <tr>
-<td><code>addListener(instance:Object, eventName:string, handler:Function)</code></td>
+<td><code>addListener(instance:Object, eventName:string, handler:function(?))</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapsEventListener.md">MapsEventListener</a></code></td>
 <td>Adds the given listener function to the given event name for the given object instance. Returns an identifier for this listener that can be used with removeListener().</td>
 </tr>
 <tr>
-<td><code>addListenerOnce(instance:Object, eventName:string, handler:Function)</code></td>
+<td><code>addListenerOnce(instance:Object, eventName:string, handler:function(?))</code></td>
 <td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapsEventListener.md">MapsEventListener</a></code></td>
 <td>Like addListener, but the handler removes itself after handling the first event.</td>
 </tr>
