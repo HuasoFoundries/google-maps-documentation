@@ -10,3 +10,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
+Last updated Friday, May 22, 2015
