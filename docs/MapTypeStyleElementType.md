@@ -1,10 +1,12 @@
 <h2 id="MapTypeStyleElementType">
-google.maps.MapTypeStyleElementType
+MapTypeStyleElementType
 object specification
-</h2><p>Each <code>MapTypeStyleElementType</code> distinguishes between the different representations of a feature.</p><h3>Constant</h3><table summary="object MapTypeStyleElementType - Constants" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeStyleElementType</span></code>
+object specification
+</p><p>Each <code>MapTypeStyleElementType</code> distinguishes between the different representations of a feature.</p><table class="constants responsive" summary="object MapTypeStyleElementType - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>

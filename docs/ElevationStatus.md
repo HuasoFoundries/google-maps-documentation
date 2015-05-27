@@ -1,10 +1,12 @@
 <h2 id="ElevationStatus">
-google.maps.ElevationStatus
+ElevationStatus
 class
-</h2><p>The status returned by the <code>ElevationService</code> upon completion of an elevation requerst.</p><h3>Constant</h3><table summary="class ElevationStatus - Constants" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">ElevationStatus</span></code>
+class
+</p><p>The status returned by the <code>ElevationService</code> upon completion of an elevation requerst.</p><table class="constants responsive" summary="class ElevationStatus - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>

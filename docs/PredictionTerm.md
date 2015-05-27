@@ -1,22 +1,23 @@
 <h2 id="PredictionTerm">
-google.maps.places.PredictionTerm
+PredictionTerm
 object specification
-</h2><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface PredictionTerm - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PredictionTerm</span></code>
+object specification
+</p><h4>Library</h4><p>places</p><table class="properties responsive" summary="interface PredictionTerm - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>offset</code></td>
-<td><code>number</code></td>
-<td>The offset, in unicode characters, of the start of this term in the description of the place.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The offset, in unicode characters, of the start of this term in the description of the place.</div></td>
 </tr>
 <tr>
 <td><code>value</code></td>
-<td><code>string</code></td>
-<td>The value of this term, e.g. "Taco Bell".</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The value of this term, e.g. "Taco Bell".</div></td>
 </tr>
 </tbody>
 </table>

@@ -1,10 +1,12 @@
 <h2 id="StreetViewStatus">
-google.maps.StreetViewStatus
+StreetViewStatus
 class
-</h2><p>The status returned by the <code>StreetViewService</code> on completion of a Street View request.</p><h3>Constant</h3><table summary="class StreetViewStatus - Constants" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewStatus</span></code>
+class
+</p><p>The status returned by the <code>StreetViewService</code> on completion of a Street View request.</p><table class="constants responsive" summary="class StreetViewStatus - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>

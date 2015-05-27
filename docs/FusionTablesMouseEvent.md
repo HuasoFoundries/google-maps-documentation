@@ -1,32 +1,33 @@
 <h2 id="FusionTablesMouseEvent">
-google.maps.FusionTablesMouseEvent
+FusionTablesMouseEvent
 object specification
-</h2><p>The properties of a mouse event on a <code>FusionTablesLayer</code>.</p><h3>Properties</h3><table summary="interface FusionTablesMouseEvent - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">FusionTablesMouseEvent</span></code>
+object specification
+</p><p>The properties of a mouse event on a <code>FusionTablesLayer</code>.</p><table class="properties responsive" summary="interface FusionTablesMouseEvent - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>infoWindowHtml</code></td>
-<td><code>string</code></td>
-<td>Pre-rendered HTML content, as placed in the infowindow by the default UI.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Pre-rendered HTML content, as placed in the infowindow by the default UI.</div></td>
 </tr>
 <tr>
 <td><code>latLng</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The position at which to anchor an infowindow on the clicked feature.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">The position at which to anchor an infowindow on the clicked feature.</div></td>
 </tr>
 <tr>
 <td><code>pixelOffset</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
-<td>The offset to apply to an infowindow anchored on the clicked feature.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md">Size</a></code></div>
+<div class="desc">The offset to apply to an infowindow anchored on the clicked feature.</div></td>
 </tr>
 <tr>
 <td><code>row</code></td>
-<td><code>Object&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesCell.md">FusionTablesCell</a>&gt;</code></td>
-<td>A collection of <code>FusionTablesCell</code> objects, indexed by column name, representing the contents of the table row which included the clicked feature.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>Object&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesCell.md">FusionTablesCell</a>&gt;</code></div>
+<div class="desc">A collection of <code>FusionTablesCell</code> objects, indexed by column name, representing the contents of the table row which included the clicked feature.</div></td>
 </tr>
 </tbody>
 </table>

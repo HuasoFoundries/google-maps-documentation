@@ -1,47 +1,48 @@
 <h2 id="KmlLayerOptions">
-google.maps.KmlLayerOptions
+KmlLayerOptions
 object specification
-</h2><p>This object defines the properties that can be set on a <code>KmlLayer</code> object.</p><h3>Properties</h3><table summary="interface KmlLayerOptions - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">KmlLayerOptions</span></code>
+object specification
+</p><p>This object defines the properties that can be set on a <code>KmlLayer</code> object.</p><table class="properties responsive" summary="interface KmlLayerOptions - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>clickable</code></td>
-<td><code>boolean</code></td>
-<td>If true, the layer receives mouse events. Default value is true.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If true, the layer receives mouse events. Default value is true.</div></td>
 </tr>
 <tr>
 <td><code>map</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
-<td>The map on which to display the layer.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
+<div class="desc">The map on which to display the layer.</div></td>
 </tr>
 <tr>
 <td><code>preserveViewport</code></td>
-<td><code>boolean</code></td>
-<td>By default, the input map is centered and zoomed to the bounding box of the contents of the layer. If this option is set to <code>true</code>, the viewport is left unchanged, unless the map's center and zoom were never set.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">By default, the input map is centered and zoomed to the bounding box of the contents of the layer. If this option is set to <code>true</code>, the viewport is left unchanged, unless the map's center and zoom were never set.</div></td>
 </tr>
 <tr>
 <td><code>screenOverlays</code></td>
-<td><code>boolean</code></td>
-<td>Whether to render the screen overlays. Default true.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Whether to render the screen overlays. Default true.</div></td>
 </tr>
 <tr>
 <td><code>suppressInfoWindows</code></td>
-<td><code>boolean</code></td>
-<td>Suppress the rendering of info windows when layer features are clicked.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Suppress the rendering of info windows when layer features are clicked.</div></td>
 </tr>
 <tr>
 <td><code>url</code></td>
-<td><code>string</code></td>
-<td>The URL of the KML document to display.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The URL of the KML document to display.</div></td>
 </tr>
 <tr>
 <td><code>zIndex</code></td>
-<td><code>number</code></td>
-<td>The z-index of the layer.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The z-index of the layer.</div></td>
 </tr>
 </tbody>
 </table>

@@ -1,10 +1,12 @@
 <h2 id="MapTypeStyleFeatureType">
-google.maps.MapTypeStyleFeatureType
+MapTypeStyleFeatureType
 object specification
-</h2><p>Possible values for feature types. Specify these values as strings, i.e. <code>'administrative'</code> or <code>'poi.park'</code>. Stylers applied to a parent feature type automatically apply to all child feature types. Note however that parent features may include some additional features that are not included in one of their child feature types.</p><h3>Constant</h3><table summary="object MapTypeStyleFeatureType - Constants" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeStyleFeatureType</span></code>
+object specification
+</p><p>Possible values for feature types. Specify these values as strings, i.e. <code>'administrative'</code> or <code>'poi.park'</code>. Stylers applied to a parent feature type automatically apply to all child feature types. Note however that parent features may include some additional features that are not included in one of their child feature types.</p><table class="constants responsive" summary="object MapTypeStyleFeatureType - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>

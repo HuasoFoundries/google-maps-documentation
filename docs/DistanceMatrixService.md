@@ -1,10 +1,12 @@
 <h2 id="DistanceMatrixService">
-google.maps.DistanceMatrixService
+DistanceMatrixService
 class
-</h2><p>A service for computing distances between multiple origins and destinations.</p><h3>Constructor</h3><table summary="class DistanceMatrixService - Constructor" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixService</span></code>
+class
+</p><p>A service for computing distances between multiple origins and destinations.</p><table class="constructors responsive" summary="class DistanceMatrixService - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
@@ -12,17 +14,15 @@ class
 <td>Creates a new instance of a <code>DistanceMatrixService</code> that sends distance matrix queries to Google servers.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class DistanceMatrixService - Methods" width="100%">
+</table><table class="methods responsive" summary="class DistanceMatrixService - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getDistanceMatrix(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixRequest.md"><em>DistanceMatrixRequest</em></a>, callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponse.md">DistanceMatrixResponse</a>, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixStatus.md">DistanceMatrixStatus</a>))</code></td>
-<td><code>None</code></td>
-<td>Issues a distance matrix request.</td>
+<td><code>getDistanceMatrix(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixRequest.md"><em>DistanceMatrixRequest</em></a>, callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponse.md">DistanceMatrixResponse</a>, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixStatus.md">DistanceMatrixStatus</a>))</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Issues a distance matrix request.</div></td>
 </tr>
 </tbody>
 </table>

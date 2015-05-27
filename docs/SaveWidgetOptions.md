@@ -1,22 +1,23 @@
 <h2 id="SaveWidgetOptions">
-google.maps.SaveWidgetOptions
+SaveWidgetOptions
 object specification
-</h2><h3>Properties</h3><table summary="interface SaveWidgetOptions - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">SaveWidgetOptions</span></code>
+object specification
+</p><table class="properties responsive" summary="interface SaveWidgetOptions - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>attribution</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Attribution.md">Attribution</a></code></td>
-<td>Contains all the information needed to identify your application as the source of a save to Google Maps. The <code>SaveWidget</code> will show this information when a user saves the associated <code>Place</code>.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md">Attribution</a></code></div>
+<div class="desc">Contains all the information needed to identify your application as the source of a save to Google Maps. The <code>SaveWidget</code> will show this information when a user saves the associated <code>Place</code>.</div></td>
 </tr>
 <tr>
 <td><code>place</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Place.md">Place</a></code></td>
-<td>Describes a Place that a user can save from your application to their personalized map. In this context, 'place' means a business, point of interest or geographic location.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a></code></div>
+<div class="desc">Describes a Place that a user can save from your application to their personalized map. In this context, 'place' means a business, point of interest or geographic location.</div></td>
 </tr>
 </tbody>
 </table>

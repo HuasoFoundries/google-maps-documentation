@@ -1,22 +1,23 @@
 <h2 id="PredictionSubstring">
-google.maps.places.PredictionSubstring
+PredictionSubstring
 object specification
-</h2><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface PredictionSubstring - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PredictionSubstring</span></code>
+object specification
+</p><h4>Library</h4><p>places</p><table class="properties responsive" summary="interface PredictionSubstring - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>length</code></td>
-<td><code>number</code></td>
-<td>The length of the substring.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The length of the substring.</div></td>
 </tr>
 <tr>
 <td><code>offset</code></td>
-<td><code>number</code></td>
-<td>The offset to the substring's start within the description string.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The offset to the substring's start within the description string.</div></td>
 </tr>
 </tbody>
 </table>

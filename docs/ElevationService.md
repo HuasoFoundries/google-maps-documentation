@@ -1,10 +1,12 @@
 <h2 id="ElevationService">
-google.maps.ElevationService
+ElevationService
 class
-</h2><p>Defines a service class that talks directly to Google servers for requesting elevation data.</p><h3>Constructor</h3><table summary="class ElevationService - Constructor" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">ElevationService</span></code>
+class
+</p><p>Defines a service class that talks directly to Google servers for requesting elevation data.</p><table class="constructors responsive" summary="class ElevationService - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
@@ -12,22 +14,20 @@ class
 <td>Creates a new instance of a <code>ElevationService</code> that sends elevation queries to Google servers.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class ElevationService - Methods" width="100%">
+</table><table class="methods responsive" summary="class ElevationService - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getElevationAlongPath(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PathElevationRequest.md"><em>PathElevationRequest</em></a>, callback:function(Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ElevationResult.md">ElevationResult</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ElevationStatus.md">ElevationStatus</a>))</code></td>
-<td><code>None</code></td>
-<td>Makes an elevation request along a path, where the elevation data are returned as distance-based samples along that path.</td>
+<td><code>getElevationAlongPath(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PathElevationRequest.md"><em>PathElevationRequest</em></a>, callback:function(Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationResult.md">ElevationResult</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationStatus.md">ElevationStatus</a>))</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Makes an elevation request along a path, where the elevation data are returned as distance-based samples along that path.</div></td>
 </tr>
 <tr>
-<td><code>getElevationForLocations(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LocationElevationRequest.md"><em>LocationElevationRequest</em></a>, callback:function(Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ElevationResult.md">ElevationResult</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ElevationStatus.md">ElevationStatus</a>))</code></td>
-<td><code>None</code></td>
-<td>Makes an elevation request for a list of discrete locations.</td>
+<td><code>getElevationForLocations(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LocationElevationRequest.md"><em>LocationElevationRequest</em></a>, callback:function(Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationResult.md">ElevationResult</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationStatus.md">ElevationStatus</a>))</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Makes an elevation request for a list of discrete locations.</div></td>
 </tr>
 </tbody>
 </table>

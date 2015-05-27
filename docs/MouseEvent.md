@@ -1,30 +1,29 @@
 <h2 id="MouseEvent">
-google.maps.MouseEvent
+MouseEvent
 object specification
-</h2><p>This object is returned from various mouse events on the map and overlays, and contains all the fields shown below.</p><h3>Methods</h3><table summary="object MouseEvent - Methods" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">MouseEvent</span></code>
+object specification
+</p><p>This object is returned from various mouse events on the map and overlays, and contains all the fields shown below.</p><table class="methods responsive" summary="object MouseEvent - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>stop()</code></td>
-<td><code>None</code></td>
-<td>Prevents this event from propagating further.</td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Prevents this event from propagating further.</div></td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="object MouseEvent - Properties" width="100%">
+</table><table class="properties responsive" summary="object MouseEvent - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>latLng</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The latitude/longitude that was below the cursor when the event occurred.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">The latitude/longitude that was below the cursor when the event occurred.</div></td>
 </tr>
 </tbody>
 </table>

@@ -1,40 +1,39 @@
 <h2 id="PlacePhoto">
-google.maps.places.PlacePhoto
+PlacePhoto
 object specification
-</h2><p>Represents a photo element of a Place.</p><h3>Library</h3><p>places</p><h3>Methods</h3><table summary="interface PlacePhoto - Methods" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlacePhoto</span></code>
+object specification
+</p><p>Represents a photo element of a Place.</p><h4>Library</h4><p>places</p><table class="methods responsive" summary="interface PlacePhoto - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getUrl(opts:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PhotoOptions.md"><em>PhotoOptions</em></a>)</code></td>
-<td><code>string</code></td>
-<td>Returns the image URL corresponding to the specified options. You must include a PhotoOptions object with at least one of maxWidth or maxHeight specified.</td>
+<td><code>getUrl(opts:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PhotoOptions.md"><em>PhotoOptions</em></a>)</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Returns the image URL corresponding to the specified options. You must include a PhotoOptions object with at least one of maxWidth or maxHeight specified.</div></td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="interface PlacePhoto - Properties" width="100%">
+</table><table class="properties responsive" summary="interface PlacePhoto - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>height</code></td>
-<td><code>number</code></td>
-<td>The height of the photo in pixels.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The height of the photo in pixels.</div></td>
 </tr>
 <tr>
 <td><code>html_attributions</code></td>
-<td><code>Array&lt;string&gt;</code></td>
-<td>Attribution text to be displayed for this photo.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
+<div class="desc">Attribution text to be displayed for this photo.</div></td>
 </tr>
 <tr>
 <td><code>width</code></td>
-<td><code>number</code></td>
-<td>The width of the photo in pixels.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The width of the photo in pixels.</div></td>
 </tr>
 </tbody>
 </table>

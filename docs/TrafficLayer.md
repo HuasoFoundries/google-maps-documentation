@@ -1,12 +1,14 @@
 <h2 id="TrafficLayer">
-google.maps.TrafficLayer
+TrafficLayer
 class
-</h2><p>A traffic layer.</p><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class TrafficLayer - Constructor" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">TrafficLayer</span></code>
+class
+</p><p>A traffic layer.</p><p>This class extends
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
+</p><table class="constructors responsive" summary="class TrafficLayer - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
@@ -14,22 +16,20 @@ class
 <td>A layer that displays current road traffic.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class TrafficLayer - Methods" width="100%">
+</table><table class="methods responsive" summary="class TrafficLayer - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>getMap()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
-<td>Returns the map on which this layer is displayed.</td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
+<div class="desc">Returns the map on which this layer is displayed.</div></td>
 </tr>
 <tr>
-<td><code>setMap(map:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a>)</code></td>
-<td><code>None</code></td>
-<td>Renders the layer on the specified map. If map is set to null, the layer will be removed.</td>
+<td><code>setMap(map:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a>)</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Renders the layer on the specified map. If map is set to null, the layer will be removed.</div></td>
 </tr>
 </tbody>
 </table>

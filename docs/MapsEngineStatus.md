@@ -1,10 +1,12 @@
 <h2 id="MapsEngineStatus">
-google.maps.visualization.MapsEngineStatus
+MapsEngineStatus
 object specification
-</h2><p>The status returned by <code>MapsEngineLayer</code> when a layer has loaded.</p><h3>Library</h3><p>visualization</p><h3>Constant</h3><table summary="object MapsEngineStatus - Constants" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">MapsEngineStatus</span></code>
+object specification
+</p><p>The status returned by <code>MapsEngineLayer</code> when a layer has loaded.</p><h4>Library</h4><p>visualization</p><table class="constants responsive" summary="object MapsEngineStatus - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>

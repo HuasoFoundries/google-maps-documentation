@@ -1,85 +1,84 @@
 <h2 id="FeatureStyle">
-google.maps.visualization.FeatureStyle
+FeatureStyle
 object specification
-</h2><h3>Library</h3><p>visualization</p><h3>Methods</h3><table summary="interface FeatureStyle - Methods" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">FeatureStyle</span></code>
+object specification
+</p><h4>Library</h4><p>visualization</p><table class="methods responsive" summary="interface FeatureStyle - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>reset(property:string)</code></td>
-<td><code>None</code></td>
-<td>Resets the given style property to its original value.</td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Resets the given style property to its original value.</div></td>
 </tr>
 <tr>
 <td><code>resetAll()</code></td>
-<td><code>None</code></td>
-<td>Resets all style properties to their original values.</td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Resets all style properties to their original values.</div></td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="interface FeatureStyle - Properties" width="100%">
+</table><table class="properties responsive" summary="interface FeatureStyle - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>fillColor</code></td>
-<td><code>string</code></td>
-<td>The feature's fill color. All CSS3 colors are supported except for extended named colors.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The feature's fill color. All CSS3 colors are supported except for extended named colors.</div></td>
 </tr>
 <tr>
 <td><code>fillOpacity</code></td>
-<td><code>string</code></td>
-<td>Fill opacity, expressed as a decimal between 0 and 1 inclusive. This property may be set as a number, but it will always be returned as a string.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Fill opacity, expressed as a decimal between 0 and 1 inclusive. This property may be set as a number, but it will always be returned as a string.</div></td>
 </tr>
 <tr>
 <td><code>iconAnchor</code></td>
-<td><code>string</code></td>
-<td>The icon's anchor point is the pixel in the source image that is aligned with the point's geographical location, expressed as a whitespace-separated pair of numbers: <code>x y</code>. Defaults to the center of the icon.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The icon's anchor point is the pixel in the source image that is aligned with the point's geographical location, expressed as a whitespace-separated pair of numbers: <code>x y</code>. Defaults to the center of the icon.</div></td>
 </tr>
 <tr>
 <td><code>iconClip</code></td>
-<td><code>string</code></td>
-<td>The rectangular region of the icon's image (in image pixel coordinates) to use, as a whitespace-separated 4-tuple of numbers: <code>x y width height</code>. For example, to use a 32x32 icon situated at (0, 64) in a sprite sheet, specify <code>0 64 32 32</code>.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The rectangular region of the icon's image (in image pixel coordinates) to use, as a whitespace-separated 4-tuple of numbers: <code>x y width height</code>. For example, to use a 32x32 icon situated at (0, 64) in a sprite sheet, specify <code>0 64 32 32</code>.</div></td>
 </tr>
 <tr>
 <td><code>iconImage</code></td>
-<td><code>string</code></td>
-<td>The image to render at the point. Currently, only <code>url(...)</code> is supported.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The image to render at the point. Currently, only <code>url(...)</code> is supported.</div></td>
 </tr>
 <tr>
 <td><code>iconOpacity</code></td>
-<td><code>string</code></td>
-<td>Icon opacity, expressed as a decimal between 0 and 1 inclusive. This property may be set as a number, but it will always be returned as a string.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Icon opacity, expressed as a decimal between 0 and 1 inclusive. This property may be set as a number, but it will always be returned as a string.</div></td>
 </tr>
 <tr>
 <td><code>iconSize</code></td>
-<td><code>string</code></td>
-<td>Icon size, expressed as a string with two measurements (with pixel or percentage as unit) separated by whitespace.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Icon size, expressed as a string with two measurements (with pixel or percentage as unit) separated by whitespace.</div></td>
 </tr>
 <tr>
 <td><code>strokeColor</code></td>
-<td><code>string</code></td>
-<td>The feature's stroke color. All CSS3 colors are supported except for extended named colors.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The feature's stroke color. All CSS3 colors are supported except for extended named colors.</div></td>
 </tr>
 <tr>
 <td><code>strokeOpacity</code></td>
-<td><code>string</code></td>
-<td>Stroke opacity, expressed as a decimal between 0 and 1 inclusive. This property may be set as a number, but it will always be returned as a string.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Stroke opacity, expressed as a decimal between 0 and 1 inclusive. This property may be set as a number, but it will always be returned as a string.</div></td>
 </tr>
 <tr>
 <td><code>strokeWidth</code></td>
-<td><code>string</code></td>
-<td>Stroke width in pixels. This property may be set as a number, but it will always be returned as a string.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Stroke width in pixels. This property may be set as a number, but it will always be returned as a string.</div></td>
 </tr>
 <tr>
 <td><code>zIndex</code></td>
-<td><code>string</code></td>
-<td>Rendering order. Features with greater zIndex are rendered on top.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Rendering order. Features with greater zIndex are rendered on top.</div></td>
 </tr>
 </tbody>
 </table>

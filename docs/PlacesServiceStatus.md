@@ -1,10 +1,12 @@
 <h2 id="PlacesServiceStatus">
-google.maps.places.PlacesServiceStatus
+PlacesServiceStatus
 class
-</h2><p>The status returned by the <code>PlacesService</code> on the completion of its searches.</p><h3>Library</h3><p>places</p><h3>Constant</h3><table summary="class PlacesServiceStatus - Constants" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlacesServiceStatus</span></code>
+class
+</p><p>The status returned by the <code>PlacesService</code> on the completion of its searches.</p><h4>Library</h4><p>places</p><table class="constants responsive" summary="class PlacesServiceStatus - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>

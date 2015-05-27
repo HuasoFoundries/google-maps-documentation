@@ -1,17 +1,18 @@
 <h2 id="MapsEngineLayerProperties">
-google.maps.visualization.MapsEngineLayerProperties
+MapsEngineLayerProperties
 object specification
-</h2><p>This object defines the properties of a Maps Engine layer.</p><h3>Library</h3><p>visualization</p><h3>Properties</h3><table summary="interface MapsEngineLayerProperties - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">MapsEngineLayerProperties</span></code>
+object specification
+</p><p>This object defines the properties of a Maps Engine layer.</p><h4>Library</h4><p>visualization</p><table class="properties responsive" summary="interface MapsEngineLayerProperties - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>name</code></td>
-<td><code>string</code></td>
-<td>The name of the layer.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The name of the layer.</div></td>
 </tr>
 </tbody>
 </table>

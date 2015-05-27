@@ -1,62 +1,63 @@
 <h2 id="DistanceMatrixRequest">
-google.maps.DistanceMatrixRequest
+DistanceMatrixRequest
 object specification
-</h2><p>A distance matrix query sent by the <code>DistanceMatrixService</code> containing arrays of origin and destination locations, and various options for computing metrics.</p><h3>Properties</h3><table summary="interface DistanceMatrixRequest - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixRequest</span></code>
+object specification
+</p><p>A distance matrix query sent by the <code>DistanceMatrixService</code> containing arrays of origin and destination locations, and various options for computing metrics.</p><table class="properties responsive" summary="interface DistanceMatrixRequest - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>avoidFerries</code></td>
-<td><code>boolean</code></td>
-<td>If true, instructs the Distance Matrix service to avoid ferries where possible. Optional.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If true, instructs the Distance Matrix service to avoid ferries where possible. Optional.</div></td>
 </tr>
 <tr>
 <td><code>avoidHighways</code></td>
-<td><code>boolean</code></td>
-<td>If true, instructs the Distance Matrix service to avoid highways where possible. Optional.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If true, instructs the Distance Matrix service to avoid highways where possible. Optional.</div></td>
 </tr>
 <tr>
 <td><code>avoidTolls</code></td>
-<td><code>boolean</code></td>
-<td>If true, instructs the Distance Matrix service to avoid toll roads where possible. Optional.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If true, instructs the Distance Matrix service to avoid toll roads where possible. Optional.</div></td>
 </tr>
 <tr>
 <td><code>destinations</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;|Array&lt;string&gt;</code></td>
-<td>An array containing destination address strings and/or <code>LatLng</code>s, to which to calculate distance and time. Required.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>&gt;|Array&lt;string&gt;</code></div>
+<div class="desc">An array containing destination address strings and/or <code>LatLng</code>s, to which to calculate distance and time. Required.</div></td>
 </tr>
 <tr>
 <td><code>durationInTraffic</code></td>
-<td><code>boolean</code></td>
-<td>Whether or not we should provide trip durations based on current traffic conditions. Only available to Maps API for Work customers.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Whether or not we should provide trip durations based on current traffic conditions. Only available to Maps API for Work customers.</div></td>
 </tr>
 <tr>
 <td><code>origins</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;|Array&lt;string&gt;</code></td>
-<td>An array containing origin address strings and/or <code>LatLng</code>s, from which to calculate distance and time. Required.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>&gt;|Array&lt;string&gt;</code></div>
+<div class="desc">An array containing origin address strings and/or <code>LatLng</code>s, from which to calculate distance and time. Required.</div></td>
 </tr>
 <tr>
 <td><code>region</code></td>
-<td><code>string</code></td>
-<td>Region code used as a bias for geocoding requests. Optional.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Region code used as a bias for geocoding requests. Optional.</div></td>
 </tr>
 <tr>
 <td><code>transitOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitOptions.md">TransitOptions</a></code></td>
-<td>Settings that apply only to requests where <code>travelMode</code> is TRANSIT. This object will have no effect for other travel modes.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md">TransitOptions</a></code></div>
+<div class="desc">Settings that apply only to requests where <code>travelMode</code> is TRANSIT. This object will have no effect for other travel modes.</div></td>
 </tr>
 <tr>
 <td><code>travelMode</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TravelMode.md">TravelMode</a></code></td>
-<td>Type of routing requested. Required.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TravelMode.md">TravelMode</a></code></div>
+<div class="desc">Type of routing requested. Required.</div></td>
 </tr>
 <tr>
 <td><code>unitSystem</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.UnitSystem.md">UnitSystem</a></code></td>
-<td>Preferred unit system to use when displaying distance. Optional; defaults to metric.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/UnitSystem.md">UnitSystem</a></code></div>
+<div class="desc">Preferred unit system to use when displaying distance. Optional; defaults to metric.</div></td>
 </tr>
 </tbody>
 </table>

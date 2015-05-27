@@ -1,35 +1,34 @@
 <h2 id="DynamicMapsEngineMouseEvent">
-google.maps.visualization.DynamicMapsEngineMouseEvent
+DynamicMapsEngineMouseEvent
 object specification
-</h2><p>The properties of a mouse event on a <code>DynamicMapsEngineLayer</code>.</p><h3>Library</h3><p>visualization</p><h3>Methods</h3><table summary="interface DynamicMapsEngineMouseEvent - Methods" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">DynamicMapsEngineMouseEvent</span></code>
+object specification
+</p><p>The properties of a mouse event on a <code>DynamicMapsEngineLayer</code>.</p><h4>Library</h4><p>visualization</p><table class="methods responsive" summary="interface DynamicMapsEngineMouseEvent - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getDetails(callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.MapsEngineMouseEvent.md">MapsEngineMouseEvent</a>))</code></td>
-<td><code>None</code></td>
-<td>Takes a callback that will be called with details about the feature that may be used to render an info window.</td>
+<td><code>getDetails(callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineMouseEvent.md">MapsEngineMouseEvent</a>))</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Takes a callback that will be called with details about the feature that may be used to render an info window.</div></td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="interface DynamicMapsEngineMouseEvent - Properties" width="100%">
+</table><table class="properties responsive" summary="interface DynamicMapsEngineMouseEvent - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>featureId</code></td>
-<td><code>string</code></td>
-<td>The feature ID, guaranteed to be unique within the layer.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The feature ID, guaranteed to be unique within the layer.</div></td>
 </tr>
 <tr>
 <td><code>latLng</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The latitude/longitude that was below the cursor when the event occurred.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">The latitude/longitude that was below the cursor when the event occurred.</div></td>
 </tr>
 </tbody>
 </table>

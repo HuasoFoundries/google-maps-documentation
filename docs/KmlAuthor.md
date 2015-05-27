@@ -1,27 +1,28 @@
 <h2 id="KmlAuthor">
-google.maps.KmlAuthor
+KmlAuthor
 object specification
-</h2><p>Contains details of the author of a KML document or feature.</p><h3>Properties</h3><table summary="object KmlAuthor - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">KmlAuthor</span></code>
+object specification
+</p><p>Contains details of the author of a KML document or feature.</p><table class="properties responsive" summary="object KmlAuthor - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>email</code></td>
-<td><code>string</code></td>
-<td>The author's e-mail address, or an empty string if not specified.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The author's e-mail address, or an empty string if not specified.</div></td>
 </tr>
 <tr>
 <td><code>name</code></td>
-<td><code>string</code></td>
-<td>The author's name, or an empty string if not specified.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The author's name, or an empty string if not specified.</div></td>
 </tr>
 <tr>
 <td><code>uri</code></td>
-<td><code>string</code></td>
-<td>The author's home page, or an empty string if not specified.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The author's home page, or an empty string if not specified.</div></td>
 </tr>
 </tbody>
 </table>

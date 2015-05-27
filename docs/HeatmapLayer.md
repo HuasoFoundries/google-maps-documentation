@@ -1,51 +1,51 @@
 <h2 id="HeatmapLayer">
-google.maps.visualization.HeatmapLayer
+HeatmapLayer
 class
-</h2><p>A layer that provides a client-side rendered heatmap, depicting the intensity of data at geographical points.</p><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Library</h3><p>visualization</p><h3>Constructor</h3><table summary="class HeatmapLayer - Constructor" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">HeatmapLayer</span></code>
+class
+</p><p>A layer that provides a client-side rendered heatmap, depicting the intensity of data at geographical points.</p><p>This class extends
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
+</p><h4>Library</h4><p>visualization</p><table class="constructors responsive" summary="class HeatmapLayer - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>HeatmapLayer(opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.HeatmapLayerOptions.md"><em>HeatmapLayerOptions</em></a>)</code></td>
+<td><code>HeatmapLayer(opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md"><em>HeatmapLayerOptions</em></a>)</code></td>
 <td>Creates a new instance of <code>HeatmapLayer</code>.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class HeatmapLayer - Methods" width="100%">
+</table><table class="methods responsive" summary="class HeatmapLayer - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>getData()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.WeightedLocation.md">WeightedLocation</a>&gt;</code></td>
-<td>Returns the data points currently displayed by this heatmap.</td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md">WeightedLocation</a>&gt;</code></div>
+<div class="desc">Returns the data points currently displayed by this heatmap.</div></td>
 </tr>
 <tr>
 <td><code>getMap()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
-<td></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
+<div class="desc"></div></td>
 </tr>
 <tr>
-<td><code>setData(data:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.WeightedLocation.md">WeightedLocation</a>&gt;|
-Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.WeightedLocation.md">WeightedLocation</a>&gt;)</code></td>
-<td><code>None</code></td>
-<td>Sets the data points to be displayed by this heatmap.</td>
+<td><code>setData(data:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md">WeightedLocation</a>&gt;|
+Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md">WeightedLocation</a>&gt;)</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Sets the data points to be displayed by this heatmap.</div></td>
 </tr>
 <tr>
-<td><code>setMap(map:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a>)</code></td>
-<td><code>None</code></td>
-<td>Renders the heatmap on the specified map. If map is set to null, the heatmap will be removed.</td>
+<td><code>setMap(map:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a>)</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Renders the heatmap on the specified map. If map is set to null, the heatmap will be removed.</div></td>
 </tr>
 <tr>
-<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.HeatmapLayerOptions.md"><em>HeatmapLayerOptions</em></a>)</code></td>
-<td><code>None</code></td>
-<td></td>
+<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md"><em>HeatmapLayerOptions</em></a>)</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc"></div></td>
 </tr>
 </tbody>
 </table>

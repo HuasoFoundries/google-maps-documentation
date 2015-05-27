@@ -1,17 +1,18 @@
 <h2 id="ComponentRestrictions">
-google.maps.places.ComponentRestrictions
+ComponentRestrictions
 object specification
-</h2><p>Defines the component restrictions that can be used with the autocomplete service.</p><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface ComponentRestrictions - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">ComponentRestrictions</span></code>
+object specification
+</p><p>Defines the component restrictions that can be used with the autocomplete service.</p><h4>Library</h4><p>places</p><table class="properties responsive" summary="interface ComponentRestrictions - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>country</code></td>
-<td><code>string</code></td>
-<td>Restricts predictions to the specified country (ISO 3166-1 Alpha-2 country code, case insensitive). E.g., us, br, au.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Restricts predictions to the specified country (ISO 3166-1 Alpha-2 country code, case insensitive). E.g., us, br, au.</div></td>
 </tr>
 </tbody>
 </table>

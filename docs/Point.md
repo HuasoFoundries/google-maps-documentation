@@ -1,10 +1,12 @@
 <h2 id="Point">
-google.maps.Point
+Point
 class
-</h2><h3>Constructor</h3><table summary="class Point - Constructor" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Point</span></code>
+class
+</p><table class="constructors responsive" summary="class Point - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
@@ -12,40 +14,36 @@ class
 <td>A point on a two-dimensional plane.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Point - Methods" width="100%">
+</table><table class="methods responsive" summary="class Point - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>equals(other:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a>)</code></td>
-<td><code>boolean</code></td>
-<td>Compares two Points</td>
+<td><code>equals(other:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md">Point</a>)</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Compares two Points</div></td>
 </tr>
 <tr>
 <td><code>toString()</code></td>
-<td><code>string</code></td>
-<td>Returns a string representation of this Point.</td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Returns a string representation of this Point.</div></td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="class Point - Properties" width="100%">
+</table><table class="properties responsive" summary="class Point - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>x</code></td>
-<td><code>number</code></td>
-<td>The X coordinate</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The X coordinate</div></td>
 </tr>
 <tr>
 <td><code>y</code></td>
-<td><code>number</code></td>
-<td>The Y coordinate</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The Y coordinate</div></td>
 </tr>
 </tbody>
 </table>

@@ -1,10 +1,12 @@
 <h2 id="RankBy">
-google.maps.places.RankBy
+RankBy
 class
-</h2><p>Ranking options for a PlaceSearchRequest.</p><h3>Library</h3><p>places</p><h3>Constant</h3><table summary="class RankBy - Constants" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">RankBy</span></code>
+class
+</p><p>Ranking options for a PlaceSearchRequest.</p><h4>Library</h4><p>places</p><table class="constants responsive" summary="class RankBy - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>

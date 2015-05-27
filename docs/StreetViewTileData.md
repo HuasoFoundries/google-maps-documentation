@@ -1,40 +1,39 @@
 <h2 id="StreetViewTileData">
-google.maps.StreetViewTileData
+StreetViewTileData
 object specification
-</h2><p>The properties of the tile set used in a Street View panorama.</p><h3>Methods</h3><table summary="interface StreetViewTileData - Methods" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewTileData</span></code>
+object specification
+</p><p>The properties of the tile set used in a Street View panorama.</p><table class="methods responsive" summary="interface StreetViewTileData - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>getTileUrl(pano:string, tileZoom:number, tileX:number, tileY:number)</code></td>
-<td><code>string</code></td>
-<td>Gets the tile image URL for the specified tile.<br> <code>pano</code> is the panorama ID of the Street View tile.<br> <code>tileZoom</code> is the zoom level of the tile.<br> <code>tileX</code> is the x-coordinate of the tile.<br> <code>tileY</code> is the y-coordinate of the tile.<br> Returns the URL for the tile image.<br></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Gets the tile image URL for the specified tile.<br> <code>pano</code> is the panorama ID of the Street View tile.<br> <code>tileZoom</code> is the zoom level of the tile.<br> <code>tileX</code> is the x-coordinate of the tile.<br> <code>tileY</code> is the y-coordinate of the tile.<br> Returns the URL for the tile image.<br></div></td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="interface StreetViewTileData - Properties" width="100%">
+</table><table class="properties responsive" summary="interface StreetViewTileData - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>centerHeading</code></td>
-<td><code>number</code></td>
-<td>The heading (in degrees) at the center of the panoramic tiles.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The heading (in degrees) at the center of the panoramic tiles.</div></td>
 </tr>
 <tr>
 <td><code>tileSize</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
-<td>The size (in pixels) at which tiles will be rendered.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md">Size</a></code></div>
+<div class="desc">The size (in pixels) at which tiles will be rendered.</div></td>
 </tr>
 <tr>
 <td><code>worldSize</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
-<td>The size (in pixels) of the whole panorama's "world".</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md">Size</a></code></div>
+<div class="desc">The size (in pixels) of the whole panorama's "world".</div></td>
 </tr>
 </tbody>
 </table>

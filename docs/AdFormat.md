@@ -1,10 +1,12 @@
 <h2 id="AdFormat">
-google.maps.adsense.AdFormat
+AdFormat
 class
-</h2><p>Identifiers used to specify an AdSense For Content format. See <a href="https://google.com/adsense/adformats">https://google.com/adsense/adformats</a>.</p><h3>Library</h3><p>adsense</p><h3>Constant</h3><table summary="class AdFormat - Constants" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.adsense</span>.<span itemprop="name">AdFormat</span></code>
+class
+</p><p>Identifiers used to specify an AdSense For Content format. See <a href="https://google.com/adsense/adformats">https://google.com/adsense/adformats</a>.</p><h4>Library</h4><p>adsense</p><table class="constants responsive" summary="class AdFormat - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>

@@ -1,32 +1,33 @@
 <h2 id="FusionTablesStyle">
-google.maps.FusionTablesStyle
+FusionTablesStyle
 object specification
-</h2><p>Controls the appearance of a set of features within a <code>FusionTablesLayer</code>. Features which match the provided SQL predicate will be styled with the supplied options.</p><h3>Properties</h3><table summary="object FusionTablesStyle - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">FusionTablesStyle</span></code>
+object specification
+</p><p>Controls the appearance of a set of features within a <code>FusionTablesLayer</code>. Features which match the provided SQL predicate will be styled with the supplied options.</p><table class="properties responsive" summary="object FusionTablesStyle - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>markerOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesMarkerOptions.md">FusionTablesMarkerOptions</a></code></td>
-<td>Options which control the appearance of point features.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesMarkerOptions.md">FusionTablesMarkerOptions</a></code></div>
+<div class="desc">Options which control the appearance of point features.</div></td>
 </tr>
 <tr>
 <td><code>polygonOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesPolygonOptions.md">FusionTablesPolygonOptions</a></code></td>
-<td>Options which control the appearance of polygons.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesPolygonOptions.md">FusionTablesPolygonOptions</a></code></div>
+<div class="desc">Options which control the appearance of polygons.</div></td>
 </tr>
 <tr>
 <td><code>polylineOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesPolylineOptions.md">FusionTablesPolylineOptions</a></code></td>
-<td>Options which control the appearance of polylines.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesPolylineOptions.md">FusionTablesPolylineOptions</a></code></div>
+<div class="desc">Options which control the appearance of polylines.</div></td>
 </tr>
 <tr>
 <td><code>where</code></td>
-<td><code>string</code></td>
-<td>The SQL predicate to be applied to the layer.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The SQL predicate to be applied to the layer.</div></td>
 </tr>
 </tbody>
 </table>

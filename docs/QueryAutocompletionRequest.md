@@ -1,37 +1,38 @@
 <h2 id="QueryAutocompletionRequest">
-google.maps.places.QueryAutocompletionRequest
+QueryAutocompletionRequest
 object specification
-</h2><p>An QueryAutocompletion request to be sent to the <code>QueryAutocompleteService</code>.</p><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface QueryAutocompletionRequest - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">QueryAutocompletionRequest</span></code>
+object specification
+</p><p>An QueryAutocompletion request to be sent to the <code>QueryAutocompleteService</code>.</p><h4>Library</h4><p>places</p><table class="properties responsive" summary="interface QueryAutocompletionRequest - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>bounds</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
-<td>Bounds for prediction biasing. Predictions will be biased towards, but not restricted to, the given <code>bounds</code>. Both <code>location</code> and <code>radius</code> will be ignored if <code>bounds</code> is set.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
+<div class="desc">Bounds for prediction biasing. Predictions will be biased towards, but not restricted to, the given <code>bounds</code>. Both <code>location</code> and <code>radius</code> will be ignored if <code>bounds</code> is set.</div></td>
 </tr>
 <tr>
 <td><code>input</code></td>
-<td><code>string</code></td>
-<td>The user entered input string.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The user entered input string.</div></td>
 </tr>
 <tr>
 <td><code>location</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>Location for prediction biasing. Predictions will be biased towards the given <code>location</code> and <code>radius</code>. Alternatively, <code>bounds</code> can be used.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">Location for prediction biasing. Predictions will be biased towards the given <code>location</code> and <code>radius</code>. Alternatively, <code>bounds</code> can be used.</div></td>
 </tr>
 <tr>
 <td><code>offset</code></td>
-<td><code>number</code></td>
-<td>The character position in the input term at which the service uses text for predictions (the position of the cursor in the input field).</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The character position in the input term at which the service uses text for predictions (the position of the cursor in the input field).</div></td>
 </tr>
 <tr>
 <td><code>radius</code></td>
-<td><code>number</code></td>
-<td>The radius of the area used for prediction biasing. The <code>radius</code> is specified in meters, and must always be accompanied by a <code>location</code> property. Alternatively, <code>bounds</code> can be used.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The radius of the area used for prediction biasing. The <code>radius</code> is specified in meters, and must always be accompanied by a <code>location</code> property. Alternatively, <code>bounds</code> can be used.</div></td>
 </tr>
 </tbody>
 </table>

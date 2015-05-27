@@ -1,17 +1,18 @@
 <h2 id="PlaceDetailsRequest">
-google.maps.places.PlaceDetailsRequest
+PlaceDetailsRequest
 object specification
-</h2><p>A Place details query to be sent to the <code>PlacesService</code>.</p><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface PlaceDetailsRequest - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlaceDetailsRequest</span></code>
+object specification
+</p><p>A Place details query to be sent to the <code>PlacesService</code>.</p><h4>Library</h4><p>places</p><table class="properties responsive" summary="interface PlaceDetailsRequest - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>placeId</code></td>
-<td><code>string</code></td>
-<td>The Place ID of the Place for which details are being requested.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The Place ID of the Place for which details are being requested.</div></td>
 </tr>
 </tbody>
 </table>

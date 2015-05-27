@@ -1,65 +1,64 @@
 <h2 id="MapType">
-google.maps.MapType
+MapType
 object specification
-</h2><p>This interface defines the map type, and is typically used for custom map types. Immutable.</p><h3>Methods</h3><table summary="interface MapType - Methods" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">MapType</span></code>
+object specification
+</p><p>This interface defines the map type, and is typically used for custom map types. Immutable.</p><table class="methods responsive" summary="interface MapType - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getTile(tileCoord:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a>, zoom:number, ownerDocument:Document)</code></td>
-<td><code>Node</code></td>
-<td>Returns a tile for the given tile coordinate (x, y) and zoom level. This tile will be appended to the given ownerDocument. Not available for base map types.</td>
+<td><code>getTile(tileCoord:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md">Point</a>, zoom:number, ownerDocument:Document)</code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>Node</code></div>
+<div class="desc">Returns a tile for the given tile coordinate (x, y) and zoom level. This tile will be appended to the given ownerDocument. Not available for base map types.</div></td>
 </tr>
 <tr>
 <td><code>releaseTile(tile:Node)</code></td>
-<td><code>None</code></td>
-<td>Releases the given tile, performing any necessary cleanup. The provided tile will have already been removed from the document. Optional.</td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Releases the given tile, performing any necessary cleanup. The provided tile will have already been removed from the document. Optional.</div></td>
 </tr>
 </tbody>
-</table><h3>Properties</h3><table summary="interface MapType - Properties" width="100%">
+</table><table class="properties responsive" summary="interface MapType - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>alt</code></td>
-<td><code>string</code></td>
-<td>Alt text to display when this MapType's button is hovered over in the MapTypeControl. Optional.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Alt text to display when this MapType's button is hovered over in the MapTypeControl. Optional.</div></td>
 </tr>
 <tr>
 <td><code>maxZoom</code></td>
-<td><code>number</code></td>
-<td>The maximum zoom level for the map when displaying this MapType. Required for base MapTypes, ignored for overlay MapTypes.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The maximum zoom level for the map when displaying this MapType. Required for base MapTypes, ignored for overlay MapTypes.</div></td>
 </tr>
 <tr>
 <td><code>minZoom</code></td>
-<td><code>number</code></td>
-<td>The minimum zoom level for the map when displaying this MapType. Optional; defaults to 0.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The minimum zoom level for the map when displaying this MapType. Optional; defaults to 0.</div></td>
 </tr>
 <tr>
 <td><code>name</code></td>
-<td><code>string</code></td>
-<td>Name to display in the MapTypeControl. Optional.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Name to display in the MapTypeControl. Optional.</div></td>
 </tr>
 <tr>
 <td><code>projection</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Projection.md">Projection</a></code></td>
-<td>The Projection used to render this MapType. Optional; defaults to Mercator.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Projection.md">Projection</a></code></div>
+<div class="desc">The Projection used to render this MapType. Optional; defaults to Mercator.</div></td>
 </tr>
 <tr>
 <td><code>radius</code></td>
-<td><code>number</code></td>
-<td>Radius of the planet for the map, in meters. Optional; defaults to Earth's equatorial radius of 6378137 meters.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">Radius of the planet for the map, in meters. Optional; defaults to Earth's equatorial radius of 6378137 meters.</div></td>
 </tr>
 <tr>
 <td><code>tileSize</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
-<td>The dimensions of each tile. Required.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md">Size</a></code></div>
+<div class="desc">The dimensions of each tile. Required.</div></td>
 </tr>
 </tbody>
 </table>

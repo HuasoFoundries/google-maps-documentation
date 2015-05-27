@@ -1,32 +1,33 @@
 <h2 id="MapsEngineMouseEvent">
-google.maps.visualization.MapsEngineMouseEvent
+MapsEngineMouseEvent
 object specification
-</h2><p>The properties of a mouse event on a <code>MapsEngineLayer</code>.</p><h3>Library</h3><p>visualization</p><h3>Properties</h3><table summary="interface MapsEngineMouseEvent - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">MapsEngineMouseEvent</span></code>
+object specification
+</p><p>The properties of a mouse event on a <code>MapsEngineLayer</code>.</p><h4>Library</h4><p>visualization</p><table class="properties responsive" summary="interface MapsEngineMouseEvent - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>featureId</code></td>
-<td><code>string</code></td>
-<td>The feature ID, guaranteed to be unique within the layer.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The feature ID, guaranteed to be unique within the layer.</div></td>
 </tr>
 <tr>
 <td><code>infoWindowHtml</code></td>
-<td><code>string</code></td>
-<td>Pre-rendered HTML content, as placed in the infowindow by the default UI.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Pre-rendered HTML content, as placed in the infowindow by the default UI.</div></td>
 </tr>
 <tr>
 <td><code>latLng</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The position at which to anchor an infowindow on the clicked feature.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">The position at which to anchor an infowindow on the clicked feature.</div></td>
 </tr>
 <tr>
 <td><code>pixelOffset</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
-<td>The offset to apply to an infowindow anchored on the clicked feature.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md">Size</a></code></div>
+<div class="desc">The offset to apply to an infowindow anchored on the clicked feature.</div></td>
 </tr>
 </tbody>
 </table>

@@ -1,17 +1,18 @@
 <h2 id="FusionTablesHeatmap">
-google.maps.FusionTablesHeatmap
+FusionTablesHeatmap
 object specification
-</h2><p>Specifies the appearance for a FusionTablesLayer when rendered as a heatmap.</p><h3>Properties</h3><table summary="object FusionTablesHeatmap - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">FusionTablesHeatmap</span></code>
+object specification
+</p><p>Specifies the appearance for a FusionTablesLayer when rendered as a heatmap.</p><table class="properties responsive" summary="object FusionTablesHeatmap - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>enabled</code></td>
-<td><code>boolean</code></td>
-<td>If true, render the layer as a heatmap.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If true, render the layer as a heatmap.</div></td>
 </tr>
 </tbody>
 </table>

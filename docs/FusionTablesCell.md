@@ -1,22 +1,23 @@
 <h2 id="FusionTablesCell">
-google.maps.FusionTablesCell
+FusionTablesCell
 object specification
-</h2><p>Describes a single cell from a Fusion Tables table.</p><h3>Properties</h3><table summary="interface FusionTablesCell - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">FusionTablesCell</span></code>
+object specification
+</p><p>Describes a single cell from a Fusion Tables table.</p><table class="properties responsive" summary="interface FusionTablesCell - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>columnName</code></td>
-<td><code>string</code></td>
-<td>The name of the column in which the cell was located.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The name of the column in which the cell was located.</div></td>
 </tr>
 <tr>
 <td><code>value</code></td>
-<td><code>string</code></td>
-<td>The contents of the cell.</td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The contents of the cell.</div></td>
 </tr>
 </tbody>
 </table>

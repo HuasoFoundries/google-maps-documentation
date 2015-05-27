@@ -1,17 +1,18 @@
 <h2 id="SearchBoxOptions">
-google.maps.places.SearchBoxOptions
+SearchBoxOptions
 object specification
-</h2><p>The options that can be set on a <code>SearchBox</code> object.</p><h3>Library</h3><p>places</p><h3>Properties</h3><table summary="interface SearchBoxOptions - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">SearchBoxOptions</span></code>
+object specification
+</p><p>The options that can be set on a <code>SearchBox</code> object.</p><h4>Library</h4><p>places</p><table class="properties responsive" summary="interface SearchBoxOptions - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>bounds</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
-<td>The area towards which to bias query predictions. Predictions are biased towards, but not restricted to, queries targeting these bounds.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
+<div class="desc">The area towards which to bias query predictions. Predictions are biased towards, but not restricted to, queries targeting these bounds.</div></td>
 </tr>
 </tbody>
 </table>

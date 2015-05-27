@@ -1,17 +1,18 @@
 <h2 id="StreetViewAddressControlOptions">
-google.maps.StreetViewAddressControlOptions
+StreetViewAddressControlOptions
 object specification
-</h2><p>Options for the rendering of the Street View address control.</p><h3>Properties</h3><table summary="interface StreetViewAddressControlOptions - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewAddressControlOptions</span></code>
+object specification
+</p><p>Options for the rendering of the Street View address control.</p><table class="properties responsive" summary="interface StreetViewAddressControlOptions - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>position</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ControlPosition.md">ControlPosition</a></code></td>
-<td>Position id. This id is used to specify the position of the control on the map. The default position is <code>TOP_LEFT</code>.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ControlPosition.md">ControlPosition</a></code></div>
+<div class="desc">Position id. This id is used to specify the position of the control on the map. The default position is <code>TOP_LEFT</code>.</div></td>
 </tr>
 </tbody>
 </table>

@@ -1,22 +1,23 @@
 <h2 id="OverlayCompleteEvent">
-google.maps.drawing.OverlayCompleteEvent
+OverlayCompleteEvent
 object specification
-</h2><p>The properties of an overlaycomplete event on a <code>DrawingManager</code>.</p><h3>Library</h3><p>drawing</p><h3>Properties</h3><table summary="object OverlayCompleteEvent - Properties" width="100%">
+</h2><p>
+<code><span itemprop="path">google.maps.drawing</span>.<span itemprop="name">OverlayCompleteEvent</span></code>
+object specification
+</p><p>The properties of an overlaycomplete event on a <code>DrawingManager</code>.</p><h4>Library</h4><p>drawing</p><table class="properties responsive" summary="object OverlayCompleteEvent - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
 <td><code>overlay</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Marker.md">Marker</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Polygon.md">Polygon</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Polyline.md">Polyline</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Rectangle.md">Rectangle</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Circle.md">Circle</a></code></td>
-<td>The completed overlay.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Marker.md">Marker</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md">Polygon</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polyline.md">Polyline</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Rectangle.md">Rectangle</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Circle.md">Circle</a></code></div>
+<div class="desc">The completed overlay.</div></td>
 </tr>
 <tr>
 <td><code>type</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.drawing.OverlayType.md">OverlayType</a></code></td>
-<td>The completed overlay's type.</td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md">OverlayType</a></code></div>
+<div class="desc">The completed overlay's type.</div></td>
 </tr>
 </tbody>
 </table>
