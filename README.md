@@ -18,227 +18,291 @@ So I made an app to parse and commit any differences between their version and m
 
 ### Table Of Contents 
 
-* [google.maps.Map](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md)
-* [google.maps.MapOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapOptions.md)
-* [google.maps.MapTypeId](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeId.md)
-* [google.maps.MapTypeControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeControlOptions.md)
-* [google.maps.MapTypeControlStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeControlStyle.md)
-* [google.maps.OverviewMapControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.OverviewMapControlOptions.md)
-* [google.maps.PanControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PanControlOptions.md)
-* [google.maps.RotateControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.RotateControlOptions.md)
-* [google.maps.ScaleControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ScaleControlOptions.md)
-* [google.maps.ScaleControlStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ScaleControlStyle.md)
-* [google.maps.StreetViewControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewControlOptions.md)
-* [google.maps.ZoomControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ZoomControlOptions.md)
-* [google.maps.ZoomControlStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ZoomControlStyle.md)
-* [google.maps.ControlPosition](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ControlPosition.md)
-* [google.maps.Data](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.md)
-* [google.maps.Data.DataOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.DataOptions.md)
-* [google.maps.Data.GeoJsonOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.GeoJsonOptions.md)
-* [google.maps.Data.StyleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.StyleOptions.md)
-* [google.maps.Data.StylingFunction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.StylingFunction.md)
-* [google.maps.Data.Feature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md)
-* [google.maps.Data.FeatureOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.FeatureOptions.md)
-* [google.maps.Data.Geometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md)
-* [google.maps.Data.Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Point.md)
-* [google.maps.Data.MultiPoint](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.MultiPoint.md)
-* [google.maps.Data.LineString](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.LineString.md)
-* [google.maps.Data.MultiLineString](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.MultiLineString.md)
-* [google.maps.Data.LinearRing](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.LinearRing.md)
-* [google.maps.Data.Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Polygon.md)
-* [google.maps.Data.MultiPolygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.MultiPolygon.md)
-* [google.maps.Data.GeometryCollection](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.GeometryCollection.md)
-* [google.maps.Data.MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.MouseEvent.md)
-* [google.maps.Data.AddFeatureEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.AddFeatureEvent.md)
-* [google.maps.Data.RemoveFeatureEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.RemoveFeatureEvent.md)
-* [google.maps.Data.SetGeometryEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.SetGeometryEvent.md)
-* [google.maps.Data.SetPropertyEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.SetPropertyEvent.md)
-* [google.maps.Data.RemovePropertyEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.RemovePropertyEvent.md)
-* [google.maps.Marker](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Marker.md)
-* [google.maps.MarkerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MarkerOptions.md)
-* [google.maps.Icon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Icon.md)
-* [google.maps.MarkerShape](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MarkerShape.md)
-* [google.maps.Symbol](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Symbol.md)
-* [google.maps.SymbolPath](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.SymbolPath.md)
-* [google.maps.Animation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Animation.md)
-* [google.maps.InfoWindow](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.InfoWindow.md)
-* [google.maps.InfoWindowOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.InfoWindowOptions.md)
-* [google.maps.Polyline](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Polyline.md)
-* [google.maps.PolylineOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PolylineOptions.md)
-* [google.maps.IconSequence](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.IconSequence.md)
-* [google.maps.Polygon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Polygon.md)
-* [google.maps.PolygonOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PolygonOptions.md)
-* [google.maps.PolyMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PolyMouseEvent.md)
-* [google.maps.Rectangle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Rectangle.md)
-* [google.maps.RectangleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.RectangleOptions.md)
-* [google.maps.Circle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Circle.md)
-* [google.maps.CircleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.CircleOptions.md)
-* [google.maps.StrokePosition](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StrokePosition.md)
-* [google.maps.GroundOverlay](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GroundOverlay.md)
-* [google.maps.GroundOverlayOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GroundOverlayOptions.md)
-* [google.maps.OverlayView](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.OverlayView.md)
-* [google.maps.MapPanes](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapPanes.md)
-* [google.maps.MapCanvasProjection](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapCanvasProjection.md)
-* [google.maps.Geocoder](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Geocoder.md)
-* [google.maps.GeocoderRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderRequest.md)
-* [google.maps.GeocoderComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderComponentRestrictions.md)
-* [google.maps.GeocoderStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderStatus.md)
-* [google.maps.GeocoderResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderResult.md)
-* [google.maps.GeocoderAddressComponent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderAddressComponent.md)
-* [google.maps.GeocoderGeometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderGeometry.md)
-* [google.maps.GeocoderLocationType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderLocationType.md)
-* [google.maps.DirectionsRenderer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsRenderer.md)
-* [google.maps.DirectionsRendererOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsRendererOptions.md)
-* [google.maps.DirectionsService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsService.md)
-* [google.maps.DirectionsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsRequest.md)
-* [google.maps.TravelMode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TravelMode.md)
-* [google.maps.UnitSystem](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.UnitSystem.md)
-* [google.maps.TransitOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitOptions.md)
-* [google.maps.DirectionsWaypoint](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsWaypoint.md)
-* [google.maps.DirectionsStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStatus.md)
-* [google.maps.DirectionsResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md)
-* [google.maps.DirectionsRoute](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsRoute.md)
-* [google.maps.DirectionsLeg](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsLeg.md)
-* [google.maps.DirectionsStep](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStep.md)
-* [google.maps.Distance](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Distance.md)
-* [google.maps.Duration](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Duration.md)
-* [google.maps.Time](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Time.md)
-* [google.maps.TransitDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitDetails.md)
-* [google.maps.TransitStop](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitStop.md)
-* [google.maps.TransitLine](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitLine.md)
-* [google.maps.TransitAgency](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitAgency.md)
-* [google.maps.TransitVehicle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitVehicle.md)
-* [google.maps.VehicleType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.VehicleType.md)
-* [google.maps.ElevationService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ElevationService.md)
-* [google.maps.LocationElevationRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LocationElevationRequest.md)
-* [google.maps.PathElevationRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PathElevationRequest.md)
-* [google.maps.ElevationResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ElevationResult.md)
-* [google.maps.ElevationStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ElevationStatus.md)
-* [google.maps.MaxZoomService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MaxZoomService.md)
-* [google.maps.MaxZoomResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MaxZoomResult.md)
-* [google.maps.MaxZoomStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MaxZoomStatus.md)
-* [google.maps.DistanceMatrixService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixService.md)
-* [google.maps.DistanceMatrixRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixRequest.md)
-* [google.maps.DistanceMatrixResponse](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponse.md)
-* [google.maps.DistanceMatrixResponseRow](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponseRow.md)
-* [google.maps.DistanceMatrixResponseElement](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponseElement.md)
-* [google.maps.DistanceMatrixStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixStatus.md)
-* [google.maps.DistanceMatrixElementStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixElementStatus.md)
-* [google.maps.MapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapType.md)
-* [google.maps.MapTypeRegistry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeRegistry.md)
-* [google.maps.Projection](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Projection.md)
-* [google.maps.ImageMapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ImageMapType.md)
-* [google.maps.ImageMapTypeOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ImageMapTypeOptions.md)
-* [google.maps.StyledMapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StyledMapType.md)
-* [google.maps.StyledMapTypeOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StyledMapTypeOptions.md)
-* [google.maps.MapTypeStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeStyle.md)
-* [google.maps.MapTypeStyleFeatureType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeStyleFeatureType.md)
-* [google.maps.MapTypeStyleElementType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeStyleElementType.md)
-* [google.maps.MapTypeStyler](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeStyler.md)
-* [google.maps.BicyclingLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.BicyclingLayer.md)
-* [google.maps.FusionTablesLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesLayer.md)
-* [google.maps.FusionTablesLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesLayerOptions.md)
-* [google.maps.FusionTablesQuery](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesQuery.md)
-* [google.maps.FusionTablesStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesStyle.md)
-* [google.maps.FusionTablesHeatmap](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesHeatmap.md)
-* [google.maps.FusionTablesMarkerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesMarkerOptions.md)
-* [google.maps.FusionTablesPolygonOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesPolygonOptions.md)
-* [google.maps.FusionTablesPolylineOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesPolylineOptions.md)
-* [google.maps.FusionTablesMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesMouseEvent.md)
-* [google.maps.FusionTablesCell](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.FusionTablesCell.md)
-* [google.maps.KmlLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlLayer.md)
-* [google.maps.KmlLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlLayerOptions.md)
-* [google.maps.KmlLayerMetadata](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlLayerMetadata.md)
-* [google.maps.KmlLayerStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlLayerStatus.md)
-* [google.maps.KmlMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlMouseEvent.md)
-* [google.maps.KmlFeatureData](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlFeatureData.md)
-* [google.maps.KmlAuthor](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.KmlAuthor.md)
-* [google.maps.TrafficLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TrafficLayer.md)
-* [google.maps.TransitLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitLayer.md)
-* [google.maps.StreetViewPanorama](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanorama.md)
-* [google.maps.StreetViewPanoramaOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaOptions.md)
-* [google.maps.StreetViewAddressControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewAddressControlOptions.md)
-* [google.maps.StreetViewLink](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLink.md)
-* [google.maps.StreetViewPov](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPov.md)
-* [google.maps.StreetViewPanoramaData](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanoramaData.md)
-* [google.maps.StreetViewLocation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewLocation.md)
-* [google.maps.StreetViewTileData](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewTileData.md)
-* [google.maps.StreetViewService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewService.md)
-* [google.maps.StreetViewStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewStatus.md)
-* [google.maps.StreetViewCoverageLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewCoverageLayer.md)
-* [google.maps.MapsEventListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapsEventListener.md)
-* [google.maps.event](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.event.md)
-* [google.maps.MouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md)
-* [google.maps.LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md)
-* [google.maps.LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md)
-* [google.maps.LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md)
-* [google.maps.Point](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md)
-* [google.maps.Size](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md)
-* [google.maps.MVCObject](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md)
-* [google.maps.MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md)
-* [google.maps.geometry.encoding](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.geometry.encoding.md)
-* [google.maps.geometry.spherical](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.geometry.spherical.md)
-* [google.maps.geometry.poly](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.geometry.poly.md)
-* [google.maps.adsense.AdUnit](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.adsense.AdUnit.md)
-* [google.maps.adsense.AdUnitOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.adsense.AdUnitOptions.md)
-* [google.maps.adsense.AdFormat](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.adsense.AdFormat.md)
-* [google.maps.panoramio.PanoramioLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.panoramio.PanoramioLayer.md)
-* [google.maps.panoramio.PanoramioLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.panoramio.PanoramioLayerOptions.md)
-* [google.maps.panoramio.PanoramioFeature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.panoramio.PanoramioFeature.md)
-* [google.maps.panoramio.PanoramioMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.panoramio.PanoramioMouseEvent.md)
-* [google.maps.places.Autocomplete](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.Autocomplete.md)
-* [google.maps.places.AutocompleteOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.AutocompleteOptions.md)
-* [google.maps.places.AutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.AutocompletePrediction.md)
-* [google.maps.places.PredictionTerm](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PredictionTerm.md)
-* [google.maps.places.PredictionSubstring](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PredictionSubstring.md)
-* [google.maps.places.AutocompleteService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.AutocompleteService.md)
-* [google.maps.places.AutocompletionRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.AutocompletionRequest.md)
-* [google.maps.places.ComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.ComponentRestrictions.md)
-* [google.maps.places.PlaceAspectRating](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceAspectRating.md)
-* [google.maps.places.PlaceDetailsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceDetailsRequest.md)
-* [google.maps.places.PlaceGeometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceGeometry.md)
-* [google.maps.places.PlacePhoto](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacePhoto.md)
-* [google.maps.places.PhotoOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PhotoOptions.md)
-* [google.maps.places.PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceResult.md)
-* [google.maps.places.PlaceReview](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceReview.md)
-* [google.maps.places.PlaceSearchPagination](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceSearchPagination.md)
-* [google.maps.places.PlaceSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlaceSearchRequest.md)
-* [google.maps.places.PlacesService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesService.md)
-* [google.maps.places.PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.PlacesServiceStatus.md)
-* [google.maps.places.QueryAutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.QueryAutocompletePrediction.md)
-* [google.maps.places.QueryAutocompletionRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.QueryAutocompletionRequest.md)
-* [google.maps.places.RadarSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.RadarSearchRequest.md)
-* [google.maps.places.RankBy](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.RankBy.md)
-* [google.maps.places.SearchBox](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.SearchBox.md)
-* [google.maps.places.SearchBoxOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.SearchBoxOptions.md)
-* [google.maps.places.TextSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.places.TextSearchRequest.md)
-* [google.maps.drawing.DrawingManager](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.drawing.DrawingManager.md)
-* [google.maps.drawing.DrawingManagerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.drawing.DrawingManagerOptions.md)
-* [google.maps.drawing.DrawingControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.drawing.DrawingControlOptions.md)
-* [google.maps.drawing.OverlayCompleteEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.drawing.OverlayCompleteEvent.md)
-* [google.maps.drawing.OverlayType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.drawing.OverlayType.md)
-* [google.maps.weather.CloudLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.CloudLayer.md)
-* [google.maps.weather.WeatherLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherLayer.md)
-* [google.maps.weather.WeatherLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherLayerOptions.md)
-* [google.maps.weather.TemperatureUnit](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.TemperatureUnit.md)
-* [google.maps.weather.WindSpeedUnit](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WindSpeedUnit.md)
-* [google.maps.weather.LabelColor](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.LabelColor.md)
-* [google.maps.weather.WeatherMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherMouseEvent.md)
-* [google.maps.weather.WeatherFeature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherFeature.md)
-* [google.maps.weather.WeatherConditions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherConditions.md)
-* [google.maps.weather.WeatherForecast](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherForecast.md)
-* [google.maps.visualization.MapsEngineLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.MapsEngineLayer.md)
-* [google.maps.visualization.MapsEngineLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.MapsEngineLayerOptions.md)
-* [google.maps.visualization.MapsEngineLayerProperties](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.MapsEngineLayerProperties.md)
-* [google.maps.visualization.MapsEngineMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.MapsEngineMouseEvent.md)
-* [google.maps.visualization.MapsEngineStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.MapsEngineStatus.md)
-* [google.maps.visualization.DynamicMapsEngineLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineLayer.md)
-* [google.maps.visualization.DynamicMapsEngineLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineLayerOptions.md)
-* [google.maps.visualization.DynamicMapsEngineMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.DynamicMapsEngineMouseEvent.md)
-* [google.maps.visualization.FeatureStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.FeatureStyle.md)
-* [google.maps.visualization.HeatmapLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.HeatmapLayer.md)
-* [google.maps.visualization.HeatmapLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.HeatmapLayerOptions.md)
-* [google.maps.visualization.WeightedLocation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.visualization.WeightedLocation.md)
+<p id="map"><strong>Map</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md">MapOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md">MapTypeId</a></li>
+</ul>
+<p id="controls"><strong>Controls</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeControlOptions.md">MapTypeControlOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeControlStyle.md">MapTypeControlStyle</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverviewMapControlOptions.md">OverviewMapControlOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanControlOptions.md">PanControlOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RotateControlOptions.md">RotateControlOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ScaleControlOptions.md">ScaleControlOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ScaleControlStyle.md">ScaleControlStyle</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewControlOptions.md">StreetViewControlOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ZoomControlOptions.md">ZoomControlOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ZoomControlStyle.md">ZoomControlStyle</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ControlPosition.md">ControlPosition</a></li>
+</ul>
+<p id="data"><strong>Data</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.md">Data</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.DataOptions.md">Data.DataOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.GeoJsonOptions.md">Data.GeoJsonOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.StyleOptions.md">Data.StyleOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.StylingFunction.md">Data.StylingFunction</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md">Data.Feature</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.FeatureOptions.md">Data.FeatureOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md">Data.Geometry</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Point.md">Data.Point</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MultiPoint.md">Data.MultiPoint</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.LineString.md">Data.LineString</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MultiLineString.md">Data.MultiLineString</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.LinearRing.md">Data.LinearRing</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Polygon.md">Data.Polygon</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MultiPolygon.md">Data.MultiPolygon</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.GeometryCollection.md">Data.GeometryCollection</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md">Data.MouseEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.AddFeatureEvent.md">Data.AddFeatureEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemoveFeatureEvent.md">Data.RemoveFeatureEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetGeometryEvent.md">Data.SetGeometryEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetPropertyEvent.md">Data.SetPropertyEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemovePropertyEvent.md">Data.RemovePropertyEvent</a></li>
+</ul>
+<p id="overlays"><strong>Overlays</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Marker.md">Marker</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md">MarkerOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md">Icon</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md">MarkerShape</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Symbol.md">Symbol</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SymbolPath.md">SymbolPath</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md">Animation</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindow.md">InfoWindow</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindowOptions.md">InfoWindowOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polyline.md">Polyline</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md">PolylineOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconSequence.md">IconSequence</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Polygon.md">Polygon</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md">PolygonOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md">PolyMouseEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Rectangle.md">Rectangle</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md">RectangleOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Circle.md">Circle</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md">CircleOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StrokePosition.md">StrokePosition</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GroundOverlay.md">GroundOverlay</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GroundOverlayOptions.md">GroundOverlayOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayView.md">OverlayView</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapPanes.md">MapPanes</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapCanvasProjection.md">MapCanvasProjection</a></li>
+</ul>
+<p id="services"><strong>Services</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Geocoder.md">Geocoder</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderRequest.md">GeocoderRequest</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderComponentRestrictions.md">GeocoderComponentRestrictions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderStatus.md">GeocoderStatus</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderResult.md">GeocoderResult</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderAddressComponent.md">GeocoderAddressComponent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderGeometry.md">GeocoderGeometry</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderLocationType.md">GeocoderLocationType</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRenderer.md">DirectionsRenderer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md">DirectionsRendererOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsService.md">DirectionsService</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md">DirectionsRequest</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TravelMode.md">TravelMode</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/UnitSystem.md">UnitSystem</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md">TransitOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitMode.md">TransitMode</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitRoutePreference.md">TransitRoutePreference</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitFare.md">TransitFare</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsWaypoint.md">DirectionsWaypoint</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStatus.md">DirectionsStatus</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md">DirectionsResult</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRoute.md">DirectionsRoute</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsLeg.md">DirectionsLeg</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStep.md">DirectionsStep</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Distance.md">Distance</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md">Duration</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Time.md">Time</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitDetails.md">TransitDetails</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitStop.md">TransitStop</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitLine.md">TransitLine</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitAgency.md">TransitAgency</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitVehicle.md">TransitVehicle</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/VehicleType.md">VehicleType</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationService.md">ElevationService</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LocationElevationRequest.md">LocationElevationRequest</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PathElevationRequest.md">PathElevationRequest</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationResult.md">ElevationResult</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationStatus.md">ElevationStatus</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomService.md">MaxZoomService</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomResult.md">MaxZoomResult</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomStatus.md">MaxZoomStatus</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixService.md">DistanceMatrixService</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixRequest.md">DistanceMatrixRequest</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponse.md">DistanceMatrixResponse</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponseRow.md">DistanceMatrixResponseRow</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponseElement.md">DistanceMatrixResponseElement</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixStatus.md">DistanceMatrixStatus</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixElementStatus.md">DistanceMatrixElementStatus</a></li>
+</ul>
+<p id="save-to-google-maps"><strong>Save to Google Maps</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md">Attribution</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SaveWidget.md">SaveWidget</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SaveWidgetOptions.md">SaveWidgetOptions</a></li>
+</ul>
+<p id="map-types"><strong>Map Types</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapType.md">MapType</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeRegistry.md">MapTypeRegistry</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Projection.md">Projection</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapType.md">ImageMapType</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapTypeOptions.md">ImageMapTypeOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StyledMapType.md">StyledMapType</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StyledMapTypeOptions.md">StyledMapTypeOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyle.md">MapTypeStyle</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyleFeatureType.md">MapTypeStyleFeatureType</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyleElementType.md">MapTypeStyleElementType</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyler.md">MapTypeStyler</a></li>
+</ul>
+<p id="layers"><strong>Layers</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/BicyclingLayer.md">BicyclingLayer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayer.md">FusionTablesLayer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayerOptions.md">FusionTablesLayerOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesQuery.md">FusionTablesQuery</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesStyle.md">FusionTablesStyle</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesHeatmap.md">FusionTablesHeatmap</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesMarkerOptions.md">FusionTablesMarkerOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesPolygonOptions.md">FusionTablesPolygonOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesPolylineOptions.md">FusionTablesPolylineOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesMouseEvent.md">FusionTablesMouseEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesCell.md">FusionTablesCell</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayer.md">KmlLayer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerOptions.md">KmlLayerOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerMetadata.md">KmlLayerMetadata</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerStatus.md">KmlLayerStatus</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlMouseEvent.md">KmlMouseEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlFeatureData.md">KmlFeatureData</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlAuthor.md">KmlAuthor</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayer.md">TrafficLayer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitLayer.md">TransitLayer</a></li>
+</ul>
+<p id="street-view"><strong>Street View</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md">StreetViewPanoramaOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewAddressControlOptions.md">StreetViewAddressControlOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewLink.md">StreetViewLink</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPov.md">StreetViewPov</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaData.md">StreetViewPanoramaData</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewLocation.md">StreetViewLocation</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewTileData.md">StreetViewTileData</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewService.md">StreetViewService</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewStatus.md">StreetViewStatus</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewCoverageLayer.md">StreetViewCoverageLayer</a></li>
+</ul>
+<p id="events"><strong>Events</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md">MapsEventListener</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/event.md">event</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md">MouseEvent</a></li>
+</ul>
+<p id="base"><strong>Base</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md">Point</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md">Size</a></li>
+</ul>
+<p id="mvc"><strong>MVC</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a></li>
+</ul>
+<p id="geometry-library"><strong>Geometry Library</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/encoding.md">encoding</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/spherical.md">spherical</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/poly.md">poly</a></li>
+</ul>
+<p id="adsense-library"><strong>AdSense Library</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdUnit.md">AdUnit</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdUnitOptions.md">AdUnitOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdFormat.md">AdFormat</a></li>
+</ul>
+<p id="panoramio-library"><strong>Panoramio Library</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoramioLayer.md">PanoramioLayer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoramioLayerOptions.md">PanoramioLayerOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoramioFeature.md">PanoramioFeature</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoramioMouseEvent.md">PanoramioMouseEvent</a></li>
+</ul>
+<p id="places-library"><strong>Places Library</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Autocomplete.md">Autocomplete</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md">AutocompleteOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletePrediction.md">AutocompletePrediction</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionTerm.md">PredictionTerm</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionSubstring.md">PredictionSubstring</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteService.md">AutocompleteService</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletionRequest.md">AutocompletionRequest</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md">ComponentRestrictions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceAspectRating.md">PlaceAspectRating</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceDetailsRequest.md">PlaceDetailsRequest</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceGeometry.md">PlaceGeometry</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacePhoto.md">PlacePhoto</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PhotoOptions.md">PhotoOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md">PlaceResult</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceReview.md">PlaceReview</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceSearchPagination.md">PlaceSearchPagination</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceSearchRequest.md">PlaceSearchRequest</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md">PlacesService</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md">PlacesServiceStatus</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/QueryAutocompletePrediction.md">QueryAutocompletePrediction</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/QueryAutocompletionRequest.md">QueryAutocompletionRequest</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RadarSearchRequest.md">RadarSearchRequest</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RankBy.md">RankBy</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBox.md">SearchBox</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBoxOptions.md">SearchBoxOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TextSearchRequest.md">TextSearchRequest</a></li>
+</ul>
+<p id="drawing-library"><strong>Drawing Library</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManager.md">DrawingManager</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md">DrawingManagerOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingControlOptions.md">DrawingControlOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayCompleteEvent.md">OverlayCompleteEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md">OverlayType</a></li>
+</ul>
+<p id="weather-library"><strong>Weather Library</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CloudLayer.md">CloudLayer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherLayer.md">WeatherLayer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherLayerOptions.md">WeatherLayerOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TemperatureUnit.md">TemperatureUnit</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WindSpeedUnit.md">WindSpeedUnit</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LabelColor.md">LabelColor</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherMouseEvent.md">WeatherMouseEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherFeature.md">WeatherFeature</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherConditions.md">WeatherConditions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherForecast.md">WeatherForecast</a></li>
+</ul>
+<p id="visualization-library"><strong>Visualization Library</strong></p>
+<ul>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineLayer.md">MapsEngineLayer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineLayerOptions.md">MapsEngineLayerOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineLayerProperties.md">MapsEngineLayerProperties</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineMouseEvent.md">MapsEngineMouseEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineStatus.md">MapsEngineStatus</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DynamicMapsEngineLayer.md">DynamicMapsEngineLayer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DynamicMapsEngineLayerOptions.md">DynamicMapsEngineLayerOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DynamicMapsEngineMouseEvent.md">DynamicMapsEngineMouseEvent</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FeatureStyle.md">FeatureStyle</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayer.md">HeatmapLayer</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md">HeatmapLayerOptions</a></li>
+<li><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md">WeightedLocation</a></li>
+</ul>
 
 
 
