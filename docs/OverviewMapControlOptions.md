@@ -1,7 +1,5 @@
-<h2 id="OverviewMapControlOptions">
-google.maps.OverviewMapControlOptions
-object specification
-</h2><p>Options for the rendering of the Overview Map control.</p><h3>Properties</h3><table summary="interface OverviewMapControlOptions - Properties" width="100%">
+<h2 id="OverviewMapControlOptions">google.maps.OverviewMapControlOptions object specification</h2>
+<p>Options for the rendering of the Overview Map control.</p><h3>Properties</h3><table summary="interface OverviewMapControlOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>

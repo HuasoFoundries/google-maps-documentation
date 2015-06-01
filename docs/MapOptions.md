@@ -1,7 +1,5 @@
-<h2 id="MapOptions">
-google.maps.MapOptions
-object specification
-</h2><h3>Properties</h3><table summary="interface MapOptions - Properties" width="100%">
+<h2 id="MapOptions">google.maps.MapOptions object specification</h2>
+<h3>Properties</h3><table summary="interface MapOptions - Properties" width="100%">
 <thead>
 <tr><th>Properties</th>
 <th>Type</th>
@@ -15,7 +13,7 @@ object specification
 </tr>
 <tr>
 <td><code>center</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></td>
 <td>The initial Map center. Required.</td>
 </tr>
 <tr>
@@ -65,12 +63,12 @@ object specification
 </tr>
 <tr>
 <td><code>mapTypeControlOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeControlOptions.md">MapTypeControlOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeControlOptions.md">MapTypeControlOptions</a></code></td>
 <td>The initial display options for the Map type control.</td>
 </tr>
 <tr>
 <td><code>mapTypeId</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeId.md">MapTypeId</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md">MapTypeId</a></code></td>
 <td>The initial Map mapTypeId. Defaults to <code>ROADMAP</code>.</td>
 </tr>
 <tr>
@@ -95,7 +93,7 @@ object specification
 </tr>
 <tr>
 <td><code>overviewMapControlOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.OverviewMapControlOptions.md">OverviewMapControlOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverviewMapControlOptions.md">OverviewMapControlOptions</a></code></td>
 <td>The display options for the Overview Map control.</td>
 </tr>
 <tr>
@@ -105,7 +103,7 @@ object specification
 </tr>
 <tr>
 <td><code>panControlOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PanControlOptions.md">PanControlOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanControlOptions.md">PanControlOptions</a></code></td>
 <td>The display options for the Pan control.</td>
 </tr>
 <tr>
@@ -115,7 +113,7 @@ object specification
 </tr>
 <tr>
 <td><code>rotateControlOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.RotateControlOptions.md">RotateControlOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RotateControlOptions.md">RotateControlOptions</a></code></td>
 <td>The display options for the Rotate control.</td>
 </tr>
 <tr>
@@ -125,7 +123,7 @@ object specification
 </tr>
 <tr>
 <td><code>scaleControlOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ScaleControlOptions.md">ScaleControlOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ScaleControlOptions.md">ScaleControlOptions</a></code></td>
 <td>The initial display options for the Scale control.</td>
 </tr>
 <tr>
@@ -135,7 +133,7 @@ object specification
 </tr>
 <tr>
 <td><code>streetView</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanorama.md">StreetViewPanorama</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a></code></td>
 <td>A <code>StreetViewPanorama</code> to display when the Street View pegman is dropped on the map. If no panorama is specified, a default <code>StreetViewPanorama</code> will be displayed in the map's <code>div</code> when the pegman is dropped.</td>
 </tr>
 <tr>
@@ -145,12 +143,12 @@ object specification
 </tr>
 <tr>
 <td><code>streetViewControlOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewControlOptions.md">StreetViewControlOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewControlOptions.md">StreetViewControlOptions</a></code></td>
 <td>The initial display options for the Street View Pegman control.</td>
 </tr>
 <tr>
 <td><code>styles</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeStyle.md">MapTypeStyle</a>&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyle.md">MapTypeStyle</a>&gt;</code></td>
 <td>Styles to apply to each of the default map types. Note that for Satellite/Hybrid and Terrain modes, these styles will only apply to labels and geometry.</td>
 </tr>
 <tr>
@@ -170,7 +168,7 @@ object specification
 </tr>
 <tr>
 <td><code>zoomControlOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.ZoomControlOptions.md">ZoomControlOptions</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ZoomControlOptions.md">ZoomControlOptions</a></code></td>
 <td>The display options for the Zoom control.</td>
 </tr>
 </tbody>

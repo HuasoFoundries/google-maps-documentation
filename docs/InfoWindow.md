@@ -1,8 +1,6 @@
-<h2 id="InfoWindow">
-google.maps.InfoWindow
-class
-</h2><p>An overlay that looks like a bubble and is often connected to a marker.</p><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
+<h2 id="InfoWindow">google.maps.InfoWindow class</h2>
+<p>An overlay that looks like a bubble and is often connected to a marker.</p><p>This class extends
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
 </p><h3>Constructor</h3><table summary="class InfoWindow - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +8,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>InfoWindow(opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.InfoWindowOptions.md"><em>InfoWindowOptions</em></a>)</code></td>
+<td><code>InfoWindow(opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindowOptions.md"><em>InfoWindowOptions</em></a>)</code></td>
 <td>Creates an info window with the given options. An InfoWindow can be placed on a map at a particular position or above a marker, depending on what is specified in the options. Unless auto-pan is disabled, an InfoWindow will pan the map to make itself visible when it is opened. After constructing an InfoWindow, you must call open to display it on the map. The user can click the close button on the InfoWindow to remove it from the map, or the developer can call close() for the same effect.</td>
 </tr>
 </tbody>
@@ -33,7 +31,7 @@ class
 </tr>
 <tr>
 <td><code>getPosition()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></td>
 <td></td>
 </tr>
 <tr>
@@ -42,7 +40,7 @@ class
 <td></td>
 </tr>
 <tr>
-<td><code>open(map?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanorama.md">StreetViewPanorama</a>, anchor?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a>)</code></td>
+<td><code>open(map?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a>, anchor?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a>)</code></td>
 <td><code>None</code></td>
 <td>Opens this InfoWindow on the given map. Optionally, an InfoWindow can be associated with an anchor. In the core API, the only anchor is the Marker class. However, an anchor can be any MVCObject that exposes a LatLng <code>position</code> property and optionally a Point <code>anchorPoint</code> property for calculating the <code>pixelOffset</code> (see InfoWindowOptions). The <code>anchorPoint</code> is the offset from the anchor's position to the tip of the InfoWindow.</td>
 </tr>
@@ -52,12 +50,12 @@ class
 <td></td>
 </tr>
 <tr>
-<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.InfoWindowOptions.md"><em>InfoWindowOptions</em></a>)</code></td>
+<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindowOptions.md"><em>InfoWindowOptions</em></a>)</code></td>
 <td><code>None</code></td>
 <td></td>
 </tr>
 <tr>
-<td><code>setPosition(position:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>)</code></td>
+<td><code>setPosition(position:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>)</code></td>
 <td><code>None</code></td>
 <td></td>
 </tr>

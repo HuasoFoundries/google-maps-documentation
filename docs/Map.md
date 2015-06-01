@@ -1,8 +1,6 @@
-<h2 id="Map">
-google.maps.Map
-class
-</h2><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
+<h2 id="Map">google.maps.Map class</h2>
+<p>This class extends
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
 </p><h3>Constructor</h3><table summary="class Map - Constructor" width="100%">
 <thead>
 <tr><th>Constructor</th>
@@ -10,7 +8,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Map(mapDiv:Node, opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapOptions.md"><em>MapOptions</em></a>)</code></td>
+<td><code>Map(mapDiv:Node, opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md"><em>MapOptions</em></a>)</code></td>
 <td>Creates a new map inside of the given HTML container, which is typically a <code>DIV</code> element.</td>
 </tr>
 </tbody>
@@ -22,19 +20,19 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code>fitBounds(bounds:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a>)</code></td>
+<td><code>fitBounds(bounds:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a>)</code></td>
 <td><code>None</code></td>
 <td>Sets the viewport to contain the given bounds.</td>
 </tr>
 <tr>
 <td><code>getBounds()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></td>
 <td>Returns the lat/lng bounds of the current viewport. If more than one copy of the world is visible, the bounds range in longitude from -180 to 180 degrees inclusive. If the map is not yet initialized (i.e. the mapType is still null), or center and zoom have not been set then the result is <code>null</code> or <code>undefined</code>.</td>
 </tr>
 <tr>
 <td><code>getCenter()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>Returns the position displayed at the center of the map. Note that this <code>LatLng</code> object is <em>not</em> wrapped. See <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code> for more information.</td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></td>
+<td>Returns the position displayed at the center of the map. Note that this <code>LatLng</code> object is <em>not</em> wrapped. See <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code> for more information.</td>
 </tr>
 <tr>
 <td><code>getDiv()</code></td>
@@ -48,17 +46,17 @@ class
 </tr>
 <tr>
 <td><code>getMapTypeId()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeId.md">MapTypeId</a>|string</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md">MapTypeId</a>|string</code></td>
 <td></td>
 </tr>
 <tr>
 <td><code>getProjection()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Projection.md">Projection</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Projection.md">Projection</a></code></td>
 <td>Returns the current <code>Projection</code>. If the map is not yet initialized (i.e. the mapType is still null) then the result is null. Listen to <code>projection_changed</code> and check its value to ensure it is not null.</td>
 </tr>
 <tr>
 <td><code>getStreetView()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanorama.md">StreetViewPanorama</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a></code></td>
 <td>Returns the default <code>StreetViewPanorama</code> bound to the map, which may be a default panorama embedded within the map, or the panorama set using <code>setStreetView()</code>. Changes to the map's <code>streetViewControl</code> will be reflected in the display of such a bound panorama.</td>
 </tr>
 <tr>
@@ -77,17 +75,17 @@ class
 <td>Changes the center of the map by the given distance in pixels. If the distance is less than both the width and height of the map, the transition will be smoothly animated. Note that the map coordinate system increases from west to east (for x values) and north to south (for y values).</td>
 </tr>
 <tr>
-<td><code>panTo(latLng:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>)</code></td>
+<td><code>panTo(latLng:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a>)</code></td>
 <td><code>None</code></td>
 <td>Changes the center of the map to the given <code>LatLng</code>. If the change is less than both the width and height of the map, the transition will be smoothly animated.</td>
 </tr>
 <tr>
-<td><code>panToBounds(latLngBounds:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a>)</code></td>
+<td><code>panToBounds(latLngBounds:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a>)</code></td>
 <td><code>None</code></td>
 <td>Pans the map by the minimum amount necessary to contain the given <code>LatLngBounds</code>. It makes no guarantee where on the map the bounds will be, except that as much of the bounds as possible will be visible. The bounds will be positioned inside the area bounded by the map type and navigation (pan, zoom, and Street View) controls, if they are present on the map. If the bounds is larger than the map, the map will be shifted to include the northwest corner of the bounds. If the change in the map's position is less than both the width and height of the map, the transition will be smoothly animated.</td>
 </tr>
 <tr>
-<td><code>setCenter(latlng:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>)</code></td>
+<td><code>setCenter(latlng:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a>)</code></td>
 <td><code>None</code></td>
 <td></td>
 </tr>
@@ -97,17 +95,17 @@ class
 <td>Sets the compass heading for aerial imagery measured in degrees from cardinal direction North.</td>
 </tr>
 <tr>
-<td><code>setMapTypeId(mapTypeId:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeId.md">MapTypeId</a>|string)</code></td>
+<td><code>setMapTypeId(mapTypeId:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md">MapTypeId</a>|string)</code></td>
 <td><code>None</code></td>
 <td></td>
 </tr>
 <tr>
-<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapOptions.md"><em>MapOptions</em></a>)</code></td>
+<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md"><em>MapOptions</em></a>)</code></td>
 <td><code>None</code></td>
 <td></td>
 </tr>
 <tr>
-<td><code>setStreetView(panorama:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.StreetViewPanorama.md">StreetViewPanorama</a>)</code></td>
+<td><code>setStreetView(panorama:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a>)</code></td>
 <td><code>None</code></td>
 <td>Binds a <code>StreetViewPanorama</code> to the map. This panorama overrides the default <code>StreetViewPanorama</code>, allowing the map to bind to an external panorama outside of the map. Setting the panorama to <code>null</code> binds the default embedded panorama back to the map.</td>
 </tr>
@@ -131,22 +129,22 @@ class
 <tbody>
 <tr>
 <td><code>controls</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>&lt;Node&gt;&gt;</code></td>
+<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a>&lt;Node&gt;&gt;</code></td>
 <td>Additional controls to attach to the map. To add a control to the map, add the control's <code>&lt;div&gt;</code> to the <code>MVCArray</code> corresponding to the <code>ControlPosition</code> where it should be rendered.</td>
 </tr>
 <tr>
 <td><code>data</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.md">Data</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.md">Data</a></code></td>
 <td>An instance of <code>Data</code>, bound to the map. Add features to this <code>Data</code> object to conveniently display them on this map.</td>
 </tr>
 <tr>
 <td><code>mapTypes</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapTypeRegistry.md">MapTypeRegistry</a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeRegistry.md">MapTypeRegistry</a></code></td>
 <td>A registry of <code>MapType</code> instances by string ID.</td>
 </tr>
 <tr>
 <td><code>overlayMapTypes</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MapType.md">MapType</a>&gt;</code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapType.md">MapType</a>&gt;</code></td>
 <td>Additional map types to overlay.</td>
 </tr>
 </tbody>
@@ -169,12 +167,12 @@ class
 </tr>
 <tr>
 <td><code>click</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></td>
 <td>This event is fired when the user clicks on the map (but not when they click on a marker or infowindow).</td>
 </tr>
 <tr>
 <td><code>dblclick</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></td>
 <td>This event is fired when the user double-clicks on the map. Note that the click event will also fire, right before this one.</td>
 </tr>
 <tr>
@@ -209,17 +207,17 @@ class
 </tr>
 <tr>
 <td><code>mousemove</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></td>
 <td>This event is fired whenever the user's mouse moves over the map container.</td>
 </tr>
 <tr>
 <td><code>mouseout</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></td>
 <td>This event is fired when the user's mouse exits the map container.</td>
 </tr>
 <tr>
 <td><code>mouseover</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></td>
 <td>This event is fired when the user's mouse enters the map container.</td>
 </tr>
 <tr>
@@ -230,11 +228,11 @@ class
 <tr>
 <td><code>resize</code></td>
 <td><code>None</code></td>
-<td>Developers should trigger this event on the map when the div changes size: <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.event.md">google.maps.event.trigger</a>(map, 'resize') </code>.</td>
+<td>Developers should trigger this event on the map when the div changes size: <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/event.md">google.maps.event.trigger</a>(map, 'resize') </code>.</td>
 </tr>
 <tr>
 <td><code>rightclick</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
+<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></td>
 <td>This event is fired when the DOM contextmenu event is fired on the map container.</td>
 </tr>
 <tr>

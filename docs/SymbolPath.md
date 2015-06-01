@@ -1,7 +1,5 @@
-<h2 id="SymbolPath">
-google.maps.SymbolPath
-class
-</h2><p>Built-in symbol paths.</p><h3>Constant</h3><table summary="class SymbolPath - Constants" width="100%">
+<h2 id="SymbolPath">google.maps.SymbolPath class</h2>
+<p>Built-in symbol paths.</p><h3>Constant</h3><table summary="class SymbolPath - Constants" width="100%">
 <thead>
 <tr><th>Constant</th>
 <th>Description</th>
