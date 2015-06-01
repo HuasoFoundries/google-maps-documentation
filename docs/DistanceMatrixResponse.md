@@ -1,27 +1,25 @@
-<h2 id="DistanceMatrixResponse">
-google.maps.DistanceMatrixResponse
+<h2 id="DistanceMatrixResponse"> DistanceMatrixResponse object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixResponse</span></code>
 object specification
-</h2><p>The response to a <code>DistanceMatrixService</code> request, consisting of the formatted origin and destination addresses, and a sequence of <code>DistanceMatrixResponseRow</code>s, one for each corresponding origin address.</p><h3>Properties</h3><table summary="interface DistanceMatrixResponse - Properties" width="100%">
+</p><p>The response to a <code>DistanceMatrixService</code> request, consisting of the formatted origin and destination addresses, and a sequence of <code>DistanceMatrixResponseRow</code>s, one for each corresponding origin address.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DistanceMatrixResponse - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>destinationAddresses</code></td>
-<td><code>Array&lt;string&gt;</code></td>
-<td>The formatted destination addresses.</td>
+<td><code><span>destinationAddresses</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
+<div class="desc">The formatted destination addresses.</div></td>
 </tr>
 <tr>
-<td><code>originAddresses</code></td>
-<td><code>Array&lt;string&gt;</code></td>
-<td>The formatted origin addresses.</td>
+<td><code><span>originAddresses</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
+<div class="desc">The formatted origin addresses.</div></td>
 </tr>
 <tr>
-<td><code>rows</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DistanceMatrixResponseRow.md">DistanceMatrixResponseRow</a>&gt;</code></td>
-<td>The rows of the matrix, corresponding to the origin addresses.</td>
+<td><code><span>rows</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponseRow.md">DistanceMatrixResponseRow</a>&gt;</code></div>
+<div class="desc">The rows of the matrix, corresponding to the origin addresses.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

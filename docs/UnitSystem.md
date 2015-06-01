@@ -1,19 +1,18 @@
-<h2 id="UnitSystem">
-google.maps.UnitSystem
+<h2 id="UnitSystem"> UnitSystem class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">UnitSystem</span></code>
 class
-</h2><p>The valid unit systems that can be specified in a <i><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsRequest.md">DirectionsRequest</a></code></i>.</p><h3>Constant</h3><table summary="class UnitSystem - Constants" width="100%">
+</p><p>The valid unit systems that can be specified in a <i><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md">DirectionsRequest</a></code></i>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class UnitSystem - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>IMPERIAL</code></td>
-<td>Specifies that distances in the <code>DirectionsResult</code> should be expressed in imperial units.</td>
+<td><code><span>IMPERIAL</span></code></td>
+<td>Specifies that distances in the <code><span>DirectionsResult</span></code> should be expressed in imperial units.</td>
 </tr>
 <tr>
-<td><code>METRIC</code></td>
-<td>Specifies that distances in the <code>DirectionsResult</code> should be expressed in metric units.</td>
+<td><code><span>METRIC</span></code></td>
+<td>Specifies that distances in the <code><span>DirectionsResult</span></code> should be expressed in metric units.</td>
 </tr>
 </tbody>
-</table>
+</table></div>

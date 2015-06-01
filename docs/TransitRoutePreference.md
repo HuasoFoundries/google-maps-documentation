@@ -1,19 +1,18 @@
-<h2 id="TransitRoutePreference">
-google.maps.TransitRoutePreference
+<h2 id="TransitRoutePreference"> TransitRoutePreference class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">TransitRoutePreference</span></code>
 class
-</h2><p>The valid transit route type that can be specified in a <i><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitOptions.md">TransitOptions</a></code></i>.</p><h3>Constant</h3><table summary="class TransitRoutePreference - Constants" width="100%">
+</p><p>The valid transit route type that can be specified in a <i><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md">TransitOptions</a></code></i>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class TransitRoutePreference - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>FEWER_TRANSFERS</code></td>
+<td><code><span>FEWER_TRANSFERS</span></code></td>
 <td>Specifies that the calculated route should prefer a limited number of transfers.</td>
 </tr>
 <tr>
-<td><code>LESS_WALKING</code></td>
+<td><code><span>LESS_WALKING</span></code></td>
 <td>Specifies that the calculated route should prefer limited amounts of walking.</td>
 </tr>
 </tbody>
-</table>
+</table></div>

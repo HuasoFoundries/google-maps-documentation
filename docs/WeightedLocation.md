@@ -1,22 +1,20 @@
-<h2 id="WeightedLocation">
-google.maps.visualization.WeightedLocation
+<h2 id="WeightedLocation"> WeightedLocation object specification </h2><p>
+<code><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">WeightedLocation</span></code>
 object specification
-</h2><p>A data point entry for a heatmap. This is a geographical data point with a weight attribute.</p><h3>Library</h3><p>visualization</p><h3>Properties</h3><table summary="interface WeightedLocation - Properties" width="100%">
+</p><p>A data point entry for a heatmap. This is a geographical data point with a weight attribute.</p><h4>Library</h4><p>visualization</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface WeightedLocation - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>location</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The location of the data point.</td>
+<td><code><span>location</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">The location of the data point.</div></td>
 </tr>
 <tr>
-<td><code>weight</code></td>
-<td><code>number</code></td>
-<td>The weighting value of the data point.</td>
+<td><code><span>weight</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The weighting value of the data point.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

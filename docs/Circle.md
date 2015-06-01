@@ -1,168 +1,163 @@
-<h2 id="Circle">
-google.maps.Circle
+<h2 id="Circle"> Circle class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Circle</span></code>
 class
-</h2><p>A circle on the Earth's surface; also known as a "spherical cap".</p><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class Circle - Constructor" width="100%">
+</p><p>A circle on the Earth's surface; also known as a "spherical cap".</p><p>This class extends
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
+</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Circle - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Circle(opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.CircleOptions.md"><em>CircleOptions</em></a>)</code></td>
-<td>Create a circle using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.CircleOptions.md">CircleOptions</a></em></code>, which specify the center, radius, and style.</td>
+<td><code><span>Circle(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md"><em><span>CircleOptions</span></em></a><span>)</span></code></td>
+<td>Create a circle using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md"><span>CircleOptions</span></a></em></code>, which specify the center, radius, and style.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Circle - Methods" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Circle - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getBounds()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
-<td>Gets the <code>LatLngBounds</code> of this Circle.</td>
+<td><code><span>getBounds()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
+<div class="desc">Gets the <code>LatLngBounds</code> of this Circle.</div></td>
 </tr>
 <tr>
-<td><code>getCenter()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>Returns the center of this circle.</td>
+<td><code><span>getCenter()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">Returns the center of this circle.</div></td>
 </tr>
 <tr>
-<td><code>getDraggable()</code></td>
-<td><code>boolean</code></td>
-<td>Returns whether this circle can be dragged by the user.</td>
+<td><code><span>getDraggable()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Returns whether this circle can be dragged by the user.</div></td>
 </tr>
 <tr>
-<td><code>getEditable()</code></td>
-<td><code>boolean</code></td>
-<td>Returns whether this circle can be edited by the user.</td>
+<td><code><span>getEditable()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Returns whether this circle can be edited by the user.</div></td>
 </tr>
 <tr>
-<td><code>getMap()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
-<td>Returns the map on which this circle is displayed.</td>
+<td><code><span>getMap()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
+<div class="desc">Returns the map on which this circle is displayed.</div></td>
 </tr>
 <tr>
-<td><code>getRadius()</code></td>
-<td><code>number</code></td>
-<td>Returns the radius of this circle (in meters).</td>
+<td><code><span>getRadius()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>number</code></div>
+<div class="desc">Returns the radius of this circle (in meters).</div></td>
 </tr>
 <tr>
-<td><code>getVisible()</code></td>
-<td><code>boolean</code></td>
-<td>Returns whether this circle is visible on the map.</td>
+<td><code><span>getVisible()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Returns whether this circle is visible on the map.</div></td>
 </tr>
 <tr>
-<td><code>setCenter(center:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>)</code></td>
-<td><code>None</code></td>
-<td>Sets the center of this circle.</td>
+<td><code><span>setCenter(<wbr>center:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Sets the center of this circle.</div></td>
 </tr>
 <tr>
-<td><code>setDraggable(draggable:boolean)</code></td>
-<td><code>None</code></td>
-<td>If set to true, the user can drag this circle over the map.</td>
+<td><code><span>setDraggable(<wbr>draggable:boolean)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">If set to true, the user can drag this circle over the map.</div></td>
 </tr>
 <tr>
-<td><code>setEditable(editable:boolean)</code></td>
-<td><code>None</code></td>
-<td>If set to true, the user can edit this circle by dragging the control points shown at the center and around the circumference of the circle.</td>
+<td><code><span>setEditable(<wbr>editable:boolean)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">If set to true, the user can edit this circle by dragging the control points shown at the center and around the circumference of the circle.</div></td>
 </tr>
 <tr>
-<td><code>setMap(map:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a>)</code></td>
-<td><code>None</code></td>
-<td>Renders the circle on the specified map. If map is set to null, the circle will be removed.</td>
+<td><code><span>setMap(<wbr>map:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md"><span>Map</span></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Renders the circle on the specified map. If map is set to null, the circle will be removed.</div></td>
 </tr>
 <tr>
-<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.CircleOptions.md"><em>CircleOptions</em></a>)</code></td>
-<td><code>None</code></td>
-<td></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md"><em><span>CircleOptions</span></em></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc"></div></td>
 </tr>
 <tr>
-<td><code>setRadius(radius:number)</code></td>
-<td><code>None</code></td>
-<td>Sets the radius of this circle (in meters).</td>
+<td><code><span>setRadius(<wbr>radius:number)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Sets the radius of this circle (in meters).</div></td>
 </tr>
 <tr>
-<td><code>setVisible(visible:boolean)</code></td>
-<td><code>None</code></td>
-<td>Hides this circle if set to <code>false</code>.</td>
+<td><code><span>setVisible(<wbr>visible:boolean)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Hides this circle if set to <code>false</code>.</div></td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class Circle - Events" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="details responsive" summary="class Circle - Events">
 <thead>
-<tr><th>Events</th>
-<th>Arguments</th>
-<th>Description</th>
+<tr><th colspan="2">Events</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>center_changed</code></td>
-<td><code>None</code></td>
-<td>This event is fired when the circle's center is changed.</td>
+<td><code><span>center_changed</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
+<div class="desc">This event is fired when the circle's center is changed.</div></td>
 </tr>
 <tr>
-<td><code>click</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the DOM click event is fired on the circle.</td>
+<td><code><span>click</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the DOM click event is fired on the circle.</div></td>
 </tr>
 <tr>
-<td><code>dblclick</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the DOM dblclick event is fired on the circle.</td>
+<td><code><span>dblclick</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the DOM dblclick event is fired on the circle.</div></td>
 </tr>
 <tr>
-<td><code>drag</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is repeatedly fired while the user drags the circle.</td>
+<td><code><span>drag</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is repeatedly fired while the user drags the circle.</div></td>
 </tr>
 <tr>
-<td><code>dragend</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the user stops dragging the circle.</td>
+<td><code><span>dragend</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the user stops dragging the circle.</div></td>
 </tr>
 <tr>
-<td><code>dragstart</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the user starts dragging the circle.</td>
+<td><code><span>dragstart</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the user starts dragging the circle.</div></td>
 </tr>
 <tr>
-<td><code>mousedown</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the DOM mousedown event is fired on the circle.</td>
+<td><code><span>mousedown</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the DOM mousedown event is fired on the circle.</div></td>
 </tr>
 <tr>
-<td><code>mousemove</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the DOM mousemove event is fired on the circle.</td>
+<td><code><span>mousemove</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the DOM mousemove event is fired on the circle.</div></td>
 </tr>
 <tr>
-<td><code>mouseout</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired on circle mouseout.</td>
+<td><code><span>mouseout</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired on circle mouseout.</div></td>
 </tr>
 <tr>
-<td><code>mouseover</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired on circle mouseover.</td>
+<td><code><span>mouseover</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired on circle mouseover.</div></td>
 </tr>
 <tr>
-<td><code>mouseup</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the DOM mouseup event is fired on the circle.</td>
+<td><code><span>mouseup</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the DOM mouseup event is fired on the circle.</div></td>
 </tr>
 <tr>
-<td><code>radius_changed</code></td>
-<td><code>None</code></td>
-<td>This event is fired when the circle's radius is changed.</td>
+<td><code><span>radius_changed</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
+<div class="desc">This event is fired when the circle's radius is changed.</div></td>
 </tr>
 <tr>
-<td><code>rightclick</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the circle is right-clicked on.</td>
+<td><code><span>rightclick</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the circle is right-clicked on.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

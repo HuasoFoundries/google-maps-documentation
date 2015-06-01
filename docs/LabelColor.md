@@ -1,19 +1,18 @@
-<h2 id="LabelColor">
-google.maps.weather.LabelColor
+<h2 id="LabelColor"> LabelColor class </h2><p>
+<code><span itemprop="path">google.maps.weather</span>.<span itemprop="name">LabelColor</span></code>
 class
-</h2><p>The color of the labels displayed on the weather layer.</p><h3>Library</h3><p>weather</p><h3>Constant</h3><table summary="class LabelColor - Constants" width="100%">
+</p><p>The color of the labels displayed on the weather layer.</p><h4>Library</h4><p>weather</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class LabelColor - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>BLACK</code></td>
+<td><code><span>BLACK</span></code></td>
 <td>Weather labels will be displayed as black text with a white border.</td>
 </tr>
 <tr>
-<td><code>WHITE</code></td>
+<td><code><span>WHITE</span></code></td>
 <td>Weather labels will be displayed as white text with a black border.</td>
 </tr>
 </tbody>
-</table>
+</table></div>

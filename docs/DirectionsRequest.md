@@ -1,77 +1,75 @@
-<h2 id="DirectionsRequest">
-google.maps.DirectionsRequest
+<h2 id="DirectionsRequest"> DirectionsRequest object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsRequest</span></code>
 object specification
-</h2><p>A directions query to be sent to the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsService.md">DirectionsService</a></code>.</p><h3>Properties</h3><table summary="interface DirectionsRequest - Properties" width="100%">
+</p><p>A directions query to be sent to the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsService.md">DirectionsService</a></code>.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsRequest - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>avoidFerries</code></td>
-<td><code>boolean</code></td>
-<td>If true, instructs the Directions service to avoid ferries where possible. Optional.</td>
+<td><code><span>avoidFerries</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If true, instructs the Directions service to avoid ferries where possible. Optional.</div></td>
 </tr>
 <tr>
-<td><code>avoidHighways</code></td>
-<td><code>boolean</code></td>
-<td>If true, instructs the Directions service to avoid highways where possible. Optional.</td>
+<td><code><span>avoidHighways</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If true, instructs the Directions service to avoid highways where possible. Optional.</div></td>
 </tr>
 <tr>
-<td><code>avoidTolls</code></td>
-<td><code>boolean</code></td>
-<td>If true, instructs the Directions service to avoid toll roads where possible. Optional.</td>
+<td><code><span>avoidTolls</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If true, instructs the Directions service to avoid toll roads where possible. Optional.</div></td>
 </tr>
 <tr>
-<td><code>destination</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|string</code></td>
-<td>Location of destination. This can be specified as either a string to be geocoded or a <code>LatLng</code>. Required.</td>
+<td><code><span>destination</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|string</code></div>
+<div class="desc">Location of destination. This can be specified as either a string to be geocoded or a <code>LatLng</code>. Required.</div></td>
 </tr>
 <tr>
-<td><code>durationInTraffic</code></td>
-<td><code>boolean</code></td>
-<td>Whether or not we should provide trip duration based on current traffic conditions. Only available to Maps API for Work customers.</td>
+<td><code><span>durationInTraffic</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Whether or not we should provide trip duration based on current traffic conditions. Only available to Maps API for Work customers.</div></td>
 </tr>
 <tr>
-<td><code>optimizeWaypoints</code></td>
-<td><code>boolean</code></td>
-<td>If set to true, the <code>DirectionService</code> will attempt to re-order the supplied intermediate waypoints to minimize overall cost of the route. If waypoints are optimized, inspect <code>DirectionsRoute.waypoint_order</code> in the response to determine the new ordering.</td>
+<td><code><span>optimizeWaypoints</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If set to true, the <code>DirectionService</code> will attempt to re-order the supplied intermediate waypoints to minimize overall cost of the route. If waypoints are optimized, inspect <code>DirectionsRoute.waypoint_order</code> in the response to determine the new ordering.</div></td>
 </tr>
 <tr>
-<td><code>origin</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|string</code></td>
-<td>Location of origin. This can be specified as either a string to be geocoded or a <code>LatLng</code>. Required.</td>
+<td><code><span>origin</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|string</code></div>
+<div class="desc">Location of origin. This can be specified as either a string to be geocoded or a <code>LatLng</code>. Required.</div></td>
 </tr>
 <tr>
-<td><code>provideRouteAlternatives</code></td>
-<td><code>boolean</code></td>
-<td>Whether or not route alternatives should be provided. Optional.</td>
+<td><code><span>provideRouteAlternatives</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Whether or not route alternatives should be provided. Optional.</div></td>
 </tr>
 <tr>
-<td><code>region</code></td>
-<td><code>string</code></td>
-<td>Region code used as a bias for geocoding requests. Optional.</td>
+<td><code><span>region</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Region code used as a bias for geocoding requests. Optional.</div></td>
 </tr>
 <tr>
-<td><code>transitOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitOptions.md">TransitOptions</a></code></td>
-<td>Settings that apply only to requests where <code>travelMode</code> is TRANSIT. This object will have no effect for other travel modes.</td>
+<td><code><span>transitOptions</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md">TransitOptions</a></code></div>
+<div class="desc">Settings that apply only to requests where <code>travelMode</code> is TRANSIT. This object will have no effect for other travel modes.</div></td>
 </tr>
 <tr>
-<td><code>travelMode</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TravelMode.md">TravelMode</a></code></td>
-<td>Type of routing requested. Required.</td>
+<td><code><span>travelMode</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TravelMode.md">TravelMode</a></code></div>
+<div class="desc">Type of routing requested. Required.</div></td>
 </tr>
 <tr>
-<td><code>unitSystem</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.UnitSystem.md">UnitSystem</a></code></td>
-<td>Preferred unit system to use when displaying distance. Defaults to the unit system used in the country of origin.</td>
+<td><code><span>unitSystem</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/UnitSystem.md">UnitSystem</a></code></div>
+<div class="desc">Preferred unit system to use when displaying distance. Defaults to the unit system used in the country of origin.</div></td>
 </tr>
 <tr>
-<td><code>waypoints</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsWaypoint.md">DirectionsWaypoint</a>&gt;</code></td>
-<td>Array of intermediate waypoints. Directions will be calculated from the origin to the destination by way of each waypoint in this array. The maximum allowed waypoints is 8, plus the origin, and destination. Maps API for Business customers are allowed 23 waypoints, plus the origin, and destination. Waypoints are not supported for transit directions. Optional.</td>
+<td><code><span>waypoints</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsWaypoint.md">DirectionsWaypoint</a>&gt;</code></div>
+<div class="desc">Array of intermediate waypoints. Directions will be calculated from the origin to the destination by way of each waypoint in this array. The maximum allowed waypoints is 8, plus the origin, and destination. Maps API for Business customers are allowed 23 waypoints, plus the origin, and destination. Waypoints are not supported for transit directions. Optional.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

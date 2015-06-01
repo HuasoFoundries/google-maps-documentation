@@ -1,32 +1,30 @@
-<h2 id="WeatherMouseEvent">
-google.maps.weather.WeatherMouseEvent
+<h2 id="WeatherMouseEvent"> WeatherMouseEvent object specification </h2><p>
+<code><span itemprop="path">google.maps.weather</span>.<span itemprop="name">WeatherMouseEvent</span></code>
 object specification
-</h2><p>The properties of a mouse event on a <code>WeatherLayer</code>.</p><h3>Library</h3><p>weather</p><h3>Properties</h3><table summary="interface WeatherMouseEvent - Properties" width="100%">
+</p><p>The properties of a mouse event on a <code>WeatherLayer</code>.</p><h4>Library</h4><p>weather</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface WeatherMouseEvent - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>featureDetails</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherFeature.md">WeatherFeature</a></code></td>
-<td>A <code>WeatherFeature</code> object containing information about the clicked feature.</td>
+<td><code><span>featureDetails</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherFeature.md">WeatherFeature</a></code></div>
+<div class="desc">A <code>WeatherFeature</code> object containing information about the clicked feature.</div></td>
 </tr>
 <tr>
-<td><code>infoWindowHtml</code></td>
-<td><code>string</code></td>
-<td>Pre-rendered HTML content to display within a feature's <code>InfoWindow</code> when clicked.</td>
+<td><code><span>infoWindowHtml</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Pre-rendered HTML content to display within a feature's <code>InfoWindow</code> when clicked.</div></td>
 </tr>
 <tr>
-<td><code>latLng</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The position at which to anchor an info window on the clicked feature.</td>
+<td><code><span>latLng</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">The position at which to anchor an info window on the clicked feature.</div></td>
 </tr>
 <tr>
-<td><code>pixelOffset</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
-<td>The offset to apply to an info window anchored on the clicked feature.</td>
+<td><code><span>pixelOffset</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md">Size</a></code></div>
+<div class="desc">The offset to apply to an info window anchored on the clicked feature.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

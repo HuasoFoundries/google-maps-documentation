@@ -1,37 +1,35 @@
-<h2 id="GeocoderComponentRestrictions">
-google.maps.GeocoderComponentRestrictions
+<h2 id="GeocoderComponentRestrictions"> GeocoderComponentRestrictions object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderComponentRestrictions</span></code>
 object specification
-</h2><p><code>GeocoderComponentRestrictions</code> represent a set of filters that resolve to a specific area. For details on how this works, see <a href="https://developers.google.com/maps/documentation/geocoding/#ComponentFiltering">Geocoding Component Filtering</a>.</p><h3>Properties</h3><table summary="interface GeocoderComponentRestrictions - Properties" width="100%">
+</p><p><code>GeocoderComponentRestrictions</code> represent a set of filters that resolve to a specific area. For details on how this works, see <a href="https://developers.google.com/maps/documentation/geocoding/#ComponentFiltering">Geocoding Component Filtering</a>.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface GeocoderComponentRestrictions - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>administrativeArea</code></td>
-<td><code>string</code></td>
-<td>Matches all the <code>administrative_area levels</code>. Optional.</td>
+<td><code><span>administrativeArea</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Matches all the <code>administrative_area levels</code>. Optional.</div></td>
 </tr>
 <tr>
-<td><code>country</code></td>
-<td><code>string</code></td>
-<td>Matches a country name or a two letter ISO 3166-1 country code. Optional.</td>
+<td><code><span>country</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Matches a country name or a two letter ISO 3166-1 country code. Optional.</div></td>
 </tr>
 <tr>
-<td><code>locality</code></td>
-<td><code>string</code></td>
-<td>Matches against both <code>locality</code> and <code>sublocality</code> types. Optional.</td>
+<td><code><span>locality</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Matches against both <code>locality</code> and <code>sublocality</code> types. Optional.</div></td>
 </tr>
 <tr>
-<td><code>postalCode</code></td>
-<td><code>string</code></td>
-<td>Matches <code>postal_code</code> and <code>postal_code_prefix</code>. Optional.</td>
+<td><code><span>postalCode</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Matches <code>postal_code</code> and <code>postal_code_prefix</code>. Optional.</div></td>
 </tr>
 <tr>
-<td><code>route</code></td>
-<td><code>string</code></td>
-<td>Matches the long or short name of a <code>route</code>. Optional.</td>
+<td><code><span>route</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Matches the long or short name of a <code>route</code>. Optional.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

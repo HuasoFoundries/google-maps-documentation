@@ -1,67 +1,65 @@
-<h2 id="DirectionsLeg">
-google.maps.DirectionsLeg
+<h2 id="DirectionsLeg"> DirectionsLeg object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsLeg</span></code>
 object specification
-</h2><p>A single leg consisting of a set of steps in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a></code>. Some fields in the leg may not be returned for all requests. Note that though this result is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><h3>Properties</h3><table summary="interface DirectionsLeg - Properties" width="100%">
+</p><p>A single leg consisting of a set of steps in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md">DirectionsResult</a></code>. Some fields in the leg may not be returned for all requests. Note that though this result is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsLeg - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>arrival_time</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Time.md">Time</a></code></td>
-<td>An estimated arrival time for this leg. Only applicable for TRANSIT requests.</td>
+<td><code><span>arrival_time</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Time.md">Time</a></code></div>
+<div class="desc">An estimated arrival time for this leg. Only applicable for TRANSIT requests.</div></td>
 </tr>
 <tr>
-<td><code>departure_time</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Time.md">Time</a></code></td>
-<td>An estimated departure time for this leg. Only applicable for TRANSIT requests.</td>
+<td><code><span>departure_time</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Time.md">Time</a></code></div>
+<div class="desc">An estimated departure time for this leg. Only applicable for TRANSIT requests.</div></td>
 </tr>
 <tr>
-<td><code>distance</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Distance.md">Distance</a></code></td>
-<td>The total distance covered by this leg. This property may be undefined as the distance may be unknown.</td>
+<td><code><span>distance</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Distance.md">Distance</a></code></div>
+<div class="desc">The total distance covered by this leg. This property may be undefined as the distance may be unknown.</div></td>
 </tr>
 <tr>
-<td><code>duration</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Duration.md">Duration</a></code></td>
-<td>The total duration of this leg. This property may be undefined as the duration may be unknown.</td>
+<td><code><span>duration</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md">Duration</a></code></div>
+<div class="desc">The total duration of this leg. This property may be undefined as the duration may be unknown.</div></td>
 </tr>
 <tr>
-<td><code>duration_in_traffic</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Duration.md">Duration</a></code></td>
-<td>The total duration of this leg, taking into account current traffic conditions. This property may be undefined as the duration may be unknown. Only available to Maps API for Work customers when <code>durationInTraffic</code> is set to <code>true</code> when making the request.</td>
+<td><code><span>duration_in_traffic</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md">Duration</a></code></div>
+<div class="desc">The total duration of this leg, taking into account current traffic conditions. This property may be undefined as the duration may be unknown. Only available to Maps API for Work customers when <code>durationInTraffic</code> is set to <code>true</code> when making the request.</div></td>
 </tr>
 <tr>
-<td><code>end_address</code></td>
-<td><code>string</code></td>
-<td>The address of the destination of this leg.</td>
+<td><code><span>end_address</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The address of the destination of this leg.</div></td>
 </tr>
 <tr>
-<td><code>end_location</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The <code>DirectionsService</code> calculates directions between locations by using the nearest transportation option (usually a road) at the start and end locations. <code>end_location</code> indicates the actual geocoded destination, which may be different than the <code>end_location</code> of the last step if, for example, the road is not near the destination of this leg.</td>
+<td><code><span>end_location</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">The <code>DirectionsService</code> calculates directions between locations by using the nearest transportation option (usually a road) at the start and end locations. <code>end_location</code> indicates the actual geocoded destination, which may be different than the <code>end_location</code> of the last step if, for example, the road is not near the destination of this leg.</div></td>
 </tr>
 <tr>
-<td><code>start_address</code></td>
-<td><code>string</code></td>
-<td>The address of the origin of this leg.</td>
+<td><code><span>start_address</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The address of the origin of this leg.</div></td>
 </tr>
 <tr>
-<td><code>start_location</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The <code>DirectionsService</code> calculates directions between locations by using the nearest transportation option (usually a road) at the start and end locations. <code>start_location</code> indicates the actual geocoded origin, which may be different than the <code>start_location</code> of the first step if, for example, the road is not near the origin of this leg.</td>
+<td><code><span>start_location</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">The <code>DirectionsService</code> calculates directions between locations by using the nearest transportation option (usually a road) at the start and end locations. <code>start_location</code> indicates the actual geocoded origin, which may be different than the <code>start_location</code> of the first step if, for example, the road is not near the origin of this leg.</div></td>
 </tr>
 <tr>
-<td><code>steps</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStep.md">DirectionsStep</a>&gt;</code></td>
-<td>An array of <code>DirectionsStep</code>s, each of which contains information about the individual steps in this leg.</td>
+<td><code><span>steps</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStep.md">DirectionsStep</a>&gt;</code></div>
+<div class="desc">An array of <code>DirectionsStep</code>s, each of which contains information about the individual steps in this leg.</div></td>
 </tr>
 <tr>
-<td><code>via_waypoints</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
-<td>An array of waypoints along this leg that were not specified in the original request, either as a result of a user dragging the polyline or selecting an alternate route.</td>
+<td><code><span>via_waypoints</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>&gt;</code></div>
+<div class="desc">An array of waypoints along this leg that were not specified in the original request, either as a result of a user dragging the polyline or selecting an alternate route.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

@@ -1,29 +1,27 @@
-<h2 id="PolyMouseEvent">
-google.maps.PolyMouseEvent
+<h2 id="PolyMouseEvent"> PolyMouseEvent object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">PolyMouseEvent</span></code>
 object specification
-</h2><p>This object is returned from mouse events on polylines and polygons.</p><p>This object extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md">MouseEvent</a></code>.
-</p><h3>Properties</h3><table summary="object PolyMouseEvent - Properties" width="100%">
+</p><p>This object is returned from mouse events on polylines and polygons.</p><p>This object extends
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md">MouseEvent</a></code>.
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="object PolyMouseEvent - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>edge</code></td>
-<td><code>number</code></td>
-<td>The index of the edge within the path beneath the cursor when the event occurred, if the event occurred on a mid-point on an editable polygon.</td>
+<td><code><span>edge</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The index of the edge within the path beneath the cursor when the event occurred, if the event occurred on a mid-point on an editable polygon.</div></td>
 </tr>
 <tr>
-<td><code>path</code></td>
-<td><code>number</code></td>
-<td>The index of the path beneath the cursor when the event occurred, if the event occurred on a vertex and the polygon is editable. Otherwise undefined.</td>
+<td><code><span>path</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The index of the path beneath the cursor when the event occurred, if the event occurred on a vertex and the polygon is editable. Otherwise undefined.</div></td>
 </tr>
 <tr>
-<td><code>vertex</code></td>
-<td><code>number</code></td>
-<td>The index of the vertex beneath the cursor when the event occurred, if the event occurred on a vertex and the polyline or polygon is editable. If the event does not occur on a vertex, the value is undefined.</td>
+<td><code><span>vertex</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The index of the vertex beneath the cursor when the event occurred, if the event occurred on a vertex and the polyline or polygon is editable. If the event does not occur on a vertex, the value is undefined.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

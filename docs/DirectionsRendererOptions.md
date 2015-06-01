@@ -1,82 +1,80 @@
-<h2 id="DirectionsRendererOptions">
-google.maps.DirectionsRendererOptions
+<h2 id="DirectionsRendererOptions"> DirectionsRendererOptions object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsRendererOptions</span></code>
 object specification
-</h2><p>This object defines the properties that can be set on a <code>DirectionsRenderer</code> object.</p><h3>Properties</h3><table summary="interface DirectionsRendererOptions - Properties" width="100%">
+</p><p>This object defines the properties that can be set on a <code>DirectionsRenderer</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsRendererOptions - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>directions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a></code></td>
-<td>The directions to display on the map and/or in a <code>&lt;div&gt;</code> panel, retrieved as a <code>DirectionsResult</code> object from <code>DirectionsService</code>.</td>
+<td><code><span>directions</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md">DirectionsResult</a></code></div>
+<div class="desc">The directions to display on the map and/or in a <code>&lt;div&gt;</code> panel, retrieved as a <code>DirectionsResult</code> object from <code>DirectionsService</code>.</div></td>
 </tr>
 <tr>
-<td><code>draggable</code></td>
-<td><code>boolean</code></td>
-<td>If true, allows the user to drag and modify the paths of routes rendered by this <code>DirectionsRenderer</code>.</td>
+<td><code><span>draggable</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If true, allows the user to drag and modify the paths of routes rendered by this <code>DirectionsRenderer</code>.</div></td>
 </tr>
 <tr>
-<td><code>hideRouteList</code></td>
-<td><code>boolean</code></td>
-<td>This property indicates whether the renderer should provide UI to select amongst alternative routes. By default, this flag is <code>false</code> and a user-selectable list of routes will be shown in the directions' associated panel. To hide that list, set <code>hideRouteList</code> to <code>true</code>.</td>
+<td><code><span>hideRouteList</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">This property indicates whether the renderer should provide UI to select amongst alternative routes. By default, this flag is <code>false</code> and a user-selectable list of routes will be shown in the directions' associated panel. To hide that list, set <code>hideRouteList</code> to <code>true</code>.</div></td>
 </tr>
 <tr>
-<td><code>infoWindow</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.InfoWindow.md">InfoWindow</a></code></td>
-<td>The <code>InfoWindow</code> in which to render text information when a marker is clicked. Existing info window content will be overwritten and its position moved. If no info window is specified, the <code>DirectionsRenderer</code> will create and use its own info window. This property will be ignored if <code>suppressInfoWindows</code> is set to true.</td>
+<td><code><span>infoWindow</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindow.md">InfoWindow</a></code></div>
+<div class="desc">The <code>InfoWindow</code> in which to render text information when a marker is clicked. Existing info window content will be overwritten and its position moved. If no info window is specified, the <code>DirectionsRenderer</code> will create and use its own info window. This property will be ignored if <code>suppressInfoWindows</code> is set to true.</div></td>
 </tr>
 <tr>
-<td><code>map</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
-<td>Map on which to display the directions.</td>
+<td><code><span>map</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
+<div class="desc">Map on which to display the directions.</div></td>
 </tr>
 <tr>
-<td><code>markerOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MarkerOptions.md">MarkerOptions</a></code></td>
-<td>Options for the markers. All markers rendered by the <code>DirectionsRenderer</code> will use these options.</td>
+<td><code><span>markerOptions</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md">MarkerOptions</a></code></div>
+<div class="desc">Options for the markers. All markers rendered by the <code>DirectionsRenderer</code> will use these options.</div></td>
 </tr>
 <tr>
-<td><code>panel</code></td>
-<td><code>Node</code></td>
-<td>The <code>&lt;div&gt;</code> in which to display the directions steps.</td>
+<td><code><span>panel</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Node</code></div>
+<div class="desc">The <code>&lt;div&gt;</code> in which to display the directions steps.</div></td>
 </tr>
 <tr>
-<td><code>polylineOptions</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.PolylineOptions.md">PolylineOptions</a></code></td>
-<td>Options for the polylines. All polylines rendered by the <code>DirectionsRenderer</code> will use these options.</td>
+<td><code><span>polylineOptions</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md">PolylineOptions</a></code></div>
+<div class="desc">Options for the polylines. All polylines rendered by the <code>DirectionsRenderer</code> will use these options.</div></td>
 </tr>
 <tr>
-<td><code>preserveViewport</code></td>
-<td><code>boolean</code></td>
-<td>By default, the input map is centered and zoomed to the bounding box of this set of directions. If this option is set to <code>true</code>, the viewport is left unchanged, unless the map's center and zoom were never set.</td>
+<td><code><span>preserveViewport</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">By default, the input map is centered and zoomed to the bounding box of this set of directions. If this option is set to <code>true</code>, the viewport is left unchanged, unless the map's center and zoom were never set.</div></td>
 </tr>
 <tr>
-<td><code>routeIndex</code></td>
-<td><code>number</code></td>
-<td>The index of the route within the <code>DirectionsResult</code> object. The default value is 0.</td>
+<td><code><span>routeIndex</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The index of the route within the <code>DirectionsResult</code> object. The default value is 0.</div></td>
 </tr>
 <tr>
-<td><code>suppressBicyclingLayer</code></td>
-<td><code>boolean</code></td>
-<td>Suppress the rendering of the <code>BicyclingLayer</code> when bicycling directions are requested.</td>
+<td><code><span>suppressBicyclingLayer</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Suppress the rendering of the <code>BicyclingLayer</code> when bicycling directions are requested.</div></td>
 </tr>
 <tr>
-<td><code>suppressInfoWindows</code></td>
-<td><code>boolean</code></td>
-<td>Suppress the rendering of info windows.</td>
+<td><code><span>suppressInfoWindows</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Suppress the rendering of info windows.</div></td>
 </tr>
 <tr>
-<td><code>suppressMarkers</code></td>
-<td><code>boolean</code></td>
-<td>Suppress the rendering of markers.</td>
+<td><code><span>suppressMarkers</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Suppress the rendering of markers.</div></td>
 </tr>
 <tr>
-<td><code>suppressPolylines</code></td>
-<td><code>boolean</code></td>
-<td>Suppress the rendering of polylines.</td>
+<td><code><span>suppressPolylines</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Suppress the rendering of polylines.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

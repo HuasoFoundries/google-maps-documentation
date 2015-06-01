@@ -1,27 +1,26 @@
-<h2 id="TravelMode">
-google.maps.TravelMode
+<h2 id="TravelMode"> TravelMode class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">TravelMode</span></code>
 class
-</h2><p>The valid travel modes that can be specified in a <code>DirectionsRequest</code> as well as the travel modes returned in a <code>DirectionsStep</code>.</p><h3>Constant</h3><table summary="class TravelMode - Constants" width="100%">
+</p><p>The valid travel modes that can be specified in a <code>DirectionsRequest</code> as well as the travel modes returned in a <code>DirectionsStep</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class TravelMode - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>BICYCLING</code></td>
+<td><code><span>BICYCLING</span></code></td>
 <td>Specifies a bicycling directions request.</td>
 </tr>
 <tr>
-<td><code>DRIVING</code></td>
+<td><code><span>DRIVING</span></code></td>
 <td>Specifies a driving directions request.</td>
 </tr>
 <tr>
-<td><code>TRANSIT</code></td>
+<td><code><span>TRANSIT</span></code></td>
 <td>Specifies a transit directions request.</td>
 </tr>
 <tr>
-<td><code>WALKING</code></td>
+<td><code><span>WALKING</span></code></td>
 <td>Specifies a walking directions request.</td>
 </tr>
 </tbody>
-</table>
+</table></div>

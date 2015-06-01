@@ -1,37 +1,35 @@
-<h2 id="WeatherFeature">
-google.maps.weather.WeatherFeature
+<h2 id="WeatherFeature"> WeatherFeature object specification </h2><p>
+<code><span itemprop="path">google.maps.weather</span>.<span itemprop="name">WeatherFeature</span></code>
 object specification
-</h2><p>Describes a single Weather feature.</p><h3>Library</h3><p>weather</p><h3>Properties</h3><table summary="interface WeatherFeature - Properties" width="100%">
+</p><p>Describes a single Weather feature.</p><h4>Library</h4><p>weather</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface WeatherFeature - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>current</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherConditions.md">WeatherConditions</a></code></td>
-<td>The current weather conditions at this location.</td>
+<td><code><span>current</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherConditions.md">WeatherConditions</a></code></div>
+<div class="desc">The current weather conditions at this location.</div></td>
 </tr>
 <tr>
-<td><code>forecast</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WeatherForecast.md">WeatherForecast</a>&gt;</code></td>
-<td>A forecast of weather conditions over the next four days. The forecast array is always in chronological order.</td>
+<td><code><span>forecast</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherForecast.md">WeatherForecast</a>&gt;</code></div>
+<div class="desc">A forecast of weather conditions over the next four days. The forecast array is always in chronological order.</div></td>
 </tr>
 <tr>
-<td><code>location</code></td>
-<td><code>string</code></td>
-<td>The location name of this feature, e.g. "San Francisco, California".</td>
+<td><code><span>location</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The location name of this feature, e.g. "San Francisco, California".</div></td>
 </tr>
 <tr>
-<td><code>temperatureUnit</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.TemperatureUnit.md">TemperatureUnit</a></code></td>
-<td>The temperature units being used.</td>
+<td><code><span>temperatureUnit</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TemperatureUnit.md">TemperatureUnit</a></code></div>
+<div class="desc">The temperature units being used.</div></td>
 </tr>
 <tr>
-<td><code>windSpeedUnit</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.weather.WindSpeedUnit.md">WindSpeedUnit</a></code></td>
-<td>The wind speed units being used.</td>
+<td><code><span>windSpeedUnit</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WindSpeedUnit.md">WindSpeedUnit</a></code></div>
+<div class="desc">The wind speed units being used.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

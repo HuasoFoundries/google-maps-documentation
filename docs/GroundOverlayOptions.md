@@ -1,27 +1,25 @@
-<h2 id="GroundOverlayOptions">
-google.maps.GroundOverlayOptions
+<h2 id="GroundOverlayOptions"> GroundOverlayOptions object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">GroundOverlayOptions</span></code>
 object specification
-</h2><p>This object defines the properties that can be set on a <code>GroundOverlay</code> object.</p><h3>Properties</h3><table summary="interface GroundOverlayOptions - Properties" width="100%">
+</p><p>This object defines the properties that can be set on a <code>GroundOverlay</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface GroundOverlayOptions - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>clickable</code></td>
-<td><code>boolean</code></td>
-<td>If <code>true</code>, the ground overlay can receive mouse events.</td>
+<td><code><span>clickable</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">If <code>true</code>, the ground overlay can receive mouse events.</div></td>
 </tr>
 <tr>
-<td><code>map</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
-<td>The map on which to display the overlay.</td>
+<td><code><span>map</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
+<div class="desc">The map on which to display the overlay.</div></td>
 </tr>
 <tr>
-<td><code>opacity</code></td>
-<td><code>number</code></td>
-<td>The opacity of the overlay, expressed as a number between 0 and 1. Optional. Defaults to 1.</td>
+<td><code><span>opacity</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The opacity of the overlay, expressed as a number between 0 and 1. Optional. Defaults to 1.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

@@ -1,37 +1,35 @@
-<h2 id="Icon">
-google.maps.Icon
+<h2 id="Icon"> Icon object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Icon</span></code>
 object specification
-</h2><h3>Properties</h3><table summary="interface Icon - Properties" width="100%">
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Icon - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>anchor</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a></code></td>
-<td>The position at which to anchor an image in correspondence to the location of the marker on the map. By default, the anchor is located along the center point of the bottom of the image.</td>
+<td><code><span>anchor</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md">Point</a></code></div>
+<div class="desc">The position at which to anchor an image in correspondence to the location of the marker on the map. By default, the anchor is located along the center point of the bottom of the image.</div></td>
 </tr>
 <tr>
-<td><code>origin</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Point.md">Point</a></code></td>
-<td>The position of the image within a sprite, if any. By default, the origin is located at the top left corner of the image <code>(0, 0)</code>.</td>
+<td><code><span>origin</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md">Point</a></code></div>
+<div class="desc">The position of the image within a sprite, if any. By default, the origin is located at the top left corner of the image <code>(0, 0)</code>.</div></td>
 </tr>
 <tr>
-<td><code>scaledSize</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
-<td>The size of the entire image after scaling, if any. Use this property to stretch/shrink an image or a sprite.</td>
+<td><code><span>scaledSize</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md">Size</a></code></div>
+<div class="desc">The size of the entire image after scaling, if any. Use this property to stretch/shrink an image or a sprite.</div></td>
 </tr>
 <tr>
-<td><code>size</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Size.md">Size</a></code></td>
-<td>The display size of the sprite or image. When using sprites, you must specify the sprite size. If the size is not provided, it will be set when the image loads.</td>
+<td><code><span>size</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Size.md">Size</a></code></div>
+<div class="desc">The display size of the sprite or image. When using sprites, you must specify the sprite size. If the size is not provided, it will be set when the image loads.</div></td>
 </tr>
 <tr>
-<td><code>url</code></td>
-<td><code>string</code></td>
-<td>The URL of the image or sprite sheet.</td>
+<td><code><span>url</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The URL of the image or sprite sheet.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

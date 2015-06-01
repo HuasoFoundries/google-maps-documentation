@@ -1,35 +1,32 @@
-<h2 id="Data.Point">
-google.maps.Data.Point
+<h2 id="Data.Point"> Data.Point class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.Point</span></code>
 class
-</h2><p>A Point geometry contains a single <code>LatLng</code>.</p><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
-</p><h3>Constructor</h3><table summary="class Data.Point - Constructor" width="100%">
+</p><p>A Point geometry contains a single <code>LatLng</code>.</p><p>This class extends
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md">Data.Geometry</a></code>.
+</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Data.Point - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Data.Point(latLng:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>)</code></td>
-<td>Constructs a <code>Data.Point</code> from the given <code>LatLng</code> or <code>LatLngLiteral</code>.</td>
+<td><code><span>Data.<wbr>Point(<wbr>latLng:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>)</span></code></td>
+<td>Constructs a <code><span>Data.<wbr>Point</span></code> from the given <code><span>LatLng</span></code> or <code><span>LatLngLiteral</span></code>.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Data.Point - Methods" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Data.Point - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>get()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>Returns the contained <code>LatLng</code>.</td>
+<td><code><span>get()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">Returns the contained <code>LatLng</code>.</div></td>
 </tr>
 <tr>
-<td><code>getType()</code></td>
-<td><code>string</code></td>
-<td>Returns the string <code>"Point"</code>.</td>
+<td><code><span>getType()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Returns the string <code>"Point"</code>.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

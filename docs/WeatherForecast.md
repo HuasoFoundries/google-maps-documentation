@@ -1,37 +1,35 @@
-<h2 id="WeatherForecast">
-google.maps.weather.WeatherForecast
+<h2 id="WeatherForecast"> WeatherForecast object specification </h2><p>
+<code><span itemprop="path">google.maps.weather</span>.<span itemprop="name">WeatherForecast</span></code>
 object specification
-</h2><p>Describes a single day's weather forecast.</p><h3>Library</h3><p>weather</p><h3>Properties</h3><table summary="interface WeatherForecast - Properties" width="100%">
+</p><p>Describes a single day's weather forecast.</p><h4>Library</h4><p>weather</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface WeatherForecast - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>day</code></td>
-<td><code>string</code></td>
-<td>The day of the week in long form, e.g. "Monday".</td>
+<td><code><span>day</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The day of the week in long form, e.g. "Monday".</div></td>
 </tr>
 <tr>
-<td><code>description</code></td>
-<td><code>string</code></td>
-<td>A description of the conditions, e.g. "Partly Cloudy".</td>
+<td><code><span>description</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">A description of the conditions, e.g. "Partly Cloudy".</div></td>
 </tr>
 <tr>
-<td><code>high</code></td>
-<td><code>number</code></td>
-<td>The highest temperature reached during the day.</td>
+<td><code><span>high</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The highest temperature reached during the day.</div></td>
 </tr>
 <tr>
-<td><code>low</code></td>
-<td><code>number</code></td>
-<td>The lowest temperature reached during the day.</td>
+<td><code><span>low</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The lowest temperature reached during the day.</div></td>
 </tr>
 <tr>
-<td><code>shortDay</code></td>
-<td><code>string</code></td>
-<td>The day of the week in short form, e.g. "M".</td>
+<td><code><span>shortDay</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The day of the week in short form, e.g. "M".</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

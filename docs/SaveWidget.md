@@ -1,48 +1,45 @@
-<h2 id="SaveWidget">
-google.maps.SaveWidget
+<h2 id="SaveWidget"> SaveWidget class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">SaveWidget</span></code>
 class
-</h2><p>A control that users can use to save a place to Google Maps from your website. In this context, 'place' means a business, point of interest or geographic location. The <code>SaveWidget</code> has a fixed height of 22px. </p><p>The <code>SaveWidget</code> is only available when <code>signed-in=true</code> has been passed as a URL parameter in the bootstrap request.</p><p></p><h3>Constructor</h3><table summary="class SaveWidget - Constructor" width="100%">
+</p><p>A control that users can use to save a place to Google Maps from your website. In this context, 'place' means a business, point of interest or geographic location. The <code>SaveWidget</code> has a fixed height of 22px. </p><p>The <code>SaveWidget</code> is only available when <code>signed-in=true</code> has been passed as a URL parameter in the bootstrap request.</p><p></p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class SaveWidget - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>SaveWidget(container:Node, opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.SaveWidgetOptions.md">SaveWidgetOptions</a>)</code></td>
-<td>Creates a new <code>SaveWidget</code>, and renders it in a given div.</td>
+<td><code><span>SaveWidget(<wbr>container:Node,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SaveWidgetOptions.md"><span>SaveWidgetOptions</span></a><span>)</span></code></td>
+<td>Creates a new <code><span>SaveWidget</span></code>, and renders it in a given div.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class SaveWidget - Methods" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class SaveWidget - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getAttribution()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Attribution.md">Attribution</a></code></td>
-<td>Returns the <code>Attribution</code> associated with this <code>SaveWidget</code>.</td>
+<td><code><span>getAttribution()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md">Attribution</a></code></div>
+<div class="desc">Returns the <code>Attribution</code> associated with this <code>SaveWidget</code>.</div></td>
 </tr>
 <tr>
-<td><code>getPlace()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Place.md">Place</a></code></td>
-<td>Returns the <code>Place</code> associated with this <code>SaveWidget</code>.</td>
+<td><code><span>getPlace()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a></code></div>
+<div class="desc">Returns the <code>Place</code> associated with this <code>SaveWidget</code>.</div></td>
 </tr>
 <tr>
-<td><code>setAttribution(attribution:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Attribution.md"><em>Attribution</em></a>)</code></td>
-<td><code>None</code></td>
-<td>Sets the <code>Attribution</code> associated with this <code>SaveWidget</code>.</td>
+<td><code><span>setAttribution(<wbr>attribution:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md"><em><span>Attribution</span></em></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Sets the <code>Attribution</code> associated with this <code>SaveWidget</code>.</div></td>
 </tr>
 <tr>
-<td><code>setOptions(opts:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.SaveWidgetOptions.md"><em>SaveWidgetOptions</em></a>)</code></td>
-<td><code>None</code></td>
-<td></td>
+<td><code><span>setOptions(<wbr>opts:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SaveWidgetOptions.md"><em><span>SaveWidgetOptions</span></em></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc"></div></td>
 </tr>
 <tr>
-<td><code>setPlace(place:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Place.md"><em>Place</em></a>)</code></td>
-<td><code>None</code></td>
-<td>Changes the <code>Place</code> associated with this <code>SaveWidget</code>.</td>
+<td><code><span>setPlace(<wbr>place:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md"><em><span>Place</span></em></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Changes the <code>Place</code> associated with this <code>SaveWidget</code>.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

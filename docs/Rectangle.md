@@ -1,148 +1,143 @@
-<h2 id="Rectangle">
-google.maps.Rectangle
+<h2 id="Rectangle"> Rectangle class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Rectangle</span></code>
 class
-</h2><p>A rectangle overlay.</p><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MVCObject.md">MVCObject</a></code>.
-</p><h3>Constructor</h3><table summary="class Rectangle - Constructor" width="100%">
+</p><p>A rectangle overlay.</p><p>This class extends
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
+</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Rectangle - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Rectangle(opts?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.RectangleOptions.md"><em>RectangleOptions</em></a>)</code></td>
-<td>Create a rectangle using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.RectangleOptions.md">RectangleOptions</a></em></code>, which specify the bounds and style.</td>
+<td><code><span>Rectangle(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md"><em><span>RectangleOptions</span></em></a><span>)</span></code></td>
+<td>Create a rectangle using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md"><span>RectangleOptions</span></a></em></code>, which specify the bounds and style.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Rectangle - Methods" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Rectangle - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getBounds()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a></code></td>
-<td>Returns the bounds of this rectangle.</td>
+<td><code><span>getBounds()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
+<div class="desc">Returns the bounds of this rectangle.</div></td>
 </tr>
 <tr>
-<td><code>getDraggable()</code></td>
-<td><code>boolean</code></td>
-<td>Returns whether this rectangle can be dragged by the user.</td>
+<td><code><span>getDraggable()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Returns whether this rectangle can be dragged by the user.</div></td>
 </tr>
 <tr>
-<td><code>getEditable()</code></td>
-<td><code>boolean</code></td>
-<td>Returns whether this rectangle can be edited by the user.</td>
+<td><code><span>getEditable()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Returns whether this rectangle can be edited by the user.</div></td>
 </tr>
 <tr>
-<td><code>getMap()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a></code></td>
-<td>Returns the map on which this rectangle is displayed.</td>
+<td><code><span>getMap()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
+<div class="desc">Returns the map on which this rectangle is displayed.</div></td>
 </tr>
 <tr>
-<td><code>getVisible()</code></td>
-<td><code>boolean</code></td>
-<td>Returns whether this rectangle is visible on the map.</td>
+<td><code><span>getVisible()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Returns whether this rectangle is visible on the map.</div></td>
 </tr>
 <tr>
-<td><code>setBounds(bounds:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngBounds.md">LatLngBounds</a>)</code></td>
-<td><code>None</code></td>
-<td>Sets the bounds of this rectangle.</td>
+<td><code><span>setBounds(<wbr>bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Sets the bounds of this rectangle.</div></td>
 </tr>
 <tr>
-<td><code>setDraggable(draggable:boolean)</code></td>
-<td><code>None</code></td>
-<td>If set to true, the user can drag this rectangle over the map.</td>
+<td><code><span>setDraggable(<wbr>draggable:boolean)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">If set to true, the user can drag this rectangle over the map.</div></td>
 </tr>
 <tr>
-<td><code>setEditable(editable:boolean)</code></td>
-<td><code>None</code></td>
-<td>If set to true, the user can edit this rectangle by dragging the control points shown at the corners and on each edge.</td>
+<td><code><span>setEditable(<wbr>editable:boolean)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">If set to true, the user can edit this rectangle by dragging the control points shown at the corners and on each edge.</div></td>
 </tr>
 <tr>
-<td><code>setMap(map:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Map.md">Map</a>)</code></td>
-<td><code>None</code></td>
-<td>Renders the rectangle on the specified map. If map is set to null, the rectangle will be removed.</td>
+<td><code><span>setMap(<wbr>map:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md"><span>Map</span></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Renders the rectangle on the specified map. If map is set to null, the rectangle will be removed.</div></td>
 </tr>
 <tr>
-<td><code>setOptions(options:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.RectangleOptions.md"><em>RectangleOptions</em></a>)</code></td>
-<td><code>None</code></td>
-<td></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md"><em><span>RectangleOptions</span></em></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc"></div></td>
 </tr>
 <tr>
-<td><code>setVisible(visible:boolean)</code></td>
-<td><code>None</code></td>
-<td>Hides this rectangle if set to <code>false</code>.</td>
+<td><code><span>setVisible(<wbr>visible:boolean)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Hides this rectangle if set to <code>false</code>.</div></td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class Rectangle - Events" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="details responsive" summary="class Rectangle - Events">
 <thead>
-<tr><th>Events</th>
-<th>Arguments</th>
-<th>Description</th>
+<tr><th colspan="2">Events</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>bounds_changed</code></td>
-<td><code>None</code></td>
-<td>This event is fired when the rectangle's bounds are changed.</td>
+<td><code><span>bounds_changed</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
+<div class="desc">This event is fired when the rectangle's bounds are changed.</div></td>
 </tr>
 <tr>
-<td><code>click</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the DOM click event is fired on the rectangle.</td>
+<td><code><span>click</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the DOM click event is fired on the rectangle.</div></td>
 </tr>
 <tr>
-<td><code>dblclick</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the DOM dblclick event is fired on the rectangle.</td>
+<td><code><span>dblclick</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the DOM dblclick event is fired on the rectangle.</div></td>
 </tr>
 <tr>
-<td><code>drag</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is repeatedly fired while the user drags the rectangle.</td>
+<td><code><span>drag</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is repeatedly fired while the user drags the rectangle.</div></td>
 </tr>
 <tr>
-<td><code>dragend</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the user stops dragging the rectangle.</td>
+<td><code><span>dragend</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the user stops dragging the rectangle.</div></td>
 </tr>
 <tr>
-<td><code>dragstart</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the user starts dragging the rectangle.</td>
+<td><code><span>dragstart</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the user starts dragging the rectangle.</div></td>
 </tr>
 <tr>
-<td><code>mousedown</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the DOM mousedown event is fired on the rectangle.</td>
+<td><code><span>mousedown</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the DOM mousedown event is fired on the rectangle.</div></td>
 </tr>
 <tr>
-<td><code>mousemove</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the DOM mousemove event is fired on the rectangle.</td>
+<td><code><span>mousemove</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the DOM mousemove event is fired on the rectangle.</div></td>
 </tr>
 <tr>
-<td><code>mouseout</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired on rectangle mouseout.</td>
+<td><code><span>mouseout</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired on rectangle mouseout.</div></td>
 </tr>
 <tr>
-<td><code>mouseover</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired on rectangle mouseover.</td>
+<td><code><span>mouseover</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired on rectangle mouseover.</div></td>
 </tr>
 <tr>
-<td><code>mouseup</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the DOM mouseup event is fired on the rectangle.</td>
+<td><code><span>mouseup</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the DOM mouseup event is fired on the rectangle.</div></td>
 </tr>
 <tr>
-<td><code>rightclick</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.MouseEvent.md"><em>MouseEvent</em></a></code></td>
-<td>This event is fired when the rectangle is right-clicked on.</td>
+<td><code><span>rightclick</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<div class="desc">This event is fired when the rectangle is right-clicked on.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

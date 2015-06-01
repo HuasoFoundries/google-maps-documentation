@@ -1,86 +1,81 @@
-<h2 id="Data.Feature">
-google.maps.Data.Feature
+<h2 id="Data.Feature"> Data.Feature class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.Feature</span></code>
 class
-</h2><p>A feature has a geometry, an id, and a set of properties.</p><h3>Constructor</h3><table summary="class Data.Feature - Constructor" width="100%">
+</p><p>A feature has a geometry, an id, and a set of properties.</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Data.Feature - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Data.Feature(options?:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.FeatureOptions.md">Data.FeatureOptions</a>)</code></td>
+<td><code><span>Data.<wbr>Feature(<wbr>options?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.FeatureOptions.md"><span>Data.<wbr>FeatureOptions</span></a><span>)</span></code></td>
 <td>Constructs a Feature with the given options.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Data.Feature - Methods" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Data.Feature - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>forEachProperty(callback:function(*, string))</code></td>
-<td><code>None</code></td>
-<td>Repeatedly invokes the given function, passing a property value and name on each invocation. The order of iteration through the properties is undefined.</td>
+<td><code><span>forEachProperty(<wbr>callback:function(<wbr>*,<wbr> string))</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Repeatedly invokes the given function, passing a property value and name on each invocation. The order of iteration through the properties is undefined.</div></td>
 </tr>
 <tr>
-<td><code>getGeometry()</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code></td>
-<td>Returns the feature's geometry.</td>
+<td><code><span>getGeometry()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md">Data.Geometry</a></code></div>
+<div class="desc">Returns the feature's geometry.</div></td>
 </tr>
 <tr>
-<td><code>getId()</code></td>
-<td><code>number|string|undefined</code></td>
-<td>Returns the feature ID.</td>
+<td><code><span>getId()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>number|string|undefined</code></div>
+<div class="desc">Returns the feature ID.</div></td>
 </tr>
 <tr>
-<td><code>getProperty(name:string)</code></td>
-<td><code>*</code></td>
-<td>Returns the value of the requested property, or undefined if the property does not exist.</td>
+<td><code><span>getProperty(<wbr>name:string)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>*</code></div>
+<div class="desc">Returns the value of the requested property, or undefined if the property does not exist.</div></td>
 </tr>
 <tr>
-<td><code>removeProperty(name:string)</code></td>
-<td><code>None</code></td>
-<td>Removes the property with the given name.</td>
+<td><code><span>removeProperty(<wbr>name:string)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Removes the property with the given name.</div></td>
 </tr>
 <tr>
-<td><code>setGeometry(newGeometry:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>)</code></td>
-<td><code>None</code></td>
-<td>Sets the feature's geometry.</td>
+<td><code><span>setGeometry(<wbr>newGeometry:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md"><span>Data.<wbr>Geometry</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Sets the feature's geometry.</div></td>
 </tr>
 <tr>
-<td><code>setProperty(name:string, newValue:*)</code></td>
-<td><code>None</code></td>
-<td>Sets the value of the specified property. If <code>newValue</code> is <code>undefined</code> this is equivalent to calling <code>removeProperty</code>.</td>
+<td><code><span>setProperty(<wbr>name:string,<wbr> newValue:*)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Sets the value of the specified property. If <code>newValue</code> is <code>undefined</code> this is equivalent to calling <code>removeProperty</code>.</div></td>
 </tr>
 <tr>
-<td><code>toGeoJson(callback:function(Object))</code></td>
-<td><code>None</code></td>
-<td>Exports the feature to a GeoJSON object.</td>
+<td><code><span>toGeoJson(<wbr>callback:function(<wbr>Object))</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Exports the feature to a GeoJSON object.</div></td>
 </tr>
 </tbody>
-</table><h3>Events</h3><table summary="class Data.Feature - Events" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="details responsive" summary="class Data.Feature - Events">
 <thead>
-<tr><th>Events</th>
-<th>Arguments</th>
-<th>Description</th>
+<tr><th colspan="2">Events</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>removeproperty</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.RemovePropertyEvent.md">Data.RemovePropertyEvent</a></code></td>
-<td>This event is triggered when a feature's property is removed.</td>
+<td><code><span>removeproperty</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemovePropertyEvent.md">Data.RemovePropertyEvent</a></code></div>
+<div class="desc">This event is triggered when a feature's property is removed.</div></td>
 </tr>
 <tr>
-<td><code>setgeometry</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.SetGeometryEvent.md">Data.SetGeometryEvent</a></code></td>
-<td>This event is triggered when a feature's geometry is set.</td>
+<td><code><span>setgeometry</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetGeometryEvent.md">Data.SetGeometryEvent</a></code></div>
+<div class="desc">This event is triggered when a feature's geometry is set.</div></td>
 </tr>
 <tr>
-<td><code>setproperty</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.SetPropertyEvent.md">Data.SetPropertyEvent</a></code></td>
-<td>This event is triggered when a feature's property is set.</td>
+<td><code><span>setproperty</span></code></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetPropertyEvent.md">Data.SetPropertyEvent</a></code></div>
+<div class="desc">This event is triggered when a feature's property is set.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

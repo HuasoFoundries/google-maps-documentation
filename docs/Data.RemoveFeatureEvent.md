@@ -1,17 +1,15 @@
-<h2 id="Data.RemoveFeatureEvent">
-google.maps.Data.RemoveFeatureEvent
+<h2 id="Data.RemoveFeatureEvent"> Data.RemoveFeatureEvent object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.RemoveFeatureEvent</span></code>
 object specification
-</h2><p>The properties of a <code>removefeature</code> event.</p><h3>Properties</h3><table summary="interface Data.RemoveFeatureEvent - Properties" width="100%">
+</p><p>The properties of a <code>removefeature</code> event.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.RemoveFeatureEvent - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>feature</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a></code></td>
-<td>The feature that was removed from the <code>FeatureCollection</code>.</td>
+<td><code><span>feature</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md">Data.Feature</a></code></div>
+<div class="desc">The feature that was removed from the <code>FeatureCollection</code>.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

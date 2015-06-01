@@ -1,108 +1,105 @@
-<h2 id="PlaceResult">
-PlaceResult
-object specification
-</h2><p>
+<h2 id="PlaceResult"> PlaceResult object specification </h2><p>
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlaceResult</span></code>
 object specification
-</p><p>Defines information about a Place.</p><h4>Library</h4><p>places</p><table class="properties responsive" summary="interface PlaceResult - Properties">
+</p><p>Defines information about a Place.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface PlaceResult - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>address_components</code></td>
+<td><code><span>address_components</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderAddressComponent.md">GeocoderAddressComponent</a>&gt;</code></div>
 <div class="desc">The collection of address components for this Place's location.</div></td>
 </tr>
 <tr>
-<td><code>aspects</code></td>
+<td><code><span>aspects</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceAspectRating.md">PlaceAspectRating</a>&gt;</code></div>
 <div class="desc">The rated aspects of this Place, based on Google and Zagat user reviews. The ratings are on a scale of 0 to 30.</div></td>
 </tr>
 <tr>
-<td><code>formatted_address</code></td>
+<td><code><span>formatted_address</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">The Place's full address.</div></td>
 </tr>
 <tr>
-<td><code>formatted_phone_number</code></td>
+<td><code><span>formatted_phone_number</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">The Place's phone number, formatted according to the <a href="http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers"> number's regional convention</a>.</div></td>
 </tr>
 <tr>
-<td><code>geometry</code></td>
+<td><code><span>geometry</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceGeometry.md">PlaceGeometry</a></code></div>
 <div class="desc">The Place's geometry-related information.</div></td>
 </tr>
 <tr>
-<td><code>html_attributions</code></td>
+<td><code><span>html_attributions</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
 <div class="desc">Attribution text to be displayed for this Place result.</div></td>
 </tr>
 <tr>
-<td><code>icon</code></td>
+<td><code><span>icon</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">URL to an image resource that can be used to represent this Place's category.</div></td>
 </tr>
 <tr>
-<td><code>international_phone_number</code></td>
+<td><code><span>international_phone_number</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">The Place's phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign.</div></td>
 </tr>
 <tr>
-<td><code>name</code></td>
+<td><code><span>name</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">The Place's name. Note: In the case of user entered Places, this is the raw text, as typed by the user. Please exercise caution when using this data, as malicious users may try to use it as a vector for code injection attacks (See <a href="http://en.wikipedia.org/wiki/Code_injection"> http://en.wikipedia.org/wiki/Code_injection</a>).</div></td>
 </tr>
 <tr>
-<td><code>permanently_closed</code></td>
+<td><code><span>permanently_closed</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">A flag indicating whether the Place is permanently closed. If the place is not permanently closed, the flag is not present in search or details responses.</div></td>
 </tr>
 <tr>
-<td><code>photos</code></td>
+<td><code><span>photos</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacePhoto.md">PlacePhoto</a>&gt;</code></div>
 <div class="desc">Photos of this Place. The collection will contain up to ten <code>PlacePhoto</code> objects.</div></td>
 </tr>
 <tr>
-<td><code>place_id</code></td>
+<td><code><span>place_id</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">A unique identifier for a place.</div></td>
 </tr>
 <tr>
-<td><code>price_level</code></td>
+<td><code><span>price_level</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The price level of the Place, on a scale of 0 to 4. Price levels are interpreted as follows: <table> <tbody><tr> <th>Value</th> <th>Description</th> </tr> <tr> <td>0</td> <td>Free</td> </tr> <tr> <td>1</td> <td>Inexpensive</td> </tr> <tr> <td>2</td> <td>Moderate</td> </tr> <tr> <td>3</td> <td>Expensive</td> </tr> <tr> <td>4</td> <td>Very Expensive</td> </tr> </tbody></table></div></td>
+<div class="desc">The price level of the Place, on a scale of 0 to 4. Price levels are interpreted as follows: <div class="devsite-table-wrapper"><table> <tbody><tr> <th>Value</th> <th>Description</th> </tr> <tr> <td>0</td> <td>Free</td> </tr> <tr> <td>1</td> <td>Inexpensive</td> </tr> <tr> <td>2</td> <td>Moderate</td> </tr> <tr> <td>3</td> <td>Expensive</td> </tr> <tr> <td>4</td> <td>Very Expensive</td> </tr> </tbody></table></div></div></td>
 </tr>
 <tr>
-<td><code>rating</code></td>
+<td><code><span>rating</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
 <div class="desc">A rating, between 1.0 to 5.0, based on user reviews of this Place.</div></td>
 </tr>
 <tr>
-<td><code>reviews</code></td>
+<td><code><span>reviews</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceReview.md">PlaceReview</a>&gt;</code></div>
 <div class="desc">A list of reviews of this Place.</div></td>
 </tr>
 <tr>
-<td><code>types</code></td>
+<td><code><span>types</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
 <div class="desc">An array of types for this Place (e.g., <code>["political",&nbsp; "locality"]</code> or <code>["restaurant", "establishment"]</code>).</div></td>
 </tr>
 <tr>
-<td><code>url</code></td>
+<td><code><span>url</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">URL of the official Google page for this place. This will be the establishment's Google+ page if the Google+ page exists, otherwise it will be the Google-owned page that contains the best available information about the place.</div></td>
 </tr>
 <tr>
-<td><code>vicinity</code></td>
+<td><code><span>vicinity</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">A fragment of the Place's address for disambiguation (usually street name and locality).</div></td>
 </tr>
 <tr>
-<td><code>website</code></td>
+<td><code><span>website</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">The authoritative website for this Place, such as a business' homepage.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

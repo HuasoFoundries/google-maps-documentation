@@ -1,32 +1,30 @@
-<h2 id="Data.SetPropertyEvent">
-google.maps.Data.SetPropertyEvent
+<h2 id="Data.SetPropertyEvent"> Data.SetPropertyEvent object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.SetPropertyEvent</span></code>
 object specification
-</h2><p>The properties of a <code>setproperty</code> event.</p><h3>Properties</h3><table summary="interface Data.SetPropertyEvent - Properties" width="100%">
+</p><p>The properties of a <code>setproperty</code> event.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.SetPropertyEvent - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>feature</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Feature.md">Data.Feature</a></code></td>
-<td>The feature whose property was set.</td>
+<td><code><span>feature</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md">Data.Feature</a></code></div>
+<div class="desc">The feature whose property was set.</div></td>
 </tr>
 <tr>
-<td><code>name</code></td>
-<td><code>string</code></td>
-<td>The property name.</td>
+<td><code><span>name</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The property name.</div></td>
 </tr>
 <tr>
-<td><code>newValue</code></td>
-<td><code>*</code></td>
-<td>The new value.</td>
+<td><code><span>newValue</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>*</code></div>
+<div class="desc">The new value.</div></td>
 </tr>
 <tr>
-<td><code>oldValue</code></td>
-<td><code>*</code></td>
-<td>The previous value. Will be <code>undefined</code> if the property was added.</td>
+<td><code><span>oldValue</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>*</code></div>
+<div class="desc">The previous value. Will be <code>undefined</code> if the property was added.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

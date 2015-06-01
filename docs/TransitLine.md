@@ -1,52 +1,50 @@
-<h2 id="TransitLine">
-google.maps.TransitLine
+<h2 id="TransitLine"> TransitLine object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">TransitLine</span></code>
 object specification
-</h2><h3>Properties</h3><table summary="interface TransitLine - Properties" width="100%">
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface TransitLine - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>agencies</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitAgency.md">TransitAgency</a>&gt;</code></td>
-<td>The transit agency that operates this transit line.</td>
+<td><code><span>agencies</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitAgency.md">TransitAgency</a>&gt;</code></div>
+<div class="desc">The transit agency that operates this transit line.</div></td>
 </tr>
 <tr>
-<td><code>color</code></td>
-<td><code>string</code></td>
-<td>The color commonly used in signage for this transit line, represented as a hex string.</td>
+<td><code><span>color</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The color commonly used in signage for this transit line, represented as a hex string.</div></td>
 </tr>
 <tr>
-<td><code>icon</code></td>
-<td><code>string</code></td>
-<td>The URL for an icon associated with this line.</td>
+<td><code><span>icon</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The URL for an icon associated with this line.</div></td>
 </tr>
 <tr>
-<td><code>name</code></td>
-<td><code>string</code></td>
-<td>The full name of this transit line, e.g. "8 Avenue Local".</td>
+<td><code><span>name</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The full name of this transit line, e.g. "8 Avenue Local".</div></td>
 </tr>
 <tr>
-<td><code>short_name</code></td>
-<td><code>string</code></td>
-<td>The short name of this transit line, e.g. "E".</td>
+<td><code><span>short_name</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The short name of this transit line, e.g. "E".</div></td>
 </tr>
 <tr>
-<td><code>text_color</code></td>
-<td><code>string</code></td>
-<td>The text color commonly used in signage for this transit line, represented as a hex string.</td>
+<td><code><span>text_color</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The text color commonly used in signage for this transit line, represented as a hex string.</div></td>
 </tr>
 <tr>
-<td><code>url</code></td>
-<td><code>string</code></td>
-<td>The agency's URL which is specific to this transit line.</td>
+<td><code><span>url</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The agency's URL which is specific to this transit line.</div></td>
 </tr>
 <tr>
-<td><code>vehicle</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitVehicle.md">TransitVehicle</a></code></td>
-<td>The type of vehicle used, e.g. train or bus.</td>
+<td><code><span>vehicle</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitVehicle.md">TransitVehicle</a></code></div>
+<div class="desc">The type of vehicle used, e.g. train or bus.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

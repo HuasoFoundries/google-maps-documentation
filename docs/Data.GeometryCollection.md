@@ -1,45 +1,42 @@
-<h2 id="Data.GeometryCollection">
-google.maps.Data.GeometryCollection
+<h2 id="Data.GeometryCollection"> Data.GeometryCollection class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.GeometryCollection</span></code>
 class
-</h2><p>A GeometryCollection contains a number of geometry objects. Any <code>LatLng</code> or <code>LatLngLiteral</code> objects are automatically converted to <code>Data.Point</code> geometry objects.</p><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
-</p><h3>Constructor</h3><table summary="class Data.GeometryCollection - Constructor" width="100%">
+</p><p>A GeometryCollection contains a number of geometry objects. Any <code>LatLng</code> or <code>LatLngLiteral</code> objects are automatically converted to <code>Data.Point</code> geometry objects.</p><p>This class extends
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md">Data.Geometry</a></code>.
+</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Data.GeometryCollection - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Data.GeometryCollection(elements:Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>&gt;)</code></td>
-<td>Constructs a <code>Data.GeometryCollection</code> from the given geometry objects or <code>LatLng</code>s.</td>
+<td><code><span>Data.<wbr>GeometryCollection(<wbr>elements:Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md"><span>Data.<wbr>Geometry</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>&gt;)</span></code></td>
+<td>Constructs a <code><span>Data.<wbr>GeometryCollection</span></code> from the given geometry objects or <code><span>LatLng</span></code>s.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Data.GeometryCollection - Methods" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Data.GeometryCollection - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getArray()</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a>&gt;</code></td>
-<td>Returns an array of the contained geometry objects. A new array is returned each time <code>getArray()</code> is called.</td>
+<td><code><span>getArray()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md">Data.Geometry</a>&gt;</code></div>
+<div class="desc">Returns an array of the contained geometry objects. A new array is returned each time <code>getArray()</code> is called.</div></td>
 </tr>
 <tr>
-<td><code>getAt(n:number)</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code></td>
-<td>Returns the <code>n</code>-th contained geometry object.</td>
+<td><code><span>getAt(<wbr>n:number)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md">Data.Geometry</a></code></div>
+<div class="desc">Returns the <code>n</code>-th contained geometry object.</div></td>
 </tr>
 <tr>
-<td><code>getLength()</code></td>
-<td><code>number</code></td>
-<td>Returns the number of contained geometry objects.</td>
+<td><code><span>getLength()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>number</code></div>
+<div class="desc">Returns the number of contained geometry objects.</div></td>
 </tr>
 <tr>
-<td><code>getType()</code></td>
-<td><code>string</code></td>
-<td>Returns the string <code>"GeometryCollection"</code>.</td>
+<td><code><span>getType()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Returns the string <code>"GeometryCollection"</code>.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

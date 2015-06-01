@@ -1,28 +1,25 @@
-<h2 id="DirectionsService">
-google.maps.DirectionsService
+<h2 id="DirectionsService"> DirectionsService class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsService</span></code>
 class
-</h2><p>A service for computing directions between two or more places.</p><h3>Constructor</h3><table summary="class DirectionsService - Constructor" width="100%">
+</p><p>A service for computing directions between two or more places.</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class DirectionsService - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>DirectionsService()</code></td>
-<td>Creates a new instance of a <code>DirectionsService</code> that sends directions queries to Google servers.</td>
+<td><code><span>DirectionsService()</span></code></td>
+<td>Creates a new instance of a <code><span>DirectionsService</span></code> that sends directions queries to Google servers.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class DirectionsService - Methods" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class DirectionsService - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>route(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsRequest.md"><em>DirectionsRequest</em></a>, callback:function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsResult.md">DirectionsResult</a>, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStatus.md">DirectionsStatus</a>))</code></td>
-<td><code>None</code></td>
-<td>Issue a directions search request.</td>
+<td><code><span>route(<wbr>request:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md"><em><span>DirectionsRequest</span></em></a><span>,<wbr> callback:function(<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md"><span>DirectionsResult</span></a><span>,<wbr> </span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStatus.md"><span>DirectionsStatus</span></a><span>))</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Issue a directions search request.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

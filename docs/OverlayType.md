@@ -1,31 +1,30 @@
-<h2 id="OverlayType">
-google.maps.drawing.OverlayType
+<h2 id="OverlayType"> OverlayType class </h2><p>
+<code><span itemprop="path">google.maps.drawing</span>.<span itemprop="name">OverlayType</span></code>
 class
-</h2><p>The types of overlay that may be created by the <code>DrawingManager</code>.</p><h3>Library</h3><p>drawing</p><h3>Constant</h3><table summary="class OverlayType - Constants" width="100%">
+</p><p>The types of overlay that may be created by the <code>DrawingManager</code>.</p><h4>Library</h4><p>drawing</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class OverlayType - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>CIRCLE</code></td>
-<td>Specifies that the <code>DrawingManager</code> creates circles, and that the overlay given in the <code>overlaycomplete</code> event is a circle.</td>
+<td><code><span>CIRCLE</span></code></td>
+<td>Specifies that the <code><span>DrawingManager</span></code> creates circles, and that the overlay given in the <code><span>overlaycomplete</span></code> event is a circle.</td>
 </tr>
 <tr>
-<td><code>MARKER</code></td>
-<td>Specifies that the <code>DrawingManager</code> creates markers, and that the overlay given in the <code>overlaycomplete</code> event is a marker.</td>
+<td><code><span>MARKER</span></code></td>
+<td>Specifies that the <code><span>DrawingManager</span></code> creates markers, and that the overlay given in the <code><span>overlaycomplete</span></code> event is a marker.</td>
 </tr>
 <tr>
-<td><code>POLYGON</code></td>
-<td>Specifies that the <code>DrawingManager</code> creates polygons, and that the overlay given in the <code>overlaycomplete</code> event is a polygon.</td>
+<td><code><span>POLYGON</span></code></td>
+<td>Specifies that the <code><span>DrawingManager</span></code> creates polygons, and that the overlay given in the <code><span>overlaycomplete</span></code> event is a polygon.</td>
 </tr>
 <tr>
-<td><code>POLYLINE</code></td>
-<td>Specifies that the <code>DrawingManager</code> creates polylines, and that the overlay given in the <code>overlaycomplete</code> event is a polyline.</td>
+<td><code><span>POLYLINE</span></code></td>
+<td>Specifies that the <code><span>DrawingManager</span></code> creates polylines, and that the overlay given in the <code><span>overlaycomplete</span></code> event is a polyline.</td>
 </tr>
 <tr>
-<td><code>RECTANGLE</code></td>
-<td>Specifies that the <code>DrawingManager</code> creates rectangles, and that the overlay given in the <code>overlaycomplete</code> event is a rectangle.</td>
+<td><code><span>RECTANGLE</span></code></td>
+<td>Specifies that the <code><span>DrawingManager</span></code> creates rectangles, and that the overlay given in the <code><span>overlaycomplete</span></code> event is a rectangle.</td>
 </tr>
 </tbody>
-</table>
+</table></div>

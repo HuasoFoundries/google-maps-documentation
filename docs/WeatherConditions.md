@@ -1,57 +1,55 @@
-<h2 id="WeatherConditions">
-google.maps.weather.WeatherConditions
+<h2 id="WeatherConditions"> WeatherConditions object specification </h2><p>
+<code><span itemprop="path">google.maps.weather</span>.<span itemprop="name">WeatherConditions</span></code>
 object specification
-</h2><p>Describes a single weather feature.</p><h3>Library</h3><p>weather</p><h3>Properties</h3><table summary="interface WeatherConditions - Properties" width="100%">
+</p><p>Describes a single weather feature.</p><h4>Library</h4><p>weather</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface WeatherConditions - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>day</code></td>
-<td><code>string</code></td>
-<td>The current day of the week in long form, e.g. "Monday".</td>
+<td><code><span>day</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The current day of the week in long form, e.g. "Monday".</div></td>
 </tr>
 <tr>
-<td><code>description</code></td>
-<td><code>string</code></td>
-<td>A description of the conditions, e.g. "Partly Cloudy".</td>
+<td><code><span>description</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">A description of the conditions, e.g. "Partly Cloudy".</div></td>
 </tr>
 <tr>
-<td><code>high</code></td>
-<td><code>number</code></td>
-<td>The highest temperature reached during the day.</td>
+<td><code><span>high</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The highest temperature reached during the day.</div></td>
 </tr>
 <tr>
-<td><code>humidity</code></td>
-<td><code>number</code></td>
-<td>The current humidity, expressed as a percentage.</td>
+<td><code><span>humidity</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The current humidity, expressed as a percentage.</div></td>
 </tr>
 <tr>
-<td><code>low</code></td>
-<td><code>number</code></td>
-<td>The lowest temperature reached during the day.</td>
+<td><code><span>low</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The lowest temperature reached during the day.</div></td>
 </tr>
 <tr>
-<td><code>shortDay</code></td>
-<td><code>string</code></td>
-<td>The current day of the week in short form, e.g. "M".</td>
+<td><code><span>shortDay</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The current day of the week in short form, e.g. "M".</div></td>
 </tr>
 <tr>
-<td><code>temperature</code></td>
-<td><code>number</code></td>
-<td>The current temperature, in the specified temperature units.</td>
+<td><code><span>temperature</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The current temperature, in the specified temperature units.</div></td>
 </tr>
 <tr>
-<td><code>windDirection</code></td>
-<td><code>string</code></td>
-<td>The current wind direction.</td>
+<td><code><span>windDirection</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The current wind direction.</div></td>
 </tr>
 <tr>
-<td><code>windSpeed</code></td>
-<td><code>number</code></td>
-<td>The current wind speed, in the specified wind speed units.</td>
+<td><code><span>windSpeed</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The current wind speed, in the specified wind speed units.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

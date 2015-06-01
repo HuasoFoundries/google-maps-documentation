@@ -1,45 +1,42 @@
-<h2 id="Data.MultiLineString">
-google.maps.Data.MultiLineString
+<h2 id="Data.MultiLineString"> Data.MultiLineString class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.MultiLineString</span></code>
 class
-</h2><p>A MultiLineString geometry contains a number of <code>LineString</code>s.</p><p>This class extends
-<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.Geometry.md">Data.Geometry</a></code>.
-</p><h3>Constructor</h3><table summary="class Data.MultiLineString - Constructor" width="100%">
+</p><p>A MultiLineString geometry contains a number of <code>LineString</code>s.</p><p>This class extends
+<code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md">Data.Geometry</a></code>.
+</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Data.MultiLineString - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Data.MultiLineString(elements:Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.LineString.md">Data.LineString</a>|Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLngLiteral.md">LatLngLiteral</a>&gt;&gt;)</code></td>
-<td>Constructs a <code>Data.MultiLineString</code> from the given <code>Data.LineString</code>s or arrays of positions.</td>
+<td><code><span>Data.<wbr>MultiLineString(<wbr>elements:Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.LineString.md"><span>Data.<wbr>LineString</span></a><span>|<wbr>Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>&gt;&gt;)</span></code></td>
+<td>Constructs a <code><span>Data.<wbr>MultiLineString</span></code> from the given <code><span>Data.<wbr>LineString</span></code>s or arrays of positions.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Data.MultiLineString - Methods" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Data.MultiLineString - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>getArray()</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.LineString.md">Data.LineString</a>&gt;</code></td>
-<td>Returns an array of the contained <code>Data.LineString</code>s. A new array is returned each time <code>getArray()</code> is called.</td>
+<td><code><span>getArray()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.LineString.md">Data.LineString</a>&gt;</code></div>
+<div class="desc">Returns an array of the contained <code>Data.LineString</code>s. A new array is returned each time <code>getArray()</code> is called.</div></td>
 </tr>
 <tr>
-<td><code>getAt(n:number)</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Data.LineString.md">Data.LineString</a></code></td>
-<td>Returns the <code>n</code>-th contained <code>Data.LineString</code>.</td>
+<td><code><span>getAt(<wbr>n:number)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.LineString.md">Data.LineString</a></code></div>
+<div class="desc">Returns the <code>n</code>-th contained <code>Data.LineString</code>.</div></td>
 </tr>
 <tr>
-<td><code>getLength()</code></td>
-<td><code>number</code></td>
-<td>Returns the number of contained <code>Data.LineString</code>s.</td>
+<td><code><span>getLength()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>number</code></div>
+<div class="desc">Returns the number of contained <code>Data.LineString</code>s.</div></td>
 </tr>
 <tr>
-<td><code>getType()</code></td>
-<td><code>string</code></td>
-<td>Returns the string <code>"MultiLineString"</code>.</td>
+<td><code><span>getType()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Returns the string <code>"MultiLineString"</code>.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

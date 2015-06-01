@@ -1,28 +1,25 @@
-<h2 id="Geocoder">
-google.maps.Geocoder
+<h2 id="Geocoder"> Geocoder class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Geocoder</span></code>
 class
-</h2><p>A service for converting between an address and a <code>LatLng</code>.</p><h3>Constructor</h3><table summary="class Geocoder - Constructor" width="100%">
+</p><p>A service for converting between an address and a <code>LatLng</code>.</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Geocoder - Constructor">
 <thead>
-<tr><th>Constructor</th>
-<th>Description</th>
+<tr><th colspan="2">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>Geocoder()</code></td>
-<td>Creates a new instance of a <code>Geocoder</code> that sends geocode requests to Google servers.</td>
+<td><code><span>Geocoder()</span></code></td>
+<td>Creates a new instance of a <code><span>Geocoder</span></code> that sends geocode requests to Google servers.</td>
 </tr>
 </tbody>
-</table><h3>Methods</h3><table summary="class Geocoder - Methods" width="100%">
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Geocoder - Methods">
 <thead>
-<tr><th>Methods</th>
-<th>Return Value</th>
-<th>Description</th>
+<tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>geocode(request:<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderRequest.md"><em>GeocoderRequest</em></a>, callback:function(Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderResult.md">GeocoderResult</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.GeocoderStatus.md">GeocoderStatus</a>))</code></td>
-<td><code>None</code></td>
-<td>Geocode a request.</td>
+<td><code><span>geocode(<wbr>request:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderRequest.md"><em><span>GeocoderRequest</span></em></a><span>,<wbr> callback:function(<wbr>Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderResult.md"><span>GeocoderResult</span></a><span>&gt;,<wbr> </span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderStatus.md"><span>GeocoderStatus</span></a><span>))</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Geocode a request.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

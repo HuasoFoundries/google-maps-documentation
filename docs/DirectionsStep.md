@@ -1,57 +1,55 @@
-<h2 id="DirectionsStep">
-google.maps.DirectionsStep
+<h2 id="DirectionsStep"> DirectionsStep object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsStep</span></code>
 object specification
-</h2><p>A single <code>DirectionsStep</code> in a <code>DirectionsResult</code>. Some fields may be undefined. Note that though this object is "JSON-like," it is not strictly JSON, as it directly includes <code>LatLng</code> objects.</p><h3>Properties</h3><table summary="interface DirectionsStep - Properties" width="100%">
+</p><p>A single <code>DirectionsStep</code> in a <code>DirectionsResult</code>. Some fields may be undefined. Note that though this object is "JSON-like," it is not strictly JSON, as it directly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsStep - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>distance</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Distance.md">Distance</a></code></td>
-<td>The distance covered by this step. This property may be undefined as the distance may be unknown.</td>
+<td><code><span>distance</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Distance.md">Distance</a></code></div>
+<div class="desc">The distance covered by this step. This property may be undefined as the distance may be unknown.</div></td>
 </tr>
 <tr>
-<td><code>duration</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.Duration.md">Duration</a></code></td>
-<td>The typical time required to perform this step in seconds and in text form. This property may be undefined as the duration may be unknown.</td>
+<td><code><span>duration</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md">Duration</a></code></div>
+<div class="desc">The typical time required to perform this step in seconds and in text form. This property may be undefined as the duration may be unknown.</div></td>
 </tr>
 <tr>
-<td><code>end_location</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The ending location of this step.</td>
+<td><code><span>end_location</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">The ending location of this step.</div></td>
 </tr>
 <tr>
-<td><code>instructions</code></td>
-<td><code>string</code></td>
-<td>Instructions for this step.</td>
+<td><code><span>instructions</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">Instructions for this step.</div></td>
 </tr>
 <tr>
-<td><code>path</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a>&gt;</code></td>
-<td>A sequence of <code>LatLng</code>s describing the course of this step.</td>
+<td><code><span>path</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>&gt;</code></div>
+<div class="desc">A sequence of <code>LatLng</code>s describing the course of this step.</div></td>
 </tr>
 <tr>
-<td><code>start_location</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.LatLng.md">LatLng</a></code></td>
-<td>The starting location of this step.</td>
+<td><code><span>start_location</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
+<div class="desc">The starting location of this step.</div></td>
 </tr>
 <tr>
-<td><code>steps</code></td>
-<td><code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.DirectionsStep.md">DirectionsStep</a>&gt;</code></td>
-<td>Sub-steps of this step. Specified for non-transit sections of transit routes.</td>
+<td><code><span>steps</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStep.md">DirectionsStep</a>&gt;</code></div>
+<div class="desc">Sub-steps of this step. Specified for non-transit sections of transit routes.</div></td>
 </tr>
 <tr>
-<td><code>transit</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TransitDetails.md">TransitDetails</a></code></td>
-<td>Transit-specific details about this step. This property will be undefined unless the travel mode of this step is <code>TRANSIT</code>.</td>
+<td><code><span>transit</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitDetails.md">TransitDetails</a></code></div>
+<div class="desc">Transit-specific details about this step. This property will be undefined unless the travel mode of this step is <code>TRANSIT</code>.</div></td>
 </tr>
 <tr>
-<td><code>travel_mode</code></td>
-<td><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/google.maps.TravelMode.md">TravelMode</a></code></td>
-<td>The mode of travel used in this step.</td>
+<td><code><span>travel_mode</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TravelMode.md">TravelMode</a></code></div>
+<div class="desc">The mode of travel used in this step.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>

@@ -1,17 +1,15 @@
-<h2 id="Data.GeoJsonOptions">
-google.maps.Data.GeoJsonOptions
+<h2 id="Data.GeoJsonOptions"> Data.GeoJsonOptions object specification </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.GeoJsonOptions</span></code>
 object specification
-</h2><p>Optional parameters for importing GeoJSON.</p><h3>Properties</h3><table summary="interface Data.GeoJsonOptions - Properties" width="100%">
+</p><p>Optional parameters for importing GeoJSON.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.GeoJsonOptions - Properties">
 <thead>
-<tr><th>Properties</th>
-<th>Type</th>
-<th>Description</th>
+<tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>idPropertyName</code></td>
-<td><code>string</code></td>
-<td>The name of the Feature property to use as the feature ID. If not specified, the GeoJSON Feature id will be used.</td>
+<td><code><span>idPropertyName</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The name of the Feature property to use as the feature ID. If not specified, the GeoJSON Feature id will be used.</div></td>
 </tr>
 </tbody>
-</table>
+</table></div>
