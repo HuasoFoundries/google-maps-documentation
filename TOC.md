@@ -177,10 +177,6 @@ in sync, versioned copy of google.maps API v3 documentation
 * [AdUnit](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdUnit.md)
 * [AdUnitOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdUnitOptions.md)
 * [AdFormat](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdFormat.md)
-* [PanoramioLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoramioLayer.md)
-* [PanoramioLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoramioLayerOptions.md)
-* [PanoramioFeature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoramioFeature.md)
-* [PanoramioMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoramioMouseEvent.md)
 * [Autocomplete](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Autocomplete.md)
 * [AutocompleteOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md)
 * [AutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletePrediction.md)
@@ -212,16 +208,6 @@ in sync, versioned copy of google.maps API v3 documentation
 * [DrawingControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingControlOptions.md)
 * [OverlayCompleteEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayCompleteEvent.md)
 * [OverlayType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md)
-* [CloudLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CloudLayer.md)
-* [WeatherLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherLayer.md)
-* [WeatherLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherLayerOptions.md)
-* [TemperatureUnit](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TemperatureUnit.md)
-* [WindSpeedUnit](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WindSpeedUnit.md)
-* [LabelColor](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LabelColor.md)
-* [WeatherMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherMouseEvent.md)
-* [WeatherFeature](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherFeature.md)
-* [WeatherConditions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherConditions.md)
-* [WeatherForecast](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeatherForecast.md)
 * [MapsEngineLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineLayer.md)
 * [MapsEngineLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineLayerOptions.md)
 * [MapsEngineLayerProperties](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineLayerProperties.md)
@@ -238,4 +224,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Friday, May 22, 2015
+Last updated Thursday, June 04, 2015

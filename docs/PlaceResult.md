@@ -69,7 +69,7 @@ object specification
 <tr>
 <td><code><span>price_level</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The price level of the Place, on a scale of 0 to 4. Price levels are interpreted as follows: <div class="devsite-table-wrapper"><table> <tbody><tr> <th>Value</th> <th>Description</th> </tr> <tr> <td>0</td> <td>Free</td> </tr> <tr> <td>1</td> <td>Inexpensive</td> </tr> <tr> <td>2</td> <td>Moderate</td> </tr> <tr> <td>3</td> <td>Expensive</td> </tr> <tr> <td>4</td> <td>Very Expensive</td> </tr> </tbody></table></div></div></td>
+<div class="desc">The price level of the Place, on a scale of 0 to 4. Price levels are interpreted as follows: <ul style="list-style-type: none;"> <li><code>0</code>: Free </li><li><code>1</code>: Inexpensive </li><li><code>2</code>: Moderate </li><li><code>3</code>: Expensive </li><li><code>4</code>: Very Expensive </li></ul></div></td>
 </tr>
 <tr>
 <td><code><span>rating</span></code></td>

@@ -1,7 +1,4 @@
-<h2 id="PlaceSearchPagination">
-PlaceSearchPagination
-object specification
-</h2><p>
+<h2 id="PlaceSearchPagination"> PlaceSearchPagination object specification </h2><p>
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlaceSearchPagination</span></code>
 object specification
 </p><p>An object used to fetch additional pages of Places results.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="object PlaceSearchPagination - Methods">

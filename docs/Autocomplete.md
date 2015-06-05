@@ -1,7 +1,4 @@
-<h2 id="Autocomplete">
-Autocomplete
-class
-</h2><p>
+<h2 id="Autocomplete"> Autocomplete class </h2><p>
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">Autocomplete</span></code>
 class
 </p><p>A service to provide Place predictions based on a user's text input. It attaches to an input element of type <code>text</code>, and listens for text entry in that field. The list of predictions is presented as a drop-down list, and is updated as text is entered.</p><p>This class extends

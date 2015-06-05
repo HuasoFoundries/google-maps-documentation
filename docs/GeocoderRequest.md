@@ -27,6 +27,11 @@ object specification
 <div class="desc">LatLng about which to search. Optional.</div></td>
 </tr>
 <tr>
+<td><code><span>placeId</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The place ID associated with the location. Place IDs uniquely identify a place in the Google Places database and on Google Maps. Learn more about <a href="/places/place-id">Place IDs</a> in the Places API developer guide.</div></td>
+</tr>
+<tr>
 <td><code><span>region</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">Country code used to bias the search, specified as a Unicode region subtag / CLDR identifier. Optional.</div></td>

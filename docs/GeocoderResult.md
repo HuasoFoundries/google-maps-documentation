@@ -27,6 +27,11 @@ object specification
 <div class="desc">Whether the geocoder did not return an exact match for the original request, though it was able to match part of the requested address.</div></td>
 </tr>
 <tr>
+<td><code><span>place_id</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The place ID associated with the location. Place IDs uniquely identify a place in the Google Places database and on Google Maps. Learn more about <a href="/places/place-id">Place IDs</a> in the Places API developer guide.</div></td>
+</tr>
+<tr>
 <td><code><span>postcode_localities</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
 <div class="desc">An array of strings denoting all the localities contained in a postal code. This is only present when the result is a postal code that contains multiple localities.</div></td>
