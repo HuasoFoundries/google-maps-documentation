@@ -84,7 +84,7 @@ object specification
 <tr>
 <td><code><span>types</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
-<div class="desc">An array of types for this Place (e.g., <code>["political",&nbsp; "locality"]</code> or <code>["restaurant", "establishment"]</code>).</div></td>
+<div class="desc">An array of <a href="/places/supported_types">types for this Place</a> (e.g., <code>["political", "locality"]</code> or <code>["restaurant", "establishment"]</code>).</div></td>
 </tr>
 <tr>
 <td><code><span>url</span></code></td>
