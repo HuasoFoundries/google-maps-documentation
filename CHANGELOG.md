@@ -7,5 +7,5 @@
 * **Changed:** [Symbol](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Symbol) has a `labelOrigin attribute`.
 * **Changed:** [Marker](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Marker) has `setLabel()` and `getLabel()` methods, to interact with a [MarkerLabel](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MarkerLabel)
 * **Changed:** [MarkerOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MarkerOptions) now has a `label` attribute.
-* **Changed:** [StreetViewLocationRequest](https://developers.google.com/maps/documentation/javascript/3.exp/reference#StreetViewLocationRequest) has  `[preference](https://developers.google.com/maps/documentation/javascript/3.exp/reference#StreetViewPreference)` and `[preference](https://developers.google.com/maps/documentation/javascript/3.exp/reference#StreetViewSource)` attributes. 
+* **Changed:** [StreetViewLocationRequest](https://developers.google.com/maps/documentation/javascript/3.exp/reference#StreetViewLocationRequest) has  [`preference`](https://developers.google.com/maps/documentation/javascript/3.exp/reference#StreetViewPreference) and  [`source`](https://developers.google.com/maps/documentation/javascript/3.exp/reference#StreetViewSource) attributes. 
 
