@@ -1,25 +1,26 @@
-<h2 id="MapTypeId">google.maps.MapTypeId class</h2>
-<p>Identifiers for common MapTypes.</p><h3>Constant</h3><table summary="class MapTypeId - Constants" width="100%">
+<h2 id="MapTypeId"> MapTypeId class </h2><p>
+<code><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeId</span></code>
+class
+</p><p>Identifiers for common MapTypes.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class MapTypeId - Constants">
 <thead>
-<tr><th>Constant</th>
-<th>Description</th>
+<tr><th colspan="2">Constant</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code>HYBRID</code></td>
+<td><code><span>HYBRID</span></code></td>
 <td>This map type displays a transparent layer of major streets on satellite images.</td>
 </tr>
 <tr>
-<td><code>ROADMAP</code></td>
+<td><code><span>ROADMAP</span></code></td>
 <td>This map type displays a normal street map.</td>
 </tr>
 <tr>
-<td><code>SATELLITE</code></td>
+<td><code><span>SATELLITE</span></code></td>
 <td>This map type displays satellite images.</td>
 </tr>
 <tr>
-<td><code>TERRAIN</code></td>
+<td><code><span>TERRAIN</span></code></td>
 <td>This map type displays maps with physical features such as terrain and vegetation.</td>
 </tr>
 </tbody>
-</table>
+</table></div>
