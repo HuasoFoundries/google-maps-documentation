@@ -22,11 +22,6 @@ object specification
 <div class="desc">The symbol's fill opacity. Defaults to 0.</div></td>
 </tr>
 <tr>
-<td><code><span>labelOrigin</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md">Point</a></code></div>
-<div class="desc">The origin of the label relative to the origin of the path, if label is supplied by the marker. By default, the origin is located at <code>(0, 0)</code>. The origin is expressed in the same coordinate system as the symbol's path. This property is unused for symbols on polylines.</div></td>
-</tr>
-<tr>
 <td><code><span>path</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SymbolPath.md">SymbolPath</a>|string</code></div>
 <div class="desc">The symbol's path, which is a built-in symbol path, or a custom path expressed using <a href="http://www.w3.org/TR/SVG/paths.html#PathData">SVG path notation</a>. Required.</div></td>
