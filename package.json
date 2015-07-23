@@ -1,0 +1,26 @@
+{
+  "name": "google-maps-documentation",
+  "version": "0.0.1",
+  "description": "In sync to google maps api v3 docs to track changes",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amenadiel/google-maps-documentation.git"
+  },
+  "keywords": [
+    "google",
+    "google-maps"
+  ],
+  "author": "Felipe Figueroa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amenadiel/google-maps-documentation/issues"
+  },
+  "homepage": "https://github.com/amenadiel/google-maps-documentation"
+}

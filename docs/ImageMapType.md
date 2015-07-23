@@ -29,7 +29,7 @@ class
 <div class="desc"></div></td>
 </tr>
 <tr>
-<td><code><span>releaseTile(<wbr>tile:Node)</span></code></td>
+<td><code><span>releaseTile(<wbr>tileDiv:Node)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc"></div></td>
 </tr>

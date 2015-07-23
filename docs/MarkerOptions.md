@@ -47,6 +47,11 @@ object specification
 <div class="desc">Icon for the foreground. If a string is provided, it is treated as though it were an <code>Icon</code> with the string as <code>url</code>.</div></td>
 </tr>
 <tr>
+<td><code><span>label</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md">MarkerLabel</a></code></div>
+<div class="desc">Adds a label to the marker. The label can either be a string, or a <code>MarkerLabel</code> object. Only the first character of the string will be displayed.</div></td>
+</tr>
+<tr>
 <td><code><span>map</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a></code></div>
 <div class="desc">Map on which to display Marker.</div></td>
