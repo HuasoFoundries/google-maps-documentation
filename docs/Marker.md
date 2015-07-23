@@ -49,6 +49,11 @@ class
 <div class="desc"></div></td>
 </tr>
 <tr>
+<td><code><span>getLabel()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md">MarkerLabel</a></code></div>
+<div class="desc"></div></td>
+</tr>
+<tr>
 <td><code><span>getMap()</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a></code></div>
 <div class="desc"></div></td>
@@ -115,6 +120,11 @@ class
 </tr>
 <tr>
 <td><code><span>setIcon(<wbr>icon:string|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md"><span>Icon</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Symbol.md"><span>Symbol</span></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc"></div></td>
+</tr>
+<tr>
+<td><code><span>setLabel(<wbr>label:string|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md"><span>MarkerLabel</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc"></div></td>
 </tr>

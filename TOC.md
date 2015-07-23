@@ -133,6 +133,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [MapsEngineStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineStatus.md)
 * [MapsEventListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md)
 * [Marker](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Marker.md)
+* [MarkerLabel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md)
 * [MarkerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md)
 * [MarkerShape](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md)
 * [MaxZoomResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomResult.md)
@@ -228,4 +229,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Wednesday, July 08, 2015
+Last updated Monday, July 20, 2015
