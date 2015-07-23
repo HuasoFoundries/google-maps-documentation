@@ -1,6 +1,6 @@
 {
   "name": "google-maps-documentation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "In sync to google maps api v3 docs to track changes",
   "main": "index.js",
   "directories": {
