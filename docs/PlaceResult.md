@@ -92,6 +92,11 @@ object specification
 <div class="desc">URL of the official Google page for this place. This will be the establishment's Google+ page if the Google+ page exists, otherwise it will be the Google-owned page that contains the best available information about the place.</div></td>
 </tr>
 <tr>
+<td><code><span>utc_offset</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The offset from UTC of the place's current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the utc_offset will be 660. For timezones behind UTC, the offset is negative. For example, utc_offest is -60 for Cape Verde.</div></td>
+</tr>
+<tr>
 <td><code><span>vicinity</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">A fragment of the Place's address for disambiguation (usually street name and locality).</div></td>

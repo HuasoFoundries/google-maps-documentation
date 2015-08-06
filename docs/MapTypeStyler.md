@@ -39,7 +39,7 @@ object specification
 <tr>
 <td><code><span>visibility</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">Sets the visibility of the feature. Valid values: 'on', 'off' or 'simplifed'.</div></td>
+<div class="desc">Sets the visibility of the feature. Valid values: 'on', 'off' or 'simplified'.</div></td>
 </tr>
 <tr>
 <td><code><span>weight</span></code></td>

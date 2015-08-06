@@ -13,7 +13,7 @@ object specification
 </tr>
 <tr>
 <td><code><span>place</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md">MarkerPlace</a></code></div>
 <div class="desc">Describes a Place that a user can save from your application to their personalized map. In this context, 'place' means a business, point of interest or geographic location.</div></td>
 </tr>
 </tbody>

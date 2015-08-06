@@ -8,7 +8,7 @@ object specification
 <tbody>
 <tr>
 <td><code><span>mapTypeIds</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md">MapTypeId</a>&gt;|Array&lt;string&gt;</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md">MapTypeId</a>|string&gt;</code></div>
 <div class="desc">IDs of map types to show in the control.</div></td>
 </tr>
 <tr>

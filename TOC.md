@@ -43,6 +43,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [Data.SetPropertyEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetPropertyEvent.md)
 * [Data.StyleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.StyleOptions.md)
 * [Data.StylingFunction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.StylingFunction.md)
+* [DirectionsGeocodedWaypoint](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsGeocodedWaypoint.md)
 * [DirectionsLeg](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsLeg.md)
 * [DirectionsRenderer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRenderer.md)
 * [DirectionsRendererOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md)
@@ -135,6 +136,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [Marker](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Marker.md)
 * [MarkerLabel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md)
 * [MarkerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md)
+* [MarkerPlace](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md)
 * [MarkerShape](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerShape.md)
 * [MaxZoomResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomResult.md)
 * [MaxZoomService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomService.md)
@@ -229,4 +231,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Monday, July 20, 2015
+Last updated Tuesday, August 04, 2015

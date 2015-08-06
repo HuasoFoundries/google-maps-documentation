@@ -65,7 +65,7 @@ class
 </tr>
 <tr>
 <td><code><span>getPlace()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a></code></div>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md">MarkerPlace</a></code></div>
 <div class="desc"></div></td>
 </tr>
 <tr>
@@ -144,7 +144,7 @@ class
 <div class="desc"></div></td>
 </tr>
 <tr>
-<td><code><span>setPlace(<wbr>place:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md"><em><span>Place</span></em></a><span>)</span></code></td>
+<td><code><span>setPlace(<wbr>place:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md"><em><span>MarkerPlace</span></em></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc"></div></td>
 </tr>

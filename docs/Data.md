@@ -71,7 +71,7 @@ class
 <tr>
 <td><code><span>loadGeoJson(<wbr>url:string,<wbr> options?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.GeoJsonOptions.md"><span>Data.<wbr>GeoJsonOptions</span></a><span>,<wbr> callback?:function(<wbr>Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md"><span>Data.<wbr>Feature</span></a><span>&gt;))</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Loads GeoJSON from a URL, and adds the features to the collection.</div></td>
+<div class="desc">Loads GeoJSON from a URL, and adds the features to the collection. <p></p></div></td>
 </tr>
 <tr>
 <td><code><span>overrideStyle(<wbr>feature:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md"><span>Data.<wbr>Feature</span></a><span>,<wbr> style:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.StyleOptions.md"><span>Data.<wbr>StyleOptions</span></a><span>)</span></code></td>

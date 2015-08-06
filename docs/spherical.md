@@ -14,7 +14,7 @@ namespace
 <tr>
 <td><code><span>computeDistanceBetween(<wbr>from:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>,<wbr> to:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>,<wbr> radius?:number)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>number</code></div>
-<div class="desc">Returns the distance between two LatLngs.</div></td>
+<div class="desc">Returns the distance, in meters, between two LatLngs. You can optionally specify a custom radius. The radius defaults to the radius of the Earth.</div></td>
 </tr>
 <tr>
 <td><code><span>computeHeading(<wbr>from:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>,<wbr> to:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>)</span></code></td>

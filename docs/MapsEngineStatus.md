@@ -1,7 +1,7 @@
-<h2 id="MapsEngineStatus"> MapsEngineStatus object specification </h2><p>
+<h2 id="MapsEngineStatus"> MapsEngineStatus class </h2><p>
 <code><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">MapsEngineStatus</span></code>
-object specification
-</p><p>The status returned by <code>MapsEngineLayer</code> when a layer has loaded.</p><h4>Library</h4><p>visualization</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="object MapsEngineStatus - Constants">
+class
+</p><p>The status returned by <code>MapsEngineLayer</code> when a layer has loaded.</p><h4>Library</h4><p>visualization</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class MapsEngineStatus - Constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>
