@@ -1,7 +1,7 @@
 <h2 id="DirectionsRenderer"> DirectionsRenderer class </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsRenderer</span></code>
 class
-</p><p>Renders directions retrieved in the form of a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md">DirectionsResult</a></code> object retrieved from the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsService.md">DirectionsService</a></code>.</p><p>This class extends
+</p><p>Renders directions obtained from the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsService.md">DirectionsService</a></code>.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
 </p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class DirectionsRenderer - Constructor">
 <thead>
