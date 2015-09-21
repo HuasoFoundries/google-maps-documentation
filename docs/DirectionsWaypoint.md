@@ -8,8 +8,8 @@ object specification
 <tbody>
 <tr>
 <td><code><span>location</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|string</code></div>
-<div class="desc">Waypoint location. Can be an address string or <code>LatLng</code>. Optional.</div></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a></code></div>
+<div class="desc">Waypoint location. Can be an address string, a <code>LatLng</code>, or a <code>Place</code>. Optional.</div></td>
 </tr>
 <tr>
 <td><code><span>stopover</span></code></td>

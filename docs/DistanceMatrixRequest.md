@@ -23,8 +23,8 @@ object specification
 </tr>
 <tr>
 <td><code><span>destinations</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|string&gt;</code></div>
-<div class="desc">An array containing destination address strings and/or <code>LatLng</code>s, to which to calculate distance and time. Required.</div></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a>&gt;</code></div>
+<div class="desc">An array containing destination address strings, or <code>LatLng</code>, or <code>Place</code> objects, to which to calculate distance and time. Required.</div></td>
 </tr>
 <tr>
 <td><code><span>durationInTraffic</span></code></td>
@@ -33,8 +33,8 @@ object specification
 </tr>
 <tr>
 <td><code><span>origins</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|string&gt;</code></div>
-<div class="desc">An array containing origin address strings and/or <code>LatLng</code>s, from which to calculate distance and time. Required.</div></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a>&gt;</code></div>
+<div class="desc">An array containing origin address strings, or <code>LatLng</code>, or <code>Place</code> objects, from which to calculate distance and time. Required.</div></td>
 </tr>
 <tr>
 <td><code><span>region</span></code></td>

@@ -8,7 +8,7 @@ class
 <tbody>
 <tr>
 <td><code><span>DEFAULT</span></code></td>
-<td>Uses the default map type control. The control which DEFAULT maps to will vary according to window size and other factors. It may change in future versions of the API.</td>
+<td>Uses the default map type control. When the <code><span>DEFAULT</span></code> control is shown, it will vary according to window size and other factors. The <code><span>DEFAULT</span></code> control may change in future versions of the API.</td>
 </tr>
 <tr>
 <td><code><span>DROPDOWN_MENU</span></code></td>

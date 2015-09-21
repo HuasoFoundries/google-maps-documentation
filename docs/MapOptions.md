@@ -89,22 +89,22 @@ object specification
 <tr>
 <td><code><span>overviewMapControl</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">The enabled/disabled state of the Overview Map control.</div></td>
+<div class="desc">The enabled/disabled state of the Overview Map control. <p> Note: The Overview Map control is not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the Overview Map control available as part of the old control set. See <a href="/maps/articles/v322-controls-diff">What's New in the v3.22 Map Controls</a>.</p></div></td>
 </tr>
 <tr>
 <td><code><span>overviewMapControlOptions</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverviewMapControlOptions.md">OverviewMapControlOptions</a></code></div>
-<div class="desc">The display options for the Overview Map control.</div></td>
+<div class="desc">The display options for the Overview Map control. <p> Note: The Overview Map control is not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the Overview Map control available as part of the old control set. See <a href="/maps/articles/v322-controls-diff">What's New in the v3.22 Map Controls</a>.</p></div></td>
 </tr>
 <tr>
 <td><code><span>panControl</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">The enabled/disabled state of the Pan control.</div></td>
+<div class="desc">The enabled/disabled state of the Pan control. <p> Note: The Pan control is not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the Pan control available as part of the old control set. See <a href="/maps/articles/v322-controls-diff">What's New in the v3.22 Map Controls</a>.</p></div></td>
 </tr>
 <tr>
 <td><code><span>panControlOptions</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanControlOptions.md">PanControlOptions</a></code></div>
-<div class="desc">The display options for the Pan control.</div></td>
+<div class="desc">The display options for the Pan control. <p> Note: The Pan control is not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the Pan control available as part of the old control set. See <a href="/maps/articles/v322-controls-diff">What's New in the v3.22 Map Controls</a>.</p></div></td>
 </tr>
 <tr>
 <td><code><span>rotateControl</span></code></td>

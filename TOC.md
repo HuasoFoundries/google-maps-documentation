@@ -6,7 +6,6 @@ in sync, versioned copy of google.maps API v3 documentation
 
 ### Table Of Contents 
 
-* [ ](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/header.md)
 * [AdFormat](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdFormat.md)
 * [AdUnit](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdUnit.md)
 * [AdUnitOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdUnitOptions.md)
@@ -98,6 +97,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [HeatmapLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md)
 * [Icon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md)
 * [IconSequence](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconSequence.md)
+* [ImageMapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapType.md)
 * [ImageMapTypeOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapTypeOptions.md)
 * [InfoWindow](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindow.md)
 * [InfoWindowOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindowOptions.md)
@@ -231,4 +231,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Tuesday, September 01, 2015
+Last updated Sunday, September 20, 2015
