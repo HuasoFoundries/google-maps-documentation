@@ -44,7 +44,7 @@ class
 <div class="desc">Returns whether this rectangle is visible on the map.</div></td>
 </tr>
 <tr>
-<td><code><span>setBounds(<wbr>bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>)</span></code></td>
+<td><code><span>setBounds(<wbr>bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md"><span>LatLngBoundsLiteral</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the bounds of this rectangle.</div></td>
 </tr>

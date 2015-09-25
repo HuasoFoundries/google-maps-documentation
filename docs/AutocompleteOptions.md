@@ -8,7 +8,7 @@ object specification
 <tbody>
 <tr>
 <td><code><span>bounds</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></div>
 <div class="desc">The area in which to search for places. Results are biased towards, but not restricted to, places contained within these bounds.</div></td>
 </tr>
 <tr>

@@ -19,7 +19,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>fitBounds(<wbr>bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>)</span></code></td>
+<td><code><span>fitBounds(<wbr>bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md"><span>LatLngBoundsLiteral</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the viewport to contain the given bounds.</div></td>
 </tr>
@@ -79,7 +79,7 @@ class
 <div class="desc">Changes the center of the map to the given <code>LatLng</code>. If the change is less than both the width and height of the map, the transition will be smoothly animated.</div></td>
 </tr>
 <tr>
-<td><code><span>panToBounds(<wbr>latLngBounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>)</span></code></td>
+<td><code><span>panToBounds(<wbr>latLngBounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md"><span>LatLngBoundsLiteral</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Pans the map by the minimum amount necessary to contain the given <code>LatLngBounds</code>. It makes no guarantee where on the map the bounds will be, except that as much of the bounds as possible will be visible. The bounds will be positioned inside the area bounded by the map type and navigation (pan, zoom, and Street View) controls, if they are present on the map. If the bounds is larger than the map, the map will be shifted to include the northwest corner of the bounds. If the change in the map's position is less than both the width and height of the map, the transition will be smoothly animated.</div></td>
 </tr>

@@ -13,7 +13,7 @@ object specification
 </tr>
 <tr>
 <td><code><span>bounds</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></div>
 <div class="desc"><code>LatLngBounds</code> within which to search. Optional.</div></td>
 </tr>
 <tr>

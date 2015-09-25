@@ -110,6 +110,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [KmlMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlMouseEvent.md)
 * [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
 * [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
+* [LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
 * [LatLngLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md)
 * [LocationElevationRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LocationElevationRequest.md)
 * [MVCArray](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md)
@@ -231,4 +232,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Sunday, September 20, 2015
+Last updated Wednesday, September 23, 2015

@@ -29,7 +29,7 @@ class
 <div class="desc">Returns the details of the Place selected by user if the details were successfully&nbsp;retrieved. Otherwise returns a stub Place object, with the <code>name</code> property set to the current value of the input field.</div></td>
 </tr>
 <tr>
-<td><code><span>setBounds(<wbr>bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>)</span></code></td>
+<td><code><span>setBounds(<wbr>bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md"><span>LatLngBoundsLiteral</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the preferred area within which to return Place results. Results are biased towards, but not restricted to, this area.</div></td>
 </tr>
