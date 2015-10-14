@@ -12,7 +12,7 @@ class
 </tr>
 <tr>
 <td><code><span>OUTDOOR</span></code></td>
-<td>Limits Street View searches to outdoor collections only.</td>
+<td>Limits Street View searches to outdoor collections. Indoor collections are not included in search results. Note also that the search only returns panoramas where it's possible to determine whether they're indoors or outdoors. For example, PhotoSpheres are not returned because it's unknown whether they are indoors or outdoors.</td>
 </tr>
 </tbody>
 </table></div>
