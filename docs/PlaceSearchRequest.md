@@ -8,7 +8,7 @@ object specification
 <tbody>
 <tr>
 <td><code><span>bounds</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></div>
 <div class="desc">The bounds within which to search for Places. Both <code>location</code> and <code>radius</code> will be ignored if <code>bounds</code> is set.</div></td>
 </tr>
 <tr>
@@ -44,7 +44,7 @@ object specification
 <tr>
 <td><code><span>radius</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The distance from the given location within which to search for Places, in meters. The maximum allowed value is 50 000.</div></td>
+<div class="desc">The distance from the given location within which to search for Places, in meters. The maximum allowed value is 50 000.</div></td>
 </tr>
 <tr>
 <td><code><span>rankBy</span></code></td>

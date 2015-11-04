@@ -49,7 +49,7 @@ class
 <tr>
 <td><code><span>intersects(<wbr>other:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md"><span>LatLngBoundsLiteral</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Returns <code>true</code> if this bounds shares any points with this bounds.</div></td>
+<div class="desc">Returns <code>true</code> if this bounds shares any points with the other bounds.</div></td>
 </tr>
 <tr>
 <td><code><span>isEmpty()</span></code></td>
