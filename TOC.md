@@ -232,4 +232,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Thursday, October 22, 2015
+Last updated Wednesday, November 04, 2015
