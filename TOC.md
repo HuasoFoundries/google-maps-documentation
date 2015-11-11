@@ -65,6 +65,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [DrawingControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingControlOptions.md)
 * [DrawingManager](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManager.md)
 * [DrawingManagerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md)
+* [DrivingOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrivingOptions.md)
 * [Duration](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md)
 * [DynamicMapsEngineLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DynamicMapsEngineLayer.md)
 * [DynamicMapsEngineLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DynamicMapsEngineLayerOptions.md)
@@ -208,6 +209,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [TextSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TextSearchRequest.md)
 * [Time](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Time.md)
 * [TrafficLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayer.md)
+* [TrafficModel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficModel.md)
 * [TransitAgency](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitAgency.md)
 * [TransitDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitDetails.md)
 * [TransitFare](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitFare.md)
@@ -232,4 +234,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Wednesday, November 04, 2015
+Last updated Sunday, November 08, 2015

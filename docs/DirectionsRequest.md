@@ -27,9 +27,9 @@ object specification
 <div class="desc">Location of destination. This can be specified as either a string to be geocoded, or a <code>LatLng</code>, or a <code>Place</code>. Required.</div></td>
 </tr>
 <tr>
-<td><code><span>durationInTraffic</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Whether or not the API should use current traffic conditions when calculating the route and trip durations. Only available to Maps API for Work customers.</div></td>
+<td><code><span>drivingOptions</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrivingOptions.md">DrivingOptions</a></code></div>
+<div class="desc">Settings that apply only to requests where <code>travelMode</code> is <code>DRIVING</code>. This object will have no effect for other travel modes.</div></td>
 </tr>
 <tr>
 <td><code><span>optimizeWaypoints</span></code></td>

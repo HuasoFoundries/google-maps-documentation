@@ -17,6 +17,11 @@ object specification
 <div class="desc">The duration for this origin-destination pairing. This property may be undefined as the duration may be unknown.</div></td>
 </tr>
 <tr>
+<td><code><span>duration_in_traffic</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md">Duration</a></code></div>
+<div class="desc">The duration for this origin-destination pairing, taking into account the traffic conditions indicated by the <code>trafficModel</code> property. This property may be undefined as the duration may be unknown. Only available to Maps for Work customers when <code>drivingOptions</code> is defined when making the request.</div></td>
+</tr>
+<tr>
 <td><code><span>fare</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitFare.md">TransitFare</a></code></div>
 <div class="desc">The total fare for this origin-destination pairing. Only applicable to transit requests.</div></td>

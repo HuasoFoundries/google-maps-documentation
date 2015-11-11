@@ -89,7 +89,7 @@ object specification
 <tr>
 <td><code><span>url</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">URL of the official Google page for this place. This will be the establishment's Google+ page if the Google+ page exists, otherwise it will be the Google-owned page that contains the best available information about the place.</div></td>
+<div class="desc">URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the place.</div></td>
 </tr>
 <tr>
 <td><code><span>utc_offset</span></code></td>

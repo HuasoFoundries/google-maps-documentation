@@ -29,7 +29,7 @@ object specification
 <tr>
 <td><code><span>duration_in_traffic</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md">Duration</a></code></div>
-<div class="desc">The total duration of this leg, taking into account current traffic conditions. This property may be undefined as the duration may be unknown. Only available to Maps API for Work customers when <code>durationInTraffic</code> is set to <code>true</code> when making the request.</div></td>
+<div class="desc">The total duration of this leg, taking into account the traffic conditions indicated by the <code>trafficModel</code> property. This property may be undefined as the duration may be unknown. Only available to Maps for Work customers when <code>drivingOptions</code> is defined when making the request.</div></td>
 </tr>
 <tr>
 <td><code><span>end_address</span></code></td>
