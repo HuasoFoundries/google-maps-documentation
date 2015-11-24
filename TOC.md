@@ -6,9 +6,6 @@ in sync, versioned copy of google.maps API v3 documentation
 
 ### Table Of Contents 
 
-* [AdFormat](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdFormat.md)
-* [AdUnit](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdUnit.md)
-* [AdUnitOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AdUnitOptions.md)
 * [Animation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md)
 * [Attribution](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md)
 * [Autocomplete](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Autocomplete.md)
@@ -234,4 +231,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Sunday, November 08, 2015
+Last updated Tuesday, November 17, 2015
