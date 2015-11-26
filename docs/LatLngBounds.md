@@ -57,6 +57,11 @@ class
 <div class="desc">Returns if the bounds are empty.</div></td>
 </tr>
 <tr>
+<td><code><span>toJSON()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></div>
+<div class="desc">Converts to JSON representation. This function is intended to be used via <code>JSON.stringify</code>.</div></td>
+</tr>
+<tr>
 <td><code><span>toSpan()</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
 <div class="desc">Converts the given map bounds to a lat/lng span.</div></td>

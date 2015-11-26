@@ -49,7 +49,7 @@ object specification
 <tr>
 <td><code><span>rankBy</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RankBy.md">RankBy</a></code></div>
-<div class="desc">Specifies the ranking method to use when returning results.</div></td>
+<div class="desc">Specifies the ranking method to use when returning results. Defaults to <code>PROMINENCE</code>.</div></td>
 </tr>
 <tr>
 <td><code><span>types</span></code></td>

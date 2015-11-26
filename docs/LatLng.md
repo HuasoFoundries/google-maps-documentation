@@ -32,6 +32,11 @@ class
 <div class="desc">Returns the longitude in degrees.</div></td>
 </tr>
 <tr>
+<td><code><span>toJSON()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a></code></div>
+<div class="desc">Converts to JSON representation. This function is intended to be used via <code>JSON.stringify</code>.</div></td>
+</tr>
+<tr>
 <td><code><span>toString()</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
 <div class="desc">Converts to string representation.</div></td>
