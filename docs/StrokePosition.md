@@ -1,7 +1,7 @@
-<h2 id="StrokePosition"> StrokePosition object specification </h2><p>
+<h2 id="StrokePosition"> StrokePosition constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">StrokePosition</span></code>
-object specification
-</p><p>The possible positions of the stroke on a polygon.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="object StrokePosition - Constants">
+constants
+</p><p>The possible positions of the stroke on a polygon.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="StrokePosition constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

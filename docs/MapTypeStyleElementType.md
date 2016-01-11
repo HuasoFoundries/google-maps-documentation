@@ -1,7 +1,7 @@
 <h2 id="MapTypeStyleElementType"> MapTypeStyleElementType object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeStyleElementType</span></code>
 object specification
-</p><p>Each <code>MapTypeStyleElementType</code> distinguishes between the different representations of a feature.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="object MapTypeStyleElementType - Constants">
+</p><p>Each <code>MapTypeStyleElementType</code> distinguishes between the different representations of a feature.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="MapTypeStyleElementType constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

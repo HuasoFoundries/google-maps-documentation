@@ -1,7 +1,7 @@
-<h2 id="ZoomControlStyle"> ZoomControlStyle class </h2><p>
+<h2 id="ZoomControlStyle"> ZoomControlStyle constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">ZoomControlStyle</span></code>
-class
-</p><p>Styles for the zoom control. </p><p> Note: Zoom control styles are not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the large Zoom control available as part of the old control set. See <a href="/maps/articles/v322-controls-diff">What's New in the v3.22 Map Controls</a>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class ZoomControlStyle - Constants">
+constants
+</p><p>Styles for the zoom control. </p><p> Note: Zoom control styles are not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the large Zoom control available as part of the old control set. See <a href="/maps/articles/v322-controls-diff">What's New in the v3.22 Map Controls</a>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="ZoomControlStyle constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

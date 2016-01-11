@@ -1,7 +1,7 @@
-<h2 id="MapTypeId"> MapTypeId class </h2><p>
+<h2 id="MapTypeId"> MapTypeId constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeId</span></code>
-class
-</p><p>Identifiers for common MapTypes.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class MapTypeId - Constants">
+constants
+</p><p>Identifiers for common MapTypes.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="MapTypeId constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

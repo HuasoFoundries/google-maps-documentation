@@ -1,7 +1,7 @@
-<h2 id="TravelMode"> TravelMode class </h2><p>
+<h2 id="TravelMode"> TravelMode constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">TravelMode</span></code>
-class
-</p><p>The valid travel modes that can be specified in a <code>DirectionsRequest</code> as well as the travel modes returned in a <code>DirectionsStep</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class TravelMode - Constants">
+constants
+</p><p>The valid travel modes that can be specified in a <code>DirectionsRequest</code> as well as the travel modes returned in a <code>DirectionsStep</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="TravelMode constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

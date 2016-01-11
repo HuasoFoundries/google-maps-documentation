@@ -1,7 +1,7 @@
-<h2 id="MaxZoomStatus"> MaxZoomStatus class </h2><p>
+<h2 id="MaxZoomStatus"> MaxZoomStatus constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MaxZoomStatus</span></code>
-class
-</p><p>The status returned by the <code>MaxZoomService</code> on the completion of a call to <code>getMaxZoomAtLatLng()</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class MaxZoomStatus - Constants">
+constants
+</p><p>The status returned by the <code>MaxZoomService</code> on the completion of a call to <code>getMaxZoomAtLatLng()</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="MaxZoomStatus constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

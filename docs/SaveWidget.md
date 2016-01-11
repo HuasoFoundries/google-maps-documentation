@@ -1,7 +1,7 @@
 <h2 id="SaveWidget"> SaveWidget class </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">SaveWidget</span></code>
 class
-</p><p>A control that users can use to save a place to Google Maps from your website. In this context, 'place' means a business, point of interest or geographic location. The <code>SaveWidget</code> has a fixed height of 22px. </p><p>The <code>SaveWidget</code> is only available when <code>signed-in=true</code> has been passed as a URL parameter in the bootstrap request.</p><p></p><p>This class extends
+</p><p>A control that users can use to save a place to Google Maps from your website. In this context, 'place' means a business, point of interest or geographic location. The <code>SaveWidget</code> has a fixed height of 22px. </p><p>The <code>SaveWidget</code> is only available when <code>signed_in=true</code> has been passed as a URL parameter in the bootstrap request.</p><p></p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
 </p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class SaveWidget - Constructor">
 <thead>

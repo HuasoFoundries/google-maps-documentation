@@ -1,7 +1,7 @@
-<h2 id="OverlayType"> OverlayType class </h2><p>
+<h2 id="OverlayType"> OverlayType constants </h2><p>
 <code><span itemprop="path">google.maps.drawing</span>.<span itemprop="name">OverlayType</span></code>
-class
-</p><p>The types of overlay that may be created by the <code>DrawingManager</code>.</p><h4>Library</h4><p>drawing</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class OverlayType - Constants">
+constants
+</p><p>The types of overlay that may be created by the <code>DrawingManager</code>.</p><h4>Library</h4><p>drawing</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="OverlayType constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

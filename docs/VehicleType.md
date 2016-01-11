@@ -1,7 +1,7 @@
 <h2 id="VehicleType"> VehicleType object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">VehicleType</span></code>
 object specification
-</p><p>Possible values for vehicle types. These values are specifed as strings, i.e. 'BUS' or 'TRAIN'.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="object VehicleType - Constants">
+</p><p>Possible values for vehicle types. These values are specifed as strings, i.e. 'BUS' or 'TRAIN'.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="VehicleType constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

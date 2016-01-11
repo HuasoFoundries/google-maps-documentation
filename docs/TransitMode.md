@@ -1,7 +1,7 @@
-<h2 id="TransitMode"> TransitMode class </h2><p>
+<h2 id="TransitMode"> TransitMode constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">TransitMode</span></code>
-class
-</p><p>The valid transit mode e.g. bus that can be specified in a <i><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md">TransitOptions</a></code></i>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class TransitMode - Constants">
+constants
+</p><p>The valid transit mode e.g. bus that can be specified in a <i><code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md">TransitOptions</a></code></i>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="TransitMode constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

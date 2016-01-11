@@ -1,7 +1,7 @@
-<h2 id="ScaleControlStyle"> ScaleControlStyle class </h2><p>
+<h2 id="ScaleControlStyle"> ScaleControlStyle constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">ScaleControlStyle</span></code>
-class
-</p><p>Identifiers for scale control ids.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class ScaleControlStyle - Constants">
+constants
+</p><p>Identifiers for scale control ids.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="ScaleControlStyle constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

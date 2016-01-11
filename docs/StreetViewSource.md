@@ -1,7 +1,7 @@
-<h2 id="StreetViewSource"> StreetViewSource class </h2><p>
+<h2 id="StreetViewSource"> StreetViewSource constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewSource</span></code>
-class
-</p><p>Identifiers to limit Street View searches to selected sources.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class StreetViewSource - Constants">
+constants
+</p><p>Identifiers to limit Street View searches to selected sources.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="StreetViewSource constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

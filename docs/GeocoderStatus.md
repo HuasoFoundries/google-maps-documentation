@@ -1,7 +1,7 @@
-<h2 id="GeocoderStatus"> GeocoderStatus class </h2><p>
+<h2 id="GeocoderStatus"> GeocoderStatus constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderStatus</span></code>
-class
-</p><p>The status returned by the <code>Geocoder</code> on the completion of a call to <code>geocode()</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class GeocoderStatus - Constants">
+constants
+</p><p>The status returned by the <code>Geocoder</code> on the completion of a call to <code>geocode()</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="GeocoderStatus constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

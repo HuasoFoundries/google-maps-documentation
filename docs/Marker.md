@@ -174,7 +174,7 @@ class
 <div class="desc"></div></td>
 </tr>
 </tbody>
-</table></div><div class="devsite-table-wrapper"><table class="constants responsive" summary="class Marker - Constants">
+</table></div><div class="devsite-table-wrapper"><table class="constants responsive" summary="Marker constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

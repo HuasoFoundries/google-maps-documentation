@@ -1,7 +1,7 @@
-<h2 id="SymbolPath"> SymbolPath class </h2><p>
+<h2 id="SymbolPath"> SymbolPath constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">SymbolPath</span></code>
-class
-</p><p>Built-in symbol paths.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class SymbolPath - Constants">
+constants
+</p><p>Built-in symbol paths.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="SymbolPath constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

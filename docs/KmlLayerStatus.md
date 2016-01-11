@@ -1,7 +1,7 @@
-<h2 id="KmlLayerStatus"> KmlLayerStatus class </h2><p>
+<h2 id="KmlLayerStatus"> KmlLayerStatus constants </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">KmlLayerStatus</span></code>
-class
-</p><p>The status returned by <code>KmlLayer</code> on the completion of loading a document.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="class KmlLayerStatus - Constants">
+constants
+</p><p>The status returned by <code>KmlLayer</code> on the completion of loading a document.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="KmlLayerStatus constants">
 <thead>
 <tr><th colspan="2">Constant</th>
 </tr></thead>

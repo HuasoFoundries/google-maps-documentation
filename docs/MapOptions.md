@@ -132,6 +132,11 @@ object specification
 <div class="desc">If false, disables scrollwheel zooming on the map. The scrollwheel is enabled by default.</div></td>
 </tr>
 <tr>
+<td><code><span>signInControl</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">The enabled/disabled state of the sign in control. This option only applies if <code>signed_in=true</code> has been passed as a URL parameter in the bootstrap request. You may want to use this option to hide the map's sign in control if you have provided another way for your users to sign in, such as the <a href="https://developers.google.com/identity/sign-in/web/sign-in">Google Sign-In button</a>. This option does not affect the visibility of the Google avatar shown when the user is already signed in.</div></td>
+</tr>
+<tr>
 <td><code><span>streetView</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a></code></div>
 <div class="desc">A <code>StreetViewPanorama</code> to display when the Street View pegman is dropped on the map. If no panorama is specified, a default <code>StreetViewPanorama</code> will be displayed in the map's <code>div</code> when the pegman is dropped.</div></td>
