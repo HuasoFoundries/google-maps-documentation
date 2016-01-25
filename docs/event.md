@@ -39,7 +39,7 @@ namespace
 <tr>
 <td><code><span>removeListener(<wbr>listener:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md"><em><span>MapsEventListener</span></em></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Removes the given listener, which should have been returned by addListener above.</div></td>
+<div class="desc">Removes the given listener, which should have been returned by addListener above. Equivalent to calling <code>listener.remove()</code>.</div></td>
 </tr>
 <tr>
 <td><code><span>trigger(<wbr>instance:Object,<wbr> eventName:string,<wbr> var_args:*)</span></code></td>

@@ -37,6 +37,16 @@ object specification
 <div class="desc">If <code>true</code>, the close button is displayed. Disabled by default.</div></td>
 </tr>
 <tr>
+<td><code><span>fullscreenControl</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">The enabled/disabled state of the fullscreen control.</div></td>
+</tr>
+<tr>
+<td><code><span>fullscreenControlOptions</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FullscreenControlOptions.md">FullscreenControlOptions</a></code></div>
+<div class="desc">The display options for the fullscreen control.</div></td>
+</tr>
+<tr>
 <td><code><span>imageDateControl</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">The enabled/disabled state of the imagery acquisition date control. Disabled by default.</div></td>

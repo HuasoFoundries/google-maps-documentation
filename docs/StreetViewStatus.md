@@ -16,7 +16,7 @@ constants
 </tr>
 <tr>
 <td><code><span>ZERO_RESULTS</span></code></td>
-<td>There are no nearby panoramas.</td>
+<td>There are no panoramas found that match the search criteria.</td>
 </tr>
 </tbody>
 </table></div>

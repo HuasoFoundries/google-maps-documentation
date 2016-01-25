@@ -71,6 +71,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [ElevationService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationService.md)
 * [ElevationStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationStatus.md)
 * [FeatureStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FeatureStyle.md)
+* [FullscreenControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FullscreenControlOptions.md)
 * [FusionTablesCell](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesCell.md)
 * [FusionTablesHeatmap](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesHeatmap.md)
 * [FusionTablesLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayer.md)
@@ -231,4 +232,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Sunday, December 20, 2015
+Last updated Sunday, January 17, 2016

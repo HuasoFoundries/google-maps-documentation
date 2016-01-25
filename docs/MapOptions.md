@@ -42,6 +42,16 @@ object specification
 <div class="desc">The name or url of the cursor to display when the map is being dragged. This property uses the css <code>cursor</code> attribute to change the icon. As with the css property, you must specify at least one fallback cursor that is not a URL. For example: <code>draggingCursor: 'url(http://www.example.com/icon.png), auto;'</code>.</div></td>
 </tr>
 <tr>
+<td><code><span>fullscreenControl</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">The enabled/disabled state of the Fullscreen control.</div></td>
+</tr>
+<tr>
+<td><code><span>fullscreenControlOptions</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FullscreenControlOptions.md">FullscreenControlOptions</a></code></div>
+<div class="desc">The display options for the Fullscreen control.</div></td>
+</tr>
+<tr>
 <td><code><span>heading</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
 <div class="desc">The heading for aerial imagery in degrees measured clockwise from cardinal direction North. Headings are snapped to the nearest available angle for which imagery is available.</div></td>
