@@ -23,7 +23,7 @@ object specification
 </tr>
 <tr>
 <td><code><span>destination</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a></code></div>
 <div class="desc">Location of destination. This can be specified as either a string to be geocoded, or a <code>LatLng</code>, or a <code>Place</code>. Required.</div></td>
 </tr>
 <tr>
@@ -38,7 +38,7 @@ object specification
 </tr>
 <tr>
 <td><code><span>origin</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a></code></div>
 <div class="desc">Location of origin. This can be specified as either a string to be geocoded, or a <code>LatLng</code>, or a <code>Place</code>. Required.</div></td>
 </tr>
 <tr>

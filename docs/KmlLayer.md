@@ -54,6 +54,11 @@ class
 <div class="desc">Renders the KML Layer on the specified map. If map is set to null, the layer is removed.</div></td>
 </tr>
 <tr>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerOptions.md"><em><span>KmlLayerOptions</span></em></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc"></div></td>
+</tr>
+<tr>
 <td><code><span>setUrl(<wbr>url:string)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the URL of the KML file to display.</div></td>

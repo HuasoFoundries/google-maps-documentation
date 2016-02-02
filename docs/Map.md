@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Map(<wbr>mapDiv:Node,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md"><em><span>MapOptions</span></em></a><span>)</span></code></td>
+<td><code><span>Map(<wbr>mapDiv:Element,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapOptions.md"><span>MapOptions</span></a><span>)</span></code></td>
 <td>Creates a new map inside of the given HTML container, which is typically a <code><span>DIV</span></code> element.</td>
 </tr>
 </tbody>
@@ -35,7 +35,7 @@ class
 </tr>
 <tr>
 <td><code><span>getDiv()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>Node</code></div>
+<td><div><strong>Return Value:</strong>&nbsp; <code>Element</code></div>
 <div class="desc"></div></td>
 </tr>
 <tr>
