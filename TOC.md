@@ -64,13 +64,9 @@ in sync, versioned copy of google.maps API v3 documentation
 * [DrawingManagerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md)
 * [DrivingOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrivingOptions.md)
 * [Duration](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Duration.md)
-* [DynamicMapsEngineLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DynamicMapsEngineLayer.md)
-* [DynamicMapsEngineLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DynamicMapsEngineLayerOptions.md)
-* [DynamicMapsEngineMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DynamicMapsEngineMouseEvent.md)
 * [ElevationResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationResult.md)
 * [ElevationService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationService.md)
 * [ElevationStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ElevationStatus.md)
-* [FeatureStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FeatureStyle.md)
 * [FullscreenControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FullscreenControlOptions.md)
 * [FusionTablesCell](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesCell.md)
 * [FusionTablesHeatmap](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesHeatmap.md)
@@ -127,11 +123,6 @@ in sync, versioned copy of google.maps API v3 documentation
 * [MapTypeStyleElementType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyleElementType.md)
 * [MapTypeStyleFeatureType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyleFeatureType.md)
 * [MapTypeStyler](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyler.md)
-* [MapsEngineLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineLayer.md)
-* [MapsEngineLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineLayerOptions.md)
-* [MapsEngineLayerProperties](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineLayerProperties.md)
-* [MapsEngineMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineMouseEvent.md)
-* [MapsEngineStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEngineStatus.md)
 * [MapsEventListener](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md)
 * [Marker](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Marker.md)
 * [MarkerLabel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md)
@@ -232,4 +223,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Wednesday, January 27, 2016
+Last updated Saturday, January 30, 2016
