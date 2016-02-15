@@ -9,7 +9,7 @@ object specification
 <tr>
 <td><code><span>position</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ControlPosition.md">ControlPosition</a></code></div>
-<div class="desc">Position id. Used to specify the position of the control on the map. The default position is <code>TOP_RIGHT</code>.</div></td>
+<div class="desc">Position id. Used to specify the position of the control on the map. The default position is <code>RIGHT_TOP</code>.</div></td>
 </tr>
 </tbody>
 </table></div>

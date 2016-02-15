@@ -54,7 +54,7 @@ object specification
 <tr>
 <td><code><span>type</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">Searches for places of the given type. The type is translated to the local language of the request's target location and used as a query string. If a query is also provided, it is concatenated to the localized type string. Results of a different type are dropped from the response. Use this field to perform language and region independent categorical searches. Valid types are given <a href="/maps/documentation/places/supported_types">here</a>.</div></td>
+<div class="desc">Searches for places of the given type. The type is translated to the local language of the request's target location and used as a query string. If a query is also provided, it is concatenated to the localized type string. Results of a different type are dropped from the response. Use this field to perform language and region independent categorical searches. Valid types are given <a href="https://developers.google.com/maps/documentation/places/supported_types">here</a>.</div></td>
 </tr>
 </tbody>
 </table></div>

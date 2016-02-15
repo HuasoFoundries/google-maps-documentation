@@ -29,7 +29,7 @@ object specification
 <tr>
 <td><code><span>place_id</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The place ID associated with the location. Place IDs uniquely identify a place in the Google Places database and on Google Maps. Learn more about <a href="/places/place-id">Place IDs</a> in the Places API developer guide.</div></td>
+<div class="desc">The place ID associated with the location. Place IDs uniquely identify a place in the Google Places database and on Google Maps. Learn more about <a href="https://developers.google.com/places/place-id">Place IDs</a> in the Places API developer guide.</div></td>
 </tr>
 <tr>
 <td><code><span>postcode_localities</span></code></td>
@@ -39,7 +39,7 @@ object specification
 <tr>
 <td><code><span>types</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
-<div class="desc">An array of strings denoting the type of the returned geocoded element. For a list of possible strings, refer to the <a href="/maps/documentation/javascript/geocoding#GeocodingAddressTypes"> Address Component Types</a> section of the Developer's Guide.</div></td>
+<div class="desc">An array of strings denoting the type of the returned geocoded element. For a list of possible strings, refer to the <a href="https://developers.google.com/maps/documentation/javascript/geocoding#GeocodingAddressTypes"> Address Component Types</a> section of the Developer's Guide.</div></td>
 </tr>
 </tbody>
 </table></div>

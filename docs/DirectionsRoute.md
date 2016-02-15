@@ -34,7 +34,7 @@ object specification
 <tr>
 <td><code><span>overview_polyline</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">An <a href="/maps/documentation/utilities/polylinealgorithm">encoded polyline representation</a> of the route in overview_path. This polyline is an approximate (smoothed) path of the resulting directions.</div></td>
+<div class="desc">An <a href="https://developers.google.com/maps/documentation/utilities/polylinealgorithm">encoded polyline representation</a> of the route in overview_path. This polyline is an approximate (smoothed) path of the resulting directions.</div></td>
 </tr>
 <tr>
 <td><code><span>warnings</span></code></td>

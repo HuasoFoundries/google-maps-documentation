@@ -19,7 +19,7 @@ object specification
 <tr>
 <td><code><span>types</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
-<div class="desc">An array of strings denoting the type of this address component. A list of valid types can be found <a href="/maps/documentation/geocoding/#Types">here</a></div></td>
+<div class="desc">An array of strings denoting the type of this address component. A list of valid types can be found <a href="https://developers.google.com/maps/documentation/geocoding/#Types">here</a></div></td>
 </tr>
 </tbody>
 </table></div>
