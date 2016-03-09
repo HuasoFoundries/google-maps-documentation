@@ -136,7 +136,6 @@ in sync, versioned copy of google.maps API v3 documentation
 * [OverlayCompleteEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayCompleteEvent.md)
 * [OverlayType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md)
 * [OverlayView](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayView.md)
-* [OverviewMapControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverviewMapControlOptions.md)
 * [PanControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanControlOptions.md)
 * [PathElevationRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PathElevationRequest.md)
 * [PhotoOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PhotoOptions.md)
@@ -214,7 +213,6 @@ in sync, versioned copy of google.maps API v3 documentation
 * [VehicleType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/VehicleType.md)
 * [WeightedLocation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md)
 * [ZoomControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ZoomControlOptions.md)
-* [ZoomControlStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ZoomControlStyle.md)
 * [encoding](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/encoding.md)
 * [event](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/event.md)
 * [poly](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/poly.md)
@@ -223,4 +221,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Sunday, February 14, 2016
+Last updated Tuesday, March 01, 2016
