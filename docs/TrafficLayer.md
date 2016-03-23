@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>TrafficLayer()</span></code></td>
+<td><code><span>TrafficLayer(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md"><em><span>TrafficLayerOptions</span></em></a><span>)</span></code></td>
 <td>A layer that displays current road traffic.</td>
 </tr>
 </tbody>
@@ -27,6 +27,11 @@ class
 <td><code><span>setMap(<wbr>map:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md"><span>Map</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Renders the layer on the specified map. If map is set to null, the layer will be removed.</div></td>
+</tr>
+<tr>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md"><em><span>TrafficLayerOptions</span></em></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc"></div></td>
 </tr>
 </tbody>
 </table></div>

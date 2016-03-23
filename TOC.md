@@ -197,6 +197,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [TextSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TextSearchRequest.md)
 * [Time](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Time.md)
 * [TrafficLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayer.md)
+* [TrafficLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md)
 * [TrafficModel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficModel.md)
 * [TransitAgency](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitAgency.md)
 * [TransitDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitDetails.md)
@@ -221,4 +222,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Tuesday, March 01, 2016
+Last updated Thursday, March 17, 2016
