@@ -17,6 +17,11 @@ object specification
 <div class="desc">The initial Map center. Required.</div></td>
 </tr>
 <tr>
+<td><code><span>clickableIcons</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">When <code>false</code>, map icons are not clickable. A map icon represents a point of interest, also known as a POI. By default map icons are clickable.</div></td>
+</tr>
+<tr>
 <td><code><span>disableDefaultUI</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">Enables/disables all default UI. May be overridden individually.</div></td>

@@ -34,6 +34,11 @@ class
 <div class="desc">Returns the position displayed at the center of the map. Note that this <code>LatLng</code> object is <em>not</em> wrapped. See <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code> for more information.</div></td>
 </tr>
 <tr>
+<td><code><span>getClickableIcons()</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">Returns the clickability of the map icons. A map icon represents a point of interest, also known as a POI. If the returned value is true, then the icons are clickable on the map.</div></td>
+</tr>
+<tr>
 <td><code><span>getDiv()</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>Element</code></div>
 <div class="desc"></div></td>
@@ -87,6 +92,11 @@ class
 <td><code><span>setCenter(<wbr>latlng:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md"><span>LatLngLiteral</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc"></div></td>
+</tr>
+<tr>
+<td><code><span>setClickableIcons(<wbr>value:boolean)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc">Controls whether the map icons are clickable or not. A map icon represents a point of interest, also known as a POI. To disable the clickability of map icons, pass a value of <code>false</code> to this method.</div></td>
 </tr>
 <tr>
 <td><code><span>setHeading(<wbr>heading:number)</span></code></td>
