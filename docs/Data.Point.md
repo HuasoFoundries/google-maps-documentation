@@ -19,6 +19,11 @@ class
 </tr></thead>
 <tbody>
 <tr>
+<td><code><span>forEachLatLng(<wbr>callback:function(<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>))</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc"></div></td>
+</tr>
+<tr>
 <td><code><span>get()</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a></code></div>
 <div class="desc">Returns the contained <code>LatLng</code>.</div></td>
