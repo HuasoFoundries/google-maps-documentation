@@ -89,12 +89,12 @@ object specification
 <tr>
 <td><code><span>maxZoom</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The maximum zoom level which will be displayed on the map. If omitted, or set to null, the maximum zoom from the current map type is used instead.</div></td>
+<div class="desc">The maximum zoom level which will be displayed on the map. If omitted, or set to null, the maximum zoom from the current map type is used instead. Valid values: Integers between zero, and up to the supported <a href="https://developers.google.com/maps/documentation/javascript/maxzoom">maximum zoom level</a>.</div></td>
 </tr>
 <tr>
 <td><code><span>minZoom</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The minimum zoom level which will be displayed on the map. If omitted, or set to null, the minimum zoom from the current map type is used instead.</div></td>
+<div class="desc">The minimum zoom level which will be displayed on the map. If omitted, or set to null, the minimum zoom from the current map type is used instead. Valid values: Integers between zero, and up to the supported <a href="https://developers.google.com/maps/documentation/javascript/maxzoom">maximum zoom level</a>.</div></td>
 </tr>
 <tr>
 <td><code><span>noClear</span></code></td>
@@ -169,7 +169,7 @@ object specification
 <tr>
 <td><code><span>zoom</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The initial Map zoom level. Required.</div></td>
+<div class="desc">The initial Map zoom level. Required. Valid values: Integers between zero, and up to the supported <a href="https://developers.google.com/maps/documentation/javascript/maxzoom">maximum zoom level</a>.</div></td>
 </tr>
 <tr>
 <td><code><span>zoomControl</span></code></td>
