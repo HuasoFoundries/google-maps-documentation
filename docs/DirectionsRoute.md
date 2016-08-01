@@ -24,7 +24,7 @@ object specification
 <tr>
 <td><code><span>legs</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsLeg.md">DirectionsLeg</a>&gt;</code></div>
-<div class="desc">An array of <code>DirectionsLeg</code>s, each of which contains information about the steps of which it is composed. There will be one leg for each waypoint or destination specified. So a route with no waypoints will contain one <code>DirectionsLeg</code> and a route with one waypoint will contain two.</div></td>
+<div class="desc">An array of <code>DirectionsLeg</code>s, each of which contains information about the steps of which it is composed. There will be one leg for each stopover waypoint or destination specified. So a route with no stopover waypoints will contain one <code>DirectionsLeg</code> and a route with one stopover waypoint will contain two.</div></td>
 </tr>
 <tr>
 <td><code><span>overview_path</span></code></td>
