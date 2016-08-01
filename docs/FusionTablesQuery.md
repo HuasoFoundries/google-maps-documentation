@@ -29,7 +29,7 @@ object specification
 <tr>
 <td><code><span>select</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">A column, containing geographic features to be displayed on the map. See <a href="https://developers.google.com/maps/documentation/javascript/layers#FusionTablesSetup"> Fusion Tables Setup</a> in the Maps API documentation for information about valid columns.</div></td>
+<div class="desc">A column, containing geographic features to be displayed on the map. See <a href="https://developers.google.com/maps/documentation/javascript/fusiontableslayer#fusion_table_setup"> Fusion Tables Setup</a> in the Maps API documentation for information about valid columns.</div></td>
 </tr>
 <tr>
 <td><code><span>where</span></code></td>
