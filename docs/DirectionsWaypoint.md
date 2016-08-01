@@ -14,7 +14,7 @@ object specification
 <tr>
 <td><code><span>stopover</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">If <code>true</code>, indicates that this waypoint is a stop between the origin and destination. This has the effect of splitting the route into two. This value is <code>true</code> by default. Optional.</div></td>
+<div class="desc">If <code>true</code>, indicates that this waypoint is a stop between the origin and destination. This has the effect of splitting the route into two legs. If <code>false</code>, indicates that the route should be biased to go through this waypoint, but not split into two legs. This is useful if you want to create a route in response to the user dragging waypoints on a map. This value is <code>true</code> by default. Optional.</div></td>
 </tr>
 </tbody>
 </table></div>
