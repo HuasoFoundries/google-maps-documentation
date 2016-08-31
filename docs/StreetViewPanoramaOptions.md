@@ -102,6 +102,11 @@ object specification
 <div class="desc">If false, disables scrollwheel zooming in Street View. The scrollwheel is enabled by default.</div></td>
 </tr>
 <tr>
+<td><code><span>showRoadLabels</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<div class="desc">The display of street names on the panorama. If this value is not specified, or is set to <code>true</code>, street names are displayed on the panorama. If set to <code>false</code>, street names are not displayed.</div></td>
+</tr>
+<tr>
 <td><code><span>visible</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">If <code>true</code>, the Street View panorama is visible on load.</div></td>

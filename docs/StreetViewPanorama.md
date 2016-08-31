@@ -131,19 +131,9 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>clicktogo_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the panorama's clickToGo is enabled or disabled.</div></td>
-</tr>
-<tr>
 <td><code><span>closeclick</span></code></td>
 <td><div><strong>Arguments:</strong>&nbsp; <code>Event</code></div>
 <div class="desc">This event is fired when the close button is clicked.</div></td>
-</tr>
-<tr>
-<td><code><span>links_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the panorama's links change. The links change asynchronously following a pano id change.</div></td>
 </tr>
 <tr>
 <td><code><span>pano_changed</span></code></td>
@@ -164,11 +154,6 @@ class
 <td><code><span>resize</span></code></td>
 <td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Developers should trigger this event on the panorama when its div changes size: <code> <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/event.md">google.maps.event.trigger</a>(panorama, 'resize')</code>.</div></td>
-</tr>
-<tr>
-<td><code><span>scrollwheel_changed</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when the panorama's scrollWheel is enabled or disabled.</div></td>
 </tr>
 <tr>
 <td><code><span>status_changed</span></code></td>
