@@ -59,7 +59,7 @@ object specification
 <tr>
 <td><code><span>via_waypoints</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>&gt;</code></div>
-<div class="desc">An array of waypoints along this leg that were not specified in the original request, either as a result of a user dragging the polyline or selecting an alternate route.</div></td>
+<div class="desc">An array of non-stopover waypoints along this leg, which were specified in the original request. <p> <strong>Deprecated in alternative routes</strong>. Version 3.27 will be the last version of the API that adds extra <code>via_waypoints</code> in alternative routes. </p><p> When using the Directions Service to implement draggable directions, it is recommended to disable dragging of alternative routes. Only the main route should be draggable. Users can drag the main route until it matches an alternative route.</p></div></td>
 </tr>
 </tbody>
 </table></div>

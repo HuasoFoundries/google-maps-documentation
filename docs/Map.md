@@ -172,8 +172,8 @@ class
 </tr>
 <tr>
 <td><code><span>click</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
-<div class="desc">This event is fired when the user clicks on the map (but not when they click on a marker or infowindow).</div></td>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md">MouseEvent</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconMouseEvent.md">IconMouseEvent</a></code></div>
+<div class="desc">This event is fired when the user clicks on the map (but not when they click on a marker or infowindow). IconMouseEvent and ApiMouseEvent are identical except IconMouseEvent has a placeid. When this even is used and the placeid is set, the user clicked on a place. If it is not set the fields of ApiMouseEvent and IconMouseEvent are identical.</div></td>
 </tr>
 <tr>
 <td><code><span>dblclick</span></code></td>

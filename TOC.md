@@ -91,6 +91,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [HeatmapLayer](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayer.md)
 * [HeatmapLayerOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md)
 * [Icon](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Icon.md)
+* [IconMouseEvent](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconMouseEvent.md)
 * [IconSequence](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/IconSequence.md)
 * [ImageMapType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapType.md)
 * [ImageMapTypeOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapTypeOptions.md)
@@ -220,4 +221,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Tuesday, August 30, 2016
+Last updated Tuesday, September 06, 2016

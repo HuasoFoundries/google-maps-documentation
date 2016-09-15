@@ -27,11 +27,6 @@ class
 <div class="desc">Binds a View to a Model.</div></td>
 </tr>
 <tr>
-<td><code><span>changed(<wbr>key:string)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Generic handler for state changes. Override this in derived classes to handle arbitrary state changes.</div></td>
-</tr>
-<tr>
 <td><code><span>get(<wbr>key:string)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>*</code></div>
 <div class="desc">Gets a value.</div></td>

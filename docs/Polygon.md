@@ -1,7 +1,7 @@
 <h2 id="Polygon"> Polygon class </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Polygon</span></code>
 class
-</p><p>A polygon (like a polyline) defines a series of connected coordinates in an ordered sequence; additionally, polygons form a closed loop and define a filled region.</p><p>This class extends
+</p><p>A polygon (like a polyline) defines a series of connected coordinates in an ordered sequence. Additionally, polygons form a closed loop and define a filled region. See the samples in the developer's guide, starting with a <a href="https://developers.google.com/maps/documentation/javascript/examples/polygon-simple">simple polygon</a>, a <a href="https://developers.google.com/maps/documentation/javascript/examples/polygon-hole">polygon with a hole</a>, and more. Note that you can also use the <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Polygon.md">Data layer</a> to create a polygon. The Data layer offers a simpler way of creating holes because it handles the order of the inner and outer paths for you.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
 </p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Polygon - Constructor">
 <thead>
