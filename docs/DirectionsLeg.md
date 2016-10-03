@@ -1,7 +1,7 @@
 <h2 id="DirectionsLeg"> DirectionsLeg object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsLeg</span></code>
 object specification
-</p><p>A single leg consisting of a set of steps in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md">DirectionsResult</a></code>. Some fields in the leg may not be returned for all requests. Note that though this result is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsLeg - Properties">
+</p><p>A single leg consisting of a set of steps in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md">DirectionsResult</a></code>. Some fields in the leg may not be returned for all requests. Note that though this result is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DirectionsLeg - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

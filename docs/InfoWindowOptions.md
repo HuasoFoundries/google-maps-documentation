@@ -1,7 +1,7 @@
 <h2 id="InfoWindowOptions"> InfoWindowOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">InfoWindowOptions</span></code>
 object specification
-</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface InfoWindowOptions - Properties">
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record InfoWindowOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

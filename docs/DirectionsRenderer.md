@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>DirectionsRenderer(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md"><em><span>DirectionsRendererOptions</span></em></a><span>)</span></code></td>
+<td><code><span>DirectionsRenderer(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md"><span>DirectionsRendererOptions</span></a><span>)</span></code></td>
 <td>Creates the renderer with the given options. Directions can be rendered on a map (as visual overlays) or additionally on a <code><span>&lt;div&gt;</span></code> panel (as textual instructions).</td>
 </tr>
 </tbody>

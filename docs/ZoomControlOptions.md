@@ -1,7 +1,7 @@
 <h2 id="ZoomControlOptions"> ZoomControlOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">ZoomControlOptions</span></code>
 object specification
-</p><p>Options for the rendering of the zoom control.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface ZoomControlOptions - Properties">
+</p><p>Options for the rendering of the zoom control.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record ZoomControlOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

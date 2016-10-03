@@ -1,7 +1,7 @@
 <h2 id="ComponentRestrictions"> ComponentRestrictions object specification </h2><p>
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">ComponentRestrictions</span></code>
 object specification
-</p><p>Defines the component restrictions that can be used with the autocomplete service.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface ComponentRestrictions - Properties">
+</p><p>Defines the component restrictions that can be used with the autocomplete service.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record ComponentRestrictions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

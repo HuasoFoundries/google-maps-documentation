@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>StreetViewPanorama(<wbr>container:Element,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md"><em><span>StreetViewPanoramaOptions</span></em></a><span>)</span></code></td>
+<td><code><span>StreetViewPanorama(<wbr>container:Element,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md"><span>StreetViewPanoramaOptions</span></a><span>)</span></code></td>
 <td>Creates a panorama with the passed <code><span>StreetViewPanoramaOptions</span></code>.</td>
 </tr>
 </tbody>

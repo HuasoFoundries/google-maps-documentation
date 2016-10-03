@@ -1,7 +1,7 @@
 <h2 id="MarkerLabel"> MarkerLabel object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MarkerLabel</span></code>
 object specification
-</p><p>These options specify the appearance of a marker label. A marker label is a single character of text which will appear inside the marker. If you are using it with a custom marker, you can reposition it with the <code>labelOrigin</code> property in the <code>Icon</code> class.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface MarkerLabel - Properties">
+</p><p>These options specify the appearance of a marker label. A marker label is a single character of text which will appear inside the marker. If you are using it with a custom marker, you can reposition it with the <code>labelOrigin</code> property in the <code>Icon</code> class.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record MarkerLabel - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

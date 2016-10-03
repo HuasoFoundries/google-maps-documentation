@@ -1,7 +1,7 @@
 <h2 id="LatLngBoundsLiteral"> LatLngBoundsLiteral object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">LatLngBoundsLiteral</span></code>
 object specification
-</p><p>Object literals are accepted in place of <code>LatLngBounds</code> objects throughout the API. These are automatically converted to <code>LatLngBounds</code> objects. All <code>south</code>, <code>west</code>, <code>north</code> and <code>east</code> must be set, otherwise an exception is thrown.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface LatLngBoundsLiteral - Properties">
+</p><p>Object literals are accepted in place of <code>LatLngBounds</code> objects throughout the API. These are automatically converted to <code>LatLngBounds</code> objects. All <code>south</code>, <code>west</code>, <code>north</code> and <code>east</code> must be set, otherwise an exception is thrown.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record LatLngBoundsLiteral - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

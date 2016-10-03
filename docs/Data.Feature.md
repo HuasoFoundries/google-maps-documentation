@@ -28,7 +28,7 @@ class
 </tr>
 <tr>
 <td><code><span>getId()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>number|string|undefined</code></div>
+<td><div><strong>Return Value:</strong>&nbsp; <code>number|string</code></div>
 <div class="desc">Returns the feature ID.</div></td>
 </tr>
 <tr>

@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>HeatmapLayer(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md"><em><span>HeatmapLayerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>HeatmapLayer(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md"><span>HeatmapLayerOptions</span></a><span>)</span></code></td>
 <td>Creates a new instance of <code><span>HeatmapLayer</span></code>.</td>
 </tr>
 </tbody>

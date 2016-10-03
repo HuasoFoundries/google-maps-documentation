@@ -1,7 +1,7 @@
 <h2 id="DirectionsWaypoint"> DirectionsWaypoint object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsWaypoint</span></code>
 object specification
-</p><p>A <code>DirectionsWaypoint</code> represents a location between origin and destination through which the trip should be routed.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsWaypoint - Properties">
+</p><p>A <code>DirectionsWaypoint</code> represents a location between origin and destination through which the trip should be routed.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DirectionsWaypoint - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

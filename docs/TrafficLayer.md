@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>TrafficLayer(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md"><em><span>TrafficLayerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>TrafficLayer(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md"><span>TrafficLayerOptions</span></a><span>)</span></code></td>
 <td>A layer that displays current road traffic.</td>
 </tr>
 </tbody>

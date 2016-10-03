@@ -19,7 +19,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>add(<wbr>feature:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md"><span>Data.<wbr>Feature</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.FeatureOptions.md"><span>Data.<wbr>FeatureOptions</span></a><span>)</span></code></td>
+<td><code><span>add(<wbr>feature?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md"><span>Data.<wbr>Feature</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.FeatureOptions.md"><span>Data.<wbr>FeatureOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md">Data.Feature</a></code></div>
 <div class="desc">Adds a feature to the collection, and returns the added feature. <p> If the feature has an ID, it will replace any existing feature in the collection with the same ID. If no feature is given, a new feature will be created with null geometry and no properties. If <code>FeatureOptions</code> are given, a new feature will be created with the specified properties. </p><p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Adding a feature with ID <code>1234</code> will replace a feature with ID <code>'1234'</code>, and vice versa.</p></div></td>
 </tr>
@@ -55,7 +55,7 @@ class
 </tr>
 <tr>
 <td><code><span>getFeatureById(<wbr>id:number|<wbr>string)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md">Data.Feature</a>|undefined</code></div>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md">Data.Feature</a></code></div>
 <div class="desc">Returns the feature with the given ID, if it exists in the collection. Otherwise returns <code>undefined</code>. <p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Either can be used to look up the same feature.</p></div></td>
 </tr>
 <tr>

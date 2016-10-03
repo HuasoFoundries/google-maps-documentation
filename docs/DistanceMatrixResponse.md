@@ -1,7 +1,7 @@
 <h2 id="DistanceMatrixResponse"> DistanceMatrixResponse object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixResponse</span></code>
 object specification
-</p><p>The response to a <code>DistanceMatrixService</code> request, consisting of the formatted origin and destination addresses, and a sequence of <code>DistanceMatrixResponseRow</code>s, one for each corresponding origin address.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DistanceMatrixResponse - Properties">
+</p><p>The response to a <code>DistanceMatrixService</code> request, consisting of the formatted origin and destination addresses, and a sequence of <code>DistanceMatrixResponseRow</code>s, one for each corresponding origin address.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DistanceMatrixResponse - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

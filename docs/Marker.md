@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Marker(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md"><em><span>MarkerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>Marker(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerOptions.md"><span>MarkerOptions</span></a><span>)</span></code></td>
 <td>Creates a marker with the options specified. If a map is specified, the marker is added to the map upon construction. Note that the position must be set for the marker to display.</td>
 </tr>
 </tbody>

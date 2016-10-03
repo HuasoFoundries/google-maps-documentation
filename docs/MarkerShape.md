@@ -1,7 +1,7 @@
 <h2 id="MarkerShape"> MarkerShape object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MarkerShape</span></code>
 object specification
-</p><p>This object defines the clickable region of a marker image for browsers other than Internet Explorer. The shape consists of two properties - <code>type</code> and <code>coord</code> - which define the non-transparent region of an image. A <code>MarkerShape</code> object is not required on Internet Explorer since the browser does not fire events on the transparent region of an image by default.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface MarkerShape - Properties">
+</p><p>This object defines the clickable region of a marker image for browsers other than Internet Explorer. The shape consists of two properties - <code>type</code> and <code>coord</code> - which define the non-transparent region of an image. A <code>MarkerShape</code> object is not required on Internet Explorer since the browser does not fire events on the transparent region of an image by default.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record MarkerShape - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

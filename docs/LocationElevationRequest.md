@@ -1,7 +1,7 @@
 <h2 id="LocationElevationRequest"> LocationElevationRequest object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">LocationElevationRequest</span></code>
 object specification
-</p><p>An elevation request sent by the <code>ElevationService</code> containing the list of discrete coordinates (<code>LatLng</code>s) for which to return elevation data.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface LocationElevationRequest - Properties">
+</p><p>An elevation request sent by the <code>ElevationService</code> containing the list of discrete coordinates (<code>LatLng</code>s) for which to return elevation data.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record LocationElevationRequest - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

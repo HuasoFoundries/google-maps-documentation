@@ -1,7 +1,7 @@
 <h2 id="MaxZoomResult"> MaxZoomResult object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MaxZoomResult</span></code>
 object specification
-</p><p>A MaxZoom result in JSON format retrieved from the MaxZoomService.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface MaxZoomResult - Properties">
+</p><p>A MaxZoom result in JSON format retrieved from the MaxZoomService.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record MaxZoomResult - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

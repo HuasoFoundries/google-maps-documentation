@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>KmlLayer(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerOptions.md"><em><span>KmlLayerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>KmlLayer(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerOptions.md"><span>KmlLayerOptions</span></a><span>)</span></code></td>
 <td>Creates a <code><span>KmlLayer</span></code> which renders the contents of the specified KML/KMZ file (<a href="https://developers.google.com/kml/documentation/kmlreference">https://developers.google.com/kml/documentation/kmlreference</a>) or GeoRSS file (<a href="http://www.georss.org">http://www.georss.org</a>).</td>
 </tr>
 </tbody>

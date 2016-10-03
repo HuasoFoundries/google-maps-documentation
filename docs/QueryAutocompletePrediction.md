@@ -1,7 +1,7 @@
 <h2 id="QueryAutocompletePrediction"> QueryAutocompletePrediction object specification </h2><p>
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">QueryAutocompletePrediction</span></code>
 object specification
-</p><p>Represents a single Query Autocomplete prediction.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface QueryAutocompletePrediction - Properties">
+</p><p>Represents a single Query Autocomplete prediction.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record QueryAutocompletePrediction - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

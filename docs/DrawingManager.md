@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>DrawingManager(<wbr>options?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md"><em><span>DrawingManagerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>DrawingManager(<wbr>options?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md"><span>DrawingManagerOptions</span></a><span>)</span></code></td>
 <td>Creates a <code><span>DrawingManager</span></code> that allows users to draw overlays on the map, and switch between the type of overlay to be drawn with a drawing control.</td>
 </tr>
 </tbody>

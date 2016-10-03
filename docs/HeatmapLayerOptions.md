@@ -1,7 +1,7 @@
 <h2 id="HeatmapLayerOptions"> HeatmapLayerOptions object specification </h2><p>
 <code><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">HeatmapLayerOptions</span></code>
 object specification
-</p><p>This object defines the properties that can be set on a <code>HeatmapLayer</code> object.</p><h4>Library</h4><p>visualization</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface HeatmapLayerOptions - Properties">
+</p><p>This object defines the properties that can be set on a <code>HeatmapLayer</code> object.</p><h4>Library</h4><p>visualization</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record HeatmapLayerOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

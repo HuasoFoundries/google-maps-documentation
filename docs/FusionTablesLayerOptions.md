@@ -1,7 +1,7 @@
 <h2 id="FusionTablesLayerOptions"> FusionTablesLayerOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">FusionTablesLayerOptions</span></code>
 object specification
-</p><p>This object defines the properties that can be set on a <code>FusionTablesLayer</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface FusionTablesLayerOptions - Properties">
+</p><p>This object defines the properties that can be set on a <code>FusionTablesLayer</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record FusionTablesLayerOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

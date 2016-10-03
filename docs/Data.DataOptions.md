@@ -1,7 +1,7 @@
 <h2 id="Data.DataOptions"> Data.DataOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.DataOptions</span></code>
 object specification
-</p><p>DataOptions object used to define the properties that a developer can set on a <code>Data</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.DataOptions - Properties">
+</p><p>DataOptions object used to define the properties that a developer can set on a <code>Data</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Data.DataOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

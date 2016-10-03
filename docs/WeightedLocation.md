@@ -1,7 +1,7 @@
 <h2 id="WeightedLocation"> WeightedLocation object specification </h2><p>
 <code><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">WeightedLocation</span></code>
 object specification
-</p><p>A data point entry for a heatmap. This is a geographical data point with a weight attribute.</p><h4>Library</h4><p>visualization</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface WeightedLocation - Properties">
+</p><p>A data point entry for a heatmap. This is a geographical data point with a weight attribute.</p><h4>Library</h4><p>visualization</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record WeightedLocation - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

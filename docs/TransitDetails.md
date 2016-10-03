@@ -1,7 +1,7 @@
 <h2 id="TransitDetails"> TransitDetails object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">TransitDetails</span></code>
 object specification
-</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface TransitDetails - Properties">
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record TransitDetails - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

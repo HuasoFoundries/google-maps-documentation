@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Autocomplete(<wbr>inputField:HTMLInputElement,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md"><em><span>AutocompleteOptions</span></em></a><span>)</span></code></td>
+<td><code><span>Autocomplete(<wbr>inputField:HTMLInputElement,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md"><span>AutocompleteOptions</span></a><span>)</span></code></td>
 <td>Creates a new instance of <code><span>Autocomplete</span></code> that attaches to the specified input text field with the given options.</td>
 </tr>
 </tbody>

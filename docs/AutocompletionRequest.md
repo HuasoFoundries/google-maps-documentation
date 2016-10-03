@@ -1,7 +1,7 @@
 <h2 id="AutocompletionRequest"> AutocompletionRequest object specification </h2><p>
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">AutocompletionRequest</span></code>
 object specification
-</p><p>An Autocompletion request to be sent to the <code>AutocompleteService</code>.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface AutocompletionRequest - Properties">
+</p><p>An Autocompletion request to be sent to the <code>AutocompleteService</code>.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record AutocompletionRequest - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

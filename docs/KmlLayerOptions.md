@@ -1,7 +1,7 @@
 <h2 id="KmlLayerOptions"> KmlLayerOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">KmlLayerOptions</span></code>
 object specification
-</p><p>This object defines the properties that can be set on a <code>KmlLayer</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface KmlLayerOptions - Properties">
+</p><p>This object defines the properties that can be set on a <code>KmlLayer</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record KmlLayerOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

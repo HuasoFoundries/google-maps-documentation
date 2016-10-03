@@ -1,7 +1,7 @@
 <h2 id="Data.AddFeatureEvent"> Data.AddFeatureEvent object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.AddFeatureEvent</span></code>
 object specification
-</p><p>The properties of a <code>addfeature</code> event.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.AddFeatureEvent - Properties">
+</p><p>The properties of a <code>addfeature</code> event.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Data.AddFeatureEvent - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

@@ -1,7 +1,7 @@
 <h2 id="DirectionsRoute"> DirectionsRoute object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsRoute</span></code>
 object specification
-</p><p>A single route containing a set of legs in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md">DirectionsResult</a></code>. Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsRoute - Properties">
+</p><p>A single route containing a set of legs in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md">DirectionsResult</a></code>. Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DirectionsRoute - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

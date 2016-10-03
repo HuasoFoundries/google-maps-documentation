@@ -1,7 +1,7 @@
 <h2 id="DrawingControlOptions"> DrawingControlOptions object specification </h2><p>
 <code><span itemprop="path">google.maps.drawing</span>.<span itemprop="name">DrawingControlOptions</span></code>
 object specification
-</p><p>Options for the rendering of the drawing control.</p><h4>Library</h4><p>drawing</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DrawingControlOptions - Properties">
+</p><p>Options for the rendering of the drawing control.</p><h4>Library</h4><p>drawing</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DrawingControlOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

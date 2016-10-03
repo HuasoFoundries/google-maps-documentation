@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Polygon(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md"><em><span>PolygonOptions</span></em></a><span>)</span></code></td>
+<td><code><span>Polygon(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md"><span>PolygonOptions</span></a><span>)</span></code></td>
 <td>Create a polygon using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolygonOptions.md"><span>PolygonOptions</span></a></em></code>, which specify the polygon's path, the stroke style for the polygon's edges, and the fill style for the polygon's interior regions. A polygon may contain one or more paths, where each path consists of an array of <code><span>LatLng</span></code>s. You may pass either an array of LatLngs or an <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md"><span>MVCArray</span></a></code> of <code><span>LatLng</span></code>s when constructing these paths. Arrays are converted to <code><span>MVCArray</span></code>s within the polygon upon instantiation.</td>
 </tr>
 </tbody>

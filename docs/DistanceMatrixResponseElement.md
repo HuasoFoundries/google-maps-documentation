@@ -1,7 +1,7 @@
 <h2 id="DistanceMatrixResponseElement"> DistanceMatrixResponseElement object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixResponseElement</span></code>
 object specification
-</p><p>A single element of a response to a <code>DistanceMatrixService</code> request, which contains the duration and distance from one origin to one destination.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DistanceMatrixResponseElement - Properties">
+</p><p>A single element of a response to a <code>DistanceMatrixService</code> request, which contains the duration and distance from one origin to one destination.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DistanceMatrixResponseElement - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

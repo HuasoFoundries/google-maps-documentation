@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Circle(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md"><em><span>CircleOptions</span></em></a><span>)</span></code></td>
+<td><code><span>Circle(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md"><span>CircleOptions</span></a><span>)</span></code></td>
 <td>Create a circle using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md"><span>CircleOptions</span></a></em></code>, which specify the center, radius, and style.</td>
 </tr>
 </tbody>

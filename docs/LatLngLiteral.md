@@ -1,7 +1,7 @@
 <h2 id="LatLngLiteral"> LatLngLiteral object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">LatLngLiteral</span></code>
 object specification
-</p><p>Object literals are accepted in place of <code>LatLng</code> objects, as a convenience, in many places. These are converted to <code>LatLng</code> objects when the Maps API encounters them. </p><p> Examples: </p><pre> map.setCenter({lat: -34, lng: 151});<br> new google.maps.Marker({position: {lat: -34, lng: 151}, map: map}); </pre><p class="note">LatLng object literals are not supported in the Geometry library.</p><p></p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface LatLngLiteral - Properties">
+</p><p>Object literals are accepted in place of <code>LatLng</code> objects, as a convenience, in many places. These are converted to <code>LatLng</code> objects when the Maps API encounters them. </p><p> Examples: </p><pre> map.setCenter({lat: -34, lng: 151});<br> new google.maps.Marker({position: {lat: -34, lng: 151}, map: map}); </pre><p class="note">LatLng object literals are not supported in the Geometry library.</p><p></p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record LatLngLiteral - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

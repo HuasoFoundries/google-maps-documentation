@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Polyline(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md"><em><span>PolylineOptions</span></em></a><span>)</span></code></td>
+<td><code><span>Polyline(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md"><span>PolylineOptions</span></a><span>)</span></code></td>
 <td>Create a polyline using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md"><span>PolylineOptions</span></a></em></code>, which specify both the path of the polyline and the stroke style to use when drawing the polyline. You may pass either an array of <code><span>LatLng</span></code>s or an <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md"><span>MVCArray</span></a></code> of <code><span>LatLng</span></code>s when constructing a polyline, though simple arrays are converted to <code><span>MVCArray</span></code>s within the polyline upon instantiation.</td>
 </tr>
 </tbody>

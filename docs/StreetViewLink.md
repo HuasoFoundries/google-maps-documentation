@@ -1,7 +1,7 @@
 <h2 id="StreetViewLink"> StreetViewLink object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewLink</span></code>
 object specification
-</p><p>A collection of references to adjacent Street View panos.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface StreetViewLink - Properties">
+</p><p>A collection of references to adjacent Street View panos.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record StreetViewLink - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

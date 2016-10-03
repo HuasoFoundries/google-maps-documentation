@@ -1,7 +1,7 @@
 <h2 id="Data.StyleOptions"> Data.StyleOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.StyleOptions</span></code>
 object specification
-</p><p>These options specify the way a Feature should appear when displayed on a map.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.StyleOptions - Properties">
+</p><p>These options specify the way a Feature should appear when displayed on a map.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Data.StyleOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

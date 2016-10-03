@@ -1,7 +1,7 @@
 <h2 id="Data.GeoJsonOptions"> Data.GeoJsonOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.GeoJsonOptions</span></code>
 object specification
-</p><p>Optional parameters for importing GeoJSON.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.GeoJsonOptions - Properties">
+</p><p>Optional parameters for importing GeoJSON.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Data.GeoJsonOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

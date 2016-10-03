@@ -1,7 +1,7 @@
 <h2 id="DirectionsStep"> DirectionsStep object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsStep</span></code>
 object specification
-</p><p>A single <code>DirectionsStep</code> in a <code>DirectionsResult</code>. Some fields may be undefined. Note that though this object is "JSON-like," it is not strictly JSON, as it directly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsStep - Properties">
+</p><p>A single <code>DirectionsStep</code> in a <code>DirectionsResult</code>. Some fields may be undefined. Note that though this object is "JSON-like," it is not strictly JSON, as it directly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DirectionsStep - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

@@ -1,7 +1,7 @@
 <h2 id="Data.Polygon"> Data.Polygon class </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.Polygon</span></code>
 class
-</p><p>A Polygon geometry contains a number of <code>Data.LinearRing</code>s. The first linear-ring must be the polygon exterior boundary, and subsequent linear-rings must be interior boundaries or "holes".</p><p>This class extends
+</p><p>A Polygon geometry contains a number of <code>Data.LinearRing</code>s. The first linear-ring must be the polygon exterior boundary and subsequent linear-rings must be interior boundaries, also known as holes. See the <a href="https://developers.google.com/maps/documentation/javascript/examples/layer-data-polygon">sample polygon with a hole</a>.</p><p>This class extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Geometry.md">Data.Geometry</a></code>.
 </p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Data.Polygon - Constructor">
 <thead>

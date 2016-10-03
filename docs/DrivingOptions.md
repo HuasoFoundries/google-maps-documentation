@@ -1,7 +1,7 @@
 <h2 id="DrivingOptions"> DrivingOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DrivingOptions</span></code>
 object specification
-</p><p>Configures the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md">DirectionsRequest</a></code> when the travel mode is set to <code>DRIVING</code>.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DrivingOptions - Properties">
+</p><p>Configures the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md">DirectionsRequest</a></code> when the travel mode is set to <code>DRIVING</code>.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DrivingOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

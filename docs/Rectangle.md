@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Rectangle(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md"><em><span>RectangleOptions</span></em></a><span>)</span></code></td>
+<td><code><span>Rectangle(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md"><span>RectangleOptions</span></a><span>)</span></code></td>
 <td>Create a rectangle using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md"><span>RectangleOptions</span></a></em></code>, which specify the bounds and style.</td>
 </tr>
 </tbody>

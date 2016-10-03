@@ -1,7 +1,7 @@
 <h2 id="TransitLine"> TransitLine object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">TransitLine</span></code>
 object specification
-</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface TransitLine - Properties">
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record TransitLine - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

@@ -1,7 +1,7 @@
 <h2 id="AutocompleteOptions"> AutocompleteOptions object specification </h2><p>
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">AutocompleteOptions</span></code>
 object specification
-</p><p>The options that can be set on an <code>Autocomplete</code> object.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface AutocompleteOptions - Properties">
+</p><p>The options that can be set on an <code>Autocomplete</code> object.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record AutocompleteOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

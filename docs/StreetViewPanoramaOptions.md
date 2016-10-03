@@ -1,7 +1,7 @@
 <h2 id="StreetViewPanoramaOptions"> StreetViewPanoramaOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewPanoramaOptions</span></code>
 object specification
-</p><p>Options defining the properties of a <code>StreetViewPanorama</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface StreetViewPanoramaOptions - Properties">
+</p><p>Options defining the properties of a <code>StreetViewPanorama</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record StreetViewPanoramaOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

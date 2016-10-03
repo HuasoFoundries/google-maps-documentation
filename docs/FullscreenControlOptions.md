@@ -1,7 +1,7 @@
 <h2 id="FullscreenControlOptions"> FullscreenControlOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">FullscreenControlOptions</span></code>
 object specification
-</p><p>Options for the rendering of the fullscreen control.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface FullscreenControlOptions - Properties">
+</p><p>Options for the rendering of the fullscreen control.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record FullscreenControlOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

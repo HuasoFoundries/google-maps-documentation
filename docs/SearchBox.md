@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>SearchBox(<wbr>inputField:HTMLInputElement,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBoxOptions.md"><em><span>SearchBoxOptions</span></em></a><span>)</span></code></td>
+<td><code><span>SearchBox(<wbr>inputField:HTMLInputElement,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBoxOptions.md"><span>SearchBoxOptions</span></a><span>)</span></code></td>
 <td>Creates a new instance of <code><span>SearchBox</span></code> that attaches to the specified input text field with the given options.</td>
 </tr>
 </tbody>

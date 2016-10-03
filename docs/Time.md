@@ -1,7 +1,7 @@
 <h2 id="Time"> Time object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Time</span></code>
 object specification
-</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Time - Properties">
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Time - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

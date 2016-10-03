@@ -1,7 +1,7 @@
 <h2 id="Data.FeatureOptions"> Data.FeatureOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.FeatureOptions</span></code>
 object specification
-</p><p>Optional parameters for creating <code>Data.Feature</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.FeatureOptions - Properties">
+</p><p>Optional parameters for creating <code>Data.Feature</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Data.FeatureOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

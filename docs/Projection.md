@@ -1,7 +1,7 @@
 <h2 id="Projection"> Projection object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Projection</span></code>
 object specification
-</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="interface Projection - Methods">
+</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="record Projection - Methods">
 <thead>
 <tr><th colspan="2">Methods</th>
 </tr></thead>

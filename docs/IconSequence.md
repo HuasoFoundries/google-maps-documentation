@@ -1,7 +1,7 @@
 <h2 id="IconSequence"> IconSequence object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">IconSequence</span></code>
 object specification
-</p><p>Describes how icons are to be rendered on a line. <br><br> If your polyline is geodesic, then the distances specified for both offset and repeat are calculated in meters by default. Setting either offset or repeat to a pixel value will cause the distances to be calculated in pixels on the screen.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface IconSequence - Properties">
+</p><p>Describes how icons are to be rendered on a line. <br><br> If your polyline is geodesic, then the distances specified for both offset and repeat are calculated in meters by default. Setting either offset or repeat to a pixel value will cause the distances to be calculated in pixels on the screen.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record IconSequence - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

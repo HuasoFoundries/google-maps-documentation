@@ -1,7 +1,7 @@
 <h2 id="DirectionsGeocodedWaypoint"> DirectionsGeocodedWaypoint object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsGeocodedWaypoint</span></code>
 object specification
-</p><p>A single geocoded waypoint.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsGeocodedWaypoint - Properties">
+</p><p>A single geocoded waypoint.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DirectionsGeocodedWaypoint - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

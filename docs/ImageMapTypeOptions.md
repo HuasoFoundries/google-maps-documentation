@@ -1,7 +1,7 @@
 <h2 id="ImageMapTypeOptions"> ImageMapTypeOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">ImageMapTypeOptions</span></code>
 object specification
-</p><p>This class is used to create a MapType that renders image tiles.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface ImageMapTypeOptions - Properties">
+</p><p>This class is used to create a MapType that renders image tiles.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record ImageMapTypeOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

@@ -1,7 +1,7 @@
 <h2 id="ElevationResult"> ElevationResult object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">ElevationResult</span></code>
 object specification
-</p><p>The result of an <code>ElevationService</code> request, consisting of the set of elevation coordinates and their elevation values. Note that a single request may produce multiple <code>ElevationResult</code>s.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface ElevationResult - Properties">
+</p><p>The result of an <code>ElevationService</code> request, consisting of the set of elevation coordinates and their elevation values. Note that a single request may produce multiple <code>ElevationResult</code>s.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record ElevationResult - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

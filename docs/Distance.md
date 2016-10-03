@@ -1,7 +1,7 @@
 <h2 id="Distance"> Distance object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Distance</span></code>
 object specification
-</p><p>A representation of distance as a numeric value and a display string.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Distance - Properties">
+</p><p>A representation of distance as a numeric value and a display string.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Distance - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

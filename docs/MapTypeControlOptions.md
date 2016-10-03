@@ -1,7 +1,7 @@
 <h2 id="MapTypeControlOptions"> MapTypeControlOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeControlOptions</span></code>
 object specification
-</p><p>Options for the rendering of the map type control.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface MapTypeControlOptions - Properties">
+</p><p>Options for the rendering of the map type control.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record MapTypeControlOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

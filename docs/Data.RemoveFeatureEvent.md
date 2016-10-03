@@ -1,7 +1,7 @@
 <h2 id="Data.RemoveFeatureEvent"> Data.RemoveFeatureEvent object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.RemoveFeatureEvent</span></code>
 object specification
-</p><p>The properties of a <code>removefeature</code> event.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.RemoveFeatureEvent - Properties">
+</p><p>The properties of a <code>removefeature</code> event.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Data.RemoveFeatureEvent - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

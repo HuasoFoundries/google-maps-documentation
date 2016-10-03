@@ -1,7 +1,7 @@
 <h2 id="TransitOptions"> TransitOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">TransitOptions</span></code>
 object specification
-</p><p>The TransitOptions object to be included in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md">DirectionsRequest</a></code> when the travel mode is set to TRANSIT.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface TransitOptions - Properties">
+</p><p>The TransitOptions object to be included in a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md">DirectionsRequest</a></code> when the travel mode is set to TRANSIT.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record TransitOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

@@ -1,7 +1,7 @@
 <h2 id="StreetViewLocation"> StreetViewLocation object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewLocation</span></code>
 object specification
-</p><p>A representation of a location in the Street View panorama.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface StreetViewLocation - Properties">
+</p><p>A representation of a location in the Street View panorama.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record StreetViewLocation - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

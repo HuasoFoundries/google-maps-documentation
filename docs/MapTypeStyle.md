@@ -1,7 +1,7 @@
 <h2 id="MapTypeStyle"> MapTypeStyle object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeStyle</span></code>
 object specification
-</p><p>The <code>MapTypeStyle</code> is a collection of selectors and stylers that define how the map should be styled. Selectors specify the map features and/or elements that should be affected, and stylers specify how those features and elements should be modified. For details, see the <a href="https://developers.google.com/maps/documentation/javascript/style-reference">style reference</a>.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface MapTypeStyle - Properties">
+</p><p>The <code>MapTypeStyle</code> is a collection of selectors and stylers that define how the map should be styled. Selectors specify the map features and/or elements that should be affected, and stylers specify how those features and elements should be modified. For details, see the <a href="https://developers.google.com/maps/documentation/javascript/style-reference">style reference</a>.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record MapTypeStyle - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

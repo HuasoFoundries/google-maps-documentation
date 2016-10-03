@@ -1,7 +1,7 @@
 <h2 id="Data.SetPropertyEvent"> Data.SetPropertyEvent object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.SetPropertyEvent</span></code>
 object specification
-</p><p>The properties of a <code>setproperty</code> event.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.SetPropertyEvent - Properties">
+</p><p>The properties of a <code>setproperty</code> event.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Data.SetPropertyEvent - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

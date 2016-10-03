@@ -1,7 +1,7 @@
 <h2 id="Duration"> Duration object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">Duration</span></code>
 object specification
-</p><p>A representation of duration as a numeric value and a display string.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Duration - Properties">
+</p><p>A representation of duration as a numeric value and a display string.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Duration - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

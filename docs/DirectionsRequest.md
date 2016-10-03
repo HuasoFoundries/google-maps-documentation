@@ -1,7 +1,7 @@
 <h2 id="DirectionsRequest"> DirectionsRequest object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsRequest</span></code>
 object specification
-</p><p>A directions query to be sent to the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsService.md">DirectionsService</a></code>.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsRequest - Properties">
+</p><p>A directions query to be sent to the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsService.md">DirectionsService</a></code>.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DirectionsRequest - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

@@ -1,7 +1,7 @@
 <h2 id="MapType"> MapType object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MapType</span></code>
 object specification
-</p><p>This interface defines the map type, and is typically used for custom map types. Immutable.</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="interface MapType - Methods">
+</p><p>This interface defines the map type, and is typically used for custom map types. Immutable.</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="record MapType - Methods">
 <thead>
 <tr><th colspan="2">Methods</th>
 </tr></thead>
@@ -17,7 +17,7 @@ object specification
 <div class="desc">Releases the given tile, performing any necessary cleanup. The provided tile will have already been removed from the document. Optional.</div></td>
 </tr>
 </tbody>
-</table></div><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface MapType - Properties">
+</table></div><div class="devsite-table-wrapper"><table class="properties responsive" summary="record MapType - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

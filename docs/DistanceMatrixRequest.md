@@ -1,7 +1,7 @@
 <h2 id="DistanceMatrixRequest"> DistanceMatrixRequest object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixRequest</span></code>
 object specification
-</p><p>A distance matrix query sent by the <code>DistanceMatrixService</code> containing arrays of origin and destination locations, and various options for computing metrics.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DistanceMatrixRequest - Properties">
+</p><p>A distance matrix query sent by the <code>DistanceMatrixService</code> containing arrays of origin and destination locations, and various options for computing metrics.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DistanceMatrixRequest - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

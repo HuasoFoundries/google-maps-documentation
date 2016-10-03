@@ -1,7 +1,7 @@
 <h2 id="SaveWidgetOptions"> SaveWidgetOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">SaveWidgetOptions</span></code>
 object specification
-</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface SaveWidgetOptions - Properties">
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record SaveWidgetOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

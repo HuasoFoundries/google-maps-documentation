@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>GroundOverlay(<wbr>url:string,<wbr> bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md"><span>LatLngBoundsLiteral</span></a><span>,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GroundOverlayOptions.md"><em><span>GroundOverlayOptions</span></em></a><span>)</span></code></td>
+<td><code><span>GroundOverlay(<wbr>url:string,<wbr> bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md"><span>LatLngBoundsLiteral</span></a><span>,<wbr> opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GroundOverlayOptions.md"><span>GroundOverlayOptions</span></a><span>)</span></code></td>
 <td>Creates a ground overlay from the provided image URL and its <code><span>LatLngBounds</span></code>. The image is scaled to fit the current bounds, and projected using the current map projection.</td>
 </tr>
 </tbody>
