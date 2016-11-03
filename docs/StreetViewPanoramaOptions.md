@@ -82,11 +82,6 @@ object specification
 <div class="desc">The panorama ID, which should be set when specifying a custom panorama.</div></td>
 </tr>
 <tr>
-<td><code><span>panoProvider</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>function(string): <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaData.md">StreetViewPanoramaData</a></code></div>
-<div class="desc">Custom panorama provider, which takes a string pano id and returns an object defining the panorama given that id. This function must be defined to specify custom panorama imagery.</div></td>
-</tr>
-<tr>
 <td><code><span>position</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a></code></div>
 <div class="desc">The <code>LatLng</code> position of the Street View panorama.</div></td>

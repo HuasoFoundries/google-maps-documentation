@@ -1,7 +1,7 @@
 <h2 id="StreetViewTileData"> StreetViewTileData object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewTileData</span></code>
 object specification
-</p><p>The properties of the tile set used in a Street View panorama.</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="interface StreetViewTileData - Methods">
+</p><p>The properties of the tile set used in a Street View panorama.</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="record StreetViewTileData - Methods">
 <thead>
 <tr><th colspan="2">Methods</th>
 </tr></thead>
@@ -12,7 +12,7 @@ object specification
 <div class="desc">Gets the tile image URL for the specified tile.<br> <code>pano</code> is the panorama ID of the Street View tile.<br> <code>tileZoom</code> is the zoom level of the tile.<br> <code>tileX</code> is the x-coordinate of the tile.<br> <code>tileY</code> is the y-coordinate of the tile.<br> Returns the URL for the tile image.<br></div></td>
 </tr>
 </tbody>
-</table></div><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface StreetViewTileData - Properties">
+</table></div><div class="devsite-table-wrapper"><table class="properties responsive" summary="record StreetViewTileData - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

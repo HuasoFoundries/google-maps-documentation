@@ -69,7 +69,7 @@ class
 <div class="desc">Returns the zoom level of the panorama. Fully zoomed-out is level 0, where the field of view is 180 degrees. Zooming in increases the zoom level.</div></td>
 </tr>
 <tr>
-<td><code><span>registerPanoProvider(<wbr>provider:function(<wbr>string):</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaData.md"><span>StreetViewPanoramaData</span></a><span>)</span></code></td>
+<td><code><span>registerPanoProvider(<wbr>provider:function(<wbr>string):</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaData.md"><span>StreetViewPanoramaData</span></a><span>,<wbr> opt_options?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoProviderOptions.md"><span>PanoProviderOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Set the custom panorama provider called on pano change to load custom panoramas.</div></td>
 </tr>

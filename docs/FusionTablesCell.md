@@ -1,7 +1,7 @@
 <h2 id="FusionTablesCell"> FusionTablesCell object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">FusionTablesCell</span></code>
 object specification
-</p><p>Describes a single cell from a Fusion Tables table.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface FusionTablesCell - Properties">
+</p><p>Describes a single cell from a Fusion Tables table.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record FusionTablesCell - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

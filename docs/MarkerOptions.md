@@ -19,7 +19,7 @@ object specification
 <tr>
 <td><code><span>attribution</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md">Attribution</a></code></div>
-<div class="desc">Contains all the information needed to identify your application as the source of a save. In this context, 'place' means a business, point of interest or geographic location. <code>attribution</code> must be specified with a <code>place</code> in order to enable a save.</div></td>
+<div class="desc">Contains all the information needed to identify your application as the source of a save. In this context, 'place' means a business, point of interest or geographic location. <code>attribution</code> must be specified with a <code>place</code> in order to enable a save. <p><strong>Note:</strong> The signed-in maps feature is <strong>deprecated</strong>. Versions 3.27 and earlier of the Google Maps JavaScript API continue to support signed-in maps. A future version will no longer support signed-in maps, and will not support the <code>attribution</code> property to save a place.</p></div></td>
 </tr>
 <tr>
 <td><code><span>clickable</span></code></td>
@@ -49,7 +49,7 @@ object specification
 <tr>
 <td><code><span>label</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerLabel.md">MarkerLabel</a></code></div>
-<div class="desc">Adds a label to the marker. The label can either be a string, or a <code>MarkerLabel</code> object. Only the first character of the string will be displayed.</div></td>
+<div class="desc">Adds a label to the marker. The label can either be a string, or a <code>MarkerLabel</code> object.</div></td>
 </tr>
 <tr>
 <td><code><span>map</span></code></td>
@@ -69,7 +69,7 @@ object specification
 <tr>
 <td><code><span>place</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MarkerPlace.md">MarkerPlace</a></code></div>
-<div class="desc">Place information, used to identify and describe the place associated with this <code>Marker</code>. In this context, 'place' means a business, point of interest or geographic location. To allow a user to save this place, open an info window anchored on this marker. The info window will contain information about the place and an option for the user to save it. Only one of position or place can be specified.</div></td>
+<div class="desc">Place information, used to identify and describe the place associated with this <code>Marker</code>. In this context, 'place' means a business, point of interest or geographic location. To allow a user to save this place, open an info window anchored on this marker. The info window will contain information about the place and an option for the user to save it. Only one of position or place can be specified. <p><strong>Note</strong>: The signed-in maps feature is <strong>deprecated</strong>. Versions 3.27 and earlier of the Google Maps JavaScript API continue to support signed-in maps. A future version will no longer support signed-in maps, and will not support saving a place directly from within your application. Read more about <a href="https://developers.google.com/maps/documentation/javascript/signedin">signed-in maps</a>.</p></div></td>
 </tr>
 <tr>
 <td><code><span>position</span></code></td>

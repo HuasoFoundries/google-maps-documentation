@@ -29,7 +29,7 @@ object specification
 <tr>
 <td><code><span>text</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The text to be displayed in the label. Only the first character of this string will be shown.</div></td>
+<div class="desc">The text to be displayed in the label.</div></td>
 </tr>
 </tbody>
 </table></div>

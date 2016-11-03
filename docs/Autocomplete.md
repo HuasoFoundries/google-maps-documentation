@@ -52,7 +52,7 @@ class
 <tr>
 <td><code><span>place_changed</span></code></td>
 <td><div><strong>Arguments:</strong>&nbsp; <code>None</code></div>
-<div class="desc">This event is fired when a <code>PlaceResult</code> is made available for a Place the user has selected. <br>If the user enters the name of a Place that was not suggested by the control and presses the Enter key, or if a Place detail request fails, a <code>place_changed</code> event will be fired that contains the user input in the <code>name</code> property, with no other properties defined.</div></td>
+<div class="desc">This event is fired when a <code>PlaceResult</code> is made available for a Place the user has selected. <br>If the user enters the name of a Place that was not suggested by the control and presses the Enter key, or if a Place Details request fails, the <code>PlaceResult</code> contains the user input in the <code>name</code> property, with no other properties defined.</div></td>
 </tr>
 </tbody>
 </table></div>

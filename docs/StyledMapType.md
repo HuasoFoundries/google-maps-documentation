@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>StyledMapType(<wbr>styles:Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyle.md"><span>MapTypeStyle</span></a><span>&gt;,<wbr> options?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StyledMapTypeOptions.md"><em><span>StyledMapTypeOptions</span></em></a><span>)</span></code></td>
+<td><code><span>StyledMapType(<wbr>styles:Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeStyle.md"><span>MapTypeStyle</span></a><span>&gt;,<wbr> options?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StyledMapTypeOptions.md"><span>StyledMapTypeOptions</span></a><span>)</span></code></td>
 <td>Creates a styled <code><span>MapType</span></code> with the specified options. The <code><span>StyledMapType</span></code> takes an array of <code><span>MapTypeStyle</span></code>s, where each <code><span>MapTypeStyle</span></code> is applied to the map consecutively. A later <code><span>MapTypeStyle</span></code> that applies the same <code><span>MapTypeStyler</span></code>s to the same selectors as an earlier <code><span>MapTypeStyle</span></code> will override the earlier <code><span>MapTypeStyle</span></code>.</td>
 </tr>
 </tbody>

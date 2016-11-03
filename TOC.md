@@ -136,6 +136,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [OverlayType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayType.md)
 * [OverlayView](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayView.md)
 * [PanControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanControlOptions.md)
+* [PanoProviderOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PanoProviderOptions.md)
 * [PathElevationRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PathElevationRequest.md)
 * [PhotoOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PhotoOptions.md)
 * [Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md)
@@ -221,4 +222,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Monday, September 26, 2016
+Last updated Monday, October 31, 2016

@@ -1,7 +1,7 @@
 <h2 id="MotionTrackingControlOptions"> MotionTrackingControlOptions object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MotionTrackingControlOptions</span></code>
 object specification
-</p><p>Options for the rendering of the motion tracking control.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface MotionTrackingControlOptions - Properties">
+</p><p>Options for the rendering of the motion tracking control.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record MotionTrackingControlOptions - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

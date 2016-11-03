@@ -55,7 +55,7 @@ class
 </tr>
 <tr>
 <td><code><span>getFeatureById(<wbr>id:number|<wbr>string)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md">Data.Feature</a></code></div>
+<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.Feature.md">Data.Feature</a>|undefined</code></div>
 <div class="desc">Returns the feature with the given ID, if it exists in the collection. Otherwise returns <code>undefined</code>. <p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Either can be used to look up the same feature.</p></div></td>
 </tr>
 <tr>
