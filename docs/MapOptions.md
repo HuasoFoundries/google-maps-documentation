@@ -57,6 +57,11 @@ object specification
 <div class="desc">The display options for the Fullscreen control.</div></td>
 </tr>
 <tr>
+<td><code><span>gestureHandling</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">This setting controls how gestures on the map are handled. Allowed values: <ul> <li> <code>"cooperative"</code>: Two-finger touch gestures pan and zoom the map, as do all mouse gestures. One-finger touch gestures are not handled by the map. In this mode, the map <em>cooperates</em> with the page, so that one-finger touch gestures can pan the page. </li><li> <code>"greedy"</code>: All touch gestures pan or zoom the map. </li><li> <code>"none"</code>: The map cannot be panned or zoomed by user gestures. </li><li> <code>"auto"</code>: (default) Gesture handling is either cooperative or greedy, depending on whether the page is scrollable or not. </li></ul></div></td>
+</tr>
+<tr>
 <td><code><span>heading</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
 <div class="desc">The heading for aerial imagery in degrees measured clockwise from cardinal direction North. Headings are snapped to the nearest available angle for which imagery is available.</div></td>
