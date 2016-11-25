@@ -12,7 +12,7 @@ constants
 </tr>
 <tr>
 <td><code><span>MAX_WAYPOINTS_EXCEEDED</span></code></td>
-<td>Too many <code><span>DirectionsWaypoint</span></code>s were provided in the <code><span>DirectionsRequest</span></code>. The total allowed waypoints is 8, plus the origin and destination. Premium Plan customers are allowed 23 waypoints, plus the origin, and destination.</td>
+<td>Too many <code><span>DirectionsWaypoint</span></code>s were provided in the <code><span>DirectionsRequest</span></code>. See the <a href="https://developers.google.com/maps/documentation/javascript/directions#UsageLimits"> developer's guide</a> for the maximum number of waypoints allowed.</td>
 </tr>
 <tr>
 <td><code><span>NOT_FOUND</span></code></td>
