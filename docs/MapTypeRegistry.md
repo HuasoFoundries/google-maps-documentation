@@ -19,7 +19,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>set(<wbr>id:string,<wbr> mapType?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapType.md"><span>MapType</span></a><span>)</span></code></td>
+<td><code><span>set(<wbr>id:string,<wbr> mapType:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapType.md"><span>MapType</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the registry to associate the passed string identifier with the passed MapType.</div></td>
 </tr>

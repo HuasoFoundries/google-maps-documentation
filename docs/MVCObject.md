@@ -37,7 +37,7 @@ class
 <div class="desc">Notify all observers of a change on this property. This notifies both objects that are bound to the object's property as well as the object that it is bound to.</div></td>
 </tr>
 <tr>
-<td><code><span>set(<wbr>key:string,<wbr> value?:*)</span></code></td>
+<td><code><span>set(<wbr>key:string,<wbr> value:*)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets a value.</div></td>
 </tr>
