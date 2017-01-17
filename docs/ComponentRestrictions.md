@@ -8,8 +8,8 @@ object specification
 <tbody>
 <tr>
 <td><code><span>country</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">Restricts predictions to the specified country (ISO 3166-1 Alpha-2 country code, case insensitive). E.g., us, br, au.</div></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string|Array&lt;string&gt;</code></div>
+<div class="desc">Restricts predictions to the specified country (ISO 3166-1 Alpha-2 country code, case insensitive). E.g., us, br, au. You can provide a single one, or an array of up to 5 country code strings.</div></td>
 </tr>
 </tbody>
 </table></div>
