@@ -54,7 +54,7 @@ class
 <div class="desc">Renders the KML Layer on the specified map. If map is set to null, the layer is removed.</div></td>
 </tr>
 <tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerOptions.md"><em><span>KmlLayerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlLayerOptions.md"><span>KmlLayerOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc"></div></td>
 </tr>
@@ -76,7 +76,7 @@ class
 <tbody>
 <tr>
 <td><code><span>click</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlMouseEvent.md"><em>KmlMouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/KmlMouseEvent.md">KmlMouseEvent</a></code></div>
 <div class="desc">This event is fired when a feature in the layer is clicked.</div></td>
 </tr>
 <tr>

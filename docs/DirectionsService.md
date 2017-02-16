@@ -17,7 +17,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>route(<wbr>request:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md"><em><span>DirectionsRequest</span></em></a><span>,<wbr> callback:function(<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md"><span>DirectionsResult</span></a><span>,<wbr> </span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStatus.md"><span>DirectionsStatus</span></a><span>))</span></code></td>
+<td><code><span>route(<wbr>request:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md"><span>DirectionsRequest</span></a><span>,<wbr> callback:function(<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md"><span>DirectionsResult</span></a><span>,<wbr> </span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStatus.md"><span>DirectionsStatus</span></a><span>))</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Issue a directions search request.</div></td>
 </tr>

@@ -39,7 +39,7 @@ class
 <div class="desc">Returns the current (zero-based) route index in use by this <code>DirectionsRenderer</code> object.</div></td>
 </tr>
 <tr>
-<td><code><span>setDirections(<wbr>directions:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md"><em><span>DirectionsResult</span></em></a><span>)</span></code></td>
+<td><code><span>setDirections(<wbr>directions:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md"><span>DirectionsResult</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Set the renderer to use the result from the <code>DirectionsService</code>. Setting a valid set of directions in this manner will display the directions on the renderer's designated map and panel.</div></td>
 </tr>
@@ -49,7 +49,7 @@ class
 <div class="desc">This method specifies the map on which directions will be rendered. Pass <code>null</code> to remove the directions from the map.</div></td>
 </tr>
 <tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md"><em><span>DirectionsRendererOptions</span></em></a><span>)</span></code></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRendererOptions.md"><span>DirectionsRendererOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Change the options settings of this <code>DirectionsRenderer</code> after initialization.</div></td>
 </tr>

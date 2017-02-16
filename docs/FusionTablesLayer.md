@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>FusionTablesLayer(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayerOptions.md"><em><span>FusionTablesLayerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>FusionTablesLayer(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayerOptions.md"><span>FusionTablesLayerOptions</span></a><span>)</span></code></td>
 <td>A layer that displays data from a Fusion Table.</td>
 </tr>
 </tbody>
@@ -29,7 +29,7 @@ class
 <div class="desc">Renders the layer on the specified map. If map is set to null, the layer will be removed.</div></td>
 </tr>
 <tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayerOptions.md"><em><span>FusionTablesLayerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesLayerOptions.md"><span>FusionTablesLayerOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc"></div></td>
 </tr>
@@ -41,7 +41,7 @@ class
 <tbody>
 <tr>
 <td><code><span>click</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesMouseEvent.md"><em>FusionTablesMouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FusionTablesMouseEvent.md">FusionTablesMouseEvent</a></code></div>
 <div class="desc">This event is fired when a feature in the layer is clicked.</div></td>
 </tr>
 </tbody>

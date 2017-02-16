@@ -29,7 +29,7 @@ class
 <div class="desc">Renders the layer on the specified map. If map is set to null, the layer will be removed.</div></td>
 </tr>
 <tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md"><em><span>TrafficLayerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficLayerOptions.md"><span>TrafficLayerOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc"></div></td>
 </tr>

@@ -3,7 +3,7 @@
 object specification
 </p><p>This object is passed to mouse event handlers on a <code>Data</code> object.</p><p>This object extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md">MouseEvent</a></code>.
-</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="object Data.MouseEvent - Properties">
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record Data.MouseEvent - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

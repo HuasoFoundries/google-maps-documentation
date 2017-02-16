@@ -126,62 +126,62 @@ class
 <tbody>
 <tr>
 <td><code><span>addfeature</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.AddFeatureEvent.md"><em>Data.AddFeatureEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.AddFeatureEvent.md">Data.AddFeatureEvent</a></code></div>
 <div class="desc">This event is fired when a feature is added to the collection.</div></td>
 </tr>
 <tr>
 <td><code><span>click</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md"><em>Data.MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md">Data.MouseEvent</a></code></div>
 <div class="desc">This event is fired for a click on the geometry.</div></td>
 </tr>
 <tr>
 <td><code><span>dblclick</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md"><em>Data.MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md">Data.MouseEvent</a></code></div>
 <div class="desc">This event is fired for a double click on the geometry.</div></td>
 </tr>
 <tr>
 <td><code><span>mousedown</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md"><em>Data.MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md">Data.MouseEvent</a></code></div>
 <div class="desc">This event is fired for a mousedown on the geometry.</div></td>
 </tr>
 <tr>
 <td><code><span>mouseout</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md"><em>Data.MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md">Data.MouseEvent</a></code></div>
 <div class="desc">This event is fired when the mouse leaves the area of the geometry.</div></td>
 </tr>
 <tr>
 <td><code><span>mouseover</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md"><em>Data.MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md">Data.MouseEvent</a></code></div>
 <div class="desc">This event is fired when the mouse enters the area of the geometry.</div></td>
 </tr>
 <tr>
 <td><code><span>mouseup</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md"><em>Data.MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md">Data.MouseEvent</a></code></div>
 <div class="desc">This event is fired for a mouseup on the geometry.</div></td>
 </tr>
 <tr>
 <td><code><span>removefeature</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemoveFeatureEvent.md"><em>Data.RemoveFeatureEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemoveFeatureEvent.md">Data.RemoveFeatureEvent</a></code></div>
 <div class="desc">This event is fired when a feature is removed from the collection.</div></td>
 </tr>
 <tr>
 <td><code><span>removeproperty</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemovePropertyEvent.md"><em>Data.RemovePropertyEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.RemovePropertyEvent.md">Data.RemovePropertyEvent</a></code></div>
 <div class="desc">This event is fired when a feature's property is removed.</div></td>
 </tr>
 <tr>
 <td><code><span>rightclick</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md"><em>Data.MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.MouseEvent.md">Data.MouseEvent</a></code></div>
 <div class="desc">This event is fired for a rightclick on the geometry.</div></td>
 </tr>
 <tr>
 <td><code><span>setgeometry</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetGeometryEvent.md"><em>Data.SetGeometryEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetGeometryEvent.md">Data.SetGeometryEvent</a></code></div>
 <div class="desc">This event is fired when a feature's geometry is set.</div></td>
 </tr>
 <tr>
 <td><code><span>setproperty</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetPropertyEvent.md"><em>Data.SetPropertyEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.SetPropertyEvent.md">Data.SetPropertyEvent</a></code></div>
 <div class="desc">This event is fired when a feature's property is set.</div></td>
 </tr>
 </tbody>

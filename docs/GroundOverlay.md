@@ -56,12 +56,12 @@ class
 <tbody>
 <tr>
 <td><code><span>click</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md">MouseEvent</a></code></div>
 <div class="desc">This event is fired when the DOM click event is fired on the <code>GroundOverlay</code>.</div></td>
 </tr>
 <tr>
 <td><code><span>dblclick</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md">MouseEvent</a></code></div>
 <div class="desc">This event is fired when the DOM dblclick event is fired on the <code>GroundOverlay</code>.</div></td>
 </tr>
 </tbody>

@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>ImageMapType(<wbr>opts:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapTypeOptions.md"><em><span>ImageMapTypeOptions</span></em></a><span>)</span></code></td>
+<td><code><span>ImageMapType(<wbr>opts:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ImageMapTypeOptions.md"><span>ImageMapTypeOptions</span></a><span>)</span></code></td>
 <td>Constructs an ImageMapType using the provided ImageMapTypeOptions</td>
 </tr>
 </tbody>

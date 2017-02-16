@@ -1,7 +1,7 @@
 <h2 id="MouseEvent"> MouseEvent object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MouseEvent</span></code>
 object specification
-</p><p>This object is returned from various mouse events on the map and overlays, and contains all the fields shown below.</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="object MouseEvent - Methods">
+</p><p>This object is returned from various mouse events on the map and overlays, and contains all the fields shown below.</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="record MouseEvent - Methods">
 <thead>
 <tr><th colspan="2">Methods</th>
 </tr></thead>
@@ -12,7 +12,7 @@ object specification
 <div class="desc">Prevents this event from propagating further.</div></td>
 </tr>
 </tbody>
-</table></div><div class="devsite-table-wrapper"><table class="properties responsive" summary="object MouseEvent - Properties">
+</table></div><div class="devsite-table-wrapper"><table class="properties responsive" summary="record MouseEvent - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

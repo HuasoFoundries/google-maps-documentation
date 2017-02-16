@@ -17,7 +17,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>getDistanceMatrix(<wbr>request:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixRequest.md"><em><span>DistanceMatrixRequest</span></em></a><span>,<wbr> callback:function(<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponse.md"><span>DistanceMatrixResponse</span></a><span>,<wbr> </span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixStatus.md"><span>DistanceMatrixStatus</span></a><span>))</span></code></td>
+<td><code><span>getDistanceMatrix(<wbr>request:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixRequest.md"><span>DistanceMatrixRequest</span></a><span>,<wbr> callback:function(<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponse.md"><span>DistanceMatrixResponse</span></a><span>,<wbr> </span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixStatus.md"><span>DistanceMatrixStatus</span></a><span>))</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Issues a distance matrix request.</div></td>
 </tr>

@@ -59,7 +59,7 @@ class
 <div class="desc">Renders this shape on the specified map. If map is set to null, the shape will be removed.</div></td>
 </tr>
 <tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md"><em><span>PolylineOptions</span></em></a><span>)</span></code></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolylineOptions.md"><span>PolylineOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc"></div></td>
 </tr>
@@ -81,57 +81,57 @@ class
 <tbody>
 <tr>
 <td><code><span>click</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md">PolyMouseEvent</a></code></div>
 <div class="desc">This event is fired when the DOM click event is fired on the Polyline.</div></td>
 </tr>
 <tr>
 <td><code><span>dblclick</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md">PolyMouseEvent</a></code></div>
 <div class="desc">This event is fired when the DOM dblclick event is fired on the Polyline.</div></td>
 </tr>
 <tr>
 <td><code><span>drag</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md">MouseEvent</a></code></div>
 <div class="desc">This event is repeatedly fired while the user drags the polyline.</div></td>
 </tr>
 <tr>
 <td><code><span>dragend</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md">MouseEvent</a></code></div>
 <div class="desc">This event is fired when the user stops dragging the polyline.</div></td>
 </tr>
 <tr>
 <td><code><span>dragstart</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md"><em>MouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md">MouseEvent</a></code></div>
 <div class="desc">This event is fired when the user starts dragging the polyline.</div></td>
 </tr>
 <tr>
 <td><code><span>mousedown</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md">PolyMouseEvent</a></code></div>
 <div class="desc">This event is fired when the DOM mousedown event is fired on the Polyline.</div></td>
 </tr>
 <tr>
 <td><code><span>mousemove</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md">PolyMouseEvent</a></code></div>
 <div class="desc">This event is fired when the DOM mousemove event is fired on the Polyline.</div></td>
 </tr>
 <tr>
 <td><code><span>mouseout</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md">PolyMouseEvent</a></code></div>
 <div class="desc">This event is fired on Polyline mouseout.</div></td>
 </tr>
 <tr>
 <td><code><span>mouseover</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md">PolyMouseEvent</a></code></div>
 <div class="desc">This event is fired on Polyline mouseover.</div></td>
 </tr>
 <tr>
 <td><code><span>mouseup</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md">PolyMouseEvent</a></code></div>
 <div class="desc">This event is fired when the DOM mouseup event is fired on the Polyline.</div></td>
 </tr>
 <tr>
 <td><code><span>rightclick</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md"><em>PolyMouseEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PolyMouseEvent.md">PolyMouseEvent</a></code></div>
 <div class="desc">This event is fired when the Polyline is right-clicked on.</div></td>
 </tr>
 </tbody>

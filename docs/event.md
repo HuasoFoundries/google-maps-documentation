@@ -37,7 +37,7 @@ namespace
 <div class="desc">Removes all listeners for the given event for the given instance.</div></td>
 </tr>
 <tr>
-<td><code><span>removeListener(<wbr>listener:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md"><em><span>MapsEventListener</span></em></a><span>)</span></code></td>
+<td><code><span>removeListener(<wbr>listener:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapsEventListener.md"><span>MapsEventListener</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Removes the given listener, which should have been returned by addListener above. Equivalent to calling <code>listener.remove()</code>.</div></td>
 </tr>

@@ -39,7 +39,7 @@ class
 <div class="desc"></div></td>
 </tr>
 <tr>
-<td><code><span>open(<wbr>map?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md"><span>Map</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md"><span>StreetViewPanorama</span></a><span>,<wbr> anchor?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md"><span>MVCObject</span></a><span>)</span></code></td>
+<td><code><span>open(<wbr>map?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md"><span>Map</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md"><span>StreetViewPanorama</span></a><span>,<wbr> anchor?:*)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Opens this InfoWindow on the given map. Optionally, an InfoWindow can be associated with an anchor. In the core API, the only anchor is the Marker class. However, an anchor can be any MVCObject that exposes a LatLng <code>position</code> property and optionally a Point <code>anchorPoint</code> property for calculating the <code>pixelOffset</code> (see InfoWindowOptions). The <code>anchorPoint</code> is the offset from the anchor's position to the tip of the InfoWindow.</div></td>
 </tr>
@@ -49,7 +49,7 @@ class
 <div class="desc"></div></td>
 </tr>
 <tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindowOptions.md"><em><span>InfoWindowOptions</span></em></a><span>)</span></code></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/InfoWindowOptions.md"><span>InfoWindowOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc"></div></td>
 </tr>

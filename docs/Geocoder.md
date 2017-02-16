@@ -17,7 +17,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>geocode(<wbr>request:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderRequest.md"><em><span>GeocoderRequest</span></em></a><span>,<wbr> callback:function(<wbr>Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderResult.md"><span>GeocoderResult</span></a><span>&gt;,<wbr> </span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderStatus.md"><span>GeocoderStatus</span></a><span>))</span></code></td>
+<td><code><span>geocode(<wbr>request:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderRequest.md"><span>GeocoderRequest</span></a><span>,<wbr> callback:function(<wbr>Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderResult.md"><span>GeocoderResult</span></a><span>&gt;,<wbr> </span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/GeocoderStatus.md"><span>GeocoderStatus</span></a><span>))</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Geocode a request.</div></td>
 </tr>

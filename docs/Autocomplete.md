@@ -34,7 +34,7 @@ class
 <div class="desc">Sets the preferred area within which to return Place results. Results are biased towards, but not restricted to, this area.</div></td>
 </tr>
 <tr>
-<td><code><span>setComponentRestrictions(<wbr>restrictions:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md"><em><span>ComponentRestrictions</span></em></a><span>)</span></code></td>
+<td><code><span>setComponentRestrictions(<wbr>restrictions:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md"><span>ComponentRestrictions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.</div></td>
 </tr>

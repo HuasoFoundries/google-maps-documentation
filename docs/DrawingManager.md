@@ -39,7 +39,7 @@ class
 <div class="desc">Attaches the <code>DrawingManager</code> object to the specified <code>Map</code>.</div></td>
 </tr>
 <tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md"><em><span>DrawingManagerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrawingManagerOptions.md"><span>DrawingManagerOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the <code>DrawingManager</code>'s options.</div></td>
 </tr>
@@ -61,7 +61,7 @@ class
 </tr>
 <tr>
 <td><code><span>overlaycomplete</span></code></td>
-<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayCompleteEvent.md"><em>OverlayCompleteEvent</em></a></code></div>
+<td><div><strong>Arguments:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/OverlayCompleteEvent.md">OverlayCompleteEvent</a></code></div>
 <div class="desc">This event is fired when the user has finished drawing an overlay of any type.</div></td>
 </tr>
 <tr>

@@ -7,7 +7,6 @@ in sync, versioned copy of google.maps API v3 documentation
 ### Table Of Contents 
 
 * [Animation](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Animation.md)
-* [Attribution](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md)
 * [Autocomplete](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Autocomplete.md)
 * [AutocompleteOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md)
 * [AutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletePrediction.md)
@@ -166,8 +165,6 @@ in sync, versioned copy of google.maps API v3 documentation
 * [Rectangle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Rectangle.md)
 * [RectangleOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RectangleOptions.md)
 * [RotateControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RotateControlOptions.md)
-* [SaveWidget](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SaveWidget.md)
-* [SaveWidgetOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SaveWidgetOptions.md)
 * [ScaleControlOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ScaleControlOptions.md)
 * [ScaleControlStyle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ScaleControlStyle.md)
 * [SearchBox](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBox.md)
@@ -222,4 +219,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Monday, January 09, 2017
+Last updated Wednesday, February 15, 2017

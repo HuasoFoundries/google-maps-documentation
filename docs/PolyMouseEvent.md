@@ -3,7 +3,8 @@
 object specification
 </p><p>This object is returned from mouse events on polylines and polygons.</p><p>This object extends
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MouseEvent.md">MouseEvent</a></code>.
-</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="object PolyMouseEvent - Properties">
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record PolyMouseEvent - Properties">
+
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

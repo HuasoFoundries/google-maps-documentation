@@ -84,7 +84,7 @@ class
 <div class="desc">Sets the state of motion tracker. If true when the user physically moves the device and the browser supports it, the Street View Panorama tracks the physical movements.</div></td>
 </tr>
 <tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md"><em><span>StreetViewPanoramaOptions</span></em></a><span>)</span></code></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanoramaOptions.md"><span>StreetViewPanoramaOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets a collection of key-value pairs.</div></td>
 </tr>
@@ -99,7 +99,7 @@ class
 <div class="desc">Sets the current <code>LatLng</code> position for the Street View panorama.</div></td>
 </tr>
 <tr>
-<td><code><span>setPov(<wbr>pov:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPov.md"><em><span>StreetViewPov</span></em></a><span>)</span></code></td>
+<td><code><span>setPov(<wbr>pov:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPov.md"><span>StreetViewPov</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the point of view for the Street View panorama.</div></td>
 </tr>

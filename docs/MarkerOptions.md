@@ -17,11 +17,6 @@ object specification
 <div class="desc">Which animation to play when marker is added to a map.</div></td>
 </tr>
 <tr>
-<td><code><span>attribution</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Attribution.md">Attribution</a></code></div>
-<div class="desc">Contains all the information needed to identify your application as the source of a save. In this context, 'place' means a business, point of interest or geographic location. <code>attribution</code> must be specified with a <code>place</code> in order to enable a save. <p><strong>Note:</strong> The signed-in maps feature is <strong>deprecated</strong>. Versions 3.27 and earlier of the Google Maps JavaScript API continue to support signed-in maps. A future version will no longer support signed-in maps, and will not support the <code>attribution</code> property to save a place.</p></div></td>
-</tr>
-<tr>
 <td><code><span>clickable</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">If true, the marker receives mouse and touch events. Default value is true.</div></td>

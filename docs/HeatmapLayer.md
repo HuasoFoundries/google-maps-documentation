@@ -40,7 +40,7 @@ Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/
 <div class="desc">Renders the heatmap on the specified map. If map is set to null, the heatmap will be removed.</div></td>
 </tr>
 <tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md"><em><span>HeatmapLayerOptions</span></em></a><span>)</span></code></td>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md"><span>HeatmapLayerOptions</span></a><span>)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc"></div></td>
 </tr>
