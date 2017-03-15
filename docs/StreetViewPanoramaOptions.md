@@ -67,6 +67,11 @@ object specification
 <div class="desc">The enabled/disabled state of the motion tracking control. Enabled by default when the device has motion data, so that the control appears on the map. This is primarily applicable to mobile devices.</div></td>
 </tr>
 <tr>
+<td><code><span>motionTrackingControlOptions</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MotionTrackingControlOptions.md">MotionTrackingControlOptions</a></code></div>
+<div class="desc">The display options for the motion tracking control.</div></td>
+</tr>
+<tr>
 <td><code><span>panControl</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">The enabled/disabled state of the pan control.</div></td>
