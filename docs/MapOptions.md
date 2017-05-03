@@ -34,7 +34,7 @@ object specification
 <tr>
 <td><code><span>draggable</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">If false, prevents the map from being dragged. Dragging is enabled by default.</div></td>
+<div class="desc">If false, prevents the map from being dragged. Dragging is enabled by default. <p><strong>Note</strong>: This property is <strong>deprecated</strong>. To disable dragging on the map, you can use the <code>gestureHandling</code> property, and set it to <code>"none"</code>.</p></div></td>
 </tr>
 <tr>
 <td><code><span>draggableCursor</span></code></td>
@@ -83,7 +83,7 @@ object specification
 </tr>
 <tr>
 <td><code><span>mapTypeId</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md">MapTypeId</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapTypeId.md">MapTypeId</a>|string</code></div>
 <div class="desc">The initial Map mapTypeId. Defaults to <code>ROADMAP</code>.</div></td>
 </tr>
 <tr>

@@ -34,7 +34,7 @@ object specification
 <tr>
 <td><code><span>postcode_localities</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
-<div class="desc">An array of strings denoting all the localities contained in a postal code. This is only present when the result is a postal code that contains multiple localities.</div></td>
+<div class="desc">An array of strings denoting all the localities contained in a postal code. This is only present when the result is a postal code that contains multiple localities. This array can contain up to 10 localities.</div></td>
 </tr>
 <tr>
 <td><code><span>types</span></code></td>

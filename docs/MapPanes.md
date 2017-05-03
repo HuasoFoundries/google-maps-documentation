@@ -1,7 +1,7 @@
 <h2 id="MapPanes"> MapPanes object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">MapPanes</span></code>
 object specification
-</p><p>This object contains the DOM elements in which overlays are rendered. They are listed below with 'Pane 0' at the bottom and 'Pane 4' at the top.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="object MapPanes - Properties">
+</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record MapPanes - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

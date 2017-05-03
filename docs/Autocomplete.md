@@ -39,6 +39,11 @@ class
 <div class="desc">Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.</div></td>
 </tr>
 <tr>
+<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md"><span>AutocompleteOptions</span></a><span>)</span></code></td>
+<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<div class="desc"></div></td>
+</tr>
+<tr>
 <td><code><span>setTypes(<wbr>types:Array&lt;string&gt;)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the types of predictions to be returned. For a list of supported types, see the <a href="https://developers.google.com/places/supported_types#table3"> developer's guide</a>. If no type is specified, all types will be returned. The <code>setTypes</code> method accepts a single element array.</div></td>

@@ -9,7 +9,7 @@ object specification
 <tr>
 <td><code><span>getTileUrl(<wbr>pano:string,<wbr> tileZoom:number,<wbr> tileX:number,<wbr> tileY:number)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
-<div class="desc">Gets the tile image URL for the specified tile.<br> <code>pano</code> is the panorama ID of the Street View tile.<br> <code>tileZoom</code> is the zoom level of the tile.<br> <code>tileX</code> is the x-coordinate of the tile.<br> <code>tileY</code> is the y-coordinate of the tile.<br> Returns the URL for the tile image.<br></div></td>
+<div class="desc">Gets the tile image URL for the specified tile.<br> This is a custom method which you must implement, to supply your custom tiles. The API calls this method, supplying the following parameters:<br> <code>pano</code> is the panorama ID of the Street View tile.<br> <code>tileZoom</code> is the zoom level of the tile.<br> <code>tileX</code> is the x-coordinate of the tile.<br> <code>tileY</code> is the y-coordinate of the tile.<br> Your custom method must return the URL for the tile image.<br></div></td>
 </tr>
 </tbody>
 </table></div><div class="devsite-table-wrapper"><table class="properties responsive" summary="record StreetViewTileData - Properties">

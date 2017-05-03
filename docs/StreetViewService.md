@@ -1,7 +1,17 @@
 <h2 id="StreetViewService"> StreetViewService class </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewService</span></code>
 class
-</p><p>A <code>StreetViewService</code> object performs searches for Street View data.</p><div class="devsite-table-wrapper"><table class="methods responsive" summary="class StreetViewService - Methods">
+</p><p>A <code>StreetViewService</code> object performs searches for Street View data.</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class StreetViewService - Constructor">
+<thead>
+<tr><th colspan="2">Constructor</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code><span>StreetViewService()</span></code></td>
+<td>Creates a <code><span>StreetViewService</span></code>, which provides an interface to the data stored in the Street View service.</td>
+</tr>
+</tbody>
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class StreetViewService - Methods">
 <thead>
 <tr><th colspan="2">Methods</th>
 </tr></thead>

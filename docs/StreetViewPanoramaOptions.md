@@ -112,6 +112,11 @@ object specification
 <div class="desc">If <code>true</code>, the Street View panorama is visible on load.</div></td>
 </tr>
 <tr>
+<td><code><span>zoom</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The zoom of the panorama, specified as a number. A zoom of 0 gives a 180 degrees Field of View.</div></td>
+</tr>
+<tr>
 <td><code><span>zoomControl</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">The enabled/disabled state of the zoom control.</div></td>

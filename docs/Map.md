@@ -19,9 +19,9 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>fitBounds(<wbr>bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md"><span>LatLngBoundsLiteral</span></a><span>)</span></code></td>
+<td><code><span>fitBounds(<wbr>bounds:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md"><span>LatLngBounds</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md"><span>LatLngBoundsLiteral</span></a><span>,<wbr> padding?:number)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
-<div class="desc">Sets the viewport to contain the given bounds.</div></td>
+<div class="desc">Sets the viewport to contain the given bounds.<br> <strong>Note:</strong> When the map is set to <code>display: none</code>, the <code>fitBounds</code> function reads the map's size as 0x0, and therefore does not do anything. To change the viewport while the map is hidden, set the map to <code>visibility: hidden</code>, thereby ensuring the map div has an actual size.</div></td>
 </tr>
 <tr>
 <td><code><span>getBounds()</span></code></td>
