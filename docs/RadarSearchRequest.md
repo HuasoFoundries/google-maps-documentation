@@ -1,7 +1,7 @@
 <h2 id="RadarSearchRequest"> RadarSearchRequest object specification </h2><p>
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">RadarSearchRequest</span></code>
 object specification
-</p><p>A Radar Search request to be sent to the <code>PlacesService</code>.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record RadarSearchRequest - Properties">
+</p><p>A Radar Search request to be sent to the <code>PlacesService</code>. Note: Radar Search is <strong>deprecated</strong> as of June 30, 2018. After that time, this feature will no longer be available.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record RadarSearchRequest - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>
