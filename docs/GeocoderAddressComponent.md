@@ -1,7 +1,7 @@
 <h2 id="GeocoderAddressComponent"> GeocoderAddressComponent object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderAddressComponent</span></code>
 object specification
-</p><p>A single address component within a <code>GeocoderResult</code>. A full address may consist of multiple address components.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="object GeocoderAddressComponent - Properties">
+</p><p>A single address component within a <code>GeocoderResult</code>. A full address may consist of multiple address components.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record GeocoderAddressComponent - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

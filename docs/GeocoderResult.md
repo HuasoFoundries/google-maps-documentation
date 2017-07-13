@@ -1,7 +1,7 @@
 <h2 id="GeocoderResult"> GeocoderResult object specification </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderResult</span></code>
 object specification
-</p><p>A single geocoder result retrieved from the geocode server. A geocode request may return multiple result objects. Note that though this result is "JSON-like," it is not strictly JSON, as it indirectly includes a <code>LatLng</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="object GeocoderResult - Properties">
+</p><p>A single geocoder result retrieved from the geocode server. A geocode request may return multiple result objects. Note that though this result is "JSON-like," it is not strictly JSON, as it indirectly includes a <code>LatLng</code> object.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record GeocoderResult - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>
