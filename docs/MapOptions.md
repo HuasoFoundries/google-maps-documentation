@@ -29,7 +29,7 @@ object specification
 <tr>
 <td><code><span>disableDoubleClickZoom</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Enables/disables zoom and center on double click. Enabled by default.</div></td>
+<div class="desc">Enables/disables zoom and center on double click. Enabled by default. <p><strong>Note</strong>: This property is <strong>not recommended</strong>. To disable zooming on double click, you can use the <code>gestureHandling</code> property, and set it to <code>"none"</code>.</p></div></td>
 </tr>
 <tr>
 <td><code><span>draggable</span></code></td>
@@ -59,7 +59,7 @@ object specification
 <tr>
 <td><code><span>gestureHandling</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">This setting controls how gestures on the map are handled. Allowed values: <ul> <li> <code>"cooperative"</code>: Two-finger touch gestures pan and zoom the map, as do all mouse gestures. One-finger touch gestures are not handled by the map. In this mode, the map <em>cooperates</em> with the page, so that one-finger touch gestures can pan the page. </li><li> <code>"greedy"</code>: All touch gestures pan or zoom the map. </li><li> <code>"none"</code>: The map cannot be panned or zoomed by user gestures. </li><li> <code>"auto"</code>: (default) Gesture handling is either cooperative or greedy, depending on whether the page is scrollable or not. </li></ul></div></td>
+<div class="desc">This setting controls how gestures on the map are handled. Allowed values: <ul> <li> <code>"cooperative"</code>: Scroll events and one-finger touch gestures scroll the page, and do not zoom or pan the map. Two-finger touch gestures pan and zoom the map. Scroll events with a ctrl key or âŒ˜ key pressed zoom the map.<br> In this mode the map <em>cooperates</em> with the page. </li><li> <code>"greedy"</code>: All touch gestures and scroll events pan or zoom the map. </li><li> <code>"none"</code>: The map cannot be panned or zoomed by user gestures. </li><li> <code>"auto"</code>: (default) Gesture handling is either cooperative or greedy, depending on whether the page is scrollable. </li></ul></div></td>
 </tr>
 <tr>
 <td><code><span>heading</span></code></td>
@@ -134,7 +134,7 @@ object specification
 <tr>
 <td><code><span>scrollwheel</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">If false, disables scrollwheel zooming on the map. The scrollwheel is enabled by default.</div></td>
+<div class="desc">If false, disables zooming on the map using a mouse scroll wheel. The scrollwheel is enabled by default. <p><strong>Note</strong>: This property is <strong>not recommended</strong>. To disable zooming using scrollwheel, you can use the <code>gestureHandling</code> property, and set it to either <code>"cooperative"</code> or <code>"none"</code>.</p></div></td>
 </tr>
 <tr>
 <td><code><span>streetView</span></code></td>
@@ -159,7 +159,7 @@ object specification
 <tr>
 <td><code><span>tilt</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">Controls the automatic switching behavior for the angle of incidence of the map. The only allowed values are <code>0</code> and <code>45</code>. The value <code>0</code> causes the map to always use a 0° overhead view regardless of the zoom level and viewport. The value <code>45</code> causes the tilt angle to automatically switch to 45 whenever 45° imagery is available for the current zoom level and viewport, and switch back to 0 whenever 45° imagery is not available (this is the default behavior). 45° imagery is only available for <code>satellite</code> and <code>hybrid</code> map types, within some locations, and at some zoom levels. <b>Note:</b> <code>getTilt</code> returns the current tilt angle, not the value specified by this option. Because <code>getTilt</code> and this option refer to different things, do not <code>bind()</code> the <code>tilt</code> property; doing so may yield unpredictable effects.</div></td>
+<div class="desc">Controls the automatic switching behavior for the angle of incidence of the map. The only allowed values are <code>0</code> and <code>45</code>. The value <code>0</code> causes the map to always use a 0Â° overhead view regardless of the zoom level and viewport. The value <code>45</code> causes the tilt angle to automatically switch to 45 whenever 45Â° imagery is available for the current zoom level and viewport, and switch back to 0 whenever 45Â° imagery is not available (this is the default behavior). 45Â° imagery is only available for <code>satellite</code> and <code>hybrid</code> map types, within some locations, and at some zoom levels. <b>Note:</b> <code>getTilt</code> returns the current tilt angle, not the value specified by this option. Because <code>getTilt</code> and this option refer to different things, do not <code>bind()</code> the <code>tilt</code> property; doing so may yield unpredictable effects.</div></td>
 </tr>
 <tr>
 <td><code><span>zoom</span></code></td>

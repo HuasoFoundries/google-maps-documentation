@@ -27,11 +27,6 @@ object specification
 <div class="desc"><code>LatLng</code> (or <code>LatLngLiteral</code>) for which to search. The geocoder performs a reverse geocode. See <a href="https://developers.google.com/maps/documentation/javascript/geocoding#ReverseGeocoding"> Reverse Geocoding</a> for more information. One, and only one, of <code>address</code>, <code>location</code> and <code>placeId</code> must be supplied.</div></td>
 </tr>
 <tr>
-<td><code><span>newForwardGeocoder</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Use the new forward geocoder scorer. Optional.</div></td>
-</tr>
-<tr>
 <td><code><span>placeId</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">The place ID associated with the location. Place IDs uniquely identify a place in the Google Places database and on Google Maps. Learn more about <a href="https://developers.google.com/places/place-id">place IDs</a> in the Places API developer guide. The geocoder performs a reverse geocode. See <a href="https://developers.google.com/maps/documentation/javascript/geocoding#ReverseGeocoding"> Reverse Geocoding</a> for more information. One, and only one, of <code>address</code>, <code>location</code> and <code>placeId</code> must be supplied.</div></td>

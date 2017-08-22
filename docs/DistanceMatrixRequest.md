@@ -32,11 +32,6 @@ object specification
 <div class="desc">Settings that apply only to requests where <code>travelMode</code> is <code>DRIVING</code>. This object will have no effect for other travel modes.</div></td>
 </tr>
 <tr>
-<td><code><span>newForwardGeocoder</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Use the new forward geocoder scorer. Optional.</div></td>
-</tr>
-<tr>
 <td><code><span>origins</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;(string|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a>)&gt;</code></div>
 <div class="desc">An array containing origin address strings, or <code>LatLng</code>, or <code>Place</code> objects, from which to calculate distance and time. Required.</div></td>

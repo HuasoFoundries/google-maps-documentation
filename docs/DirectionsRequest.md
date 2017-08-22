@@ -32,11 +32,6 @@ object specification
 <div class="desc">Settings that apply only to requests where <code>travelMode</code> is <code>DRIVING</code>. This object will have no effect for other travel modes.</div></td>
 </tr>
 <tr>
-<td><code><span>newForwardGeocoder</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Use the new forward geocoder scorer. Optional.</div></td>
-</tr>
-<tr>
 <td><code><span>optimizeWaypoints</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">If set to true, the <code>DirectionService</code> will attempt to re-order the supplied intermediate waypoints to minimize overall cost of the route. If waypoints are optimized, inspect <code>DirectionsRoute.waypoint_order</code> in the response to determine the new ordering.</div></td>
