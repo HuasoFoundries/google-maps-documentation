@@ -29,8 +29,7 @@ class
 <div class="desc"></div></td>
 </tr>
 <tr>
-<td><code><span>setData(<wbr>data:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md"><span>MVCArray</span></a><span>&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md"><span>WeightedLocation</span></a><span>&gt;|<wbr>
-Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md"><span>WeightedLocation</span></a><span>&gt;)</span></code></td>
+<td><code><span>setData(<wbr>data:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md"><span>MVCArray</span></a><span>&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md"><span>WeightedLocation</span></a><span>&gt;|<wbr>Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md"><span>WeightedLocation</span></a><span>&gt;)</span></code></td>
 <td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Sets the data points to be displayed by this heatmap.</div></td>
 </tr>

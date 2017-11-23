@@ -22,8 +22,7 @@ class
 <div class="desc">Adds the given listener function to the given event name. Returns an identifier for this listener that can be used with <code>google.maps.event.removeListener</code>.</div></td>
 </tr>
 <tr>
-<td><code><span>bindTo(<wbr>key:string,<wbr> target:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md"><span>MVCObject</span></a><span>,<wbr> targetKey?:string,<wbr> noNotify?:boolean)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<td><code><span>bindTo(<wbr>key:string,<wbr> target:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md"><span>MVCObject</span></a><span>,<wbr> targetKey?:string,<wbr> noNotify?:boolean)</span></code></td><td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
 <div class="desc">Binds a View to a Model.</div></td>
 </tr>
 <tr>

@@ -59,7 +59,7 @@ object specification
 <tr>
 <td><code><span>gestureHandling</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">This setting controls how gestures on the map are handled. Allowed values: <ul> <li> <code>"cooperative"</code>: Scroll events and one-finger touch gestures scroll the page, and do not zoom or pan the map. Two-finger touch gestures pan and zoom the map. Scroll events with a ctrl key or ⌘ key pressed zoom the map.<br> In this mode the map <em>cooperates</em> with the page. </li><li> <code>"greedy"</code>: All touch gestures and scroll events pan or zoom the map. </li><li> <code>"none"</code>: The map cannot be panned or zoomed by user gestures. </li><li> <code>"auto"</code>: (default) Gesture handling is either cooperative or greedy, depending on whether the page is scrollable. </li></ul></div></td>
+<div class="desc">This setting controls how the API handles gestures on the map. Allowed values: <ul> <li> <code>"cooperative"</code>: Scroll events and one-finger touch gestures scroll the page, and do not zoom or pan the map. Two-finger touch gestures pan and zoom the map. Scroll events with a ctrl key or ⌘ key pressed zoom the map.<br> In this mode the map <em>cooperates</em> with the page. </li><li> <code>"greedy"</code>: All touch gestures and scroll events pan or zoom the map. </li><li> <code>"none"</code>: The map cannot be panned or zoomed by user gestures. </li><li> <code>"auto"</code>: (default) Gesture handling is either cooperative or greedy, depending on whether the page is scrollable or in an iframe. </li></ul></div></td>
 </tr>
 <tr>
 <td><code><span>heading</span></code></td>
