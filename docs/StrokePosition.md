@@ -3,18 +3,18 @@
 constants
 </p><p>The possible positions of the stroke on a polygon.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="StrokePosition constants">
 <thead>
-<tr><th colspan="2">Constant</th>
+<tr><th colspan="2">Constants</th>
 </tr></thead>
 <tbody>
-<tr>
+<tr id="StrokePosition.CENTER">
 <td><code><span>CENTER</span></code></td>
 <td>The stroke is centered on the polygon's path, with half the stroke inside the polygon and half the stroke outside the polygon.</td>
 </tr>
-<tr>
+<tr id="StrokePosition.INSIDE">
 <td><code><span>INSIDE</span></code></td>
 <td>The stroke lies inside the polygon.</td>
 </tr>
-<tr>
+<tr id="StrokePosition.OUTSIDE">
 <td><code><span>OUTSIDE</span></code></td>
 <td>The stroke lies outside the polygon.</td>
 </tr>

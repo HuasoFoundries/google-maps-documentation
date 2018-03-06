@@ -3,12 +3,14 @@
 class
 </p><p>A service for computing directions between two or more places.</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class DirectionsService - Constructor">
 <thead>
-<tr><th colspan="2">Constructor</th>
+<tr><th colspan="2" id="DirectionsService.constructor">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>DirectionsService()</span></code></td>
-<td>Creates a new instance of a <code><span>DirectionsService</span></code> that sends directions queries to Google servers.</td>
+<td><code><span>DirectionsService</span></code></td>
+<td><div><code>DirectionsService()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc">Creates a new instance of a <code>DirectionsService</code> that sends directions queries to Google servers.</div></td>
 </tr>
 </tbody>
 </table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class DirectionsService - Methods">
@@ -16,9 +18,14 @@ class
 <tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
-<tr>
-<td><code><span>route(<wbr>request:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md"><span>DirectionsRequest</span></a><span>,<wbr> callback:function(<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md"><span>DirectionsResult</span></a><span>,<wbr> </span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStatus.md"><span>DirectionsStatus</span></a><span>))</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<tr id="DirectionsService.route">
+<td><code><span>route</span></code></td>
+<td><div><code>route(request, callback)</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>request</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md">DirectionsRequest</a></code></li>
+<li><code>callback</code>:&nbsp; <code>function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsResult.md">DirectionsResult</a>, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStatus.md">DirectionsStatus</a>)</code></li>
+</ul></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Issue a directions search request.</div></td>
 </tr>
 </tbody>

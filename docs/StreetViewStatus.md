@@ -3,18 +3,18 @@
 constants
 </p><p>The status returned by the <code>StreetViewService</code> on completion of a Street View request. These can be specified by value, or by using the constant's name. For example, <code>'OK'</code> or <code>google.maps.StreetViewStatus.OK</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="StreetViewStatus constants">
 <thead>
-<tr><th colspan="2">Constant</th>
+<tr><th colspan="2">Constants</th>
 </tr></thead>
 <tbody>
-<tr>
+<tr id="StreetViewStatus.OK">
 <td><code><span>OK</span></code></td>
 <td>The request was successful.</td>
 </tr>
-<tr>
+<tr id="StreetViewStatus.UNKNOWN_ERROR">
 <td><code><span>UNKNOWN_ERROR</span></code></td>
 <td>The request could not be successfully processed, yet the exact reason for failure is unknown.</td>
 </tr>
-<tr>
+<tr id="StreetViewStatus.ZERO_RESULTS">
 <td><code><span>ZERO_RESULTS</span></code></td>
 <td>There are no panoramas found that match the search criteria.</td>
 </tr>

@@ -3,26 +3,26 @@
 constants
 </p><p>The status returned by the <code>ElevationService</code> upon completion of an elevation request. Specify these by value, or by using the constant's name. For example, <code>'OK'</code> or <code>google.maps.ElevationStatus.OK</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="ElevationStatus constants">
 <thead>
-<tr><th colspan="2">Constant</th>
+<tr><th colspan="2">Constants</th>
 </tr></thead>
 <tbody>
-<tr>
+<tr id="ElevationStatus.INVALID_REQUEST">
 <td><code><span>INVALID_REQUEST</span></code></td>
 <td>This request was invalid.</td>
 </tr>
-<tr>
+<tr id="ElevationStatus.OK">
 <td><code><span>OK</span></code></td>
 <td>The request did not encounter any errors.</td>
 </tr>
-<tr>
+<tr id="ElevationStatus.OVER_QUERY_LIMIT">
 <td><code><span>OVER_QUERY_LIMIT</span></code></td>
 <td>The webpage has gone over the requests limit in too short a period of time.</td>
 </tr>
-<tr>
+<tr id="ElevationStatus.REQUEST_DENIED">
 <td><code><span>REQUEST_DENIED</span></code></td>
 <td>The webpage is not allowed to use the elevation service for some reason.</td>
 </tr>
-<tr>
+<tr id="ElevationStatus.UNKNOWN_ERROR">
 <td><code><span>UNKNOWN_ERROR</span></code></td>
 <td>A geocoding, directions or elevation request could not be successfully processed, yet the exact reason for the failure is not known.</td>
 </tr>

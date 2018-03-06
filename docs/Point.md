@@ -3,12 +3,17 @@
 class
 </p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class Point - Constructor">
 <thead>
-<tr><th colspan="2">Constructor</th>
+<tr><th colspan="2" id="Point.constructor">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Point(<wbr>x:number,<wbr> y:number)</span></code></td>
-<td>A point on a two-dimensional plane.</td>
+<td><code><span>Point</span></code></td>
+<td><div><code>Point(x, y)</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>x</code>:&nbsp; <code>number</code></li>
+<li><code>y</code>:&nbsp; <code>number</code></li>
+</ul></div>
+<div class="desc">A point on a two-dimensional plane.</div></td>
 </tr>
 </tbody>
 </table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Point - Methods">
@@ -16,14 +21,20 @@ class
 <tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
-<tr>
-<td><code><span>equals(<wbr>other:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md"><span>Point</span></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
+<tr id="Point.equals">
+<td><code><span>equals</span></code></td>
+<td><div><code>equals(other)</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>other</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md">Point</a></code></li>
+</ul></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">Compares two Points</div></td>
 </tr>
-<tr>
-<td><code><span>toString()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>string</code></div>
+<tr id="Point.toString">
+<td><code><span>toString</span></code></td>
+<td><div><code>toString()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code>string</code></div>
 <div class="desc">Returns a string representation of this Point.</div></td>
 </tr>
 </tbody>
@@ -32,12 +43,12 @@ class
 <tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
-<tr>
+<tr id="Point.x">
 <td><code><span>x</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
 <div class="desc">The X coordinate</div></td>
 </tr>
-<tr>
+<tr id="Point.y">
 <td><code><span>y</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
 <div class="desc">The Y coordinate</div></td>

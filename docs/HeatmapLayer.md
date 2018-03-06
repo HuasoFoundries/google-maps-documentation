@@ -5,12 +5,16 @@ class
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
 </p><h4>Library</h4><p>visualization</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class HeatmapLayer - Constructor">
 <thead>
-<tr><th colspan="2">Constructor</th>
+<tr><th colspan="2" id="HeatmapLayer.constructor">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>HeatmapLayer(<wbr>opts?:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md"><span>HeatmapLayerOptions</span></a><span>)</span></code></td>
-<td>Creates a new instance of <code><span>HeatmapLayer</span></code>.</td>
+<td><code><span>HeatmapLayer</span></code></td>
+<td><div><code>HeatmapLayer([opts])</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>opts</code> (optional):&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md">HeatmapLayerOptions</a></code></li>
+</ul></div>
+<div class="desc">Creates a new instance of <code>HeatmapLayer</code>.</div></td>
 </tr>
 </tbody>
 </table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class HeatmapLayer - Methods">
@@ -18,29 +22,45 @@ class
 <tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
-<tr>
-<td><code><span>getData()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md">WeightedLocation</a>&gt;</code></div>
+<tr id="HeatmapLayer.getData">
+<td><code><span>getData</span></code></td>
+<td><div><code>getData()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md">WeightedLocation</a>&gt;</code></div>
 <div class="desc">Returns the data points currently displayed by this heatmap.</div></td>
 </tr>
-<tr>
-<td><code><span>getMap()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
+<tr id="HeatmapLayer.getMap">
+<td><code><span>getMap</span></code></td>
+<td><div><code>getMap()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
 <div class="desc"></div></td>
 </tr>
-<tr>
-<td><code><span>setData(<wbr>data:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md"><span>MVCArray</span></a><span>&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md"><span>WeightedLocation</span></a><span>&gt;|<wbr>Array&lt;</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md"><span>LatLng</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md"><span>WeightedLocation</span></a><span>&gt;)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<tr id="HeatmapLayer.setData">
+<td><code><span>setData</span></code></td>
+<td><div><code>setData(data)</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>data</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCArray.md">MVCArray</a>&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md">WeightedLocation</a>&gt;|Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/WeightedLocation.md">WeightedLocation</a>&gt;</code></li>
+</ul></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Sets the data points to be displayed by this heatmap.</div></td>
 </tr>
-<tr>
-<td><code><span>setMap(<wbr>map:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md"><span>Map</span></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<tr id="HeatmapLayer.setMap">
+<td><code><span>setMap</span></code></td>
+<td><div><code>setMap(map)</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>map</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></li>
+</ul></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Renders the heatmap on the specified map. If map is set to null, the heatmap will be removed.</div></td>
 </tr>
-<tr>
-<td><code><span>setOptions(<wbr>options:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md"><span>HeatmapLayerOptions</span></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<tr id="HeatmapLayer.setOptions">
+<td><code><span>setOptions</span></code></td>
+<td><div><code>setOptions(options)</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>options</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/HeatmapLayerOptions.md">HeatmapLayerOptions</a></code></li>
+</ul></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc"></div></td>
 </tr>
 </tbody>

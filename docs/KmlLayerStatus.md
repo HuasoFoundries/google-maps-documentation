@@ -3,42 +3,42 @@
 constants
 </p><p>The status returned by <code>KmlLayer</code> on the completion of loading a document. Specify these by value, or by using the constant's name. For example, <code>'OK'</code> or <code>google.maps.KmlLayerStatus.OK</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="KmlLayerStatus constants">
 <thead>
-<tr><th colspan="2">Constant</th>
+<tr><th colspan="2">Constants</th>
 </tr></thead>
 <tbody>
-<tr>
+<tr id="KmlLayerStatus.DOCUMENT_NOT_FOUND">
 <td><code><span>DOCUMENT_NOT_FOUND</span></code></td>
 <td>The document could not be found. Most likely it is an invalid URL, or the document is not publicly available.</td>
 </tr>
-<tr>
+<tr id="KmlLayerStatus.DOCUMENT_TOO_LARGE">
 <td><code><span>DOCUMENT_TOO_LARGE</span></code></td>
 <td>The document exceeds the file size limits of KmlLayer.</td>
 </tr>
-<tr>
+<tr id="KmlLayerStatus.FETCH_ERROR">
 <td><code><span>FETCH_ERROR</span></code></td>
 <td>The document could not be fetched.</td>
 </tr>
-<tr>
+<tr id="KmlLayerStatus.INVALID_DOCUMENT">
 <td><code><span>INVALID_DOCUMENT</span></code></td>
 <td>The document is not a valid KML, KMZ or GeoRSS document.</td>
 </tr>
-<tr>
+<tr id="KmlLayerStatus.INVALID_REQUEST">
 <td><code><span>INVALID_REQUEST</span></code></td>
 <td>The <code><span>KmlLayer</span></code> is invalid.</td>
 </tr>
-<tr>
+<tr id="KmlLayerStatus.LIMITS_EXCEEDED">
 <td><code><span>LIMITS_EXCEEDED</span></code></td>
 <td>The document exceeds the feature limits of KmlLayer.</td>
 </tr>
-<tr>
+<tr id="KmlLayerStatus.OK">
 <td><code><span>OK</span></code></td>
 <td>The layer loaded successfully.</td>
 </tr>
-<tr>
+<tr id="KmlLayerStatus.TIMED_OUT">
 <td><code><span>TIMED_OUT</span></code></td>
 <td>The document could not be loaded within a reasonable amount of time.</td>
 </tr>
-<tr>
+<tr id="KmlLayerStatus.UNKNOWN">
 <td><code><span>UNKNOWN</span></code></td>
 <td>The document failed to load for an unknown reason.</td>
 </tr>

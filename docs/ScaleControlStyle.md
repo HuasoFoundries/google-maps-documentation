@@ -3,10 +3,10 @@
 constants
 </p><p>Identifiers for scale control ids.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="ScaleControlStyle constants">
 <thead>
-<tr><th colspan="2">Constant</th>
+<tr><th colspan="2">Constants</th>
 </tr></thead>
 <tbody>
-<tr>
+<tr id="ScaleControlStyle.DEFAULT">
 <td><code><span>DEFAULT</span></code></td>
 <td>The standard scale control.</td>
 </tr>

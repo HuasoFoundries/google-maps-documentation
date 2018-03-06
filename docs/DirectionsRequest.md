@@ -1,72 +1,72 @@
-<h2 id="DirectionsRequest"> DirectionsRequest object specification </h2><p>
+<h2 id="DirectionsRequest"> DirectionsRequest interface </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsRequest</span></code>
-object specification
-</p><p>A directions query to be sent to the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsService.md">DirectionsService</a></code>.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="record DirectionsRequest - Properties">
+interface
+</p><p>A directions query to be sent to the <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsService.md">DirectionsService</a></code>.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsRequest - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
-<tr>
+<tr id="DirectionsRequest.avoidFerries">
 <td><code><span>avoidFerries</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">If true, instructs the Directions service to avoid ferries where possible. Optional.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.avoidHighways">
 <td><code><span>avoidHighways</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">If true, instructs the Directions service to avoid highways where possible. Optional.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.avoidTolls">
 <td><code><span>avoidTolls</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">If true, instructs the Directions service to avoid toll roads where possible. Optional.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.destination">
 <td><code><span>destination</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a></code></div>
 <div class="desc">Location of destination. This can be specified as either a string to be geocoded, or a <code>LatLng</code>, or a <code>Place</code>. Required.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.drivingOptions">
 <td><code><span>drivingOptions</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DrivingOptions.md">DrivingOptions</a></code></div>
 <div class="desc">Settings that apply only to requests where <code>travelMode</code> is <code>DRIVING</code>. This object will have no effect for other travel modes.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.optimizeWaypoints">
 <td><code><span>optimizeWaypoints</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">If set to true, the <code>DirectionService</code> will attempt to re-order the supplied intermediate waypoints to minimize overall cost of the route. If waypoints are optimized, inspect <code>DirectionsRoute.waypoint_order</code> in the response to determine the new ordering.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.origin">
 <td><code><span>origin</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md">Place</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a></code></div>
 <div class="desc">Location of origin. This can be specified as either a string to be geocoded, or a <code>LatLng</code>, or a <code>Place</code>. Required.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.provideRouteAlternatives">
 <td><code><span>provideRouteAlternatives</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">Whether or not route alternatives should be provided. Optional.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.region">
 <td><code><span>region</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">Region code used as a bias for geocoding requests. Optional.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.transitOptions">
 <td><code><span>transitOptions</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md">TransitOptions</a></code></div>
 <div class="desc">Settings that apply only to requests where <code>travelMode</code> is TRANSIT. This object will have no effect for other travel modes.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.travelMode">
 <td><code><span>travelMode</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TravelMode.md">TravelMode</a></code></div>
 <div class="desc">Type of routing requested. Required.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.unitSystem">
 <td><code><span>unitSystem</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/UnitSystem.md">UnitSystem</a></code></div>
 <div class="desc">Preferred unit system to use when displaying distance. Defaults to the unit system used in the country of origin.</div></td>
 </tr>
-<tr>
+<tr id="DirectionsRequest.waypoints">
 <td><code><span>waypoints</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsWaypoint.md">DirectionsWaypoint</a>&gt;</code></div>
 <div class="desc">Array of intermediate waypoints. Directions are calculated from the origin to the destination by way of each waypoint in this array. See the <a href="https://developers.google.com/maps/documentation/javascript/directions#UsageLimits"> developer's guide</a> for the maximum number of waypoints allowed. Waypoints are not supported for transit directions. Optional.</div></td>

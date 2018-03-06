@@ -3,14 +3,14 @@
 constants
 </p><p>Ranking options for a PlaceSearchRequest.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="RankBy constants">
 <thead>
-<tr><th colspan="2">Constant</th>
+<tr><th colspan="2">Constants</th>
 </tr></thead>
 <tbody>
-<tr>
+<tr id="RankBy.DISTANCE">
 <td><code><span>DISTANCE</span></code></td>
 <td>Ranks place results by distance from the location.</td>
 </tr>
-<tr>
+<tr id="RankBy.PROMINENCE">
 <td><code><span>PROMINENCE</span></code></td>
 <td>Ranks place results by their prominence.</td>
 </tr>

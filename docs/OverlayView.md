@@ -5,12 +5,14 @@ class
 <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code>.
 </p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class OverlayView - Constructor">
 <thead>
-<tr><th colspan="2">Constructor</th>
+<tr><th colspan="2" id="OverlayView.constructor">Constructor</th>
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>OverlayView()</span></code></td>
-<td>Creates an <code><span>OverlayView</span></code>.</td>
+<td><code><span>OverlayView</span></code></td>
+<td><div><code>OverlayView()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc">Creates an <code>OverlayView</code>.</div></td>
 </tr>
 </tbody>
 </table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class OverlayView - Methods">
@@ -18,39 +20,55 @@ class
 <tr><th colspan="2">Methods</th>
 </tr></thead>
 <tbody>
-<tr>
-<td><code><span>draw()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<tr id="OverlayView.draw">
+<td><code><span>draw</span></code></td>
+<td><div><code>draw()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Implement this method to draw or update the overlay. This method is called after onAdd() and when the position from projection.fromLatLngToPixel() would return a new value for a given LatLng. This can happen on change of zoom, center, or map type. It is not necessarily called on drag or resize.</div></td>
 </tr>
-<tr>
-<td><code><span>getMap()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a></code></div>
+<tr id="OverlayView.getMap">
+<td><code><span>getMap</span></code></td>
+<td><div><code>getMap()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a></code></div>
 <div class="desc"></div></td>
 </tr>
-<tr>
-<td><code><span>getPanes()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapPanes.md">MapPanes</a></code></div>
+<tr id="OverlayView.getPanes">
+<td><code><span>getPanes</span></code></td>
+<td><div><code>getPanes()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapPanes.md">MapPanes</a></code></div>
 <div class="desc">Returns the panes in which this OverlayView can be rendered. The panes are not initialized until <code>onAdd</code> is called by the API.</div></td>
 </tr>
-<tr>
-<td><code><span>getProjection()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapCanvasProjection.md">MapCanvasProjection</a></code></div>
+<tr id="OverlayView.getProjection">
+<td><code><span>getProjection</span></code></td>
+<td><div><code>getProjection()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MapCanvasProjection.md">MapCanvasProjection</a></code></div>
 <div class="desc">Returns the <code>MapCanvasProjection</code> object associated with this <code>OverlayView</code>. The projection is not initialized until <code>onAdd</code> is called by the API.</div></td>
 </tr>
-<tr>
-<td><code><span>onAdd()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<tr id="OverlayView.onAdd">
+<td><code><span>onAdd</span></code></td>
+<td><div><code>onAdd()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Implement this method to initialize the overlay DOM elements. This method is called once after setMap() is called with a valid map. At this point, panes and projection will have been initialized.</div></td>
 </tr>
-<tr>
-<td><code><span>onRemove()</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<tr id="OverlayView.onRemove">
+<td><code><span>onRemove</span></code></td>
+<td><div><code>onRemove()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Implement this method to remove your elements from the DOM. This method is called once following a call to setMap(null).</div></td>
 </tr>
-<tr>
-<td><code><span>setMap(<wbr>map:</span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md"><span>Map</span></a><span>|<wbr></span><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md"><span>StreetViewPanorama</span></a><span>)</span></code></td>
-<td><div><strong>Return Value:</strong>&nbsp; <code>None</code></div>
+<tr id="OverlayView.setMap">
+<td><code><span>setMap</span></code></td>
+<td><div><code>setMap(map)</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>map</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StreetViewPanorama.md">StreetViewPanorama</a></code></li>
+</ul></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Adds the overlay to the map or panorama.</div></td>
 </tr>
 </tbody>

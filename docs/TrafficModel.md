@@ -3,18 +3,18 @@
 constants
 </p><p>The assumptions to use when predicting duration in traffic. Specified as part of a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRequest.md">DirectionsRequest</a></code> or <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixRequest.md">DistanceMatrixRequest</a></code>. Specify these by value, or by using the constant's name. For example, <code>'bestguess'</code> or <code>google.maps.TrafficModel.BEST_GUESS</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="TrafficModel constants">
 <thead>
-<tr><th colspan="2">Constant</th>
+<tr><th colspan="2">Constants</th>
 </tr></thead>
 <tbody>
-<tr>
+<tr id="TrafficModel.BEST_GUESS">
 <td><code><span>BEST_GUESS</span></code></td>
 <td>Use historical traffic data to best estimate the time spent in traffic.</td>
 </tr>
-<tr>
+<tr id="TrafficModel.OPTIMISTIC">
 <td><code><span>OPTIMISTIC</span></code></td>
 <td>Use historical traffic data to make an optimistic estimate of what the duration in traffic will be.</td>
 </tr>
-<tr>
+<tr id="TrafficModel.PESSIMISTIC">
 <td><code><span>PESSIMISTIC</span></code></td>
 <td>Use historical traffic data to make a pessimistic estimate of what the duration in traffic will be.</td>
 </tr>

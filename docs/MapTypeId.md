@@ -3,22 +3,22 @@
 constants
 </p><p>Identifiers for common MapTypes. Specify these by value, or by using the constant's name. For example, <code>'satellite'</code> or <code>google.maps.MapTypeId.SATELLITE</code>.</p><div class="devsite-table-wrapper"><table class="constants responsive" summary="MapTypeId constants">
 <thead>
-<tr><th colspan="2">Constant</th>
+<tr><th colspan="2">Constants</th>
 </tr></thead>
 <tbody>
-<tr>
+<tr id="MapTypeId.HYBRID">
 <td><code><span>HYBRID</span></code></td>
 <td>This map type displays a transparent layer of major streets on satellite images.</td>
 </tr>
-<tr>
+<tr id="MapTypeId.ROADMAP">
 <td><code><span>ROADMAP</span></code></td>
 <td>This map type displays a normal street map.</td>
 </tr>
-<tr>
+<tr id="MapTypeId.SATELLITE">
 <td><code><span>SATELLITE</span></code></td>
 <td>This map type displays satellite images.</td>
 </tr>
-<tr>
+<tr id="MapTypeId.TERRAIN">
 <td><code><span>TERRAIN</span></code></td>
 <td>This map type displays maps with physical features such as terrain and vegetation.</td>
 </tr>
