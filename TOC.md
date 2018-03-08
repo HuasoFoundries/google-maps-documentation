@@ -257,8 +257,18 @@ in sync, versioned copy of google.maps API v3 documentation
 * [Place](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Place.md)
 * [Time](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Time.md)
 * [TrafficModel](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TrafficModel.md)
+* [TransitAgency](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitAgency.md)
+* [TransitDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitDetails.md)
+* [TransitFare](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitFare.md)
+* [TransitLine](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitLine.md)
+* [TransitMode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitMode.md)
+* [TransitOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md)
+* [TransitRoutePreference](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitRoutePreference.md)
+* [TransitStop](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitStop.md)
+* [TransitVehicle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitVehicle.md)
 * [TravelMode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TravelMode.md)
 * [UnitSystem](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/UnitSystem.md)
+* [VehicleType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/VehicleType.md)
 
 #### Distance Matrix 
 
@@ -269,19 +279,6 @@ in sync, versioned copy of google.maps API v3 documentation
 * [DistanceMatrixResponseRow](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixResponseRow.md)
 * [DistanceMatrixService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixService.md)
 * [DistanceMatrixStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DistanceMatrixStatus.md)
-
-#### Transit 
-
-* [TransitAgency](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitAgency.md)
-* [TransitDetails](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitDetails.md)
-* [TransitFare](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitFare.md)
-* [TransitLine](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitLine.md)
-* [TransitMode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitMode.md)
-* [TransitOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitOptions.md)
-* [TransitRoutePreference](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitRoutePreference.md)
-* [TransitStop](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitStop.md)
-* [TransitVehicle](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TransitVehicle.md)
-* [VehicleType](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/VehicleType.md)
 
 #### Elevation 
 
@@ -294,4 +291,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Sunday, March 04, 2018
+Last updated Tuesday, March 06, 2018
