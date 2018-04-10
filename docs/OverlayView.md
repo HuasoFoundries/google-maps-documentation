@@ -25,7 +25,7 @@ class
 <td><div><code>draw()</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
-<div class="desc">Implement this method to draw or update the overlay. This method is called after onAdd() and when the position from projection.fromLatLngToPixel() would return a new value for a given LatLng. This can happen on change of zoom, center, or map type. It is not necessarily called on drag or resize.</div></td>
+<div class="desc">Implement this method to draw or update the overlay. Use the position from projection.fromLatLngToDivPixel() to correctly position the overlay relative to the MapPanes. This method is called after onAdd(), and is called on change of zoom or center. It is not recommended to do computationally expensive work in this method.</div></td>
 </tr>
 <tr id="OverlayView.getMap">
 <td><code><span>getMap</span></code></td>

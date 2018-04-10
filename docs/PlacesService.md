@@ -42,13 +42,13 @@ class
 </tr>
 <tr id="PlacesService.radarSearch">
 <td><code><span>radarSearch</span></code></td>
-<td><div><code>radarSearch(request, callback)</code></div>
+<td><aside class="warning"><p><b>Notice:</b> Radar Search is <strong>deprecated</strong> as of June 30, 2017. This feature will be turned down on June 30, 2018, and will no longer be available after that date.</p></aside><div><code>radarSearch(request, callback)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>request</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RadarSearchRequest.md">RadarSearchRequest</a></code></li>
 <li><code>callback</code>:&nbsp; <code>function(Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md">PlaceResult</a>&gt;, <a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md">PlacesServiceStatus</a>)</code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
-<div class="desc">Similar to the <code>nearbySearch</code> function, with the following differences: the search response will include up to 200 places, identified only by their geographic coordinates and <code>place_id</code>. Notice: Radar Search is <strong>deprecated</strong> as of June 30, 2017. This feature will be turned down on June 30, 2018, and will no longer be available after that date.</div></td>
+<div class="desc">Similar to the <code>nearbySearch</code> function, with the following differences: the search response will include up to 200 places, identified only by their geographic coordinates and <code>place_id</code>.</div></td>
 </tr>
 <tr id="PlacesService.textSearch">
 <td><code><span>textSearch</span></code></td>

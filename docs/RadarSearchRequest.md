@@ -1,7 +1,7 @@
 <h2 id="RadarSearchRequest"> RadarSearchRequest interface </h2><p>
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">RadarSearchRequest</span></code>
 interface
-</p><p>A Radar Search request to be sent to the <code>PlacesService</code>. Notice: Radar Search is <strong>deprecated</strong> as of June 30, 2017. This feature will be turned down on June 30, 2018, and will no longer be available after that date.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface RadarSearchRequest - Properties">
+</p><aside class="warning"><p><b>Notice:</b> Radar Search is <strong>deprecated</strong> as of June 30, 2017. This feature will be turned down on June 30, 2018, and will no longer be available after that date.</p></aside><p>A Radar Search request to be sent to the <code>PlacesService</code>.</p><h4>Library</h4><p>places</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface RadarSearchRequest - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

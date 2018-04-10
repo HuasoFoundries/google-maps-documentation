@@ -34,7 +34,7 @@ interface
 <tr id="DirectionsRequest.optimizeWaypoints">
 <td><code><span>optimizeWaypoints</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">If set to true, the <code>DirectionService</code> will attempt to re-order the supplied intermediate waypoints to minimize overall cost of the route. If waypoints are optimized, inspect <code>DirectionsRoute.waypoint_order</code> in the response to determine the new ordering.</div></td>
+<div class="desc">If set to true, the <code>DirectionsService</code> will attempt to re-order the supplied intermediate waypoints to minimize overall cost of the route. If waypoints are optimized, inspect <code>DirectionsRoute.waypoint_order</code> in the response to determine the new ordering.</div></td>
 </tr>
 <tr id="DirectionsRequest.origin">
 <td><code><span>origin</span></code></td>

@@ -124,12 +124,13 @@ class
 </tr>
 <tr id="Map.panToBounds">
 <td><code><span>panToBounds</span></code></td>
-<td><div><code>panToBounds(latLngBounds)</code></div>
+<td><div><code>panToBounds(latLngBounds[, padding])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>latLngBounds</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></li>
+<li><code>padding</code> (optional):&nbsp; <code>number|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Padding.md">Padding</a></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
-<div class="desc">Pans the map by the minimum amount necessary to contain the given <code>LatLngBounds</code>. It makes no guarantee where on the map the bounds will be, except that as much of the bounds as possible will be visible. The bounds will be positioned inside the area bounded by the map type and navigation (pan, zoom, and Street View) controls, if they are present on the map. If the bounds is larger than the map, the map will be shifted to include the northwest corner of the bounds. If the change in the map's position is less than both the width and height of the map, the transition will be smoothly animated.</div></td>
+<div class="desc">Pans the map by the minimum amount necessary to contain the given <code>LatLngBounds</code>. It makes no guarantee where on the map the bounds will be, except that the map will be panned to show as much of the bounds as possible inside <code>{currentMapSizeInPx} - {padding}</code>.</div></td>
 </tr>
 <tr id="Map.setCenter">
 <td><code><span>setCenter</span></code></td>
@@ -328,12 +329,6 @@ class
 <td><div><code>function()</code></div>
 <div class="desc"><strong>Arguments:</strong>&nbsp; None</div>
 <div class="desc">This event is fired when the projection has changed.</div></td>
-</tr>
-<tr id="Map.resize">
-<td><code><span>resize</span></code></td>
-<td><div><code>function()</code></div>
-<div class="desc"><strong>Arguments:</strong>&nbsp; None</div>
-<div class="desc">Developers should trigger this event on the map when the div changes size: <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/event.md">google.maps.event.trigger</a>(map, 'resize') </code>.</div></td>
 </tr>
 <tr id="Map.rightclick">
 <td><code><span>rightclick</span></code></td>
