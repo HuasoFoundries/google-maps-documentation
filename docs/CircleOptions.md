@@ -9,7 +9,7 @@ interface
 <tr id="CircleOptions.center">
 <td><code><span>center</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a></code></div>
-<div class="desc">The center</div></td>
+<div class="desc">The center of the Circle.</div></td>
 </tr>
 <tr id="CircleOptions.clickable">
 <td><code><span>clickable</span></code></td>
@@ -34,17 +34,17 @@ interface
 <tr id="CircleOptions.fillOpacity">
 <td><code><span>fillOpacity</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The fill opacity between 0.0 and 1.0</div></td>
+<div class="desc">The fill opacity between 0.0 and 1.0.</div></td>
 </tr>
 <tr id="CircleOptions.map">
 <td><code><span>map</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Map.md">Map</a></code></div>
-<div class="desc">Map on which to display Circle.</div></td>
+<div class="desc">Map on which to display the Circle.</div></td>
 </tr>
 <tr id="CircleOptions.radius">
 <td><code><span>radius</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The radius in meters on the Earth's surface</div></td>
+<div class="desc">The radius in meters on the Earth's surface.</div></td>
 </tr>
 <tr id="CircleOptions.strokeColor">
 <td><code><span>strokeColor</span></code></td>
@@ -54,7 +54,7 @@ interface
 <tr id="CircleOptions.strokeOpacity">
 <td><code><span>strokeOpacity</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The stroke opacity between 0.0 and 1.0</div></td>
+<div class="desc">The stroke opacity between 0.0 and 1.0.</div></td>
 </tr>
 <tr id="CircleOptions.strokePosition">
 <td><code><span>strokePosition</span></code></td>

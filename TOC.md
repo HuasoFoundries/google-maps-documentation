@@ -211,6 +211,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [RankBy](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RankBy.md)
 * [SearchBox](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBox.md)
 * [SearchBoxOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBoxOptions.md)
+* [StructuredFormatting](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StructuredFormatting.md)
 * [TextSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TextSearchRequest.md)
 
 #### Places Service 
@@ -291,4 +292,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Tuesday, April 03, 2018
+Last updated Wednesday, May 16, 2018

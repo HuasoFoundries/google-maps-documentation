@@ -52,6 +52,11 @@ interface
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">Name to display in the MapTypeControl. Optional.</div></td>
 </tr>
+<tr id="MapType.projection">
+<td><code><span>projection</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Projection.md">Projection</a></code></div>
+<div class="desc">The Projection used to render this MapType. Optional; defaults to Mercator.</div></td>
+</tr>
 <tr id="MapType.radius">
 <td><code><span>radius</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>

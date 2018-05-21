@@ -33,7 +33,7 @@ class
 <td><div><code>bindTo(key, target[, targetKey, noNotify])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>key</code>:&nbsp; <code>string</code></li>
-<li><code>target</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md">MVCObject</a></code></li>
+<li><code>target</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MVCObject.md#user-content-MVCObject">MVCObject</a></code></li>
 <li><code>targetKey</code> (optional):&nbsp; <code>string</code></li>
 <li><code>noNotify</code> (optional):&nbsp; <code>boolean</code></li>
 </ul></div>

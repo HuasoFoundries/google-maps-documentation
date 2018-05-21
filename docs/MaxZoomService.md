@@ -26,7 +26,7 @@ class
 <li><code>callback</code>:&nbsp; <code>function(<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/MaxZoomResult.md">MaxZoomResult</a>)</code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
-<div class="desc">Returns the maximum zoom level available at a particular <code>LatLng</code> for the Satellite map type. As this request is asynchronous, you must pass a <code>callback</code> function which will be executed upon completion of the request, being passed a <code>MaxZoomResult</code>.</div></td>
+<div class="desc">Returns the maximum zoom level for which detailed imagery is available at a particular <code>LatLng</code> for the <code>satellite</code> map type. As this request is asynchronous, you must pass a <code>callback</code> function which will be executed upon completion of the request, being passed a <code>MaxZoomResult</code>.</div></td>
 </tr>
 </tbody>
 </table></div>

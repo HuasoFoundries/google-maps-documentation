@@ -14,7 +14,7 @@ class
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>opts</code> (optional):&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md">CircleOptions</a></code></li>
 </ul></div>
-<div class="desc">Create a circle using the passed <code><em><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md">CircleOptions</a></em></code>, which specify the center, radius, and style.</div></td>
+<div class="desc">Create a circle using the passed <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleOptions.md">CircleOptions</a></code>, which specify the center, radius, and style.</div></td>
 </tr>
 </tbody>
 </table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class Circle - Methods">

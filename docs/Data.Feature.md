@@ -7,7 +7,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Data.<wbr>Feature</span></code></td>
+<td><code><span>Data.Feature</span></code></td>
 <td><div><code>Data.Feature([options])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>options</code> (optional):&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.FeatureOptions.md">Data.FeatureOptions</a></code></li>

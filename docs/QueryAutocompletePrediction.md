@@ -19,7 +19,7 @@ interface
 <tr id="QueryAutocompletePrediction.place_id">
 <td><code><span>place_id</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">Only available if prediction is a place. A place ID that can be used to retrieve details about this place using the place details service (see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md"> PlacesService</a>.getDetails()</code>).</div></td>
+<div class="desc">Only available if prediction is a place. A place ID that can be used to retrieve details about this place using the place details service (see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md">PlacesService.getDetails</a></code>).</div></td>
 </tr>
 <tr id="QueryAutocompletePrediction.terms">
 <td><code><span>terms</span></code></td>

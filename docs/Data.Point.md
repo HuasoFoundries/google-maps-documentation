@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Data.<wbr>Point</span></code></td>
+<td><code><span>Data.Point</span></code></td>
 <td><div><code>Data.Point(latLng)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>latLng</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a></code></li>

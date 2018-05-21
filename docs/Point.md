@@ -25,7 +25,7 @@ class
 <td><code><span>equals</span></code></td>
 <td><div><code>equals(other)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>other</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md">Point</a></code></li>
+<li><code>other</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Point.md#user-content-Point">Point</a></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">Compares two Points</div></td>

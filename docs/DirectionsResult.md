@@ -1,7 +1,7 @@
 <h2 id="DirectionsResult"> DirectionsResult interface </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsResult</span></code>
 interface
-</p><p>The directions response retrieved from the directions server. You can render these using a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRenderer.md">DirectionsRenderer</a></code> or parse this object and render it yourself. You must display the warnings and copyrights as noted in the <a href="https://developers.google.com/maps/terms">Google Maps APIs Terms of Service</a>. Note that though this result is "JSON-like," it is not strictly JSON, as it indirectly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsResult - Properties">
+</p><p>The directions response retrieved from the directions server. You can render these using a <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsRenderer.md">DirectionsRenderer</a></code> or parse this object and render it yourself. You must display the warnings and copyrights as noted in the <a href="https://developers.google.com/maps/terms">Google Maps Platform Terms of Service</a>. Note that though this result is "JSON-like," it is not strictly JSON, as it indirectly includes <code>LatLng</code> objects.</p><div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsResult - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>

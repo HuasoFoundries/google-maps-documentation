@@ -19,7 +19,12 @@ interface
 <tr id="AutocompletePrediction.place_id">
 <td><code><span>place_id</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">A place ID that can be used to retrieve details about this place using the place details service (see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md"> PlacesService</a>.getDetails()</code>).</div></td>
+<div class="desc">A place ID that can be used to retrieve details about this place using the place details service (see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md">PlacesService.getDetails</a></code>).</div></td>
+</tr>
+<tr id="AutocompletePrediction.structured_formatting">
+<td><code><span>structured_formatting</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StructuredFormatting.md">StructuredFormatting</a></code></div>
+<div class="desc">Structured information about the place's description, divided into a main text and a secondary text, including an array of matched substrings from the autocomplete input, identified by an offset and a length, expressed in unicode characters.</div></td>
 </tr>
 <tr id="AutocompletePrediction.terms">
 <td><code><span>terms</span></code></td>

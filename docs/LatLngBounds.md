@@ -1,7 +1,7 @@
 <h2 id="LatLngBounds"> LatLngBounds class </h2><p>
 <code><span itemprop="path">google.maps</span>.<span itemprop="name">LatLngBounds</span></code>
 class
-</p><p>A <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code> instance represents a rectangle in geographical coordinates, including one that crosses the 180 degrees longitudinal meridian.</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class LatLngBounds - Constructor">
+</p><p>A <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds">LatLngBounds</a></code> instance represents a rectangle in geographical coordinates, including one that crosses the 180 degrees longitudinal meridian.</p><div class="devsite-table-wrapper"><table class="constructors responsive" summary="class LatLngBounds - Constructor">
 <thead>
 <tr><th colspan="2" id="LatLngBounds.constructor">Constructor</th>
 </tr></thead>
@@ -34,7 +34,7 @@ class
 <td><code><span>equals</span></code></td>
 <td><div><code>equals(other)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>other</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></li>
+<li><code>other</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds">LatLngBounds</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">Returns <code>true</code> if this bounds approximately equals the given bounds.</div></td>
@@ -45,7 +45,7 @@ class
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>point</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a></code></li>
 </ul></div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds">LatLngBounds</a></code></div>
 <div class="desc">Extends this bounds to contain the given point.</div></td>
 </tr>
 <tr id="LatLngBounds.getCenter">
@@ -73,7 +73,7 @@ class
 <td><code><span>intersects</span></code></td>
 <td><div><code>intersects(other)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>other</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></li>
+<li><code>other</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds">LatLngBounds</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">Returns <code>true</code> if this bounds shares any points with the other bounds.</div></td>
@@ -119,9 +119,9 @@ class
 <td><code><span>union</span></code></td>
 <td><div><code>union(other)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>other</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></li>
+<li><code>other</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds">LatLngBounds</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></li>
 </ul></div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md#user-content-LatLngBounds">LatLngBounds</a></code></div>
 <div class="desc">Extends this bounds to contain the union of this and the given bounds.</div></td>
 </tr>
 </tbody>

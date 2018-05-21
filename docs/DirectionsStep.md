@@ -38,7 +38,7 @@ interface
 </tr>
 <tr id="DirectionsStep.steps">
 <td><code><span>steps</span></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStep.md">DirectionsStep</a>&gt;</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/DirectionsStep.md#user-content-DirectionsStep">DirectionsStep</a>&gt;</code></div>
 <div class="desc">Sub-steps of this step. Specified for non-transit sections of transit routes.</div></td>
 </tr>
 <tr id="DirectionsStep.transit">

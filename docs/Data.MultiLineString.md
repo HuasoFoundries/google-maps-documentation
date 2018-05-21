@@ -9,7 +9,7 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><span>Data.<wbr>MultiLineString</span></code></td>
+<td><code><span>Data.MultiLineString</span></code></td>
 <td><div><code>Data.MultiLineString(elements)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>elements</code>:&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Data.LineString.md">Data.LineString</a>|Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md">LatLng</a>|<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngLiteral.md">LatLngLiteral</a>&gt;&gt;</code></li>
