@@ -14,7 +14,7 @@ interface
 <tr id="PlaceAspectRating.type">
 <td><code><span>type</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The aspect type, e.g. "food", "decor", "service", "overall".</div></td>
+<div class="desc">The aspect type. For example, <code>"food"</code>, <code>"decor"</code>, <code>"service"</code>, or <code>"overall"</code>.</div></td>
 </tr>
 </tbody>
 </table></div>

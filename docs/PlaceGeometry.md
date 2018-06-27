@@ -14,7 +14,7 @@ interface
 <tr id="PlaceGeometry.viewport">
 <td><code><span>viewport</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a></code></div>
-<div class="desc">The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known.</div></td>
+<div class="desc">The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 </tbody>
 </table></div>

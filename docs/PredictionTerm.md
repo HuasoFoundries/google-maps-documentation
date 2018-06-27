@@ -14,7 +14,7 @@ interface
 <tr id="PredictionTerm.value">
 <td><code><span>value</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The value of this term, e.g. "Taco Bell".</div></td>
+<div class="desc">The value of this term, for example, "Taco Bell".</div></td>
 </tr>
 </tbody>
 </table></div>

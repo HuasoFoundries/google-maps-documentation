@@ -9,7 +9,7 @@ interface
 <tr id="ComponentRestrictions.country">
 <td><code><span>country</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string|Array&lt;string&gt;</code></div>
-<div class="desc">Restricts predictions to the specified country (ISO 3166-1 Alpha-2 country code, case insensitive). E.g., us, br, au. You can provide a single one, or an array of up to 5 country code strings.</div></td>
+<div class="desc">Restricts predictions to the specified country (ISO 3166-1 Alpha-2 country code, case insensitive). For example, <code>'us'</code>, <code>'br'</code>, or <code>'au'</code>. You can provide a single one, or an array of up to five country code strings.</div></td>
 </tr>
 </tbody>
 </table></div>

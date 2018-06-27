@@ -24,7 +24,7 @@ interface
 <tr id="QueryAutocompletePrediction.terms">
 <td><code><span>terms</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionTerm.md">PredictionTerm</a>&gt;</code></div>
-<div class="desc">Information about individual terms in the above description. Categorical terms come first (e.g., "restaurant"). Address terms appear from most to least specific. For example, "San Francisco", and "CA".</div></td>
+<div class="desc">Information about individual terms in the above description. Categorical terms come first (for example, "restaurant"). Address terms appear from most to least specific. For example, "San Francisco", and "CA".</div></td>
 </tr>
 </tbody>
 </table></div>

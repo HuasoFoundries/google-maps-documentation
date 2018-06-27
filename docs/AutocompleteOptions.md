@@ -14,7 +14,12 @@ interface
 <tr id="AutocompleteOptions.componentRestrictions">
 <td><code><span>componentRestrictions</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md">ComponentRestrictions</a></code></div>
-<div class="desc">The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.</div></td>
+<div class="desc">The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.</div></td>
+</tr>
+<tr id="AutocompleteOptions.fields">
+<td><code><span>fields</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
+<div class="desc">Fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md">PlaceResult</a></code>. Nested fields can be specified with dot-paths (for example, <code>"geometry.location"</code>).</div></td>
 </tr>
 <tr id="AutocompleteOptions.placeIdOnly">
 <td><code><span>placeIdOnly</span></code></td>

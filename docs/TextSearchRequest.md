@@ -19,7 +19,7 @@ interface
 <tr id="TextSearchRequest.query">
 <td><code><span>query</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The request's query term. e.g. the name of a place ('Eiffel Tower'), a category followed by the name of a location ('pizza in New York'), or the name of a place followed by a location disambiguator ('Starbucks in Sydney').</div></td>
+<div class="desc">The request's query term. For example, the name of a place ('Eiffel Tower'), a category followed by the name of a location ('pizza in New York'), or the name of a place followed by a location disambiguator ('Starbucks in Sydney').</div></td>
 </tr>
 <tr id="TextSearchRequest.radius">
 <td><code><span>radius</span></code></td>

@@ -24,7 +24,7 @@ interface
 <tr id="PlaceReview.language">
 <td><code><span>language</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">An IETF language code indicating the language in which this review is written. Note that this code includes only the main language tag without any secondary tag indicating country or region. For example, all the English reviews are tagged as 'en' rather than 'en-AU' or 'en-UK'.</div></td>
+<div class="desc">An IETF language code indicating the language in which this review is written. Note that this code includes only the main language tag without any secondary tag indicating country or region. For example, all the English reviews are tagged as <code>'en'</code> rather than 'en-AU' or 'en-UK'.</div></td>
 </tr>
 <tr id="PlaceReview.text">
 <td><code><span>text</span></code></td>

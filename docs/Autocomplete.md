@@ -30,6 +30,13 @@ class
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md">LatLngBounds</a>|undefined</code></div>
 <div class="desc">Returns the bounds to which predictions are biased.</div></td>
 </tr>
+<tr id="Autocomplete.getFields">
+<td><code><span>getFields</span></code></td>
+<td><div><code>getFields()</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code>Array&lt;string&gt;|undefined</code></div>
+<div class="desc">Returns the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md">PlaceResult</a></code>.</div></td>
+</tr>
 <tr id="Autocomplete.getPlace">
 <td><code><span>getPlace</span></code></td>
 <td><div><code>getPlace()</code></div>
@@ -53,7 +60,16 @@ class
 <li><code>restrictions</code>:&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md">ComponentRestrictions</a></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
-<div class="desc">Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.</div></td>
+<div class="desc">Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.</div></td>
+</tr>
+<tr id="Autocomplete.setFields">
+<td><code><span>setFields</span></code></td>
+<td><div><code>setFields(fields)</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>fields</code>:&nbsp; <code>Array&lt;string&gt;|undefined</code></li>
+</ul></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
+<div class="desc">Sets the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md">PlaceResult</a></code>.</div></td>
 </tr>
 <tr id="Autocomplete.setOptions">
 <td><code><span>setOptions</span></code></td>

@@ -23,6 +23,7 @@ in sync, versioned copy of google.maps API v3 documentation
 
 #### Coordinates 
 
+* [CircleLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/CircleLiteral.md)
 * [LatLng](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLng.md)
 * [LatLngBounds](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBounds.md)
 * [LatLngBoundsLiteral](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LatLngBoundsLiteral.md)
@@ -201,6 +202,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [AutocompleteOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md)
 * [AutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletePrediction.md)
 * [AutocompleteService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteService.md)
+* [AutocompleteSessionToken](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteSessionToken.md)
 * [AutocompletionRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletionRequest.md)
 * [ComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md)
 * [PredictionSubstring](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionSubstring.md)
@@ -216,10 +218,16 @@ in sync, versioned copy of google.maps API v3 documentation
 
 #### Places Service 
 
+* [FindPlaceFromPhoneNumberRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FindPlaceFromPhoneNumberRequest.md)
+* [FindPlaceFromQueryRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/FindPlaceFromQueryRequest.md)
+* [LocationBias](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/LocationBias.md)
 * [PhotoOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PhotoOptions.md)
 * [PlaceAspectRating](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceAspectRating.md)
 * [PlaceDetailsRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceDetailsRequest.md)
 * [PlaceGeometry](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceGeometry.md)
+* [PlaceOpeningHours](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceOpeningHours.md)
+* [PlaceOpeningHoursPeriod](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceOpeningHoursPeriod.md)
+* [PlaceOpeningHoursTime](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceOpeningHoursTime.md)
 * [PlacePhoto](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacePhoto.md)
 * [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)
 * [PlaceReview](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceReview.md)
@@ -292,4 +300,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Wednesday, May 16, 2018
+Last updated Thursday, June 07, 2018

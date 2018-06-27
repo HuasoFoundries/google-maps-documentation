@@ -14,7 +14,7 @@ interface
 <tr id="AutocompletionRequest.componentRestrictions">
 <td><code><span>componentRestrictions</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md">ComponentRestrictions</a></code></div>
-<div class="desc">The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. E.g., the country.</div></td>
+<div class="desc">The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.</div></td>
 </tr>
 <tr id="AutocompletionRequest.input">
 <td><code><span>input</span></code></td>
@@ -35,6 +35,11 @@ interface
 <td><code><span>radius</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
 <div class="desc">The radius of the area used for prediction biasing. The <code>radius</code> is specified in meters, and must always be accompanied by a <code>location</code> property. Alternatively, <code>bounds</code> can be used.</div></td>
+</tr>
+<tr id="AutocompletionRequest.sessionToken">
+<td><code><span>sessionToken</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteSessionToken.md">AutocompleteSessionToken</a></code></div>
+<div class="desc">Unique reference used to bundle individual requests into sessions.</div></td>
 </tr>
 <tr id="AutocompletionRequest.types">
 <td><code><span>types</span></code></td>
