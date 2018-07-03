@@ -14,7 +14,7 @@ interface
 <tr id="PlaceResult.adr_address">
 <td><code><span>adr_address</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The representation of the place's address in the <a href="http://microformats.org/wiki/adr">adr microformat</a>. Only available with <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The representation of the Place's address in the <a href="http://microformats.org/wiki/adr">adr microformat</a>. Only available with <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.aspects">
 <td><code><span>aspects</span></code></td>
@@ -56,10 +56,15 @@ interface
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">The Place's name. Note: In the case of user entered Places, this is the raw text, as typed by the user. Please exercise caution when using this data, as malicious users may try to use it as a vector for code injection attacks (See <a href="http://en.wikipedia.org/wiki/Code_injection"> http://en.wikipedia.org/wiki/Code_injection</a>).</div></td>
 </tr>
+<tr id="PlaceResult.opening_hours">
+<td><code><span>opening_hours</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceOpeningHours.md">PlaceOpeningHours</a></code></div>
+<div class="desc">Defines when the Place opens or closes.</div></td>
+</tr>
 <tr id="PlaceResult.permanently_closed">
 <td><code><span>permanently_closed</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">A flag indicating whether the Place is permanently closed. If the place is not permanently closed, the flag is not present in search or details responses.</div></td>
+<div class="desc">A flag indicating whether the Place is permanently closed. If the Place is not permanently closed, the flag is not present in search or details responses.</div></td>
 </tr>
 <tr id="PlaceResult.photos">
 <td><code><span>photos</span></code></td>
@@ -69,7 +74,12 @@ interface
 <tr id="PlaceResult.place_id">
 <td><code><span>place_id</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">A unique identifier for a place.</div></td>
+<div class="desc">A unique identifier for the Place.</div></td>
+</tr>
+<tr id="PlaceResult.plus_code">
+<td><code><span>plus_code</span></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacePlusCode.md">PlacePlusCode</a></code></div>
+<div class="desc">Defines Open Location Codes or "<a href="https://plus.codes/">plus codes</a>" for the Place.</div></td>
 </tr>
 <tr id="PlaceResult.price_level">
 <td><code><span>price_level</span></code></td>
@@ -94,7 +104,7 @@ interface
 <tr id="PlaceResult.url">
 <td><code><span>url</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the place. Only available with <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the Place. Only available with <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.utc_offset">
 <td><code><span>utc_offset</span></code></td>
@@ -104,7 +114,7 @@ interface
 <tr id="PlaceResult.vicinity">
 <td><code><span>vicinity</span></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The simplified address for the place, including the street name, street number, and locality, but not the province/state, postal code, or country. For example, Google's Sydney, Australia office has a vicinity value of <code>"48 Pirrama Road, Pyrmont"</code>. Only available with <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The simplified address for the Place, including the street name, street number, and locality, but not the province/state, postal code, or country. For example, Google's Sydney, Australia office has a vicinity value of <code>"48 Pirrama Road, Pyrmont"</code>. Only available with <code><a href="https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.website">
 <td><code><span>website</span></code></td>

@@ -229,6 +229,7 @@ in sync, versioned copy of google.maps API v3 documentation
 * [PlaceOpeningHoursPeriod](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceOpeningHoursPeriod.md)
 * [PlaceOpeningHoursTime](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceOpeningHoursTime.md)
 * [PlacePhoto](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacePhoto.md)
+* [PlacePlusCode](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacePlusCode.md)
 * [PlaceResult](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceResult.md)
 * [PlaceReview](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceReview.md)
 * [PlaceSearchPagination](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceSearchPagination.md)
@@ -300,4 +301,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Thursday, June 07, 2018
+Last updated Tuesday, June 26, 2018
