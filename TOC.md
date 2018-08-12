@@ -200,21 +200,8 @@ in sync, versioned copy of google.maps API v3 documentation
 
 * [Autocomplete](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/Autocomplete.md)
 * [AutocompleteOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteOptions.md)
-* [AutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletePrediction.md)
-* [AutocompleteService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteService.md)
-* [AutocompleteSessionToken](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteSessionToken.md)
-* [AutocompletionRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletionRequest.md)
-* [ComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md)
-* [PredictionSubstring](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionSubstring.md)
-* [PredictionTerm](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionTerm.md)
-* [QueryAutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/QueryAutocompletePrediction.md)
-* [QueryAutocompletionRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/QueryAutocompletionRequest.md)
-* [RadarSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RadarSearchRequest.md)
-* [RankBy](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RankBy.md)
 * [SearchBox](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBox.md)
 * [SearchBoxOptions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/SearchBoxOptions.md)
-* [StructuredFormatting](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StructuredFormatting.md)
-* [TextSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TextSearchRequest.md)
 
 #### Places Service 
 
@@ -236,6 +223,21 @@ in sync, versioned copy of google.maps API v3 documentation
 * [PlaceSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlaceSearchRequest.md)
 * [PlacesService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesService.md)
 * [PlacesServiceStatus](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PlacesServiceStatus.md)
+* [RankBy](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/RankBy.md)
+* [TextSearchRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/TextSearchRequest.md)
+
+#### Places Autocomplete Service 
+
+* [AutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletePrediction.md)
+* [AutocompleteService](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteService.md)
+* [AutocompleteSessionToken](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompleteSessionToken.md)
+* [AutocompletionRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/AutocompletionRequest.md)
+* [ComponentRestrictions](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/ComponentRestrictions.md)
+* [PredictionSubstring](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionSubstring.md)
+* [PredictionTerm](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/PredictionTerm.md)
+* [QueryAutocompletePrediction](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/QueryAutocompletePrediction.md)
+* [QueryAutocompletionRequest](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/QueryAutocompletionRequest.md)
+* [StructuredFormatting](https://github.com/amenadiel/google-maps-documentation/blob/master/docs/StructuredFormatting.md)
 
 #### Geocoder 
 
@@ -301,4 +303,4 @@ in sync, versioned copy of google.maps API v3 documentation
 
 
 
-Last updated Tuesday, June 26, 2018
+Last updated Monday, August 13, 2018
