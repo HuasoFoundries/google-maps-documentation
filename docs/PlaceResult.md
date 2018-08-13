@@ -15,12 +15,12 @@ interface
 <tr id="PlaceResult.address_components">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.address_components"><span>address_components</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="GeocoderAddressComponent.md">GeocoderAddressComponent</a>&gt;</code></div>
-<div class="desc">The collection of address components for this Place's location. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The collection of address components for this Place's location. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.adr_address">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.adr_address"><span>adr_address</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The representation of the Place's address in the <a href="http://microformats.org/wiki/adr">adr microformat</a>. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The representation of the Place's address in the <a href="http://microformats.org/wiki/adr">adr microformat</a>. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.aspects">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.aspects"><span>aspects</span></a></code></td>
@@ -35,7 +35,7 @@ interface
 <tr id="PlaceResult.formatted_phone_number">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.formatted_phone_number"><span>formatted_phone_number</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The Place's phone number, formatted according to the <a href="http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers"> number's regional convention</a>. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The Place's phone number, formatted according to the <a href="http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers"> number's regional convention</a>. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.geometry">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.geometry"><span>geometry</span></a></code></td>
@@ -55,7 +55,7 @@ interface
 <tr id="PlaceResult.international_phone_number">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.international_phone_number"><span>international_phone_number</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The Place's phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The Place's phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.name">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.name"><span>name</span></a></code></td>
@@ -100,7 +100,7 @@ interface
 <tr id="PlaceResult.reviews">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.reviews"><span>reviews</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="PlaceReview.md">PlaceReview</a>&gt;</code></div>
-<div class="desc">A list of reviews of this Place. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">A list of reviews of this Place. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.types">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.types"><span>types</span></a></code></td>
@@ -110,22 +110,22 @@ interface
 <tr id="PlaceResult.url">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.url"><span>url</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the Place. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the Place. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.utc_offset">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.utc_offset"><span>utc_offset</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The offset from UTC of the Place's current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the <code>utc_offset</code> will be <code>660</code>. For timezones behind UTC, the offset is negative. For example, the  is <code>-60</code> for Cape Verde. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The offset from UTC of the Place's current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the <code>utc_offset</code> will be <code>660</code>. For timezones behind UTC, the offset is negative. For example, the  is <code>-60</code> for Cape Verde. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.vicinity">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.vicinity"><span>vicinity</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The simplified address for the Place, including the street name, street number, and locality, but not the province/state, postal code, or country. For example, Google's Sydney, Australia office has a vicinity value of <code>"48 Pirrama Road, Pyrmont"</code>. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The simplified address for the Place, including the street name, street number, and locality, but not the province/state, postal code, or country. For example, Google's Sydney, Australia office has a vicinity value of <code>"48 Pirrama Road, Pyrmont"</code>. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.website">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.website"><span>website</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The authoritative website for this Place, such as a business' homepage. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The authoritative website for this Place, such as a business' homepage. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 </tbody>
 </table></div>

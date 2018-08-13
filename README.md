@@ -1,27 +1,27 @@
-
-
 Google Maps Api v3 Documentation
 ================================
 
-in sync, versioned copy of google.maps API v3 documentation
+In sync, versioned copy of [Google Maps JavaScript API V3 Reference](https://developers.google.com/maps/documentation/javascript/reference)
 
 
 ### What is this?
 
-This repo mirrors the contents of [https://developers.google.com/maps/documentation/javascript/reference](https://developers.google.com/maps/documentation/javascript/reference)
+This repo mirrors the contents of [Google Maps JavaScript API V3 Reference](https://developers.google.com/maps/documentation/javascript/reference)
 
-There's no easy way to check what's different after each update to the documentation.
+Each time there's a version bump, or documentation "Last updated" date differs from the last time the users visits the page, 
+there's no easy way to check what's different to the prior version. 
 
-![whatchanged](https://cloud.githubusercontent.com/assets/238439/3692617/4ae66a30-135e-11e4-9a86-0e50686cb2da.jpg)
+This project crawls the documentation page periodically, and compares its contents with the contents of this repo. Each time changes
+are detected, said changes are commited and pushed, so the user can check the exact diff between commits. 
 
-So I made an app to parse and commit any differences between their version and mine, which allows the user to check the exact differences.
+**Caveat** There are several changes that are only cosmetical or rearrangements of the DOM structure of the documentation. Said changes are
+false positives, but will be considered as updates by this project's crawler.
 
-Starting August 2018, this project will regularly inspect the contents of the [quarterly channel](https://developers.google.com/maps/documentation/javascript/versions#choosing-the-quarterly-channel) reference docs. Each time the stable version is bumped, the old one will be tagged.
-
+Starting August 2018, this project will regularly inspect the contents of the [weekly channel](https://developers.google.com/maps/documentation/javascript/versions#choosing-the-weekly-channel) reference docs. Each time the stable version is bumped, the old one will be tagged.
 
 ### Last Update
 
-Version [3.33](https://developers.google.com/maps/documentation/javascript/reference/3.33), last updated on Thursday, August 09, 2018.
+Version 3.34, last updated on Monday, August 13, 2018.
 
 ### Table of Contents
 

@@ -4,7 +4,7 @@
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">AutocompleteSessionToken</span></code>
 class
 </p>
-<p>Represents a session token used for tracking an autocomplete session, which can be a series of <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-autocomplete-service#AutocompleteService.getPlacePredictions">AutocompleteService.getPlacePredictions</a></code> calls followed by a single <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code> call.</p>
+<p>Represents a session token used for tracking an autocomplete session, which can be a series of <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-autocomplete-service#AutocompleteService.getPlacePredictions">AutocompleteService.getPlacePredictions</a></code> calls followed by a single <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code> call.</p>
 <h4>Library</h4>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="constructors responsive" summary="class AutocompleteSessionToken - Constructor">

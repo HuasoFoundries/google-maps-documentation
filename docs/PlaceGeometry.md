@@ -20,7 +20,7 @@ interface
 <tr id="PlaceGeometry.viewport">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceGeometry.viewport"><span>viewport</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a></code></div>
-<div class="desc">The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 </tbody>
 </table></div>

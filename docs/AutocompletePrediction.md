@@ -25,7 +25,7 @@ interface
 <tr id="AutocompletePrediction.place_id">
 <td itemprop="property"><code><a class="secret-link" href="#AutocompletePrediction.place_id"><span>place_id</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">A place ID that can be used to retrieve details about this place using the place details service (see <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>).</div></td>
+<div class="desc">A place ID that can be used to retrieve details about this place using the place details service (see <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>).</div></td>
 </tr>
 <tr id="AutocompletePrediction.structured_formatting">
 <td itemprop="property"><code><a class="secret-link" href="#AutocompletePrediction.structured_formatting"><span>structured_formatting</span></a></code></td>

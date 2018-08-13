@@ -4,7 +4,7 @@
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">FindPlaceFromQueryRequest</span></code>
 interface
 </p>
-<p>A find place from text search request to be sent to <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-service#PlacesService.findPlaceFromQuery">PlacesService.findPlaceFromQuery</a></code>.</p>
+<p>A find place from text search request to be sent to <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.findPlaceFromQuery">PlacesService.findPlaceFromQuery</a></code>.</p>
 <h4>Library</h4>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface FindPlaceFromQueryRequest - Properties">

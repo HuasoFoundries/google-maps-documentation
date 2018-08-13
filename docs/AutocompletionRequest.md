@@ -4,7 +4,7 @@
 <code><span itemprop="path">google.maps.places</span>.<span itemprop="name">AutocompletionRequest</span></code>
 interface
 </p>
-<p>An Autocompletion request to be sent to <code><a href="https://developers.google.com/maps/documentation/javascript/reference/3.33/places-autocomplete-service#AutocompleteService.getPlacePredictions">AutocompleteService.getPlacePredictions</a></code>.</p>
+<p>An Autocompletion request to be sent to <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-autocomplete-service#AutocompleteService.getPlacePredictions">AutocompleteService.getPlacePredictions</a></code>.</p>
 <h4>Library</h4>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface AutocompletionRequest - Properties">
