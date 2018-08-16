@@ -15,6 +15,30 @@ class
 <div class="desc">Creates an <code>OverlayView</code>.</div></td>
 </tr>
 </tbody>
+</table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class OverlayView - Static Methods">
+<thead>
+<tr><th colspan="2">Static Methods</th>
+</tr></thead>
+<tbody>
+<tr id="OverlayView.preventMapHitsAndGesturesFrom">
+<td><code><span>preventMapHitsAndGesturesFrom</span></code></td>
+<td><div><code>preventMapHitsAndGesturesFrom(element)</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>element</code>:&nbsp; <code>Element</code></li>
+</ul></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
+<div class="desc">Stops click, tap, drag, and wheel events on the element from bubbling up to the map. Use this to prevent map dragging and zooming, as well as map "click" events.</div></td>
+</tr>
+<tr id="OverlayView.preventMapHitsFrom">
+<td><code><span>preventMapHitsFrom</span></code></td>
+<td><div><code>preventMapHitsFrom(element)</code></div>
+<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
+<li><code>element</code>:&nbsp; <code>Element</code></li>
+</ul></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
+<div class="desc">Stops click or tap on the element from bubbling up to the map. Use this to prevent the map from triggering "click" events.</div></td>
+</tr>
+</tbody>
 </table></div><div class="devsite-table-wrapper"><table class="methods responsive" summary="class OverlayView - Methods">
 <thead>
 <tr><th colspan="2">Methods</th>
