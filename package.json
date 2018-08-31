@@ -1,0 +1,36 @@
+{
+  "name": "google-maps-documentation",
+  "version": "1.0.0",
+  "description": "In sync, versioned copy of Google Maps API documentation",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=google-maps-documentation node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amenadiel/google-maps-documentation.git"
+  },
+  "keywords": [
+    "google",
+    "maps",
+    "documentation"
+  ],
+  "author": "amenadiel@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amenadiel/google-maps-documentation/issues"
+  },
+  "homepage": "https://github.com/amenadiel/google-maps-documentation#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "dotenv": "^6.0.0",
+    "lodash": "^4.17.10",
+    "puppeteer": "^1.7.0"
+  }
+}
