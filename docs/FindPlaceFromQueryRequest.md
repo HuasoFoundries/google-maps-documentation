@@ -12,6 +12,11 @@ interface
 <tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
+<tr id="FindPlaceFromQueryRequest.fields">
+<td itemprop="property"><code><a class="secret-link" href="#FindPlaceFromQueryRequest.fields"><span>fields</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
+<div class="desc">Fields to be included in the response. For a list of fields see <code><a href="PlaceResult.md">PlaceResult</a></code>. Nested fields can be specified with dot-paths (for example, <code>"geometry.location"</code>).</div></td>
+</tr>
 <tr id="FindPlaceFromQueryRequest.locationBias">
 <td itemprop="property"><code><a class="secret-link" href="#FindPlaceFromQueryRequest.locationBias"><span>locationBias</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="LocationBias.md">LocationBias</a></code></div>

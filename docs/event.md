@@ -85,11 +85,11 @@ namespace
 </tr>
 <tr id="event.trigger">
 <td itemprop="property"><code><a class="secret-link" href="#event.trigger"><span>trigger</span></a></code></td>
-<td><div><code>trigger(instance, eventName, var_args)</code></div>
+<td><div><code>trigger(instance, eventName, eventArgs)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>instance</code>:&nbsp; <code>Object</code></li>
 <li><code>eventName</code>:&nbsp; <code>string</code></li>
-<li><code>var_args</code>:&nbsp; <code>...*</code></li>
+<li><code>eventArgs</code>:&nbsp; <code>...*</code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Triggers the given event. All arguments after eventName are passed as arguments to the listeners.</div></td>

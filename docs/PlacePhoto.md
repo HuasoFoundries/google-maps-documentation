@@ -14,12 +14,12 @@ interface
 <tbody>
 <tr id="PlacePhoto.getUrl">
 <td itemprop="property"><code><a class="secret-link" href="#PlacePhoto.getUrl"><span>getUrl</span></a></code></td>
-<td><div><code>getUrl(opts)</code></div>
+<td><div><code>getUrl([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code>:&nbsp; <code><a href="PhotoOptions.md">PhotoOptions</a></code></li>
+<li><code>opts</code> (optional):&nbsp; <code><a href="PhotoOptions.md">PhotoOptions</a></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>string</code></div>
-<div class="desc">Returns the image URL corresponding to the specified options. You must include a PhotoOptions object with at least one of maxWidth or maxHeight specified.</div></td>
+<div class="desc">Returns the image URL corresponding to the specified options.</div></td>
 </tr>
 </tbody>
 </table></div>

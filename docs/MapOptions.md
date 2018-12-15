@@ -43,12 +43,12 @@ interface
 <tr id="MapOptions.draggableCursor">
 <td itemprop="property"><code><a class="secret-link" href="#MapOptions.draggableCursor"><span>draggableCursor</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The name or url of the cursor to display when mousing over a draggable map. This property uses the css <code>cursor</code> attribute to change the icon. As with the css property, you must specify at least one fallback cursor that is not a URL. For example: <code>draggableCursor: 'url(http://www.example.com/icon.png), auto;'</code>.</div></td>
+<div class="desc">The name or url of the cursor to display when mousing over a draggable map. This property uses the css <code>cursor</code> attribute to change the icon. As with the css property, you must specify at least one fallback cursor that is not a URL. For example: <code>draggableCursor: 'url(<a href="http://www.example.com/icon.png">http://www.example.com/icon.png</a>), auto;'</code>.</div></td>
 </tr>
 <tr id="MapOptions.draggingCursor">
 <td itemprop="property"><code><a class="secret-link" href="#MapOptions.draggingCursor"><span>draggingCursor</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The name or url of the cursor to display when the map is being dragged. This property uses the css <code>cursor</code> attribute to change the icon. As with the css property, you must specify at least one fallback cursor that is not a URL. For example: <code>draggingCursor: 'url(http://www.example.com/icon.png), auto;'</code>.</div></td>
+<div class="desc">The name or url of the cursor to display when the map is being dragged. This property uses the css <code>cursor</code> attribute to change the icon. As with the css property, you must specify at least one fallback cursor that is not a URL. For example: <code>draggingCursor: 'url(<a href="http://www.example.com/icon.png">http://www.example.com/icon.png</a>), auto;'</code>.</div></td>
 </tr>
 <tr id="MapOptions.fullscreenControl">
 <td itemprop="property"><code><a class="secret-link" href="#MapOptions.fullscreenControl"><span>fullscreenControl</span></a></code></td>
@@ -114,6 +114,11 @@ interface
 <td itemprop="property"><code><a class="secret-link" href="#MapOptions.panControlOptions"><span>panControlOptions</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="PanControlOptions.md">PanControlOptions</a></code></div>
 <div class="desc">The display options for the Pan control. <p> Note: The Pan control is not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the Pan control available as part of the old control set. See <a href="https://developers.google.com/maps/articles/v322-controls-diff">What's New in the v3.22 Map Controls</a>.</p></div></td>
+</tr>
+<tr id="MapOptions.restriction">
+<td itemprop="property"><code><a class="secret-link" href="#MapOptions.restriction"><span>restriction</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="MapRestriction.md">MapRestriction</a></code></div>
+<div class="desc">Defines a boundary that restricts the area of the map accessible to users. When set, a user can only pan and zoom while the camera view stays inside the limits of the boundary.</div></td>
 </tr>
 <tr id="MapOptions.rotateControl">
 <td itemprop="property"><code><a class="secret-link" href="#MapOptions.rotateControl"><span>rotateControl</span></a></code></td>
