@@ -1,26 +1,27 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PhotoOptions.html)
 
-<h2 id="PhotoOptions">PhotoOptions interface</h2>
-<p>
-<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PhotoOptions</span></code>
-interface
-</p>
-<p>Defines photo-requesting options.</p>
-<h4>Library</h4>
-<p>places</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface PhotoOptions - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="PhotoOptions.maxHeight">
-<td itemprop="property"><code><a class="secret-link" href="#PhotoOptions.maxHeight"><span>maxHeight</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The maximum height in pixels of the returned image.</div></td>
-</tr>
-<tr id="PhotoOptions.maxWidth">
-<td itemprop="property"><code><a class="secret-link" href="#PhotoOptions.maxWidth"><span>maxWidth</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The maximum width in pixels of the returned image.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+PhotoOptions interface
+----------------------
+
+google.maps.places.PhotoOptions interface
+
+Defines photo-requesting options.
+
+#### Library
+
+places
+
+Properties
+
+[maxHeight](#PhotoOptions.maxHeight)
+
+**Type:**  number
+
+The maximum height in pixels of the returned image.
+
+[maxWidth](#PhotoOptions.maxWidth)
+
+**Type:**  number
+
+The maximum width in pixels of the returned image.

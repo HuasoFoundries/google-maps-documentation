@@ -1,44 +1,43 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlacesServiceStatus.html)
 
-<h2 id="PlacesServiceStatus">PlacesServiceStatus constants</h2>
-<p>
-<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlacesServiceStatus</span></code>
-constants
-</p>
-<p>The status returned by the <code>PlacesService</code> on the completion of its searches. Specify these by value, or by using the constant's name. For example, <code>'OK'</code> or <code>google.maps.places.PlacesServiceStatus.OK</code>.</p>
-<h4>Library</h4>
-<p>places</p>
-<div class="devsite-table-wrapper"><table class="constants responsive" summary="PlacesServiceStatus constants">
-<thead>
-<tr><th colspan="2">Constants</th>
-</tr></thead>
-<tbody>
-<tr id="PlacesServiceStatus.INVALID_REQUEST">
-<td itemprop="property"><code><a class="secret-link" href="#PlacesServiceStatus.INVALID_REQUEST"><span>INVALID_REQUEST</span></a></code></td>
-<td>This request was invalid.</td>
-</tr>
-<tr id="PlacesServiceStatus.NOT_FOUND">
-<td itemprop="property"><code><a class="secret-link" href="#PlacesServiceStatus.NOT_FOUND"><span>NOT_FOUND</span></a></code></td>
-<td>The place referenced was not found.</td>
-</tr>
-<tr id="PlacesServiceStatus.OK">
-<td itemprop="property"><code><a class="secret-link" href="#PlacesServiceStatus.OK"><span>OK</span></a></code></td>
-<td>The response contains a valid result.</td>
-</tr>
-<tr id="PlacesServiceStatus.OVER_QUERY_LIMIT">
-<td itemprop="property"><code><a class="secret-link" href="#PlacesServiceStatus.OVER_QUERY_LIMIT"><span>OVER_QUERY_LIMIT</span></a></code></td>
-<td>The application has gone over its request quota.</td>
-</tr>
-<tr id="PlacesServiceStatus.REQUEST_DENIED">
-<td itemprop="property"><code><a class="secret-link" href="#PlacesServiceStatus.REQUEST_DENIED"><span>REQUEST_DENIED</span></a></code></td>
-<td>The application is not allowed to use the <code><span>PlacesService</span></code>.</td>
-</tr>
-<tr id="PlacesServiceStatus.UNKNOWN_ERROR">
-<td itemprop="property"><code><a class="secret-link" href="#PlacesServiceStatus.UNKNOWN_ERROR"><span>UNKNOWN_ERROR</span></a></code></td>
-<td>The <code><span>PlacesService</span></code> request could not be processed due to a server error. The request may succeed if you try again.</td>
-</tr>
-<tr id="PlacesServiceStatus.ZERO_RESULTS">
-<td itemprop="property"><code><a class="secret-link" href="#PlacesServiceStatus.ZERO_RESULTS"><span>ZERO_RESULTS</span></a></code></td>
-<td>No result was found for this request.</td>
-</tr>
-</tbody>
-</table></div>
+
+PlacesServiceStatus constants
+-----------------------------
+
+google.maps.places.PlacesServiceStatus constants
+
+The status returned by the PlacesService on the completion of its searches. Specify these by value, or by using the constant's name. For example, 'OK' or google.maps.places.PlacesServiceStatus.OK.
+
+#### Library
+
+places
+
+Constants
+
+[INVALID\_REQUEST](#PlacesServiceStatus.INVALID_REQUEST)
+
+This request was invalid.
+
+[NOT\_FOUND](#PlacesServiceStatus.NOT_FOUND)
+
+The place referenced was not found.
+
+[OK](#PlacesServiceStatus.OK)
+
+The response contains a valid result.
+
+[OVER\_QUERY\_LIMIT](#PlacesServiceStatus.OVER_QUERY_LIMIT)
+
+The application has gone over its request quota.
+
+[REQUEST\_DENIED](#PlacesServiceStatus.REQUEST_DENIED)
+
+The application is not allowed to use the PlacesService.
+
+[UNKNOWN\_ERROR](#PlacesServiceStatus.UNKNOWN_ERROR)
+
+The PlacesService request could not be processed due to a server error. The request may succeed if you try again.
+
+[ZERO\_RESULTS](#PlacesServiceStatus.ZERO_RESULTS)
+
+No result was found for this request.

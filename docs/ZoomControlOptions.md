@@ -1,19 +1,17 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/ZoomControlOptions.html)
 
-<h2 id="ZoomControlOptions">ZoomControlOptions interface</h2>
-<p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">ZoomControlOptions</span></code>
-interface
-</p>
-<p>Options for the rendering of the zoom control.</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface ZoomControlOptions - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="ZoomControlOptions.position">
-<td itemprop="property"><code><a class="secret-link" href="#ZoomControlOptions.position"><span>position</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="ControlPosition.md">ControlPosition</a></code></div>
-<div class="desc">Position id. Used to specify the position of the control on the map. The default position is <code>TOP_LEFT</code>.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+ZoomControlOptions interface
+----------------------------
+
+google.maps.ZoomControlOptions interface
+
+Options for the rendering of the zoom control.
+
+Properties
+
+[position](#ZoomControlOptions.position)
+
+**Type:**  [ControlPosition](ControlPosition.md)
+
+Position id. Used to specify the position of the control on the map. The default position is TOP\_LEFT.

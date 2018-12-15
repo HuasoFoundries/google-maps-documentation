@@ -1,22 +1,19 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewPreference.html)
 
-<h2 id="StreetViewPreference">StreetViewPreference constants</h2>
-<p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewPreference</span></code>
-constants
-</p>
-<p>Options that bias a search result towards returning a Street View panorama that is nearest to the request location, or a panorama that is considered most likely to be what the user wants to see. Specify these by value, or by using the constant's name. For example, <code>'best'</code> or <code>google.maps.StreetViewPreference.BEST</code>.</p>
-<div class="devsite-table-wrapper"><table class="constants responsive" summary="StreetViewPreference constants">
-<thead>
-<tr><th colspan="2">Constants</th>
-</tr></thead>
-<tbody>
-<tr id="StreetViewPreference.BEST">
-<td itemprop="property"><code><a class="secret-link" href="#StreetViewPreference.BEST"><span>BEST</span></a></code></td>
-<td>Return the Street View panorama that is considered most likely to be what the user wants to see. The best result is determined by algorithms based on user research and parameters such as recognised points of interest, image quality, and distance from the given location.</td>
-</tr>
-<tr id="StreetViewPreference.NEAREST">
-<td itemprop="property"><code><a class="secret-link" href="#StreetViewPreference.NEAREST"><span>NEAREST</span></a></code></td>
-<td>Return the Street View panorama that is the shortest distance from the provided location. This works well only within a limited radius. The recommended radius is 1km or less.</td>
-</tr>
-</tbody>
-</table></div>
+
+StreetViewPreference constants
+------------------------------
+
+google.maps.StreetViewPreference constants
+
+Options that bias a search result towards returning a Street View panorama that is nearest to the request location, or a panorama that is considered most likely to be what the user wants to see. Specify these by value, or by using the constant's name. For example, 'best' or google.maps.StreetViewPreference.BEST.
+
+Constants
+
+[BEST](#StreetViewPreference.BEST)
+
+Return the Street View panorama that is considered most likely to be what the user wants to see. The best result is determined by algorithms based on user research and parameters such as recognised points of interest, image quality, and distance from the given location.
+
+[NEAREST](#StreetViewPreference.NEAREST)
+
+Return the Street View panorama that is the shortest distance from the provided location. This works well only within a limited radius. The recommended radius is 1km or less.

@@ -1,19 +1,17 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.GeoJsonOptions.html)
 
-<h2 id="Data.GeoJsonOptions">Data.GeoJsonOptions interface</h2>
-<p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.GeoJsonOptions</span></code>
-interface
-</p>
-<p>Optional parameters for importing GeoJSON.</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.GeoJsonOptions - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="Data.GeoJsonOptions.idPropertyName">
-<td itemprop="property"><code><a class="secret-link" href="#Data.GeoJsonOptions.idPropertyName"><span>idPropertyName</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The name of the Feature property to use as the feature ID. If not specified, the GeoJSON Feature id will be used.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+Data.GeoJsonOptions interface
+-----------------------------
+
+google.maps.Data.GeoJsonOptions interface
+
+Optional parameters for importing GeoJSON.
+
+Properties
+
+[idPropertyName](#Data.GeoJsonOptions.idPropertyName)
+
+**Type:**  string
+
+The name of the Feature property to use as the feature ID. If not specified, the GeoJSON Feature id will be used.

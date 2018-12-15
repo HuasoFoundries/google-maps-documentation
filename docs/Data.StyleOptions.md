@@ -1,84 +1,95 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.StyleOptions.html)
 
-<h2 id="Data.StyleOptions">Data.StyleOptions interface</h2>
-<p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.StyleOptions</span></code>
-interface
-</p>
-<p>These options specify the way a Feature should appear when displayed on a map.</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.StyleOptions - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="Data.StyleOptions.clickable">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.clickable"><span>clickable</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">If <code>true</code>, the marker receives mouse and touch events. Default value is <code>true</code>.</div></td>
-</tr>
-<tr id="Data.StyleOptions.cursor">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.cursor"><span>cursor</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">Mouse cursor to show on hover. Only applies to point geometries.</div></td>
-</tr>
-<tr id="Data.StyleOptions.draggable">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.draggable"><span>draggable</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">If <code>true</code>, the object can be dragged across the map and the underlying feature will have its geometry updated. Default value is <code>false</code>.</div></td>
-</tr>
-<tr id="Data.StyleOptions.editable">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.editable"><span>editable</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">If <code>true</code>, the object can be edited by dragging control points and the underlying feature will have its geometry updated. Only applies to LineString and Polygon geometries. Default value is <code>false</code>.</div></td>
-</tr>
-<tr id="Data.StyleOptions.fillColor">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.fillColor"><span>fillColor</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The fill color. All CSS3 colors are supported except for extended named colors. Only applies to polygon geometries.</div></td>
-</tr>
-<tr id="Data.StyleOptions.fillOpacity">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.fillOpacity"><span>fillOpacity</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The fill opacity between 0.0 and 1.0. Only applies to polygon geometries.</div></td>
-</tr>
-<tr id="Data.StyleOptions.icon">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.icon"><span>icon</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string|<a href="Icon.md">Icon</a>|<a href="Symbol.md">Symbol</a></code></div>
-<div class="desc">Icon for the foreground. If a string is provided, it is treated as though it were an <code>Icon</code> with the string as <code>url</code>. Only applies to point geometries.</div></td>
-</tr>
-<tr id="Data.StyleOptions.shape">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.shape"><span>shape</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="MarkerShape.md">MarkerShape</a></code></div>
-<div class="desc">Defines the image map used for hit detection. Only applies to point geometries.</div></td>
-</tr>
-<tr id="Data.StyleOptions.strokeColor">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.strokeColor"><span>strokeColor</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The stroke color. All CSS3 colors are supported except for extended named colors. Only applies to line and polygon geometries.</div></td>
-</tr>
-<tr id="Data.StyleOptions.strokeOpacity">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.strokeOpacity"><span>strokeOpacity</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The stroke opacity between 0.0 and 1.0. Only applies to line and polygon geometries.</div></td>
-</tr>
-<tr id="Data.StyleOptions.strokeWeight">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.strokeWeight"><span>strokeWeight</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The stroke width in pixels. Only applies to line and polygon geometries.</div></td>
-</tr>
-<tr id="Data.StyleOptions.title">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.title"><span>title</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">Rollover text. Only applies to point geometries.</div></td>
-</tr>
-<tr id="Data.StyleOptions.visible">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.visible"><span>visible</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Whether the feature is visible. Defaults to <code>true</code>.</div></td>
-</tr>
-<tr id="Data.StyleOptions.zIndex">
-<td itemprop="property"><code><a class="secret-link" href="#Data.StyleOptions.zIndex"><span>zIndex</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">All features are displayed on the map in order of their zIndex, with higher values displaying in front of features with lower values. Markers are always displayed in front of line-strings and polygons.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+Data.StyleOptions interface
+---------------------------
+
+google.maps.Data.StyleOptions interface
+
+These options specify the way a Feature should appear when displayed on a map.
+
+Properties
+
+[clickable](#Data.StyleOptions.clickable)
+
+**Type:**  boolean
+
+If true, the marker receives mouse and touch events. Default value is true.
+
+[cursor](#Data.StyleOptions.cursor)
+
+**Type:**  string
+
+Mouse cursor to show on hover. Only applies to point geometries.
+
+[draggable](#Data.StyleOptions.draggable)
+
+**Type:**  boolean
+
+If true, the object can be dragged across the map and the underlying feature will have its geometry updated. Default value is false.
+
+[editable](#Data.StyleOptions.editable)
+
+**Type:**  boolean
+
+If true, the object can be edited by dragging control points and the underlying feature will have its geometry updated. Only applies to LineString and Polygon geometries. Default value is false.
+
+[fillColor](#Data.StyleOptions.fillColor)
+
+**Type:**  string
+
+The fill color. All CSS3 colors are supported except for extended named colors. Only applies to polygon geometries.
+
+[fillOpacity](#Data.StyleOptions.fillOpacity)
+
+**Type:**  number
+
+The fill opacity between 0.0 and 1.0. Only applies to polygon geometries.
+
+[icon](#Data.StyleOptions.icon)
+
+**Type:**  string|[Icon](Icon.md)|[Symbol](Symbol.md)
+
+Icon for the foreground. If a string is provided, it is treated as though it were an Icon with the string as url. Only applies to point geometries.
+
+[shape](#Data.StyleOptions.shape)
+
+**Type:**  [MarkerShape](MarkerShape.md)
+
+Defines the image map used for hit detection. Only applies to point geometries.
+
+[strokeColor](#Data.StyleOptions.strokeColor)
+
+**Type:**  string
+
+The stroke color. All CSS3 colors are supported except for extended named colors. Only applies to line and polygon geometries.
+
+[strokeOpacity](#Data.StyleOptions.strokeOpacity)
+
+**Type:**  number
+
+The stroke opacity between 0.0 and 1.0. Only applies to line and polygon geometries.
+
+[strokeWeight](#Data.StyleOptions.strokeWeight)
+
+**Type:**  number
+
+The stroke width in pixels. Only applies to line and polygon geometries.
+
+[title](#Data.StyleOptions.title)
+
+**Type:**  string
+
+Rollover text. Only applies to point geometries.
+
+[visible](#Data.StyleOptions.visible)
+
+**Type:**  boolean
+
+Whether the feature is visible. Defaults to true.
+
+[zIndex](#Data.StyleOptions.zIndex)
+
+**Type:**  number
+
+All features are displayed on the map in order of their zIndex, with higher values displaying in front of features with lower values. Markers are always displayed in front of line-strings and polygons.

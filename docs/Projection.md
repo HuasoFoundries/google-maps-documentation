@@ -1,33 +1,35 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Projection.html)
 
-<h2 id="Projection">Projection interface</h2>
-<p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">Projection</span></code>
-interface
-</p>
-<div class="devsite-table-wrapper"><table class="methods responsive" summary="interface Projection - Methods">
-<thead>
-<tr><th colspan="2">Methods</th>
-</tr></thead>
-<tbody>
-<tr id="Projection.fromLatLngToPoint">
-<td itemprop="property"><code><a class="secret-link" href="#Projection.fromLatLngToPoint"><span>fromLatLngToPoint</span></a></code></td>
-<td><div><code>fromLatLngToPoint(latLng[, point])</code></div>
-<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>latLng</code>:&nbsp; <code><a href="LatLng.md">LatLng</a></code></li>
-<li><code>point</code> (optional):&nbsp; <code><a href="Point.md">Point</a></code></li>
-</ul></div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="Point.md">Point</a></code></div>
-<div class="desc">Translates from the LatLng cylinder to the Point plane. This interface specifies a function which implements translation from given <code>LatLng</code> values to world coordinates on the map projection. The Maps API calls this method when it needs to plot locations on screen. <code>Projection</code> objects must implement this method.</div></td>
-</tr>
-<tr id="Projection.fromPointToLatLng">
-<td itemprop="property"><code><a class="secret-link" href="#Projection.fromPointToLatLng"><span>fromPointToLatLng</span></a></code></td>
-<td><div><code>fromPointToLatLng(pixel[, nowrap])</code></div>
-<div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>pixel</code>:&nbsp; <code><a href="Point.md">Point</a></code></li>
-<li><code>nowrap</code> (optional):&nbsp; <code>boolean</code></li>
-</ul></div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="LatLng.md">LatLng</a></code></div>
-<div class="desc">This interface specifies a function which implements translation from world coordinates on a map projection to <code>LatLng</code> values. The Maps API calls this method when it needs to translate actions on screen to positions on the map. <code>Projection</code> objects must implement this method.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+Projection interface
+--------------------
+
+google.maps.Projection interface
+
+Methods
+
+[fromLatLngToPoint](#Projection.fromLatLngToPoint)
+
+fromLatLngToPoint(latLng\[, point\])
+
+**Parameters:** 
+
+*   latLng:  [LatLng](LatLng.md)
+*   point (optional):  [Point](Point.md)
+
+**Return Value:**  [Point](Point.md)
+
+Translates from the LatLng cylinder to the Point plane. This interface specifies a function which implements translation from given LatLng values to world coordinates on the map projection. The Maps API calls this method when it needs to plot locations on screen. Projection objects must implement this method.
+
+[fromPointToLatLng](#Projection.fromPointToLatLng)
+
+fromPointToLatLng(pixel\[, nowrap\])
+
+**Parameters:** 
+
+*   pixel:  [Point](Point.md)
+*   nowrap (optional):  boolean
+
+**Return Value:**  [LatLng](LatLng.md)
+
+This interface specifies a function which implements translation from world coordinates on a map projection to LatLng values. The Maps API calls this method when it needs to translate actions on screen to positions on the map. Projection objects must implement this method.

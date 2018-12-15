@@ -1,46 +1,51 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/AutocompleteOptions.html)
 
-<h2 id="AutocompleteOptions">AutocompleteOptions interface</h2>
-<p>
-<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">AutocompleteOptions</span></code>
-interface
-</p>
-<p>The options that can be set on an <code>Autocomplete</code> object.</p>
-<h4>Library</h4>
-<p>places</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface AutocompleteOptions - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="AutocompleteOptions.bounds">
-<td itemprop="property"><code><a class="secret-link" href="#AutocompleteOptions.bounds"><span>bounds</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a>|<a href="LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></div>
-<div class="desc">The area in which to search for places.</div></td>
-</tr>
-<tr id="AutocompleteOptions.componentRestrictions">
-<td itemprop="property"><code><a class="secret-link" href="#AutocompleteOptions.componentRestrictions"><span>componentRestrictions</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="ComponentRestrictions.md">ComponentRestrictions</a></code></div>
-<div class="desc">The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.</div></td>
-</tr>
-<tr id="AutocompleteOptions.fields">
-<td itemprop="property"><code><a class="secret-link" href="#AutocompleteOptions.fields"><span>fields</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
-<div class="desc">Fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see <code><a href="PlaceResult.md">PlaceResult</a></code>. Nested fields can be specified with dot-paths (for example, <code>"geometry.location"</code>).</div></td>
-</tr>
-<tr id="AutocompleteOptions.placeIdOnly">
-<td itemprop="property"><code><a class="secret-link" href="#AutocompleteOptions.placeIdOnly"><span>placeIdOnly</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Whether to retrieve only Place IDs. The PlaceResult made available when the place_changed event is fired will only have the place_id, types and name fields, with the place_id, types and description returned by the Autocomplete service. Disabled by default.</div></td>
-</tr>
-<tr id="AutocompleteOptions.strictBounds">
-<td itemprop="property"><code><a class="secret-link" href="#AutocompleteOptions.strictBounds"><span>strictBounds</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">A boolean value, indicating that the Autocomplete widget should only return those places that are inside the bounds of the Autocomplete widget at the time the query is sent. Setting strictBounds to false (which is the default) will make the results biased towards, but not restricted to, places contained within the bounds.</div></td>
-</tr>
-<tr id="AutocompleteOptions.types">
-<td itemprop="property"><code><a class="secret-link" href="#AutocompleteOptions.types"><span>types</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
-<div class="desc">The types of predictions to be returned. For a list of supported types, see the <a href="https://developers.google.com/places/supported_types#table3">developer's guide</a>. If nothing is specified, all types are returned. In general only a single type is allowed. The exception is that you can safely mix the <code>'geocode'</code> and <code>'establishment'</code> types, but note that this will have the same effect as specifying no types.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+AutocompleteOptions interface
+-----------------------------
+
+google.maps.places.AutocompleteOptions interface
+
+The options that can be set on an Autocomplete object.
+
+#### Library
+
+places
+
+Properties
+
+[bounds](#AutocompleteOptions.bounds)
+
+**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
+
+The area in which to search for places.
+
+[componentRestrictions](#AutocompleteOptions.componentRestrictions)
+
+**Type:**  [ComponentRestrictions](ComponentRestrictions.md)
+
+The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.
+
+[fields](#AutocompleteOptions.fields)
+
+**Type:**  Array<string>
+
+Fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](PlaceResult.md). Nested fields can be specified with dot-paths (for example, "geometry.location").
+
+[placeIdOnly](#AutocompleteOptions.placeIdOnly)
+
+**Type:**  boolean
+
+Whether to retrieve only Place IDs. The PlaceResult made available when the place\_changed event is fired will only have the place\_id, types and name fields, with the place\_id, types and description returned by the Autocomplete service. Disabled by default.
+
+[strictBounds](#AutocompleteOptions.strictBounds)
+
+**Type:**  boolean
+
+A boolean value, indicating that the Autocomplete widget should only return those places that are inside the bounds of the Autocomplete widget at the time the query is sent. Setting strictBounds to false (which is the default) will make the results biased towards, but not restricted to, places contained within the bounds.
+
+[types](#AutocompleteOptions.types)
+
+**Type:**  Array<string>
+
+The types of predictions to be returned. For a list of supported types, see the [developer's guide](https://developers.google.com/places/supported_types#table3). If nothing is specified, all types are returned. In general only a single type is allowed. The exception is that you can safely mix the 'geocode' and 'establishment' types, but note that this will have the same effect as specifying no types.
