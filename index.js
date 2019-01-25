@@ -4,8 +4,11 @@ const Promise = require('bluebird'),
     puppeteer = require('puppeteer'),
     path = require('path'),
     chalk = require('chalk'),
-    debug = require('debug')('google-maps-documentation'),
+    debug = require('debug')('gmd:scraper'),
     execSh = require('exec-sh'),
+    TurndownService = require('turndown'),
+    convertToMD = require(path.resolve(`${__dirname}/html2md.js`)),
+    turndownService = new TurndownService(),
     execShPromise = require('exec-sh').promise;
 
 /*var exec = require('child_process').exec;
@@ -26,7 +29,8 @@ async function commit(sentence) {
     return /nothing to commit, working tree clean/.test(out.stdout);
 }
 
-let version_history = require('./version_history.json'),
+let baseUrl = `https://huasofoundries.github.io/google-maps-documentation`,
+    version_history = require('./version_history.json'),
     last_update_entry = require('./version_last_update.json'),
     lastversion,
     docLinks = {},
@@ -160,26 +164,35 @@ async function parseSubPage(link, browser) {
         });
         return subpage_sections;
     }, linksObj);
-    let promises = [];
+    let saveHTMLPromises = [],
+        saveMarkdownPromises = [];
+
     sp_sections.forEach(referenceObject => {
         //debug( `docLinks[${referenceObject.path}.${referenceObject.name}] = ${referenceObject.title}.html` );
 
         docLinks[
             `${referenceObject.path}.${referenceObject.name}`
-        ] = `http://huasofoundries.github.io/google-maps-documentation/${
-            referenceObject.title
-        }.html`; // eslint-disable-line max-len
+        ] = `${baseUrl}/${referenceObject.title}.html`; // eslint-disable-line max-len
 
-        promises.push(
+        saveHTMLPromises.push(
             fs.writeFileAsync(
-                path.resolve(`${__dirname}/docs/${referenceObject.title}.md`),
+                path.resolve(`${__dirname}/html/${referenceObject.title}.md`),
                 referenceObject.content,
                 'utf-8'
             )
         );
     });
+    await Promise.all(saveHTMLPromises);
 
-    return await Promise.all(promises);
+    sp_sections.forEach(referenceObject => {
+        let htmlFile = path.resolve(
+            `${__dirname}/html/${referenceObject.title}.md`
+        );
+
+        saveMarkdownPromises.push(convertToMD(htmlFile));
+    });
+
+    return await Promise.all(saveMarkdownPromises);
 }
 
 async function startParsing() {
@@ -300,7 +313,7 @@ ${commitMsg}.
 
     let docsReadme = readmeString.replace(/docs\//g, '');
 
-    let indexMd = docsReadme.replace(/\.md"$/g, '.html"');
+    let indexMd = docsReadme.replace(/\.md\)/g, '.html)');
 
     await fs.writeFileAsync(
         path.resolve(`${__dirname}/docs/README.md`),
@@ -308,7 +321,7 @@ ${commitMsg}.
     );
     await fs.writeFileAsync(
         path.resolve(`${__dirname}/docs/index.md`),
-        docsReadme
+        indexMd
     );
 
     await fs.writeFileAsync(

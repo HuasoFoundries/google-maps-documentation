@@ -1,54 +1,68 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsRoute.html)
 
-<h2 id="DirectionsRoute">DirectionsRoute interface</h2>
-<p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsRoute</span></code>
-interface
-</p>
-<p>A single route containing a set of legs in a <code><a href="DirectionsResult.md">DirectionsResult</a></code>. Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsRoute - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="DirectionsRoute.bounds">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsRoute.bounds"><span>bounds</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a></code></div>
-<div class="desc">The bounds for this route.</div></td>
-</tr>
-<tr id="DirectionsRoute.copyrights">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsRoute.copyrights"><span>copyrights</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">Copyrights text to be displayed for this route.</div></td>
-</tr>
-<tr id="DirectionsRoute.fare">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsRoute.fare"><span>fare</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="TransitFare.md">TransitFare</a></code></div>
-<div class="desc">The total fare for the whole transit trip. Only applicable to transit requests.</div></td>
-</tr>
-<tr id="DirectionsRoute.legs">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsRoute.legs"><span>legs</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="DirectionsLeg.md">DirectionsLeg</a>&gt;</code></div>
-<div class="desc">An array of <code>DirectionsLeg</code>s, each of which contains information about the steps of which it is composed. There will be one leg for each stopover waypoint or destination specified. So a route with no stopover waypoints will contain one <code>DirectionsLeg</code> and a route with one stopover waypoint will contain two.</div></td>
-</tr>
-<tr id="DirectionsRoute.overview_path">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsRoute.overview_path"><span>overview_path</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="LatLng.md">LatLng</a>&gt;</code></div>
-<div class="desc">An array of <code>LatLng</code>s representing the entire course of this route. The path is simplified in order to make it suitable in contexts where a small number of vertices is required (such as Static Maps API URLs).</div></td>
-</tr>
-<tr id="DirectionsRoute.overview_polyline">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsRoute.overview_polyline"><span>overview_polyline</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">An <a href="https://developers.google.com/maps/documentation/utilities/polylinealgorithm">encoded polyline representation</a> of the route in overview_path. This polyline is an approximate (smoothed) path of the resulting directions.</div></td>
-</tr>
-<tr id="DirectionsRoute.warnings">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsRoute.warnings"><span>warnings</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
-<div class="desc">Warnings to be displayed when showing these directions.</div></td>
-</tr>
-<tr id="DirectionsRoute.waypoint_order">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsRoute.waypoint_order"><span>waypoint_order</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;number&gt;</code></div>
-<div class="desc">If <code>optimizeWaypoints</code> was set to <code>true</code>, this field will contain the re-ordered permutation of the input waypoints. For example, if the input was:<br> &nbsp;&nbsp;Origin: Los Angeles<br> &nbsp;&nbsp;Waypoints: Dallas, Bangor, Phoenix<br> &nbsp;&nbsp;Destination: New York<br> and the optimized output was ordered as follows:<br> &nbsp;&nbsp;Origin: Los Angeles<br> &nbsp;&nbsp;Waypoints: Phoenix, Dallas, Bangor<br> &nbsp;&nbsp;Destination: New York<br> then this field will be an <code>Array</code> containing the values [2, 0, 1]. Note that the numbering of waypoints is zero-based.<br> If any of the input waypoints has <code>stopover</code> set to <code>false</code>, this field will be empty, since route optimization is not available for such queries.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+DirectionsRoute interface
+-------------------------
+
+google.maps.DirectionsRoute interface
+
+A single route containing a set of legs in a [DirectionsResult](DirectionsResult.md). Note that though this object is "JSON-like," it is not strictly JSON, as it directly and indirectly includes LatLng objects.
+
+Properties
+
+[bounds](#DirectionsRoute.bounds)
+
+**Type:**  [LatLngBounds](LatLngBounds.md)
+
+The bounds for this route.
+
+[copyrights](#DirectionsRoute.copyrights)
+
+**Type:**  string
+
+Copyrights text to be displayed for this route.
+
+[fare](#DirectionsRoute.fare)
+
+**Type:**  [TransitFare](TransitFare.md)
+
+The total fare for the whole transit trip. Only applicable to transit requests.
+
+[legs](#DirectionsRoute.legs)
+
+**Type:**  Array<[DirectionsLeg](DirectionsLeg.md)\>
+
+An array of DirectionsLegs, each of which contains information about the steps of which it is composed. There will be one leg for each stopover waypoint or destination specified. So a route with no stopover waypoints will contain one DirectionsLeg and a route with one stopover waypoint will contain two.
+
+[overview\_path](#DirectionsRoute.overview_path)
+
+**Type:**  Array<[LatLng](LatLng.md)\>
+
+An array of LatLngs representing the entire course of this route. The path is simplified in order to make it suitable in contexts where a small number of vertices is required (such as Static Maps API URLs).
+
+[overview\_polyline](#DirectionsRoute.overview_polyline)
+
+**Type:**  string
+
+An [encoded polyline representation](https://developers.google.com/maps/documentation/utilities/polylinealgorithm) of the route in overview\_path. This polyline is an approximate (smoothed) path of the resulting directions.
+
+[warnings](#DirectionsRoute.warnings)
+
+**Type:**  Array<string>
+
+Warnings to be displayed when showing these directions.
+
+[waypoint\_order](#DirectionsRoute.waypoint_order)
+
+**Type:**  Array<number>
+
+If optimizeWaypoints was set to true, this field will contain the re-ordered permutation of the input waypoints. For example, if the input was:  
+  Origin: Los Angeles  
+  Waypoints: Dallas, Bangor, Phoenix  
+  Destination: New York  
+and the optimized output was ordered as follows:  
+  Origin: Los Angeles  
+  Waypoints: Phoenix, Dallas, Bangor  
+  Destination: New York  
+then this field will be an Array containing the values \[2, 0, 1\]. Note that the numbering of waypoints is zero-based.  
+If any of the input waypoints has stopover set to false, this field will be empty, since route optimization is not available for such queries.

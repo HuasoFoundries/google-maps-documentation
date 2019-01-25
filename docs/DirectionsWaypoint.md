@@ -1,24 +1,23 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsWaypoint.html)
 
-<h2 id="DirectionsWaypoint">DirectionsWaypoint interface</h2>
-<p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsWaypoint</span></code>
-interface
-</p>
-<p>A <code>DirectionsWaypoint</code> represents a location between origin and destination through which the trip should be routed.</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsWaypoint - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="DirectionsWaypoint.location">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsWaypoint.location"><span>location</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string|<a href="LatLng.md">LatLng</a>|<a href="Place.md">Place</a></code></div>
-<div class="desc">Waypoint location. Can be an address string, a <code>LatLng</code>, or a <code>Place</code>. Optional.</div></td>
-</tr>
-<tr id="DirectionsWaypoint.stopover">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsWaypoint.stopover"><span>stopover</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">If <code>true</code>, indicates that this waypoint is a stop between the origin and destination. This has the effect of splitting the route into two legs. If <code>false</code>, indicates that the route should be biased to go through this waypoint, but not split into two legs. This is useful if you want to create a route in response to the user dragging waypoints on a map. This value is <code>true</code> by default. Optional.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+DirectionsWaypoint interface
+----------------------------
+
+google.maps.DirectionsWaypoint interface
+
+A DirectionsWaypoint represents a location between origin and destination through which the trip should be routed.
+
+Properties
+
+[location](#DirectionsWaypoint.location)
+
+**Type:**  string|[LatLng](LatLng.md)|[Place](Place.md)
+
+Waypoint location. Can be an address string, a LatLng, or a Place. Optional.
+
+[stopover](#DirectionsWaypoint.stopover)
+
+**Type:**  boolean
+
+If true, indicates that this waypoint is a stop between the origin and destination. This has the effect of splitting the route into two legs. If false, indicates that the route should be biased to go through this waypoint, but not split into two legs. This is useful if you want to create a route in response to the user dragging waypoints on a map. This value is true by default. Optional.

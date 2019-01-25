@@ -1,26 +1,27 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PredictionSubstring.html)
 
-<h2 id="PredictionSubstring">PredictionSubstring interface</h2>
-<p>
-<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PredictionSubstring</span></code>
-interface
-</p>
-<p>Represents a prediction substring.</p>
-<h4>Library</h4>
-<p>places</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface PredictionSubstring - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="PredictionSubstring.length">
-<td itemprop="property"><code><a class="secret-link" href="#PredictionSubstring.length"><span>length</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The length of the substring.</div></td>
-</tr>
-<tr id="PredictionSubstring.offset">
-<td itemprop="property"><code><a class="secret-link" href="#PredictionSubstring.offset"><span>offset</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The offset to the substring's start within the description string.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+PredictionSubstring interface
+-----------------------------
+
+google.maps.places.PredictionSubstring interface
+
+Represents a prediction substring.
+
+#### Library
+
+places
+
+Properties
+
+[length](#PredictionSubstring.length)
+
+**Type:**  number
+
+The length of the substring.
+
+[offset](#PredictionSubstring.offset)
+
+**Type:**  number
+
+The offset to the substring's start within the description string.

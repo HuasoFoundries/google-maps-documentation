@@ -1,54 +1,59 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitDetails.html)
 
-<h2 id="TransitDetails">TransitDetails interface</h2>
-<p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">TransitDetails</span></code>
-interface
-</p>
-<p>Details about the departure, arrival, and mode of transit used in this step.</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface TransitDetails - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="TransitDetails.arrival_stop">
-<td itemprop="property"><code><a class="secret-link" href="#TransitDetails.arrival_stop"><span>arrival_stop</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="TransitStop.md">TransitStop</a></code></div>
-<div class="desc">The arrival stop of this transit step.</div></td>
-</tr>
-<tr id="TransitDetails.arrival_time">
-<td itemprop="property"><code><a class="secret-link" href="#TransitDetails.arrival_time"><span>arrival_time</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Time.md">Time</a></code></div>
-<div class="desc">The arrival time of this step, specified as a Time object.</div></td>
-</tr>
-<tr id="TransitDetails.departure_stop">
-<td itemprop="property"><code><a class="secret-link" href="#TransitDetails.departure_stop"><span>departure_stop</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="TransitStop.md">TransitStop</a></code></div>
-<div class="desc">The departure stop of this transit step.</div></td>
-</tr>
-<tr id="TransitDetails.departure_time">
-<td itemprop="property"><code><a class="secret-link" href="#TransitDetails.departure_time"><span>departure_time</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Time.md">Time</a></code></div>
-<div class="desc">The departure time of this step, specified as a Time object.</div></td>
-</tr>
-<tr id="TransitDetails.headsign">
-<td itemprop="property"><code><a class="secret-link" href="#TransitDetails.headsign"><span>headsign</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The direction in which to travel on this line, as it is marked on the vehicle or at the departure stop.</div></td>
-</tr>
-<tr id="TransitDetails.headway">
-<td itemprop="property"><code><a class="secret-link" href="#TransitDetails.headway"><span>headway</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The expected number of seconds between equivalent vehicles at this stop.</div></td>
-</tr>
-<tr id="TransitDetails.line">
-<td itemprop="property"><code><a class="secret-link" href="#TransitDetails.line"><span>line</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="TransitLine.md">TransitLine</a></code></div>
-<div class="desc">Details about the transit line used in this step.</div></td>
-</tr>
-<tr id="TransitDetails.num_stops">
-<td itemprop="property"><code><a class="secret-link" href="#TransitDetails.num_stops"><span>num_stops</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The number of stops on this step. Includes the arrival stop, but not the departure stop.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+TransitDetails interface
+------------------------
+
+google.maps.TransitDetails interface
+
+Details about the departure, arrival, and mode of transit used in this step.
+
+Properties
+
+[arrival\_stop](#TransitDetails.arrival_stop)
+
+**Type:**  [TransitStop](TransitStop.md)
+
+The arrival stop of this transit step.
+
+[arrival\_time](#TransitDetails.arrival_time)
+
+**Type:**  [Time](Time.md)
+
+The arrival time of this step, specified as a Time object.
+
+[departure\_stop](#TransitDetails.departure_stop)
+
+**Type:**  [TransitStop](TransitStop.md)
+
+The departure stop of this transit step.
+
+[departure\_time](#TransitDetails.departure_time)
+
+**Type:**  [Time](Time.md)
+
+The departure time of this step, specified as a Time object.
+
+[headsign](#TransitDetails.headsign)
+
+**Type:**  string
+
+The direction in which to travel on this line, as it is marked on the vehicle or at the departure stop.
+
+[headway](#TransitDetails.headway)
+
+**Type:**  number
+
+The expected number of seconds between equivalent vehicles at this stop.
+
+[line](#TransitDetails.line)
+
+**Type:**  [TransitLine](TransitLine.md)
+
+Details about the transit line used in this step.
+
+[num\_stops](#TransitDetails.num_stops)
+
+**Type:**  number
+
+The number of stops on this step. Includes the arrival stop, but not the departure stop.

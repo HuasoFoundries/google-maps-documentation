@@ -1,19 +1,17 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FusionTablesHeatmap.html)
 
-<h2 id="FusionTablesHeatmap">FusionTablesHeatmap interface</h2>
-<p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">FusionTablesHeatmap</span></code>
-interface
-</p>
-<p>Specifies the appearance for a FusionTablesLayer when rendered as a heatmap.</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface FusionTablesHeatmap - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="FusionTablesHeatmap.enabled">
-<td itemprop="property"><code><a class="secret-link" href="#FusionTablesHeatmap.enabled"><span>enabled</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">If true, render the layer as a heatmap.</div></td>
-</tr>
-</tbody>
-</table></div>
+
+FusionTablesHeatmap interface
+-----------------------------
+
+google.maps.FusionTablesHeatmap interface
+
+Specifies the appearance for a FusionTablesLayer when rendered as a heatmap.
+
+Properties
+
+[enabled](#FusionTablesHeatmap.enabled)
+
+**Type:**  boolean
+
+If true, render the layer as a heatmap.

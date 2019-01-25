@@ -1,69 +1,81 @@
+[See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsLeg.html)
 
-<h2 id="DirectionsLeg">DirectionsLeg interface</h2>
-<p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsLeg</span></code>
-interface
-</p>
-<p>A single leg consisting of a set of steps in a <code><a href="DirectionsResult.md">DirectionsResult</a></code>. Some fields in the leg may not be returned for all requests. Note that though this result is "JSON-like," it is not strictly JSON, as it directly and indirectly includes <code>LatLng</code> objects.</p>
-<div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DirectionsLeg - Properties">
-<thead>
-<tr><th colspan="2">Properties</th>
-</tr></thead>
-<tbody>
-<tr id="DirectionsLeg.arrival_time">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.arrival_time"><span>arrival_time</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Time.md">Time</a></code></div>
-<div class="desc">An estimated arrival time for this leg. Only applicable for TRANSIT requests.</div></td>
-</tr>
-<tr id="DirectionsLeg.departure_time">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.departure_time"><span>departure_time</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Time.md">Time</a></code></div>
-<div class="desc">An estimated departure time for this leg. Only applicable for TRANSIT requests.</div></td>
-</tr>
-<tr id="DirectionsLeg.distance">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.distance"><span>distance</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Distance.md">Distance</a></code></div>
-<div class="desc">The total distance covered by this leg. This property may be undefined as the distance may be unknown.</div></td>
-</tr>
-<tr id="DirectionsLeg.duration">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.duration"><span>duration</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Duration.md">Duration</a></code></div>
-<div class="desc">The total duration of this leg. This property may be undefined as the duration may be unknown.</div></td>
-</tr>
-<tr id="DirectionsLeg.duration_in_traffic">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.duration_in_traffic"><span>duration_in_traffic</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Duration.md">Duration</a></code></div>
-<div class="desc">The total duration of this leg, taking into account the traffic conditions indicated by the <code>trafficModel</code> property. This property may be undefined as the duration may be unknown. Only available to Premium Plan customers when <code>drivingOptions</code> is defined when making the request.</div></td>
-</tr>
-<tr id="DirectionsLeg.end_address">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.end_address"><span>end_address</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The address of the destination of this leg.</div></td>
-</tr>
-<tr id="DirectionsLeg.end_location">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.end_location"><span>end_location</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="LatLng.md">LatLng</a></code></div>
-<div class="desc">The <code>DirectionsService</code> calculates directions between locations by using the nearest transportation option (usually a road) at the start and end locations. <code>end_location</code> indicates the actual geocoded destination, which may be different than the <code>end_location</code> of the last step if, for example, the road is not near the destination of this leg.</div></td>
-</tr>
-<tr id="DirectionsLeg.start_address">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.start_address"><span>start_address</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The address of the origin of this leg.</div></td>
-</tr>
-<tr id="DirectionsLeg.start_location">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.start_location"><span>start_location</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="LatLng.md">LatLng</a></code></div>
-<div class="desc">The <code>DirectionsService</code> calculates directions between locations by using the nearest transportation option (usually a road) at the start and end locations. <code>start_location</code> indicates the actual geocoded origin, which may be different than the <code>start_location</code> of the first step if, for example, the road is not near the origin of this leg.</div></td>
-</tr>
-<tr id="DirectionsLeg.steps">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.steps"><span>steps</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="DirectionsStep.md">DirectionsStep</a>&gt;</code></div>
-<div class="desc">An array of <code>DirectionsStep</code>s, each of which contains information about the individual steps in this leg.</div></td>
-</tr>
-<tr id="DirectionsLeg.via_waypoints">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsLeg.via_waypoints"><span>via_waypoints</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="LatLng.md">LatLng</a>&gt;</code></div>
-<div class="desc">An array of non-stopover waypoints along this leg, which were specified in the original request. <p> <strong>Deprecated in alternative routes</strong>. Version 3.27 will be the last version of the API that adds extra <code>via_waypoints</code> in alternative routes. </p><p> When using the Directions Service to implement draggable directions, it is recommended to disable dragging of alternative routes. Only the main route should be draggable. Users can drag the main route until it matches an alternative route.</p></div></td>
-</tr>
-</tbody>
-</table></div>
+
+DirectionsLeg interface
+-----------------------
+
+google.maps.DirectionsLeg interface
+
+A single leg consisting of a set of steps in a [DirectionsResult](DirectionsResult.md). Some fields in the leg may not be returned for all requests. Note that though this result is "JSON-like," it is not strictly JSON, as it directly and indirectly includes LatLng objects.
+
+Properties
+
+[arrival\_time](#DirectionsLeg.arrival_time)
+
+**Type:**  [Time](Time.md)
+
+An estimated arrival time for this leg. Only applicable for TRANSIT requests.
+
+[departure\_time](#DirectionsLeg.departure_time)
+
+**Type:**  [Time](Time.md)
+
+An estimated departure time for this leg. Only applicable for TRANSIT requests.
+
+[distance](#DirectionsLeg.distance)
+
+**Type:**  [Distance](Distance.md)
+
+The total distance covered by this leg. This property may be undefined as the distance may be unknown.
+
+[duration](#DirectionsLeg.duration)
+
+**Type:**  [Duration](Duration.md)
+
+The total duration of this leg. This property may be undefined as the duration may be unknown.
+
+[duration\_in\_traffic](#DirectionsLeg.duration_in_traffic)
+
+**Type:**  [Duration](Duration.md)
+
+The total duration of this leg, taking into account the traffic conditions indicated by the trafficModel property. This property may be undefined as the duration may be unknown. Only available to Premium Plan customers when drivingOptions is defined when making the request.
+
+[end\_address](#DirectionsLeg.end_address)
+
+**Type:**  string
+
+The address of the destination of this leg.
+
+[end\_location](#DirectionsLeg.end_location)
+
+**Type:**  [LatLng](LatLng.md)
+
+The DirectionsService calculates directions between locations by using the nearest transportation option (usually a road) at the start and end locations. end\_location indicates the actual geocoded destination, which may be different than the end\_location of the last step if, for example, the road is not near the destination of this leg.
+
+[start\_address](#DirectionsLeg.start_address)
+
+**Type:**  string
+
+The address of the origin of this leg.
+
+[start\_location](#DirectionsLeg.start_location)
+
+**Type:**  [LatLng](LatLng.md)
+
+The DirectionsService calculates directions between locations by using the nearest transportation option (usually a road) at the start and end locations. start\_location indicates the actual geocoded origin, which may be different than the start\_location of the first step if, for example, the road is not near the origin of this leg.
+
+[steps](#DirectionsLeg.steps)
+
+**Type:**  Array<[DirectionsStep](DirectionsStep.md)\>
+
+An array of DirectionsSteps, each of which contains information about the individual steps in this leg.
+
+[via\_waypoints](#DirectionsLeg.via_waypoints)
+
+**Type:**  Array<[LatLng](LatLng.md)\>
+
+An array of non-stopover waypoints along this leg, which were specified in the original request.
+
+**Deprecated in alternative routes**. Version 3.27 will be the last version of the API that adds extra via\_waypoints in alternative routes.
+
+When using the Directions Service to implement draggable directions, it is recommended to disable dragging of alternative routes. Only the main route should be draggable. Users can drag the main route until it matches an alternative route.
