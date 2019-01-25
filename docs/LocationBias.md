@@ -8,3 +8,4 @@ typedef
 <h4>Library</h4>
 <p>places</p>
 <p><code><a href="LatLng.md">LatLng</a>|<a href="LatLngLiteral.md">LatLngLiteral</a>|<a href="LatLngBounds.md">LatLngBounds</a>|<a href="LatLngBoundsLiteral.md">LatLngBoundsLiteral</a>|<a href="Circle.md">Circle</a>|<a href="CircleLiteral.md">CircleLiteral</a>|string</code></p>
+<script src="replace_links.js"></script>

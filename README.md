@@ -1,16 +1,18 @@
-# Google Maps Api v3 Documentation
+Google Maps Api v3 Documentation
+================================
 
 In sync, versioned copy of [Google Maps JavaScript API V3 Reference](https://developers.google.com/maps/documentation/javascript/reference)
+
 
 ### What is this?
 
 This repo mirrors the contents of [Google Maps JavaScript API V3 Reference](https://developers.google.com/maps/documentation/javascript/reference)
 
-Each time there's a version bump, or documentation "Last updated" date differs from the last time the users visits the page,
-there's no easy way to check what's different to the prior version.
+Each time there's a version bump, or documentation "Last updated" date differs from the last time the users visits the page, 
+there's no easy way to check what's different to the prior version. 
 
 This project crawls the documentation page periodically, and compares its contents with the contents of this repo. Each time changes
-are detected, said changes are commited and pushed, so the user can check the exact diff between [commits](https://github.com/HuasoFoundries/google-maps-documentation/commits/develop).
+are detected, said changes are commited and pushed, so the user can check the exact diff between commits. 
 
 **Caveat** There are several changes that are only cosmetical or rearrangements of the DOM structure of the documentation. Said changes are
 false positives, but will be considered as updates by this project's crawler.
@@ -150,16 +152,6 @@ Version 3.35, last updated on Friday, December 14, 2018.
 
 #### Fusion Tables
 
-  - [FusionTablesLayer](docs/FusionTablesLayer.md)
-  - [FusionTablesLayerOptions](docs/FusionTablesLayerOptions.md)
-  - [FusionTablesQuery](docs/FusionTablesQuery.md)
-  - [FusionTablesStyle](docs/FusionTablesStyle.md)
-  - [FusionTablesHeatmap](docs/FusionTablesHeatmap.md)
-  - [FusionTablesMarkerOptions](docs/FusionTablesMarkerOptions.md)
-  - [FusionTablesPolygonOptions](docs/FusionTablesPolygonOptions.md)
-  - [FusionTablesPolylineOptions](docs/FusionTablesPolylineOptions.md)
-  - [FusionTablesMouseEvent](docs/FusionTablesMouseEvent.md)
-  - [FusionTablesCell](docs/FusionTablesCell.md)
 
 #### Image overlays
 

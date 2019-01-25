@@ -69,3 +69,4 @@ class
 </tr>
 </tbody>
 </table></div>
+<script src="replace_links.js"></script>
