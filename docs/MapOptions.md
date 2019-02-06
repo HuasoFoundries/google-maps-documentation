@@ -25,6 +25,11 @@ interface
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">When <code>false</code>, map icons are not clickable. A map icon represents a point of interest, also known as a POI. By default map icons are clickable.</div></td>
 </tr>
+<tr id="MapOptions.controlSize">
+<td itemprop="property"><code><a class="secret-link" href="#MapOptions.controlSize"><span>controlSize</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">Size in pixels of the controls appearing on the map. This value must be supplied directly when creating the Map, updating this value later may bring the controls into an undefined state. Only governs the controls made by the Maps API itself. Does not scale developer created custom controls.</div></td>
+</tr>
 <tr id="MapOptions.disableDefaultUI">
 <td itemprop="property"><code><a class="secret-link" href="#MapOptions.disableDefaultUI"><span>disableDefaultUI</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>

@@ -112,6 +112,11 @@ interface
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
 <div class="desc">URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the Place. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
+<tr id="PlaceResult.user_ratings_total">
+<td itemprop="property"><code><a class="secret-link" href="#PlaceResult.user_ratings_total"><span>user_ratings_total</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">The number of user ratings which contributed to this Place's <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.rating">PlaceResult.rating</a></code>.</div></td>
+</tr>
 <tr id="PlaceResult.utc_offset">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.utc_offset"><span>utc_offset</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>

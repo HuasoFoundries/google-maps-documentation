@@ -19,7 +19,7 @@ Starting August 2018, this project will regularly inspect the contents of the [w
 
 ### Last Update
 
-Version 3.35, last updated on Friday, December 14, 2018.
+Version 3.35, last updated on Monday, January 14, 2019.
 
 ### Table of Contents
 

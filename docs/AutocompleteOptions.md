@@ -29,7 +29,7 @@ interface
 </tr>
 <tr id="AutocompleteOptions.placeIdOnly">
 <td itemprop="property"><code><a class="secret-link" href="#AutocompleteOptions.placeIdOnly"><span>placeIdOnly</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<td><aside class="warning"><p><b>Notice:</b> <code>placeIdOnly</code> is deprecated as of January 15, 2019, and will be turned off on January 15, 2020. Use <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-widget#AutocompleteOptions.fields">AutocompleteOptions.fields</a></code> instead: <code>fields: ['place_id', 'name', 'types']</code>.</p></aside><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">Whether to retrieve only Place IDs. The PlaceResult made available when the place_changed event is fired will only have the place_id, types and name fields, with the place_id, types and description returned by the Autocomplete service. Disabled by default.</div></td>
 </tr>
 <tr id="AutocompleteOptions.strictBounds">

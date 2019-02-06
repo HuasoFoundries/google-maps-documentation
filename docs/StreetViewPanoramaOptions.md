@@ -25,6 +25,11 @@ interface
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">The enabled/disabled state of click-to-go.</div></td>
 </tr>
+<tr id="StreetViewPanoramaOptions.controlSize">
+<td itemprop="property"><code><a class="secret-link" href="#StreetViewPanoramaOptions.controlSize"><span>controlSize</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<div class="desc">Size in pixels of the controls appearing on the panorama. This value must be supplied directly when creating the Panorama, updating this value later may bring the controls into an undefined state. Only governs the controls made by the Maps API itself. Does not scale developer created custom controls.</div></td>
+</tr>
 <tr id="StreetViewPanoramaOptions.disableDefaultUI">
 <td itemprop="property"><code><a class="secret-link" href="#StreetViewPanoramaOptions.disableDefaultUI"><span>disableDefaultUI</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
