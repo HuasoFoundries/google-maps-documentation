@@ -140,6 +140,12 @@ An array of [types for this Place](https://developers.google.com/places/supporte
 
 URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the Place. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
+[user\_ratings\_total](#PlaceResult.user_ratings_total)
+
+**Type:**  number
+
+The number of user ratings which contributed to this Place's [PlaceResult.rating](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.rating).
+
 [utc\_offset](#PlaceResult.utc_offset)
 
 **Type:**  number

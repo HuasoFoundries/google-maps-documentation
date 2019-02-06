@@ -6,7 +6,7 @@ LocationBias typedef
 
 google.maps.places.LocationBias typedef
 
-A LocationBias represents a soft boundrary or hint to use when searching for Places. Results may come from outside the specified area. To use the current user's IP address as a bias, the string "IP\_BIAS" can be specified. Note: if using a [Circle](Circle.md) the center and radius must be defined.
+A LocationBias represents a soft boundary or hint to use when searching for Places. Results may come from outside the specified area. To use the current user's IP address as a bias, the string "IP\_BIAS" can be specified. Note: if using a [Circle](Circle.md) the center and radius must be defined.
 
 #### Library
 

@@ -28,6 +28,12 @@ The display options for the address control.
 
 The enabled/disabled state of click-to-go.
 
+[controlSize](#StreetViewPanoramaOptions.controlSize)
+
+**Type:**  number
+
+Size in pixels of the controls appearing on the panorama. This value must be supplied directly when creating the Panorama, updating this value later may bring the controls into an undefined state. Only governs the controls made by the Maps API itself. Does not scale developer created custom controls.
+
 [disableDefaultUI](#StreetViewPanoramaOptions.disableDefaultUI)
 
 **Type:**  boolean
