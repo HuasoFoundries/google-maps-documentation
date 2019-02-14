@@ -340,8 +340,10 @@ if (require.main === module) {
     .then(() => {
       let total_time = parseInt((Date.now() - t_ini) / 100, 10) / 10;
       console.log(`process finished in ${chalk.yellow(total_time)} seconds`);
+      return process.exit();
     })
     .catch(err => {
       console.log(`${chalk.red('error')}`, err.message);
+      return process.exit();
     });
 }
