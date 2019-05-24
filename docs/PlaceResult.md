@@ -18,13 +18,13 @@ Properties
 
 **Type:**  Array<[GeocoderAddressComponent](GeocoderAddressComponent.md)\>
 
-The collection of address components for this Place's location. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The collection of address components for this Place’s location. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [adr\_address](#PlaceResult.adr_address)
 
 **Type:**  string
 
-The representation of the Place's address in the [adr microformat](http://microformats.org/wiki/adr). Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The representation of the Place’s address in the [adr microformat](http://microformats.org/wiki/adr). Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [aspects](#PlaceResult.aspects)
 
@@ -36,19 +36,19 @@ The rated aspects of this Place, based on Google and Zagat user reviews. The rat
 
 **Type:**  string
 
-The Place's full address.
+The Place’s full address.
 
 [formatted\_phone\_number](#PlaceResult.formatted_phone_number)
 
 **Type:**  string
 
-The Place's phone number, formatted according to the [number's regional convention](http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers). Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The Place’s phone number, formatted according to the [number's regional convention](http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers). Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [geometry](#PlaceResult.geometry)
 
 **Type:**  [PlaceGeometry](PlaceGeometry.md)
 
-The Place's geometry-related information.
+The Place’s geometry-related information.
 
 [html\_attributions](#PlaceResult.html_attributions)
 
@@ -60,19 +60,19 @@ Attribution text to be displayed for this Place result. Available html\_attribut
 
 **Type:**  string
 
-URL to an image resource that can be used to represent this Place's category.
+URL to an image resource that can be used to represent this Place’s category.
 
 [international\_phone\_number](#PlaceResult.international_phone_number)
 
 **Type:**  string
 
-The Place's phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The Place’s phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [name](#PlaceResult.name)
 
 **Type:**  string
 
-The Place's name. Note: In the case of user entered Places, this is the raw text, as typed by the user. Please exercise caution when using this data, as malicious users may try to use it as a vector for code injection attacks (See [http://en.wikipedia.org/wiki/Code\_injection](http://en.wikipedia.org/wiki/Code_injection)).
+The Place’s name. Note: In the case of user entered Places, this is the raw text, as typed by the user. Please exercise caution when using this data, as malicious users may try to use it as a vector for code injection attacks (See [http://en.wikipedia.org/wiki/Code\_injection](http://en.wikipedia.org/wiki/Code_injection)).
 
 [opening\_hours](#PlaceResult.opening_hours)
 
@@ -144,13 +144,13 @@ URL of the official Google page for this place. This is the Google-owned page th
 
 **Type:**  number
 
-The number of user ratings which contributed to this Place's [PlaceResult.rating](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.rating).
+The number of user ratings which contributed to this Place’s [PlaceResult.rating](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.rating).
 
 [utc\_offset](#PlaceResult.utc_offset)
 
 **Type:**  number
 
-The offset from UTC of the Place's current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the utc\_offset will be 660. For timezones behind UTC, the offset is negative. For example, the is \-60 for Cape Verde. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The offset from UTC of the Place’s current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the utc\_offset will be 660. For timezones behind UTC, the offset is negative. For example, the is \-60 for Cape Verde. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [vicinity](#PlaceResult.vicinity)
 

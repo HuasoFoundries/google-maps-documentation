@@ -18,7 +18,7 @@ Properties
 
 **Type:**  [LatLng](LatLng.md)
 
-The Place's position.
+The Place’s position.
 
 [viewport](#PlaceGeometry.viewport)
 
