@@ -15,7 +15,7 @@ interface
 <tr id="PlaceGeometry.location">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceGeometry.location"><span>location</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="LatLng.md">LatLng</a></code></div>
-<div class="desc">The Place's position.</div></td>
+<div class="desc">The Place’s position.</div></td>
 </tr>
 <tr id="PlaceGeometry.viewport">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceGeometry.viewport"><span>viewport</span></a></code></td>

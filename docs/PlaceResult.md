@@ -15,12 +15,12 @@ interface
 <tr id="PlaceResult.address_components">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.address_components"><span>address_components</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="GeocoderAddressComponent.md">GeocoderAddressComponent</a>&gt;</code></div>
-<div class="desc">The collection of address components for this Place's location. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The collection of address components for this Place’s location. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.adr_address">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.adr_address"><span>adr_address</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The representation of the Place's address in the <a href="http://microformats.org/wiki/adr">adr microformat</a>. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The representation of the Place’s address in the <a href="http://microformats.org/wiki/adr">adr microformat</a>. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.aspects">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.aspects"><span>aspects</span></a></code></td>
@@ -30,17 +30,17 @@ interface
 <tr id="PlaceResult.formatted_address">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.formatted_address"><span>formatted_address</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The Place's full address.</div></td>
+<div class="desc">The Place’s full address.</div></td>
 </tr>
 <tr id="PlaceResult.formatted_phone_number">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.formatted_phone_number"><span>formatted_phone_number</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The Place's phone number, formatted according to the <a href="http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers"> number's regional convention</a>. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The Place’s phone number, formatted according to the <a href="http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers"> number's regional convention</a>. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.geometry">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.geometry"><span>geometry</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code><a href="PlaceGeometry.md">PlaceGeometry</a></code></div>
-<div class="desc">The Place's geometry-related information.</div></td>
+<div class="desc">The Place’s geometry-related information.</div></td>
 </tr>
 <tr id="PlaceResult.html_attributions">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.html_attributions"><span>html_attributions</span></a></code></td>
@@ -50,17 +50,17 @@ interface
 <tr id="PlaceResult.icon">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.icon"><span>icon</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">URL to an image resource that can be used to represent this Place's category.</div></td>
+<div class="desc">URL to an image resource that can be used to represent this Place’s category.</div></td>
 </tr>
 <tr id="PlaceResult.international_phone_number">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.international_phone_number"><span>international_phone_number</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The Place's phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The Place’s phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.name">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.name"><span>name</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
-<div class="desc">The Place's name. Note: In the case of user entered Places, this is the raw text, as typed by the user. Please exercise caution when using this data, as malicious users may try to use it as a vector for code injection attacks (See <a href="http://en.wikipedia.org/wiki/Code_injection"> http://en.wikipedia.org/wiki/Code_injection</a>).</div></td>
+<div class="desc">The Place’s name. Note: In the case of user entered Places, this is the raw text, as typed by the user. Please exercise caution when using this data, as malicious users may try to use it as a vector for code injection attacks (See <a href="http://en.wikipedia.org/wiki/Code_injection"> http://en.wikipedia.org/wiki/Code_injection</a>).</div></td>
 </tr>
 <tr id="PlaceResult.opening_hours">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.opening_hours"><span>opening_hours</span></a></code></td>
@@ -115,12 +115,12 @@ interface
 <tr id="PlaceResult.user_ratings_total">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.user_ratings_total"><span>user_ratings_total</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The number of user ratings which contributed to this Place's <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.rating">PlaceResult.rating</a></code>.</div></td>
+<div class="desc">The number of user ratings which contributed to this Place’s <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.rating">PlaceResult.rating</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.utc_offset">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.utc_offset"><span>utc_offset</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
-<div class="desc">The offset from UTC of the Place's current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the <code>utc_offset</code> will be <code>660</code>. For timezones behind UTC, the offset is negative. For example, the  is <code>-60</code> for Cape Verde. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
+<div class="desc">The offset from UTC of the Place’s current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the <code>utc_offset</code> will be <code>660</code>. For timezones behind UTC, the offset is negative. For example, the  is <code>-60</code> for Cape Verde. Only available with <code><a href="https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails">PlacesService.getDetails</a></code>.</div></td>
 </tr>
 <tr id="PlaceResult.vicinity">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceResult.vicinity"><span>vicinity</span></a></code></td>
