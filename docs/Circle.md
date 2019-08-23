@@ -17,7 +17,7 @@ class
 <td><code><a class="secret-link" href="#Circle.constructor"><span>Circle</span></a></code></td>
 <td><div><code>Circle([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="CircleOptions.md">CircleOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="CircleOptions.md">CircleOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Create a circle using the passed <code><a href="CircleOptions.md">CircleOptions</a></code>, which specify the center, radius, and style.</div></td>
 </tr>

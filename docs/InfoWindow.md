@@ -17,7 +17,7 @@ class
 <td><code><a class="secret-link" href="#InfoWindow.constructor"><span>InfoWindow</span></a></code></td>
 <td><div><code>InfoWindow([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="InfoWindowOptions.md">InfoWindowOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="InfoWindowOptions.md">InfoWindowOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates an info window with the given options. An InfoWindow can be placed on a map at a particular position or above a marker, depending on what is specified in the options. Unless auto-pan is disabled, an InfoWindow will pan the map to make itself visible when it is opened. After constructing an InfoWindow, you must call open to display it on the map. The user can click the close button on the InfoWindow to remove it from the map, or the developer can call close() for the same effect.</div></td>
 </tr>
@@ -60,8 +60,8 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#InfoWindow.open"><span>open</span></a></code></td>
 <td><div><code>open([map, anchor])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>map</code> (optional):&nbsp; <code><a href="Map.md">Map</a>|<a href="StreetViewPanorama.md">StreetViewPanorama</a></code></li>
-<li><code>anchor</code> (optional):&nbsp; <code><a href="MVCObject.md">MVCObject</a></code></li>
+<li><code>map</code>:&nbsp; <code><a href="Map.md">Map</a>|<a href="StreetViewPanorama.md">StreetViewPanorama</a> <span class="optional-type-annotation">optional</span></code></li>
+<li><code>anchor</code>:&nbsp; <code><a href="MVCObject.md">MVCObject</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Opens this InfoWindow on the given map. Optionally, an InfoWindow can be associated with an anchor. In the core API, the only anchor is the Marker class. However, an anchor can be any MVCObject that exposes a LatLng <code>position</code> property and optionally a Point <code>anchorPoint</code> property for calculating the <code>pixelOffset</code> (see InfoWindowOptions). The <code>anchorPoint</code> is the offset from the anchor's position to the tip of the InfoWindow.</div></td>

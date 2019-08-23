@@ -12,12 +12,12 @@ interface
 <tbody>
 <tr id="TrafficLayerOptions.autoRefresh">
 <td itemprop="property"><code><a class="secret-link" href="#TrafficLayerOptions.autoRefresh"><span>autoRefresh</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Whether the traffic layer refreshes with updated information automatically. This is true by default.</div></td>
 </tr>
 <tr id="TrafficLayerOptions.map">
 <td itemprop="property"><code><a class="secret-link" href="#TrafficLayerOptions.map"><span>map</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Map.md">Map</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="Map.md">Map</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Map on which to display the traffic layer.</div></td>
 </tr>
 </tbody>

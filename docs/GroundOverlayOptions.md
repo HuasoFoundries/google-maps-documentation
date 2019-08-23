@@ -12,17 +12,17 @@ interface
 <tbody>
 <tr id="GroundOverlayOptions.clickable">
 <td itemprop="property"><code><a class="secret-link" href="#GroundOverlayOptions.clickable"><span>clickable</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">If <code>true</code>, the ground overlay can receive mouse events.</div></td>
 </tr>
 <tr id="GroundOverlayOptions.map">
 <td itemprop="property"><code><a class="secret-link" href="#GroundOverlayOptions.map"><span>map</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Map.md">Map</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="Map.md">Map</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The map on which to display the overlay.</div></td>
 </tr>
 <tr id="GroundOverlayOptions.opacity">
 <td itemprop="property"><code><a class="secret-link" href="#GroundOverlayOptions.opacity"><span>opacity</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The opacity of the overlay, expressed as a number between 0 and 1. Optional. Defaults to 1.</div></td>
 </tr>
 </tbody>

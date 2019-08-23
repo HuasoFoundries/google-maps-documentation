@@ -15,11 +15,11 @@ interface
 <tr id="FindPlaceFromQueryRequest.fields">
 <td itemprop="property"><code><a class="secret-link" href="#FindPlaceFromQueryRequest.fields"><span>fields</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code>Array&lt;string&gt;</code></div>
-<div class="desc">Fields to be included in the response. For a list of fields see <code><a href="PlaceResult.md">PlaceResult</a></code>. Nested fields can be specified with dot-paths (for example, <code>"geometry.location"</code>).</div></td>
+<div class="desc">Fields to be included in the response, <a href="https://developers.google.com/maps/billing/understanding-cost-of-use#places-product">which will be billed for</a>. If <code>['ALL']</code> is passed in, all available fields will be returned and billed for (this is not recommended for production deployments). For a list of fields see <code><a href="PlaceResult.md">PlaceResult</a></code>. Nested fields can be specified with dot-paths (for example, <code>"geometry.location"</code>).</div></td>
 </tr>
 <tr id="FindPlaceFromQueryRequest.locationBias">
 <td itemprop="property"><code><a class="secret-link" href="#FindPlaceFromQueryRequest.locationBias"><span>locationBias</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="LocationBias.md">LocationBias</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="LocationBias.md">LocationBias</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The bias used when searching for Place. The result will be biased towards, but not restricted to, the given <code><a href="LocationBias.md">LocationBias</a></code>.</div></td>
 </tr>
 <tr id="FindPlaceFromQueryRequest.query">

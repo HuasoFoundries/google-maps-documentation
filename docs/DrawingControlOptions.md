@@ -14,12 +14,12 @@ interface
 <tbody>
 <tr id="DrawingControlOptions.drawingModes">
 <td itemprop="property"><code><a class="secret-link" href="#DrawingControlOptions.drawingModes"><span>drawingModes</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="OverlayType.md">OverlayType</a>&gt;</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="OverlayType.md">OverlayType</a>&gt; <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The drawing modes to display in the drawing control, in the order in which they are to be displayed. The hand icon (which corresponds to the null drawing mode) is always available and is not to be specified in this array. Defaults to <code>['marker', 'polyline', 'rectangle', 'circle', 'polygon']</code>.</div></td>
 </tr>
 <tr id="DrawingControlOptions.position">
 <td itemprop="property"><code><a class="secret-link" href="#DrawingControlOptions.position"><span>position</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="ControlPosition.md">ControlPosition</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="ControlPosition.md">ControlPosition</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Position id. Used to specify the position of the control on the map. The default position is <code>TOP_LEFT</code>.</div></td>
 </tr>
 </tbody>

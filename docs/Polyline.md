@@ -17,7 +17,7 @@ class
 <td><code><a class="secret-link" href="#Polyline.constructor"><span>Polyline</span></a></code></td>
 <td><div><code>Polyline([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="PolylineOptions.md">PolylineOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="PolylineOptions.md">PolylineOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Create a polyline using the passed <code><em><a href="PolylineOptions.md">PolylineOptions</a></em></code>, which specify both the path of the polyline and the stroke style to use when drawing the polyline. You may pass either an array of <code>LatLng</code>s or an <code><a href="#MVCArray">MVCArray</a></code> of <code>LatLng</code>s when constructing a polyline, though simple arrays are converted to <code>MVCArray</code>s within the polyline upon instantiation.</div></td>
 </tr>

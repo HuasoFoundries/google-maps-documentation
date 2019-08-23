@@ -17,12 +17,12 @@ interface
 </tr>
 <tr id="Data.SetGeometryEvent.newGeometry">
 <td itemprop="property"><code><a class="secret-link" href="#Data.SetGeometryEvent.newGeometry"><span>newGeometry</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Data.Geometry.md">Data.Geometry</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="Data.Geometry.md">Data.Geometry</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The new feature geometry.</div></td>
 </tr>
 <tr id="Data.SetGeometryEvent.oldGeometry">
 <td itemprop="property"><code><a class="secret-link" href="#Data.SetGeometryEvent.oldGeometry"><span>oldGeometry</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Data.Geometry.md">Data.Geometry</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="Data.Geometry.md">Data.Geometry</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The previous feature geometry.</div></td>
 </tr>
 </tbody>

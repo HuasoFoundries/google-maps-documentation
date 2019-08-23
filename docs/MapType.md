@@ -39,7 +39,7 @@ interface
 <tbody>
 <tr id="MapType.alt">
 <td itemprop="property"><code><a class="secret-link" href="#MapType.alt"><span>alt</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Alt text to display when this MapType's button is hovered over in the MapTypeControl. Optional.</div></td>
 </tr>
 <tr id="MapType.maxZoom">
@@ -54,12 +54,12 @@ interface
 </tr>
 <tr id="MapType.name">
 <td itemprop="property"><code><a class="secret-link" href="#MapType.name"><span>name</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Name to display in the MapTypeControl. Optional.</div></td>
 </tr>
 <tr id="MapType.projection">
 <td itemprop="property"><code><a class="secret-link" href="#MapType.projection"><span>projection</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Projection.md">Projection</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="Projection.md">Projection</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The Projection used to render this MapType. Optional; defaults to Mercator.</div></td>
 </tr>
 <tr id="MapType.radius">

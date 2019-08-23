@@ -76,7 +76,7 @@ class
 <tbody>
 <tr id="ImageMapType.alt">
 <td itemprop="property"><code><a class="secret-link" href="#ImageMapType.alt"><span>alt</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc"></div></td>
 </tr>
 <tr id="ImageMapType.maxZoom">
@@ -91,7 +91,7 @@ class
 </tr>
 <tr id="ImageMapType.name">
 <td itemprop="property"><code><a class="secret-link" href="#ImageMapType.name"><span>name</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc"></div></td>
 </tr>
 <tr id="ImageMapType.projection">

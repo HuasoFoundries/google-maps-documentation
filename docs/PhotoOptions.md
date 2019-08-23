@@ -14,12 +14,12 @@ interface
 <tbody>
 <tr id="PhotoOptions.maxHeight">
 <td itemprop="property"><code><a class="secret-link" href="#PhotoOptions.maxHeight"><span>maxHeight</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The maximum height in pixels of the returned image.</div></td>
 </tr>
 <tr id="PhotoOptions.maxWidth">
 <td itemprop="property"><code><a class="secret-link" href="#PhotoOptions.maxWidth"><span>maxWidth</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The maximum width in pixels of the returned image.</div></td>
 </tr>
 </tbody>

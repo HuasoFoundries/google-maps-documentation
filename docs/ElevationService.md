@@ -28,7 +28,7 @@ class
 <td><div><code>getElevationAlongPath(request, callback)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>request</code>:&nbsp; <code><a href="PathElevationRequest.md">PathElevationRequest</a></code></li>
-<li><code>callback</code>:&nbsp; <code>function(Array&lt;<a href="ElevationResult.md">ElevationResult</a>&gt;, <a href="ElevationStatus.md">ElevationStatus</a>)</code></li>
+<li><code>callback</code>:&nbsp; <code>function(Array&lt;<a href="ElevationResult.md">ElevationResult</a>&gt; <span class="optional-type-annotation">optional</span>, <a href="ElevationStatus.md">ElevationStatus</a>)</code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Makes an elevation request along a path, where the elevation data are returned as distance-based samples along that path.</div></td>
@@ -38,7 +38,7 @@ class
 <td><div><code>getElevationForLocations(request, callback)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>request</code>:&nbsp; <code><a href="LocationElevationRequest.md">LocationElevationRequest</a></code></li>
-<li><code>callback</code>:&nbsp; <code>function(Array&lt;<a href="ElevationResult.md">ElevationResult</a>&gt;, <a href="ElevationStatus.md">ElevationStatus</a>)</code></li>
+<li><code>callback</code>:&nbsp; <code>function(Array&lt;<a href="ElevationResult.md">ElevationResult</a>&gt; <span class="optional-type-annotation">optional</span>, <a href="ElevationStatus.md">ElevationStatus</a>)</code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Makes an elevation request for a list of discrete locations.</div></td>

@@ -21,7 +21,7 @@ class
 <td><div><code>StyledMapType(styles[, options])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>styles</code>:&nbsp; <code>Array&lt;<a href="MapTypeStyle.md">MapTypeStyle</a>&gt;</code></li>
-<li><code>options</code> (optional):&nbsp; <code><a href="StyledMapTypeOptions.md">StyledMapTypeOptions</a></code></li>
+<li><code>options</code>:&nbsp; <code><a href="StyledMapTypeOptions.md">StyledMapTypeOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a styled <code>MapType</code> with the specified options. The <code>StyledMapType</code> takes an array of <code>MapTypeStyle</code>s, where each <code>MapTypeStyle</code> is applied to the map consecutively. A later <code>MapTypeStyle</code> that applies the same <code>MapTypeStyler</code>s to the same selectors as an earlier <code>MapTypeStyle</code> will override the earlier <code>MapTypeStyle</code>.</div></td>
 </tr>

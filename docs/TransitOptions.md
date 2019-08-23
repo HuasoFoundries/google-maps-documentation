@@ -12,22 +12,22 @@ interface
 <tbody>
 <tr id="TransitOptions.arrivalTime">
 <td itemprop="property"><code><a class="secret-link" href="#TransitOptions.arrivalTime"><span>arrivalTime</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Date</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>Date <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The desired arrival time for the route, specified as a Date object. The Date object measures time in milliseconds since 1 January 1970. If arrival time is specified, departure time is ignored.</div></td>
 </tr>
 <tr id="TransitOptions.departureTime">
 <td itemprop="property"><code><a class="secret-link" href="#TransitOptions.departureTime"><span>departureTime</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Date</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>Date <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The desired departure time for the route, specified as a Date object. The Date object measures time in milliseconds since 1 January 1970. If neither departure time nor arrival time is specified, the time is assumed to be "now".</div></td>
 </tr>
 <tr id="TransitOptions.modes">
 <td itemprop="property"><code><a class="secret-link" href="#TransitOptions.modes"><span>modes</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="TransitMode.md">TransitMode</a>&gt;</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="TransitMode.md">TransitMode</a>&gt; <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">One or more preferred modes of transit, such as bus or train. If no preference is given, the API returns the default best route.</div></td>
 </tr>
 <tr id="TransitOptions.routingPreference">
 <td itemprop="property"><code><a class="secret-link" href="#TransitOptions.routingPreference"><span>routingPreference</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="TransitRoutePreference.md">TransitRoutePreference</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="TransitRoutePreference.md">TransitRoutePreference</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">A preference that can bias the choice of transit route, such as less walking. If no preference is given, the API returns the default best route.</div></td>
 </tr>
 </tbody>

@@ -20,7 +20,7 @@ class
 <td><div><code>Autocomplete(inputField[, opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>inputField</code>:&nbsp; <code>HTMLInputElement</code></li>
-<li><code>opts</code> (optional):&nbsp; <code><a href="AutocompleteOptions.md">AutocompleteOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="AutocompleteOptions.md">AutocompleteOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a new instance of <code>Autocomplete</code> that attaches to the specified input text field with the given options.</div></td>
 </tr>
@@ -35,14 +35,14 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Autocomplete.getBounds"><span>getBounds</span></a></code></td>
 <td><div><code>getBounds()</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a>|undefined</code></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Returns the bounds to which predictions are biased.</div></td>
 </tr>
 <tr id="Autocomplete.getFields">
 <td itemprop="property"><code><a class="secret-link" href="#Autocomplete.getFields"><span>getFields</span></a></code></td>
 <td><div><code>getFields()</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code>Array&lt;string&gt;|undefined</code></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code>Array&lt;string&gt; <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Returns the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see <code><a href="PlaceResult.md">PlaceResult</a></code>.</div></td>
 </tr>
 <tr id="Autocomplete.getPlace">
@@ -56,7 +56,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Autocomplete.setBounds"><span>setBounds</span></a></code></td>
 <td><div><code>setBounds(bounds)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>bounds</code>:&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a>|<a href="LatLngBoundsLiteral.md">LatLngBoundsLiteral</a>|undefined</code></li>
+<li><code>bounds</code>:&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a>|<a href="LatLngBoundsLiteral.md">LatLngBoundsLiteral</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Sets the preferred area within which to return Place results. Results are biased towards, but not restricted to, this area.</div></td>
@@ -74,7 +74,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Autocomplete.setFields"><span>setFields</span></a></code></td>
 <td><div><code>setFields(fields)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>fields</code>:&nbsp; <code>Array&lt;string&gt;|undefined</code></li>
+<li><code>fields</code>:&nbsp; <code>Array&lt;string&gt; <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Sets the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see <code><a href="PlaceResult.md">PlaceResult</a></code>.</div></td>

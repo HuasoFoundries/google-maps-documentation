@@ -16,7 +16,7 @@ class
 <td><code><a class="secret-link" href="#Marker.constructor"><span>Marker</span></a></code></td>
 <td><div><code>Marker([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="MarkerOptions.md">MarkerOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="MarkerOptions.md">MarkerOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a marker with the options specified. If a map is specified, the marker is added to the map upon construction. Note that the position must be set for the marker to display.</div></td>
 </tr>
@@ -31,7 +31,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Marker.getAnimation"><span>getAnimation</span></a></code></td>
 <td><div><code>getAnimation()</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="Animation.md">Animation</a></code></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="Animation.md">Animation</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc"></div></td>
 </tr>
 <tr id="Marker.getClickable">
@@ -122,7 +122,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Marker.setAnimation"><span>setAnimation</span></a></code></td>
 <td><div><code>setAnimation(animation)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>animation</code>:&nbsp; <code><a href="Animation.md">Animation</a></code></li>
+<li><code>animation</code>:&nbsp; <code><a href="Animation.md">Animation</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Start an animation. Any ongoing animation will be cancelled. Currently supported animations are: BOUNCE, DROP. Passing in <code>null</code> will cause any animation to stop.</div></td>
@@ -149,7 +149,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Marker.setDraggable"><span>setDraggable</span></a></code></td>
 <td><div><code>setDraggable(flag)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>flag</code>:&nbsp; <code>boolean</code></li>
+<li><code>flag</code>:&nbsp; <code>boolean <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc"></div></td>

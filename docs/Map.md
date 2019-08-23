@@ -17,7 +17,7 @@ class
 <td><div><code>Map(mapDiv[, opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>mapDiv</code>:&nbsp; <code>Element</code></li>
-<li><code>opts</code> (optional):&nbsp; <code><a href="MapOptions.md">MapOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="MapOptions.md">MapOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a new map inside of the given HTML container, which is typically a <code>DIV</code> element.</div></td>
 </tr>
@@ -33,7 +33,7 @@ class
 <td><div><code>fitBounds(bounds[, padding])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>bounds</code>:&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a>|<a href="LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></li>
-<li><code>padding</code> (optional):&nbsp; <code>number|<a href="Padding.md">Padding</a></code></li>
+<li><code>padding</code>:&nbsp; <code>number|<a href="Padding.md">Padding</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Sets the viewport to contain the given bounds.<br> <strong>Note:</strong> When the map is set to <code>display: none</code>, the <code>fitBounds</code> function reads the map's size as 0x0, and therefore does not do anything. To change the viewport while the map is hidden, set the map to <code>visibility: hidden</code>, thereby ensuring the map div has an actual size.</div></td>
@@ -132,7 +132,7 @@ class
 <td><div><code>panToBounds(latLngBounds[, padding])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>latLngBounds</code>:&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a>|<a href="LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></li>
-<li><code>padding</code> (optional):&nbsp; <code>number|<a href="Padding.md">Padding</a></code></li>
+<li><code>padding</code>:&nbsp; <code>number|<a href="Padding.md">Padding</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Pans the map by the minimum amount necessary to contain the given <code>LatLngBounds</code>. It makes no guarantee where on the map the bounds will be, except that the map will be panned to show as much of the bounds as possible inside <code>{currentMapSizeInPx} - {padding}</code>.</div></td>
@@ -233,7 +233,7 @@ class
 </tr>
 <tr id="Map.overlayMapTypes">
 <td itemprop="property"><code><a class="secret-link" href="#Map.overlayMapTypes"><span>overlayMapTypes</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="MVCArray.md">MVCArray</a>&lt;<a href="MapType.md">MapType</a>&gt;</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="MVCArray.md">MVCArray</a>&lt;<a href="MapType.md">MapType</a> <span class="optional-type-annotation">optional</span>&gt;</code></div>
 <div class="desc">Additional map types to overlay. Overlay map types will display on top of the base map they are attached to, in the order in which they appear in the <code>overlayMapTypes</code> array (overlays with higher index values are displayed in front of overlays with lower index values).</div></td>
 </tr>
 </tbody>

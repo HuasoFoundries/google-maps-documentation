@@ -17,7 +17,7 @@ class
 <td><code><a class="secret-link" href="#Data.constructor"><span>Data</span></a></code></td>
 <td><div><code>Data([options])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>options</code> (optional):&nbsp; <code><a href="Data.DataOptions.md">Data.DataOptions</a></code></li>
+<li><code>options</code>:&nbsp; <code><a href="Data.DataOptions.md">Data.DataOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates an empty collection, with the given <code>DataOptions</code>.</div></td>
 </tr>
@@ -32,7 +32,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Data.add"><span>add</span></a></code></td>
 <td><div><code>add([feature])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>feature</code> (optional):&nbsp; <code><a href="Data.Feature.md">Data.Feature</a>|<a href="Data.FeatureOptions.md">Data.FeatureOptions</a></code></li>
+<li><code>feature</code>:&nbsp; <code><a href="Data.Feature.md">Data.Feature</a>|<a href="Data.FeatureOptions.md">Data.FeatureOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="Data.Feature.md">Data.Feature</a></code></div>
 <div class="desc">Adds a feature to the collection, and returns the added feature. <p> If the feature has an ID, it will replace any existing feature in the collection with the same ID. If no feature is given, a new feature will be created with null geometry and no properties. If <code>FeatureOptions</code> are given, a new feature will be created with the specified properties. </p><p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Adding a feature with ID <code>1234</code> will replace a feature with ID <code>'1234'</code>, and vice versa.</p></div></td>
@@ -42,7 +42,7 @@ class
 <td><div><code>addGeoJson(geoJson[, options])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>geoJson</code>:&nbsp; <code>Object</code></li>
-<li><code>options</code> (optional):&nbsp; <code><a href="Data.GeoJsonOptions.md">Data.GeoJsonOptions</a></code></li>
+<li><code>options</code>:&nbsp; <code><a href="Data.GeoJsonOptions.md">Data.GeoJsonOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>Array&lt;<a href="Data.Feature.md">Data.Feature</a>&gt;</code></div>
 <div class="desc">Adds GeoJSON features to the collection. Give this method a parsed JSON. The imported features are returned. Throws an exception if the GeoJSON could not be imported.</div></td>
@@ -83,7 +83,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Data.getDrawingMode"><span>getDrawingMode</span></a></code></td>
 <td><div><code>getDrawingMode()</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code>string</code></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Returns the current drawing mode of the given Data layer. A drawing mode of null means that the user can interact with the map as normal, and clicks do not draw anything. Possible drawing modes are <code>null</code>, <code>"Point"</code>, <code>"LineString"</code> or <code>"Polygon"</code>.</div></td>
 </tr>
 <tr id="Data.getFeatureById">
@@ -92,7 +92,7 @@ class
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>id</code>:&nbsp; <code>number|string</code></li>
 </ul></div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="Data.Feature.md">Data.Feature</a>|undefined</code></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="Data.Feature.md">Data.Feature</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Returns the feature with the given ID, if it exists in the collection. Otherwise returns <code>undefined</code>. <p> Note that the IDs <code>1234</code> and <code>'1234'</code> are equivalent. Either can be used to look up the same feature.</p></div></td>
 </tr>
 <tr id="Data.getMap">
@@ -114,8 +114,8 @@ class
 <td><div><code>loadGeoJson(url[, options, callback])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>url</code>:&nbsp; <code>string</code></li>
-<li><code>options</code> (optional):&nbsp; <code><a href="Data.GeoJsonOptions.md">Data.GeoJsonOptions</a></code></li>
-<li><code>callback</code> (optional):&nbsp; <code>function(Array&lt;<a href="Data.Feature.md">Data.Feature</a>&gt;)</code></li>
+<li><code>options</code>:&nbsp; <code><a href="Data.GeoJsonOptions.md">Data.GeoJsonOptions</a> <span class="optional-type-annotation">optional</span></code></li>
+<li><code>callback</code>:&nbsp; <code>function(Array&lt;<a href="Data.Feature.md">Data.Feature</a>&gt;) <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Loads GeoJSON from a URL, and adds the features to the collection. <p> NOTE: The GeoJSON is fetched using XHR, and may not work cross-domain. If you have issues, we recommend you fetch the GeoJSON using your choice of AJAX library, and then call <code>addGeoJson()</code>.</p></div></td>
@@ -143,7 +143,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Data.revertStyle"><span>revertStyle</span></a></code></td>
 <td><div><code>revertStyle([feature])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>feature</code> (optional):&nbsp; <code><a href="Data.Feature.md">Data.Feature</a></code></li>
+<li><code>feature</code>:&nbsp; <code><a href="Data.Feature.md">Data.Feature</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Removes the effect of previous <code>overrideStyle()</code> calls. The style of the given feature reverts to the style specified by <code>setStyle()</code>. <p>If no feature is given, all features have their style reverted.</p></div></td>
@@ -170,7 +170,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Data.setDrawingMode"><span>setDrawingMode</span></a></code></td>
 <td><div><code>setDrawingMode(drawingMode)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>drawingMode</code>:&nbsp; <code>string</code></li>
+<li><code>drawingMode</code>:&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Sets the current drawing mode of the given Data layer. A drawing mode of null means that the user can interact with the map as normal, and clicks do not draw anything. Possible drawing modes are <code>null</code>, <code>"Point"</code>, <code>"LineString"</code> or <code>"Polygon"</code>.</div></td>

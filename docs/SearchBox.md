@@ -20,7 +20,7 @@ class
 <td><div><code>SearchBox(inputField[, opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>inputField</code>:&nbsp; <code>HTMLInputElement</code></li>
-<li><code>opts</code> (optional):&nbsp; <code><a href="SearchBoxOptions.md">SearchBoxOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="SearchBoxOptions.md">SearchBoxOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a new instance of <code>SearchBox</code> that attaches to the specified input text field with the given options.</div></td>
 </tr>

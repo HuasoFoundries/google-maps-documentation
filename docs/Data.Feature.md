@@ -14,7 +14,7 @@ class
 <td><code><a class="secret-link" href="#Data.Feature.constructor"><span>Data.Feature</span></a></code></td>
 <td><div><code>Data.Feature([options])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>options</code> (optional):&nbsp; <code><a href="Data.FeatureOptions.md">Data.FeatureOptions</a></code></li>
+<li><code>options</code>:&nbsp; <code><a href="Data.FeatureOptions.md">Data.FeatureOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Constructs a Feature with the given options.</div></td>
 </tr>
@@ -45,7 +45,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#Data.Feature.getId"><span>getId</span></a></code></td>
 <td><div><code>getId()</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code>number|string|undefined</code></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code>number|string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Returns the feature ID.</div></td>
 </tr>
 <tr id="Data.Feature.getProperty">

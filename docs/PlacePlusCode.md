@@ -14,7 +14,7 @@ interface
 <tbody>
 <tr id="PlacePlusCode.compound_code">
 <td itemprop="property"><code><a class="secret-link" href="#PlacePlusCode.compound_code"><span>compound_code</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">A <a href="https://plus.codes/">plus code</a> with a 1/8000th of a degree by 1/8000th of a degree area where the first four characters (the area code) are dropped and replaced with a locality description. For example, <code>"9G8F+5W Zurich, Switzerland"</code>. If no suitable locality that can be found to shorten the code then this field is omitted.</div></td>
 </tr>
 <tr id="PlacePlusCode.global_code">

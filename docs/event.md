@@ -16,7 +16,7 @@ namespace
 <li><code>instance</code>:&nbsp; <code>Object</code></li>
 <li><code>eventName</code>:&nbsp; <code>string</code></li>
 <li><code>handler</code>:&nbsp; <code>Function</code></li>
-<li><code>capture</code> (optional):&nbsp; <code>boolean</code></li>
+<li><code>capture</code>:&nbsp; <code>boolean <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="MapsEventListener.md">MapsEventListener</a></code></div>
 <div class="desc">Cross browser event handler registration. This listener is removed by calling removeListener(handle) for the handle that is returned by this function.</div></td>
@@ -28,7 +28,7 @@ namespace
 <li><code>instance</code>:&nbsp; <code>Object</code></li>
 <li><code>eventName</code>:&nbsp; <code>string</code></li>
 <li><code>handler</code>:&nbsp; <code>Function</code></li>
-<li><code>capture</code> (optional):&nbsp; <code>boolean</code></li>
+<li><code>capture</code>:&nbsp; <code>boolean <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="MapsEventListener.md">MapsEventListener</a></code></div>
 <div class="desc">Wrapper around addDomListener that removes the listener after the first event.</div></td>

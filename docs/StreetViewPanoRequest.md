@@ -12,7 +12,7 @@ interface
 <tbody>
 <tr id="StreetViewPanoRequest.pano">
 <td itemprop="property"><code><a class="secret-link" href="#StreetViewPanoRequest.pano"><span>pano</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Specifies the pano ID to search for.</div></td>
 </tr>
 </tbody>

@@ -12,7 +12,7 @@ interface
 <tbody>
 <tr id="LocationElevationRequest.locations">
 <td itemprop="property"><code><a class="secret-link" href="#LocationElevationRequest.locations"><span>locations</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="LatLng.md">LatLng</a>&gt;</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="LatLng.md">LatLng</a>&gt; <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The discrete locations for which to retrieve elevations.</div></td>
 </tr>
 </tbody>

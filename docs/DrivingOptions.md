@@ -17,7 +17,7 @@ interface
 </tr>
 <tr id="DrivingOptions.trafficModel">
 <td itemprop="property"><code><a class="secret-link" href="#DrivingOptions.trafficModel"><span>trafficModel</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="TrafficModel.md">TrafficModel</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="TrafficModel.md">TrafficModel</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The preferred assumption to use when predicting duration in traffic. The default is <code>BEST_GUESS</code>.</div></td>
 </tr>
 </tbody>

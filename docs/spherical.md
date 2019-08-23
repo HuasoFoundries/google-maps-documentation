@@ -17,7 +17,7 @@ namespace
 <td><div><code>computeArea(path[, radius])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>path</code>:&nbsp; <code>Array&lt;<a href="LatLng.md">LatLng</a>&gt;|<a href="MVCArray.md">MVCArray</a>&lt;<a href="LatLng.md">LatLng</a>&gt;</code></li>
-<li><code>radius</code> (optional):&nbsp; <code>number</code></li>
+<li><code>radius</code>:&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>number</code></div>
 <div class="desc">Returns the area of a closed path. The computed area uses the same units as the radius. The radius defaults to the Earth's radius in meters, in which case the area is in square meters.</div></td>
@@ -28,7 +28,7 @@ namespace
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>from</code>:&nbsp; <code><a href="LatLng.md">LatLng</a></code></li>
 <li><code>to</code>:&nbsp; <code><a href="LatLng.md">LatLng</a></code></li>
-<li><code>radius</code> (optional):&nbsp; <code>number</code></li>
+<li><code>radius</code>:&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>number</code></div>
 <div class="desc">Returns the distance, in meters, between two LatLngs. You can optionally specify a custom radius. The radius defaults to the radius of the Earth.</div></td>
@@ -48,7 +48,7 @@ namespace
 <td><div><code>computeLength(path[, radius])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>path</code>:&nbsp; <code>Array&lt;<a href="LatLng.md">LatLng</a>&gt;|<a href="MVCArray.md">MVCArray</a>&lt;<a href="LatLng.md">LatLng</a>&gt;</code></li>
-<li><code>radius</code> (optional):&nbsp; <code>number</code></li>
+<li><code>radius</code>:&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>number</code></div>
 <div class="desc">Returns the length of the given path.</div></td>
@@ -60,7 +60,7 @@ namespace
 <li><code>from</code>:&nbsp; <code><a href="LatLng.md">LatLng</a></code></li>
 <li><code>distance</code>:&nbsp; <code>number</code></li>
 <li><code>heading</code>:&nbsp; <code>number</code></li>
-<li><code>radius</code> (optional):&nbsp; <code>number</code></li>
+<li><code>radius</code>:&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="LatLng.md">LatLng</a></code></div>
 <div class="desc">Returns the LatLng resulting from moving a distance from an origin in the specified heading (expressed in degrees clockwise from north).</div></td>
@@ -72,7 +72,7 @@ namespace
 <li><code>to</code>:&nbsp; <code><a href="LatLng.md">LatLng</a></code></li>
 <li><code>distance</code>:&nbsp; <code>number</code></li>
 <li><code>heading</code>:&nbsp; <code>number</code></li>
-<li><code>radius</code> (optional):&nbsp; <code>number</code></li>
+<li><code>radius</code>:&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="LatLng.md">LatLng</a></code></div>
 <div class="desc">Returns the location of origin when provided with a LatLng destination, meters travelled and original heading. Headings are expressed in degrees clockwise from North. This function returns null when no solution is available.</div></td>
@@ -82,7 +82,7 @@ namespace
 <td><div><code>computeSignedArea(loop[, radius])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>loop</code>:&nbsp; <code>Array&lt;<a href="LatLng.md">LatLng</a>&gt;|<a href="MVCArray.md">MVCArray</a>&lt;<a href="LatLng.md">LatLng</a>&gt;</code></li>
-<li><code>radius</code> (optional):&nbsp; <code>number</code></li>
+<li><code>radius</code>:&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>number</code></div>
 <div class="desc">Returns the signed area of a closed path. The signed area may be used to determine the orientation of the path. The computed area uses the same units as the radius. The radius defaults to the Earth's radius in meters, in which case the area is in square meters.</div></td>

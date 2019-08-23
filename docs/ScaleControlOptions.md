@@ -12,7 +12,7 @@ interface
 <tbody>
 <tr id="ScaleControlOptions.style">
 <td itemprop="property"><code><a class="secret-link" href="#ScaleControlOptions.style"><span>style</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="ScaleControlStyle.md">ScaleControlStyle</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="ScaleControlStyle.md">ScaleControlStyle</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Style id. Used to select what style of scale control to display.</div></td>
 </tr>
 </tbody>

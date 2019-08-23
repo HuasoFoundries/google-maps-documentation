@@ -16,7 +16,7 @@ class
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>lat</code>:&nbsp; <code>number</code></li>
 <li><code>lng</code>:&nbsp; <code>number</code></li>
-<li><code>noWrap</code> (optional):&nbsp; <code>boolean</code></li>
+<li><code>noWrap</code>:&nbsp; <code>boolean <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a <code>LatLng</code> object representing a geographic point. Latitude is specified in degrees within the range [-90, 90]. Longitude is specified in degrees within the range [-180, 180]. Set <code>noWrap</code> to <code>true</code> to enable values outside of this range. Note the ordering of latitude and longitude.</div></td>
 </tr>
@@ -68,7 +68,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#LatLng.toUrlValue"><span>toUrlValue</span></a></code></td>
 <td><div><code>toUrlValue([precision])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>precision</code> (optional):&nbsp; <code>number</code></li>
+<li><code>precision</code>:&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>string</code></div>
 <div class="desc">Returns a string of the form "lat,lng" for this LatLng. We round the lat/lng values to 6 decimal places by default.</div></td>

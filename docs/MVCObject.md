@@ -39,8 +39,8 @@ class
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>key</code>:&nbsp; <code>string</code></li>
 <li><code>target</code>:&nbsp; <code><a href="MVCObject.md">MVCObject</a></code></li>
-<li><code>targetKey</code> (optional):&nbsp; <code>string</code></li>
-<li><code>noNotify</code> (optional):&nbsp; <code>boolean</code></li>
+<li><code>targetKey</code>:&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></li>
+<li><code>noNotify</code>:&nbsp; <code>boolean <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Binds a View to a Model.</div></td>
@@ -77,7 +77,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#MVCObject.setValues"><span>setValues</span></a></code></td>
 <td><div><code>setValues([values])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>values</code> (optional):&nbsp; <code>Object</code></li>
+<li><code>values</code>:&nbsp; <code>Object <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Sets a collection of key-value pairs.</div></td>

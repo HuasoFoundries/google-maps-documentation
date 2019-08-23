@@ -14,7 +14,7 @@ interface
 <tbody>
 <tr id="PlaceOpeningHoursPeriod.close">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceOpeningHoursPeriod.close"><span>close</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="PlaceOpeningHoursTime.md">PlaceOpeningHoursTime</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="PlaceOpeningHoursTime.md">PlaceOpeningHoursTime</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The closing time for the Place.</div></td>
 </tr>
 <tr id="PlaceOpeningHoursPeriod.open">

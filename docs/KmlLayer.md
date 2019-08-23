@@ -17,7 +17,7 @@ class
 <td><code><a class="secret-link" href="#KmlLayer.constructor"><span>KmlLayer</span></a></code></td>
 <td><div><code>KmlLayer([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="KmlLayerOptions.md">KmlLayerOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="KmlLayerOptions.md">KmlLayerOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a <code>KmlLayer</code> which renders the contents of the specified KML/KMZ file (<a href="https://developers.google.com/kml/documentation/kmlreference">https://developers.google.com/kml/documentation/kmlreference</a>) or GeoRSS file (<a href="http://www.georss.org">http://www.georss.org</a>).</div></td>
 </tr>

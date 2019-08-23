@@ -17,7 +17,7 @@ class
 <td><code><a class="secret-link" href="#Polygon.constructor"><span>Polygon</span></a></code></td>
 <td><div><code>Polygon([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="PolygonOptions.md">PolygonOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="PolygonOptions.md">PolygonOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Create a polygon using the passed <code><em><a href="PolygonOptions.md">PolygonOptions</a></em></code>, which specify the polygon's path, the stroke style for the polygon's edges, and the fill style for the polygon's interior regions. A polygon may contain one or more paths, where each path consists of an array of <code>LatLng</code>s. You may pass either an array of LatLngs or an <code><a href="#MVCArray">MVCArray</a></code> of <code>LatLng</code>s when constructing these paths. Arrays are converted to <code>MVCArray</code>s within the polygon upon instantiation.</div></td>
 </tr>

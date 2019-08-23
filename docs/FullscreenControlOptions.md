@@ -12,7 +12,7 @@ interface
 <tbody>
 <tr id="FullscreenControlOptions.position">
 <td itemprop="property"><code><a class="secret-link" href="#FullscreenControlOptions.position"><span>position</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="ControlPosition.md">ControlPosition</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="ControlPosition.md">ControlPosition</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Position id. Used to specify the position of the control on the map. The default position is <code>RIGHT_TOP</code>.</div></td>
 </tr>
 </tbody>

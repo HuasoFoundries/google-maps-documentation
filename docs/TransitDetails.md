@@ -50,6 +50,11 @@ interface
 <td><div><strong>Type:</strong>&nbsp; <code>number</code></div>
 <div class="desc">The number of stops on this step. Includes the arrival stop, but not the departure stop.</div></td>
 </tr>
+<tr id="TransitDetails.trip_short_name">
+<td itemprop="property"><code><a class="secret-link" href="#TransitDetails.trip_short_name"><span>trip_short_name</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<div class="desc">The text that appears in schedules and sign boards to identify a transit trip to passengers, for example, to identify train numbers for commuter rail trips. The text uniquely identifies a trip within a service day.</div></td>
+</tr>
 </tbody>
 </table></div>
 <script src="replace_links.js"></script>

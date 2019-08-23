@@ -12,32 +12,32 @@ interface
 <tbody>
 <tr id="GeocoderRequest.address">
 <td itemprop="property"><code><a class="secret-link" href="#GeocoderRequest.address"><span>address</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Address to geocode. One, and only one, of <code>address</code>, <code>location</code> and <code>placeId</code> must be supplied.</div></td>
 </tr>
 <tr id="GeocoderRequest.bounds">
 <td itemprop="property"><code><a class="secret-link" href="#GeocoderRequest.bounds"><span>bounds</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a>|<a href="LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a>|<a href="LatLngBoundsLiteral.md">LatLngBoundsLiteral</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc"><code>LatLngBounds</code> within which to search. Optional.</div></td>
 </tr>
 <tr id="GeocoderRequest.componentRestrictions">
 <td itemprop="property"><code><a class="secret-link" href="#GeocoderRequest.componentRestrictions"><span>componentRestrictions</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="GeocoderComponentRestrictions.md">GeocoderComponentRestrictions</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="GeocoderComponentRestrictions.md">GeocoderComponentRestrictions</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Components are used to restrict results to a specific area. A filter consists of one or more of: <code>route</code>, <code>locality</code>, <code>administrativeArea</code>, <code>postalCode</code>, <code>country</code>. Only the results that match all the filters will be returned. Filter values support the same methods of spelling correction and partial matching as other geocoding requests. Optional.</div></td>
 </tr>
 <tr id="GeocoderRequest.location">
 <td itemprop="property"><code><a class="secret-link" href="#GeocoderRequest.location"><span>location</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="LatLng.md">LatLng</a>|<a href="LatLngLiteral.md">LatLngLiteral</a></code></div>
+<td><div><strong>Type:</strong>&nbsp; <code><a href="LatLng.md">LatLng</a>|<a href="LatLngLiteral.md">LatLngLiteral</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc"><code>LatLng</code> (or <code>LatLngLiteral</code>) for which to search. The geocoder performs a reverse geocode. See <a href="https://developers.google.com/maps/documentation/javascript/geocoding#ReverseGeocoding"> Reverse Geocoding</a> for more information. One, and only one, of <code>address</code>, <code>location</code> and <code>placeId</code> must be supplied.</div></td>
 </tr>
 <tr id="GeocoderRequest.placeId">
 <td itemprop="property"><code><a class="secret-link" href="#GeocoderRequest.placeId"><span>placeId</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The place ID associated with the location. Place IDs uniquely identify a place in the Google Places database and on Google Maps. Learn more about <a href="https://developers.google.com/places/place-id">place IDs</a> in the Places API developer guide. The geocoder performs a reverse geocode. See <a href="https://developers.google.com/maps/documentation/javascript/geocoding#ReverseGeocoding"> Reverse Geocoding</a> for more information. One, and only one, of <code>address</code>, <code>location</code> and <code>placeId</code> must be supplied.</div></td>
 </tr>
 <tr id="GeocoderRequest.region">
 <td itemprop="property"><code><a class="secret-link" href="#GeocoderRequest.region"><span>region</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Country code used to bias the search, specified as a Unicode region subtag / CLDR identifier. Optional.</div></td>
 </tr>
 </tbody>

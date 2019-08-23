@@ -24,7 +24,7 @@ interface
 </tr>
 <tr id="PlaceReview.author_url">
 <td itemprop="property"><code><a class="secret-link" href="#PlaceReview.author_url"><span>author_url</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">A URL to the reviewer's profile. This will be <code>undefined</code> when the reviewer's profile is unavailable.</div></td>
 </tr>
 <tr id="PlaceReview.language">

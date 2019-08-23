@@ -19,7 +19,7 @@ class
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>url</code>:&nbsp; <code>string</code></li>
 <li><code>bounds</code>:&nbsp; <code><a href="LatLngBounds.md">LatLngBounds</a>|<a href="LatLngBoundsLiteral.md">LatLngBoundsLiteral</a></code></li>
-<li><code>opts</code> (optional):&nbsp; <code><a href="GroundOverlayOptions.md">GroundOverlayOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="GroundOverlayOptions.md">GroundOverlayOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a ground overlay from the provided image URL and its <code>LatLngBounds</code>. The image is scaled to fit the current bounds, and projected using the current map projection.</div></td>
 </tr>

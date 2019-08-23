@@ -17,7 +17,7 @@ class
 <td><code><a class="secret-link" href="#DirectionsRenderer.constructor"><span>DirectionsRenderer</span></a></code></td>
 <td><div><code>DirectionsRenderer([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="DirectionsRendererOptions.md">DirectionsRendererOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="DirectionsRendererOptions.md">DirectionsRendererOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates the renderer with the given options. Directions can be rendered on a map (as visual overlays) or additionally on a <code>&lt;div&gt;</code> panel (as textual instructions).</div></td>
 </tr>

@@ -12,12 +12,12 @@ interface
 <tbody>
 <tr id="MapTypeStyle.elementType">
 <td itemprop="property"><code><a class="secret-link" href="#MapTypeStyle.elementType"><span>elementType</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The element to which a styler should be applied. An element is a visual aspect of a feature on the map. Example: a label, an icon, the stroke or fill applied to the geometry, and more. Optional. If <code>elementType</code> is not specified, the value is assumed to be <code>'all'</code>. For details of usage and allowed values, see the <a href="https://developers.google.com/maps/documentation/javascript/style-reference#style-elements">style reference</a>.</div></td>
 </tr>
 <tr id="MapTypeStyle.featureType">
 <td itemprop="property"><code><a class="secret-link" href="#MapTypeStyle.featureType"><span>featureType</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The feature, or group of features, to which a styler should be applied. Optional. If <code>featureType</code> is not specified, the value is assumed to be <code>'all'</code>. For details of usage and allowed values, see the <a href="https://developers.google.com/maps/documentation/javascript/style-reference#style-features">style reference</a>.</div></td>
 </tr>
 <tr id="MapTypeStyle.stylers">

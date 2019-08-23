@@ -19,7 +19,7 @@ class
 <td><code><a class="secret-link" href="#HeatmapLayer.constructor"><span>HeatmapLayer</span></a></code></td>
 <td><div><code>HeatmapLayer([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="HeatmapLayerOptions.md">HeatmapLayerOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="HeatmapLayerOptions.md">HeatmapLayerOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a new instance of <code>HeatmapLayer</code>.</div></td>
 </tr>

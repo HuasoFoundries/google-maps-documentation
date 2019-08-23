@@ -28,7 +28,7 @@ namespace
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>point</code>:&nbsp; <code><a href="LatLng.md">LatLng</a></code></li>
 <li><code>poly</code>:&nbsp; <code><a href="Polygon.md">Polygon</a>|<a href="Polyline.md">Polyline</a></code></li>
-<li><code>tolerance</code> (optional):&nbsp; <code>number</code></li>
+<li><code>tolerance</code>:&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>boolean</code></div>
 <div class="desc">Computes whether the given point lies on or near to a polyline, or the edge of a polygon, within a specified tolerance. Returns <code>true</code> when the difference between the latitude and longitude of the supplied point, and the closest point on the edge, is less than the tolerance. The tolerance defaults to 10<sup>-9</sup> degrees.</div></td>

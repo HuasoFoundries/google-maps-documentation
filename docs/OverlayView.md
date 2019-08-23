@@ -69,7 +69,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#OverlayView.getPanes"><span>getPanes</span></a></code></td>
 <td><div><code>getPanes()</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="MapPanes.md">MapPanes</a></code></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="MapPanes.md">MapPanes</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Returns the panes in which this OverlayView can be rendered. The panes are not initialized until <code>onAdd</code> is called by the API.</div></td>
 </tr>
 <tr id="OverlayView.getProjection">

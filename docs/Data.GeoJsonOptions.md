@@ -12,7 +12,7 @@ interface
 <tbody>
 <tr id="Data.GeoJsonOptions.idPropertyName">
 <td itemprop="property"><code><a class="secret-link" href="#Data.GeoJsonOptions.idPropertyName"><span>idPropertyName</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The name of the Feature property to use as the feature ID. If not specified, the GeoJSON Feature id will be used.</div></td>
 </tr>
 </tbody>

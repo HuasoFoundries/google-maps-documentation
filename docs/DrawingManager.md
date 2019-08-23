@@ -19,7 +19,7 @@ class
 <td><code><a class="secret-link" href="#DrawingManager.constructor"><span>DrawingManager</span></a></code></td>
 <td><div><code>DrawingManager([options])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>options</code> (optional):&nbsp; <code><a href="DrawingManagerOptions.md">DrawingManagerOptions</a></code></li>
+<li><code>options</code>:&nbsp; <code><a href="DrawingManagerOptions.md">DrawingManagerOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a <code>DrawingManager</code> that allows users to draw overlays on the map, and switch between the type of overlay to be drawn with a drawing control.</div></td>
 </tr>
@@ -34,7 +34,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#DrawingManager.getDrawingMode"><span>getDrawingMode</span></a></code></td>
 <td><div><code>getDrawingMode()</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
-<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="OverlayType.md">OverlayType</a></code></div>
+<div class="desc"><strong>Return Value:</strong>&nbsp; <code><a href="OverlayType.md">OverlayType</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">Returns the <code>DrawingManager</code>'s drawing mode.</div></td>
 </tr>
 <tr id="DrawingManager.getMap">
@@ -48,7 +48,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#DrawingManager.setDrawingMode"><span>setDrawingMode</span></a></code></td>
 <td><div><code>setDrawingMode(drawingMode)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>drawingMode</code>:&nbsp; <code><a href="OverlayType.md">OverlayType</a></code></li>
+<li><code>drawingMode</code>:&nbsp; <code><a href="OverlayType.md">OverlayType</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Changes the <code>DrawingManager</code>'s drawing mode, which defines the type of overlay to be added on the map. Accepted values are <code>'marker'</code>, <code>'polygon'</code>, <code>'polyline'</code>, <code>'rectangle'</code>, <code>'circle'</code>, or <code>null</code>. A drawing mode of <code>null</code> means that the user can interact with the map as normal, and clicks do not draw anything.</div></td>

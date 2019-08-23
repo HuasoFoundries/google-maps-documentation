@@ -14,8 +14,8 @@ class
 <td><code><a class="secret-link" href="#LatLngBounds.constructor"><span>LatLngBounds</span></a></code></td>
 <td><div><code>LatLngBounds([sw, ne])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>sw</code> (optional):&nbsp; <code><a href="LatLng.md">LatLng</a>|<a href="LatLngLiteral.md">LatLngLiteral</a></code></li>
-<li><code>ne</code> (optional):&nbsp; <code><a href="LatLng.md">LatLng</a>|<a href="LatLngLiteral.md">LatLngLiteral</a></code></li>
+<li><code>sw</code>:&nbsp; <code><a href="LatLng.md">LatLng</a>|<a href="LatLngLiteral.md">LatLngLiteral</a> <span class="optional-type-annotation">optional</span></code></li>
+<li><code>ne</code>:&nbsp; <code><a href="LatLng.md">LatLng</a>|<a href="LatLngLiteral.md">LatLngLiteral</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Constructs a rectangle from the points at its south-west and north-east corners.</div></td>
 </tr>
@@ -115,7 +115,7 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#LatLngBounds.toUrlValue"><span>toUrlValue</span></a></code></td>
 <td><div><code>toUrlValue([precision])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>precision</code> (optional):&nbsp; <code>number</code></li>
+<li><code>precision</code>:&nbsp; <code>number <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>string</code></div>
 <div class="desc">Returns a string of the form "lat_lo,lng_lo,lat_hi,lng_hi" for this bounds, where "lo" corresponds to the southwest corner of the bounding box, while "hi" corresponds to the northeast corner of that box.</div></td>

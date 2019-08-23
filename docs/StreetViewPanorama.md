@@ -18,7 +18,7 @@ class
 <td><div><code>StreetViewPanorama(container[, opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>container</code>:&nbsp; <code>Element</code></li>
-<li><code>opts</code> (optional):&nbsp; <code><a href="StreetViewPanoramaOptions.md">StreetViewPanoramaOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="StreetViewPanoramaOptions.md">StreetViewPanoramaOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Creates a panorama with the passed <code>StreetViewPanoramaOptions</code>.</div></td>
 </tr>
@@ -103,8 +103,8 @@ class
 <td itemprop="property"><code><a class="secret-link" href="#StreetViewPanorama.registerPanoProvider"><span>registerPanoProvider</span></a></code></td>
 <td><div><code>registerPanoProvider(provider[, opt_options])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>provider</code>:&nbsp; <code>function(string): <a href="StreetViewPanoramaData.md">StreetViewPanoramaData</a></code></li>
-<li><code>opt_options</code> (optional):&nbsp; <code><a href="PanoProviderOptions.md">PanoProviderOptions</a></code></li>
+<li><code>provider</code>:&nbsp; <code>function(string): (<a href="StreetViewPanoramaData.md">StreetViewPanoramaData</a> <span class="optional-type-annotation">optional</span>)</code></li>
+<li><code>opt_options</code>:&nbsp; <code><a href="PanoProviderOptions.md">PanoProviderOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Set the custom panorama provider called on pano change to load custom panoramas.</div></td>

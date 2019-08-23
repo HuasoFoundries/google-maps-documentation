@@ -12,7 +12,7 @@ interface
 <tbody>
 <tr id="PathElevationRequest.path">
 <td itemprop="property"><code><a class="secret-link" href="#PathElevationRequest.path"><span>path</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="LatLng.md">LatLng</a>&gt;</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>Array&lt;<a href="LatLng.md">LatLng</a>&gt; <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The path along which to collect elevation values.</div></td>
 </tr>
 <tr id="PathElevationRequest.samples">

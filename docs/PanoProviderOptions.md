@@ -12,7 +12,7 @@ interface
 <tbody>
 <tr id="PanoProviderOptions.cors">
 <td itemprop="property"><code><a class="secret-link" href="#PanoProviderOptions.cors"><span>cors</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>boolean <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">If set, the renderer will use technologies (like webgl) that only work when cors headers are appropiately set on the provided images. It is the developer's task to serve the images correctly in combination with this flag, which might otherwise lead to SecurityErrors.</div></td>
 </tr>
 </tbody>

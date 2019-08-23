@@ -15,8 +15,8 @@ class
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
 <li><code>width</code>:&nbsp; <code>number</code></li>
 <li><code>height</code>:&nbsp; <code>number</code></li>
-<li><code>widthUnit</code> (optional):&nbsp; <code>string</code></li>
-<li><code>heightUnit</code> (optional):&nbsp; <code>string</code></li>
+<li><code>widthUnit</code>:&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></li>
+<li><code>heightUnit</code>:&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Two-dimensional size, where width is the distance on the x-axis, and height is the distance on the y-axis.</div></td>
 </tr>

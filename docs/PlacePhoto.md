@@ -16,7 +16,7 @@ interface
 <td itemprop="property"><code><a class="secret-link" href="#PlacePhoto.getUrl"><span>getUrl</span></a></code></td>
 <td><div><code>getUrl([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="PhotoOptions.md">PhotoOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="PhotoOptions.md">PhotoOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; <code>string</code></div>
 <div class="desc">Returns the image URL corresponding to the specified options.</div></td>

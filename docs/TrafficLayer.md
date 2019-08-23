@@ -17,7 +17,7 @@ class
 <td><code><a class="secret-link" href="#TrafficLayer.constructor"><span>TrafficLayer</span></a></code></td>
 <td><div><code>TrafficLayer([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="TrafficLayerOptions.md">TrafficLayerOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="TrafficLayerOptions.md">TrafficLayerOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">A layer that displays current road traffic.</div></td>
 </tr>

@@ -17,7 +17,7 @@ class
 <td><code><a class="secret-link" href="#Rectangle.constructor"><span>Rectangle</span></a></code></td>
 <td><div><code>Rectangle([opts])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>opts</code> (optional):&nbsp; <code><a href="RectangleOptions.md">RectangleOptions</a></code></li>
+<li><code>opts</code>:&nbsp; <code><a href="RectangleOptions.md">RectangleOptions</a> <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">Create a rectangle using the passed <code><em><a href="RectangleOptions.md">RectangleOptions</a></em></code>, which specify the bounds and style.</div></td>
 </tr>

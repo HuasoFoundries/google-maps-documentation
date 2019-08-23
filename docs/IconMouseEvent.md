@@ -15,7 +15,7 @@ interface
 <tbody>
 <tr id="IconMouseEvent.placeId">
 <td itemprop="property"><code><a class="secret-link" href="#IconMouseEvent.placeId"><span>placeId</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>string</code></div>
+<td><div><strong>Type:</strong>&nbsp; <code>string <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The place ID of the place that was clicked. This place ID can be used to query more information about the feature that was clicked. <p> Learn more about <a href="https://developers.google.com/places/place-id">place IDs</a> in the Places API developer guide.</p></div></td>
 </tr>
 </tbody>

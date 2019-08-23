@@ -16,7 +16,7 @@ class
 <td><code><a class="secret-link" href="#MVCArray.constructor"><span>MVCArray</span></a></code></td>
 <td><div><code>MVCArray([array])</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>array</code> (optional):&nbsp; <code>Array&lt;T&gt;</code></li>
+<li><code>array</code>:&nbsp; <code>Array&lt;T&gt; <span class="optional-type-annotation">optional</span></code></li>
 </ul></div>
 <div class="desc">A mutable MVC Array.</div></td>
 </tr>
