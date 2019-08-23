@@ -18,7 +18,7 @@ Circle(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [CircleOptions](CircleOptions.md)
+*   opts:  [CircleOptions](CircleOptions.md) optional
 
 Create a circle using the passed [CircleOptions](CircleOptions.md), which specify the center, radius, and style.
 

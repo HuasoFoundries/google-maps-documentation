@@ -19,7 +19,7 @@ Starting August 2018, this project will regularly inspect the contents of the [w
 
 ### Last Update
 
-Version 3.37, last updated on Wednesday, May 15, 2019.
+Version 3.38, last updated on Friday, August 09, 2019.
 
 ### Table of Contents
 
@@ -147,19 +147,6 @@ Version 3.37, last updated on Wednesday, May 15, 2019.
   - [KmlMouseEvent](KmlMouseEvent.html)
   - [KmlFeatureData](KmlFeatureData.html)
   - [KmlAuthor](KmlAuthor.html)
-
-#### Fusion Tables
-
-  - [FusionTablesLayer](FusionTablesLayer.html)
-  - [FusionTablesLayerOptions](FusionTablesLayerOptions.html)
-  - [FusionTablesQuery](FusionTablesQuery.html)
-  - [FusionTablesStyle](FusionTablesStyle.html)
-  - [FusionTablesHeatmap](FusionTablesHeatmap.html)
-  - [FusionTablesMarkerOptions](FusionTablesMarkerOptions.html)
-  - [FusionTablesPolygonOptions](FusionTablesPolygonOptions.html)
-  - [FusionTablesPolylineOptions](FusionTablesPolylineOptions.html)
-  - [FusionTablesMouseEvent](FusionTablesMouseEvent.html)
-  - [FusionTablesCell](FusionTablesCell.html)
 
 #### Image overlays
 

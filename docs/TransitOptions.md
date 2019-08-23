@@ -12,24 +12,24 @@ Properties
 
 [arrivalTime](#TransitOptions.arrivalTime)
 
-**Type:**  Date
+**Type:**  Date optional
 
 The desired arrival time for the route, specified as a Date object. The Date object measures time in milliseconds since 1 January 1970. If arrival time is specified, departure time is ignored.
 
 [departureTime](#TransitOptions.departureTime)
 
-**Type:**  Date
+**Type:**  Date optional
 
 The desired departure time for the route, specified as a Date object. The Date object measures time in milliseconds since 1 January 1970. If neither departure time nor arrival time is specified, the time is assumed to be "now".
 
 [modes](#TransitOptions.modes)
 
-**Type:**  Array<[TransitMode](TransitMode.md)\>
+**Type:**  Array<[TransitMode](TransitMode.md)\> optional
 
 One or more preferred modes of transit, such as bus or train. If no preference is given, the API returns the default best route.
 
 [routingPreference](#TransitOptions.routingPreference)
 
-**Type:**  [TransitRoutePreference](TransitRoutePreference.md)
+**Type:**  [TransitRoutePreference](TransitRoutePreference.md) optional
 
 A preference that can bias the choice of transit route, such as less walking. If no preference is given, the API returns the default best route.

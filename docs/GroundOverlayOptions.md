@@ -12,18 +12,18 @@ Properties
 
 [clickable](#GroundOverlayOptions.clickable)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If true, the ground overlay can receive mouse events.
 
 [map](#GroundOverlayOptions.map)
 
-**Type:**  [Map](Map.md)
+**Type:**  [Map](Map.md) optional
 
 The map on which to display the overlay.
 
 [opacity](#GroundOverlayOptions.opacity)
 
-**Type:**  number
+**Type:**  number optional
 
 The opacity of the overlay, expressed as a number between 0 and 1. Optional. Defaults to 1.

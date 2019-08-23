@@ -16,12 +16,12 @@ Properties
 
 [location](#PlaceGeometry.location)
 
-**Type:**  [LatLng](LatLng.md)
+**Type:**  [LatLng](LatLng.md) optional
 
 The Place’s position.
 
 [viewport](#PlaceGeometry.viewport)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)
+**Type:**  [LatLngBounds](LatLngBounds.md) optional
 
 The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).

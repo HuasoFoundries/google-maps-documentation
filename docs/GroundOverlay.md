@@ -20,7 +20,7 @@ GroundOverlay(url, bounds\[, opts\])
 
 *   url:  string
 *   bounds:  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
-*   opts (optional):  [GroundOverlayOptions](GroundOverlayOptions.md)
+*   opts:  [GroundOverlayOptions](GroundOverlayOptions.md) optional
 
 Creates a ground overlay from the provided image URL and its LatLngBounds. The image is scaled to fit the current bounds, and projected using the current map projection.
 

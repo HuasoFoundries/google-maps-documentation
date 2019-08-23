@@ -74,7 +74,7 @@ Properties
 
 [alt](#ImageMapType.alt)
 
-**Type:**  string
+**Type:**  string optional
 
 [maxZoom](#ImageMapType.maxZoom)
 
@@ -86,7 +86,7 @@ Properties
 
 [name](#ImageMapType.name)
 
-**Type:**  string
+**Type:**  string optional
 
 [projection](#ImageMapType.projection)
 

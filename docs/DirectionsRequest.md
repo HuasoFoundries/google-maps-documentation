@@ -12,19 +12,19 @@ Properties
 
 [avoidFerries](#DirectionsRequest.avoidFerries)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If true, instructs the Directions service to avoid ferries where possible. Optional.
 
 [avoidHighways](#DirectionsRequest.avoidHighways)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If true, instructs the Directions service to avoid highways where possible. Optional.
 
 [avoidTolls](#DirectionsRequest.avoidTolls)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If true, instructs the Directions service to avoid toll roads where possible. Optional.
 
@@ -36,13 +36,13 @@ Location of destination. This can be specified as either a string to be geocoded
 
 [drivingOptions](#DirectionsRequest.drivingOptions)
 
-**Type:**  [DrivingOptions](DrivingOptions.md)
+**Type:**  [DrivingOptions](DrivingOptions.md) optional
 
 Settings that apply only to requests where travelMode is DRIVING. This object will have no effect for other travel modes.
 
 [optimizeWaypoints](#DirectionsRequest.optimizeWaypoints)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If set to true, the DirectionsService will attempt to re-order the supplied intermediate waypoints to minimize overall cost of the route. If waypoints are optimized, inspect DirectionsRoute.waypoint\_order in the response to determine the new ordering.
 
@@ -54,19 +54,19 @@ Location of origin. This can be specified as either a string to be geocoded, or 
 
 [provideRouteAlternatives](#DirectionsRequest.provideRouteAlternatives)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 Whether or not route alternatives should be provided. Optional.
 
 [region](#DirectionsRequest.region)
 
-**Type:**  string
+**Type:**  string optional
 
 Region code used as a bias for geocoding requests. Optional.
 
 [transitOptions](#DirectionsRequest.transitOptions)
 
-**Type:**  [TransitOptions](TransitOptions.md)
+**Type:**  [TransitOptions](TransitOptions.md) optional
 
 Settings that apply only to requests where travelMode is TRANSIT. This object will have no effect for other travel modes.
 
@@ -78,12 +78,12 @@ Type of routing requested. Required.
 
 [unitSystem](#DirectionsRequest.unitSystem)
 
-**Type:**  [UnitSystem](UnitSystem.md)
+**Type:**  [UnitSystem](UnitSystem.md) optional
 
 Preferred unit system to use when displaying distance. Defaults to the unit system used in the country of origin.
 
 [waypoints](#DirectionsRequest.waypoints)
 
-**Type:**  Array<[DirectionsWaypoint](DirectionsWaypoint.md)\>
+**Type:**  Array<[DirectionsWaypoint](DirectionsWaypoint.md)\> optional
 
 Array of intermediate waypoints. Directions are calculated from the origin to the destination by way of each waypoint in this array. See the [developer's guide](https://developers.google.com/maps/documentation/javascript/directions#UsageLimits) for the maximum number of waypoints allowed. Waypoints are not supported for transit directions. Optional.

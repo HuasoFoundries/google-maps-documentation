@@ -12,18 +12,18 @@ Properties
 
 [description](#StreetViewLink.description)
 
-**Type:**  string
+**Type:**  string optional
 
 A localized string describing the link.
 
 [heading](#StreetViewLink.heading)
 
-**Type:**  number
+**Type:**  number optional
 
 The heading of the link.
 
 [pano](#StreetViewLink.pano)
 
-**Type:**  string
+**Type:**  string optional
 
 A unique identifier for the panorama. This id is stable within a session but unstable across sessions.

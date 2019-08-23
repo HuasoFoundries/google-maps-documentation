@@ -12,7 +12,7 @@ Properties
 
 [path](#PathElevationRequest.path)
 
-**Type:**  Array<[LatLng](LatLng.md)\>
+**Type:**  Array<[LatLng](LatLng.md)\> optional
 
 The path along which to collect elevation values.
 

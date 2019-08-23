@@ -12,6 +12,6 @@ Properties
 
 [locations](#LocationElevationRequest.locations)
 
-**Type:**  Array<[LatLng](LatLng.md)\>
+**Type:**  Array<[LatLng](LatLng.md)\> optional
 
 The discrete locations for which to retrieve elevations.

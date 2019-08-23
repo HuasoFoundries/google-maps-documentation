@@ -12,6 +12,6 @@ Properties
 
 [idPropertyName](#Data.GeoJsonOptions.idPropertyName)
 
-**Type:**  string
+**Type:**  string optional
 
 The name of the Feature property to use as the feature ID. If not specified, the GeoJSON Feature id will be used.

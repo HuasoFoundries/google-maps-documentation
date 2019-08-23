@@ -12,12 +12,12 @@ Properties
 
 [location](#DirectionsWaypoint.location)
 
-**Type:**  string|[LatLng](LatLng.md)|[Place](Place.md)
+**Type:**  string|[LatLng](LatLng.md)|[Place](Place.md) optional
 
 Waypoint location. Can be an address string, a LatLng, or a Place. Optional.
 
 [stopover](#DirectionsWaypoint.stopover)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If true, indicates that this waypoint is a stop between the origin and destination. This has the effect of splitting the route into two legs. If false, indicates that the route should be biased to go through this waypoint, but not split into two legs. This is useful if you want to create a route in response to the user dragging waypoints on a map. This value is true by default. Optional.

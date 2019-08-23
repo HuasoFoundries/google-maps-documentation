@@ -18,7 +18,7 @@ Polygon(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [PolygonOptions](PolygonOptions.md)
+*   opts:  [PolygonOptions](PolygonOptions.md) optional
 
 Create a polygon using the passed _[PolygonOptions](PolygonOptions.md)_, which specify the polygon's path, the stroke style for the polygon's edges, and the fill style for the polygon's interior regions. A polygon may contain one or more paths, where each path consists of an array of LatLngs. You may pass either an array of LatLngs or an [MVCArray](#MVCArray) of LatLngs when constructing these paths. Arrays are converted to MVCArrays within the polygon upon instantiation.
 

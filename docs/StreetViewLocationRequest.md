@@ -12,24 +12,24 @@ Properties
 
 [location](#StreetViewLocationRequest.location)
 
-**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
+**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md) optional
 
 Specifies the location where to search for a Street View panorama.
 
 [preference](#StreetViewLocationRequest.preference)
 
-**Type:**  [StreetViewPreference](StreetViewPreference.md)
+**Type:**  [StreetViewPreference](StreetViewPreference.md) optional
 
 Sets a preference for which panorama should be found within the radius: the one nearest to the provided location, or the best one within the radius.
 
 [radius](#StreetViewLocationRequest.radius)
 
-**Type:**  number
+**Type:**  number optional
 
 Sets a radius in meters in which to search for a panorama. Defaults to 50 when not supplied.
 
 [source](#StreetViewLocationRequest.source)
 
-**Type:**  [StreetViewSource](StreetViewSource.md)
+**Type:**  [StreetViewSource](StreetViewSource.md) optional
 
 Specifies the source of panoramas to search. This allows a restriction to search for just outdoor panoramas for example. If not specified it is set to DEFAULT.

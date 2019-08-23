@@ -16,9 +16,9 @@ Properties
 
 [fields](#PlaceDetailsRequest.fields)
 
-**Type:**  Array<string>
+**Type:**  Array<string> optional
 
-Fields to be included in the details response. For a list of fields see [PlaceResult](PlaceResult.md). Nested fields can be specified with dot-paths (for example, "geometry.location").
+Fields to be included in the details response, [which will be billed for](https://developers.google.com/maps/billing/understanding-cost-of-use#places-product). If no fields are specified or \['ALL'\] is passed in, all available fields will be returned and billed for (this is not recommended for production deployments). For a list of fields see [PlaceResult](PlaceResult.md). Nested fields can be specified with dot-paths (for example, "geometry.location").
 
 [placeId](#PlaceDetailsRequest.placeId)
 
@@ -28,6 +28,6 @@ The Place ID of the Place for which details are being requested.
 
 [sessionToken](#PlaceDetailsRequest.sessionToken)
 
-**Type:**  [AutocompleteSessionToken](AutocompleteSessionToken.md)
+**Type:**  [AutocompleteSessionToken](AutocompleteSessionToken.md) optional
 
 Unique reference used to bundle the details request with an autocomplete session.

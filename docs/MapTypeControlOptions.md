@@ -12,18 +12,18 @@ Properties
 
 [mapTypeIds](#MapTypeControlOptions.mapTypeIds)
 
-**Type:**  Array<[MapTypeId](MapTypeId.md)|string>
+**Type:**  Array<[MapTypeId](MapTypeId.md)|string> optional
 
 IDs of map types to show in the control.
 
 [position](#MapTypeControlOptions.position)
 
-**Type:**  [ControlPosition](ControlPosition.md)
+**Type:**  [ControlPosition](ControlPosition.md) optional
 
 Position id. Used to specify the position of the control on the map. The default position is TOP\_RIGHT.
 
 [style](#MapTypeControlOptions.style)
 
-**Type:**  [MapTypeControlStyle](MapTypeControlStyle.md)
+**Type:**  [MapTypeControlStyle](MapTypeControlStyle.md) optional
 
 Style id. Used to select what style of map type control to display.

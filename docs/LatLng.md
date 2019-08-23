@@ -33,7 +33,7 @@ LatLng(lat, lng\[, noWrap\])
 
 *   lat:  number
 *   lng:  number
-*   noWrap (optional):  boolean
+*   noWrap:  boolean optional
 
 Creates a LatLng object representing a geographic point. Latitude is specified in degrees within the range \[-90, 90\]. Longitude is specified in degrees within the range \[-180, 180\]. Set noWrap to true to enable values outside of this range. Note the ordering of latitude and longitude.
 
@@ -97,7 +97,7 @@ toUrlValue(\[precision\])
 
 **Parameters:** 
 
-*   precision (optional):  number
+*   precision:  number optional
 
 **Return Value:**  string
 

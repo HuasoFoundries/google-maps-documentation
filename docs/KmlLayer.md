@@ -18,7 +18,7 @@ KmlLayer(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [KmlLayerOptions](KmlLayerOptions.md)
+*   opts:  [KmlLayerOptions](KmlLayerOptions.md) optional
 
 Creates a KmlLayer which renders the contents of the specified KML/KMZ file ([https://developers.google.com/kml/documentation/kmlreference](https://developers.google.com/kml/documentation/kmlreference)) or GeoRSS file ([http://www.georss.org](http://www.georss.org)).
 

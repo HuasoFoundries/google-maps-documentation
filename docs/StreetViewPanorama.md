@@ -19,7 +19,7 @@ StreetViewPanorama(container\[, opts\])
 **Parameters:** 
 
 *   container:  Element
-*   opts (optional):  [StreetViewPanoramaOptions](StreetViewPanoramaOptions.md)
+*   opts:  [StreetViewPanoramaOptions](StreetViewPanoramaOptions.md) optional
 
 Creates a panorama with the passed StreetViewPanoramaOptions.
 
@@ -131,8 +131,8 @@ registerPanoProvider(provider\[, opt\_options\])
 
 **Parameters:** 
 
-*   provider:  function(string): [StreetViewPanoramaData](StreetViewPanoramaData.md)
-*   opt\_options (optional):  [PanoProviderOptions](PanoProviderOptions.md)
+*   provider:  function(string): ([StreetViewPanoramaData](StreetViewPanoramaData.md) optional)
+*   opt\_options:  [PanoProviderOptions](PanoProviderOptions.md) optional
 
 **Return Value:**  None
 

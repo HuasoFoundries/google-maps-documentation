@@ -23,7 +23,7 @@ Autocomplete(inputField\[, opts\])
 **Parameters:** 
 
 *   inputField:  HTMLInputElement
-*   opts (optional):  [AutocompleteOptions](AutocompleteOptions.md)
+*   opts:  [AutocompleteOptions](AutocompleteOptions.md) optional
 
 Creates a new instance of Autocomplete that attaches to the specified input text field with the given options.
 
@@ -35,7 +35,7 @@ getBounds()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLngBounds](LatLngBounds.md)|undefined
+**Return Value:**  [LatLngBounds](LatLngBounds.md) optional
 
 Returns the bounds to which predictions are biased.
 
@@ -45,7 +45,7 @@ getFields()
 
 **Parameters:**  None
 
-**Return Value:**  Array<string>|undefined
+**Return Value:**  Array<string> optional
 
 Returns the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](PlaceResult.md).
 
@@ -65,7 +65,7 @@ setBounds(bounds)
 
 **Parameters:** 
 
-*   bounds:  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)|undefined
+*   bounds:  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md) optional
 
 **Return Value:**  None
 
@@ -89,7 +89,7 @@ setFields(fields)
 
 **Parameters:** 
 
-*   fields:  Array<string>|undefined
+*   fields:  Array<string> optional
 
 **Return Value:**  None
 

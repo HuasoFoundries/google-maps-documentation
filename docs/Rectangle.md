@@ -18,7 +18,7 @@ Rectangle(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [RectangleOptions](RectangleOptions.md)
+*   opts:  [RectangleOptions](RectangleOptions.md) optional
 
 Create a rectangle using the passed _[RectangleOptions](RectangleOptions.md)_, which specify the bounds and style.
 

@@ -82,7 +82,7 @@ getPanes()
 
 **Parameters:**  None
 
-**Return Value:**  [MapPanes](MapPanes.md)
+**Return Value:**  [MapPanes](MapPanes.md) optional
 
 Returns the panes in which this OverlayView can be rendered. The panes are not initialized until onAdd is called by the API.
 

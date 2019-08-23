@@ -26,7 +26,7 @@ Data(\[options\])
 
 **Parameters:** 
 
-*   options (optional):  [Data.DataOptions](Data.DataOptions.md)
+*   options:  [Data.DataOptions](Data.DataOptions.md) optional
 
 Creates an empty collection, with the given DataOptions.
 
@@ -38,7 +38,7 @@ add(\[feature\])
 
 **Parameters:** 
 
-*   feature (optional):  [Data.Feature](Data.Feature.md)|[Data.FeatureOptions](Data.FeatureOptions.md)
+*   feature:  [Data.Feature](Data.Feature.md)|[Data.FeatureOptions](Data.FeatureOptions.md) optional
 
 **Return Value:**  [Data.Feature](Data.Feature.md)
 
@@ -55,7 +55,7 @@ addGeoJson(geoJson\[, options\])
 **Parameters:** 
 
 *   geoJson:  Object
-*   options (optional):  [Data.GeoJsonOptions](Data.GeoJsonOptions.md)
+*   options:  [Data.GeoJsonOptions](Data.GeoJsonOptions.md) optional
 
 **Return Value:**  Array<[Data.Feature](Data.Feature.md)\>
 
@@ -111,7 +111,7 @@ getDrawingMode()
 
 **Parameters:**  None
 
-**Return Value:**  string
+**Return Value:**  string optional
 
 Returns the current drawing mode of the given Data layer. A drawing mode of null means that the user can interact with the map as normal, and clicks do not draw anything. Possible drawing modes are null, "Point", "LineString" or "Polygon".
 
@@ -123,7 +123,7 @@ getFeatureById(id)
 
 *   id:  number|string
 
-**Return Value:**  [Data.Feature](Data.Feature.md)|undefined
+**Return Value:**  [Data.Feature](Data.Feature.md) optional
 
 Returns the feature with the given ID, if it exists in the collection. Otherwise returns undefined.
 
@@ -156,8 +156,8 @@ loadGeoJson(url\[, options, callback\])
 **Parameters:** 
 
 *   url:  string
-*   options (optional):  [Data.GeoJsonOptions](Data.GeoJsonOptions.md)
-*   callback (optional):  function(Array<[Data.Feature](Data.Feature.md)\>)
+*   options:  [Data.GeoJsonOptions](Data.GeoJsonOptions.md) optional
+*   callback:  function(Array<[Data.Feature](Data.Feature.md)\>) optional
 
 **Return Value:**  None
 
@@ -196,7 +196,7 @@ revertStyle(\[feature\])
 
 **Parameters:** 
 
-*   feature (optional):  [Data.Feature](Data.Feature.md)
+*   feature:  [Data.Feature](Data.Feature.md) optional
 
 **Return Value:**  None
 
@@ -234,7 +234,7 @@ setDrawingMode(drawingMode)
 
 **Parameters:** 
 
-*   drawingMode:  string
+*   drawingMode:  string optional
 
 **Return Value:**  None
 

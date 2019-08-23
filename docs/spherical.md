@@ -21,7 +21,7 @@ computeArea(path\[, radius\])
 **Parameters:** 
 
 *   path:  Array<[LatLng](LatLng.md)\>|[MVCArray](MVCArray.md)<[LatLng](LatLng.md)\>
-*   radius (optional):  number
+*   radius:  number optional
 
 **Return Value:**  number
 
@@ -35,7 +35,7 @@ computeDistanceBetween(from, to\[, radius\])
 
 *   from:  [LatLng](LatLng.md)
 *   to:  [LatLng](LatLng.md)
-*   radius (optional):  number
+*   radius:  number optional
 
 **Return Value:**  number
 
@@ -61,7 +61,7 @@ computeLength(path\[, radius\])
 **Parameters:** 
 
 *   path:  Array<[LatLng](LatLng.md)\>|[MVCArray](MVCArray.md)<[LatLng](LatLng.md)\>
-*   radius (optional):  number
+*   radius:  number optional
 
 **Return Value:**  number
 
@@ -76,7 +76,7 @@ computeOffset(from, distance, heading\[, radius\])
 *   from:  [LatLng](LatLng.md)
 *   distance:  number
 *   heading:  number
-*   radius (optional):  number
+*   radius:  number optional
 
 **Return Value:**  [LatLng](LatLng.md)
 
@@ -91,7 +91,7 @@ computeOffsetOrigin(to, distance, heading\[, radius\])
 *   to:  [LatLng](LatLng.md)
 *   distance:  number
 *   heading:  number
-*   radius (optional):  number
+*   radius:  number optional
 
 **Return Value:**  [LatLng](LatLng.md)
 
@@ -104,7 +104,7 @@ computeSignedArea(loop\[, radius\])
 **Parameters:** 
 
 *   loop:  Array<[LatLng](LatLng.md)\>|[MVCArray](MVCArray.md)<[LatLng](LatLng.md)\>
-*   radius (optional):  number
+*   radius:  number optional
 
 **Return Value:**  number
 

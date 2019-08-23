@@ -22,7 +22,7 @@ HeatmapLayer(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [HeatmapLayerOptions](HeatmapLayerOptions.md)
+*   opts:  [HeatmapLayerOptions](HeatmapLayerOptions.md) optional
 
 Creates a new instance of HeatmapLayer.
 

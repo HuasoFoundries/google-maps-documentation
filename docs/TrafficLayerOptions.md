@@ -12,12 +12,12 @@ Properties
 
 [autoRefresh](#TrafficLayerOptions.autoRefresh)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 Whether the traffic layer refreshes with updated information automatically. This is true by default.
 
 [map](#TrafficLayerOptions.map)
 
-**Type:**  [Map](Map.md)
+**Type:**  [Map](Map.md) optional
 
 Map on which to display the traffic layer.

@@ -18,7 +18,7 @@ Polyline(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [PolylineOptions](PolylineOptions.md)
+*   opts:  [PolylineOptions](PolylineOptions.md) optional
 
 Create a polyline using the passed _[PolylineOptions](PolylineOptions.md)_, which specify both the path of the polyline and the stroke style to use when drawing the polyline. You may pass either an array of LatLngs or an [MVCArray](#MVCArray) of LatLngs when constructing a polyline, though simple arrays are converted to MVCArrays within the polyline upon instantiation.
 

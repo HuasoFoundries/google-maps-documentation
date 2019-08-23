@@ -33,7 +33,7 @@ findPlaceFromPhoneNumber(request, callback)
 **Parameters:** 
 
 *   request:  [FindPlaceFromPhoneNumberRequest](FindPlaceFromPhoneNumberRequest.md)
-*   callback:  function(Array<[PlaceResult](PlaceResult.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md))
+*   callback:  function(Array<[PlaceResult](PlaceResult.md)\> optional, [PlacesServiceStatus](PlacesServiceStatus.md))
 
 **Return Value:**  None
 
@@ -46,7 +46,7 @@ findPlaceFromQuery(request, callback)
 **Parameters:** 
 
 *   request:  [FindPlaceFromQueryRequest](FindPlaceFromQueryRequest.md)
-*   callback:  function(Array<[PlaceResult](PlaceResult.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md))
+*   callback:  function(Array<[PlaceResult](PlaceResult.md)\> optional, [PlacesServiceStatus](PlacesServiceStatus.md))
 
 **Return Value:**  None
 
@@ -59,7 +59,7 @@ getDetails(request, callback)
 **Parameters:** 
 
 *   request:  [PlaceDetailsRequest](PlaceDetailsRequest.md)
-*   callback:  function([PlaceResult](PlaceResult.md), [PlacesServiceStatus](PlacesServiceStatus.md))
+*   callback:  function([PlaceResult](PlaceResult.md) optional, [PlacesServiceStatus](PlacesServiceStatus.md))
 
 **Return Value:**  None
 
@@ -72,7 +72,7 @@ nearbySearch(request, callback)
 **Parameters:** 
 
 *   request:  [PlaceSearchRequest](PlaceSearchRequest.md)
-*   callback:  function(Array<[PlaceResult](PlaceResult.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md), [PlaceSearchPagination](PlaceSearchPagination.md))
+*   callback:  function(Array<[PlaceResult](PlaceResult.md)\> optional, [PlacesServiceStatus](PlacesServiceStatus.md), [PlaceSearchPagination](PlaceSearchPagination.md) optional)
 
 **Return Value:**  None
 
@@ -85,7 +85,7 @@ textSearch(request, callback)
 **Parameters:** 
 
 *   request:  [TextSearchRequest](TextSearchRequest.md)
-*   callback:  function(Array<[PlaceResult](PlaceResult.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md), [PlaceSearchPagination](PlaceSearchPagination.md))
+*   callback:  function(Array<[PlaceResult](PlaceResult.md)\> optional, [PlacesServiceStatus](PlacesServiceStatus.md), [PlaceSearchPagination](PlaceSearchPagination.md) optional)
 
 **Return Value:**  None
 

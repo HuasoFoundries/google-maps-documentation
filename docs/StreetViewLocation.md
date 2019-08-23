@@ -12,13 +12,13 @@ Properties
 
 [description](#StreetViewLocation.description)
 
-**Type:**  string
+**Type:**  string optional
 
 A localized string describing the location.
 
 [latLng](#StreetViewLocation.latLng)
 
-**Type:**  [LatLng](LatLng.md)
+**Type:**  [LatLng](LatLng.md) optional
 
 The latlng of the panorama.
 
@@ -30,6 +30,6 @@ A unique identifier for the panorama. This is stable within a session but unstab
 
 [shortDescription](#StreetViewLocation.shortDescription)
 
-**Type:**  string
+**Type:**  string optional
 
 Short description of the location.

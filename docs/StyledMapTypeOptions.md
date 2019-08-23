@@ -12,24 +12,24 @@ Properties
 
 [alt](#StyledMapTypeOptions.alt)
 
-**Type:**  string
+**Type:**  string optional
 
 Text to display when this MapType's button is hovered over in the map type control.
 
 [maxZoom](#StyledMapTypeOptions.maxZoom)
 
-**Type:**  number
+**Type:**  number optional
 
 The maximum zoom level for the map when displaying this MapType. Optional.
 
 [minZoom](#StyledMapTypeOptions.minZoom)
 
-**Type:**  number
+**Type:**  number optional
 
 The minimum zoom level for the map when displaying this MapType. Optional.
 
 [name](#StyledMapTypeOptions.name)
 
-**Type:**  string
+**Type:**  string optional
 
 The name to display in the map type control.

@@ -16,10 +16,10 @@ fromContainerPixelToLatLng(pixel\[, nowrap\])
 
 **Parameters:** 
 
-*   pixel:  [Point](Point.md)
-*   nowrap (optional):  boolean
+*   pixel:  [Point](Point.md) optional
+*   nowrap:  boolean optional
 
-**Return Value:**  [LatLng](LatLng.md)
+**Return Value:**  [LatLng](LatLng.md) optional
 
 Computes the geographical coordinates from pixel coordinates in the map's container.
 
@@ -29,10 +29,10 @@ fromDivPixelToLatLng(pixel\[, nowrap\])
 
 **Parameters:** 
 
-*   pixel:  [Point](Point.md)
-*   nowrap (optional):  boolean
+*   pixel:  [Point](Point.md) optional
+*   nowrap:  boolean optional
 
-**Return Value:**  [LatLng](LatLng.md)
+**Return Value:**  [LatLng](LatLng.md) optional
 
 Computes the geographical coordinates from pixel coordinates in the div that holds the draggable map.
 
@@ -42,9 +42,9 @@ fromLatLngToContainerPixel(latLng)
 
 **Parameters:** 
 
-*   latLng:  [LatLng](LatLng.md)
+*   latLng:  [LatLng](LatLng.md) optional
 
-**Return Value:**  [Point](Point.md)
+**Return Value:**  [Point](Point.md) optional
 
 Computes the pixel coordinates of the given geographical location in the map's container element.
 
@@ -54,9 +54,9 @@ fromLatLngToDivPixel(latLng)
 
 **Parameters:** 
 
-*   latLng:  [LatLng](LatLng.md)
+*   latLng:  [LatLng](LatLng.md) optional
 
-**Return Value:**  [Point](Point.md)
+**Return Value:**  [Point](Point.md) optional
 
 Computes the pixel coordinates of the given geographical location in the DOM element that holds the draggable map.
 

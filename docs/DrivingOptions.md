@@ -18,6 +18,6 @@ The desired departure time for the route, specified as a Date object. The Date o
 
 [trafficModel](#DrivingOptions.trafficModel)
 
-**Type:**  [TrafficModel](TrafficModel.md)
+**Type:**  [TrafficModel](TrafficModel.md) optional
 
 The preferred assumption to use when predicting duration in traffic. The default is BEST\_GUESS.

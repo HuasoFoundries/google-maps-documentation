@@ -22,7 +22,7 @@ DrawingManager(\[options\])
 
 **Parameters:** 
 
-*   options (optional):  [DrawingManagerOptions](DrawingManagerOptions.md)
+*   options:  [DrawingManagerOptions](DrawingManagerOptions.md) optional
 
 Creates a DrawingManager that allows users to draw overlays on the map, and switch between the type of overlay to be drawn with a drawing control.
 
@@ -34,7 +34,7 @@ getDrawingMode()
 
 **Parameters:**  None
 
-**Return Value:**  [OverlayType](OverlayType.md)
+**Return Value:**  [OverlayType](OverlayType.md) optional
 
 Returns the DrawingManager's drawing mode.
 
@@ -54,7 +54,7 @@ setDrawingMode(drawingMode)
 
 **Parameters:** 
 
-*   drawingMode:  [OverlayType](OverlayType.md)
+*   drawingMode:  [OverlayType](OverlayType.md) optional
 
 **Return Value:**  None
 

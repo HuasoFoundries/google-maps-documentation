@@ -16,7 +16,7 @@ MVCArray(\[array\])
 
 **Parameters:** 
 
-*   array (optional):  Array<T>
+*   array:  Array<T> optional
 
 A mutable MVC Array.
 

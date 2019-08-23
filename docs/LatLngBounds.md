@@ -16,8 +16,8 @@ LatLngBounds(\[sw, ne\])
 
 **Parameters:** 
 
-*   sw (optional):  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
-*   ne (optional):  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
+*   sw:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md) optional
+*   ne:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md) optional
 
 Constructs a rectangle from the points at its south-west and north-east corners.
 
@@ -147,7 +147,7 @@ toUrlValue(\[precision\])
 
 **Parameters:** 
 
-*   precision (optional):  number
+*   precision:  number optional
 
 **Return Value:**  string
 

@@ -40,7 +40,7 @@ Properties
 
 [alt](#MapType.alt)
 
-**Type:**  string
+**Type:**  string optional
 
 Alt text to display when this MapType's button is hovered over in the MapTypeControl. Optional.
 
@@ -58,13 +58,13 @@ The minimum zoom level for the map when displaying this MapType. Optional; defau
 
 [name](#MapType.name)
 
-**Type:**  string
+**Type:**  string optional
 
 Name to display in the MapTypeControl. Optional.
 
 [projection](#MapType.projection)
 
-**Type:**  [Projection](Projection.md)
+**Type:**  [Projection](Projection.md) optional
 
 The Projection used to render this MapType. Optional; defaults to Mercator.
 

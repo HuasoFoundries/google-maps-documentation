@@ -23,7 +23,7 @@ SearchBox(inputField\[, opts\])
 **Parameters:** 
 
 *   inputField:  HTMLInputElement
-*   opts (optional):  [SearchBoxOptions](SearchBoxOptions.md)
+*   opts:  [SearchBoxOptions](SearchBoxOptions.md) optional
 
 Creates a new instance of SearchBox that attaches to the specified input text field with the given options.
 

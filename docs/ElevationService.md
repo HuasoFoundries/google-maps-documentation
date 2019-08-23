@@ -27,7 +27,7 @@ getElevationAlongPath(request, callback)
 **Parameters:** 
 
 *   request:  [PathElevationRequest](PathElevationRequest.md)
-*   callback:  function(Array<[ElevationResult](ElevationResult.md)\>, [ElevationStatus](ElevationStatus.md))
+*   callback:  function(Array<[ElevationResult](ElevationResult.md)\> optional, [ElevationStatus](ElevationStatus.md))
 
 **Return Value:**  None
 
@@ -40,7 +40,7 @@ getElevationForLocations(request, callback)
 **Parameters:** 
 
 *   request:  [LocationElevationRequest](LocationElevationRequest.md)
-*   callback:  function(Array<[ElevationResult](ElevationResult.md)\>, [ElevationStatus](ElevationStatus.md))
+*   callback:  function(Array<[ElevationResult](ElevationResult.md)\> optional, [ElevationStatus](ElevationStatus.md))
 
 **Return Value:**  None
 

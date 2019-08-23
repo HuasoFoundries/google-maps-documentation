@@ -16,7 +16,7 @@ Data.Feature(\[options\])
 
 **Parameters:** 
 
-*   options (optional):  [Data.FeatureOptions](Data.FeatureOptions.md)
+*   options:  [Data.FeatureOptions](Data.FeatureOptions.md) optional
 
 Constructs a Feature with the given options.
 
@@ -50,7 +50,7 @@ getId()
 
 **Parameters:**  None
 
-**Return Value:**  number|string|undefined
+**Return Value:**  number|string optional
 
 Returns the feature ID.
 

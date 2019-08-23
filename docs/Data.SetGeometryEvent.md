@@ -18,12 +18,12 @@ The feature whose geometry was set.
 
 [newGeometry](#Data.SetGeometryEvent.newGeometry)
 
-**Type:**  [Data.Geometry](Data.Geometry.md)
+**Type:**  [Data.Geometry](Data.Geometry.md) optional
 
 The new feature geometry.
 
 [oldGeometry](#Data.SetGeometryEvent.oldGeometry)
 
-**Type:**  [Data.Geometry](Data.Geometry.md)
+**Type:**  [Data.Geometry](Data.Geometry.md) optional
 
 The previous feature geometry.

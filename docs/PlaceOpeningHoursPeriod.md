@@ -16,7 +16,7 @@ Properties
 
 [close](#PlaceOpeningHoursPeriod.close)
 
-**Type:**  [PlaceOpeningHoursTime](PlaceOpeningHoursTime.md)
+**Type:**  [PlaceOpeningHoursTime](PlaceOpeningHoursTime.md) optional
 
 The closing time for the Place.
 

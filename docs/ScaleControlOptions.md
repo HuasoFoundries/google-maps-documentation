@@ -12,6 +12,6 @@ Properties
 
 [style](#ScaleControlOptions.style)
 
-**Type:**  [ScaleControlStyle](ScaleControlStyle.md)
+**Type:**  [ScaleControlStyle](ScaleControlStyle.md) optional
 
 Style id. Used to select what style of scale control to display.

@@ -24,19 +24,19 @@ The days of the week, as a number in the range \[0, 6\], starting on Sunday. For
 
 **Type:**  number
 
-The hours are extracted from the time property as a number, in the range \[00, 23\]. This will be reported in the Place’s time zone.
+The hours of the [PlaceOpeningHoursTime.time](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceOpeningHoursTime.time) as a number, in the range \[0, 23\]. This will be reported in the Place’s time zone.
 
 [minutes](#PlaceOpeningHoursTime.minutes)
 
 **Type:**  number
 
-The minutes are extracted from the time property as a number, in the range \[00, 59\]. This will be reported in the Place’s time zone.
+The minutes of the [PlaceOpeningHoursTime.time](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceOpeningHoursTime.time) as a number, in the range \[0, 59\]. This will be reported in the Place’s time zone.
 
 [nextDate](#PlaceOpeningHoursTime.nextDate)
 
-**Type:**  number
+**Type:**  number optional
 
-The timestamp (as milliseconds since the epoch, suitable for use with new Date()) representing the next occurrence of this PlaceOpeningHoursTime. It is calculated from the [PlaceOpeningHoursTime.day](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceOpeningHoursTime.day) of week, and the [PlaceOpeningHoursTime.time](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceOpeningHoursTime.time), and the [PlaceResult.utc\_offset](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.utc_offset). If the [PlaceResult.utc\_offset](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.utc_offset) is undefined, then this will be undefined.
+The timestamp (as milliseconds since the epoch, suitable for use with new Date()) representing the next occurrence of this PlaceOpeningHoursTime. It is calculated from the [PlaceOpeningHoursTime.day](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceOpeningHoursTime.day) of week, the [PlaceOpeningHoursTime.time](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceOpeningHoursTime.time), and the [PlaceResult.utc\_offset](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.utc_offset). If the [PlaceResult.utc\_offset](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.utc_offset) is undefined, then nextDate will be undefined.
 
 [time](#PlaceOpeningHoursTime.time)
 

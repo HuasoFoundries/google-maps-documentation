@@ -16,6 +16,6 @@ Properties
 
 [bounds](#SearchBoxOptions.bounds)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md) optional
 
 The area towards which to bias query predictions. Predictions are biased towards, but not restricted to, queries targeting these bounds.

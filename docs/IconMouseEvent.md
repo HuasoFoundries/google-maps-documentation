@@ -14,7 +14,7 @@ Properties
 
 [placeId](#IconMouseEvent.placeId)
 
-**Type:**  string
+**Type:**  string optional
 
 The place ID of the place that was clicked. This place ID can be used to query more information about the feature that was clicked.
 

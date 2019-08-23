@@ -17,7 +17,7 @@ addDomListener(instance, eventName, handler\[, capture\])
 *   instance:  Object
 *   eventName:  string
 *   handler:  Function
-*   capture (optional):  boolean
+*   capture:  boolean optional
 
 **Return Value:**  [MapsEventListener](MapsEventListener.md)
 
@@ -32,7 +32,7 @@ addDomListenerOnce(instance, eventName, handler\[, capture\])
 *   instance:  Object
 *   eventName:  string
 *   handler:  Function
-*   capture (optional):  boolean
+*   capture:  boolean optional
 
 **Return Value:**  [MapsEventListener](MapsEventListener.md)
 

@@ -17,7 +17,7 @@ Map(mapDiv\[, opts\])
 **Parameters:** 
 
 *   mapDiv:  Element
-*   opts (optional):  [MapOptions](MapOptions.md)
+*   opts:  [MapOptions](MapOptions.md) optional
 
 Creates a new map inside of the given HTML container, which is typically a DIV element.
 
@@ -30,7 +30,7 @@ fitBounds(bounds\[, padding\])
 **Parameters:** 
 
 *   bounds:  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
-*   padding (optional):  number|[Padding](Padding.md)
+*   padding:  number|[Padding](Padding.md) optional
 
 **Return Value:**  None
 
@@ -163,7 +163,7 @@ panToBounds(latLngBounds\[, padding\])
 **Parameters:** 
 
 *   latLngBounds:  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
-*   padding (optional):  number|[Padding](Padding.md)
+*   padding:  number|[Padding](Padding.md) optional
 
 **Return Value:**  None
 
@@ -279,7 +279,7 @@ A registry of MapType instances by string ID.
 
 [overlayMapTypes](#Map.overlayMapTypes)
 
-**Type:**  [MVCArray](MVCArray.md)<[MapType](MapType.md)\>
+**Type:**  [MVCArray](MVCArray.md)<[MapType](MapType.md) optional\>
 
 Additional map types to overlay. Overlay map types will display on top of the base map they are attached to, in the order in which they appear in the overlayMapTypes array (overlays with higher index values are displayed in front of overlays with lower index values).
 

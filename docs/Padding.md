@@ -10,24 +10,24 @@ Properties
 
 [bottom](#Padding.bottom)
 
-**Type:**  number
+**Type:**  number optional
 
 Padding for the bottom, in pixels.
 
 [left](#Padding.left)
 
-**Type:**  number
+**Type:**  number optional
 
 Padding for the left, in pixels.
 
 [right](#Padding.right)
 
-**Type:**  number
+**Type:**  number optional
 
 Padding for the right, in pixels.
 
 [top](#Padding.top)
 
-**Type:**  number
+**Type:**  number optional
 
 Padding for the top, in pixels.

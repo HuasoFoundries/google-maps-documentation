@@ -16,7 +16,7 @@ Properties
 
 [bounds](#QueryAutocompletionRequest.bounds)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
+**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md) optional
 
 Bounds for prediction biasing. Predictions will be biased towards, but not restricted to, the given bounds. Both location and radius will be ignored if bounds is set.
 
@@ -28,18 +28,18 @@ The user entered input string.
 
 [location](#QueryAutocompletionRequest.location)
 
-**Type:**  [LatLng](LatLng.md)
+**Type:**  [LatLng](LatLng.md) optional
 
 Location for prediction biasing. Predictions will be biased towards the given location and radius. Alternatively, bounds can be used.
 
 [offset](#QueryAutocompletionRequest.offset)
 
-**Type:**  number
+**Type:**  number optional
 
 The character position in the input term at which the service uses text for predictions (the position of the cursor in the input field).
 
 [radius](#QueryAutocompletionRequest.radius)
 
-**Type:**  number
+**Type:**  number optional
 
 The radius of the area used for prediction biasing. The radius is specified in meters, and must always be accompanied by a location property. Alternatively, bounds can be used.

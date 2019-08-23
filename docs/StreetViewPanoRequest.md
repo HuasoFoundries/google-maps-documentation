@@ -12,6 +12,6 @@ Properties
 
 [pano](#StreetViewPanoRequest.pano)
 
-**Type:**  string
+**Type:**  string optional
 
 Specifies the pano ID to search for.

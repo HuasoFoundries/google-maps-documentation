@@ -16,7 +16,7 @@ Marker(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [MarkerOptions](MarkerOptions.md)
+*   opts:  [MarkerOptions](MarkerOptions.md) optional
 
 Creates a marker with the options specified. If a map is specified, the marker is added to the map upon construction. Note that the position must be set for the marker to display.
 
@@ -28,7 +28,7 @@ getAnimation()
 
 **Parameters:**  None
 
-**Return Value:**  [Animation](Animation.md)
+**Return Value:**  [Animation](Animation.md) optional
 
 [getClickable](#Marker.getClickable)
 
@@ -132,7 +132,7 @@ setAnimation(animation)
 
 **Parameters:** 
 
-*   animation:  [Animation](Animation.md)
+*   animation:  [Animation](Animation.md) optional
 
 **Return Value:**  None
 
@@ -164,7 +164,7 @@ setDraggable(flag)
 
 **Parameters:** 
 
-*   flag:  boolean
+*   flag:  boolean optional
 
 **Return Value:**  None
 

@@ -16,12 +16,12 @@ Properties
 
 [maxHeight](#PhotoOptions.maxHeight)
 
-**Type:**  number
+**Type:**  number optional
 
 The maximum height in pixels of the returned image.
 
 [maxWidth](#PhotoOptions.maxWidth)
 
-**Type:**  number
+**Type:**  number optional
 
 The maximum width in pixels of the returned image.

@@ -12,84 +12,84 @@ Properties
 
 [center](#CircleOptions.center)
 
-**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
+**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md) optional
 
 The center of the Circle.
 
 [clickable](#CircleOptions.clickable)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 Indicates whether this Circle handles mouse events. Defaults to true.
 
 [draggable](#CircleOptions.draggable)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If set to true, the user can drag this circle over the map. Defaults to false.
 
 [editable](#CircleOptions.editable)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If set to true, the user can edit this circle by dragging the control points shown at the center and around the circumference of the circle. Defaults to false.
 
 [fillColor](#CircleOptions.fillColor)
 
-**Type:**  string
+**Type:**  string optional
 
 The fill color. All CSS3 colors are supported except for extended named colors.
 
 [fillOpacity](#CircleOptions.fillOpacity)
 
-**Type:**  number
+**Type:**  number optional
 
 The fill opacity between 0.0 and 1.0.
 
 [map](#CircleOptions.map)
 
-**Type:**  [Map](Map.md)
+**Type:**  [Map](Map.md) optional
 
 Map on which to display the Circle.
 
 [radius](#CircleOptions.radius)
 
-**Type:**  number
+**Type:**  number optional
 
 The radius in meters on the Earth's surface.
 
 [strokeColor](#CircleOptions.strokeColor)
 
-**Type:**  string
+**Type:**  string optional
 
 The stroke color. All CSS3 colors are supported except for extended named colors.
 
 [strokeOpacity](#CircleOptions.strokeOpacity)
 
-**Type:**  number
+**Type:**  number optional
 
 The stroke opacity between 0.0 and 1.0.
 
 [strokePosition](#CircleOptions.strokePosition)
 
-**Type:**  [StrokePosition](StrokePosition.md)
+**Type:**  [StrokePosition](StrokePosition.md) optional
 
 The stroke position. Defaults to CENTER. This property is not supported on Internet Explorer 8 and earlier.
 
 [strokeWeight](#CircleOptions.strokeWeight)
 
-**Type:**  number
+**Type:**  number optional
 
 The stroke width in pixels.
 
 [visible](#CircleOptions.visible)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 Whether this circle is visible on the map. Defaults to true.
 
 [zIndex](#CircleOptions.zIndex)
 
-**Type:**  number
+**Type:**  number optional
 
 The zIndex compared to other polys.

@@ -20,7 +20,7 @@ getUrl(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [PhotoOptions](PhotoOptions.md)
+*   opts:  [PhotoOptions](PhotoOptions.md) optional
 
 **Return Value:**  string
 

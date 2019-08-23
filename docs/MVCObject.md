@@ -43,8 +43,8 @@ bindTo(key, target\[, targetKey, noNotify\])
 
 *   key:  string
 *   target:  [MVCObject](MVCObject.md)
-*   targetKey (optional):  string
-*   noNotify (optional):  boolean
+*   targetKey:  string optional
+*   noNotify:  boolean optional
 
 **Return Value:**  None
 
@@ -93,7 +93,7 @@ setValues(\[values\])
 
 **Parameters:** 
 
-*   values (optional):  Object
+*   values:  Object optional
 
 **Return Value:**  None
 

@@ -28,7 +28,7 @@ The name of the reviewer.
 
 [author\_url](#PlaceReview.author_url)
 
-**Type:**  string
+**Type:**  string optional
 
 A URL to the reviewer's profile. This will be undefined when the reviewer's profile is unavailable.
 

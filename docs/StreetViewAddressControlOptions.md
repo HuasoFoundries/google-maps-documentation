@@ -12,6 +12,6 @@ Properties
 
 [position](#StreetViewAddressControlOptions.position)
 
-**Type:**  [ControlPosition](ControlPosition.md)
+**Type:**  [ControlPosition](ControlPosition.md) optional
 
 Position id. This id is used to specify the position of the control on the map. The default position is TOP\_LEFT.

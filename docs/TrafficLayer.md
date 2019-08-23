@@ -18,7 +18,7 @@ TrafficLayer(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [TrafficLayerOptions](TrafficLayerOptions.md)
+*   opts:  [TrafficLayerOptions](TrafficLayerOptions.md) optional
 
 A layer that displays current road traffic.
 

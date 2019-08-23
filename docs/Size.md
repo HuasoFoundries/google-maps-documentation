@@ -16,8 +16,8 @@ Size(width, height\[, widthUnit, heightUnit\])
 
 *   width:  number
 *   height:  number
-*   widthUnit (optional):  string
-*   heightUnit (optional):  string
+*   widthUnit:  string optional
+*   heightUnit:  string optional
 
 Two-dimensional size, where width is the distance on the x-axis, and height is the distance on the y-axis.
 

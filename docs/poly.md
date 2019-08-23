@@ -35,7 +35,7 @@ isLocationOnEdge(point, poly\[, tolerance\])
 
 *   point:  [LatLng](LatLng.md)
 *   poly:  [Polygon](Polygon.md)|[Polyline](Polyline.md)
-*   tolerance (optional):  number
+*   tolerance:  number optional
 
 **Return Value:**  boolean
 

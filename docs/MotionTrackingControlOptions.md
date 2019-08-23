@@ -12,6 +12,6 @@ Properties
 
 [position](#MotionTrackingControlOptions.position)
 
-**Type:**  [ControlPosition](ControlPosition.md)
+**Type:**  [ControlPosition](ControlPosition.md) optional
 
 Position id. This is used to specify the position of this control on the panorama. The default position is RIGHT\_BOTTOM.

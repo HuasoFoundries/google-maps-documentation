@@ -12,19 +12,19 @@ Properties
 
 [avoidFerries](#DistanceMatrixRequest.avoidFerries)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If true, instructs the Distance Matrix service to avoid ferries where possible. Optional.
 
 [avoidHighways](#DistanceMatrixRequest.avoidHighways)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If true, instructs the Distance Matrix service to avoid highways where possible. Optional.
 
 [avoidTolls](#DistanceMatrixRequest.avoidTolls)
 
-**Type:**  boolean
+**Type:**  boolean optional
 
 If true, instructs the Distance Matrix service to avoid toll roads where possible. Optional.
 
@@ -36,7 +36,7 @@ An array containing destination address strings, or LatLng, or Place objects, to
 
 [drivingOptions](#DistanceMatrixRequest.drivingOptions)
 
-**Type:**  [DrivingOptions](DrivingOptions.md)
+**Type:**  [DrivingOptions](DrivingOptions.md) optional
 
 Settings that apply only to requests where travelMode is DRIVING. This object will have no effect for other travel modes.
 
@@ -48,13 +48,13 @@ An array containing origin address strings, or LatLng, or Place objects, from wh
 
 [region](#DistanceMatrixRequest.region)
 
-**Type:**  string
+**Type:**  string optional
 
 Region code used as a bias for geocoding requests. Optional.
 
 [transitOptions](#DistanceMatrixRequest.transitOptions)
 
-**Type:**  [TransitOptions](TransitOptions.md)
+**Type:**  [TransitOptions](TransitOptions.md) optional
 
 Settings that apply only to requests where travelMode is TRANSIT. This object will have no effect for other travel modes.
 
@@ -66,6 +66,6 @@ Type of routing requested. Required.
 
 [unitSystem](#DistanceMatrixRequest.unitSystem)
 
-**Type:**  [UnitSystem](UnitSystem.md)
+**Type:**  [UnitSystem](UnitSystem.md) optional
 
 Preferred unit system to use when displaying distance. Optional; defaults to metric.

@@ -57,3 +57,9 @@ Details about the transit line used in this step.
 **Type:**  number
 
 The number of stops on this step. Includes the arrival stop, but not the departure stop.
+
+[trip\_short\_name](#TransitDetails.trip_short_name)
+
+**Type:**  string
+
+The text that appears in schedules and sign boards to identify a transit trip to passengers, for example, to identify train numbers for commuter rail trips. The text uniquely identifies a trip within a service day.

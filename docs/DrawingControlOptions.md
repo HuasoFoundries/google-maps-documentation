@@ -16,12 +16,12 @@ Properties
 
 [drawingModes](#DrawingControlOptions.drawingModes)
 
-**Type:**  Array<[OverlayType](OverlayType.md)\>
+**Type:**  Array<[OverlayType](OverlayType.md)\> optional
 
 The drawing modes to display in the drawing control, in the order in which they are to be displayed. The hand icon (which corresponds to the null drawing mode) is always available and is not to be specified in this array. Defaults to \['marker', 'polyline', 'rectangle', 'circle', 'polygon'\].
 
 [position](#DrawingControlOptions.position)
 
-**Type:**  [ControlPosition](ControlPosition.md)
+**Type:**  [ControlPosition](ControlPosition.md) optional
 
 Position id. Used to specify the position of the control on the map. The default position is TOP\_LEFT.

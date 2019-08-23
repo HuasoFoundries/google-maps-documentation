@@ -18,7 +18,7 @@ DirectionsRenderer(\[opts\])
 
 **Parameters:** 
 
-*   opts (optional):  [DirectionsRendererOptions](DirectionsRendererOptions.md)
+*   opts:  [DirectionsRendererOptions](DirectionsRendererOptions.md) optional
 
 Creates the renderer with the given options. Directions can be rendered on a map (as visual overlays) or additionally on a <div> panel (as textual instructions).
 
