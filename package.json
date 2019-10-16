@@ -44,7 +44,7 @@
     "turndown": "^5.0.1"
   },
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.3",
     "eslint": "^5.5.0"
   }
 }
