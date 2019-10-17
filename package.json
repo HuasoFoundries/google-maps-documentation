@@ -40,7 +40,7 @@
     "exec-sh": "^0.3.0",
     "find": "^0.2.9",
     "lodash": "^4.17.13",
-    "puppeteer": "^1.7.0",
+    "puppeteer": "^1.20.0",
     "turndown": "^5.0.3"
   },
   "devDependencies": {
