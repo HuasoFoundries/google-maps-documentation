@@ -41,7 +41,7 @@
     "find": "^0.2.9",
     "lodash": "^4.17.10",
     "puppeteer": "^1.7.0",
-    "turndown": "^5.0.1"
+    "turndown": "^5.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
