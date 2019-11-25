@@ -44,7 +44,7 @@ An array of LatLngs representing the entire course of this route. The path is si
 
 **Type:**  string
 
-An [encoded polyline representation](https://developers.google.com/maps/documentation/utilities/polylinealgorithm) of the route in overview\_path. This polyline is an approximate (smoothed) path of the resulting directions.
+An [encoded polyline representation](/maps/documentation/utilities/polylinealgorithm) of the route in overview\_path. This polyline is an approximate (smoothed) path of the resulting directions.
 
 [warnings](#DirectionsRoute.warnings)
 

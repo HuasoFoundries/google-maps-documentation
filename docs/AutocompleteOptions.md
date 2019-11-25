@@ -34,7 +34,7 @@ Fields to be included for the Place in the details response when the details are
 
 [placeIdOnly](#AutocompleteOptions.placeIdOnly)
 
-**Notice:** placeIdOnly is deprecated as of January 15, 2019, and will be turned off on January 15, 2020. Use [AutocompleteOptions.fields](https://developers.google.com/maps/documentation/javascript/reference/places-widget#AutocompleteOptions.fields) instead: fields: \['place\_id', 'name', 'types'\].
+**Notice:** placeIdOnly is deprecated as of January 15, 2019, and will be turned off on January 15, 2020. Use [AutocompleteOptions.fields](/maps/documentation/javascript/reference/places-widget#AutocompleteOptions.fields) instead: fields: \['place\_id', 'name', 'types'\].
 
 **Type:**  boolean optional
 

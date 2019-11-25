@@ -6,7 +6,7 @@ GeocoderComponentRestrictions interface
 
 google.maps.GeocoderComponentRestrictions interface
 
-GeocoderComponentRestrictions represents a set of filters that resolve to a specific area. For details on how this works, see [Geocoding Component Filtering](https://developers.google.com/maps/documentation/javascript/geocoding#ComponentFiltering).
+GeocoderComponentRestrictions represents a set of filters that resolve to a specific area. For details on how this works, see [Geocoding Component Filtering](/maps/documentation/javascript/geocoding#ComponentFiltering).
 
 Properties
 

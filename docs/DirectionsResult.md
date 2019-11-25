@@ -6,7 +6,7 @@ DirectionsResult interface
 
 google.maps.DirectionsResult interface
 
-The directions response retrieved from the directions server. You can render these using a [DirectionsRenderer](DirectionsRenderer.md) or parse this object and render it yourself. You must display the warnings and copyrights as noted in the [Google Maps Platform Terms of Service](https://developers.google.com/maps/terms). Note that though this result is "JSON-like," it is not strictly JSON, as it indirectly includes LatLng objects.
+The directions response retrieved from the directions server. You can render these using a [DirectionsRenderer](DirectionsRenderer.md) or parse this object and render it yourself. You must display the warnings and copyrights as noted in the [Google Maps Platform Terms of Service](/maps/terms). Note that though this result is "JSON-like," it is not strictly JSON, as it indirectly includes LatLng objects.
 
 Properties
 

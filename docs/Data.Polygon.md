@@ -6,7 +6,7 @@ Data.Polygon class
 
 google.maps.Data.Polygon class
 
-A Polygon geometry contains a number of Data.LinearRings. The first linear-ring must be the polygon exterior boundary and subsequent linear-rings must be interior boundaries, also known as holes. See the [sample polygon with a hole](https://developers.google.com/maps/documentation/javascript/examples/layer-data-polygon).
+A Polygon geometry contains a number of Data.LinearRings. The first linear-ring must be the polygon exterior boundary and subsequent linear-rings must be interior boundaries, also known as holes. See the [sample polygon with a hole](/maps/documentation/javascript/examples/layer-data-polygon).
 
 This class implements [Data.Geometry](Data.Geometry.md).
 

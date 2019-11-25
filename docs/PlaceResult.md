@@ -18,13 +18,13 @@ Properties
 
 **Type:**  Array<[GeocoderAddressComponent](GeocoderAddressComponent.md)\> optional
 
-The collection of address components for this Place’s location. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The collection of address components for this Place’s location. Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [adr\_address](#PlaceResult.adr_address)
 
 **Type:**  string optional
 
-The representation of the Place’s address in the [adr microformat](http://microformats.org/wiki/adr). Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The representation of the Place’s address in the [adr microformat](http://microformats.org/wiki/adr). Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [aspects](#PlaceResult.aspects)
 
@@ -42,7 +42,7 @@ The Place’s full address.
 
 **Type:**  string optional
 
-The Place’s phone number, formatted according to the [number's regional convention](http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers). Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The Place’s phone number, formatted according to the [number's regional convention](http://en.wikipedia.org/wiki/Local_conventions_for_writing_telephone_numbers). Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [geometry](#PlaceResult.geometry)
 
@@ -66,7 +66,7 @@ URL to an image resource that can be used to represent this Place’s category.
 
 **Type:**  string optional
 
-The Place’s phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The Place’s phone number in international format. International format includes the country code, and is prefixed with the plus (+) sign. Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [name](#PlaceResult.name)
 
@@ -126,46 +126,48 @@ A rating, between 1.0 to 5.0, based on user reviews of this Place.
 
 **Type:**  Array<[PlaceReview](PlaceReview.md)\> optional
 
-A list of reviews of this Place. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+A list of reviews of this Place. Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [types](#PlaceResult.types)
 
 **Type:**  Array<string> optional
 
-An array of [types for this Place](https://developers.google.com/places/supported_types) (for example, \["political", "locality"\] or \["restaurant", "establishment"\]).
+An array of [types for this Place](/places/supported_types) (for example, \["political", "locality"\] or \["restaurant", "establishment"\]).
 
 [url](#PlaceResult.url)
 
 **Type:**  string optional
 
-URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the Place. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+URL of the official Google page for this place. This is the Google-owned page that contains the best available information about the Place. Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [user\_ratings\_total](#PlaceResult.user_ratings_total)
 
 **Type:**  number optional
 
-The number of user ratings which contributed to this Place’s [PlaceResult.rating](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlaceResult.rating).
+The number of user ratings which contributed to this Place’s [PlaceResult.rating](/maps/documentation/javascript/reference/places-service#PlaceResult.rating).
 
 [utc\_offset](#PlaceResult.utc_offset)
 
+**Notice:** utc\_offset is deprecated as of November 2019 and will be turned off in November 2020. Use [PlaceResult.utc\_offset\_minutes](/maps/documentation/javascript/reference/places-service#PlaceResult.utc_offset_minutes) instead.
+
 **Type:**  number optional
 
-The offset from UTC of the Place’s current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the utc\_offset will be 660. For timezones behind UTC, the offset is negative. For example, the is \-60 for Cape Verde. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The offset from UTC of the Place’s current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the utc\_offset will be 660. For timezones behind UTC, the offset is negative. For example, the utc\_offset is \-60 for Cape Verde. Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [utc\_offset\_minutes](#PlaceResult.utc_offset_minutes)
 
 **Type:**  number optional
 
-The offset from UTC of the Place’s current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the utc\_offset will be 660. For timezones behind UTC, the offset is negative. For example, the is \-60 for Cape Verde. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The offset from UTC of the Place’s current timezone, in minutes. For example, Sydney, Australia in daylight savings is 11 hours ahead of UTC, so the utc\_offset\_minutes will be 660. For timezones behind UTC, the offset is negative. For example, the utc\_offset\_minutes is \-60 for Cape Verde. Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [vicinity](#PlaceResult.vicinity)
 
 **Type:**  string optional
 
-The simplified address for the Place, including the street name, street number, and locality, but not the province/state, postal code, or country. For example, Google's Sydney, Australia office has a vicinity value of "48 Pirrama Road, Pyrmont". Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The simplified address for the Place, including the street name, street number, and locality, but not the province/state, postal code, or country. For example, Google's Sydney, Australia office has a vicinity value of "48 Pirrama Road, Pyrmont". Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
 
 [website](#PlaceResult.website)
 
 **Type:**  string optional
 
-The authoritative website for this Place, such as a business' homepage. Only available with [PlacesService.getDetails](https://developers.google.com/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The authoritative website for this Place, such as a business' homepage. Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).

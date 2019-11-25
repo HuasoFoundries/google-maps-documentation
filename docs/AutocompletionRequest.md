@@ -6,7 +6,7 @@ AutocompletionRequest interface
 
 google.maps.places.AutocompletionRequest interface
 
-An Autocompletion request to be sent to [AutocompleteService.getPlacePredictions](https://developers.google.com/maps/documentation/javascript/reference/places-autocomplete-service#AutocompleteService.getPlacePredictions).
+An Autocompletion request to be sent to [AutocompleteService.getPlacePredictions](/maps/documentation/javascript/reference/places-autocomplete-service#AutocompleteService.getPlacePredictions).
 
 #### Library
 
@@ -43,6 +43,12 @@ Location for prediction biasing. Predictions will be biased towards the given lo
 **Type:**  number optional
 
 The character position in the input term at which the service uses text for predictions (the position of the cursor in the input field).
+
+[origin](#AutocompletionRequest.origin)
+
+**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md) optional
+
+The location where [AutocompletePrediction.distance\_meters](/maps/documentation/javascript/reference/places-autocomplete-service#AutocompletePrediction.distance_meters) is calculated from.
 
 [radius](#AutocompletionRequest.radius)
 

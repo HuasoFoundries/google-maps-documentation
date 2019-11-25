@@ -16,7 +16,7 @@ The DirectionsRequest provided was invalid.
 
 [MAX\_WAYPOINTS\_EXCEEDED](#DirectionsStatus.MAX_WAYPOINTS_EXCEEDED)
 
-Too many DirectionsWaypoints were provided in the DirectionsRequest. See the [developer's guide](https://developers.google.com/maps/documentation/javascript/directions#UsageLimits) for the maximum number of waypoints allowed.
+Too many DirectionsWaypoints were provided in the DirectionsRequest. See the [developer's guide](/maps/documentation/javascript/directions#UsageLimits) for the maximum number of waypoints allowed.
 
 [NOT\_FOUND](#DirectionsStatus.NOT_FOUND)
 

@@ -16,7 +16,7 @@ Properties
 
 [data](#HeatmapLayerOptions.data)
 
-**Type:**  [MVCArray](MVCArray.md)<[LatLng](LatLng.md)\>|Array<[LatLng](LatLng.md)\> optional
+**Type:**  [MVCArray](MVCArray.md)<[LatLng](LatLng.md)|[WeightedLocation](WeightedLocation.md)\>|Array<[LatLng](LatLng.md)|[WeightedLocation](WeightedLocation.md)\> optional
 
 The data points to display. Required.
 

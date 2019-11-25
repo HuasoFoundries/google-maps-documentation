@@ -126,13 +126,13 @@ The initial Map mapTypeId. Defaults to ROADMAP.
 
 **Type:**  number optional
 
-The maximum zoom level which will be displayed on the map. If omitted, or set to null, the maximum zoom from the current map type is used instead. Valid values: Integers between zero, and up to the supported [maximum zoom level](https://developers.google.com/maps/documentation/javascript/maxzoom).
+The maximum zoom level which will be displayed on the map. If omitted, or set to null, the maximum zoom from the current map type is used instead. Valid values: Integers between zero, and up to the supported [maximum zoom level](/maps/documentation/javascript/maxzoom).
 
 [minZoom](#MapOptions.minZoom)
 
 **Type:**  number optional
 
-The minimum zoom level which will be displayed on the map. If omitted, or set to null, the minimum zoom from the current map type is used instead. Valid values: Integers between zero, and up to the supported [maximum zoom level](https://developers.google.com/maps/documentation/javascript/maxzoom).
+The minimum zoom level which will be displayed on the map. If omitted, or set to null, the minimum zoom from the current map type is used instead. Valid values: Integers between zero, and up to the supported [maximum zoom level](/maps/documentation/javascript/maxzoom).
 
 [noClear](#MapOptions.noClear)
 
@@ -146,7 +146,7 @@ If true, do not clear the contents of the Map div.
 
 The enabled/disabled state of the Pan control.
 
-Note: The Pan control is not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the Pan control available as part of the old control set. See [What's New in the v3.22 Map Controls](https://developers.google.com/maps/articles/v322-controls-diff).
+Note: The Pan control is not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the Pan control available as part of the old control set. See [What's New in the v3.22 Map Controls](/maps/articles/v322-controls-diff).
 
 [panControlOptions](#MapOptions.panControlOptions)
 
@@ -154,7 +154,7 @@ Note: The Pan control is not available in the new set of controls introduced in 
 
 The display options for the Pan control.
 
-Note: The Pan control is not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the Pan control available as part of the old control set. See [What's New in the v3.22 Map Controls](https://developers.google.com/maps/articles/v322-controls-diff).
+Note: The Pan control is not available in the new set of controls introduced in v3.22 of the Google Maps JavaScript API. While using v3.22 and v3.23, you can choose to use the earlier set of controls rather than the new controls, thus making the Pan control available as part of the old control set. See [What's New in the v3.22 Map Controls](/maps/articles/v322-controls-diff).
 
 [restriction](#MapOptions.restriction)
 
@@ -228,7 +228,7 @@ Controls the automatic switching behavior for the angle of incidence of the map.
 
 **Type:**  number optional
 
-The initial Map zoom level. Required. Valid values: Integers between zero, and up to the supported [maximum zoom level](https://developers.google.com/maps/documentation/javascript/maxzoom).
+The initial Map zoom level. Required. Valid values: Integers between zero, and up to the supported [maximum zoom level](/maps/documentation/javascript/maxzoom).
 
 [zoomControl](#MapOptions.zoomControl)
 

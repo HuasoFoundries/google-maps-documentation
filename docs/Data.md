@@ -12,9 +12,7 @@ Every Map has a Data object by default, so most of the time there is no need to 
 
  var myMap = new google.maps.Map(...);  
  myMap.data.addGeoJson(...);  
- myMap.data.setStyle(...); 
-
-The Data object is a collection of [Features](Data.Feature.md).
+ myMap.data.setStyle(...); The Data object is a collection of [Features](Data.Feature.md).
 
 This class extends [MVCObject](MVCObject.md).
 

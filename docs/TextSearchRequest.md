@@ -42,4 +42,4 @@ The radius of the area used to bias results when searching for Places, in meters
 
 **Type:**  string optional
 
-Searches for places of the given type. The type is translated to the local language of the request's target location and used as a query string. If a query is also provided, it is concatenated to the localized type string. Results of a different type are dropped from the response. Use this field to perform language and region independent categorical searches. Valid types are given [here](https://developers.google.com/maps/documentation/places/supported_types).
+Searches for places of the given type. The type is translated to the local language of the request's target location and used as a query string. If a query is also provided, it is concatenated to the localized type string. Results of a different type are dropped from the response. Use this field to perform language and region independent categorical searches. Valid types are given [here](/maps/documentation/places/supported_types).

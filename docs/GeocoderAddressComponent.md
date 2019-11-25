@@ -26,4 +26,4 @@ The abbreviated, short text of the given address component
 
 **Type:**  Array<string>
 
-An array of strings denoting the type of this address component. A list of valid types can be found [here](https://developers.google.com/maps/documentation/geocoding/#Types)
+An array of strings denoting the type of this address component. A list of valid types can be found [here](/maps/documentation/javascript/geocoding#GeocodingAddressTypes)

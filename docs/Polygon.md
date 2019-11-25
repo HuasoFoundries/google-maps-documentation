@@ -6,7 +6,7 @@ Polygon class
 
 google.maps.Polygon class
 
-A polygon (like a polyline) defines a series of connected coordinates in an ordered sequence. Additionally, polygons form a closed loop and define a filled region. See the samples in the developer's guide, starting with a [simple polygon](https://developers.google.com/maps/documentation/javascript/examples/polygon-simple), a [polygon with a hole](https://developers.google.com/maps/documentation/javascript/examples/polygon-hole), and more. Note that you can also use the [Data layer](#Data.Polygon) to create a polygon. The Data layer offers a simpler way of creating holes because it handles the order of the inner and outer paths for you.
+A polygon (like a polyline) defines a series of connected coordinates in an ordered sequence. Additionally, polygons form a closed loop and define a filled region. See the samples in the developer's guide, starting with a [simple polygon](/maps/documentation/javascript/examples/polygon-simple), a [polygon with a hole](/maps/documentation/javascript/examples/polygon-hole), and more. Note that you can also use the [Data layer](#Data.Polygon) to create a polygon. The Data layer offers a simpler way of creating holes because it handles the order of the inner and outer paths for you.
 
 This class extends [MVCObject](MVCObject.md).
 

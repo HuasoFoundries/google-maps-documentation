@@ -32,13 +32,13 @@ Components are used to restrict results to a specific area. A filter consists of
 
 **Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md) optional
 
-LatLng (or LatLngLiteral) for which to search. The geocoder performs a reverse geocode. See [Reverse Geocoding](https://developers.google.com/maps/documentation/javascript/geocoding#ReverseGeocoding) for more information. One, and only one, of address, location and placeId must be supplied.
+LatLng (or LatLngLiteral) for which to search. The geocoder performs a reverse geocode. See [Reverse Geocoding](/maps/documentation/javascript/geocoding#ReverseGeocoding) for more information. One, and only one, of address, location and placeId must be supplied.
 
 [placeId](#GeocoderRequest.placeId)
 
 **Type:**  string optional
 
-The place ID associated with the location. Place IDs uniquely identify a place in the Google Places database and on Google Maps. Learn more about [place IDs](https://developers.google.com/places/place-id) in the Places API developer guide. The geocoder performs a reverse geocode. See [Reverse Geocoding](https://developers.google.com/maps/documentation/javascript/geocoding#ReverseGeocoding) for more information. One, and only one, of address, location and placeId must be supplied.
+The place ID associated with the location. Place IDs uniquely identify a place in the Google Places database and on Google Maps. Learn more about [place IDs](/places/place-id) in the Places API developer guide. The geocoder performs a reverse geocode. See [Reverse Geocoding](/maps/documentation/javascript/geocoding#ReverseGeocoding) for more information. One, and only one, of address, location and placeId must be supplied.
 
 [region](#GeocoderRequest.region)
 
