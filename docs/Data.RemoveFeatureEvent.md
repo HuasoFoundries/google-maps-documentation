@@ -1,19 +1,19 @@
 
-<h2 id="Data.RemoveFeatureEvent">Data.RemoveFeatureEvent interface</h2>
+<devsite-heading text=" Data.RemoveFeatureEvent interface" for="Data.RemoveFeatureEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.RemoveFeatureEvent" is-upgraded="">Data.RemoveFeatureEvent interface </h2></devsite-heading>
 <p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">Data.RemoveFeatureEvent</span></code>
+<code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.RemoveFeatureEvent</span></code>
 interface
 </p>
-<p>The properties of a <code>removefeature</code> event.</p>
+<p>The properties of a <code translate="no" dir="ltr">removefeature</code> event.</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface Data.RemoveFeatureEvent - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>
 </tr></thead>
 <tbody>
 <tr id="Data.RemoveFeatureEvent.feature">
-<td itemprop="property"><code><a class="secret-link" href="#Data.RemoveFeatureEvent.feature"><span>feature</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="Data.Feature.md">Data.Feature</a></code></div>
-<div class="desc">The feature that was removed from the <code>FeatureCollection</code>.</div></td>
+<td itemprop="property"><code translate="no" dir="ltr"><a class="secret-link" href="#Data.RemoveFeatureEvent.feature"><span>feature</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code translate="no" dir="ltr"><a href="Data.Feature.md">Data.Feature</a></code></div>
+<div class="desc">The feature that was removed from the <code translate="no" dir="ltr">FeatureCollection</code>.</div></td>
 </tr>
 </tbody>
 </table></div>

@@ -1,7 +1,7 @@
 
-<h2 id="DirectionsService">DirectionsService class</h2>
+<devsite-heading text=" DirectionsService class" for="DirectionsService" level="h2" link="" toc="" back-to-top=""><h2 id="DirectionsService" is-upgraded="">DirectionsService class </h2></devsite-heading>
 <p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsService</span></code>
+<code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsService</span></code>
 class
 </p>
 <p>A service for computing directions between two or more places.</p>
@@ -11,10 +11,10 @@ class
 </tr></thead>
 <tbody>
 <tr>
-<td><code><a class="secret-link" href="#DirectionsService.constructor"><span>DirectionsService</span></a></code></td>
-<td><div><code>DirectionsService()</code></div>
+<td><code translate="no" dir="ltr"><a class="secret-link" href="#DirectionsService.constructor"><span>DirectionsService</span></a></code></td>
+<td><div><code translate="no" dir="ltr">DirectionsService()</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
-<div class="desc">Creates a new instance of a <code>DirectionsService</code> that sends directions queries to Google servers.</div></td>
+<div class="desc">Creates a new instance of a <code translate="no" dir="ltr">DirectionsService</code> that sends directions queries to Google servers.</div></td>
 </tr>
 </tbody>
 </table></div>
@@ -24,11 +24,11 @@ class
 </tr></thead>
 <tbody>
 <tr id="DirectionsService.route">
-<td itemprop="property"><code><a class="secret-link" href="#DirectionsService.route"><span>route</span></a></code></td>
-<td><div><code>route(request, callback)</code></div>
+<td itemprop="property"><code translate="no" dir="ltr"><a class="secret-link" href="#DirectionsService.route"><span>route</span></a></code></td>
+<td><div><code translate="no" dir="ltr">route(request, callback)</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; <ul>
-<li><code>request</code>:&nbsp; <code><a href="DirectionsRequest.md">DirectionsRequest</a></code></li>
-<li><code>callback</code>:&nbsp; <code>function(<a href="DirectionsResult.md">DirectionsResult</a>, <a href="DirectionsStatus.md">DirectionsStatus</a>)</code></li>
+<li><code translate="no" dir="ltr">request</code>:&nbsp; <code translate="no" dir="ltr"><a href="DirectionsRequest.md">DirectionsRequest</a></code></li>
+<li><code translate="no" dir="ltr">callback</code>:&nbsp; <code translate="no" dir="ltr">function(<a href="DirectionsResult.md">DirectionsResult</a>, <a href="DirectionsStatus.md">DirectionsStatus</a>)</code></li>
 </ul></div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Issue a directions search request.</div></td>

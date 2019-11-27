@@ -1,7 +1,7 @@
 
-<h2 id="PanoProviderOptions">PanoProviderOptions interface</h2>
+<devsite-heading text=" PanoProviderOptions interface" for="PanoProviderOptions" level="h2" link="" toc="" back-to-top=""><h2 id="PanoProviderOptions" is-upgraded="">PanoProviderOptions interface </h2></devsite-heading>
 <p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">PanoProviderOptions</span></code>
+<code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">PanoProviderOptions</span></code>
 interface
 </p>
 <p>Options for the Custom Pano Provider.</p>
@@ -11,8 +11,8 @@ interface
 </tr></thead>
 <tbody>
 <tr id="PanoProviderOptions.cors">
-<td itemprop="property"><code><a class="secret-link" href="#PanoProviderOptions.cors"><span>cors</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean <span class="optional-type-annotation">optional</span></code></div>
+<td itemprop="property"><code translate="no" dir="ltr"><a class="secret-link" href="#PanoProviderOptions.cors"><span>cors</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code translate="no" dir="ltr">boolean <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">If set, the renderer will use technologies (like webgl) that only work when cors headers are appropiately set on the provided images. It is the developer's task to serve the images correctly in combination with this flag, which might otherwise lead to SecurityErrors.</div></td>
 </tr>
 </tbody>

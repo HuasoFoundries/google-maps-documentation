@@ -1,11 +1,11 @@
 
-<h2 id="PlaceSearchPagination">PlaceSearchPagination interface</h2>
+<devsite-heading text=" PlaceSearchPagination interface" for="PlaceSearchPagination" level="h2" link="" toc="" back-to-top=""><h2 id="PlaceSearchPagination" is-upgraded="">PlaceSearchPagination interface </h2></devsite-heading>
 <p>
-<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlaceSearchPagination</span></code>
+<code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlaceSearchPagination</span></code>
 interface
 </p>
 <p>An object used to fetch additional pages of Places results.</p>
-<h4>Library</h4>
+<devsite-heading text="Library" for="library_9" level="h4" link=""><h4 is-upgraded="" id="library_9">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="methods responsive" summary="interface PlaceSearchPagination - Methods">
 <thead>
@@ -13,8 +13,8 @@ interface
 </tr></thead>
 <tbody>
 <tr id="PlaceSearchPagination.nextPage">
-<td itemprop="property"><code><a class="secret-link" href="#PlaceSearchPagination.nextPage"><span>nextPage</span></a></code></td>
-<td><div><code>nextPage()</code></div>
+<td itemprop="property"><code translate="no" dir="ltr"><a class="secret-link" href="#PlaceSearchPagination.nextPage"><span>nextPage</span></a></code></td>
+<td><div><code translate="no" dir="ltr">nextPage()</code></div>
 <div class="desc"><strong>Parameters:</strong>&nbsp; None</div>
 <div class="desc"><strong>Return Value:</strong>&nbsp; None</div>
 <div class="desc">Fetches the next page of results. Uses the same callback function that was provided to the first search request.</div></td>
@@ -27,9 +27,9 @@ interface
 </tr></thead>
 <tbody>
 <tr id="PlaceSearchPagination.hasNextPage">
-<td itemprop="property"><code><a class="secret-link" href="#PlaceSearchPagination.hasNextPage"><span>hasNextPage</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code>boolean</code></div>
-<div class="desc">Indicates if further results are available. <code>true</code> when there is an additional results page.</div></td>
+<td itemprop="property"><code translate="no" dir="ltr"><a class="secret-link" href="#PlaceSearchPagination.hasNextPage"><span>hasNextPage</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code translate="no" dir="ltr">boolean</code></div>
+<div class="desc">Indicates if further results are available. <code translate="no" dir="ltr">true</code> when there is an additional results page.</div></td>
 </tr>
 </tbody>
 </table></div>

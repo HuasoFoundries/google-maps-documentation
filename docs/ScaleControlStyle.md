@@ -1,7 +1,7 @@
 
-<h2 id="ScaleControlStyle">ScaleControlStyle constants</h2>
+<devsite-heading text=" ScaleControlStyle constants" for="ScaleControlStyle" level="h2" link="" toc="" back-to-top=""><h2 id="ScaleControlStyle" is-upgraded="">ScaleControlStyle constants </h2></devsite-heading>
 <p>
-<code><span itemprop="path">google.maps</span>.<span itemprop="name">ScaleControlStyle</span></code>
+<code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">ScaleControlStyle</span></code>
 constants
 </p>
 <p>Identifiers for scale control ids.</p>
@@ -11,7 +11,7 @@ constants
 </tr></thead>
 <tbody>
 <tr id="ScaleControlStyle.DEFAULT">
-<td itemprop="property"><code><a class="secret-link" href="#ScaleControlStyle.DEFAULT"><span>DEFAULT</span></a></code></td>
+<td itemprop="property"><code translate="no" dir="ltr"><a class="secret-link" href="#ScaleControlStyle.DEFAULT"><span>DEFAULT</span></a></code></td>
 <td>The standard scale control.</td>
 </tr>
 </tbody>

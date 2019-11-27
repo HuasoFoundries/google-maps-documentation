@@ -1,11 +1,11 @@
 
-<h2 id="PlaceOpeningHoursPeriod">PlaceOpeningHoursPeriod interface</h2>
+<devsite-heading text=" PlaceOpeningHoursPeriod interface" for="PlaceOpeningHoursPeriod" level="h2" link="" toc="" back-to-top=""><h2 id="PlaceOpeningHoursPeriod" is-upgraded="">PlaceOpeningHoursPeriod interface </h2></devsite-heading>
 <p>
-<code><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlaceOpeningHoursPeriod</span></code>
+<code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlaceOpeningHoursPeriod</span></code>
 interface
 </p>
-<p>Defines structured information about the opening hours of a Place. <strong>Note:</strong> If a Place is <strong>always open</strong>, the <code>close</code> section will be missing from the response. Clients can rely on always-open being represented as an <code>open</code> period containing <code>day</code> with value <code>0</code> and <code>time</code> with value <code>"0000"</code>, and no <code>close</code>.</p>
-<h4>Library</h4>
+<p>Defines structured information about the opening hours of a Place. <strong>Note:</strong> If a Place is <strong>always open</strong>, the <code translate="no" dir="ltr">close</code> section will be missing from the response. Clients can rely on always-open being represented as an <code translate="no" dir="ltr">open</code> period containing <code translate="no" dir="ltr">day</code> with value <code translate="no" dir="ltr">0</code> and <code translate="no" dir="ltr">time</code> with value <code translate="no" dir="ltr">"0000"</code>, and no <code translate="no" dir="ltr">close</code>.</p>
+<devsite-heading text="Library" for="library_14" level="h4" link=""><h4 is-upgraded="" id="library_14">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface PlaceOpeningHoursPeriod - Properties">
 <thead>
@@ -13,13 +13,13 @@ interface
 </tr></thead>
 <tbody>
 <tr id="PlaceOpeningHoursPeriod.close">
-<td itemprop="property"><code><a class="secret-link" href="#PlaceOpeningHoursPeriod.close"><span>close</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="PlaceOpeningHoursTime.md">PlaceOpeningHoursTime</a> <span class="optional-type-annotation">optional</span></code></div>
+<td itemprop="property"><code translate="no" dir="ltr"><a class="secret-link" href="#PlaceOpeningHoursPeriod.close"><span>close</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code translate="no" dir="ltr"><a href="PlaceOpeningHoursTime.md">PlaceOpeningHoursTime</a> <span class="optional-type-annotation">optional</span></code></div>
 <div class="desc">The closing time for the Place.</div></td>
 </tr>
 <tr id="PlaceOpeningHoursPeriod.open">
-<td itemprop="property"><code><a class="secret-link" href="#PlaceOpeningHoursPeriod.open"><span>open</span></a></code></td>
-<td><div><strong>Type:</strong>&nbsp; <code><a href="PlaceOpeningHoursTime.md">PlaceOpeningHoursTime</a></code></div>
+<td itemprop="property"><code translate="no" dir="ltr"><a class="secret-link" href="#PlaceOpeningHoursPeriod.open"><span>open</span></a></code></td>
+<td><div><strong>Type:</strong>&nbsp; <code translate="no" dir="ltr"><a href="PlaceOpeningHoursTime.md">PlaceOpeningHoursTime</a></code></div>
 <div class="desc">The opening time for the Place.</div></td>
 </tr>
 </tbody>
