@@ -1,9 +1,6 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapCanvasProjection.html)
 
 
-MapCanvasProjection interface
------------------------------
-
 google.maps.MapCanvasProjection interface
 
 This object is made available to the OverlayView from within the draw method. It is not guaranteed to be initialized until draw is called.

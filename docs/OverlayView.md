@@ -1,9 +1,6 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/OverlayView.html)
 
 
-OverlayView class
------------------
-
 google.maps.OverlayView class
 
 You can implement this class if you want to display custom types of overlay objects on the map.  

@@ -1,9 +1,6 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapPanes.html)
 
 
-MapPanes interface
-------------------
-
 google.maps.MapPanes interface
 
 Properties
