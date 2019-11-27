@@ -338,7 +338,7 @@ ${commitMsg}.
 
 if (require.main === module) {
   let t_ini = Date.now();
-  exit(0);
+
   startParsing()
     .then(() => {
       let total_time = parseInt((Date.now() - t_ini) / 100, 10) / 10;
