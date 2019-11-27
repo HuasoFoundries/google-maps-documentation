@@ -35,7 +35,7 @@
   "dependencies": {
     "bluebird": "^3.7.1",
     "chalk": "^2.4.2",
-    "debug": "^3.1.0",
+    "debug": "^4.1.1",
     "dotenv": "^8.2.0",
     "exec-sh": "^0.3.0",
     "find": "^0.2.9",
