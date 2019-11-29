@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "bluebird": "^3.7.1",
+    "bluebird": "^3.7.2",
     "chalk": "^3.0.0",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
