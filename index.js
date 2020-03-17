@@ -3,7 +3,10 @@ const Promise = require('bluebird'),
   fs = Promise.promisifyAll(require('fs')),
   path = require('path'),
   chalk = require('chalk'),
-  debug = require('debug')('gmd:scraper'),
+  argv = require('minimist')(process.argv.slice(2));
+process.env.DRY_RUN = process.env.DRY_RUN || argv.dry_run;
+
+const debug = require('debug')('gmd:scraper'),
   puppeteer = require('puppeteer'),
   execSh = require('exec-sh'),
   TurndownService = require('turndown'),
@@ -194,15 +197,25 @@ ${commitMsg}.
 
 if (require.main === module) {
   let t_ini = Date.now();
+  if (argv.gh_pages) {
+    const ghpages = require('gh-pages');
 
-  startParsing()
-    .then(() => {
-      let total_time = parseInt((Date.now() - t_ini) / 100, 10) / 10;
-      console.log(`process finished in ${chalk.yellow(total_time)} seconds`);
-      return process.exit();
-    })
-    .catch(err => {
-      console.log(`${chalk.red('error')}`, err.message);
-      return process.exit();
+    ghpages.publish('html', () => {
+      debug('published');
+      console.log(chalk.green('will exit now'));
+      process.exit();
     });
+  }
+  if (argv.crawl) {
+    startParsing()
+      .then(() => {
+        let total_time = parseInt((Date.now() - t_ini) / 100, 10) / 10;
+        console.log(`process finished in ${chalk.yellow(total_time)} seconds`);
+        return process.exit();
+      })
+      .catch(err => {
+        console.log(`${chalk.red('error')}`, err.message);
+        return process.exit();
+      });
+  }
 }
