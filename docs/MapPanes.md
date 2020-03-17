@@ -18,19 +18,19 @@ This pane contains the info window. It is above all map overlays. (Pane 4).
 
 **Type:**  Element
 
-This pane is the lowest pane and is above the tiles. It may not receive DOM events. (Pane 0).
+This pane is the lowest pane and is above the tiles. It does not receive DOM events. (Pane 0).
 
 [markerLayer](#MapPanes.markerLayer)
 
 **Type:**  Element
 
-This pane contains markers. It may not receive DOM events. (Pane 2).
+This pane contains markers. It does not receive DOM events. (Pane 2).
 
 [overlayLayer](#MapPanes.overlayLayer)
 
 **Type:**  Element
 
-This pane contains polylines, polygons, ground overlays and tile layer overlays. It may not receive DOM events. (Pane 1).
+This pane contains polylines, polygons, ground overlays and tile layer overlays. It does not receive DOM events. (Pane 1).
 
 [overlayMouseTarget](#MapPanes.overlayMouseTarget)
 
