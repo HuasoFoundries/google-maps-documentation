@@ -4,7 +4,7 @@
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">LatLngLiteral</span></code>
 interface
 </p>
-<p>Object literals are accepted in place of <code translate="no" dir="ltr">LatLng</code> objects, as a convenience, in many places. These are converted to <code translate="no" dir="ltr">LatLng</code> objects when the Maps API encounters them. </p><p> Examples: </p><devsite-code><pre translate="no" dir="ltr" is-upgraded=""> map.setCenter({lat: -34, lng: 151});<br> new google.maps.Marker({position: {lat: -34, lng: 151}, map: map}); </pre></devsite-code> <p class="note">LatLng object literals are not supported in the Geometry library.</p><p></p>
+<p>Object literals are accepted in place of <code translate="no" dir="ltr">LatLng</code> objects, as a convenience, in many places. These are converted to <code translate="no" dir="ltr">LatLng</code> objects when the Maps API encounters them. </p><p> Examples: </p><devsite-code no-copy=""><pre translate="no" dir="ltr" is-upgraded=""> map.setCenter({lat: -34, lng: 151});<br> new google.maps.Marker({position: {lat: -34, lng: 151}, map: map}); </pre></devsite-code> <p class="note">LatLng object literals are not supported in the Geometry library.</p><p></p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface LatLngLiteral - Properties">
 <thead>
 <tr><th colspan="2">Properties</th>

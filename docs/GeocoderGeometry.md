@@ -1,5 +1,5 @@
 
-<devsite-heading text=" GeocoderGeometry interface" for="GeocoderGeometry" level="h2" link="" toc="" back-to-top=""><h2 id="GeocoderGeometry" is-upgraded="">GeocoderGeometry interface</h2></devsite-heading>
+<devsite-heading><h2 id="GeocoderGeometry" is-upgraded="">GeocoderGeometry interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderGeometry</span></code>
 interface

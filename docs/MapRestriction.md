@@ -13,7 +13,7 @@ interface
 <tr id="MapRestriction.latLngBounds">
 <td itemprop="property"><code translate="no" dir="ltr"><a class="secret-link" href="#MapRestriction.latLngBounds"><span>latLngBounds</span></a></code></td>
 <td><div><strong>Type:</strong>&nbsp; <code translate="no" dir="ltr"><a href="LatLngBounds.md">LatLngBounds</a>|<a href="LatLngBoundsLiteral.md">LatLngBoundsLiteral</a> <span class="optional-type-annotation">optional</span></code></div>
-<div class="desc">When set, a user can only pan and zoom inside the given bounds. Bounds can restrict both longitude and latitude, or can restrict latitude only. For latitude-only bounds use west and east longitudes of -180 and 180, respectively. For example, <devsite-code no-copy=""><pre translate="no" dir="ltr" is-upgraded=""> latLngBounds: {north: northLat, south: southLat, west: -180, east: 180} </pre></devsite-code></div></td>
+<div class="desc">When set, a user can only pan and zoom inside the given bounds. Bounds can restrict both longitude and latitude, or can restrict latitude only. For latitude-only bounds use west and east longitudes of -180 and 180, respectively. For example, <devsite-code><pre translate="no" dir="ltr" is-upgraded=""> latLngBounds: {north: northLat, south: southLat, west: -180, east: 180} </pre></devsite-code></div></td>
 </tr>
 <tr id="MapRestriction.strictBounds">
 <td itemprop="property"><code translate="no" dir="ltr"><a class="secret-link" href="#MapRestriction.strictBounds"><span>strictBounds</span></a></code></td>

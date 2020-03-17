@@ -1,5 +1,5 @@
 
-<devsite-heading text=" GeocoderResult interface" for="GeocoderResult" level="h2" link="" toc="" back-to-top=""><h2 id="GeocoderResult" is-upgraded="">GeocoderResult interface</h2></devsite-heading>
+<devsite-heading><h2 id="GeocoderResult" is-upgraded="">GeocoderResult interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderResult</span></code>
 interface

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" GeocoderAddressComponent interface" for="GeocoderAddressComponent" level="h2" link="" toc="" back-to-top=""><h2 id="GeocoderAddressComponent" is-upgraded="">GeocoderAddressComponent interface</h2></devsite-heading>
+<devsite-heading><h2 id="GeocoderAddressComponent" is-upgraded="">GeocoderAddressComponent interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderAddressComponent</span></code>
 interface

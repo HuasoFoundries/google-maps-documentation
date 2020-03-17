@@ -1,5 +1,5 @@
 
-<devsite-heading text=" GeocoderComponentRestrictions interface" for="GeocoderComponentRestrictions" level="h2" link="" toc="" back-to-top=""><h2 id="GeocoderComponentRestrictions" is-upgraded="">GeocoderComponentRestrictions interface</h2></devsite-heading>
+<devsite-heading><h2 id="GeocoderComponentRestrictions" is-upgraded="">GeocoderComponentRestrictions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderComponentRestrictions</span></code>
 interface
