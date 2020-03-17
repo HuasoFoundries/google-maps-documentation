@@ -1,5 +1,5 @@
 
-<devsite-heading text=" TransitAgency interface" for="TransitAgency" level="h2" link="" toc="" back-to-top=""><h2 id="TransitAgency" is-upgraded="">TransitAgency interface </h2></devsite-heading>
+<devsite-heading text=" TransitAgency interface" for="TransitAgency" level="h2" link="" toc="" back-to-top=""><h2 id="TransitAgency" is-upgraded="">TransitAgency interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">TransitAgency</span></code>
 interface

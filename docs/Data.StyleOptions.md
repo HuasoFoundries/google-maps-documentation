@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.StyleOptions interface" for="Data.StyleOptions" level="h2" link="" toc="" back-to-top=""><h2 id="Data.StyleOptions" is-upgraded="">Data.StyleOptions interface </h2></devsite-heading>
+<devsite-heading text=" Data.StyleOptions interface" for="Data.StyleOptions" level="h2" link="" toc="" back-to-top=""><h2 id="Data.StyleOptions" is-upgraded="">Data.StyleOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.StyleOptions</span></code>
 interface

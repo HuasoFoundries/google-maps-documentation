@@ -1,5 +1,5 @@
 
-<devsite-heading text=" StyledMapType class" for="StyledMapType" level="h2" link="" toc="" back-to-top=""><h2 id="StyledMapType" is-upgraded="">StyledMapType class </h2></devsite-heading>
+<devsite-heading text=" StyledMapType class" for="StyledMapType" level="h2" link="" toc="" back-to-top=""><h2 id="StyledMapType" is-upgraded="">StyledMapType class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">StyledMapType</span></code>
 class

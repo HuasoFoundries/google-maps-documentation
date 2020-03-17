@@ -1,11 +1,11 @@
 
-<devsite-heading text=" TextSearchRequest interface" for="TextSearchRequest" level="h2" link="" toc="" back-to-top=""><h2 id="TextSearchRequest" is-upgraded="">TextSearchRequest interface </h2></devsite-heading>
+<devsite-heading text=" TextSearchRequest interface" for="TextSearchRequest" level="h2" link="" toc="" back-to-top=""><h2 id="TextSearchRequest" is-upgraded="">TextSearchRequest interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">TextSearchRequest</span></code>
 interface
 </p>
 <p>A text search request to be sent to the <code translate="no" dir="ltr">PlacesService</code>.</p>
-<devsite-heading text="Library" for="library_5" level="h4" link=""><h4 is-upgraded="" id="library_5">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_5" level="h4" link=""><h4 is-upgraded="" id="library_5">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface TextSearchRequest - Properties">
 <thead>

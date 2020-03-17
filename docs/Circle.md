@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Circle class" for="Circle" level="h2" link="" toc="" back-to-top=""><h2 id="Circle" is-upgraded="">Circle class </h2></devsite-heading>
+<devsite-heading text=" Circle class" for="Circle" level="h2" link="" toc="" back-to-top=""><h2 id="Circle" is-upgraded="">Circle class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Circle</span></code>
 class

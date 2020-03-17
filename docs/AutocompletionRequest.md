@@ -1,11 +1,11 @@
 
-<devsite-heading text=" AutocompletionRequest interface" for="AutocompletionRequest" level="h2" link="" toc="" back-to-top=""><h2 id="AutocompletionRequest" is-upgraded="">AutocompletionRequest interface </h2></devsite-heading>
+<devsite-heading text=" AutocompletionRequest interface" for="AutocompletionRequest" level="h2" link="" toc="" back-to-top=""><h2 id="AutocompletionRequest" is-upgraded="">AutocompletionRequest interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">AutocompletionRequest</span></code>
 interface
 </p>
 <p>An Autocompletion request to be sent to <code translate="no" dir="ltr"><a href="/maps/documentation/javascript/reference/places-autocomplete-service#AutocompleteService.getPlacePredictions">AutocompleteService.getPlacePredictions</a></code>.</p>
-<devsite-heading text="Library" for="library_1" level="h4" link=""><h4 is-upgraded="" id="library_1">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_1" level="h4" link=""><h4 is-upgraded="" id="library_1">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface AutocompletionRequest - Properties">
 <thead>

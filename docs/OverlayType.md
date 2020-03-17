@@ -1,11 +1,11 @@
 
-<devsite-heading text=" OverlayType constants" for="OverlayType" level="h2" link="" toc="" back-to-top=""><h2 id="OverlayType" is-upgraded="">OverlayType constants </h2></devsite-heading>
+<devsite-heading text=" OverlayType constants" for="OverlayType" level="h2" link="" toc="" back-to-top=""><h2 id="OverlayType" is-upgraded="">OverlayType constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.drawing</span>.<span itemprop="name">OverlayType</span></code>
 constants
 </p>
 <p>The types of overlay that may be created by the <code translate="no" dir="ltr">DrawingManager</code>. Specify these by value, or by using the constant's name. For example, <code translate="no" dir="ltr">'polygon'</code> or <code translate="no" dir="ltr">google.maps.drawing.OverlayType.POLYGON</code>.</p>
-<devsite-heading text="Library" for="library_4" level="h4" link=""><h4 is-upgraded="" id="library_4">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_4" level="h4" link=""><h4 is-upgraded="" id="library_4">Library</h4></devsite-heading>
 <p>drawing</p>
 <div class="devsite-table-wrapper"><table class="constants responsive" summary="OverlayType constants">
 <thead>

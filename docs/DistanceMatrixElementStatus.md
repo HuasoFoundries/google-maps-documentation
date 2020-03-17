@@ -1,5 +1,5 @@
 
-<devsite-heading text=" DistanceMatrixElementStatus constants" for="DistanceMatrixElementStatus" level="h2" link="" toc="" back-to-top=""><h2 id="DistanceMatrixElementStatus" is-upgraded="">DistanceMatrixElementStatus constants </h2></devsite-heading>
+<devsite-heading><h2 id="DistanceMatrixElementStatus" is-upgraded="">DistanceMatrixElementStatus constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixElementStatus</span></code>
 constants

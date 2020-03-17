@@ -1,5 +1,5 @@
 
-<devsite-heading text=" TransitLayer class" for="TransitLayer" level="h2" link="" toc="" back-to-top=""><h2 id="TransitLayer" is-upgraded="">TransitLayer class </h2></devsite-heading>
+<devsite-heading text=" TransitLayer class" for="TransitLayer" level="h2" link="" toc="" back-to-top=""><h2 id="TransitLayer" is-upgraded="">TransitLayer class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">TransitLayer</span></code>
 class

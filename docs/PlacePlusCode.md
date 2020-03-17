@@ -1,11 +1,11 @@
 
-<devsite-heading text=" PlacePlusCode interface" for="PlacePlusCode" level="h2" link="" toc="" back-to-top=""><h2 id="PlacePlusCode" is-upgraded="">PlacePlusCode interface </h2></devsite-heading>
+<devsite-heading text=" PlacePlusCode interface" for="PlacePlusCode" level="h2" link="" toc="" back-to-top=""><h2 id="PlacePlusCode" is-upgraded="">PlacePlusCode interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlacePlusCode</span></code>
 interface
 </p>
 <p>Defines Open Location Codes or "<a href="https://plus.codes/">plus codes</a>" for a Place. Plus codes can be used as a replacement for street addresses in places where they do not exist (where buildings are not numbered or streets are not named).</p>
-<devsite-heading text="Library" for="library_16" level="h4" link=""><h4 is-upgraded="" id="library_16">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_16" level="h4" link=""><h4 is-upgraded="" id="library_16">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface PlacePlusCode - Properties">
 <thead>

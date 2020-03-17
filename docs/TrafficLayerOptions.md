@@ -1,5 +1,5 @@
 
-<devsite-heading text=" TrafficLayerOptions interface" for="TrafficLayerOptions" level="h2" link="" toc="" back-to-top=""><h2 id="TrafficLayerOptions" is-upgraded="">TrafficLayerOptions interface </h2></devsite-heading>
+<devsite-heading text=" TrafficLayerOptions interface" for="TrafficLayerOptions" level="h2" link="" toc="" back-to-top=""><h2 id="TrafficLayerOptions" is-upgraded="">TrafficLayerOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">TrafficLayerOptions</span></code>
 interface

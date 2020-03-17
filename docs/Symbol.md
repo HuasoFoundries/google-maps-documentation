@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Symbol interface" for="Symbol" level="h2" link="" toc="" back-to-top=""><h2 id="Symbol" is-upgraded="">Symbol interface </h2></devsite-heading>
+<devsite-heading text=" Symbol interface" for="Symbol" level="h2" link="" toc="" back-to-top=""><h2 id="Symbol" is-upgraded="">Symbol interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Symbol</span></code>
 interface

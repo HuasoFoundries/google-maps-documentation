@@ -1,5 +1,5 @@
 
-<devsite-heading text=" RectangleOptions interface" for="RectangleOptions" level="h2" link="" toc="" back-to-top=""><h2 id="RectangleOptions" is-upgraded="">RectangleOptions interface </h2></devsite-heading>
+<devsite-heading text=" RectangleOptions interface" for="RectangleOptions" level="h2" link="" toc="" back-to-top=""><h2 id="RectangleOptions" is-upgraded="">RectangleOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">RectangleOptions</span></code>
 interface

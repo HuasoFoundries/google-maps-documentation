@@ -1,5 +1,5 @@
 
-<devsite-heading text=" UnitSystem constants" for="UnitSystem" level="h2" link="" toc="" back-to-top=""><h2 id="UnitSystem" is-upgraded="">UnitSystem constants </h2></devsite-heading>
+<devsite-heading text=" UnitSystem constants" for="UnitSystem" level="h2" link="" toc="" back-to-top=""><h2 id="UnitSystem" is-upgraded="">UnitSystem constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">UnitSystem</span></code>
 constants

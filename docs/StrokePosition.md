@@ -1,5 +1,5 @@
 
-<devsite-heading text=" StrokePosition constants" for="StrokePosition" level="h2" link="" toc="" back-to-top=""><h2 id="StrokePosition" is-upgraded="">StrokePosition constants </h2></devsite-heading>
+<devsite-heading text=" StrokePosition constants" for="StrokePosition" level="h2" link="" toc="" back-to-top=""><h2 id="StrokePosition" is-upgraded="">StrokePosition constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">StrokePosition</span></code>
 constants

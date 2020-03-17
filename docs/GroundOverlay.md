@@ -1,5 +1,5 @@
 
-<devsite-heading text=" GroundOverlay class" for="GroundOverlay" level="h2" link="" toc="" back-to-top=""><h2 id="GroundOverlay" is-upgraded="">GroundOverlay class </h2></devsite-heading>
+<devsite-heading text=" GroundOverlay class" for="GroundOverlay" level="h2" link="" toc="" back-to-top=""><h2 id="GroundOverlay" is-upgraded="">GroundOverlay class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">GroundOverlay</span></code>
 class

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" ScaleControlStyle constants" for="ScaleControlStyle" level="h2" link="" toc="" back-to-top=""><h2 id="ScaleControlStyle" is-upgraded="">ScaleControlStyle constants </h2></devsite-heading>
+<devsite-heading text=" ScaleControlStyle constants" for="ScaleControlStyle" level="h2" link="" toc="" back-to-top=""><h2 id="ScaleControlStyle" is-upgraded="">ScaleControlStyle constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">ScaleControlStyle</span></code>
 constants

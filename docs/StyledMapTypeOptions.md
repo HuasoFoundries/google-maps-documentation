@@ -1,5 +1,5 @@
 
-<devsite-heading text=" StyledMapTypeOptions interface" for="StyledMapTypeOptions" level="h2" link="" toc="" back-to-top=""><h2 id="StyledMapTypeOptions" is-upgraded="">StyledMapTypeOptions interface </h2></devsite-heading>
+<devsite-heading text=" StyledMapTypeOptions interface" for="StyledMapTypeOptions" level="h2" link="" toc="" back-to-top=""><h2 id="StyledMapTypeOptions" is-upgraded="">StyledMapTypeOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">StyledMapTypeOptions</span></code>
 interface

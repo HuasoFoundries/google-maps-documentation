@@ -1,5 +1,5 @@
 
-<devsite-heading text=" KmlLayerOptions interface" for="KmlLayerOptions" level="h2" link="" toc="" back-to-top=""><h2 id="KmlLayerOptions" is-upgraded="">KmlLayerOptions interface </h2></devsite-heading>
+<devsite-heading text=" KmlLayerOptions interface" for="KmlLayerOptions" level="h2" link="" toc="" back-to-top=""><h2 id="KmlLayerOptions" is-upgraded="">KmlLayerOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">KmlLayerOptions</span></code>
 interface

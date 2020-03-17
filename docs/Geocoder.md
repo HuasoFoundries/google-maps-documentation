@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Geocoder class" for="Geocoder" level="h2" link="" toc="" back-to-top=""><h2 id="Geocoder" is-upgraded="">Geocoder class </h2></devsite-heading>
+<devsite-heading text=" Geocoder class" for="Geocoder" level="h2" link="" toc="" back-to-top=""><h2 id="Geocoder" is-upgraded="">Geocoder class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Geocoder</span></code>
 class

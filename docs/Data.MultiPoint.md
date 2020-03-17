@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.MultiPoint class" for="Data.MultiPoint" level="h2" link="" toc="" back-to-top=""><h2 id="Data.MultiPoint" is-upgraded="">Data.MultiPoint class </h2></devsite-heading>
+<devsite-heading text=" Data.MultiPoint class" for="Data.MultiPoint" level="h2" link="" toc="" back-to-top=""><h2 id="Data.MultiPoint" is-upgraded="">Data.MultiPoint class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.MultiPoint</span></code>
 class

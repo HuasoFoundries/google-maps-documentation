@@ -1,5 +1,5 @@
 
-<devsite-heading text=" StreetViewLocation interface" for="StreetViewLocation" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewLocation" is-upgraded="">StreetViewLocation interface </h2></devsite-heading>
+<devsite-heading text=" StreetViewLocation interface" for="StreetViewLocation" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewLocation" is-upgraded="">StreetViewLocation interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewLocation</span></code>
 interface

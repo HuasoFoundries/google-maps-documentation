@@ -1,5 +1,5 @@
 
-<devsite-heading text=" TransitStop interface" for="TransitStop" level="h2" link="" toc="" back-to-top=""><h2 id="TransitStop" is-upgraded="">TransitStop interface </h2></devsite-heading>
+<devsite-heading text=" TransitStop interface" for="TransitStop" level="h2" link="" toc="" back-to-top=""><h2 id="TransitStop" is-upgraded="">TransitStop interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">TransitStop</span></code>
 interface

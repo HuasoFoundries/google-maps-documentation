@@ -1,11 +1,11 @@
 
-<devsite-heading text=" AutocompleteOptions interface" for="AutocompleteOptions" level="h2" link="" toc="" back-to-top=""><h2 id="AutocompleteOptions" is-upgraded="">AutocompleteOptions interface </h2></devsite-heading>
+<devsite-heading text=" AutocompleteOptions interface" for="AutocompleteOptions" level="h2" link="" toc="" back-to-top=""><h2 id="AutocompleteOptions" is-upgraded="">AutocompleteOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">AutocompleteOptions</span></code>
 interface
 </p>
 <p>The options that can be set on an <code translate="no" dir="ltr">Autocomplete</code> object.</p>
-<devsite-heading text="Library" for="library_1" level="h4" link=""><h4 is-upgraded="" id="library_1">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_1" level="h4" link=""><h4 is-upgraded="" id="library_1">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface AutocompleteOptions - Properties">
 <thead>

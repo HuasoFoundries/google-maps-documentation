@@ -1,5 +1,5 @@
 
-<devsite-heading text=" DirectionsRequest interface" for="DirectionsRequest" level="h2" link="" toc="" back-to-top=""><h2 id="DirectionsRequest" is-upgraded="">DirectionsRequest interface </h2></devsite-heading>
+<devsite-heading text=" DirectionsRequest interface" for="DirectionsRequest" level="h2" link="" toc="" back-to-top=""><h2 id="DirectionsRequest" is-upgraded="">DirectionsRequest interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsRequest</span></code>
 interface

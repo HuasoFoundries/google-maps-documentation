@@ -1,5 +1,5 @@
 
-<devsite-heading text=" DistanceMatrixRequest interface" for="DistanceMatrixRequest" level="h2" link="" toc="" back-to-top=""><h2 id="DistanceMatrixRequest" is-upgraded="">DistanceMatrixRequest interface </h2></devsite-heading>
+<devsite-heading><h2 id="DistanceMatrixRequest" is-upgraded="">DistanceMatrixRequest interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixRequest</span></code>
 interface

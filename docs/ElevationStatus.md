@@ -1,5 +1,5 @@
 
-<devsite-heading text=" ElevationStatus constants" for="ElevationStatus" level="h2" link="" toc="" back-to-top=""><h2 id="ElevationStatus" is-upgraded="">ElevationStatus constants </h2></devsite-heading>
+<devsite-heading text=" ElevationStatus constants" for="ElevationStatus" level="h2" link="" toc="" back-to-top=""><h2 id="ElevationStatus" is-upgraded="">ElevationStatus constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">ElevationStatus</span></code>
 constants

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.GeoJsonOptions interface" for="Data.GeoJsonOptions" level="h2" link="" toc="" back-to-top=""><h2 id="Data.GeoJsonOptions" is-upgraded="">Data.GeoJsonOptions interface </h2></devsite-heading>
+<devsite-heading text=" Data.GeoJsonOptions interface" for="Data.GeoJsonOptions" level="h2" link="" toc="" back-to-top=""><h2 id="Data.GeoJsonOptions" is-upgraded="">Data.GeoJsonOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.GeoJsonOptions</span></code>
 interface

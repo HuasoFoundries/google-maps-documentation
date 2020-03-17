@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MotionTrackingControlOptions interface" for="MotionTrackingControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="MotionTrackingControlOptions" is-upgraded="">MotionTrackingControlOptions interface </h2></devsite-heading>
+<devsite-heading text=" MotionTrackingControlOptions interface" for="MotionTrackingControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="MotionTrackingControlOptions" is-upgraded="">MotionTrackingControlOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MotionTrackingControlOptions</span></code>
 interface

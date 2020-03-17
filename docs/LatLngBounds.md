@@ -1,5 +1,5 @@
 
-<devsite-heading text=" LatLngBounds class" for="LatLngBounds" level="h2" link="" toc="" back-to-top=""><h2 id="LatLngBounds" is-upgraded="">LatLngBounds class </h2></devsite-heading>
+<devsite-heading text=" LatLngBounds class" for="LatLngBounds" level="h2" link="" toc="" back-to-top=""><h2 id="LatLngBounds" is-upgraded="">LatLngBounds class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">LatLngBounds</span></code>
 class

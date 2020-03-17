@@ -1,11 +1,11 @@
 
-<devsite-heading text=" PlaceSearchPagination interface" for="PlaceSearchPagination" level="h2" link="" toc="" back-to-top=""><h2 id="PlaceSearchPagination" is-upgraded="">PlaceSearchPagination interface </h2></devsite-heading>
+<devsite-heading text=" PlaceSearchPagination interface" for="PlaceSearchPagination" level="h2" link="" toc="" back-to-top=""><h2 id="PlaceSearchPagination" is-upgraded="">PlaceSearchPagination interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlaceSearchPagination</span></code>
 interface
 </p>
 <p>An object used to fetch additional pages of Places results.</p>
-<devsite-heading text="Library" for="library_9" level="h4" link=""><h4 is-upgraded="" id="library_9">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_9" level="h4" link=""><h4 is-upgraded="" id="library_9">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="methods responsive" summary="interface PlaceSearchPagination - Methods">
 <thead>

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" InfoWindow class" for="InfoWindow" level="h2" link="" toc="" back-to-top=""><h2 id="InfoWindow" is-upgraded="">InfoWindow class </h2></devsite-heading>
+<devsite-heading text=" InfoWindow class" for="InfoWindow" level="h2" link="" toc="" back-to-top=""><h2 id="InfoWindow" is-upgraded="">InfoWindow class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">InfoWindow</span></code>
 class

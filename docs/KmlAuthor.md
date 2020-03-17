@@ -1,5 +1,5 @@
 
-<devsite-heading text=" KmlAuthor interface" for="KmlAuthor" level="h2" link="" toc="" back-to-top=""><h2 id="KmlAuthor" is-upgraded="">KmlAuthor interface </h2></devsite-heading>
+<devsite-heading text=" KmlAuthor interface" for="KmlAuthor" level="h2" link="" toc="" back-to-top=""><h2 id="KmlAuthor" is-upgraded="">KmlAuthor interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">KmlAuthor</span></code>
 interface

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Polygon class" for="Polygon" level="h2" link="" toc="" back-to-top=""><h2 id="Polygon" is-upgraded="">Polygon class </h2></devsite-heading>
+<devsite-heading text=" Polygon class" for="Polygon" level="h2" link="" toc="" back-to-top=""><h2 id="Polygon" is-upgraded="">Polygon class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Polygon</span></code>
 class

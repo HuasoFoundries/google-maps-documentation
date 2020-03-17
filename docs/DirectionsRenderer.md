@@ -1,5 +1,5 @@
 
-<devsite-heading text=" DirectionsRenderer class" for="DirectionsRenderer" level="h2" link="" toc="" back-to-top=""><h2 id="DirectionsRenderer" is-upgraded="">DirectionsRenderer class </h2></devsite-heading>
+<devsite-heading text=" DirectionsRenderer class" for="DirectionsRenderer" level="h2" link="" toc="" back-to-top=""><h2 id="DirectionsRenderer" is-upgraded="">DirectionsRenderer class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsRenderer</span></code>
 class

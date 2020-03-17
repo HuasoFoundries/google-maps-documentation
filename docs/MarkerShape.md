@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MarkerShape interface" for="MarkerShape" level="h2" link="" toc="" back-to-top=""><h2 id="MarkerShape" is-upgraded="">MarkerShape interface </h2></devsite-heading>
+<devsite-heading text=" MarkerShape interface" for="MarkerShape" level="h2" link="" toc="" back-to-top=""><h2 id="MarkerShape" is-upgraded="">MarkerShape interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MarkerShape</span></code>
 interface

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" IconSequence interface" for="IconSequence" level="h2" link="" toc="" back-to-top=""><h2 id="IconSequence" is-upgraded="">IconSequence interface </h2></devsite-heading>
+<devsite-heading text=" IconSequence interface" for="IconSequence" level="h2" link="" toc="" back-to-top=""><h2 id="IconSequence" is-upgraded="">IconSequence interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">IconSequence</span></code>
 interface

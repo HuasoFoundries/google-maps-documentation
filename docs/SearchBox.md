@@ -1,5 +1,5 @@
 
-<devsite-heading text=" SearchBox class" for="SearchBox" level="h2" link="" toc="" back-to-top=""><h2 id="SearchBox" is-upgraded="">SearchBox class </h2></devsite-heading>
+<devsite-heading text=" SearchBox class" for="SearchBox" level="h2" link="" toc="" back-to-top=""><h2 id="SearchBox" is-upgraded="">SearchBox class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">SearchBox</span></code>
 class
@@ -8,7 +8,7 @@ class
 <p>This class extends
 <code translate="no" dir="ltr"><a href="MVCObject.md">MVCObject</a></code>.
 </p>
-<devsite-heading text="Library" for="library_2" level="h4" link=""><h4 is-upgraded="" id="library_2">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_2" level="h4" link=""><h4 is-upgraded="" id="library_2">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="constructors responsive" summary="class SearchBox - Constructor">
 <thead>

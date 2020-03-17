@@ -1,5 +1,5 @@
 
-<devsite-heading text=" GeocoderRequest interface" for="GeocoderRequest" level="h2" link="" toc="" back-to-top=""><h2 id="GeocoderRequest" is-upgraded="">GeocoderRequest interface </h2></devsite-heading>
+<devsite-heading text=" GeocoderRequest interface" for="GeocoderRequest" level="h2" link="" toc="" back-to-top=""><h2 id="GeocoderRequest" is-upgraded="">GeocoderRequest interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderRequest</span></code>
 interface

@@ -1,11 +1,11 @@
 
-<devsite-heading text=" AutocompletePrediction interface" for="AutocompletePrediction" level="h2" link="" toc="" back-to-top=""><h2 id="AutocompletePrediction" is-upgraded="">AutocompletePrediction interface </h2></devsite-heading>
+<devsite-heading text=" AutocompletePrediction interface" for="AutocompletePrediction" level="h2" link="" toc="" back-to-top=""><h2 id="AutocompletePrediction" is-upgraded="">AutocompletePrediction interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">AutocompletePrediction</span></code>
 interface
 </p>
 <p>Represents a single autocomplete prediction.</p>
-<devsite-heading text="Library" for="library_5" level="h4" link=""><h4 is-upgraded="" id="library_5">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_5" level="h4" link=""><h4 is-upgraded="" id="library_5">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface AutocompletePrediction - Properties">
 <thead>

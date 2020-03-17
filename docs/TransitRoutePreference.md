@@ -1,5 +1,5 @@
 
-<devsite-heading text=" TransitRoutePreference constants" for="TransitRoutePreference" level="h2" link="" toc="" back-to-top=""><h2 id="TransitRoutePreference" is-upgraded="">TransitRoutePreference constants </h2></devsite-heading>
+<devsite-heading text=" TransitRoutePreference constants" for="TransitRoutePreference" level="h2" link="" toc="" back-to-top=""><h2 id="TransitRoutePreference" is-upgraded="">TransitRoutePreference constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">TransitRoutePreference</span></code>
 constants

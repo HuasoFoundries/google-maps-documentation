@@ -1,11 +1,11 @@
 
-<devsite-heading text=" PhotoOptions interface" for="PhotoOptions" level="h2" link="" toc="" back-to-top=""><h2 id="PhotoOptions" is-upgraded="">PhotoOptions interface </h2></devsite-heading>
+<devsite-heading text=" PhotoOptions interface" for="PhotoOptions" level="h2" link="" toc="" back-to-top=""><h2 id="PhotoOptions" is-upgraded="">PhotoOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PhotoOptions</span></code>
 interface
 </p>
 <p>Defines photo-requesting options.</p>
-<devsite-heading text="Library" for="library_18" level="h4" link=""><h4 is-upgraded="" id="library_18">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_18" level="h4" link=""><h4 is-upgraded="" id="library_18">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface PhotoOptions - Properties">
 <thead>

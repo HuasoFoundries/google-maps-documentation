@@ -1,5 +1,5 @@
 
-<devsite-heading text=" GroundOverlayOptions interface" for="GroundOverlayOptions" level="h2" link="" toc="" back-to-top=""><h2 id="GroundOverlayOptions" is-upgraded="">GroundOverlayOptions interface </h2></devsite-heading>
+<devsite-heading text=" GroundOverlayOptions interface" for="GroundOverlayOptions" level="h2" link="" toc="" back-to-top=""><h2 id="GroundOverlayOptions" is-upgraded="">GroundOverlayOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">GroundOverlayOptions</span></code>
 interface

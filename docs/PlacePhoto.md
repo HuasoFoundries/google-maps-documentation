@@ -1,11 +1,11 @@
 
-<devsite-heading text=" PlacePhoto interface" for="PlacePhoto" level="h2" link="" toc="" back-to-top=""><h2 id="PlacePhoto" is-upgraded="">PlacePhoto interface </h2></devsite-heading>
+<devsite-heading text=" PlacePhoto interface" for="PlacePhoto" level="h2" link="" toc="" back-to-top=""><h2 id="PlacePhoto" is-upgraded="">PlacePhoto interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlacePhoto</span></code>
 interface
 </p>
 <p>Represents a photo element of a Place.</p>
-<devsite-heading text="Library" for="library_17" level="h4" link=""><h4 is-upgraded="" id="library_17">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_17" level="h4" link=""><h4 is-upgraded="" id="library_17">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="methods responsive" summary="interface PlacePhoto - Methods">
 <thead>

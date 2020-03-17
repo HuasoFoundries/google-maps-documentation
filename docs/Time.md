@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Time interface" for="Time" level="h2" link="" toc="" back-to-top=""><h2 id="Time" is-upgraded="">Time interface </h2></devsite-heading>
+<devsite-heading text=" Time interface" for="Time" level="h2" link="" toc="" back-to-top=""><h2 id="Time" is-upgraded="">Time interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Time</span></code>
 interface

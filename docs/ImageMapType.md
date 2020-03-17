@@ -1,5 +1,5 @@
 
-<devsite-heading text=" ImageMapType class" for="ImageMapType" level="h2" link="" toc="" back-to-top=""><h2 id="ImageMapType" is-upgraded="">ImageMapType class </h2></devsite-heading>
+<devsite-heading text=" ImageMapType class" for="ImageMapType" level="h2" link="" toc="" back-to-top=""><h2 id="ImageMapType" is-upgraded="">ImageMapType class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">ImageMapType</span></code>
 class

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Animation constants" for="Animation" level="h2" link="" toc="" back-to-top=""><h2 id="Animation" is-upgraded="">Animation constants </h2></devsite-heading>
+<devsite-heading text=" Animation constants" for="Animation" level="h2" link="" toc="" back-to-top=""><h2 id="Animation" is-upgraded="">Animation constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Animation</span></code>
 constants

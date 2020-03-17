@@ -1,5 +1,5 @@
 
-<devsite-heading text=" StreetViewPreference constants" for="StreetViewPreference" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewPreference" is-upgraded="">StreetViewPreference constants </h2></devsite-heading>
+<devsite-heading text=" StreetViewPreference constants" for="StreetViewPreference" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewPreference" is-upgraded="">StreetViewPreference constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewPreference</span></code>
 constants

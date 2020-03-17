@@ -1,5 +1,5 @@
 
-<devsite-heading text=" ElevationResult interface" for="ElevationResult" level="h2" link="" toc="" back-to-top=""><h2 id="ElevationResult" is-upgraded="">ElevationResult interface </h2></devsite-heading>
+<devsite-heading text=" ElevationResult interface" for="ElevationResult" level="h2" link="" toc="" back-to-top=""><h2 id="ElevationResult" is-upgraded="">ElevationResult interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">ElevationResult</span></code>
 interface

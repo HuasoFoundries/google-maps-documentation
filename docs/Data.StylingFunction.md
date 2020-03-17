@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.StylingFunction typedef" for="Data.StylingFunction" level="h2" link="" toc="" back-to-top=""><h2 id="Data.StylingFunction" is-upgraded="">Data.StylingFunction typedef </h2></devsite-heading>
+<devsite-heading text=" Data.StylingFunction typedef" for="Data.StylingFunction" level="h2" link="" toc="" back-to-top=""><h2 id="Data.StylingFunction" is-upgraded="">Data.StylingFunction typedef</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.StylingFunction</span></code>
 typedef

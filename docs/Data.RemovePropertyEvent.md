@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.RemovePropertyEvent interface" for="Data.RemovePropertyEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.RemovePropertyEvent" is-upgraded="">Data.RemovePropertyEvent interface </h2></devsite-heading>
+<devsite-heading text=" Data.RemovePropertyEvent interface" for="Data.RemovePropertyEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.RemovePropertyEvent" is-upgraded="">Data.RemovePropertyEvent interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.RemovePropertyEvent</span></code>
 interface

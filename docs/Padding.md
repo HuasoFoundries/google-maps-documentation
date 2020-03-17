@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Padding interface" for="Padding" level="h2" link="" toc="" back-to-top=""><h2 id="Padding" is-upgraded="">Padding interface </h2></devsite-heading>
+<devsite-heading text=" Padding interface" for="Padding" level="h2" link="" toc="" back-to-top=""><h2 id="Padding" is-upgraded="">Padding interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Padding</span></code>
 interface

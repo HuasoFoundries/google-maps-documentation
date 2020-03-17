@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.LinearRing class" for="Data.LinearRing" level="h2" link="" toc="" back-to-top=""><h2 id="Data.LinearRing" is-upgraded="">Data.LinearRing class </h2></devsite-heading>
+<devsite-heading text=" Data.LinearRing class" for="Data.LinearRing" level="h2" link="" toc="" back-to-top=""><h2 id="Data.LinearRing" is-upgraded="">Data.LinearRing class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.LinearRing</span></code>
 class

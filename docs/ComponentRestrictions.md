@@ -1,11 +1,11 @@
 
-<devsite-heading text=" ComponentRestrictions interface" for="ComponentRestrictions" level="h2" link="" toc="" back-to-top=""><h2 id="ComponentRestrictions" is-upgraded="">ComponentRestrictions interface </h2></devsite-heading>
+<devsite-heading text=" ComponentRestrictions interface" for="ComponentRestrictions" level="h2" link="" toc="" back-to-top=""><h2 id="ComponentRestrictions" is-upgraded="">ComponentRestrictions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">ComponentRestrictions</span></code>
 interface
 </p>
 <p>Defines the component restrictions that can be used with the autocomplete service.</p>
-<devsite-heading text="Library" for="library_4" level="h4" link=""><h4 is-upgraded="" id="library_4">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_4" level="h4" link=""><h4 is-upgraded="" id="library_4">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface ComponentRestrictions - Properties">
 <thead>

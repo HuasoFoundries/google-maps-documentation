@@ -1,11 +1,11 @@
 
-<devsite-heading text=" RankBy constants" for="RankBy" level="h2" link="" toc="" back-to-top=""><h2 id="RankBy" is-upgraded="">RankBy constants </h2></devsite-heading>
+<devsite-heading text=" RankBy constants" for="RankBy" level="h2" link="" toc="" back-to-top=""><h2 id="RankBy" is-upgraded="">RankBy constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">RankBy</span></code>
 constants
 </p>
 <p>Ranking options for a PlaceSearchRequest.</p>
-<devsite-heading text="Library" for="library_6" level="h4" link=""><h4 is-upgraded="" id="library_6">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_6" level="h4" link=""><h4 is-upgraded="" id="library_6">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="constants responsive" summary="RankBy constants">
 <thead>

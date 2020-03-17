@@ -1,5 +1,5 @@
 
-<devsite-heading text=" DistanceMatrixResponseElement interface" for="DistanceMatrixResponseElement" level="h2" link="" toc="" back-to-top=""><h2 id="DistanceMatrixResponseElement" is-upgraded="">DistanceMatrixResponseElement interface </h2></devsite-heading>
+<devsite-heading><h2 id="DistanceMatrixResponseElement" is-upgraded="">DistanceMatrixResponseElement interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixResponseElement</span></code>
 interface

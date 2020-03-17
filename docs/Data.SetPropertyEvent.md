@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.SetPropertyEvent interface" for="Data.SetPropertyEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.SetPropertyEvent" is-upgraded="">Data.SetPropertyEvent interface </h2></devsite-heading>
+<devsite-heading text=" Data.SetPropertyEvent interface" for="Data.SetPropertyEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.SetPropertyEvent" is-upgraded="">Data.SetPropertyEvent interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.SetPropertyEvent</span></code>
 interface

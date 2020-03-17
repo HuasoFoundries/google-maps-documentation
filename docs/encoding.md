@@ -1,11 +1,11 @@
 
-<devsite-heading text=" encoding namespace" for="encoding" level="h2" link="" toc="" back-to-top=""><h2 id="encoding" is-upgraded="">encoding namespace </h2></devsite-heading>
+<devsite-heading text=" encoding namespace" for="encoding" level="h2" link="" toc="" back-to-top=""><h2 id="encoding" is-upgraded="">encoding namespace</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.geometry</span>.<span itemprop="name">encoding</span></code>
 namespace
 </p>
 <p>Utilities for polyline encoding and decoding.</p>
-<devsite-heading text="Library" for="library" level="h4" link=""><h4 is-upgraded="" id="library">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library" level="h4" link=""><h4 is-upgraded="" id="library">Library</h4></devsite-heading>
 <p>geometry</p>
 <div class="devsite-table-wrapper"><table class="methods responsive" summary="namespace encoding - Static Methods">
 <thead>

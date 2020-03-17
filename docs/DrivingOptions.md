@@ -1,5 +1,5 @@
 
-<devsite-heading text=" DrivingOptions interface" for="DrivingOptions" level="h2" link="" toc="" back-to-top=""><h2 id="DrivingOptions" is-upgraded="">DrivingOptions interface </h2></devsite-heading>
+<devsite-heading text=" DrivingOptions interface" for="DrivingOptions" level="h2" link="" toc="" back-to-top=""><h2 id="DrivingOptions" is-upgraded="">DrivingOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">DrivingOptions</span></code>
 interface

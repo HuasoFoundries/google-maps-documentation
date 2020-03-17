@@ -1,5 +1,5 @@
 
-<devsite-heading text=" IconMouseEvent interface" for="IconMouseEvent" level="h2" link="" toc="" back-to-top=""><h2 id="IconMouseEvent" is-upgraded="">IconMouseEvent interface </h2></devsite-heading>
+<devsite-heading text=" IconMouseEvent interface" for="IconMouseEvent" level="h2" link="" toc="" back-to-top=""><h2 id="IconMouseEvent" is-upgraded="">IconMouseEvent interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">IconMouseEvent</span></code>
 interface

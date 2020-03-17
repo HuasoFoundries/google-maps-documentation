@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.GeometryCollection class" for="Data.GeometryCollection" level="h2" link="" toc="" back-to-top=""><h2 id="Data.GeometryCollection" is-upgraded="">Data.GeometryCollection class </h2></devsite-heading>
+<devsite-heading text=" Data.GeometryCollection class" for="Data.GeometryCollection" level="h2" link="" toc="" back-to-top=""><h2 id="Data.GeometryCollection" is-upgraded="">Data.GeometryCollection class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.GeometryCollection</span></code>
 class

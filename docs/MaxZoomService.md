@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MaxZoomService class" for="MaxZoomService" level="h2" link="" toc="" back-to-top=""><h2 id="MaxZoomService" is-upgraded="">MaxZoomService class </h2></devsite-heading>
+<devsite-heading text=" MaxZoomService class" for="MaxZoomService" level="h2" link="" toc="" back-to-top=""><h2 id="MaxZoomService" is-upgraded="">MaxZoomService class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MaxZoomService</span></code>
 class

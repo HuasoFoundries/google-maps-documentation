@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.Feature class" for="Data.Feature" level="h2" link="" toc="" back-to-top=""><h2 id="Data.Feature" is-upgraded="">Data.Feature class </h2></devsite-heading>
+<devsite-heading text=" Data.Feature class" for="Data.Feature" level="h2" link="" toc="" back-to-top=""><h2 id="Data.Feature" is-upgraded="">Data.Feature class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.Feature</span></code>
 class

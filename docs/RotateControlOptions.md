@@ -1,5 +1,5 @@
 
-<devsite-heading text=" RotateControlOptions interface" for="RotateControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="RotateControlOptions" is-upgraded="">RotateControlOptions interface </h2></devsite-heading>
+<devsite-heading text=" RotateControlOptions interface" for="RotateControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="RotateControlOptions" is-upgraded="">RotateControlOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">RotateControlOptions</span></code>
 interface

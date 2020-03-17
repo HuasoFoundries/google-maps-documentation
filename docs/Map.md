@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Map class" for="Map" level="h2" link="" toc="" back-to-top=""><h2 id="Map" is-upgraded="">Map class </h2></devsite-heading>
+<devsite-heading text=" Map class" for="Map" level="h2" link="" toc="" back-to-top=""><h2 id="Map" is-upgraded="">Map class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Map</span></code>
 class

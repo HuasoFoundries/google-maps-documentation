@@ -1,11 +1,11 @@
 
-<devsite-heading text=" PlaceOpeningHours interface" for="PlaceOpeningHours" level="h2" link="" toc="" back-to-top=""><h2 id="PlaceOpeningHours" is-upgraded="">PlaceOpeningHours interface </h2></devsite-heading>
+<devsite-heading text=" PlaceOpeningHours interface" for="PlaceOpeningHours" level="h2" link="" toc="" back-to-top=""><h2 id="PlaceOpeningHours" is-upgraded="">PlaceOpeningHours interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlaceOpeningHours</span></code>
 interface
 </p>
 <p>Defines information about the opening hours of a Place.</p>
-<devsite-heading text="Library" for="library_13" level="h4" link=""><h4 is-upgraded="" id="library_13">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_13" level="h4" link=""><h4 is-upgraded="" id="library_13">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="methods responsive" summary="interface PlaceOpeningHours - Methods">
 <thead>

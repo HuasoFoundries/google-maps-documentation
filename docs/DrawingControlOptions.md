@@ -1,11 +1,11 @@
 
-<devsite-heading text=" DrawingControlOptions interface" for="DrawingControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="DrawingControlOptions" is-upgraded="">DrawingControlOptions interface </h2></devsite-heading>
+<devsite-heading text=" DrawingControlOptions interface" for="DrawingControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="DrawingControlOptions" is-upgraded="">DrawingControlOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.drawing</span>.<span itemprop="name">DrawingControlOptions</span></code>
 interface
 </p>
 <p>Options for the rendering of the drawing control.</p>
-<devsite-heading text="Library" for="library_2" level="h4" link=""><h4 is-upgraded="" id="library_2">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_2" level="h4" link=""><h4 is-upgraded="" id="library_2">Library</h4></devsite-heading>
 <p>drawing</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface DrawingControlOptions - Properties">
 <thead>

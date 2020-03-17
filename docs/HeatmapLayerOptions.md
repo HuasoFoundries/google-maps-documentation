@@ -1,11 +1,11 @@
 
-<devsite-heading text=" HeatmapLayerOptions interface" for="HeatmapLayerOptions" level="h2" link="" toc="" back-to-top=""><h2 id="HeatmapLayerOptions" is-upgraded="">HeatmapLayerOptions interface </h2></devsite-heading>
+<devsite-heading text=" HeatmapLayerOptions interface" for="HeatmapLayerOptions" level="h2" link="" toc="" back-to-top=""><h2 id="HeatmapLayerOptions" is-upgraded="">HeatmapLayerOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">HeatmapLayerOptions</span></code>
 interface
 </p>
 <p>This object defines the properties that can be set on a <code translate="no" dir="ltr">HeatmapLayer</code> object.</p>
-<devsite-heading text="Library" for="library_1" level="h4" link=""><h4 is-upgraded="" id="library_1">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_1" level="h4" link=""><h4 is-upgraded="" id="library_1">Library</h4></devsite-heading>
 <p>visualization</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface HeatmapLayerOptions - Properties">
 <thead>

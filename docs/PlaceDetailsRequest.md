@@ -1,11 +1,11 @@
 
-<devsite-heading text=" PlaceDetailsRequest interface" for="PlaceDetailsRequest" level="h2" link="" toc="" back-to-top=""><h2 id="PlaceDetailsRequest" is-upgraded="">PlaceDetailsRequest interface </h2></devsite-heading>
+<devsite-heading text=" PlaceDetailsRequest interface" for="PlaceDetailsRequest" level="h2" link="" toc="" back-to-top=""><h2 id="PlaceDetailsRequest" is-upgraded="">PlaceDetailsRequest interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlaceDetailsRequest</span></code>
 interface
 </p>
 <p>A Place details query to be sent to the <code translate="no" dir="ltr">PlacesService</code>.</p>
-<devsite-heading text="Library" for="library_1" level="h4" link=""><h4 is-upgraded="" id="library_1">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_1" level="h4" link=""><h4 is-upgraded="" id="library_1">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface PlaceDetailsRequest - Properties">
 <thead>

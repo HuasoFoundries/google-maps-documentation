@@ -1,5 +1,5 @@
 
-<devsite-heading text=" PolyMouseEvent interface" for="PolyMouseEvent" level="h2" link="" toc="" back-to-top=""><h2 id="PolyMouseEvent" is-upgraded="">PolyMouseEvent interface </h2></devsite-heading>
+<devsite-heading text=" PolyMouseEvent interface" for="PolyMouseEvent" level="h2" link="" toc="" back-to-top=""><h2 id="PolyMouseEvent" is-upgraded="">PolyMouseEvent interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">PolyMouseEvent</span></code>
 interface

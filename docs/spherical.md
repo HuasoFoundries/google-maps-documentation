@@ -1,11 +1,11 @@
 
-<devsite-heading text=" spherical namespace" for="spherical" level="h2" link="" toc="" back-to-top=""><h2 id="spherical" is-upgraded="">spherical namespace </h2></devsite-heading>
+<devsite-heading text=" spherical namespace" for="spherical" level="h2" link="" toc="" back-to-top=""><h2 id="spherical" is-upgraded="">spherical namespace</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.geometry</span>.<span itemprop="name">spherical</span></code>
 namespace
 </p>
 <p>Utility functions for computing geodesic angles, distances and areas. The default radius is Earth's radius of 6378137 meters.</p>
-<devsite-heading text="Library" for="library_1" level="h4" link=""><h4 is-upgraded="" id="library_1">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_1" level="h4" link=""><h4 is-upgraded="" id="library_1">Library</h4></devsite-heading>
 <p>geometry</p>
 <div class="devsite-table-wrapper"><table class="methods responsive" summary="namespace spherical - Static Methods">
 <thead>

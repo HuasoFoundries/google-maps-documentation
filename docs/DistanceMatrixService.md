@@ -1,5 +1,5 @@
 
-<devsite-heading text=" DistanceMatrixService class" for="DistanceMatrixService" level="h2" link="" toc="" back-to-top=""><h2 id="DistanceMatrixService" is-upgraded="">DistanceMatrixService class </h2></devsite-heading>
+<devsite-heading><h2 id="DistanceMatrixService" is-upgraded="">DistanceMatrixService class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">DistanceMatrixService</span></code>
 class

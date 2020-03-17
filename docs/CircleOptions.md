@@ -1,5 +1,5 @@
 
-<devsite-heading text=" CircleOptions interface" for="CircleOptions" level="h2" link="" toc="" back-to-top=""><h2 id="CircleOptions" is-upgraded="">CircleOptions interface </h2></devsite-heading>
+<devsite-heading text=" CircleOptions interface" for="CircleOptions" level="h2" link="" toc="" back-to-top=""><h2 id="CircleOptions" is-upgraded="">CircleOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">CircleOptions</span></code>
 interface

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" DirectionsWaypoint interface" for="DirectionsWaypoint" level="h2" link="" toc="" back-to-top=""><h2 id="DirectionsWaypoint" is-upgraded="">DirectionsWaypoint interface </h2></devsite-heading>
+<devsite-heading text=" DirectionsWaypoint interface" for="DirectionsWaypoint" level="h2" link="" toc="" back-to-top=""><h2 id="DirectionsWaypoint" is-upgraded="">DirectionsWaypoint interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">DirectionsWaypoint</span></code>
 interface

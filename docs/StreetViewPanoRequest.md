@@ -1,5 +1,5 @@
 
-<devsite-heading text=" StreetViewPanoRequest interface" for="StreetViewPanoRequest" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewPanoRequest" is-upgraded="">StreetViewPanoRequest interface </h2></devsite-heading>
+<devsite-heading text=" StreetViewPanoRequest interface" for="StreetViewPanoRequest" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewPanoRequest" is-upgraded="">StreetViewPanoRequest interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewPanoRequest</span></code>
 interface

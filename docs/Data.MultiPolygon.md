@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.MultiPolygon class" for="Data.MultiPolygon" level="h2" link="" toc="" back-to-top=""><h2 id="Data.MultiPolygon" is-upgraded="">Data.MultiPolygon class </h2></devsite-heading>
+<devsite-heading text=" Data.MultiPolygon class" for="Data.MultiPolygon" level="h2" link="" toc="" back-to-top=""><h2 id="Data.MultiPolygon" is-upgraded="">Data.MultiPolygon class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.MultiPolygon</span></code>
 class

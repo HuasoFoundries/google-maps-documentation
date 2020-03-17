@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MaxZoomStatus constants" for="MaxZoomStatus" level="h2" link="" toc="" back-to-top=""><h2 id="MaxZoomStatus" is-upgraded="">MaxZoomStatus constants </h2></devsite-heading>
+<devsite-heading text=" MaxZoomStatus constants" for="MaxZoomStatus" level="h2" link="" toc="" back-to-top=""><h2 id="MaxZoomStatus" is-upgraded="">MaxZoomStatus constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MaxZoomStatus</span></code>
 constants

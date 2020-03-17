@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MarkerOptions interface" for="MarkerOptions" level="h2" link="" toc="" back-to-top=""><h2 id="MarkerOptions" is-upgraded="">MarkerOptions interface </h2></devsite-heading>
+<devsite-heading text=" MarkerOptions interface" for="MarkerOptions" level="h2" link="" toc="" back-to-top=""><h2 id="MarkerOptions" is-upgraded="">MarkerOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MarkerOptions</span></code>
 interface

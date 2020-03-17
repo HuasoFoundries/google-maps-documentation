@@ -1,11 +1,11 @@
 
-<devsite-heading text=" WeightedLocation interface" for="WeightedLocation" level="h2" link="" toc="" back-to-top=""><h2 id="WeightedLocation" is-upgraded="">WeightedLocation interface </h2></devsite-heading>
+<devsite-heading text=" WeightedLocation interface" for="WeightedLocation" level="h2" link="" toc="" back-to-top=""><h2 id="WeightedLocation" is-upgraded="">WeightedLocation interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.visualization</span>.<span itemprop="name">WeightedLocation</span></code>
 interface
 </p>
 <p>A data point entry for a heatmap. This is a geographical data point with a weight attribute.</p>
-<devsite-heading text="Library" for="library_2" level="h4" link=""><h4 is-upgraded="" id="library_2">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_2" level="h4" link=""><h4 is-upgraded="" id="library_2">Library</h4></devsite-heading>
 <p>visualization</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface WeightedLocation - Properties">
 <thead>

@@ -1,11 +1,11 @@
 
-<devsite-heading text=" PlacesServiceStatus constants" for="PlacesServiceStatus" level="h2" link="" toc="" back-to-top=""><h2 id="PlacesServiceStatus" is-upgraded="">PlacesServiceStatus constants </h2></devsite-heading>
+<devsite-heading text=" PlacesServiceStatus constants" for="PlacesServiceStatus" level="h2" link="" toc="" back-to-top=""><h2 id="PlacesServiceStatus" is-upgraded="">PlacesServiceStatus constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlacesServiceStatus</span></code>
 constants
 </p>
 <p>The status returned by the <code translate="no" dir="ltr">PlacesService</code> on the completion of its searches. Specify these by value, or by using the constant's name. For example, <code translate="no" dir="ltr">'OK'</code> or <code translate="no" dir="ltr">google.maps.places.PlacesServiceStatus.OK</code>.</p>
-<devsite-heading text="Library" for="library_8" level="h4" link=""><h4 is-upgraded="" id="library_8">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_8" level="h4" link=""><h4 is-upgraded="" id="library_8">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="constants responsive" summary="PlacesServiceStatus constants">
 <thead>

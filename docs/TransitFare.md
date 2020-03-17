@@ -1,5 +1,5 @@
 
-<devsite-heading text=" TransitFare interface" for="TransitFare" level="h2" link="" toc="" back-to-top=""><h2 id="TransitFare" is-upgraded="">TransitFare interface </h2></devsite-heading>
+<devsite-heading text=" TransitFare interface" for="TransitFare" level="h2" link="" toc="" back-to-top=""><h2 id="TransitFare" is-upgraded="">TransitFare interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">TransitFare</span></code>
 interface

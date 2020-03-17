@@ -1,5 +1,5 @@
 
-<devsite-heading text=" StreetViewService class" for="StreetViewService" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewService" is-upgraded="">StreetViewService class </h2></devsite-heading>
+<devsite-heading text=" StreetViewService class" for="StreetViewService" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewService" is-upgraded="">StreetViewService class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewService</span></code>
 class

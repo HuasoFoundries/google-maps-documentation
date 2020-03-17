@@ -1,5 +1,5 @@
 
-<devsite-heading text=" BicyclingLayer class" for="BicyclingLayer" level="h2" link="" toc="" back-to-top=""><h2 id="BicyclingLayer" is-upgraded="">BicyclingLayer class </h2></devsite-heading>
+<devsite-heading text=" BicyclingLayer class" for="BicyclingLayer" level="h2" link="" toc="" back-to-top=""><h2 id="BicyclingLayer" is-upgraded="">BicyclingLayer class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">BicyclingLayer</span></code>
 class

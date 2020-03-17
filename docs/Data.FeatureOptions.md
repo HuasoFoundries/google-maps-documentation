@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.FeatureOptions interface" for="Data.FeatureOptions" level="h2" link="" toc="" back-to-top=""><h2 id="Data.FeatureOptions" is-upgraded="">Data.FeatureOptions interface </h2></devsite-heading>
+<devsite-heading text=" Data.FeatureOptions interface" for="Data.FeatureOptions" level="h2" link="" toc="" back-to-top=""><h2 id="Data.FeatureOptions" is-upgraded="">Data.FeatureOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.FeatureOptions</span></code>
 interface

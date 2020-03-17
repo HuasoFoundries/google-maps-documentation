@@ -1,5 +1,5 @@
 
-<devsite-heading text=" PanControlOptions interface" for="PanControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="PanControlOptions" is-upgraded="">PanControlOptions interface </h2></devsite-heading>
+<devsite-heading text=" PanControlOptions interface" for="PanControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="PanControlOptions" is-upgraded="">PanControlOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">PanControlOptions</span></code>
 interface

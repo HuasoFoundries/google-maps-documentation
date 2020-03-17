@@ -1,5 +1,5 @@
 
-<devsite-heading text=" TransitLine interface" for="TransitLine" level="h2" link="" toc="" back-to-top=""><h2 id="TransitLine" is-upgraded="">TransitLine interface </h2></devsite-heading>
+<devsite-heading text=" TransitLine interface" for="TransitLine" level="h2" link="" toc="" back-to-top=""><h2 id="TransitLine" is-upgraded="">TransitLine interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">TransitLine</span></code>
 interface

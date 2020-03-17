@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Size class" for="Size" level="h2" link="" toc="" back-to-top=""><h2 id="Size" is-upgraded="">Size class </h2></devsite-heading>
+<devsite-heading text=" Size class" for="Size" level="h2" link="" toc="" back-to-top=""><h2 id="Size" is-upgraded="">Size class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Size</span></code>
 class

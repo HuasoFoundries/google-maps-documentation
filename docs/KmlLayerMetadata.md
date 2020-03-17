@@ -1,5 +1,5 @@
 
-<devsite-heading text=" KmlLayerMetadata interface" for="KmlLayerMetadata" level="h2" link="" toc="" back-to-top=""><h2 id="KmlLayerMetadata" is-upgraded="">KmlLayerMetadata interface </h2></devsite-heading>
+<devsite-heading text=" KmlLayerMetadata interface" for="KmlLayerMetadata" level="h2" link="" toc="" back-to-top=""><h2 id="KmlLayerMetadata" is-upgraded="">KmlLayerMetadata interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">KmlLayerMetadata</span></code>
 interface

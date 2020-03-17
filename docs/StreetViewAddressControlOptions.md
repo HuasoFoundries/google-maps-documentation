@@ -1,5 +1,5 @@
 
-<devsite-heading text=" StreetViewAddressControlOptions interface" for="StreetViewAddressControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewAddressControlOptions" is-upgraded="">StreetViewAddressControlOptions interface </h2></devsite-heading>
+<devsite-heading text=" StreetViewAddressControlOptions interface" for="StreetViewAddressControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewAddressControlOptions" is-upgraded="">StreetViewAddressControlOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewAddressControlOptions</span></code>
 interface

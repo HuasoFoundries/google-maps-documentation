@@ -1,5 +1,5 @@
 
-<devsite-heading text=" StreetViewSource constants" for="StreetViewSource" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewSource" is-upgraded="">StreetViewSource constants </h2></devsite-heading>
+<devsite-heading text=" StreetViewSource constants" for="StreetViewSource" level="h2" link="" toc="" back-to-top=""><h2 id="StreetViewSource" is-upgraded="">StreetViewSource constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">StreetViewSource</span></code>
 constants

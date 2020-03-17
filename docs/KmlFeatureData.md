@@ -1,5 +1,5 @@
 
-<devsite-heading text=" KmlFeatureData interface" for="KmlFeatureData" level="h2" link="" toc="" back-to-top=""><h2 id="KmlFeatureData" is-upgraded="">KmlFeatureData interface </h2></devsite-heading>
+<devsite-heading text=" KmlFeatureData interface" for="KmlFeatureData" level="h2" link="" toc="" back-to-top=""><h2 id="KmlFeatureData" is-upgraded="">KmlFeatureData interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">KmlFeatureData</span></code>
 interface

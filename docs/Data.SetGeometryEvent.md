@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.SetGeometryEvent interface" for="Data.SetGeometryEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.SetGeometryEvent" is-upgraded="">Data.SetGeometryEvent interface </h2></devsite-heading>
+<devsite-heading text=" Data.SetGeometryEvent interface" for="Data.SetGeometryEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.SetGeometryEvent" is-upgraded="">Data.SetGeometryEvent interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.SetGeometryEvent</span></code>
 interface

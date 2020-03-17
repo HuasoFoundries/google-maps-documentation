@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Place interface" for="Place" level="h2" link="" toc="" back-to-top=""><h2 id="Place" is-upgraded="">Place interface </h2></devsite-heading>
+<devsite-heading text=" Place interface" for="Place" level="h2" link="" toc="" back-to-top=""><h2 id="Place" is-upgraded="">Place interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Place</span></code>
 interface

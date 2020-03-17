@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MapTypeStyle interface" for="MapTypeStyle" level="h2" link="" toc="" back-to-top=""><h2 id="MapTypeStyle" is-upgraded="">MapTypeStyle interface </h2></devsite-heading>
+<devsite-heading text=" MapTypeStyle interface" for="MapTypeStyle" level="h2" link="" toc="" back-to-top=""><h2 id="MapTypeStyle" is-upgraded="">MapTypeStyle interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeStyle</span></code>
 interface

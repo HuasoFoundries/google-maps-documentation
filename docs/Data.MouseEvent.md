@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.MouseEvent interface" for="Data.MouseEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.MouseEvent" is-upgraded="">Data.MouseEvent interface </h2></devsite-heading>
+<devsite-heading text=" Data.MouseEvent interface" for="Data.MouseEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.MouseEvent" is-upgraded="">Data.MouseEvent interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.MouseEvent</span></code>
 interface

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MapCanvasProjection interface" for="MapCanvasProjection" level="h2" link="" toc="" back-to-top=""><h2 id="MapCanvasProjection" is-upgraded="">MapCanvasProjection interface </h2></devsite-heading>
+<devsite-heading text=" MapCanvasProjection interface" for="MapCanvasProjection" level="h2" link="" toc="" back-to-top=""><h2 id="MapCanvasProjection" is-upgraded="">MapCanvasProjection interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MapCanvasProjection</span></code>
 interface

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MapTypeId constants" for="MapTypeId" level="h2" link="" toc="" back-to-top=""><h2 id="MapTypeId" is-upgraded="">MapTypeId constants </h2></devsite-heading>
+<devsite-heading text=" MapTypeId constants" for="MapTypeId" level="h2" link="" toc="" back-to-top=""><h2 id="MapTypeId" is-upgraded="">MapTypeId constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeId</span></code>
 constants

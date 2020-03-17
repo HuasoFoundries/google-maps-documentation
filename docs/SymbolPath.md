@@ -1,5 +1,5 @@
 
-<devsite-heading text=" SymbolPath constants" for="SymbolPath" level="h2" link="" toc="" back-to-top=""><h2 id="SymbolPath" is-upgraded="">SymbolPath constants </h2></devsite-heading>
+<devsite-heading text=" SymbolPath constants" for="SymbolPath" level="h2" link="" toc="" back-to-top=""><h2 id="SymbolPath" is-upgraded="">SymbolPath constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">SymbolPath</span></code>
 constants

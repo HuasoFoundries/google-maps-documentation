@@ -1,5 +1,5 @@
 
-<devsite-heading text=" ControlPosition constants" for="ControlPosition" level="h2" link="" toc="" back-to-top=""><h2 id="ControlPosition" is-upgraded="">ControlPosition constants </h2></devsite-heading>
+<devsite-heading text=" ControlPosition constants" for="ControlPosition" level="h2" link="" toc="" back-to-top=""><h2 id="ControlPosition" is-upgraded="">ControlPosition constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">ControlPosition</span></code>
 constants

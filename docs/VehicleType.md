@@ -1,5 +1,5 @@
 
-<devsite-heading text=" VehicleType constants" for="VehicleType" level="h2" link="" toc="" back-to-top=""><h2 id="VehicleType" is-upgraded="">VehicleType constants </h2></devsite-heading>
+<devsite-heading text=" VehicleType constants" for="VehicleType" level="h2" link="" toc="" back-to-top=""><h2 id="VehicleType" is-upgraded="">VehicleType constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">VehicleType</span></code>
 constants

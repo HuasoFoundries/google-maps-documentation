@@ -1,11 +1,11 @@
 
-<devsite-heading text=" PredictionTerm interface" for="PredictionTerm" level="h2" link="" toc="" back-to-top=""><h2 id="PredictionTerm" is-upgraded="">PredictionTerm interface </h2></devsite-heading>
+<devsite-heading text=" PredictionTerm interface" for="PredictionTerm" level="h2" link="" toc="" back-to-top=""><h2 id="PredictionTerm" is-upgraded="">PredictionTerm interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PredictionTerm</span></code>
 interface
 </p>
 <p>Represents a prediction term.</p>
-<devsite-heading text="Library" for="library_7" level="h4" link=""><h4 is-upgraded="" id="library_7">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_7" level="h4" link=""><h4 is-upgraded="" id="library_7">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface PredictionTerm - Properties">
 <thead>

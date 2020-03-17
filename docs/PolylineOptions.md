@@ -1,5 +1,5 @@
 
-<devsite-heading text=" PolylineOptions interface" for="PolylineOptions" level="h2" link="" toc="" back-to-top=""><h2 id="PolylineOptions" is-upgraded="">PolylineOptions interface </h2></devsite-heading>
+<devsite-heading text=" PolylineOptions interface" for="PolylineOptions" level="h2" link="" toc="" back-to-top=""><h2 id="PolylineOptions" is-upgraded="">PolylineOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">PolylineOptions</span></code>
 interface

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MaxZoomResult interface" for="MaxZoomResult" level="h2" link="" toc="" back-to-top=""><h2 id="MaxZoomResult" is-upgraded="">MaxZoomResult interface </h2></devsite-heading>
+<devsite-heading text=" MaxZoomResult interface" for="MaxZoomResult" level="h2" link="" toc="" back-to-top=""><h2 id="MaxZoomResult" is-upgraded="">MaxZoomResult interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MaxZoomResult</span></code>
 interface

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MVCArray class" for="MVCArray" level="h2" link="" toc="" back-to-top=""><h2 id="MVCArray" is-upgraded="">MVCArray class </h2></devsite-heading>
+<devsite-heading text=" MVCArray class" for="MVCArray" level="h2" link="" toc="" back-to-top=""><h2 id="MVCArray" is-upgraded="">MVCArray class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MVCArray&lt;T&gt;</span></code>
 class

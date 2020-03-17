@@ -1,5 +1,5 @@
 
-<devsite-heading text=" LatLngBoundsLiteral interface" for="LatLngBoundsLiteral" level="h2" link="" toc="" back-to-top=""><h2 id="LatLngBoundsLiteral" is-upgraded="">LatLngBoundsLiteral interface </h2></devsite-heading>
+<devsite-heading text=" LatLngBoundsLiteral interface" for="LatLngBoundsLiteral" level="h2" link="" toc="" back-to-top=""><h2 id="LatLngBoundsLiteral" is-upgraded="">LatLngBoundsLiteral interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">LatLngBoundsLiteral</span></code>
 interface

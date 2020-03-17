@@ -1,11 +1,11 @@
 
-<devsite-heading text=" QueryAutocompletePrediction interface" for="QueryAutocompletePrediction" level="h2" link="" toc="" back-to-top=""><h2 id="QueryAutocompletePrediction" is-upgraded="">QueryAutocompletePrediction interface </h2></devsite-heading>
+<devsite-heading text=" QueryAutocompletePrediction interface" for="QueryAutocompletePrediction" level="h2" link="" toc="" back-to-top=""><h2 id="QueryAutocompletePrediction" is-upgraded="">QueryAutocompletePrediction interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">QueryAutocompletePrediction</span></code>
 interface
 </p>
 <p>Represents a single Query Autocomplete prediction.</p>
-<devsite-heading text="Library" for="library_6" level="h4" link=""><h4 is-upgraded="" id="library_6">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_6" level="h4" link=""><h4 is-upgraded="" id="library_6">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface QueryAutocompletePrediction - Properties">
 <thead>

@@ -1,11 +1,11 @@
 
-<devsite-heading text=" PlacesService class" for="PlacesService" level="h2" link="" toc="" back-to-top=""><h2 id="PlacesService" is-upgraded="">PlacesService class </h2></devsite-heading>
+<devsite-heading text=" PlacesService class" for="PlacesService" level="h2" link="" toc="" back-to-top=""><h2 id="PlacesService" is-upgraded="">PlacesService class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">PlacesService</span></code>
 class
 </p>
 <p>Contains methods related to searching for places and retrieving details about a place.</p>
-<devsite-heading text="Library" for="library" level="h4" link=""><h4 is-upgraded="" id="library">Library<button role="button" class="devsite-heading-link button-flat material-icons" data-title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library" level="h4" link=""><h4 is-upgraded="" id="library">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="constructors responsive" summary="class PlacesService - Constructor">
 <thead>

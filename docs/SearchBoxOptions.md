@@ -1,11 +1,11 @@
 
-<devsite-heading text=" SearchBoxOptions interface" for="SearchBoxOptions" level="h2" link="" toc="" back-to-top=""><h2 id="SearchBoxOptions" is-upgraded="">SearchBoxOptions interface </h2></devsite-heading>
+<devsite-heading text=" SearchBoxOptions interface" for="SearchBoxOptions" level="h2" link="" toc="" back-to-top=""><h2 id="SearchBoxOptions" is-upgraded="">SearchBoxOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">SearchBoxOptions</span></code>
 interface
 </p>
 <p>The options that can be set on a <code translate="no" dir="ltr">SearchBox</code> object.</p>
-<devsite-heading text="Library" for="library_3" level="h4" link=""><h4 is-upgraded="" id="library_3">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_3" level="h4" link=""><h4 is-upgraded="" id="library_3">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="properties responsive" summary="interface SearchBoxOptions - Properties">
 <thead>

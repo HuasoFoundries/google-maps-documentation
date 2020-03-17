@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.Geometry interface" for="Data.Geometry" level="h2" link="" toc="" back-to-top=""><h2 id="Data.Geometry" is-upgraded="">Data.Geometry interface </h2></devsite-heading>
+<devsite-heading text=" Data.Geometry interface" for="Data.Geometry" level="h2" link="" toc="" back-to-top=""><h2 id="Data.Geometry" is-upgraded="">Data.Geometry interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.Geometry</span></code>
 interface

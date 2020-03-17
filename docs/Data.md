@@ -1,10 +1,10 @@
 
-<devsite-heading text=" Data class" for="Data" level="h2" link="" toc="" back-to-top=""><h2 id="Data" is-upgraded="">Data class </h2></devsite-heading>
+<devsite-heading text=" Data class" for="Data" level="h2" link="" toc="" back-to-top=""><h2 id="Data" is-upgraded="">Data class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data</span></code>
 class
 </p>
-<p>A layer for displaying geospatial data. Points, line-strings and polygons can be displayed. </p><p> Every <code translate="no" dir="ltr">Map</code> has a <code translate="no" dir="ltr">Data</code> object by default, so most of the time there is no need to construct one. For example: </p><devsite-code no-copy=""><pre translate="no" dir="ltr" is-upgraded=""> var myMap = new google.maps.Map(...);<br> myMap.data.addGeoJson(...);<br> myMap.data.setStyle(...); </pre><div class="devsite-code-buttons-container"><button class="gc-analytics-event material-icons devsite-icon-code-dark devsite-toggle-dark" data-category="Site-Wide Custom Events" data-label="Dark Code Toggle" track-type="exampleCode" track-name="darkCodeToggle" data-title="Dark code theme"></button><button class="gc-analytics-event material-icons devsite-icon-code-light devsite-toggle-light" data-category="Site-Wide Custom Events" data-label="Light Code Toggle" track-type="exampleCode" track-name="lightCodeToggle" data-title="Light code theme"></button></div></devsite-code> The <code translate="no" dir="ltr">Data</code> object is a collection of <a href="Data.Feature.md"><code translate="no" dir="ltr">Features</code></a>.<p></p>
+<p>A layer for displaying geospatial data. Points, line-strings and polygons can be displayed. </p><p> Every <code translate="no" dir="ltr">Map</code> has a <code translate="no" dir="ltr">Data</code> object by default, so most of the time there is no need to construct one. For example: </p><devsite-code no-copy=""><pre translate="no" dir="ltr" is-upgraded=""> var myMap = new google.maps.Map(...);<br> myMap.data.addGeoJson(...);<br> myMap.data.setStyle(...); </pre></devsite-code> The <code translate="no" dir="ltr">Data</code> object is a collection of <a href="Data.Feature.md"><code translate="no" dir="ltr">Features</code></a>.<p></p>
 <p>This class extends
 <code translate="no" dir="ltr"><a href="MVCObject.md">MVCObject</a></code>.
 </p>

@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MarkerLabel interface" for="MarkerLabel" level="h2" link="" toc="" back-to-top=""><h2 id="MarkerLabel" is-upgraded="">MarkerLabel interface </h2></devsite-heading>
+<devsite-heading text=" MarkerLabel interface" for="MarkerLabel" level="h2" link="" toc="" back-to-top=""><h2 id="MarkerLabel" is-upgraded="">MarkerLabel interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MarkerLabel</span></code>
 interface

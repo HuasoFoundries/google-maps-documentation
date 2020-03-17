@@ -1,5 +1,5 @@
 
-<devsite-heading text=" KmlLayer class" for="KmlLayer" level="h2" link="" toc="" back-to-top=""><h2 id="KmlLayer" is-upgraded="">KmlLayer class </h2></devsite-heading>
+<devsite-heading text=" KmlLayer class" for="KmlLayer" level="h2" link="" toc="" back-to-top=""><h2 id="KmlLayer" is-upgraded="">KmlLayer class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">KmlLayer</span></code>
 class

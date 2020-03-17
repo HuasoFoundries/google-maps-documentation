@@ -1,5 +1,5 @@
 
-<devsite-heading text=" ZoomControlOptions interface" for="ZoomControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="ZoomControlOptions" is-upgraded="">ZoomControlOptions interface </h2></devsite-heading>
+<devsite-heading text=" ZoomControlOptions interface" for="ZoomControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="ZoomControlOptions" is-upgraded="">ZoomControlOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">ZoomControlOptions</span></code>
 interface

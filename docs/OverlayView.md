@@ -1,5 +1,5 @@
 
-<devsite-heading text=" OverlayView class" for="OverlayView" level="h2" link="" toc="" back-to-top=""><h2 id="OverlayView" is-upgraded="">OverlayView class </h2></devsite-heading>
+<devsite-heading text=" OverlayView class" for="OverlayView" level="h2" link="" toc="" back-to-top=""><h2 id="OverlayView" is-upgraded="">OverlayView class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">OverlayView</span></code>
 class

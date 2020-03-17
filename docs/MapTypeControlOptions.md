@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MapTypeControlOptions interface" for="MapTypeControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="MapTypeControlOptions" is-upgraded="">MapTypeControlOptions interface </h2></devsite-heading>
+<devsite-heading text=" MapTypeControlOptions interface" for="MapTypeControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="MapTypeControlOptions" is-upgraded="">MapTypeControlOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeControlOptions</span></code>
 interface

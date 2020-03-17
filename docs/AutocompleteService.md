@@ -1,11 +1,11 @@
 
-<devsite-heading text=" AutocompleteService class" for="AutocompleteService" level="h2" link="" toc="" back-to-top=""><h2 id="AutocompleteService" is-upgraded="">AutocompleteService class </h2></devsite-heading>
+<devsite-heading text=" AutocompleteService class" for="AutocompleteService" level="h2" link="" toc="" back-to-top=""><h2 id="AutocompleteService" is-upgraded="">AutocompleteService class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.places</span>.<span itemprop="name">AutocompleteService</span></code>
 class
 </p>
 <p>Contains methods related to retrieving Autocomplete predictions.</p>
-<devsite-heading text="Library" for="library" level="h4" link=""><h4 is-upgraded="" id="library">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library" level="h4" link=""><h4 is-upgraded="" id="library">Library</h4></devsite-heading>
 <p>places</p>
 <div class="devsite-table-wrapper"><table class="constructors responsive" summary="class AutocompleteService - Constructor">
 <thead>

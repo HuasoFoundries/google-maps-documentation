@@ -1,5 +1,5 @@
 
-<devsite-heading text=" GeocoderLocationType constants" for="GeocoderLocationType" level="h2" link="" toc="" back-to-top=""><h2 id="GeocoderLocationType" is-upgraded="">GeocoderLocationType constants </h2></devsite-heading>
+<devsite-heading text=" GeocoderLocationType constants" for="GeocoderLocationType" level="h2" link="" toc="" back-to-top=""><h2 id="GeocoderLocationType" is-upgraded="">GeocoderLocationType constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">GeocoderLocationType</span></code>
 constants

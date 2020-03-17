@@ -1,5 +1,5 @@
 
-<devsite-heading text=" ScaleControlOptions interface" for="ScaleControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="ScaleControlOptions" is-upgraded="">ScaleControlOptions interface </h2></devsite-heading>
+<devsite-heading text=" ScaleControlOptions interface" for="ScaleControlOptions" level="h2" link="" toc="" back-to-top=""><h2 id="ScaleControlOptions" is-upgraded="">ScaleControlOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">ScaleControlOptions</span></code>
 interface

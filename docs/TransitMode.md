@@ -1,5 +1,5 @@
 
-<devsite-heading text=" TransitMode constants" for="TransitMode" level="h2" link="" toc="" back-to-top=""><h2 id="TransitMode" is-upgraded="">TransitMode constants </h2></devsite-heading>
+<devsite-heading text=" TransitMode constants" for="TransitMode" level="h2" link="" toc="" back-to-top=""><h2 id="TransitMode" is-upgraded="">TransitMode constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">TransitMode</span></code>
 constants

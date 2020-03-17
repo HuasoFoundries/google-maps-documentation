@@ -1,11 +1,11 @@
 
-<devsite-heading text=" poly namespace" for="poly" level="h2" link="" toc="" back-to-top=""><h2 id="poly" is-upgraded="">poly namespace </h2></devsite-heading>
+<devsite-heading text=" poly namespace" for="poly" level="h2" link="" toc="" back-to-top=""><h2 id="poly" is-upgraded="">poly namespace</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps.geometry</span>.<span itemprop="name">poly</span></code>
 namespace
 </p>
 <p>Utility functions for computations involving polygons and polylines.</p>
-<devsite-heading text="Library" for="library_2" level="h4" link=""><h4 is-upgraded="" id="library_2">Library<button role="button" class="devsite-heading-link button-flat material-icons" title="Copy link to this section"></button></h4></devsite-heading>
+<devsite-heading text="Library" for="library_2" level="h4" link=""><h4 is-upgraded="" id="library_2">Library</h4></devsite-heading>
 <p>geometry</p>
 <div class="devsite-table-wrapper"><table class="methods responsive" summary="namespace poly - Static Methods">
 <thead>

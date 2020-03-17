@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Marker class" for="Marker" level="h2" link="" toc="" back-to-top=""><h2 id="Marker" is-upgraded="">Marker class </h2></devsite-heading>
+<devsite-heading text=" Marker class" for="Marker" level="h2" link="" toc="" back-to-top=""><h2 id="Marker" is-upgraded="">Marker class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Marker</span></code>
 class

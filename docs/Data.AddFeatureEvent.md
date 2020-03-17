@@ -1,5 +1,5 @@
 
-<devsite-heading text=" Data.AddFeatureEvent interface" for="Data.AddFeatureEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.AddFeatureEvent" is-upgraded="">Data.AddFeatureEvent interface </h2></devsite-heading>
+<devsite-heading text=" Data.AddFeatureEvent interface" for="Data.AddFeatureEvent" level="h2" link="" toc="" back-to-top=""><h2 id="Data.AddFeatureEvent" is-upgraded="">Data.AddFeatureEvent interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">Data.AddFeatureEvent</span></code>
 interface

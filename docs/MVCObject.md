@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MVCObject class" for="MVCObject" level="h2" link="" toc="" back-to-top=""><h2 id="MVCObject" is-upgraded="">MVCObject class </h2></devsite-heading>
+<devsite-heading text=" MVCObject class" for="MVCObject" level="h2" link="" toc="" back-to-top=""><h2 id="MVCObject" is-upgraded="">MVCObject class</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MVCObject</span></code>
 class

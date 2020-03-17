@@ -1,5 +1,5 @@
 
-<devsite-heading text=" MapTypeControlStyle constants" for="MapTypeControlStyle" level="h2" link="" toc="" back-to-top=""><h2 id="MapTypeControlStyle" is-upgraded="">MapTypeControlStyle constants </h2></devsite-heading>
+<devsite-heading text=" MapTypeControlStyle constants" for="MapTypeControlStyle" level="h2" link="" toc="" back-to-top=""><h2 id="MapTypeControlStyle" is-upgraded="">MapTypeControlStyle constants</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">MapTypeControlStyle</span></code>
 constants

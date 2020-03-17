@@ -1,5 +1,5 @@
 
-<devsite-heading text=" PolygonOptions interface" for="PolygonOptions" level="h2" link="" toc="" back-to-top=""><h2 id="PolygonOptions" is-upgraded="">PolygonOptions interface </h2></devsite-heading>
+<devsite-heading text=" PolygonOptions interface" for="PolygonOptions" level="h2" link="" toc="" back-to-top=""><h2 id="PolygonOptions" is-upgraded="">PolygonOptions interface</h2></devsite-heading>
 <p>
 <code translate="no" dir="ltr"><span itemprop="path">google.maps</span>.<span itemprop="name">PolygonOptions</span></code>
 interface
