@@ -36,7 +36,7 @@
     "exec-sh": "^0.3.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "bluebird": "^3.7.2",
     "chalk": "^3.0.0",
     "debug": "^4.1.1",
