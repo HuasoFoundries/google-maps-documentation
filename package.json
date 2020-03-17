@@ -8,13 +8,13 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "yarn crawl && yarn push_master ",
+    "start": "rm html/*.md && yarn crawl && yarn push_master ",
     "crawl": "DEBUG=gmd:* node index.js",
-    "push_master": "git checkout master && rm -rf docs/*.md && mv html/*.md docs/ && yarn add_script_to_docs && yarn commit_master && git checkout develop",
+    "push_master": "git checkout master && rm -rf docs/*.md && cp html/*.md docs/ && yarn add_script_to_docs && yarn commit_master && git checkout develop",
     "dry": "DEBUG=gmd:* DRY_RUN=true node index.js",
     "add_script_to_docs": "for f in ./docs/*.md; do echo '<script src=\"replace_links.js\"></script>' >> \"$f\" ; done",
     "commit_master": "git checkout develop docs/index.md && git checkout develop docs/README.md && yarn commit_message && git push -f",
-    "commit_message": "git add --all && git commit -am \"docs for `git log --format=%B -n 1 develop | head -1`\" || true ",
+    "commit_message": "git reset --soft develop && git add --all && git commit -am \"docs for `git log --format=%B -n 1 develop | head -1`\" || true ",
     "to_markdown": "DEBUG=gmd:* node html2md.js"
   },
   "repository": {
