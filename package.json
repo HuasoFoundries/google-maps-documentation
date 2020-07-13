@@ -48,7 +48,7 @@
     "lodash": "^4.17.15",
     "prettier": "^1.19.1",
     "progress": "^2.0.3",
-    "puppeteer": "^2.1.1",
+    "puppeteer": "^5.1.0",
     "turndown": "^5.0.3"
   }
 }
