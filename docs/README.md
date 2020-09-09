@@ -23,20 +23,12 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
 
 ### Table of Contents
 
-#### Maps
+#### Event system
 
-  - [Map](Map.md),
-  - [MapOptions](MapOptions.md),
-  - [MapTypeStyle](MapTypeStyle.md),
-  - [MouseEvent](MouseEvent.md),
-  - [IconMouseEvent](IconMouseEvent.md),
-  - [MapTypeId](MapTypeId.md),
-  - [MapTypeRegistry](MapTypeRegistry.md),
-  - [MapRestriction](MapRestriction.md),
-  - [TrafficLayer](TrafficLayer.md),
-  - [TrafficLayerOptions](TrafficLayerOptions.md),
-  - [TransitLayer](TransitLayer.md),
-  - [BicyclingLayer](BicyclingLayer.md)
+  - [event](event.md),
+  - [MapsEventListener](MapsEventListener.md),
+  - [MVCObject](MVCObject.md),
+  - [MVCArray](MVCArray.md)
 #### Controls
 
   - [FullscreenControlOptions](FullscreenControlOptions.md),
@@ -60,19 +52,20 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Size](Size.md),
   - [Padding](Padding.md),
   - [CircleLiteral](CircleLiteral.md)
-#### Event system
+#### Maps
 
-  - [event](event.md),
-  - [MapsEventListener](MapsEventListener.md),
-  - [MVCObject](MVCObject.md),
-  - [MVCArray](MVCArray.md)
-#### Elevation
-
-  - [ElevationService](ElevationService.md),
-  - [LocationElevationRequest](LocationElevationRequest.md),
-  - [PathElevationRequest](PathElevationRequest.md),
-  - [ElevationResult](ElevationResult.md),
-  - [ElevationStatus](ElevationStatus.md)
+  - [Map](Map.md),
+  - [MapOptions](MapOptions.md),
+  - [MapTypeStyle](MapTypeStyle.md),
+  - [MouseEvent](MouseEvent.md),
+  - [IconMouseEvent](IconMouseEvent.md),
+  - [MapTypeId](MapTypeId.md),
+  - [MapTypeRegistry](MapTypeRegistry.md),
+  - [MapRestriction](MapRestriction.md),
+  - [TrafficLayer](TrafficLayer.md),
+  - [TrafficLayerOptions](TrafficLayerOptions.md),
+  - [TransitLayer](TransitLayer.md),
+  - [BicyclingLayer](BicyclingLayer.md)
 #### Distance Matrix
 
   - [DistanceMatrixService](DistanceMatrixService.md),
@@ -82,6 +75,13 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [DistanceMatrixResponseElement](DistanceMatrixResponseElement.md),
   - [DistanceMatrixStatus](DistanceMatrixStatus.md),
   - [DistanceMatrixElementStatus](DistanceMatrixElementStatus.md)
+#### Elevation
+
+  - [ElevationService](ElevationService.md),
+  - [LocationElevationRequest](LocationElevationRequest.md),
+  - [PathElevationRequest](PathElevationRequest.md),
+  - [ElevationResult](ElevationResult.md),
+  - [ElevationStatus](ElevationStatus.md)
 #### Directions
 
   - [DirectionsService](DirectionsService.md),
@@ -113,16 +113,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Distance](Distance.md),
   - [Duration](Duration.md),
   - [Time](Time.md)
-#### Geocoder
-
-  - [Geocoder](Geocoder.md),
-  - [GeocoderRequest](GeocoderRequest.md),
-  - [GeocoderComponentRestrictions](GeocoderComponentRestrictions.md),
-  - [GeocoderStatus](GeocoderStatus.md),
-  - [GeocoderResult](GeocoderResult.md),
-  - [GeocoderAddressComponent](GeocoderAddressComponent.md),
-  - [GeocoderGeometry](GeocoderGeometry.md),
-  - [GeocoderLocationType](GeocoderLocationType.md)
 #### Places Autocomplete Service
 
   - [AutocompleteService](AutocompleteService.md),
@@ -158,6 +148,16 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [PlacePhoto](PlacePhoto.md),
   - [PhotoOptions](PhotoOptions.md),
   - [PlaceReview](PlaceReview.md)
+#### Geocoder
+
+  - [Geocoder](Geocoder.md),
+  - [GeocoderRequest](GeocoderRequest.md),
+  - [GeocoderComponentRestrictions](GeocoderComponentRestrictions.md),
+  - [GeocoderStatus](GeocoderStatus.md),
+  - [GeocoderResult](GeocoderResult.md),
+  - [GeocoderAddressComponent](GeocoderAddressComponent.md),
+  - [GeocoderGeometry](GeocoderGeometry.md),
+  - [GeocoderLocationType](GeocoderLocationType.md)
 #### Places Widgets
 
   - [Autocomplete](Autocomplete.md),
@@ -184,23 +184,25 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [StreetViewTileData](StreetViewTileData.md),
   - [StreetViewPov](StreetViewPov.md),
   - [StreetViewCoverageLayer](StreetViewCoverageLayer.md)
-#### Max Zoom
-
-  - [MaxZoomService](MaxZoomService.md),
-  - [MaxZoomResult](MaxZoomResult.md),
-  - [MaxZoomStatus](MaxZoomStatus.md)
 #### Heatmaps
 
   - [HeatmapLayer](HeatmapLayer.md),
   - [HeatmapLayerOptions](HeatmapLayerOptions.md),
   - [WeightedLocation](WeightedLocation.md)
-#### Drawing Library
+#### Max Zoom
 
-  - [DrawingManager](DrawingManager.md),
-  - [DrawingManagerOptions](DrawingManagerOptions.md),
-  - [DrawingControlOptions](DrawingControlOptions.md),
-  - [OverlayCompleteEvent](OverlayCompleteEvent.md),
-  - [OverlayType](OverlayType.md)
+  - [MaxZoomService](MaxZoomService.md),
+  - [MaxZoomResult](MaxZoomResult.md),
+  - [MaxZoomStatus](MaxZoomStatus.md)
+#### KML
+
+  - [KmlLayer](KmlLayer.md),
+  - [KmlLayerOptions](KmlLayerOptions.md),
+  - [KmlLayerMetadata](KmlLayerMetadata.md),
+  - [KmlLayerStatus](KmlLayerStatus.md),
+  - [KmlMouseEvent](KmlMouseEvent.md),
+  - [KmlFeatureData](KmlFeatureData.md),
+  - [KmlAuthor](KmlAuthor.md)
 #### DOM elements
 
   - [OverlayView](OverlayView.md),
@@ -216,15 +218,13 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [GroundOverlayOptions](GroundOverlayOptions.md),
   - [StyledMapType](StyledMapType.md),
   - [StyledMapTypeOptions](StyledMapTypeOptions.md)
-#### KML
+#### Drawing Library
 
-  - [KmlLayer](KmlLayer.md),
-  - [KmlLayerOptions](KmlLayerOptions.md),
-  - [KmlLayerMetadata](KmlLayerMetadata.md),
-  - [KmlLayerStatus](KmlLayerStatus.md),
-  - [KmlMouseEvent](KmlMouseEvent.md),
-  - [KmlFeatureData](KmlFeatureData.md),
-  - [KmlAuthor](KmlAuthor.md)
+  - [DrawingManager](DrawingManager.md),
+  - [DrawingManagerOptions](DrawingManagerOptions.md),
+  - [DrawingControlOptions](DrawingControlOptions.md),
+  - [OverlayCompleteEvent](OverlayCompleteEvent.md),
+  - [OverlayType](OverlayType.md)
 #### Data
 
   - [Data](Data.md),
@@ -249,6 +249,10 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Data.SetGeometryEvent](Data.SetGeometryEvent.md),
   - [Data.SetPropertyEvent](Data.SetPropertyEvent.md),
   - [Data.RemovePropertyEvent](Data.RemovePropertyEvent.md)
+#### Info Window
+
+  - [InfoWindow](InfoWindow.md),
+  - [InfoWindowOptions](InfoWindowOptions.md)
 #### Polygons
 
   - [Polyline](Polyline.md),
@@ -262,10 +266,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Circle](Circle.md),
   - [CircleOptions](CircleOptions.md),
   - [StrokePosition](StrokePosition.md)
-#### Info Window
-
-  - [InfoWindow](InfoWindow.md),
-  - [InfoWindowOptions](InfoWindowOptions.md)
 #### Marker
 
   - [Marker](Marker.md),

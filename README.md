@@ -23,20 +23,12 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
 
 ### Table of Contents
 
-#### Maps
+#### Event system
 
-  - [Map](docs/Map.md),
-  - [MapOptions](docs/MapOptions.md),
-  - [MapTypeStyle](docs/MapTypeStyle.md),
-  - [MouseEvent](docs/MouseEvent.md),
-  - [IconMouseEvent](docs/IconMouseEvent.md),
-  - [MapTypeId](docs/MapTypeId.md),
-  - [MapTypeRegistry](docs/MapTypeRegistry.md),
-  - [MapRestriction](docs/MapRestriction.md),
-  - [TrafficLayer](docs/TrafficLayer.md),
-  - [TrafficLayerOptions](docs/TrafficLayerOptions.md),
-  - [TransitLayer](docs/TransitLayer.md),
-  - [BicyclingLayer](docs/BicyclingLayer.md)
+  - [event](docs/event.md),
+  - [MapsEventListener](docs/MapsEventListener.md),
+  - [MVCObject](docs/MVCObject.md),
+  - [MVCArray](docs/MVCArray.md)
 #### Controls
 
   - [FullscreenControlOptions](docs/FullscreenControlOptions.md),
@@ -60,19 +52,20 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Size](docs/Size.md),
   - [Padding](docs/Padding.md),
   - [CircleLiteral](docs/CircleLiteral.md)
-#### Event system
+#### Maps
 
-  - [event](docs/event.md),
-  - [MapsEventListener](docs/MapsEventListener.md),
-  - [MVCObject](docs/MVCObject.md),
-  - [MVCArray](docs/MVCArray.md)
-#### Elevation
-
-  - [ElevationService](docs/ElevationService.md),
-  - [LocationElevationRequest](docs/LocationElevationRequest.md),
-  - [PathElevationRequest](docs/PathElevationRequest.md),
-  - [ElevationResult](docs/ElevationResult.md),
-  - [ElevationStatus](docs/ElevationStatus.md)
+  - [Map](docs/Map.md),
+  - [MapOptions](docs/MapOptions.md),
+  - [MapTypeStyle](docs/MapTypeStyle.md),
+  - [MouseEvent](docs/MouseEvent.md),
+  - [IconMouseEvent](docs/IconMouseEvent.md),
+  - [MapTypeId](docs/MapTypeId.md),
+  - [MapTypeRegistry](docs/MapTypeRegistry.md),
+  - [MapRestriction](docs/MapRestriction.md),
+  - [TrafficLayer](docs/TrafficLayer.md),
+  - [TrafficLayerOptions](docs/TrafficLayerOptions.md),
+  - [TransitLayer](docs/TransitLayer.md),
+  - [BicyclingLayer](docs/BicyclingLayer.md)
 #### Distance Matrix
 
   - [DistanceMatrixService](docs/DistanceMatrixService.md),
@@ -82,6 +75,13 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [DistanceMatrixResponseElement](docs/DistanceMatrixResponseElement.md),
   - [DistanceMatrixStatus](docs/DistanceMatrixStatus.md),
   - [DistanceMatrixElementStatus](docs/DistanceMatrixElementStatus.md)
+#### Elevation
+
+  - [ElevationService](docs/ElevationService.md),
+  - [LocationElevationRequest](docs/LocationElevationRequest.md),
+  - [PathElevationRequest](docs/PathElevationRequest.md),
+  - [ElevationResult](docs/ElevationResult.md),
+  - [ElevationStatus](docs/ElevationStatus.md)
 #### Directions
 
   - [DirectionsService](docs/DirectionsService.md),
@@ -113,16 +113,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Distance](docs/Distance.md),
   - [Duration](docs/Duration.md),
   - [Time](docs/Time.md)
-#### Geocoder
-
-  - [Geocoder](docs/Geocoder.md),
-  - [GeocoderRequest](docs/GeocoderRequest.md),
-  - [GeocoderComponentRestrictions](docs/GeocoderComponentRestrictions.md),
-  - [GeocoderStatus](docs/GeocoderStatus.md),
-  - [GeocoderResult](docs/GeocoderResult.md),
-  - [GeocoderAddressComponent](docs/GeocoderAddressComponent.md),
-  - [GeocoderGeometry](docs/GeocoderGeometry.md),
-  - [GeocoderLocationType](docs/GeocoderLocationType.md)
 #### Places Autocomplete Service
 
   - [AutocompleteService](docs/AutocompleteService.md),
@@ -158,6 +148,16 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [PlacePhoto](docs/PlacePhoto.md),
   - [PhotoOptions](docs/PhotoOptions.md),
   - [PlaceReview](docs/PlaceReview.md)
+#### Geocoder
+
+  - [Geocoder](docs/Geocoder.md),
+  - [GeocoderRequest](docs/GeocoderRequest.md),
+  - [GeocoderComponentRestrictions](docs/GeocoderComponentRestrictions.md),
+  - [GeocoderStatus](docs/GeocoderStatus.md),
+  - [GeocoderResult](docs/GeocoderResult.md),
+  - [GeocoderAddressComponent](docs/GeocoderAddressComponent.md),
+  - [GeocoderGeometry](docs/GeocoderGeometry.md),
+  - [GeocoderLocationType](docs/GeocoderLocationType.md)
 #### Places Widgets
 
   - [Autocomplete](docs/Autocomplete.md),
@@ -184,23 +184,25 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [StreetViewTileData](docs/StreetViewTileData.md),
   - [StreetViewPov](docs/StreetViewPov.md),
   - [StreetViewCoverageLayer](docs/StreetViewCoverageLayer.md)
-#### Max Zoom
-
-  - [MaxZoomService](docs/MaxZoomService.md),
-  - [MaxZoomResult](docs/MaxZoomResult.md),
-  - [MaxZoomStatus](docs/MaxZoomStatus.md)
 #### Heatmaps
 
   - [HeatmapLayer](docs/HeatmapLayer.md),
   - [HeatmapLayerOptions](docs/HeatmapLayerOptions.md),
   - [WeightedLocation](docs/WeightedLocation.md)
-#### Drawing Library
+#### Max Zoom
 
-  - [DrawingManager](docs/DrawingManager.md),
-  - [DrawingManagerOptions](docs/DrawingManagerOptions.md),
-  - [DrawingControlOptions](docs/DrawingControlOptions.md),
-  - [OverlayCompleteEvent](docs/OverlayCompleteEvent.md),
-  - [OverlayType](docs/OverlayType.md)
+  - [MaxZoomService](docs/MaxZoomService.md),
+  - [MaxZoomResult](docs/MaxZoomResult.md),
+  - [MaxZoomStatus](docs/MaxZoomStatus.md)
+#### KML
+
+  - [KmlLayer](docs/KmlLayer.md),
+  - [KmlLayerOptions](docs/KmlLayerOptions.md),
+  - [KmlLayerMetadata](docs/KmlLayerMetadata.md),
+  - [KmlLayerStatus](docs/KmlLayerStatus.md),
+  - [KmlMouseEvent](docs/KmlMouseEvent.md),
+  - [KmlFeatureData](docs/KmlFeatureData.md),
+  - [KmlAuthor](docs/KmlAuthor.md)
 #### DOM elements
 
   - [OverlayView](docs/OverlayView.md),
@@ -216,15 +218,13 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [GroundOverlayOptions](docs/GroundOverlayOptions.md),
   - [StyledMapType](docs/StyledMapType.md),
   - [StyledMapTypeOptions](docs/StyledMapTypeOptions.md)
-#### KML
+#### Drawing Library
 
-  - [KmlLayer](docs/KmlLayer.md),
-  - [KmlLayerOptions](docs/KmlLayerOptions.md),
-  - [KmlLayerMetadata](docs/KmlLayerMetadata.md),
-  - [KmlLayerStatus](docs/KmlLayerStatus.md),
-  - [KmlMouseEvent](docs/KmlMouseEvent.md),
-  - [KmlFeatureData](docs/KmlFeatureData.md),
-  - [KmlAuthor](docs/KmlAuthor.md)
+  - [DrawingManager](docs/DrawingManager.md),
+  - [DrawingManagerOptions](docs/DrawingManagerOptions.md),
+  - [DrawingControlOptions](docs/DrawingControlOptions.md),
+  - [OverlayCompleteEvent](docs/OverlayCompleteEvent.md),
+  - [OverlayType](docs/OverlayType.md)
 #### Data
 
   - [Data](docs/Data.md),
@@ -249,6 +249,10 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Data.SetGeometryEvent](docs/Data.SetGeometryEvent.md),
   - [Data.SetPropertyEvent](docs/Data.SetPropertyEvent.md),
   - [Data.RemovePropertyEvent](docs/Data.RemovePropertyEvent.md)
+#### Info Window
+
+  - [InfoWindow](docs/InfoWindow.md),
+  - [InfoWindowOptions](docs/InfoWindowOptions.md)
 #### Polygons
 
   - [Polyline](docs/Polyline.md),
@@ -262,10 +266,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Circle](docs/Circle.md),
   - [CircleOptions](docs/CircleOptions.md),
   - [StrokePosition](docs/StrokePosition.md)
-#### Info Window
-
-  - [InfoWindow](docs/InfoWindow.md),
-  - [InfoWindowOptions](docs/InfoWindowOptions.md)
 #### Marker
 
   - [Marker](docs/Marker.md),
