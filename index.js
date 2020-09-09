@@ -4,7 +4,7 @@ const Promise = require('bluebird'),
   path = require('path'),
   chalk = require('chalk'),
   argv = require('minimist')(process.argv.slice(2));
-process.env.DRY_RUN = process.env.DRY_RUN || argv.dry_run;
+const ghpages = require('gh-pages');
 
 const debug = require('debug')('gmd:scraper'),
   puppeteer = require('puppeteer'),
@@ -15,7 +15,12 @@ const debug = require('debug')('gmd:scraper'),
   parseSubPage = require(path.resolve(`${__dirname}/lib/parse_subpage.js`)),
   turndownService = new TurndownService(),
   execShPromise = require('exec-sh').promise;
-
+const DRY_RUN = process.env.DRY_RUN || argv.dry_run;
+debug({
+  dry_run: argv.dry_run,
+  processDRY_RUN: process.env.DRY_RUN,
+  DRY_RUN,
+});
 /*var exec = require('child_process').exec;
 function execute(command, callback){
     exec(command, function(error, stdout, stderr){ callback(stdout); });
@@ -41,9 +46,38 @@ async function commit(sentence) {
 let baseUrl = `https://huasofoundries.github.io/google-maps-documentation`,
   version_history = require('./version_history.json'),
   last_update_entry = require('./version_last_update.json'),
+  commitMsg = `Version ${last_update_entry.version}, last updated on ${last_update_entry.last_update}`,
   lastversion;
 
-async function writeDocsAndDumps(tableOfContents, linksObj, docLinks) {
+async function writeDocsAndDumps(browser, linksObj, docLinks) {
+  let tableOfContents = `
+
+### Last Update
+
+${commitMsg}.
+
+### Table of Contents
+`;
+  await Promise.map(
+    linksObj.links,
+    (link) => {
+      return parseSection({link, browser, linksObj, docLinks})
+        .then((sectionContent) => {
+          tableOfContents += sectionContent;
+          return;
+        })
+        .catch((err) => {
+          debug('error parsing subpage', link, err);
+          return;
+        });
+    },
+
+    {concurrency: 4}
+  ).catch((err) => {
+    debug('error parsing subpages', err);
+    return;
+  });
+
   let readmeBuffer = await fs.readFileAsync(
       path.resolve(`${__dirname}/README.md`)
     ),
@@ -62,59 +96,77 @@ async function writeDocsAndDumps(tableOfContents, linksObj, docLinks) {
     {filePath: path.resolve(`${__dirname}/README.md`), content: readmeString},
     {
       filePath: path.resolve(`${__dirname}/docs/README.md`),
-      content: docsReadme
+      content: docsReadme,
     },
     {filePath: path.resolve(`${__dirname}/docs/index.md`), content: indexMd},
     {
       filePath: path.resolve(`${__dirname}/links.json`),
-      content: JSON.stringify(linksObj, null, 4)
+      content: JSON.stringify(linksObj, null, 4),
     },
     {
       filePath: path.resolve(`${__dirname}/docLinks.json`),
-      content: JSON.stringify(docLinks, null, 4)
-    }
-  ].map(pair => {
+      content: JSON.stringify(docLinks, null, 4),
+    },
+  ].map((pair) => {
     return fs.writeFileAsync(pair.filePath, pair.content, 'utf-8');
+  });
+}
+async function parseSection({link, browser, linksObj, docLinks}) {
+  let sectionContent = `
+#### ${link.title}
+`;
+  sectionContent += (link.children || []).map((child) => {
+    return `
+  - [${child.title}](docs/${child.title}.md)`;
+  });
+
+  return parseSubPage({link, browser, linksObj, docLinks}).then(() => {
+    let parsed = _.omit(link, ['children']);
+    parsed.children = link.children.length;
+    debug(
+      `parsed subpage ${chalk.bold.blue(link.title)} with ${chalk.bold.white(
+        parsed.children
+      )} sections`
+    );
+    return sectionContent;
   });
 }
 async function startParsing() {
   console.log(`Starting scraper at ${new Date().toISOString()}`);
   let docLinks = {};
 
-  const browser = await puppeteer.launch({
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  });
+  let {last_update_text, last_version, links, linksObj} = await getMainPage(
+    process.env.VERSION || ''
+  );
 
-  let {
-      last_update_text,
-      last_version,
-      links,
-      linksObj,
-      page
-    } = await getMainPage(browser),
-    last_update = last_update_text.replace('Last updated', '').trim(),
+  let last_update = last_update_text.replace('Last updated', '').trim(),
     last_date = new Date(last_update).toISOString().split('T')[0],
     current_data = {
       version: last_version,
       last_update,
-      last_date
+      last_date,
     };
 
   debug(`parsing ${chalk.green(links.length)} links`, {
     waitingfor: 'parse subpages',
     current_data,
-    last_update_entry
+    last_update_entry,
+    isNewerVersion: current_data.version > last_update_entry.version,
+    isNewerDate: current_data.last_date > last_update_entry.last_date,
+    DRY_RUN,
   });
-  await page.waitFor(4000);
-  await page.close();
 
   if (
-    !process.env.DRY_RUN &&
+    !DRY_RUN &&
     (current_data.version > last_update_entry.version ||
       current_data.last_date > last_update_entry.last_date)
   ) {
-    debug(`${chalk.red('Detected updates')}, will push to version history`);
-    version_history.push(current_data);
+    console.log(
+      `${chalk.red('Detected updates')}, will push to version history`
+    );
+    version_history = version_history
+      .filter((entry) => entry.version !== current_data.version)
+      .concat(current_data);
     await fs.writeFileAsync(
       'version_history.json',
       JSON.stringify(version_history, null, 4),
@@ -126,56 +178,18 @@ async function startParsing() {
       'utf-8'
     );
   }
-  if (
-    !process.env.DRY_RUN &&
-    current_data.version > last_update_entry.version
-  ) {
+  if (argv.short) {
+    return;
+  }
+  if (!DRY_RUN && current_data.version > last_update_entry.version) {
     await commit(`git tag v${last_update_entry.version}`);
   }
-  let commitMsg = `Version ${current_data.version}, last updated on ${current_data.last_update}`;
 
-  let tableOfContents = `
-
-### Last Update
-
-${commitMsg}.
-
-### Table of Contents
-`;
-  await Promise.map(
-    links,
-    link => {
-      tableOfContents += `
-#### ${link.title}
-`;
-      tableOfContents += (link.children || []).map(child => {
-        return `
-  - [${child.title}](docs/${child.title}.md)`;
-      });
-
-      return parseSubPage({link, browser, linksObj, docLinks})
-        .then(() => {
-          let parsed = _.omit(link, ['children']);
-          parsed.children = link.children.length;
-          debug(
-            `parsed subpage ${chalk.bold.blue(
-              link.title
-            )} with ${chalk.bold.white(parsed.children)} sections`
-          );
-          return;
-        })
-        .catch(err => {
-          debug('error parsing subpage', link, err);
-          return;
-        });
-    },
-    {concurrency: 4}
-  ).catch(err => {
-    debug('error parsing subpages', err);
-    return;
+  const browser = await puppeteer.launch({
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
 
-  await writeDocsAndDumps(tableOfContents, linksObj, docLinks);
+  await writeDocsAndDumps(browser, linksObj, docLinks);
   if (!process.env.DRY_RUN) {
     await commit(`git push --tags`);
     await commit(`git add --all`);
@@ -198,14 +212,26 @@ ${commitMsg}.
 if (require.main === module) {
   let t_ini = Date.now();
   if (argv.gh_pages) {
-    const ghpages = require('gh-pages');
+    //console.log({last_update_entry});
 
-    ghpages.publish('html', () => {
-      debug('published');
-      console.log(chalk.green('will exit now'));
-      process.exit();
+    return new Promise((resolve, reject) => {
+      ghpages.publish(
+        'html',
+        {message: commitMsg, tag: `v${last_update_entry.version}`, add: true},
+        ({err, result}) => {
+          if (err) {
+            reject(err);
+          } else {
+            debug('published');
+            console.log(chalk.green('will exit now'));
+            resolve(result);
+            process.exit();
+          }
+        }
+      );
     });
   }
+
   if (argv.crawl) {
     startParsing()
       .then(() => {
@@ -213,7 +239,7 @@ if (require.main === module) {
         console.log(`process finished in ${chalk.yellow(total_time)} seconds`);
         return process.exit();
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(`${chalk.red('error')}`, err.message);
         return process.exit();
       });

@@ -7,18 +7,17 @@
     "doc": "docs"
   },
   "scripts": {
-    "clean": "rm html/*.md ",
+    "clean": "rm -rf html/*.md ",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "yarn clean && yarn crawl && yarn push_master ",
     "crawl": "DEBUG=gmd:* node index.js --crawl",
-    "gh_pages":"DEBUG=gmd:* node index.js --gh_pages",
+    "gh_pages": "DEBUG=gmd:* NODE_DEBUG=gh-pages node index.js --gh_pages",
     "push_master": "git checkout master && rm -rf docs/*.md && cp html/*.md docs/ && yarn add_script_to_docs && yarn commit_master && git checkout develop",
     "dry": "yarn clean  && DEBUG=gmd:* node index.js --dry_run --crawl",
     "add_script_to_docs": "for f in ./html/*.md; do echo '<script src=\"replace_links.js\"></script>' >> \"$f\" ; done",
     "commit_master": "git checkout develop docs/index.md && git checkout develop docs/README.md && yarn commit_message && git push -f",
     "commit_message": "git add --all && git commit -am \"docs for `git log --format=%B -n 1 develop | head -1`\" || true ",
-    "generate_pages": "for f in ./docs/*.md; do DESTINATION=`echo $f | sed 's/docs//dist//g' && cp $f $DESTINATION && echo '<script src=\"replace_links.js\"></script>' >> \"$DESTINATION\" ; done",
-    "to_markdown": "DEBUG=gmd:* node html2md.js"
+    "to_markdown": "DEBUG=gmd:* node lib/html2md.js"
   },
   "repository": {
     "type": "git",
@@ -43,17 +42,22 @@
     "exec-sh": "^0.3.0",
     "find": "^0.3.0",
     "gh-pages": "^2.2.0",
+    "js-beautify": "^1.10.3",
+    "jsdom": "^16.2.1",
     "lodash": "^4.17.15",
     "minimist": "^1.2.5",
     "progress": "^2.0.3",
     "puppeteer": "^2.1.1",
+    "showdown": "^1.9.1",
     "turndown": "^5.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "cheerio": "^1.0.0-rc.3",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
+    "node-fetch": "^2.6.1",
     "prettier": "^1.19.1"
   }
 }

@@ -23,20 +23,19 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
 
 ### Table of Contents
 
-#### Maps
+#### Controls
 
-  - [Map](docs/Map.md),
-  - [MapOptions](docs/MapOptions.md),
-  - [MapTypeStyle](docs/MapTypeStyle.md),
-  - [MouseEvent](docs/MouseEvent.md),
-  - [IconMouseEvent](docs/IconMouseEvent.md),
-  - [MapTypeId](docs/MapTypeId.md),
-  - [MapTypeRegistry](docs/MapTypeRegistry.md),
-  - [MapRestriction](docs/MapRestriction.md),
-  - [TrafficLayer](docs/TrafficLayer.md),
-  - [TrafficLayerOptions](docs/TrafficLayerOptions.md),
-  - [TransitLayer](docs/TransitLayer.md),
-  - [BicyclingLayer](docs/BicyclingLayer.md)
+  - [FullscreenControlOptions](docs/FullscreenControlOptions.md),
+  - [MapTypeControlOptions](docs/MapTypeControlOptions.md),
+  - [MapTypeControlStyle](docs/MapTypeControlStyle.md),
+  - [MotionTrackingControlOptions](docs/MotionTrackingControlOptions.md),
+  - [PanControlOptions](docs/PanControlOptions.md),
+  - [RotateControlOptions](docs/RotateControlOptions.md),
+  - [ScaleControlOptions](docs/ScaleControlOptions.md),
+  - [ScaleControlStyle](docs/ScaleControlStyle.md),
+  - [StreetViewControlOptions](docs/StreetViewControlOptions.md),
+  - [ZoomControlOptions](docs/ZoomControlOptions.md),
+  - [ControlPosition](docs/ControlPosition.md)
 #### Coordinates
 
   - [LatLng](docs/LatLng.md),
@@ -53,19 +52,6 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [MapsEventListener](docs/MapsEventListener.md),
   - [MVCObject](docs/MVCObject.md),
   - [MVCArray](docs/MVCArray.md)
-#### Controls
-
-  - [FullscreenControlOptions](docs/FullscreenControlOptions.md),
-  - [MapTypeControlOptions](docs/MapTypeControlOptions.md),
-  - [MapTypeControlStyle](docs/MapTypeControlStyle.md),
-  - [MotionTrackingControlOptions](docs/MotionTrackingControlOptions.md),
-  - [PanControlOptions](docs/PanControlOptions.md),
-  - [RotateControlOptions](docs/RotateControlOptions.md),
-  - [ScaleControlOptions](docs/ScaleControlOptions.md),
-  - [ScaleControlStyle](docs/ScaleControlStyle.md),
-  - [StreetViewControlOptions](docs/StreetViewControlOptions.md),
-  - [ZoomControlOptions](docs/ZoomControlOptions.md),
-  - [ControlPosition](docs/ControlPosition.md)
 #### Elevation
 
   - [ElevationService](docs/ElevationService.md),
@@ -73,6 +59,20 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [PathElevationRequest](docs/PathElevationRequest.md),
   - [ElevationResult](docs/ElevationResult.md),
   - [ElevationStatus](docs/ElevationStatus.md)
+#### Maps
+
+  - [Map](docs/Map.md),
+  - [MapOptions](docs/MapOptions.md),
+  - [MapTypeStyle](docs/MapTypeStyle.md),
+  - [MouseEvent](docs/MouseEvent.md),
+  - [IconMouseEvent](docs/IconMouseEvent.md),
+  - [MapTypeId](docs/MapTypeId.md),
+  - [MapTypeRegistry](docs/MapTypeRegistry.md),
+  - [MapRestriction](docs/MapRestriction.md),
+  - [TrafficLayer](docs/TrafficLayer.md),
+  - [TrafficLayerOptions](docs/TrafficLayerOptions.md),
+  - [TransitLayer](docs/TransitLayer.md),
+  - [BicyclingLayer](docs/BicyclingLayer.md)
 #### Distance Matrix
 
   - [DistanceMatrixService](docs/DistanceMatrixService.md),
@@ -149,6 +149,7 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [PlaceSearchPagination](docs/PlaceSearchPagination.md),
   - [PlaceResult](docs/PlaceResult.md),
   - [PlaceAspectRating](docs/PlaceAspectRating.md),
+  - [BusinessStatus](docs/BusinessStatus.md),
   - [PlaceGeometry](docs/PlaceGeometry.md),
   - [PlaceOpeningHours](docs/PlaceOpeningHours.md),
   - [PlaceOpeningHoursPeriod](docs/PlaceOpeningHoursPeriod.md),
@@ -200,16 +201,6 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [DrawingControlOptions](docs/DrawingControlOptions.md),
   - [OverlayCompleteEvent](docs/OverlayCompleteEvent.md),
   - [OverlayType](docs/OverlayType.md)
-#### Image overlays
-
-  - [MapType](docs/MapType.md),
-  - [Projection](docs/Projection.md),
-  - [ImageMapType](docs/ImageMapType.md),
-  - [ImageMapTypeOptions](docs/ImageMapTypeOptions.md),
-  - [GroundOverlay](docs/GroundOverlay.md),
-  - [GroundOverlayOptions](docs/GroundOverlayOptions.md),
-  - [StyledMapType](docs/StyledMapType.md),
-  - [StyledMapTypeOptions](docs/StyledMapTypeOptions.md)
 #### KML
 
   - [KmlLayer](docs/KmlLayer.md),
@@ -219,11 +210,6 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [KmlMouseEvent](docs/KmlMouseEvent.md),
   - [KmlFeatureData](docs/KmlFeatureData.md),
   - [KmlAuthor](docs/KmlAuthor.md)
-#### DOM elements
-
-  - [OverlayView](docs/OverlayView.md),
-  - [MapPanes](docs/MapPanes.md),
-  - [MapCanvasProjection](docs/MapCanvasProjection.md)
 #### Data
 
   - [Data](docs/Data.md),
@@ -248,6 +234,21 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [Data.SetGeometryEvent](docs/Data.SetGeometryEvent.md),
   - [Data.SetPropertyEvent](docs/Data.SetPropertyEvent.md),
   - [Data.RemovePropertyEvent](docs/Data.RemovePropertyEvent.md)
+#### DOM elements
+
+  - [OverlayView](docs/OverlayView.md),
+  - [MapPanes](docs/MapPanes.md),
+  - [MapCanvasProjection](docs/MapCanvasProjection.md)
+#### Image overlays
+
+  - [MapType](docs/MapType.md),
+  - [Projection](docs/Projection.md),
+  - [ImageMapType](docs/ImageMapType.md),
+  - [ImageMapTypeOptions](docs/ImageMapTypeOptions.md),
+  - [GroundOverlay](docs/GroundOverlay.md),
+  - [GroundOverlayOptions](docs/GroundOverlayOptions.md),
+  - [StyledMapType](docs/StyledMapType.md),
+  - [StyledMapTypeOptions](docs/StyledMapTypeOptions.md)
 #### Polygons
 
   - [Polyline](docs/Polyline.md),
