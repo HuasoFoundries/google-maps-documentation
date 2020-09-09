@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/KmlLayerMetadata.html)
 
-
 KmlLayerMetadata interface
 --------------------------
 
@@ -10,31 +9,31 @@ Metadata for a single KML layer, in JSON format.
 
 Properties
 
-[author](#KmlLayerMetadata.author)
+[undefined](#KmlLayerMetadata.author)
 
-**Type:**  [KmlAuthor](KmlAuthor.md)
+**Type:**  [KmlAuthor](/maps/documentation/javascript/reference/3.40/kml#KmlAuthor)
 
 The layer's <atom:author>, extracted from the layer markup.
 
-[description](#KmlLayerMetadata.description)
+[undefined](#KmlLayerMetadata.description)
 
 **Type:**  string
 
 The layer's <description>, extracted from the layer markup.
 
-[hasScreenOverlays](#KmlLayerMetadata.hasScreenOverlays)
+[undefined](#KmlLayerMetadata.hasScreenOverlays)
 
 **Type:**  boolean
 
 Whether the layer has any screen overlays.
 
-[name](#KmlLayerMetadata.name)
+[undefined](#KmlLayerMetadata.name)
 
 **Type:**  string
 
 The layer's <name>, extracted from the layer markup.
 
-[snippet](#KmlLayerMetadata.snippet)
+[undefined](#KmlLayerMetadata.snippet)
 
 **Type:**  string
 

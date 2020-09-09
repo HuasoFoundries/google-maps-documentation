@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.Feature.html)
 
-
 Data.Feature class
 ------------------
 
@@ -10,19 +9,19 @@ A feature has a geometry, an id, and a set of properties.
 
 Constructor
 
-[Data.Feature](#Data.Feature.constructor)
+[undefined](#Data.Feature.constructor)
 
 Data.Feature(\[options\])
 
 **Parameters:** 
 
-*   options:  [Data.FeatureOptions](Data.FeatureOptions.md) optional
+*   options:  [Data.FeatureOptions](Data.md) optional
 
 Constructs a Feature with the given options.
 
 Methods
 
-[forEachProperty](#Data.Feature.forEachProperty)
+[undefined](#Data.Feature.forEachProperty)
 
 forEachProperty(callback)
 
@@ -34,17 +33,17 @@ forEachProperty(callback)
 
 Repeatedly invokes the given function, passing a property value and name on each invocation. The order of iteration through the properties is undefined.
 
-[getGeometry](#Data.Feature.getGeometry)
+[undefined](#Data.Feature.getGeometry)
 
 getGeometry()
 
 **Parameters:**  None
 
-**Return Value:**  [Data.Geometry](Data.Geometry.md)
+**Return Value:**  [Data.Geometry](Data.md)
 
 Returns the feature's geometry.
 
-[getId](#Data.Feature.getId)
+[undefined](#Data.Feature.getId)
 
 getId()
 
@@ -54,7 +53,7 @@ getId()
 
 Returns the feature ID.
 
-[getProperty](#Data.Feature.getProperty)
+[undefined](#Data.Feature.getProperty)
 
 getProperty(name)
 
@@ -66,7 +65,7 @@ getProperty(name)
 
 Returns the value of the requested property, or undefined if the property does not exist.
 
-[removeProperty](#Data.Feature.removeProperty)
+[undefined](#Data.Feature.removeProperty)
 
 removeProperty(name)
 
@@ -78,19 +77,19 @@ removeProperty(name)
 
 Removes the property with the given name.
 
-[setGeometry](#Data.Feature.setGeometry)
+[undefined](#Data.Feature.setGeometry)
 
 setGeometry(newGeometry)
 
 **Parameters:** 
 
-*   newGeometry:  [Data.Geometry](Data.Geometry.md)|[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
+*   newGeometry:  [Data.Geometry](Data.md)|[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)
 
 **Return Value:**  None
 
 Sets the feature's geometry.
 
-[setProperty](#Data.Feature.setProperty)
+[undefined](#Data.Feature.setProperty)
 
 setProperty(name, newValue)
 
@@ -103,7 +102,7 @@ setProperty(name, newValue)
 
 Sets the value of the specified property. If newValue is undefined this is equivalent to calling removeProperty.
 
-[toGeoJson](#Data.Feature.toGeoJson)
+[undefined](#Data.Feature.toGeoJson)
 
 toGeoJson(callback)
 
@@ -117,32 +116,32 @@ Exports the feature to a GeoJSON object.
 
 Events
 
-[removeproperty](#Data.Feature.removeproperty)
+[undefined](#Data.Feature.removeproperty)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.RemovePropertyEvent](Data.RemovePropertyEvent.md)
+*   event:  [Data.RemovePropertyEvent](Data.md)
 
 This event is triggered when a feature's property is removed.
 
-[setgeometry](#Data.Feature.setgeometry)
+[undefined](#Data.Feature.setgeometry)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.SetGeometryEvent](Data.SetGeometryEvent.md)
+*   event:  [Data.SetGeometryEvent](Data.md)
 
 This event is triggered when a feature's geometry is set.
 
-[setproperty](#Data.Feature.setproperty)
+[undefined](#Data.Feature.setproperty)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.SetPropertyEvent](Data.SetPropertyEvent.md)
+*   event:  [Data.SetPropertyEvent](Data.md)
 
 This event is triggered when a feature's property is set.

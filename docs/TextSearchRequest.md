@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TextSearchRequest.html)
 
-
 TextSearchRequest interface
 ---------------------------
 
@@ -14,31 +13,31 @@ places
 
 Properties
 
-[bounds](#TextSearchRequest.bounds)
+[undefined](#TextSearchRequest.bounds)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md) optional
+**Type:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)|[LatLngBoundsLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBoundsLiteral) optional
 
 Bounds used to bias results when searching for Places (optional). Both location and radius will be ignored if bounds is set. Results will not be restricted to those inside these bounds; but, results inside it will rank higher.
 
-[location](#TextSearchRequest.location)
+[undefined](#TextSearchRequest.location)
 
-**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md) optional
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral) optional
 
 The center of the area used to bias results when searching for Places.
 
-[query](#TextSearchRequest.query)
+[undefined](#TextSearchRequest.query)
 
 **Type:**  string optional
 
 The request's query term. For example, the name of a place ('Eiffel Tower'), a category followed by the name of a location ('pizza in New York'), or the name of a place followed by a location disambiguator ('Starbucks in Sydney').
 
-[radius](#TextSearchRequest.radius)
+[undefined](#TextSearchRequest.radius)
 
 **Type:**  number optional
 
 The radius of the area used to bias results when searching for Places, in meters.
 
-[type](#TextSearchRequest.type)
+[undefined](#TextSearchRequest.type)
 
 **Type:**  string optional
 

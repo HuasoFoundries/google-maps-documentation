@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/poly.html)
 
-
 poly namespace
 --------------
 
@@ -14,27 +13,27 @@ geometry
 
 Static Methods
 
-[containsLocation](#poly.containsLocation)
+[undefined](#poly.containsLocation)
 
 containsLocation(point, polygon)
 
 **Parameters:** 
 
-*   point:  [LatLng](LatLng.md)
-*   polygon:  [Polygon](Polygon.md)
+*   point:  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
+*   polygon:  [Polygon](/maps/documentation/javascript/reference/3.40/polygon#Polygon)
 
 **Return Value:**  boolean
 
 Computes whether the given point lies inside the specified polygon.
 
-[isLocationOnEdge](#poly.isLocationOnEdge)
+[undefined](#poly.isLocationOnEdge)
 
 isLocationOnEdge(point, poly\[, tolerance\])
 
 **Parameters:** 
 
-*   point:  [LatLng](LatLng.md)
-*   poly:  [Polygon](Polygon.md)|[Polyline](Polyline.md)
+*   point:  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
+*   poly:  [Polygon](/maps/documentation/javascript/reference/3.40/polygon#Polygon)|[Polyline](/maps/documentation/javascript/reference/3.40/polygon#Polyline)
 *   tolerance:  number optional
 
 **Return Value:**  boolean

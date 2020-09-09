@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StyledMapType.html)
 
-
 StyledMapType class
 -------------------
 
@@ -8,38 +7,38 @@ google.maps.StyledMapType class
 
 Creates a MapType with a custom style.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
-This class implements [MapType](MapType.md).
+This class implements [MapType](/maps/documentation/javascript/reference/3.40/image-overlay#MapType).
 
 Constructor
 
-[StyledMapType](#StyledMapType.constructor)
+[undefined](#StyledMapType.constructor)
 
 StyledMapType(styles\[, options\])
 
 **Parameters:** 
 
-*   styles:  Array<[MapTypeStyle](MapTypeStyle.md)\>
-*   options:  [StyledMapTypeOptions](StyledMapTypeOptions.md) optional
+*   styles:  Array<[MapTypeStyle](/maps/documentation/javascript/reference/3.40/map#MapTypeStyle)\>
+*   options:  [StyledMapTypeOptions](/maps/documentation/javascript/reference/3.40/image-overlay#StyledMapTypeOptions) optional
 
 Creates a styled MapType with the specified options. The StyledMapType takes an array of MapTypeStyles, where each MapTypeStyle is applied to the map consecutively. A later MapTypeStyle that applies the same MapTypeStylers to the same selectors as an earlier MapTypeStyle will override the earlier MapTypeStyle.
 
 Methods
 
-[getTile](#StyledMapType.getTile)
+[undefined](#StyledMapType.getTile)
 
 getTile(tileCoord, zoom, ownerDocument)
 
 **Parameters:** 
 
-*   tileCoord:  [Point](Point.md)
+*   tileCoord:  [Point](/maps/documentation/javascript/reference/3.40/coordinates#Point)
 *   zoom:  number
 *   ownerDocument:  Document
 
 **Return Value:**  Node
 
-[releaseTile](#StyledMapType.releaseTile)
+[undefined](#StyledMapType.releaseTile)
 
 releaseTile(tile)
 
@@ -51,30 +50,30 @@ releaseTile(tile)
 
 Properties
 
-[alt](#StyledMapType.alt)
+[undefined](#StyledMapType.alt)
 
 **Type:**  string
 
-[maxZoom](#StyledMapType.maxZoom)
+[undefined](#StyledMapType.maxZoom)
 
 **Type:**  number
 
-[minZoom](#StyledMapType.minZoom)
+[undefined](#StyledMapType.minZoom)
 
 **Type:**  number
 
-[name](#StyledMapType.name)
+[undefined](#StyledMapType.name)
 
 **Type:**  string
 
-[projection](#StyledMapType.projection)
+[undefined](#StyledMapType.projection)
 
-**Type:**  [Projection](Projection.md)
+**Type:**  [Projection](/maps/documentation/javascript/reference/3.40/image-overlay#Projection)
 
-[radius](#StyledMapType.radius)
+[undefined](#StyledMapType.radius)
 
 **Type:**  number
 
-[tileSize](#StyledMapType.tileSize)
+[undefined](#StyledMapType.tileSize)
 
-**Type:**  [Size](Size.md)
+**Type:**  [Size](/maps/documentation/javascript/reference/3.40/coordinates#Size)

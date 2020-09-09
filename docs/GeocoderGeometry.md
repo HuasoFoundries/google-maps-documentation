@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/GeocoderGeometry.html)
 
-
 GeocoderGeometry interface
 --------------------------
 
@@ -10,26 +9,26 @@ Geometry information about this GeocoderResult
 
 Properties
 
-[bounds](#GeocoderGeometry.bounds)
+[undefined](#GeocoderGeometry.bounds)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)
+**Type:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)
 
 The precise bounds of this GeocoderResult, if applicable
 
-[location](#GeocoderGeometry.location)
+[undefined](#GeocoderGeometry.location)
 
-**Type:**  [LatLng](LatLng.md)
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
 The latitude/longitude coordinates of this result
 
-[location\_type](#GeocoderGeometry.location_type)
+[undefined](#GeocoderGeometry.location_type)
 
-**Type:**  [GeocoderLocationType](GeocoderLocationType.md)
+**Type:**  [GeocoderLocationType](/maps/documentation/javascript/reference/3.40/geocoder#GeocoderLocationType)
 
 The type of location returned in location
 
-[viewport](#GeocoderGeometry.viewport)
+[undefined](#GeocoderGeometry.viewport)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)
+**Type:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)
 
 The bounds of the recommended viewport for displaying this GeocoderResult

@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/IconMouseEvent.html)
 
-
 IconMouseEvent interface
 ------------------------
 
@@ -8,11 +7,11 @@ google.maps.IconMouseEvent interface
 
 This object is sent in an event when a user clicks on an icon on the map. The place ID of this place is stored in the placeId member. To prevent the default info window from showing up, call the stop() method on this event to prevent it being propagated. Learn more about [place IDs](/places/place-id) in the Places API developer guide.
 
-This interface extends [MouseEvent](MouseEvent.md).
+This interface extends [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent).
 
 Properties
 
-[placeId](#IconMouseEvent.placeId)
+[undefined](#IconMouseEvent.placeId)
 
 **Type:**  string optional
 

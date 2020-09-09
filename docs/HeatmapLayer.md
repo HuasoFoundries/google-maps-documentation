@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/HeatmapLayer.html)
 
-
 HeatmapLayer class
 ------------------
 
@@ -8,7 +7,7 @@ google.maps.visualization.HeatmapLayer class
 
 A layer that provides a client-side rendered heatmap, depicting the intensity of data at geographical points.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 #### Library
 
@@ -16,66 +15,66 @@ visualization
 
 Constructor
 
-[HeatmapLayer](#HeatmapLayer.constructor)
+[undefined](#HeatmapLayer.constructor)
 
 HeatmapLayer(\[opts\])
 
 **Parameters:** 
 
-*   opts:  [HeatmapLayerOptions](HeatmapLayerOptions.md) optional
+*   opts:  [HeatmapLayerOptions](/maps/documentation/javascript/reference/3.40/visualization#HeatmapLayerOptions) optional
 
 Creates a new instance of HeatmapLayer.
 
 Methods
 
-[getData](#HeatmapLayer.getData)
+[undefined](#HeatmapLayer.getData)
 
 getData()
 
 **Parameters:**  None
 
-**Return Value:**  [MVCArray](MVCArray.md)<[LatLng](LatLng.md)|[WeightedLocation](WeightedLocation.md)\>
+**Return Value:**  [MVCArray](/maps/documentation/javascript/reference/3.40/event#MVCArray)<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[WeightedLocation](/maps/documentation/javascript/reference/3.40/visualization#WeightedLocation)\>
 
 Returns the data points currently displayed by this heatmap.
 
-[getMap](#HeatmapLayer.getMap)
+[undefined](#HeatmapLayer.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
-[setData](#HeatmapLayer.setData)
+[undefined](#HeatmapLayer.setData)
 
 setData(data)
 
 **Parameters:** 
 
-*   data:  [MVCArray](MVCArray.md)<[LatLng](LatLng.md)|[WeightedLocation](WeightedLocation.md)\>|Array<[LatLng](LatLng.md)|[WeightedLocation](WeightedLocation.md)\>
+*   data:  [MVCArray](/maps/documentation/javascript/reference/3.40/event#MVCArray)<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[WeightedLocation](/maps/documentation/javascript/reference/3.40/visualization#WeightedLocation)\>|Array<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[WeightedLocation](/maps/documentation/javascript/reference/3.40/visualization#WeightedLocation)\>
 
 **Return Value:**  None
 
 Sets the data points to be displayed by this heatmap.
 
-[setMap](#HeatmapLayer.setMap)
+[undefined](#HeatmapLayer.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 **Return Value:**  None
 
 Renders the heatmap on the specified map. If map is set to null, the heatmap will be removed.
 
-[setOptions](#HeatmapLayer.setOptions)
+[undefined](#HeatmapLayer.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [HeatmapLayerOptions](HeatmapLayerOptions.md)
+*   options:  [HeatmapLayerOptions](/maps/documentation/javascript/reference/3.40/visualization#HeatmapLayerOptions)
 
 **Return Value:**  None

@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapTypeId.html)
 
-
 MapTypeId constants
 -------------------
 
@@ -10,18 +9,18 @@ Identifiers for common MapTypes. Specify these by value, or by using the constan
 
 Constants
 
-[HYBRID](#MapTypeId.HYBRID)
+[undefined](#MapTypeId.HYBRID)
 
 This map type displays a transparent layer of major streets on satellite images.
 
-[ROADMAP](#MapTypeId.ROADMAP)
+[undefined](#MapTypeId.ROADMAP)
 
 This map type displays a normal street map.
 
-[SATELLITE](#MapTypeId.SATELLITE)
+[undefined](#MapTypeId.SATELLITE)
 
 This map type displays satellite images.
 
-[TERRAIN](#MapTypeId.TERRAIN)
+[undefined](#MapTypeId.TERRAIN)
 
 This map type displays maps with physical features such as terrain and vegetation.

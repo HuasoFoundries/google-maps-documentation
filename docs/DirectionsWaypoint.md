@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsWaypoint.html)
 
-
 DirectionsWaypoint interface
 ----------------------------
 
@@ -10,13 +9,13 @@ A DirectionsWaypoint represents a location between origin and destination throug
 
 Properties
 
-[location](#DirectionsWaypoint.location)
+[undefined](#DirectionsWaypoint.location)
 
-**Type:**  string|[LatLng](LatLng.md)|[Place](Place.md) optional
+**Type:**  string|[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[Place](/maps/documentation/javascript/reference/3.40/directions#Place) optional
 
 Waypoint location. Can be an address string, a LatLng, or a Place. Optional.
 
-[stopover](#DirectionsWaypoint.stopover)
+[undefined](#DirectionsWaypoint.stopover)
 
 **Type:**  boolean optional
 

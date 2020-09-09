@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceSearchPagination.html)
 
-
 PlaceSearchPagination interface
 -------------------------------
 
@@ -14,7 +13,7 @@ places
 
 Methods
 
-[nextPage](#PlaceSearchPagination.nextPage)
+[undefined](#PlaceSearchPagination.nextPage)
 
 nextPage()
 
@@ -26,7 +25,7 @@ Fetches the next page of results. Uses the same callback function that was provi
 
 Properties
 
-[hasNextPage](#PlaceSearchPagination.hasNextPage)
+[undefined](#PlaceSearchPagination.hasNextPage)
 
 **Type:**  boolean
 

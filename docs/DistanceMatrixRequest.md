@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DistanceMatrixRequest.html)
 
-
 DistanceMatrixRequest interface
 -------------------------------
 
@@ -10,62 +9,62 @@ A distance matrix query sent by the DistanceMatrixService containing arrays of o
 
 Properties
 
-[avoidFerries](#DistanceMatrixRequest.avoidFerries)
+[undefined](#DistanceMatrixRequest.avoidFerries)
 
 **Type:**  boolean optional
 
 If true, instructs the Distance Matrix service to avoid ferries where possible. Optional.
 
-[avoidHighways](#DistanceMatrixRequest.avoidHighways)
+[undefined](#DistanceMatrixRequest.avoidHighways)
 
 **Type:**  boolean optional
 
 If true, instructs the Distance Matrix service to avoid highways where possible. Optional.
 
-[avoidTolls](#DistanceMatrixRequest.avoidTolls)
+[undefined](#DistanceMatrixRequest.avoidTolls)
 
 **Type:**  boolean optional
 
 If true, instructs the Distance Matrix service to avoid toll roads where possible. Optional.
 
-[destinations](#DistanceMatrixRequest.destinations)
+[undefined](#DistanceMatrixRequest.destinations)
 
-**Type:**  Array<string|[LatLng](LatLng.md)|[Place](Place.md)\>
+**Type:**  Array<string|[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[Place](/maps/documentation/javascript/reference/3.40/directions#Place)\>
 
 An array containing destination address strings, or LatLng, or Place objects, to which to calculate distance and time. Required.
 
-[drivingOptions](#DistanceMatrixRequest.drivingOptions)
+[undefined](#DistanceMatrixRequest.drivingOptions)
 
-**Type:**  [DrivingOptions](DrivingOptions.md) optional
+**Type:**  [DrivingOptions](/maps/documentation/javascript/reference/3.40/directions#DrivingOptions) optional
 
 Settings that apply only to requests where travelMode is DRIVING. This object will have no effect for other travel modes.
 
-[origins](#DistanceMatrixRequest.origins)
+[undefined](#DistanceMatrixRequest.origins)
 
-**Type:**  Array<string|[LatLng](LatLng.md)|[Place](Place.md)\>
+**Type:**  Array<string|[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[Place](/maps/documentation/javascript/reference/3.40/directions#Place)\>
 
 An array containing origin address strings, or LatLng, or Place objects, from which to calculate distance and time. Required.
 
-[region](#DistanceMatrixRequest.region)
+[undefined](#DistanceMatrixRequest.region)
 
 **Type:**  string optional
 
 Region code used as a bias for geocoding requests. Optional.
 
-[transitOptions](#DistanceMatrixRequest.transitOptions)
+[undefined](#DistanceMatrixRequest.transitOptions)
 
-**Type:**  [TransitOptions](TransitOptions.md) optional
+**Type:**  [TransitOptions](/maps/documentation/javascript/reference/3.40/directions#TransitOptions) optional
 
 Settings that apply only to requests where travelMode is TRANSIT. This object will have no effect for other travel modes.
 
-[travelMode](#DistanceMatrixRequest.travelMode)
+[undefined](#DistanceMatrixRequest.travelMode)
 
-**Type:**  [TravelMode](TravelMode.md)
+**Type:**  [TravelMode](/maps/documentation/javascript/reference/3.40/directions#TravelMode)
 
 Type of routing requested. Required.
 
-[unitSystem](#DistanceMatrixRequest.unitSystem)
+[undefined](#DistanceMatrixRequest.unitSystem)
 
-**Type:**  [UnitSystem](UnitSystem.md) optional
+**Type:**  [UnitSystem](/maps/documentation/javascript/reference/3.40/directions#UnitSystem) optional
 
 Preferred unit system to use when displaying distance. Optional; defaults to metric.

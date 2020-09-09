@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewCoverageLayer.html)
 
-
 StreetViewCoverageLayer class
 -----------------------------
 
@@ -8,11 +7,11 @@ google.maps.StreetViewCoverageLayer class
 
 A layer that illustrates the locations where Street View is available.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[StreetViewCoverageLayer](#StreetViewCoverageLayer.constructor)
+[undefined](#StreetViewCoverageLayer.constructor)
 
 StreetViewCoverageLayer()
 
@@ -22,23 +21,23 @@ Creates a new instance of StreetViewCoverageLayer.
 
 Methods
 
-[getMap](#StreetViewCoverageLayer.getMap)
+[undefined](#StreetViewCoverageLayer.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 Returns the map on which this layer is displayed.
 
-[setMap](#StreetViewCoverageLayer.setMap)
+[undefined](#StreetViewCoverageLayer.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 **Return Value:**  None
 

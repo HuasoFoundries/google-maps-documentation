@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/OverlayView.html)
 
-
 OverlayView class
 -----------------
 
@@ -18,11 +17,11 @@ You must implement three methods: onAdd(), draw(), and onRemove().
 
 You must call setMap() with a valid Map object to trigger the call to the onAdd() method and setMap(null) in order to trigger the onRemove() method. The setMap() method can be called at the time of construction or at any point afterward when the overlay should be re-shown after removing. The draw() method will then be called whenever a map property changes that could change the position of the element, such as zoom, center, or map type.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[OverlayView](#OverlayView.constructor)
+[undefined](#OverlayView.constructor)
 
 OverlayView()
 
@@ -32,7 +31,7 @@ Creates an OverlayView.
 
 Static Methods
 
-[preventMapHitsAndGesturesFrom](#OverlayView.preventMapHitsAndGesturesFrom)
+[undefined](#OverlayView.preventMapHitsAndGesturesFrom)
 
 preventMapHitsAndGesturesFrom(element)
 
@@ -44,7 +43,7 @@ preventMapHitsAndGesturesFrom(element)
 
 Stops click, tap, drag, and wheel events on the element from bubbling up to the map. Use this to prevent map dragging and zooming, as well as map "click" events.
 
-[preventMapHitsFrom](#OverlayView.preventMapHitsFrom)
+[undefined](#OverlayView.preventMapHitsFrom)
 
 preventMapHitsFrom(element)
 
@@ -58,7 +57,7 @@ Stops click or tap on the element from bubbling up to the map. Use this to preve
 
 Methods
 
-[draw](#OverlayView.draw)
+[undefined](#OverlayView.draw)
 
 draw()
 
@@ -68,35 +67,35 @@ draw()
 
 Implement this method to draw or update the overlay. Use the position from projection.fromLatLngToDivPixel() to correctly position the overlay relative to the MapPanes. This method is called after onAdd(), and is called on change of zoom or center. It is not recommended to do computationally expensive work in this method.
 
-[getMap](#OverlayView.getMap)
+[undefined](#OverlayView.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)|[StreetViewPanorama](StreetViewPanorama.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)|[StreetViewPanorama](/maps/documentation/javascript/reference/3.40/street-view#StreetViewPanorama)
 
-[getPanes](#OverlayView.getPanes)
+[undefined](#OverlayView.getPanes)
 
 getPanes()
 
 **Parameters:**  None
 
-**Return Value:**  [MapPanes](MapPanes.md) optional
+**Return Value:**  [MapPanes](/maps/documentation/javascript/reference/3.40/overlay-view#MapPanes) optional
 
 Returns the panes in which this OverlayView can be rendered. The panes are not initialized until onAdd is called by the API.
 
-[getProjection](#OverlayView.getProjection)
+[undefined](#OverlayView.getProjection)
 
 getProjection()
 
 **Parameters:**  None
 
-**Return Value:**  [MapCanvasProjection](MapCanvasProjection.md)
+**Return Value:**  [MapCanvasProjection](/maps/documentation/javascript/reference/3.40/overlay-view#MapCanvasProjection)
 
 Returns the MapCanvasProjection object associated with this OverlayView. The projection is not initialized until onAdd is called by the API.
 
-[onAdd](#OverlayView.onAdd)
+[undefined](#OverlayView.onAdd)
 
 onAdd()
 
@@ -106,7 +105,7 @@ onAdd()
 
 Implement this method to initialize the overlay DOM elements. This method is called once after setMap() is called with a valid map. At this point, panes and projection will have been initialized.
 
-[onRemove](#OverlayView.onRemove)
+[undefined](#OverlayView.onRemove)
 
 onRemove()
 
@@ -116,13 +115,13 @@ onRemove()
 
 Implement this method to remove your elements from the DOM. This method is called once following a call to setMap(null).
 
-[setMap](#OverlayView.setMap)
+[undefined](#OverlayView.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)|[StreetViewPanorama](StreetViewPanorama.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)|[StreetViewPanorama](/maps/documentation/javascript/reference/3.40/street-view#StreetViewPanorama)
 
 **Return Value:**  None
 

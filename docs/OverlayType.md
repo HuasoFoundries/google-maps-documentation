@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/OverlayType.html)
 
-
 OverlayType constants
 ---------------------
 
@@ -14,22 +13,22 @@ drawing
 
 Constants
 
-[CIRCLE](#OverlayType.CIRCLE)
+[undefined](#OverlayType.CIRCLE)
 
 Specifies that the DrawingManager creates circles, and that the overlay given in the overlaycomplete event is a circle.
 
-[MARKER](#OverlayType.MARKER)
+[undefined](#OverlayType.MARKER)
 
 Specifies that the DrawingManager creates markers, and that the overlay given in the overlaycomplete event is a marker.
 
-[POLYGON](#OverlayType.POLYGON)
+[undefined](#OverlayType.POLYGON)
 
 Specifies that the DrawingManager creates polygons, and that the overlay given in the overlaycomplete event is a polygon.
 
-[POLYLINE](#OverlayType.POLYLINE)
+[undefined](#OverlayType.POLYLINE)
 
 Specifies that the DrawingManager creates polylines, and that the overlay given in the overlaycomplete event is a polyline.
 
-[RECTANGLE](#OverlayType.RECTANGLE)
+[undefined](#OverlayType.RECTANGLE)
 
 Specifies that the DrawingManager creates rectangles, and that the overlay given in the overlaycomplete event is a rectangle.

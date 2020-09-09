@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.MultiLineString.html)
 
-
 Data.MultiLineString class
 --------------------------
 
@@ -8,43 +7,43 @@ google.maps.Data.MultiLineString class
 
 A MultiLineString geometry contains a number of LineStrings.
 
-This class implements [Data.Geometry](Data.Geometry.md).
+This class implements [Data.Geometry](Data.md).
 
 Constructor
 
-[Data.MultiLineString](#Data.MultiLineString.constructor)
+[undefined](#Data.MultiLineString.constructor)
 
 Data.MultiLineString(elements)
 
 **Parameters:** 
 
-*   elements:  Array<[Data.LineString](Data.LineString.md)|Array<[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)\>>
+*   elements:  Array<[Data.LineString](Data.md)|Array<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)\>>
 
 Constructs a Data.MultiLineString from the given Data.LineStrings or arrays of positions.
 
 Methods
 
-[forEachLatLng](#Data.MultiLineString.forEachLatLng)
+[undefined](#Data.MultiLineString.forEachLatLng)
 
 forEachLatLng(callback)
 
 **Parameters:** 
 
-*   callback:  function([LatLng](LatLng.md))
+*   callback:  function([LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng))
 
 **Return Value:**  None
 
-[getArray](#Data.MultiLineString.getArray)
+[undefined](#Data.MultiLineString.getArray)
 
 getArray()
 
 **Parameters:**  None
 
-**Return Value:**  Array<[Data.LineString](Data.LineString.md)\>
+**Return Value:**  Array<[Data.LineString](Data.md)\>
 
 Returns an array of the contained Data.LineStrings. A new array is returned each time getArray() is called.
 
-[getAt](#Data.MultiLineString.getAt)
+[undefined](#Data.MultiLineString.getAt)
 
 getAt(n)
 
@@ -52,11 +51,11 @@ getAt(n)
 
 *   n:  number
 
-**Return Value:**  [Data.LineString](Data.LineString.md)
+**Return Value:**  [Data.LineString](Data.md)
 
 Returns the n\-th contained Data.LineString.
 
-[getLength](#Data.MultiLineString.getLength)
+[undefined](#Data.MultiLineString.getLength)
 
 getLength()
 
@@ -66,7 +65,7 @@ getLength()
 
 Returns the number of contained Data.LineStrings.
 
-[getType](#Data.MultiLineString.getType)
+[undefined](#Data.MultiLineString.getType)
 
 getType()
 

@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapRestriction.html)
 
-
 MapRestriction interface
 ------------------------
 
@@ -10,13 +9,15 @@ A restriction that can be applied to the Map. The map's viewport will not exceed
 
 Properties
 
-[latLngBounds](#MapRestriction.latLngBounds)
+[undefined](#MapRestriction.latLngBounds)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md) optional
+**Type:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)|[LatLngBoundsLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBoundsLiteral) optional
 
-When set, a user can only pan and zoom inside the given bounds. Bounds can restrict both longitude and latitude, or can restrict latitude only. For latitude-only bounds use west and east longitudes of -180 and 180, respectively. For example, latLngBounds: {north: northLat, south: southLat, west: -180, east: 180} 
+When set, a user can only pan and zoom inside the given bounds. Bounds can restrict both longitude and latitude, or can restrict latitude only. For latitude-only bounds use west and east longitudes of -180 and 180, respectively. For example,
 
-[strictBounds](#MapRestriction.strictBounds)
+ latLngBounds: {north: northLat, south: southLat, west: -180, east: 180} 
+
+[undefined](#MapRestriction.strictBounds)
 
 **Type:**  boolean
 

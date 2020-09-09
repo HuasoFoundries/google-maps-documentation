@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.html)
 
-
 Data class
 ----------
 
@@ -12,33 +11,35 @@ Every Map has a Data object by default, so most of the time there is no need to 
 
  var myMap = new google.maps.Map(...);  
  myMap.data.addGeoJson(...);  
- myMap.data.setStyle(...); The Data object is a collection of [Features](Data.Feature.md).
+ myMap.data.setStyle(...); 
 
-This class extends [MVCObject](MVCObject.md).
+The Data object is a collection of [Features](#Data.Feature).
+
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[Data](#Data.constructor)
+[undefined](#Data.constructor)
 
 Data(\[options\])
 
 **Parameters:** 
 
-*   options:  [Data.DataOptions](Data.DataOptions.md) optional
+*   options:  [Data.DataOptions](Data.md) optional
 
 Creates an empty collection, with the given DataOptions.
 
 Methods
 
-[add](#Data.add)
+[undefined](#Data.add)
 
 add(\[feature\])
 
 **Parameters:** 
 
-*   feature:  [Data.Feature](Data.Feature.md)|[Data.FeatureOptions](Data.FeatureOptions.md) optional
+*   feature:  [Data.Feature](Data.md)|[Data.FeatureOptions](Data.md) optional
 
-**Return Value:**  [Data.Feature](Data.Feature.md)
+**Return Value:**  [Data.Feature](Data.md)
 
 Adds a feature to the collection, and returns the added feature.
 
@@ -46,54 +47,54 @@ If the feature has an ID, it will replace any existing feature in the collection
 
 Note that the IDs 1234 and '1234' are equivalent. Adding a feature with ID 1234 will replace a feature with ID '1234', and vice versa.
 
-[addGeoJson](#Data.addGeoJson)
+[undefined](#Data.addGeoJson)
 
 addGeoJson(geoJson\[, options\])
 
 **Parameters:** 
 
 *   geoJson:  Object
-*   options:  [Data.GeoJsonOptions](Data.GeoJsonOptions.md) optional
+*   options:  [Data.GeoJsonOptions](Data.md) optional
 
-**Return Value:**  Array<[Data.Feature](Data.Feature.md)\>
+**Return Value:**  Array<[Data.Feature](Data.md)\>
 
 Adds GeoJSON features to the collection. Give this method a parsed JSON. The imported features are returned. Throws an exception if the GeoJSON could not be imported.
 
-[contains](#Data.contains)
+[undefined](#Data.contains)
 
 contains(feature)
 
 **Parameters:** 
 
-*   feature:  [Data.Feature](Data.Feature.md)
+*   feature:  [Data.Feature](Data.md)
 
 **Return Value:**  boolean
 
 Checks whether the given feature is in the collection.
 
-[forEach](#Data.forEach)
+[undefined](#Data.forEach)
 
 forEach(callback)
 
 **Parameters:** 
 
-*   callback:  function([Data.Feature](Data.Feature.md))
+*   callback:  function([Data.Feature](Data.md))
 
 **Return Value:**  None
 
 Repeatedly invokes the given function, passing a feature in the collection to the function on each invocation. The order of iteration through the features is undefined.
 
-[getControlPosition](#Data.getControlPosition)
+[undefined](#Data.getControlPosition)
 
 getControlPosition()
 
 **Parameters:**  None
 
-**Return Value:**  [ControlPosition](ControlPosition.md)
+**Return Value:**  [ControlPosition](/maps/documentation/javascript/reference/3.40/control#ControlPosition)
 
 Returns the position of the drawing controls on the map.
 
-[getControls](#Data.getControls)
+[undefined](#Data.getControls)
 
 getControls()
 
@@ -103,7 +104,7 @@ getControls()
 
 Returns which drawing modes are available for the user to select, in the order they are displayed. This does not include the null drawing mode, which is added by default. Possible drawing modes are "Point", "LineString" or "Polygon".
 
-[getDrawingMode](#Data.getDrawingMode)
+[undefined](#Data.getDrawingMode)
 
 getDrawingMode()
 
@@ -113,7 +114,7 @@ getDrawingMode()
 
 Returns the current drawing mode of the given Data layer. A drawing mode of null means that the user can interact with the map as normal, and clicks do not draw anything. Possible drawing modes are null, "Point", "LineString" or "Polygon".
 
-[getFeatureById](#Data.getFeatureById)
+[undefined](#Data.getFeatureById)
 
 getFeatureById(id)
 
@@ -121,41 +122,41 @@ getFeatureById(id)
 
 *   id:  number|string
 
-**Return Value:**  [Data.Feature](Data.Feature.md) optional
+**Return Value:**  [Data.Feature](Data.md) optional
 
 Returns the feature with the given ID, if it exists in the collection. Otherwise returns undefined.
 
 Note that the IDs 1234 and '1234' are equivalent. Either can be used to look up the same feature.
 
-[getMap](#Data.getMap)
+[undefined](#Data.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 Returns the map on which the features are displayed.
 
-[getStyle](#Data.getStyle)
+[undefined](#Data.getStyle)
 
 getStyle()
 
 **Parameters:**  None
 
-**Return Value:**  [Data.StylingFunction](Data.StylingFunction.md)|[Data.StyleOptions](Data.StyleOptions.md)
+**Return Value:**  [Data.StylingFunction](Data.md)|[Data.StyleOptions](Data.md)
 
 Gets the style for all features in the collection.
 
-[loadGeoJson](#Data.loadGeoJson)
+[undefined](#Data.loadGeoJson)
 
 loadGeoJson(url\[, options, callback\])
 
 **Parameters:** 
 
 *   url:  string
-*   options:  [Data.GeoJsonOptions](Data.GeoJsonOptions.md) optional
-*   callback:  function(Array<[Data.Feature](Data.Feature.md)\>) optional
+*   options:  [Data.GeoJsonOptions](Data.md) optional
+*   callback:  function(Array<[Data.Feature](Data.md)\>) optional
 
 **Return Value:**  None
 
@@ -163,38 +164,38 @@ Loads GeoJSON from a URL, and adds the features to the collection.
 
 NOTE: The GeoJSON is fetched using XHR, and may not work cross-domain. If you have issues, we recommend you fetch the GeoJSON using your choice of AJAX library, and then call addGeoJson().
 
-[overrideStyle](#Data.overrideStyle)
+[undefined](#Data.overrideStyle)
 
 overrideStyle(feature, style)
 
 **Parameters:** 
 
-*   feature:  [Data.Feature](Data.Feature.md)
-*   style:  [Data.StyleOptions](Data.StyleOptions.md)
+*   feature:  [Data.Feature](Data.md)
+*   style:  [Data.StyleOptions](Data.md)
 
 **Return Value:**  None
 
 Changes the style of a feature. These changes are applied on top of the style specified by setStyle(). Style properties set to null revert to the value specified via setStyle().
 
-[remove](#Data.remove)
+[undefined](#Data.remove)
 
 remove(feature)
 
 **Parameters:** 
 
-*   feature:  [Data.Feature](Data.Feature.md)
+*   feature:  [Data.Feature](Data.md)
 
 **Return Value:**  None
 
 Removes a feature from the collection.
 
-[revertStyle](#Data.revertStyle)
+[undefined](#Data.revertStyle)
 
 revertStyle(\[feature\])
 
 **Parameters:** 
 
-*   feature:  [Data.Feature](Data.Feature.md) optional
+*   feature:  [Data.Feature](Data.md) optional
 
 **Return Value:**  None
 
@@ -202,19 +203,19 @@ Removes the effect of previous overrideStyle() calls. The style of the given fea
 
 If no feature is given, all features have their style reverted.
 
-[setControlPosition](#Data.setControlPosition)
+[undefined](#Data.setControlPosition)
 
 setControlPosition(controlPosition)
 
 **Parameters:** 
 
-*   controlPosition:  [ControlPosition](ControlPosition.md)
+*   controlPosition:  [ControlPosition](/maps/documentation/javascript/reference/3.40/control#ControlPosition)
 
 **Return Value:**  None
 
 Sets the position of the drawing controls on the map.
 
-[setControls](#Data.setControls)
+[undefined](#Data.setControls)
 
 setControls(controls)
 
@@ -226,7 +227,7 @@ setControls(controls)
 
 Sets which drawing modes are available for the user to select, in the order they are displayed. This should not include the null drawing mode, which is added by default. If null, drawing controls are disabled and not displayed. Possible drawing modes are "Point", "LineString" or "Polygon".
 
-[setDrawingMode](#Data.setDrawingMode)
+[undefined](#Data.setDrawingMode)
 
 setDrawingMode(drawingMode)
 
@@ -238,25 +239,25 @@ setDrawingMode(drawingMode)
 
 Sets the current drawing mode of the given Data layer. A drawing mode of null means that the user can interact with the map as normal, and clicks do not draw anything. Possible drawing modes are null, "Point", "LineString" or "Polygon".
 
-[setMap](#Data.setMap)
+[undefined](#Data.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 **Return Value:**  None
 
 Renders the features on the specified map. If map is set to null, the features will be removed from the map.
 
-[setStyle](#Data.setStyle)
+[undefined](#Data.setStyle)
 
 setStyle(style)
 
 **Parameters:** 
 
-*   style:  [Data.StylingFunction](Data.StylingFunction.md)|[Data.StyleOptions](Data.StyleOptions.md)
+*   style:  [Data.StylingFunction](Data.md)|[Data.StyleOptions](Data.md)
 
 **Return Value:**  None
 
@@ -264,7 +265,7 @@ Sets the style for all features in the collection. Styles specified on a per-fea
 
 Pass either an object with the desired style options, or a function that computes the style for each feature. The function will be called every time a feature's properties are updated.
 
-[toGeoJson](#Data.toGeoJson)
+[undefined](#Data.toGeoJson)
 
 toGeoJson(callback)
 
@@ -278,122 +279,122 @@ Exports the features in the collection to a GeoJSON object.
 
 Events
 
-[addfeature](#Data.addfeature)
+[undefined](#Data.addfeature)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.AddFeatureEvent](Data.AddFeatureEvent.md)
+*   event:  [Data.AddFeatureEvent](Data.md)
 
 This event is fired when a feature is added to the collection.
 
-[click](#Data.click)
+[undefined](#Data.click)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.MouseEvent](Data.MouseEvent.md)
+*   event:  [Data.MouseEvent](Data.md)
 
 This event is fired for a click on the geometry.
 
-[dblclick](#Data.dblclick)
+[undefined](#Data.dblclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.MouseEvent](Data.MouseEvent.md)
+*   event:  [Data.MouseEvent](Data.md)
 
 This event is fired for a double click on the geometry.
 
-[mousedown](#Data.mousedown)
+[undefined](#Data.mousedown)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.MouseEvent](Data.MouseEvent.md)
+*   event:  [Data.MouseEvent](Data.md)
 
 This event is fired for a mousedown on the geometry.
 
-[mouseout](#Data.mouseout)
+[undefined](#Data.mouseout)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.MouseEvent](Data.MouseEvent.md)
+*   event:  [Data.MouseEvent](Data.md)
 
 This event is fired when the mouse leaves the area of the geometry.
 
-[mouseover](#Data.mouseover)
+[undefined](#Data.mouseover)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.MouseEvent](Data.MouseEvent.md)
+*   event:  [Data.MouseEvent](Data.md)
 
 This event is fired when the mouse enters the area of the geometry.
 
-[mouseup](#Data.mouseup)
+[undefined](#Data.mouseup)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.MouseEvent](Data.MouseEvent.md)
+*   event:  [Data.MouseEvent](Data.md)
 
 This event is fired for a mouseup on the geometry.
 
-[removefeature](#Data.removefeature)
+[undefined](#Data.removefeature)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.RemoveFeatureEvent](Data.RemoveFeatureEvent.md)
+*   event:  [Data.RemoveFeatureEvent](Data.md)
 
 This event is fired when a feature is removed from the collection.
 
-[removeproperty](#Data.removeproperty)
+[undefined](#Data.removeproperty)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.RemovePropertyEvent](Data.RemovePropertyEvent.md)
+*   event:  [Data.RemovePropertyEvent](Data.md)
 
 This event is fired when a feature's property is removed.
 
-[rightclick](#Data.rightclick)
+[undefined](#Data.rightclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.MouseEvent](Data.MouseEvent.md)
+*   event:  [Data.MouseEvent](Data.md)
 
 This event is fired for a rightclick on the geometry.
 
-[setgeometry](#Data.setgeometry)
+[undefined](#Data.setgeometry)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.SetGeometryEvent](Data.SetGeometryEvent.md)
+*   event:  [Data.SetGeometryEvent](Data.md)
 
 This event is fired when a feature's geometry is set.
 
-[setproperty](#Data.setproperty)
+[undefined](#Data.setproperty)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [Data.SetPropertyEvent](Data.SetPropertyEvent.md)
+*   event:  [Data.SetPropertyEvent](Data.md)
 
 This event is fired when a feature's property is set.

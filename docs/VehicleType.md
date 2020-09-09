@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/VehicleType.html)
 
-
 VehicleType constants
 ---------------------
 
@@ -10,70 +9,70 @@ Possible values for vehicle types. These values are specifed as strings, i.e. 'B
 
 Constants
 
-[BUS](#VehicleType.BUS)
+[undefined](#VehicleType.BUS)
 
 Bus.
 
-[CABLE\_CAR](#VehicleType.CABLE_CAR)
+[undefined](#VehicleType.CABLE_CAR)
 
 A vehicle that operates on a cable, usually on the ground. Aerial cable cars may be of the type GONDOLA\_LIFT.
 
-[COMMUTER\_TRAIN](#VehicleType.COMMUTER_TRAIN)
+[undefined](#VehicleType.COMMUTER_TRAIN)
 
 Commuter rail.
 
-[FERRY](#VehicleType.FERRY)
+[undefined](#VehicleType.FERRY)
 
 Ferry.
 
-[FUNICULAR](#VehicleType.FUNICULAR)
+[undefined](#VehicleType.FUNICULAR)
 
 A vehicle that is pulled up a steep incline by a cable.
 
-[GONDOLA\_LIFT](#VehicleType.GONDOLA_LIFT)
+[undefined](#VehicleType.GONDOLA_LIFT)
 
 An aerial cable car.
 
-[HEAVY\_RAIL](#VehicleType.HEAVY_RAIL)
+[undefined](#VehicleType.HEAVY_RAIL)
 
 Heavy rail.
 
-[HIGH\_SPEED\_TRAIN](#VehicleType.HIGH_SPEED_TRAIN)
+[undefined](#VehicleType.HIGH_SPEED_TRAIN)
 
 High speed train.
 
-[INTERCITY\_BUS](#VehicleType.INTERCITY_BUS)
+[undefined](#VehicleType.INTERCITY_BUS)
 
 Intercity bus.
 
-[METRO\_RAIL](#VehicleType.METRO_RAIL)
+[undefined](#VehicleType.METRO_RAIL)
 
 Light rail.
 
-[MONORAIL](#VehicleType.MONORAIL)
+[undefined](#VehicleType.MONORAIL)
 
 Monorail.
 
-[OTHER](#VehicleType.OTHER)
+[undefined](#VehicleType.OTHER)
 
 Other vehicles.
 
-[RAIL](#VehicleType.RAIL)
+[undefined](#VehicleType.RAIL)
 
 Rail.
 
-[SHARE\_TAXI](#VehicleType.SHARE_TAXI)
+[undefined](#VehicleType.SHARE_TAXI)
 
 Share taxi is a sort of bus transport with ability to drop off and pick up passengers anywhere on its route. Generally share taxi uses minibus vehicles.
 
-[SUBWAY](#VehicleType.SUBWAY)
+[undefined](#VehicleType.SUBWAY)
 
 Underground light rail.
 
-[TRAM](#VehicleType.TRAM)
+[undefined](#VehicleType.TRAM)
 
 Above ground light rail.
 
-[TROLLEYBUS](#VehicleType.TROLLEYBUS)
+[undefined](#VehicleType.TROLLEYBUS)
 
 Trolleybus.

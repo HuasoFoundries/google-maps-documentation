@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Point.html)
 
-
 Point class
 -----------
 
@@ -8,7 +7,7 @@ google.maps.Point class
 
 Constructor
 
-[Point](#Point.constructor)
+[undefined](#Point.constructor)
 
 Point(x, y)
 
@@ -21,19 +20,19 @@ A point on a two-dimensional plane.
 
 Methods
 
-[equals](#Point.equals)
+[undefined](#Point.equals)
 
 equals(other)
 
 **Parameters:** 
 
-*   other:  [Point](Point.md)
+*   other:  [Point](/maps/documentation/javascript/reference/3.40/coordinates#Point)
 
 **Return Value:**  boolean
 
 Compares two Points
 
-[toString](#Point.toString)
+[undefined](#Point.toString)
 
 toString()
 
@@ -45,13 +44,13 @@ Returns a string representation of this Point.
 
 Properties
 
-[x](#Point.x)
+[undefined](#Point.x)
 
 **Type:**  number
 
 The X coordinate
 
-[y](#Point.y)
+[undefined](#Point.y)
 
 **Type:**  number
 

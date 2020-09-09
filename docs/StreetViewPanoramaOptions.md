@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewPanoramaOptions.html)
 
-
 StreetViewPanoramaOptions interface
 -----------------------------------
 
@@ -10,152 +9,152 @@ Options defining the properties of a StreetViewPanorama object.
 
 Properties
 
-[addressControl](#StreetViewPanoramaOptions.addressControl)
+[undefined](#StreetViewPanoramaOptions.addressControl)
 
 **Type:**  boolean optional
 
 The enabled/disabled state of the address control.
 
-[addressControlOptions](#StreetViewPanoramaOptions.addressControlOptions)
+[undefined](#StreetViewPanoramaOptions.addressControlOptions)
 
-**Type:**  [StreetViewAddressControlOptions](StreetViewAddressControlOptions.md) optional
+**Type:**  [StreetViewAddressControlOptions](/maps/documentation/javascript/reference/3.40/street-view#StreetViewAddressControlOptions) optional
 
 The display options for the address control.
 
-[clickToGo](#StreetViewPanoramaOptions.clickToGo)
+[undefined](#StreetViewPanoramaOptions.clickToGo)
 
 **Type:**  boolean optional
 
 The enabled/disabled state of click-to-go.
 
-[controlSize](#StreetViewPanoramaOptions.controlSize)
+[undefined](#StreetViewPanoramaOptions.controlSize)
 
 **Type:**  number optional
 
 Size in pixels of the controls appearing on the panorama. This value must be supplied directly when creating the Panorama, updating this value later may bring the controls into an undefined state. Only governs the controls made by the Maps API itself. Does not scale developer created custom controls.
 
-[disableDefaultUI](#StreetViewPanoramaOptions.disableDefaultUI)
+[undefined](#StreetViewPanoramaOptions.disableDefaultUI)
 
 **Type:**  boolean optional
 
 Enables/disables all default UI. May be overridden individually.
 
-[disableDoubleClickZoom](#StreetViewPanoramaOptions.disableDoubleClickZoom)
+[undefined](#StreetViewPanoramaOptions.disableDoubleClickZoom)
 
 **Type:**  boolean optional
 
 Enables/disables zoom on double click. Disabled by default.
 
-[enableCloseButton](#StreetViewPanoramaOptions.enableCloseButton)
+[undefined](#StreetViewPanoramaOptions.enableCloseButton)
 
 **Type:**  boolean optional
 
 If true, the close button is displayed. Disabled by default.
 
-[fullscreenControl](#StreetViewPanoramaOptions.fullscreenControl)
+[undefined](#StreetViewPanoramaOptions.fullscreenControl)
 
 **Type:**  boolean optional
 
 The enabled/disabled state of the fullscreen control.
 
-[fullscreenControlOptions](#StreetViewPanoramaOptions.fullscreenControlOptions)
+[undefined](#StreetViewPanoramaOptions.fullscreenControlOptions)
 
-**Type:**  [FullscreenControlOptions](FullscreenControlOptions.md) optional
+**Type:**  [FullscreenControlOptions](/maps/documentation/javascript/reference/3.40/control#FullscreenControlOptions) optional
 
 The display options for the fullscreen control.
 
-[imageDateControl](#StreetViewPanoramaOptions.imageDateControl)
+[undefined](#StreetViewPanoramaOptions.imageDateControl)
 
 **Type:**  boolean optional
 
 The enabled/disabled state of the imagery acquisition date control. Disabled by default.
 
-[linksControl](#StreetViewPanoramaOptions.linksControl)
+[undefined](#StreetViewPanoramaOptions.linksControl)
 
 **Type:**  boolean optional
 
 The enabled/disabled state of the links control.
 
-[motionTracking](#StreetViewPanoramaOptions.motionTracking)
+[undefined](#StreetViewPanoramaOptions.motionTracking)
 
 **Type:**  boolean optional
 
 Whether motion tracking is on or off. Enabled by default when the motion tracking control is present, so that the POV (point of view) follows the orientation of the device. This is primarily applicable to mobile devices. If motionTracking is set to false while motionTrackingControl is enabled, the motion tracking control appears but tracking is off. The user can tap the motion tracking control to toggle this option.
 
-[motionTrackingControl](#StreetViewPanoramaOptions.motionTrackingControl)
+[undefined](#StreetViewPanoramaOptions.motionTrackingControl)
 
 **Type:**  boolean optional
 
 The enabled/disabled state of the motion tracking control. Enabled by default when the device has motion data, so that the control appears on the map. This is primarily applicable to mobile devices.
 
-[motionTrackingControlOptions](#StreetViewPanoramaOptions.motionTrackingControlOptions)
+[undefined](#StreetViewPanoramaOptions.motionTrackingControlOptions)
 
-**Type:**  [MotionTrackingControlOptions](MotionTrackingControlOptions.md) optional
+**Type:**  [MotionTrackingControlOptions](/maps/documentation/javascript/reference/3.40/control#MotionTrackingControlOptions) optional
 
 The display options for the motion tracking control.
 
-[panControl](#StreetViewPanoramaOptions.panControl)
+[undefined](#StreetViewPanoramaOptions.panControl)
 
 **Type:**  boolean optional
 
 The enabled/disabled state of the pan control.
 
-[panControlOptions](#StreetViewPanoramaOptions.panControlOptions)
+[undefined](#StreetViewPanoramaOptions.panControlOptions)
 
-**Type:**  [PanControlOptions](PanControlOptions.md) optional
+**Type:**  [PanControlOptions](/maps/documentation/javascript/reference/3.40/control#PanControlOptions) optional
 
 The display options for the pan control.
 
-[pano](#StreetViewPanoramaOptions.pano)
+[undefined](#StreetViewPanoramaOptions.pano)
 
 **Type:**  string optional
 
 The panorama ID, which should be set when specifying a custom panorama.
 
-[position](#StreetViewPanoramaOptions.position)
+[undefined](#StreetViewPanoramaOptions.position)
 
-**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md) optional
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral) optional
 
 The LatLng position of the Street View panorama.
 
-[pov](#StreetViewPanoramaOptions.pov)
+[undefined](#StreetViewPanoramaOptions.pov)
 
-**Type:**  [StreetViewPov](StreetViewPov.md) optional
+**Type:**  [StreetViewPov](/maps/documentation/javascript/reference/3.40/street-view#StreetViewPov) optional
 
 The camera orientation, specified as heading and pitch, for the panorama.
 
-[scrollwheel](#StreetViewPanoramaOptions.scrollwheel)
+[undefined](#StreetViewPanoramaOptions.scrollwheel)
 
 **Type:**  boolean optional
 
 If false, disables scrollwheel zooming in Street View. The scrollwheel is enabled by default.
 
-[showRoadLabels](#StreetViewPanoramaOptions.showRoadLabels)
+[undefined](#StreetViewPanoramaOptions.showRoadLabels)
 
 **Type:**  boolean optional
 
 The display of street names on the panorama. If this value is not specified, or is set to true, street names are displayed on the panorama. If set to false, street names are not displayed.
 
-[visible](#StreetViewPanoramaOptions.visible)
+[undefined](#StreetViewPanoramaOptions.visible)
 
 **Type:**  boolean optional
 
 If true, the Street View panorama is visible on load.
 
-[zoom](#StreetViewPanoramaOptions.zoom)
+[undefined](#StreetViewPanoramaOptions.zoom)
 
 **Type:**  number optional
 
 The zoom of the panorama, specified as a number. A zoom of 0 gives a 180 degrees Field of View.
 
-[zoomControl](#StreetViewPanoramaOptions.zoomControl)
+[undefined](#StreetViewPanoramaOptions.zoomControl)
 
 **Type:**  boolean optional
 
 The enabled/disabled state of the zoom control.
 
-[zoomControlOptions](#StreetViewPanoramaOptions.zoomControlOptions)
+[undefined](#StreetViewPanoramaOptions.zoomControlOptions)
 
-**Type:**  [ZoomControlOptions](ZoomControlOptions.md) optional
+**Type:**  [ZoomControlOptions](/maps/documentation/javascript/reference/3.40/control#ZoomControlOptions) optional
 
 The display options for the zoom control.

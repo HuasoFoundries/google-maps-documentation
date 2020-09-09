@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/LatLng.html)
 
-
 LatLng class
 ------------
 
@@ -14,7 +13,7 @@ A LatLng is a point in geographical coordinates: latitude and longitude.
 Although the default map projection associates longitude with the x-coordinate of the map, and latitude with the y-coordinate, the latitude coordinate is always written _first_, followed by the longitude.  
 Notice that you cannot modify the coordinates of a LatLng. If you want to compute another point, you have to create a new one.  
 
-Most methods that accept LatLng objects also accept a [LatLngLiteral](LatLngLiteral.md) object, so that the following are equivalent:
+Most methods that accept LatLng objects also accept a [LatLngLiteral](#LatLngLiteral) object, so that the following are equivalent:
 
  map.setCenter(new google.maps.LatLng(-34, 151));  
  map.setCenter({lat: -34, lng: 151}); 
@@ -25,7 +24,7 @@ The constructor also accepts literal objects, and converts them to instances of 
 
 Constructor
 
-[LatLng](#LatLng.constructor)
+[undefined](#LatLng.constructor)
 
 LatLng(lat, lng\[, noWrap\])
 
@@ -39,19 +38,19 @@ Creates a LatLng object representing a geographic point. Latitude is specified i
 
 Methods
 
-[equals](#LatLng.equals)
+[undefined](#LatLng.equals)
 
 equals(other)
 
 **Parameters:** 
 
-*   other:  [LatLng](LatLng.md)
+*   other:  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
 **Return Value:**  boolean
 
 Comparison function.
 
-[lat](#LatLng.lat)
+[undefined](#LatLng.lat)
 
 lat()
 
@@ -61,7 +60,7 @@ lat()
 
 Returns the latitude in degrees.
 
-[lng](#LatLng.lng)
+[undefined](#LatLng.lng)
 
 lng()
 
@@ -71,17 +70,17 @@ lng()
 
 Returns the longitude in degrees.
 
-[toJSON](#LatLng.toJSON)
+[undefined](#LatLng.toJSON)
 
 toJSON()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLngLiteral](LatLngLiteral.md)
+**Return Value:**  [LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)
 
 Converts to JSON representation. This function is intended to be used via JSON.stringify.
 
-[toString](#LatLng.toString)
+[undefined](#LatLng.toString)
 
 toString()
 
@@ -91,7 +90,7 @@ toString()
 
 Converts to string representation.
 
-[toUrlValue](#LatLng.toUrlValue)
+[undefined](#LatLng.toUrlValue)
 
 toUrlValue(\[precision\])
 

@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/RectangleOptions.html)
 
-
 RectangleOptions interface
 --------------------------
 
@@ -10,79 +9,79 @@ RectangleOptions object used to define the properties that can be set on a Recta
 
 Properties
 
-[bounds](#RectangleOptions.bounds)
+[undefined](#RectangleOptions.bounds)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md) optional
+**Type:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)|[LatLngBoundsLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBoundsLiteral) optional
 
 The bounds.
 
-[clickable](#RectangleOptions.clickable)
+[undefined](#RectangleOptions.clickable)
 
 **Type:**  boolean optional
 
 Indicates whether this Rectangle handles mouse events. Defaults to true.
 
-[draggable](#RectangleOptions.draggable)
+[undefined](#RectangleOptions.draggable)
 
 **Type:**  boolean optional
 
 If set to true, the user can drag this rectangle over the map. Defaults to false.
 
-[editable](#RectangleOptions.editable)
+[undefined](#RectangleOptions.editable)
 
 **Type:**  boolean optional
 
 If set to true, the user can edit this rectangle by dragging the control points shown at the corners and on each edge. Defaults to false.
 
-[fillColor](#RectangleOptions.fillColor)
+[undefined](#RectangleOptions.fillColor)
 
 **Type:**  string optional
 
 The fill color. All CSS3 colors are supported except for extended named colors.
 
-[fillOpacity](#RectangleOptions.fillOpacity)
+[undefined](#RectangleOptions.fillOpacity)
 
 **Type:**  number optional
 
 The fill opacity between 0.0 and 1.0
 
-[map](#RectangleOptions.map)
+[undefined](#RectangleOptions.map)
 
-**Type:**  [Map](Map.md) optional
+**Type:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map) optional
 
 Map on which to display Rectangle.
 
-[strokeColor](#RectangleOptions.strokeColor)
+[undefined](#RectangleOptions.strokeColor)
 
 **Type:**  string optional
 
 The stroke color. All CSS3 colors are supported except for extended named colors.
 
-[strokeOpacity](#RectangleOptions.strokeOpacity)
+[undefined](#RectangleOptions.strokeOpacity)
 
 **Type:**  number optional
 
 The stroke opacity between 0.0 and 1.0
 
-[strokePosition](#RectangleOptions.strokePosition)
+[undefined](#RectangleOptions.strokePosition)
 
-**Type:**  [StrokePosition](StrokePosition.md) optional
+**Type:**  [StrokePosition](/maps/documentation/javascript/reference/3.40/polygon#StrokePosition) optional
 
 The stroke position. Defaults to CENTER. This property is not supported on Internet Explorer 8 and earlier.
 
-[strokeWeight](#RectangleOptions.strokeWeight)
+[undefined](#RectangleOptions.strokeWeight)
 
 **Type:**  number optional
 
 The stroke width in pixels.
 
-[visible](#RectangleOptions.visible)
+[undefined](#RectangleOptions.visible)
 
 **Type:**  boolean optional
 
 Whether this rectangle is visible on the map. Defaults to true.
 
-[zIndex](#RectangleOptions.zIndex)
+[undefined](#RectangleOptions.zIndex)
 
 **Type:**  number optional
 

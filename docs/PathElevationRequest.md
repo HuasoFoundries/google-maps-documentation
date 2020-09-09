@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PathElevationRequest.html)
 
-
 PathElevationRequest interface
 ------------------------------
 
@@ -10,13 +9,13 @@ An elevation query sent by the ElevationService containing the path along which 
 
 Properties
 
-[path](#PathElevationRequest.path)
+[undefined](#PathElevationRequest.path)
 
-**Type:**  Array<[LatLng](LatLng.md)\> optional
+**Type:**  Array<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)\> optional
 
 The path along which to collect elevation values.
 
-[samples](#PathElevationRequest.samples)
+[undefined](#PathElevationRequest.samples)
 
 **Type:**  number
 

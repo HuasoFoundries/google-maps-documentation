@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceDetailsRequest.html)
 
-
 PlaceDetailsRequest interface
 -----------------------------
 
@@ -14,20 +13,20 @@ places
 
 Properties
 
-[fields](#PlaceDetailsRequest.fields)
+[undefined](#PlaceDetailsRequest.fields)
 
 **Type:**  Array<string> optional
 
-Fields to be included in the details response, [which will be billed for](https://developers.google.com/maps/billing/understanding-cost-of-use#places-product). If no fields are specified or \['ALL'\] is passed in, all available fields will be returned and billed for (this is not recommended for production deployments). For a list of fields see [PlaceResult](PlaceResult.md). Nested fields can be specified with dot-paths (for example, "geometry.location").
+Fields to be included in the details response, [which will be billed for](https://developers.google.com/maps/billing/understanding-cost-of-use#places-product). If no fields are specified or \['ALL'\] is passed in, all available fields will be returned and billed for (this is not recommended for production deployments). For a list of fields see [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult). Nested fields can be specified with dot-paths (for example, "geometry.location").
 
-[placeId](#PlaceDetailsRequest.placeId)
+[undefined](#PlaceDetailsRequest.placeId)
 
 **Type:**  string
 
 The Place ID of the Place for which details are being requested.
 
-[sessionToken](#PlaceDetailsRequest.sessionToken)
+[undefined](#PlaceDetailsRequest.sessionToken)
 
-**Type:**  [AutocompleteSessionToken](AutocompleteSessionToken.md) optional
+**Type:**  [AutocompleteSessionToken](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#AutocompleteSessionToken) optional
 
 Unique reference used to bundle the details request with an autocomplete session.

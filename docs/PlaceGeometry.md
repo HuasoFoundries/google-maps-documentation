@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceGeometry.html)
 
-
 PlaceGeometry interface
 -----------------------
 
@@ -14,14 +13,14 @@ places
 
 Properties
 
-[location](#PlaceGeometry.location)
+[undefined](#PlaceGeometry.location)
 
-**Type:**  [LatLng](LatLng.md) optional
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng) optional
 
 The Place’s position.
 
-[viewport](#PlaceGeometry.viewport)
+[undefined](#PlaceGeometry.viewport)
 
-**Type:**  [LatLngBounds](LatLngBounds.md) optional
+**Type:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds) optional
 
-The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails).
+The preferred viewport when displaying this Place on a map. This property will be null if the preferred viewport for the Place is not known. Only available with [PlacesService.getDetails](PlacesService.md).

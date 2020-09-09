@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Geocoder.html)
 
-
 Geocoder class
 --------------
 
@@ -10,7 +9,7 @@ A service for converting between an address and a LatLng.
 
 Constructor
 
-[Geocoder](#Geocoder.constructor)
+[undefined](#Geocoder.constructor)
 
 Geocoder()
 
@@ -20,14 +19,14 @@ Creates a new instance of a Geocoder that sends geocode requests to Google serve
 
 Methods
 
-[geocode](#Geocoder.geocode)
+[undefined](#Geocoder.geocode)
 
 geocode(request, callback)
 
 **Parameters:** 
 
-*   request:  [GeocoderRequest](GeocoderRequest.md)
-*   callback:  function(Array<[GeocoderResult](GeocoderResult.md)\>, [GeocoderStatus](GeocoderStatus.md))
+*   request:  [GeocoderRequest](/maps/documentation/javascript/reference/3.40/geocoder#GeocoderRequest)
+*   callback:  function(Array<[GeocoderResult](/maps/documentation/javascript/reference/3.40/geocoder#GeocoderResult)\>, [GeocoderStatus](/maps/documentation/javascript/reference/3.40/geocoder#GeocoderStatus))
 
 **Return Value:**  None
 

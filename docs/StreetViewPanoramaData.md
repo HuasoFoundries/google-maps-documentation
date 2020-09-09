@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewPanoramaData.html)
 
-
 StreetViewPanoramaData interface
 --------------------------------
 
@@ -10,32 +9,32 @@ The representation of a panorama returned from the provider defined using regist
 
 Properties
 
-[copyright](#StreetViewPanoramaData.copyright)
+[undefined](#StreetViewPanoramaData.copyright)
 
 **Type:**  string
 
 Specifies the copyright text for this panorama.
 
-[imageDate](#StreetViewPanoramaData.imageDate)
+[undefined](#StreetViewPanoramaData.imageDate)
 
 **Type:**  string
 
 Specifies the year and month in which the imagery in this panorama was acquired. The date string is in the form YYYY-MM.
 
-[links](#StreetViewPanoramaData.links)
+[undefined](#StreetViewPanoramaData.links)
 
-**Type:**  Array<[StreetViewLink](StreetViewLink.md)\>
+**Type:**  Array<[StreetViewLink](/maps/documentation/javascript/reference/3.40/street-view-service#StreetViewLink)\>
 
 Specifies the navigational links to adjacent panoramas.
 
-[location](#StreetViewPanoramaData.location)
+[undefined](#StreetViewPanoramaData.location)
 
-**Type:**  [StreetViewLocation](StreetViewLocation.md)
+**Type:**  [StreetViewLocation](/maps/documentation/javascript/reference/3.40/street-view-service#StreetViewLocation)
 
 Specifies the location meta-data for this panorama.
 
-[tiles](#StreetViewPanoramaData.tiles)
+[undefined](#StreetViewPanoramaData.tiles)
 
-**Type:**  [StreetViewTileData](StreetViewTileData.md)
+**Type:**  [StreetViewTileData](/maps/documentation/javascript/reference/3.40/street-view#StreetViewTileData)
 
 Specifies the custom tiles for this panorama.

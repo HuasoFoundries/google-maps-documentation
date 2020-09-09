@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/GroundOverlayOptions.html)
 
-
 GroundOverlayOptions interface
 ------------------------------
 
@@ -10,19 +9,19 @@ This object defines the properties that can be set on a GroundOverlay object.
 
 Properties
 
-[clickable](#GroundOverlayOptions.clickable)
+[undefined](#GroundOverlayOptions.clickable)
 
 **Type:**  boolean optional
 
 If true, the ground overlay can receive mouse events.
 
-[map](#GroundOverlayOptions.map)
+[undefined](#GroundOverlayOptions.map)
 
-**Type:**  [Map](Map.md) optional
+**Type:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map) optional
 
 The map on which to display the overlay.
 
-[opacity](#GroundOverlayOptions.opacity)
+[undefined](#GroundOverlayOptions.opacity)
 
 **Type:**  number optional
 

@@ -1,12 +1,11 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/FindPlaceFromPhoneNumberRequest.html)
 
-
 FindPlaceFromPhoneNumberRequest interface
 -----------------------------------------
 
 google.maps.places.FindPlaceFromPhoneNumberRequest interface
 
-A find place from text search request to be sent to [PlacesService.findPlaceFromPhoneNumber](/maps/documentation/javascript/reference/places-service#PlacesService.findPlaceFromPhoneNumber).
+A find place from text search request to be sent to [PlacesService.findPlaceFromPhoneNumber](PlacesService.md).
 
 #### Library
 
@@ -14,19 +13,19 @@ places
 
 Properties
 
-[fields](#FindPlaceFromPhoneNumberRequest.fields)
+[undefined](#FindPlaceFromPhoneNumberRequest.fields)
 
 **Type:**  Array<string>
 
-Fields to be included in the response, [which will be billed for](https://developers.google.com/maps/billing/understanding-cost-of-use#places-product). If \['ALL'\] is passed in, all available fields will be returned and billed for (this is not recommended for production deployments). For a list of fields see [PlaceResult](PlaceResult.md). Nested fields can be specified with dot-paths (for example, "geometry.location").
+Fields to be included in the response, [which will be billed for](https://developers.google.com/maps/billing/understanding-cost-of-use#places-product). If \['ALL'\] is passed in, all available fields will be returned and billed for (this is not recommended for production deployments). For a list of fields see [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult). Nested fields can be specified with dot-paths (for example, "geometry.location").
 
-[locationBias](#FindPlaceFromPhoneNumberRequest.locationBias)
+[undefined](#FindPlaceFromPhoneNumberRequest.locationBias)
 
-**Type:**  [LocationBias](LocationBias.md) optional
+**Type:**  [LocationBias](/maps/documentation/javascript/reference/3.40/places-service#LocationBias) optional
 
-The bias used when searching for Place. The result will be biased towards, but not restricted to, the given [LocationBias](LocationBias.md).
+The bias used when searching for Place. The result will be biased towards, but not restricted to, the given [LocationBias](/maps/documentation/javascript/reference/3.40/places-service#LocationBias).
 
-[phoneNumber](#FindPlaceFromPhoneNumberRequest.phoneNumber)
+[undefined](#FindPlaceFromPhoneNumberRequest.phoneNumber)
 
 **Type:**  string
 

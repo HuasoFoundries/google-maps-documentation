@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/ImageMapType.html)
 
-
 ImageMapType class
 ------------------
 
@@ -8,25 +7,25 @@ google.maps.ImageMapType class
 
 This class implements the MapType interface and is provided for rendering image tiles.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
-This class implements [MapType](MapType.md).
+This class implements [MapType](/maps/documentation/javascript/reference/3.40/image-overlay#MapType).
 
 Constructor
 
-[ImageMapType](#ImageMapType.constructor)
+[undefined](#ImageMapType.constructor)
 
 ImageMapType(opts)
 
 **Parameters:** 
 
-*   opts:  [ImageMapTypeOptions](ImageMapTypeOptions.md)
+*   opts:  [ImageMapTypeOptions](/maps/documentation/javascript/reference/3.40/image-overlay#ImageMapTypeOptions)
 
 Constructs an ImageMapType using the provided ImageMapTypeOptions
 
 Methods
 
-[getOpacity](#ImageMapType.getOpacity)
+[undefined](#ImageMapType.getOpacity)
 
 getOpacity()
 
@@ -36,19 +35,19 @@ getOpacity()
 
 Returns the opacity level (0 (transparent) to 1.0) of the ImageMapType tiles.
 
-[getTile](#ImageMapType.getTile)
+[undefined](#ImageMapType.getTile)
 
 getTile(tileCoord, zoom, ownerDocument)
 
 **Parameters:** 
 
-*   tileCoord:  [Point](Point.md)
+*   tileCoord:  [Point](/maps/documentation/javascript/reference/3.40/coordinates#Point)
 *   zoom:  number
 *   ownerDocument:  Document
 
 **Return Value:**  Node
 
-[releaseTile](#ImageMapType.releaseTile)
+[undefined](#ImageMapType.releaseTile)
 
 releaseTile(tileDiv)
 
@@ -58,7 +57,7 @@ releaseTile(tileDiv)
 
 **Return Value:**  None
 
-[setOpacity](#ImageMapType.setOpacity)
+[undefined](#ImageMapType.setOpacity)
 
 setOpacity(opacity)
 
@@ -72,37 +71,37 @@ Sets the opacity level (0 (transparent) to 1.0) of the ImageMapType tiles.
 
 Properties
 
-[alt](#ImageMapType.alt)
+[undefined](#ImageMapType.alt)
 
 **Type:**  string optional
 
-[maxZoom](#ImageMapType.maxZoom)
+[undefined](#ImageMapType.maxZoom)
 
 **Type:**  number
 
-[minZoom](#ImageMapType.minZoom)
+[undefined](#ImageMapType.minZoom)
 
 **Type:**  number
 
-[name](#ImageMapType.name)
+[undefined](#ImageMapType.name)
 
 **Type:**  string optional
 
-[projection](#ImageMapType.projection)
+[undefined](#ImageMapType.projection)
 
-**Type:**  [Projection](Projection.md)
+**Type:**  [Projection](/maps/documentation/javascript/reference/3.40/image-overlay#Projection)
 
-[radius](#ImageMapType.radius)
+[undefined](#ImageMapType.radius)
 
 **Type:**  number
 
-[tileSize](#ImageMapType.tileSize)
+[undefined](#ImageMapType.tileSize)
 
-**Type:**  [Size](Size.md)
+**Type:**  [Size](/maps/documentation/javascript/reference/3.40/coordinates#Size)
 
 Events
 
-[tilesloaded](#ImageMapType.tilesloaded)
+[undefined](#ImageMapType.tilesloaded)
 
 function()
 

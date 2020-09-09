@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/RankBy.html)
 
-
 RankBy constants
 ----------------
 
@@ -14,10 +13,10 @@ places
 
 Constants
 
-[DISTANCE](#RankBy.DISTANCE)
+[undefined](#RankBy.DISTANCE)
 
 Ranks place results by distance from the location.
 
-[PROMINENCE](#RankBy.PROMINENCE)
+[undefined](#RankBy.PROMINENCE)
 
 Ranks place results by their prominence.

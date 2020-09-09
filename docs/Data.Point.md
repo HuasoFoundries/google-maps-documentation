@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.Point.html)
 
-
 Data.Point class
 ----------------
 
@@ -8,43 +7,43 @@ google.maps.Data.Point class
 
 A Point geometry contains a single LatLng.
 
-This class implements [Data.Geometry](Data.Geometry.md).
+This class implements [Data.Geometry](Data.md).
 
 Constructor
 
-[Data.Point](#Data.Point.constructor)
+[undefined](#Data.Point.constructor)
 
 Data.Point(latLng)
 
 **Parameters:** 
 
-*   latLng:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
+*   latLng:  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)
 
 Constructs a Data.Point from the given LatLng or LatLngLiteral.
 
 Methods
 
-[forEachLatLng](#Data.Point.forEachLatLng)
+[undefined](#Data.Point.forEachLatLng)
 
 forEachLatLng(callback)
 
 **Parameters:** 
 
-*   callback:  function([LatLng](LatLng.md))
+*   callback:  function([LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng))
 
 **Return Value:**  None
 
-[get](#Data.Point.get)
+[undefined](#Data.Point.get)
 
 get()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLng](LatLng.md)
+**Return Value:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
 Returns the contained LatLng.
 
-[getType](#Data.Point.getType)
+[undefined](#Data.Point.getType)
 
 getType()
 

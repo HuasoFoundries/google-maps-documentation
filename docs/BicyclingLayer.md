@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/BicyclingLayer.html)
 
-
 BicyclingLayer class
 --------------------
 
@@ -8,11 +7,11 @@ google.maps.BicyclingLayer class
 
 A layer showing bike lanes and paths.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[BicyclingLayer](#BicyclingLayer.constructor)
+[undefined](#BicyclingLayer.constructor)
 
 BicyclingLayer()
 
@@ -22,23 +21,23 @@ A layer that displays bike lanes and paths and demotes large roads.
 
 Methods
 
-[getMap](#BicyclingLayer.getMap)
+[undefined](#BicyclingLayer.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 Returns the map on which this layer is displayed.
 
-[setMap](#BicyclingLayer.setMap)
+[undefined](#BicyclingLayer.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 **Return Value:**  None
 

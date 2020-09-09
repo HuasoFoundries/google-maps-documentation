@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MVCObject.html)
 
-
 MVCObject class
 ---------------
 
@@ -12,7 +11,7 @@ The MVCObject constructor is guaranteed to be an empty function, and so you may 
 
 Constructor
 
-[MVCObject](#MVCObject.constructor)
+[undefined](#MVCObject.constructor)
 
 MVCObject()
 
@@ -22,7 +21,7 @@ Creates an MVCObject.
 
 Methods
 
-[addListener](#MVCObject.addListener)
+[undefined](#MVCObject.addListener)
 
 addListener(eventName, handler)
 
@@ -31,18 +30,18 @@ addListener(eventName, handler)
 *   eventName:  string
 *   handler:  Function
 
-**Return Value:**  [MapsEventListener](MapsEventListener.md)
+**Return Value:**  [MapsEventListener](/maps/documentation/javascript/reference/3.40/event#MapsEventListener)
 
 Adds the given listener function to the given event name. Returns an identifier for this listener that can be used with google.maps.event.removeListener.
 
-[bindTo](#MVCObject.bindTo)
+[undefined](#MVCObject.bindTo)
 
 bindTo(key, target\[, targetKey, noNotify\])
 
 **Parameters:** 
 
 *   key:  string
-*   target:  [MVCObject](MVCObject.md)
+*   target:  [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject)
 *   targetKey:  string optional
 *   noNotify:  boolean optional
 
@@ -50,7 +49,7 @@ bindTo(key, target\[, targetKey, noNotify\])
 
 Binds a View to a Model.
 
-[get](#MVCObject.get)
+[undefined](#MVCObject.get)
 
 get(key)
 
@@ -62,7 +61,7 @@ get(key)
 
 Gets a value.
 
-[notify](#MVCObject.notify)
+[undefined](#MVCObject.notify)
 
 notify(key)
 
@@ -74,7 +73,7 @@ notify(key)
 
 Notify all observers of a change on this property. This notifies both objects that are bound to the object's property as well as the object that it is bound to.
 
-[set](#MVCObject.set)
+[undefined](#MVCObject.set)
 
 set(key, value)
 
@@ -87,7 +86,7 @@ set(key, value)
 
 Sets a value.
 
-[setValues](#MVCObject.setValues)
+[undefined](#MVCObject.setValues)
 
 setValues(\[values\])
 
@@ -99,7 +98,7 @@ setValues(\[values\])
 
 Sets a collection of key-value pairs.
 
-[unbind](#MVCObject.unbind)
+[undefined](#MVCObject.unbind)
 
 unbind(key)
 
@@ -111,7 +110,7 @@ unbind(key)
 
 Removes a binding. Unbinding will set the unbound property to the current value. The object will not be notified, as the value has not changed.
 
-[unbindAll](#MVCObject.unbindAll)
+[undefined](#MVCObject.unbindAll)
 
 unbindAll()
 

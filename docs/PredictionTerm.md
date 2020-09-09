@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PredictionTerm.html)
 
-
 PredictionTerm interface
 ------------------------
 
@@ -14,13 +13,13 @@ places
 
 Properties
 
-[offset](#PredictionTerm.offset)
+[undefined](#PredictionTerm.offset)
 
 **Type:**  number
 
 The offset, in unicode characters, of the start of this term in the description of the place.
 
-[value](#PredictionTerm.value)
+[undefined](#PredictionTerm.value)
 
 **Type:**  string
 

@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/ComponentRestrictions.html)
 
-
 ComponentRestrictions interface
 -------------------------------
 
@@ -14,7 +13,7 @@ places
 
 Properties
 
-[country](#ComponentRestrictions.country)
+[undefined](#ComponentRestrictions.country)
 
 **Type:**  string|Array<string>
 

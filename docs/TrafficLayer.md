@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TrafficLayer.html)
 
-
 TrafficLayer class
 ------------------
 
@@ -8,50 +7,50 @@ google.maps.TrafficLayer class
 
 A traffic layer.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[TrafficLayer](#TrafficLayer.constructor)
+[undefined](#TrafficLayer.constructor)
 
 TrafficLayer(\[opts\])
 
 **Parameters:** 
 
-*   opts:  [TrafficLayerOptions](TrafficLayerOptions.md) optional
+*   opts:  [TrafficLayerOptions](/maps/documentation/javascript/reference/3.40/map#TrafficLayerOptions) optional
 
 A layer that displays current road traffic.
 
 Methods
 
-[getMap](#TrafficLayer.getMap)
+[undefined](#TrafficLayer.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 Returns the map on which this layer is displayed.
 
-[setMap](#TrafficLayer.setMap)
+[undefined](#TrafficLayer.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 **Return Value:**  None
 
 Renders the layer on the specified map. If map is set to null, the layer will be removed.
 
-[setOptions](#TrafficLayer.setOptions)
+[undefined](#TrafficLayer.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [TrafficLayerOptions](TrafficLayerOptions.md)
+*   options:  [TrafficLayerOptions](/maps/documentation/javascript/reference/3.40/map#TrafficLayerOptions)
 
 **Return Value:**  None

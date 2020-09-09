@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/AutocompleteOptions.html)
 
-
 AutocompleteOptions interface
 -----------------------------
 
@@ -14,39 +13,39 @@ places
 
 Properties
 
-[bounds](#AutocompleteOptions.bounds)
+[undefined](#AutocompleteOptions.bounds)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md) optional
+**Type:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)|[LatLngBoundsLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBoundsLiteral) optional
 
 The area in which to search for places.
 
-[componentRestrictions](#AutocompleteOptions.componentRestrictions)
+[undefined](#AutocompleteOptions.componentRestrictions)
 
-**Type:**  [ComponentRestrictions](ComponentRestrictions.md) optional
+**Type:**  [ComponentRestrictions](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#ComponentRestrictions) optional
 
 The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.
 
-[fields](#AutocompleteOptions.fields)
+[undefined](#AutocompleteOptions.fields)
 
 **Type:**  Array<string> optional
 
-Fields to be included for the Place in the details response when the details are successfully retrieved, [which will be billed for](https://developers.google.com/maps/billing/understanding-cost-of-use#places-product). If \['ALL'\] is passed in, all available fields will be returned and billed for (this is not recommended for production deployments). For a list of fields see [PlaceResult](PlaceResult.md). Nested fields can be specified with dot-paths (for example, "geometry.location").
+Fields to be included for the Place in the details response when the details are successfully retrieved, [which will be billed for](https://developers.google.com/maps/billing/understanding-cost-of-use#places-product). If \['ALL'\] is passed in, all available fields will be returned and billed for (this is not recommended for production deployments). For a list of fields see [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult). Nested fields can be specified with dot-paths (for example, "geometry.location").
 
-[placeIdOnly](#AutocompleteOptions.placeIdOnly)
+[undefined](#AutocompleteOptions.placeIdOnly)
 
-**Notice:** placeIdOnly is deprecated as of January 15, 2019, and will be turned off on January 15, 2020. Use [AutocompleteOptions.fields](/maps/documentation/javascript/reference/places-widget#AutocompleteOptions.fields) instead: fields: \['place\_id', 'name', 'types'\].
+**Notice:** placeIdOnly is deprecated as of January 15, 2019, and will be turned off on January 15, 2020. Use [AutocompleteOptions.fields](AutocompleteOptions.md) instead: fields: \['place\_id', 'name', 'types'\].
 
 **Type:**  boolean optional
 
 Whether to retrieve only Place IDs. The PlaceResult made available when the place\_changed event is fired will only have the place\_id, types and name fields, with the place\_id, types and description returned by the Autocomplete service. Disabled by default.
 
-[strictBounds](#AutocompleteOptions.strictBounds)
+[undefined](#AutocompleteOptions.strictBounds)
 
 **Type:**  boolean optional
 
 A boolean value, indicating that the Autocomplete widget should only return those places that are inside the bounds of the Autocomplete widget at the time the query is sent. Setting strictBounds to false (which is the default) will make the results biased towards, but not restricted to, places contained within the bounds.
 
-[types](#AutocompleteOptions.types)
+[undefined](#AutocompleteOptions.types)
 
 **Type:**  Array<string> optional
 

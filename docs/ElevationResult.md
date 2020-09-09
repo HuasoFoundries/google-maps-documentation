@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/ElevationResult.html)
 
-
 ElevationResult interface
 -------------------------
 
@@ -10,19 +9,19 @@ The result of an ElevationService request, consisting of the set of elevation co
 
 Properties
 
-[elevation](#ElevationResult.elevation)
+[undefined](#ElevationResult.elevation)
 
 **Type:**  number
 
 The elevation of this point on Earth, in meters above sea level.
 
-[location](#ElevationResult.location)
+[undefined](#ElevationResult.location)
 
-**Type:**  [LatLng](LatLng.md)
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
 The location of this elevation result.
 
-[resolution](#ElevationResult.resolution)
+[undefined](#ElevationResult.resolution)
 
 **Type:**  number
 

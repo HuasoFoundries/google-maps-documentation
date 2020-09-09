@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PolyMouseEvent.html)
 
-
 PolyMouseEvent interface
 ------------------------
 
@@ -8,23 +7,23 @@ google.maps.PolyMouseEvent interface
 
 This object is returned from mouse events on polylines and polygons.
 
-This interface extends [MouseEvent](MouseEvent.md).
+This interface extends [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent).
 
 Properties
 
-[edge](#PolyMouseEvent.edge)
+[undefined](#PolyMouseEvent.edge)
 
 **Type:**  number
 
 The index of the edge within the path beneath the cursor when the event occurred, if the event occurred on a mid-point on an editable polygon.
 
-[path](#PolyMouseEvent.path)
+[undefined](#PolyMouseEvent.path)
 
 **Type:**  number
 
 The index of the path beneath the cursor when the event occurred, if the event occurred on a vertex and the polygon is editable. Otherwise undefined.
 
-[vertex](#PolyMouseEvent.vertex)
+[undefined](#PolyMouseEvent.vertex)
 
 **Type:**  number
 

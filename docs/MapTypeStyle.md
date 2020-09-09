@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapTypeStyle.html)
 
-
 MapTypeStyle interface
 ----------------------
 
@@ -10,19 +9,19 @@ The MapTypeStyle is a collection of selectors and stylers that define how the ma
 
 Properties
 
-[elementType](#MapTypeStyle.elementType)
+[undefined](#MapTypeStyle.elementType)
 
 **Type:**  string optional
 
 The element to which a styler should be applied. An element is a visual aspect of a feature on the map. Example: a label, an icon, the stroke or fill applied to the geometry, and more. Optional. If elementType is not specified, the value is assumed to be 'all'. For details of usage and allowed values, see the [style reference](/maps/documentation/javascript/style-reference#style-elements).
 
-[featureType](#MapTypeStyle.featureType)
+[undefined](#MapTypeStyle.featureType)
 
 **Type:**  string optional
 
 The feature, or group of features, to which a styler should be applied. Optional. If featureType is not specified, the value is assumed to be 'all'. For details of usage and allowed values, see the [style reference](/maps/documentation/javascript/style-reference#style-features).
 
-[stylers](#MapTypeStyle.stylers)
+[undefined](#MapTypeStyle.stylers)
 
 **Type:**  Array<Object>
 

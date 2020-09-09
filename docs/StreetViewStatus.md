@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewStatus.html)
 
-
 StreetViewStatus constants
 --------------------------
 
@@ -10,14 +9,14 @@ The status returned by the StreetViewService on completion of a Street View requ
 
 Constants
 
-[OK](#StreetViewStatus.OK)
+[undefined](#StreetViewStatus.OK)
 
 The request was successful.
 
-[UNKNOWN\_ERROR](#StreetViewStatus.UNKNOWN_ERROR)
+[undefined](#StreetViewStatus.UNKNOWN_ERROR)
 
 The request could not be successfully processed, yet the exact reason for failure is unknown.
 
-[ZERO\_RESULTS](#StreetViewStatus.ZERO_RESULTS)
+[undefined](#StreetViewStatus.ZERO_RESULTS)
 
 There are no panoramas found that match the search criteria.

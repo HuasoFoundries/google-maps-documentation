@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/IconSequence.html)
 
-
 IconSequence interface
 ----------------------
 
@@ -12,25 +11,25 @@ If your polyline is geodesic, then the distances specified for both offset and r
 
 Properties
 
-[fixedRotation](#IconSequence.fixedRotation)
+[undefined](#IconSequence.fixedRotation)
 
 **Type:**  boolean
 
 If true, each icon in the sequence has the same fixed rotation regardless of the angle of the edge on which it lies. Defaults to false, in which case each icon in the sequence is rotated to align with its edge.
 
-[icon](#IconSequence.icon)
+[undefined](#IconSequence.icon)
 
-**Type:**  [Symbol](Symbol.md)
+**Type:**  [Symbol](/maps/documentation/javascript/reference/3.40/marker#Symbol)
 
 The icon to render on the line.
 
-[offset](#IconSequence.offset)
+[undefined](#IconSequence.offset)
 
 **Type:**  string
 
 The distance from the start of the line at which an icon is to be rendered. This distance may be expressed as a percentage of line's length (e.g. '50%') or in pixels (e.g. '50px'). Defaults to '100%'.
 
-[repeat](#IconSequence.repeat)
+[undefined](#IconSequence.repeat)
 
 **Type:**  string
 

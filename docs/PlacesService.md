@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlacesService.html)
 
-
 PlacesService class
 -------------------
 
@@ -14,78 +13,78 @@ places
 
 Constructor
 
-[PlacesService](#PlacesService.constructor)
+[undefined](#PlacesService.constructor)
 
 PlacesService(attrContainer)
 
 **Parameters:** 
 
-*   attrContainer:  HTMLDivElement|[Map](Map.md)
+*   attrContainer:  HTMLDivElement|[Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 Creates a new instance of the PlacesService that renders attributions in the specified container.
 
 Methods
 
-[findPlaceFromPhoneNumber](#PlacesService.findPlaceFromPhoneNumber)
+[undefined](#PlacesService.findPlaceFromPhoneNumber)
 
 findPlaceFromPhoneNumber(request, callback)
 
 **Parameters:** 
 
-*   request:  [FindPlaceFromPhoneNumberRequest](FindPlaceFromPhoneNumberRequest.md)
-*   callback:  function(Array<[PlaceResult](PlaceResult.md)\> optional, [PlacesServiceStatus](PlacesServiceStatus.md))
+*   request:  [FindPlaceFromPhoneNumberRequest](/maps/documentation/javascript/reference/3.40/places-service#FindPlaceFromPhoneNumberRequest)
+*   callback:  function(Array<[PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult)\> optional, [PlacesServiceStatus](/maps/documentation/javascript/reference/3.40/places-service#PlacesServiceStatus))
 
 **Return Value:**  None
 
-Retrieves a list of places based on a phone number. In most cases there should be just one item in the result list, however if the request is ambiguous more than one result may be returned. The [PlaceResult](PlaceResult.md)s passed to the callback are subsets of a full [PlaceResult](PlaceResult.md). Your app can get a more detailed [PlaceResult](PlaceResult.md) for each place by calling [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails) and passing the [PlaceResult.place\_id](/maps/documentation/javascript/reference/places-service#PlaceResult.place_id) for the desired place.
+Retrieves a list of places based on a phone number. In most cases there should be just one item in the result list, however if the request is ambiguous more than one result may be returned. The [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult)s passed to the callback are subsets of a full [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult). Your app can get a more detailed [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult) for each place by calling [PlacesService.getDetails](PlacesService.md) and passing the [PlaceResult.place\_id](PlaceResult.md) for the desired place.
 
-[findPlaceFromQuery](#PlacesService.findPlaceFromQuery)
+[undefined](#PlacesService.findPlaceFromQuery)
 
 findPlaceFromQuery(request, callback)
 
 **Parameters:** 
 
-*   request:  [FindPlaceFromQueryRequest](FindPlaceFromQueryRequest.md)
-*   callback:  function(Array<[PlaceResult](PlaceResult.md)\> optional, [PlacesServiceStatus](PlacesServiceStatus.md))
+*   request:  [FindPlaceFromQueryRequest](/maps/documentation/javascript/reference/3.40/places-service#FindPlaceFromQueryRequest)
+*   callback:  function(Array<[PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult)\> optional, [PlacesServiceStatus](/maps/documentation/javascript/reference/3.40/places-service#PlacesServiceStatus))
 
 **Return Value:**  None
 
-Retrieves a list of places based on a query string. In most cases there should be just one item in the result list, however if the request is ambiguous more than one result may be returned. The [PlaceResult](PlaceResult.md)s passed to the callback are subsets of a full [PlaceResult](PlaceResult.md). Your app can get a more detailed [PlaceResult](PlaceResult.md) for each place by calling [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails) and passing the [PlaceResult.place\_id](/maps/documentation/javascript/reference/places-service#PlaceResult.place_id) for the desired place.
+Retrieves a list of places based on a query string. In most cases there should be just one item in the result list, however if the request is ambiguous more than one result may be returned. The [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult)s passed to the callback are subsets of a full [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult). Your app can get a more detailed [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult) for each place by calling [PlacesService.getDetails](PlacesService.md) and passing the [PlaceResult.place\_id](PlaceResult.md) for the desired place.
 
-[getDetails](#PlacesService.getDetails)
+[undefined](#PlacesService.getDetails)
 
 getDetails(request, callback)
 
 **Parameters:** 
 
-*   request:  [PlaceDetailsRequest](PlaceDetailsRequest.md)
-*   callback:  function([PlaceResult](PlaceResult.md) optional, [PlacesServiceStatus](PlacesServiceStatus.md))
+*   request:  [PlaceDetailsRequest](/maps/documentation/javascript/reference/3.40/places-service#PlaceDetailsRequest)
+*   callback:  function([PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult) optional, [PlacesServiceStatus](/maps/documentation/javascript/reference/3.40/places-service#PlacesServiceStatus))
 
 **Return Value:**  None
 
 Retrieves details about the place identified by the given placeId.
 
-[nearbySearch](#PlacesService.nearbySearch)
+[undefined](#PlacesService.nearbySearch)
 
 nearbySearch(request, callback)
 
 **Parameters:** 
 
-*   request:  [PlaceSearchRequest](PlaceSearchRequest.md)
-*   callback:  function(Array<[PlaceResult](PlaceResult.md)\> optional, [PlacesServiceStatus](PlacesServiceStatus.md), [PlaceSearchPagination](PlaceSearchPagination.md) optional)
+*   request:  [PlaceSearchRequest](/maps/documentation/javascript/reference/3.40/places-service#PlaceSearchRequest)
+*   callback:  function(Array<[PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult)\> optional, [PlacesServiceStatus](/maps/documentation/javascript/reference/3.40/places-service#PlacesServiceStatus), [PlaceSearchPagination](/maps/documentation/javascript/reference/3.40/places-service#PlaceSearchPagination) optional)
 
 **Return Value:**  None
 
-Retrieves a list of places near a particular location, based on keyword or type. Location must always be specified, either by passing a LatLngBounds, or location and radius parameters. The [PlaceResult](PlaceResult.md)s passed to the callback are subsets of the full [PlaceResult](PlaceResult.md). Your app can get a more detailed [PlaceResult](PlaceResult.md) for each place by sending a [Place Details request](/maps/documentation/javascript/places#place_details_requests) passing the [PlaceResult.place\_id](/maps/documentation/javascript/reference/places-service#PlaceResult.place_id) for the desired place. The [PlaceSearchPagination](PlaceSearchPagination.md) object can be used to fetch additional pages of results (null if this is the last page of results or if there is only one page of results).
+Retrieves a list of places near a particular location, based on keyword or type. Location must always be specified, either by passing a LatLngBounds, or location and radius parameters. The [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult)s passed to the callback are subsets of the full [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult). Your app can get a more detailed [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult) for each place by sending a [Place Details request](/maps/documentation/javascript/places#place_details_requests) passing the [PlaceResult.place\_id](PlaceResult.md) for the desired place. The [PlaceSearchPagination](/maps/documentation/javascript/reference/3.40/places-service#PlaceSearchPagination) object can be used to fetch additional pages of results (null if this is the last page of results or if there is only one page of results).
 
-[textSearch](#PlacesService.textSearch)
+[undefined](#PlacesService.textSearch)
 
 textSearch(request, callback)
 
 **Parameters:** 
 
-*   request:  [TextSearchRequest](TextSearchRequest.md)
-*   callback:  function(Array<[PlaceResult](PlaceResult.md)\> optional, [PlacesServiceStatus](PlacesServiceStatus.md), [PlaceSearchPagination](PlaceSearchPagination.md) optional)
+*   request:  [TextSearchRequest](/maps/documentation/javascript/reference/3.40/places-service#TextSearchRequest)
+*   callback:  function(Array<[PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult)\> optional, [PlacesServiceStatus](/maps/documentation/javascript/reference/3.40/places-service#PlacesServiceStatus), [PlaceSearchPagination](/maps/documentation/javascript/reference/3.40/places-service#PlaceSearchPagination) optional)
 
 **Return Value:**  None
 

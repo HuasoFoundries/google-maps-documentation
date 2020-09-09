@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.SetPropertyEvent.html)
 
-
 Data.SetPropertyEvent interface
 -------------------------------
 
@@ -10,25 +9,25 @@ The properties of a setproperty event.
 
 Properties
 
-[feature](#Data.SetPropertyEvent.feature)
+[undefined](#Data.SetPropertyEvent.feature)
 
-**Type:**  [Data.Feature](Data.Feature.md)
+**Type:**  [Data.Feature](Data.md)
 
 The feature whose property was set.
 
-[name](#Data.SetPropertyEvent.name)
+[undefined](#Data.SetPropertyEvent.name)
 
 **Type:**  string
 
 The property name.
 
-[newValue](#Data.SetPropertyEvent.newValue)
+[undefined](#Data.SetPropertyEvent.newValue)
 
 **Type:**  \*
 
 The new value.
 
-[oldValue](#Data.SetPropertyEvent.oldValue)
+[undefined](#Data.SetPropertyEvent.oldValue)
 
 **Type:**  \*
 

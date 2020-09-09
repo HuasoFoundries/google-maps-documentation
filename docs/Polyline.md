@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Polyline.html)
 
-
 Polyline class
 --------------
 
@@ -8,23 +7,23 @@ google.maps.Polyline class
 
 A polyline is a linear overlay of connected line segments on the map.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[Polyline](#Polyline.constructor)
+[undefined](#Polyline.constructor)
 
 Polyline(\[opts\])
 
 **Parameters:** 
 
-*   opts:  [PolylineOptions](PolylineOptions.md) optional
+*   opts:  [PolylineOptions](/maps/documentation/javascript/reference/3.40/polygon#PolylineOptions) optional
 
-Create a polyline using the passed _[PolylineOptions](PolylineOptions.md)_, which specify both the path of the polyline and the stroke style to use when drawing the polyline. You may pass either an array of LatLngs or an [MVCArray](#MVCArray) of LatLngs when constructing a polyline, though simple arrays are converted to MVCArrays within the polyline upon instantiation.
+Create a polyline using the passed _[PolylineOptions](#PolylineOptions)_, which specify both the path of the polyline and the stroke style to use when drawing the polyline. You may pass either an array of LatLngs or an [MVCArray](#MVCArray) of LatLngs when constructing a polyline, though simple arrays are converted to MVCArrays within the polyline upon instantiation.
 
 Methods
 
-[getDraggable](#Polyline.getDraggable)
+[undefined](#Polyline.getDraggable)
 
 getDraggable()
 
@@ -34,7 +33,7 @@ getDraggable()
 
 Returns whether this shape can be dragged by the user.
 
-[getEditable](#Polyline.getEditable)
+[undefined](#Polyline.getEditable)
 
 getEditable()
 
@@ -44,27 +43,27 @@ getEditable()
 
 Returns whether this shape can be edited by the user.
 
-[getMap](#Polyline.getMap)
+[undefined](#Polyline.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 Returns the map on which this shape is attached.
 
-[getPath](#Polyline.getPath)
+[undefined](#Polyline.getPath)
 
 getPath()
 
 **Parameters:**  None
 
-**Return Value:**  [MVCArray](MVCArray.md)<[LatLng](LatLng.md)\>
+**Return Value:**  [MVCArray](/maps/documentation/javascript/reference/3.40/event#MVCArray)<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)\>
 
 Retrieves the path.
 
-[getVisible](#Polyline.getVisible)
+[undefined](#Polyline.getVisible)
 
 getVisible()
 
@@ -74,7 +73,7 @@ getVisible()
 
 Returns whether this poly is visible on the map.
 
-[setDraggable](#Polyline.setDraggable)
+[undefined](#Polyline.setDraggable)
 
 setDraggable(draggable)
 
@@ -86,7 +85,7 @@ setDraggable(draggable)
 
 If set to true, the user can drag this shape over the map. The geodesic property defines the mode of dragging.
 
-[setEditable](#Polyline.setEditable)
+[undefined](#Polyline.setEditable)
 
 setEditable(editable)
 
@@ -98,41 +97,41 @@ setEditable(editable)
 
 If set to true, the user can edit this shape by dragging the control points shown at the vertices and on each segment.
 
-[setMap](#Polyline.setMap)
+[undefined](#Polyline.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 **Return Value:**  None
 
 Renders this shape on the specified map. If map is set to null, the shape will be removed.
 
-[setOptions](#Polyline.setOptions)
+[undefined](#Polyline.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [PolylineOptions](PolylineOptions.md)
+*   options:  [PolylineOptions](/maps/documentation/javascript/reference/3.40/polygon#PolylineOptions)
 
 **Return Value:**  None
 
-[setPath](#Polyline.setPath)
+[undefined](#Polyline.setPath)
 
 setPath(path)
 
 **Parameters:** 
 
-*   path:  [MVCArray](MVCArray.md)<[LatLng](LatLng.md)\>|Array<[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)\>
+*   path:  [MVCArray](/maps/documentation/javascript/reference/3.40/event#MVCArray)<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)\>|Array<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)\>
 
 **Return Value:**  None
 
-Sets the path. See _[PolylineOptions](PolylineOptions.md)_ for more details.
+Sets the path. See _[PolylineOptions](#PolylineOptions)_ for more details.
 
-[setVisible](#Polyline.setVisible)
+[undefined](#Polyline.setVisible)
 
 setVisible(visible)
 
@@ -146,112 +145,112 @@ Hides this poly if set to false.
 
 Events
 
-[click](#Polyline.click)
+[undefined](#Polyline.click)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [PolyMouseEvent](PolyMouseEvent.md)
+*   event:  [PolyMouseEvent](/maps/documentation/javascript/reference/3.40/polygon#PolyMouseEvent)
 
 This event is fired when the DOM click event is fired on the Polyline.
 
-[dblclick](#Polyline.dblclick)
+[undefined](#Polyline.dblclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [PolyMouseEvent](PolyMouseEvent.md)
+*   event:  [PolyMouseEvent](/maps/documentation/javascript/reference/3.40/polygon#PolyMouseEvent)
 
 This event is fired when the DOM dblclick event is fired on the Polyline.
 
-[drag](#Polyline.drag)
+[undefined](#Polyline.drag)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is repeatedly fired while the user drags the polyline.
 
-[dragend](#Polyline.dragend)
+[undefined](#Polyline.dragend)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the user stops dragging the polyline.
 
-[dragstart](#Polyline.dragstart)
+[undefined](#Polyline.dragstart)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the user starts dragging the polyline.
 
-[mousedown](#Polyline.mousedown)
+[undefined](#Polyline.mousedown)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [PolyMouseEvent](PolyMouseEvent.md)
+*   event:  [PolyMouseEvent](/maps/documentation/javascript/reference/3.40/polygon#PolyMouseEvent)
 
 This event is fired when the DOM mousedown event is fired on the Polyline.
 
-[mousemove](#Polyline.mousemove)
+[undefined](#Polyline.mousemove)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [PolyMouseEvent](PolyMouseEvent.md)
+*   event:  [PolyMouseEvent](/maps/documentation/javascript/reference/3.40/polygon#PolyMouseEvent)
 
 This event is fired when the DOM mousemove event is fired on the Polyline.
 
-[mouseout](#Polyline.mouseout)
+[undefined](#Polyline.mouseout)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [PolyMouseEvent](PolyMouseEvent.md)
+*   event:  [PolyMouseEvent](/maps/documentation/javascript/reference/3.40/polygon#PolyMouseEvent)
 
 This event is fired on Polyline mouseout.
 
-[mouseover](#Polyline.mouseover)
+[undefined](#Polyline.mouseover)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [PolyMouseEvent](PolyMouseEvent.md)
+*   event:  [PolyMouseEvent](/maps/documentation/javascript/reference/3.40/polygon#PolyMouseEvent)
 
 This event is fired on Polyline mouseover.
 
-[mouseup](#Polyline.mouseup)
+[undefined](#Polyline.mouseup)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [PolyMouseEvent](PolyMouseEvent.md)
+*   event:  [PolyMouseEvent](/maps/documentation/javascript/reference/3.40/polygon#PolyMouseEvent)
 
 This event is fired when the DOM mouseup event is fired on the Polyline.
 
-[rightclick](#Polyline.rightclick)
+[undefined](#Polyline.rightclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [PolyMouseEvent](PolyMouseEvent.md)
+*   event:  [PolyMouseEvent](/maps/documentation/javascript/reference/3.40/polygon#PolyMouseEvent)
 
 This event is fired when the Polyline is right-clicked on.

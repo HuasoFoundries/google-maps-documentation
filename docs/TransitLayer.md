@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitLayer.html)
 
-
 TransitLayer class
 ------------------
 
@@ -8,11 +7,11 @@ google.maps.TransitLayer class
 
 A transit layer.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[TransitLayer](#TransitLayer.constructor)
+[undefined](#TransitLayer.constructor)
 
 TransitLayer()
 
@@ -22,23 +21,23 @@ A layer that displays transit lines.
 
 Methods
 
-[getMap](#TransitLayer.getMap)
+[undefined](#TransitLayer.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 Returns the map on which this layer is displayed.
 
-[setMap](#TransitLayer.setMap)
+[undefined](#TransitLayer.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 **Return Value:**  None
 

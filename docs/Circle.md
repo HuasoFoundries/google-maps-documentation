@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Circle.html)
 
-
 Circle class
 ------------
 
@@ -8,43 +7,43 @@ google.maps.Circle class
 
 A circle on the Earth's surface; also known as a "spherical cap".
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[Circle](#Circle.constructor)
+[undefined](#Circle.constructor)
 
 Circle(\[opts\])
 
 **Parameters:** 
 
-*   opts:  [CircleOptions](CircleOptions.md) optional
+*   opts:  [CircleOptions](/maps/documentation/javascript/reference/3.40/polygon#CircleOptions) optional
 
-Create a circle using the passed [CircleOptions](CircleOptions.md), which specify the center, radius, and style.
+Create a circle using the passed [CircleOptions](/maps/documentation/javascript/reference/3.40/polygon#CircleOptions), which specify the center, radius, and style.
 
 Methods
 
-[getBounds](#Circle.getBounds)
+[undefined](#Circle.getBounds)
 
 getBounds()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLngBounds](LatLngBounds.md)
+**Return Value:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)
 
 Gets the LatLngBounds of this Circle.
 
-[getCenter](#Circle.getCenter)
+[undefined](#Circle.getCenter)
 
 getCenter()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLng](LatLng.md)
+**Return Value:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
 Returns the center of this circle.
 
-[getDraggable](#Circle.getDraggable)
+[undefined](#Circle.getDraggable)
 
 getDraggable()
 
@@ -54,7 +53,7 @@ getDraggable()
 
 Returns whether this circle can be dragged by the user.
 
-[getEditable](#Circle.getEditable)
+[undefined](#Circle.getEditable)
 
 getEditable()
 
@@ -64,17 +63,17 @@ getEditable()
 
 Returns whether this circle can be edited by the user.
 
-[getMap](#Circle.getMap)
+[undefined](#Circle.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 Returns the map on which this circle is displayed.
 
-[getRadius](#Circle.getRadius)
+[undefined](#Circle.getRadius)
 
 getRadius()
 
@@ -84,7 +83,7 @@ getRadius()
 
 Returns the radius of this circle (in meters).
 
-[getVisible](#Circle.getVisible)
+[undefined](#Circle.getVisible)
 
 getVisible()
 
@@ -94,19 +93,19 @@ getVisible()
 
 Returns whether this circle is visible on the map.
 
-[setCenter](#Circle.setCenter)
+[undefined](#Circle.setCenter)
 
 setCenter(center)
 
 **Parameters:** 
 
-*   center:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
+*   center:  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)
 
 **Return Value:**  None
 
 Sets the center of this circle.
 
-[setDraggable](#Circle.setDraggable)
+[undefined](#Circle.setDraggable)
 
 setDraggable(draggable)
 
@@ -118,7 +117,7 @@ setDraggable(draggable)
 
 If set to true, the user can drag this circle over the map.
 
-[setEditable](#Circle.setEditable)
+[undefined](#Circle.setEditable)
 
 setEditable(editable)
 
@@ -130,29 +129,29 @@ setEditable(editable)
 
 If set to true, the user can edit this circle by dragging the control points shown at the center and around the circumference of the circle.
 
-[setMap](#Circle.setMap)
+[undefined](#Circle.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 **Return Value:**  None
 
 Renders the circle on the specified map. If map is set to null, the circle will be removed.
 
-[setOptions](#Circle.setOptions)
+[undefined](#Circle.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [CircleOptions](CircleOptions.md)
+*   options:  [CircleOptions](/maps/documentation/javascript/reference/3.40/polygon#CircleOptions)
 
 **Return Value:**  None
 
-[setRadius](#Circle.setRadius)
+[undefined](#Circle.setRadius)
 
 setRadius(radius)
 
@@ -164,7 +163,7 @@ setRadius(radius)
 
 Sets the radius of this circle (in meters).
 
-[setVisible](#Circle.setVisible)
+[undefined](#Circle.setVisible)
 
 setVisible(visible)
 
@@ -178,7 +177,7 @@ Hides this circle if set to false.
 
 Events
 
-[center\_changed](#Circle.center_changed)
+[undefined](#Circle.center_changed)
 
 function()
 
@@ -186,107 +185,107 @@ function()
 
 This event is fired when the circle's center is changed.
 
-[click](#Circle.click)
+[undefined](#Circle.click)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM click event is fired on the circle.
 
-[dblclick](#Circle.dblclick)
+[undefined](#Circle.dblclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM dblclick event is fired on the circle.
 
-[drag](#Circle.drag)
+[undefined](#Circle.drag)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is repeatedly fired while the user drags the circle.
 
-[dragend](#Circle.dragend)
+[undefined](#Circle.dragend)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the user stops dragging the circle.
 
-[dragstart](#Circle.dragstart)
+[undefined](#Circle.dragstart)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the user starts dragging the circle.
 
-[mousedown](#Circle.mousedown)
+[undefined](#Circle.mousedown)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM mousedown event is fired on the circle.
 
-[mousemove](#Circle.mousemove)
+[undefined](#Circle.mousemove)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM mousemove event is fired on the circle.
 
-[mouseout](#Circle.mouseout)
+[undefined](#Circle.mouseout)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired on circle mouseout.
 
-[mouseover](#Circle.mouseover)
+[undefined](#Circle.mouseover)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired on circle mouseover.
 
-[mouseup](#Circle.mouseup)
+[undefined](#Circle.mouseup)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM mouseup event is fired on the circle.
 
-[radius\_changed](#Circle.radius_changed)
+[undefined](#Circle.radius_changed)
 
 function()
 
@@ -294,12 +293,12 @@ function()
 
 This event is fired when the circle's radius is changed.
 
-[rightclick](#Circle.rightclick)
+[undefined](#Circle.rightclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the circle is right-clicked on.

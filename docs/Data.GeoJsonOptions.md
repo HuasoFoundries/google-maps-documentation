@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.GeoJsonOptions.html)
 
-
 Data.GeoJsonOptions interface
 -----------------------------
 
@@ -10,7 +9,7 @@ Optional parameters for importing GeoJSON.
 
 Properties
 
-[idPropertyName](#Data.GeoJsonOptions.idPropertyName)
+[undefined](#Data.GeoJsonOptions.idPropertyName)
 
 **Type:**  string optional
 

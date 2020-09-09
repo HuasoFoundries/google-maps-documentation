@@ -1,16 +1,15 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MVCArray.html)
 
-
 MVCArray class
 --------------
 
 google.maps.MVCArray<T> class
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[MVCArray](#MVCArray.constructor)
+[undefined](#MVCArray.constructor)
 
 MVCArray(\[array\])
 
@@ -22,7 +21,7 @@ A mutable MVC Array.
 
 Methods
 
-[clear](#MVCArray.clear)
+[undefined](#MVCArray.clear)
 
 clear()
 
@@ -32,7 +31,7 @@ clear()
 
 Removes all elements from the array.
 
-[forEach](#MVCArray.forEach)
+[undefined](#MVCArray.forEach)
 
 forEach(callback)
 
@@ -44,7 +43,7 @@ forEach(callback)
 
 Iterate over each element, calling the provided callback. The callback is called for each element like: callback(element, index).
 
-[getArray](#MVCArray.getArray)
+[undefined](#MVCArray.getArray)
 
 getArray()
 
@@ -54,7 +53,7 @@ getArray()
 
 Returns a reference to the underlying Array. Warning: if the Array is mutated, no events will be fired by this object.
 
-[getAt](#MVCArray.getAt)
+[undefined](#MVCArray.getAt)
 
 getAt(i)
 
@@ -66,7 +65,7 @@ getAt(i)
 
 Returns the element at the specified index.
 
-[getLength](#MVCArray.getLength)
+[undefined](#MVCArray.getLength)
 
 getLength()
 
@@ -76,7 +75,7 @@ getLength()
 
 Returns the number of elements in this array.
 
-[insertAt](#MVCArray.insertAt)
+[undefined](#MVCArray.insertAt)
 
 insertAt(i, elem)
 
@@ -89,7 +88,7 @@ insertAt(i, elem)
 
 Inserts an element at the specified index.
 
-[pop](#MVCArray.pop)
+[undefined](#MVCArray.pop)
 
 pop()
 
@@ -99,7 +98,7 @@ pop()
 
 Removes the last element of the array and returns that element.
 
-[push](#MVCArray.push)
+[undefined](#MVCArray.push)
 
 push(elem)
 
@@ -111,7 +110,7 @@ push(elem)
 
 Adds one element to the end of the array and returns the new length of the array.
 
-[removeAt](#MVCArray.removeAt)
+[undefined](#MVCArray.removeAt)
 
 removeAt(i)
 
@@ -123,7 +122,7 @@ removeAt(i)
 
 Removes an element from the specified index.
 
-[setAt](#MVCArray.setAt)
+[undefined](#MVCArray.setAt)
 
 setAt(i, elem)
 
@@ -138,7 +137,7 @@ Sets an element at the specified index.
 
 Events
 
-[insert\_at](#MVCArray.insert_at)
+[undefined](#MVCArray.insert_at)
 
 function(index)
 
@@ -148,7 +147,7 @@ function(index)
 
 This event is fired when insertAt() is called. The event passes the index that was passed to insertAt().
 
-[remove\_at](#MVCArray.remove_at)
+[undefined](#MVCArray.remove_at)
 
 function(index, removed)
 
@@ -159,7 +158,7 @@ function(index, removed)
 
 This event is fired when removeAt() is called. The event passes the index that was passed to removeAt() and the element that was removed from the array.
 
-[set\_at](#MVCArray.set_at)
+[undefined](#MVCArray.set_at)
 
 function(index, previous)
 

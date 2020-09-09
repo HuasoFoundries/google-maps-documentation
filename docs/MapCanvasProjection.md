@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapCanvasProjection.html)
 
-
 MapCanvasProjection interface
 -----------------------------
 
@@ -10,57 +9,57 @@ This object is made available to the OverlayView from within the draw method. It
 
 Methods
 
-[fromContainerPixelToLatLng](#MapCanvasProjection.fromContainerPixelToLatLng)
+[undefined](#MapCanvasProjection.fromContainerPixelToLatLng)
 
 fromContainerPixelToLatLng(pixel\[, nowrap\])
 
 **Parameters:** 
 
-*   pixel:  [Point](Point.md) optional
+*   pixel:  [Point](/maps/documentation/javascript/reference/3.40/coordinates#Point) optional
 *   nowrap:  boolean optional
 
-**Return Value:**  [LatLng](LatLng.md) optional
+**Return Value:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng) optional
 
 Computes the geographical coordinates from pixel coordinates in the map's container.
 
-[fromDivPixelToLatLng](#MapCanvasProjection.fromDivPixelToLatLng)
+[undefined](#MapCanvasProjection.fromDivPixelToLatLng)
 
 fromDivPixelToLatLng(pixel\[, nowrap\])
 
 **Parameters:** 
 
-*   pixel:  [Point](Point.md) optional
+*   pixel:  [Point](/maps/documentation/javascript/reference/3.40/coordinates#Point) optional
 *   nowrap:  boolean optional
 
-**Return Value:**  [LatLng](LatLng.md) optional
+**Return Value:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng) optional
 
 Computes the geographical coordinates from pixel coordinates in the div that holds the draggable map.
 
-[fromLatLngToContainerPixel](#MapCanvasProjection.fromLatLngToContainerPixel)
+[undefined](#MapCanvasProjection.fromLatLngToContainerPixel)
 
 fromLatLngToContainerPixel(latLng)
 
 **Parameters:** 
 
-*   latLng:  [LatLng](LatLng.md) optional
+*   latLng:  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng) optional
 
-**Return Value:**  [Point](Point.md) optional
+**Return Value:**  [Point](/maps/documentation/javascript/reference/3.40/coordinates#Point) optional
 
 Computes the pixel coordinates of the given geographical location in the map's container element.
 
-[fromLatLngToDivPixel](#MapCanvasProjection.fromLatLngToDivPixel)
+[undefined](#MapCanvasProjection.fromLatLngToDivPixel)
 
 fromLatLngToDivPixel(latLng)
 
 **Parameters:** 
 
-*   latLng:  [LatLng](LatLng.md) optional
+*   latLng:  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng) optional
 
-**Return Value:**  [Point](Point.md) optional
+**Return Value:**  [Point](/maps/documentation/javascript/reference/3.40/coordinates#Point) optional
 
 Computes the pixel coordinates of the given geographical location in the DOM element that holds the draggable map.
 
-[getWorldWidth](#MapCanvasProjection.getWorldWidth)
+[undefined](#MapCanvasProjection.getWorldWidth)
 
 getWorldWidth()
 

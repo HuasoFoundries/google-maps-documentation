@@ -1,12 +1,11 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/AutocompletionRequest.html)
 
-
 AutocompletionRequest interface
 -------------------------------
 
 google.maps.places.AutocompletionRequest interface
 
-An Autocompletion request to be sent to [AutocompleteService.getPlacePredictions](/maps/documentation/javascript/reference/places-autocomplete-service#AutocompleteService.getPlacePredictions).
+An Autocompletion request to be sent to [AutocompleteService.getPlacePredictions](AutocompleteService.md).
 
 #### Library
 
@@ -14,55 +13,55 @@ places
 
 Properties
 
-[bounds](#AutocompletionRequest.bounds)
+[undefined](#AutocompletionRequest.bounds)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md) optional
+**Type:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)|[LatLngBoundsLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBoundsLiteral) optional
 
 Bounds for prediction biasing. Predictions will be biased towards, but not restricted to, the given bounds. Both location and radius will be ignored if bounds is set.
 
-[componentRestrictions](#AutocompletionRequest.componentRestrictions)
+[undefined](#AutocompletionRequest.componentRestrictions)
 
-**Type:**  [ComponentRestrictions](ComponentRestrictions.md) optional
+**Type:**  [ComponentRestrictions](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#ComponentRestrictions) optional
 
 The component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.
 
-[input](#AutocompletionRequest.input)
+[undefined](#AutocompletionRequest.input)
 
 **Type:**  string
 
 The user entered input string.
 
-[location](#AutocompletionRequest.location)
+[undefined](#AutocompletionRequest.location)
 
-**Type:**  [LatLng](LatLng.md) optional
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng) optional
 
 Location for prediction biasing. Predictions will be biased towards the given location and radius. Alternatively, bounds can be used.
 
-[offset](#AutocompletionRequest.offset)
+[undefined](#AutocompletionRequest.offset)
 
 **Type:**  number optional
 
 The character position in the input term at which the service uses text for predictions (the position of the cursor in the input field).
 
-[origin](#AutocompletionRequest.origin)
+[undefined](#AutocompletionRequest.origin)
 
-**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md) optional
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral) optional
 
-The location where [AutocompletePrediction.distance\_meters](/maps/documentation/javascript/reference/places-autocomplete-service#AutocompletePrediction.distance_meters) is calculated from.
+The location where [AutocompletePrediction.distance\_meters](AutocompletePrediction.md) is calculated from.
 
-[radius](#AutocompletionRequest.radius)
+[undefined](#AutocompletionRequest.radius)
 
 **Type:**  number optional
 
 The radius of the area used for prediction biasing. The radius is specified in meters, and must always be accompanied by a location property. Alternatively, bounds can be used.
 
-[sessionToken](#AutocompletionRequest.sessionToken)
+[undefined](#AutocompletionRequest.sessionToken)
 
-**Type:**  [AutocompleteSessionToken](AutocompleteSessionToken.md) optional
+**Type:**  [AutocompleteSessionToken](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#AutocompleteSessionToken) optional
 
 Unique reference used to bundle individual requests into sessions.
 
-[types](#AutocompletionRequest.types)
+[undefined](#AutocompletionRequest.types)
 
 **Type:**  Array<string> optional
 

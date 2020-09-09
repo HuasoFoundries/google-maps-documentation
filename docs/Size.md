@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Size.html)
 
-
 Size class
 ----------
 
@@ -8,7 +7,7 @@ google.maps.Size class
 
 Constructor
 
-[Size](#Size.constructor)
+[undefined](#Size.constructor)
 
 Size(width, height\[, widthUnit, heightUnit\])
 
@@ -23,19 +22,19 @@ Two-dimensional size, where width is the distance on the x-axis, and height is t
 
 Methods
 
-[equals](#Size.equals)
+[undefined](#Size.equals)
 
 equals(other)
 
 **Parameters:** 
 
-*   other:  [Size](Size.md)
+*   other:  [Size](/maps/documentation/javascript/reference/3.40/coordinates#Size)
 
 **Return Value:**  boolean
 
 Compares two Sizes.
 
-[toString](#Size.toString)
+[undefined](#Size.toString)
 
 toString()
 
@@ -47,13 +46,13 @@ Returns a string representation of this Size.
 
 Properties
 
-[height](#Size.height)
+[undefined](#Size.height)
 
 **Type:**  number
 
 The height along the y-axis, in pixels.
 
-[width](#Size.width)
+[undefined](#Size.width)
 
 **Type:**  number
 

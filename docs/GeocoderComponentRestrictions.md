@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/GeocoderComponentRestrictions.html)
 
-
 GeocoderComponentRestrictions interface
 ---------------------------------------
 
@@ -10,31 +9,31 @@ GeocoderComponentRestrictions represents a set of filters that resolve to a spec
 
 Properties
 
-[administrativeArea](#GeocoderComponentRestrictions.administrativeArea)
+[undefined](#GeocoderComponentRestrictions.administrativeArea)
 
 **Type:**  string
 
 Matches all the administrative\_area levels. Optional.
 
-[country](#GeocoderComponentRestrictions.country)
+[undefined](#GeocoderComponentRestrictions.country)
 
 **Type:**  string
 
 Matches a country name or a two letter ISO 3166-1 country code. Optional.
 
-[locality](#GeocoderComponentRestrictions.locality)
+[undefined](#GeocoderComponentRestrictions.locality)
 
 **Type:**  string
 
 Matches against both locality and sublocality types. Optional.
 
-[postalCode](#GeocoderComponentRestrictions.postalCode)
+[undefined](#GeocoderComponentRestrictions.postalCode)
 
 **Type:**  string
 
 Matches postal\_code and postal\_code\_prefix. Optional.
 
-[route](#GeocoderComponentRestrictions.route)
+[undefined](#GeocoderComponentRestrictions.route)
 
 **Type:**  string
 

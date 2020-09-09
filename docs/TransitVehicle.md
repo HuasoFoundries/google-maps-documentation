@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitVehicle.html)
 
-
 TransitVehicle interface
 ------------------------
 
@@ -10,26 +9,26 @@ Information about the vehicle that operates on a transit line.
 
 Properties
 
-[icon](#TransitVehicle.icon)
+[undefined](#TransitVehicle.icon)
 
 **Type:**  string
 
 A URL for an icon that corresponds to the type of vehicle used on this line.
 
-[local\_icon](#TransitVehicle.local_icon)
+[undefined](#TransitVehicle.local_icon)
 
 **Type:**  string
 
 A URL for an icon that corresponds to the type of vehicle used in this region instead of the more general icon.
 
-[name](#TransitVehicle.name)
+[undefined](#TransitVehicle.name)
 
 **Type:**  string
 
 A name for this type of TransitVehicle, e.g. "Train" or "Bus".
 
-[type](#TransitVehicle.type)
+[undefined](#TransitVehicle.type)
 
-**Type:**  [VehicleType](VehicleType.md)
+**Type:**  [VehicleType](/maps/documentation/javascript/reference/3.40/directions#VehicleType)
 
 The type of vehicle used, e.g. train, bus, or ferry.

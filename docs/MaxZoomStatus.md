@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MaxZoomStatus.html)
 
-
 MaxZoomStatus constants
 -----------------------
 
@@ -10,10 +9,10 @@ The status returned by the MaxZoomService on the completion of a call to getMaxZ
 
 Constants
 
-[ERROR](#MaxZoomStatus.ERROR)
+[undefined](#MaxZoomStatus.ERROR)
 
 There was a problem contacting the Google servers.
 
-[OK](#MaxZoomStatus.OK)
+[undefined](#MaxZoomStatus.OK)
 
 The response contains a valid MaxZoomResult.

@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlacesServiceStatus.html)
 
-
 PlacesServiceStatus constants
 -----------------------------
 
@@ -14,30 +13,30 @@ places
 
 Constants
 
-[INVALID\_REQUEST](#PlacesServiceStatus.INVALID_REQUEST)
+[undefined](#PlacesServiceStatus.INVALID_REQUEST)
 
 This request was invalid.
 
-[NOT\_FOUND](#PlacesServiceStatus.NOT_FOUND)
+[undefined](#PlacesServiceStatus.NOT_FOUND)
 
 The place referenced was not found.
 
-[OK](#PlacesServiceStatus.OK)
+[undefined](#PlacesServiceStatus.OK)
 
 The response contains a valid result.
 
-[OVER\_QUERY\_LIMIT](#PlacesServiceStatus.OVER_QUERY_LIMIT)
+[undefined](#PlacesServiceStatus.OVER_QUERY_LIMIT)
 
 The application has gone over its request quota.
 
-[REQUEST\_DENIED](#PlacesServiceStatus.REQUEST_DENIED)
+[undefined](#PlacesServiceStatus.REQUEST_DENIED)
 
 The application is not allowed to use the PlacesService.
 
-[UNKNOWN\_ERROR](#PlacesServiceStatus.UNKNOWN_ERROR)
+[undefined](#PlacesServiceStatus.UNKNOWN_ERROR)
 
 The PlacesService request could not be processed due to a server error. The request may succeed if you try again.
 
-[ZERO\_RESULTS](#PlacesServiceStatus.ZERO_RESULTS)
+[undefined](#PlacesServiceStatus.ZERO_RESULTS)
 
 No result was found for this request.

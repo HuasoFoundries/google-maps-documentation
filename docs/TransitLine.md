@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitLine.html)
 
-
 TransitLine interface
 ---------------------
 
@@ -10,50 +9,50 @@ Information about the transit line that operates this transit step.
 
 Properties
 
-[agencies](#TransitLine.agencies)
+[undefined](#TransitLine.agencies)
 
-**Type:**  Array<[TransitAgency](TransitAgency.md)\>
+**Type:**  Array<[TransitAgency](/maps/documentation/javascript/reference/3.40/directions#TransitAgency)\>
 
 The transit agency that operates this transit line.
 
-[color](#TransitLine.color)
+[undefined](#TransitLine.color)
 
 **Type:**  string
 
 The color commonly used in signage for this transit line, represented as a hex string.
 
-[icon](#TransitLine.icon)
+[undefined](#TransitLine.icon)
 
 **Type:**  string
 
 The URL for an icon associated with this line.
 
-[name](#TransitLine.name)
+[undefined](#TransitLine.name)
 
 **Type:**  string
 
 The full name of this transit line, e.g. "8 Avenue Local".
 
-[short\_name](#TransitLine.short_name)
+[undefined](#TransitLine.short_name)
 
 **Type:**  string
 
 The short name of this transit line, e.g. "E".
 
-[text\_color](#TransitLine.text_color)
+[undefined](#TransitLine.text_color)
 
 **Type:**  string
 
 The text color commonly used in signage for this transit line, represented as a hex string.
 
-[url](#TransitLine.url)
+[undefined](#TransitLine.url)
 
 **Type:**  string
 
 The agency's URL which is specific to this transit line.
 
-[vehicle](#TransitLine.vehicle)
+[undefined](#TransitLine.vehicle)
 
-**Type:**  [TransitVehicle](TransitVehicle.md)
+**Type:**  [TransitVehicle](/maps/documentation/javascript/reference/3.40/directions#TransitVehicle)
 
 The type of vehicle used, e.g. train or bus.

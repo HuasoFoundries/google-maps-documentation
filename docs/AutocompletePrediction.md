@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/AutocompletePrediction.html)
 
-
 AutocompletePrediction interface
 --------------------------------
 
@@ -14,43 +13,43 @@ places
 
 Properties
 
-[description](#AutocompletePrediction.description)
+[undefined](#AutocompletePrediction.description)
 
 **Type:**  string
 
 This is the unformatted version of the query suggested by the Places service.
 
-[distance\_meters](#AutocompletePrediction.distance_meters)
+[undefined](#AutocompletePrediction.distance_meters)
 
 **Type:**  number optional
 
-The distance in meters of the place from the [AutocompletionRequest.origin](/maps/documentation/javascript/reference/places-autocomplete-service#AutocompletionRequest.origin).
+The distance in meters of the place from the [AutocompletionRequest.origin](AutocompletionRequest.md).
 
-[matched\_substrings](#AutocompletePrediction.matched_substrings)
+[undefined](#AutocompletePrediction.matched_substrings)
 
-**Type:**  Array<[PredictionSubstring](PredictionSubstring.md)\>
+**Type:**  Array<[PredictionSubstring](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#PredictionSubstring)\>
 
 A set of substrings in the place's description that match elements in the user's input, suitable for use in highlighting those substrings. Each substring is identified by an offset and a length, expressed in unicode characters.
 
-[place\_id](#AutocompletePrediction.place_id)
+[undefined](#AutocompletePrediction.place_id)
 
 **Type:**  string
 
-A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails)).
+A place ID that can be used to retrieve details about this place using the place details service (see [PlacesService.getDetails](PlacesService.md)).
 
-[structured\_formatting](#AutocompletePrediction.structured_formatting)
+[undefined](#AutocompletePrediction.structured_formatting)
 
-**Type:**  [StructuredFormatting](StructuredFormatting.md)
+**Type:**  [StructuredFormatting](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#StructuredFormatting)
 
 Structured information about the place's description, divided into a main text and a secondary text, including an array of matched substrings from the autocomplete input, identified by an offset and a length, expressed in unicode characters.
 
-[terms](#AutocompletePrediction.terms)
+[undefined](#AutocompletePrediction.terms)
 
-**Type:**  Array<[PredictionTerm](PredictionTerm.md)\>
+**Type:**  Array<[PredictionTerm](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#PredictionTerm)\>
 
 Information about individual terms in the above description, from most to least specific. For example, "Taco Bell", "Willitis", and "CA".
 
-[types](#AutocompletePrediction.types)
+[undefined](#AutocompletePrediction.types)
 
 **Type:**  Array<string>
 

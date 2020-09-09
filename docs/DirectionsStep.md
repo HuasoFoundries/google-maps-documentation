@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsStep.html)
 
-
 DirectionsStep interface
 ------------------------
 
@@ -10,56 +9,56 @@ A single DirectionsStep in a DirectionsResult. Some fields may be undefined. Not
 
 Properties
 
-[distance](#DirectionsStep.distance)
+[undefined](#DirectionsStep.distance)
 
-**Type:**  [Distance](Distance.md)
+**Type:**  [Distance](/maps/documentation/javascript/reference/3.40/directions#Distance)
 
 The distance covered by this step. This property may be undefined as the distance may be unknown.
 
-[duration](#DirectionsStep.duration)
+[undefined](#DirectionsStep.duration)
 
-**Type:**  [Duration](Duration.md)
+**Type:**  [Duration](/maps/documentation/javascript/reference/3.40/directions#Duration)
 
 The typical time required to perform this step in seconds and in text form. This property may be undefined as the duration may be unknown.
 
-[end\_location](#DirectionsStep.end_location)
+[undefined](#DirectionsStep.end_location)
 
-**Type:**  [LatLng](LatLng.md)
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
 The ending location of this step.
 
-[instructions](#DirectionsStep.instructions)
+[undefined](#DirectionsStep.instructions)
 
 **Type:**  string
 
 Instructions for this step.
 
-[path](#DirectionsStep.path)
+[undefined](#DirectionsStep.path)
 
-**Type:**  Array<[LatLng](LatLng.md)\>
+**Type:**  Array<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)\>
 
 A sequence of LatLngs describing the course of this step.
 
-[start\_location](#DirectionsStep.start_location)
+[undefined](#DirectionsStep.start_location)
 
-**Type:**  [LatLng](LatLng.md)
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
 The starting location of this step.
 
-[steps](#DirectionsStep.steps)
+[undefined](#DirectionsStep.steps)
 
-**Type:**  Array<[DirectionsStep](DirectionsStep.md)\>
+**Type:**  Array<[DirectionsStep](/maps/documentation/javascript/reference/3.40/directions#DirectionsStep)\>
 
 Sub-steps of this step. Specified for non-transit sections of transit routes.
 
-[transit](#DirectionsStep.transit)
+[undefined](#DirectionsStep.transit)
 
-**Type:**  [TransitDetails](TransitDetails.md)
+**Type:**  [TransitDetails](/maps/documentation/javascript/reference/3.40/directions#TransitDetails)
 
 Transit-specific details about this step. This property will be undefined unless the travel mode of this step is TRANSIT.
 
-[travel\_mode](#DirectionsStep.travel_mode)
+[undefined](#DirectionsStep.travel_mode)
 
-**Type:**  [TravelMode](TravelMode.md)
+**Type:**  [TravelMode](/maps/documentation/javascript/reference/3.40/directions#TravelMode)
 
 The mode of travel used in this step.

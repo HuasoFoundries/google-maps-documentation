@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsRendererOptions.html)
 
-
 DirectionsRendererOptions interface
 -----------------------------------
 
@@ -10,85 +9,85 @@ This object defines the properties that can be set on a DirectionsRenderer objec
 
 Properties
 
-[directions](#DirectionsRendererOptions.directions)
+[undefined](#DirectionsRendererOptions.directions)
 
-**Type:**  [DirectionsResult](DirectionsResult.md) optional
+**Type:**  [DirectionsResult](/maps/documentation/javascript/reference/3.40/directions#DirectionsResult) optional
 
 The directions to display on the map and/or in a <div> panel, retrieved as a DirectionsResult object from DirectionsService.
 
-[draggable](#DirectionsRendererOptions.draggable)
+[undefined](#DirectionsRendererOptions.draggable)
 
 **Type:**  boolean optional
 
 If true, allows the user to drag and modify the paths of routes rendered by this DirectionsRenderer.
 
-[hideRouteList](#DirectionsRendererOptions.hideRouteList)
+[undefined](#DirectionsRendererOptions.hideRouteList)
 
 **Type:**  boolean optional
 
 This property indicates whether the renderer should provide UI to select amongst alternative routes. By default, this flag is false and a user-selectable list of routes will be shown in the directions' associated panel. To hide that list, set hideRouteList to true.
 
-[infoWindow](#DirectionsRendererOptions.infoWindow)
+[undefined](#DirectionsRendererOptions.infoWindow)
 
-**Type:**  [InfoWindow](InfoWindow.md) optional
+**Type:**  [InfoWindow](/maps/documentation/javascript/reference/3.40/info-window#InfoWindow) optional
 
 The InfoWindow in which to render text information when a marker is clicked. Existing info window content will be overwritten and its position moved. If no info window is specified, the DirectionsRenderer will create and use its own info window. This property will be ignored if suppressInfoWindows is set to true.
 
-[map](#DirectionsRendererOptions.map)
+[undefined](#DirectionsRendererOptions.map)
 
-**Type:**  [Map](Map.md) optional
+**Type:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map) optional
 
 Map on which to display the directions.
 
-[markerOptions](#DirectionsRendererOptions.markerOptions)
+[undefined](#DirectionsRendererOptions.markerOptions)
 
-**Type:**  [MarkerOptions](MarkerOptions.md) optional
+**Type:**  [MarkerOptions](/maps/documentation/javascript/reference/3.40/marker#MarkerOptions) optional
 
 Options for the markers. All markers rendered by the DirectionsRenderer will use these options.
 
-[panel](#DirectionsRendererOptions.panel)
+[undefined](#DirectionsRendererOptions.panel)
 
 **Type:**  Node optional
 
 The <div> in which to display the directions steps.
 
-[polylineOptions](#DirectionsRendererOptions.polylineOptions)
+[undefined](#DirectionsRendererOptions.polylineOptions)
 
-**Type:**  [PolylineOptions](PolylineOptions.md) optional
+**Type:**  [PolylineOptions](/maps/documentation/javascript/reference/3.40/polygon#PolylineOptions) optional
 
 Options for the polylines. All polylines rendered by the DirectionsRenderer will use these options.
 
-[preserveViewport](#DirectionsRendererOptions.preserveViewport)
+[undefined](#DirectionsRendererOptions.preserveViewport)
 
 **Type:**  boolean optional
 
 By default, the input map is centered and zoomed to the bounding box of this set of directions. If this option is set to true, the viewport is left unchanged, unless the map's center and zoom were never set.
 
-[routeIndex](#DirectionsRendererOptions.routeIndex)
+[undefined](#DirectionsRendererOptions.routeIndex)
 
 **Type:**  number optional
 
 The index of the route within the DirectionsResult object. The default value is 0.
 
-[suppressBicyclingLayer](#DirectionsRendererOptions.suppressBicyclingLayer)
+[undefined](#DirectionsRendererOptions.suppressBicyclingLayer)
 
 **Type:**  boolean optional
 
 Suppress the rendering of the BicyclingLayer when bicycling directions are requested.
 
-[suppressInfoWindows](#DirectionsRendererOptions.suppressInfoWindows)
+[undefined](#DirectionsRendererOptions.suppressInfoWindows)
 
 **Type:**  boolean optional
 
 Suppress the rendering of info windows.
 
-[suppressMarkers](#DirectionsRendererOptions.suppressMarkers)
+[undefined](#DirectionsRendererOptions.suppressMarkers)
 
 **Type:**  boolean optional
 
 Suppress the rendering of markers.
 
-[suppressPolylines](#DirectionsRendererOptions.suppressPolylines)
+[undefined](#DirectionsRendererOptions.suppressPolylines)
 
 **Type:**  boolean optional
 

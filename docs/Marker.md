@@ -1,36 +1,35 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Marker.html)
 
-
 Marker class
 ------------
 
 google.maps.Marker class
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[Marker](#Marker.constructor)
+[undefined](#Marker.constructor)
 
 Marker(\[opts\])
 
 **Parameters:** 
 
-*   opts:  [MarkerOptions](MarkerOptions.md) optional
+*   opts:  [MarkerOptions](/maps/documentation/javascript/reference/3.40/marker#MarkerOptions) optional
 
 Creates a marker with the options specified. If a map is specified, the marker is added to the map upon construction. Note that the position must be set for the marker to display.
 
 Methods
 
-[getAnimation](#Marker.getAnimation)
+[undefined](#Marker.getAnimation)
 
 getAnimation()
 
 **Parameters:**  None
 
-**Return Value:**  [Animation](Animation.md) optional
+**Return Value:**  [Animation](/maps/documentation/javascript/reference/3.40/marker#Animation) optional
 
-[getClickable](#Marker.getClickable)
+[undefined](#Marker.getClickable)
 
 getClickable()
 
@@ -38,7 +37,7 @@ getClickable()
 
 **Return Value:**  boolean
 
-[getCursor](#Marker.getCursor)
+[undefined](#Marker.getCursor)
 
 getCursor()
 
@@ -46,7 +45,7 @@ getCursor()
 
 **Return Value:**  string
 
-[getDraggable](#Marker.getDraggable)
+[undefined](#Marker.getDraggable)
 
 getDraggable()
 
@@ -54,31 +53,31 @@ getDraggable()
 
 **Return Value:**  boolean
 
-[getIcon](#Marker.getIcon)
+[undefined](#Marker.getIcon)
 
 getIcon()
 
 **Parameters:**  None
 
-**Return Value:**  string|[Icon](Icon.md)|[Symbol](Symbol.md)
+**Return Value:**  string|[Icon](/maps/documentation/javascript/reference/3.40/marker#Icon)|[Symbol](/maps/documentation/javascript/reference/3.40/marker#Symbol)
 
-[getLabel](#Marker.getLabel)
+[undefined](#Marker.getLabel)
 
 getLabel()
 
 **Parameters:**  None
 
-**Return Value:**  [MarkerLabel](MarkerLabel.md)
+**Return Value:**  [MarkerLabel](/maps/documentation/javascript/reference/3.40/marker#MarkerLabel)
 
-[getMap](#Marker.getMap)
+[undefined](#Marker.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)|[StreetViewPanorama](StreetViewPanorama.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)|[StreetViewPanorama](/maps/documentation/javascript/reference/3.40/street-view#StreetViewPanorama)
 
-[getOpacity](#Marker.getOpacity)
+[undefined](#Marker.getOpacity)
 
 getOpacity()
 
@@ -86,23 +85,23 @@ getOpacity()
 
 **Return Value:**  number
 
-[getPosition](#Marker.getPosition)
+[undefined](#Marker.getPosition)
 
 getPosition()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLng](LatLng.md)
+**Return Value:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
-[getShape](#Marker.getShape)
+[undefined](#Marker.getShape)
 
 getShape()
 
 **Parameters:**  None
 
-**Return Value:**  [MarkerShape](MarkerShape.md)
+**Return Value:**  [MarkerShape](/maps/documentation/javascript/reference/3.40/marker#MarkerShape)
 
-[getTitle](#Marker.getTitle)
+[undefined](#Marker.getTitle)
 
 getTitle()
 
@@ -110,7 +109,7 @@ getTitle()
 
 **Return Value:**  string
 
-[getVisible](#Marker.getVisible)
+[undefined](#Marker.getVisible)
 
 getVisible()
 
@@ -118,7 +117,7 @@ getVisible()
 
 **Return Value:**  boolean
 
-[getZIndex](#Marker.getZIndex)
+[undefined](#Marker.getZIndex)
 
 getZIndex()
 
@@ -126,19 +125,19 @@ getZIndex()
 
 **Return Value:**  number
 
-[setAnimation](#Marker.setAnimation)
+[undefined](#Marker.setAnimation)
 
 setAnimation(animation)
 
 **Parameters:** 
 
-*   animation:  [Animation](Animation.md) optional
+*   animation:  [Animation](/maps/documentation/javascript/reference/3.40/marker#Animation) optional
 
 **Return Value:**  None
 
 Start an animation. Any ongoing animation will be cancelled. Currently supported animations are: BOUNCE, DROP. Passing in null will cause any animation to stop.
 
-[setClickable](#Marker.setClickable)
+[undefined](#Marker.setClickable)
 
 setClickable(flag)
 
@@ -148,7 +147,7 @@ setClickable(flag)
 
 **Return Value:**  None
 
-[setCursor](#Marker.setCursor)
+[undefined](#Marker.setCursor)
 
 setCursor(cursor)
 
@@ -158,7 +157,7 @@ setCursor(cursor)
 
 **Return Value:**  None
 
-[setDraggable](#Marker.setDraggable)
+[undefined](#Marker.setDraggable)
 
 setDraggable(flag)
 
@@ -168,39 +167,39 @@ setDraggable(flag)
 
 **Return Value:**  None
 
-[setIcon](#Marker.setIcon)
+[undefined](#Marker.setIcon)
 
 setIcon(icon)
 
 **Parameters:** 
 
-*   icon:  string|[Icon](Icon.md)|[Symbol](Symbol.md)
+*   icon:  string|[Icon](/maps/documentation/javascript/reference/3.40/marker#Icon)|[Symbol](/maps/documentation/javascript/reference/3.40/marker#Symbol)
 
 **Return Value:**  None
 
-[setLabel](#Marker.setLabel)
+[undefined](#Marker.setLabel)
 
 setLabel(label)
 
 **Parameters:** 
 
-*   label:  string|[MarkerLabel](MarkerLabel.md)
+*   label:  string|[MarkerLabel](/maps/documentation/javascript/reference/3.40/marker#MarkerLabel)
 
 **Return Value:**  None
 
-[setMap](#Marker.setMap)
+[undefined](#Marker.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)|[StreetViewPanorama](StreetViewPanorama.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)|[StreetViewPanorama](/maps/documentation/javascript/reference/3.40/street-view#StreetViewPanorama)
 
 **Return Value:**  None
 
 Renders the marker on the specified map or panorama. If map is set to null, the marker will be removed.
 
-[setOpacity](#Marker.setOpacity)
+[undefined](#Marker.setOpacity)
 
 setOpacity(opacity)
 
@@ -210,37 +209,37 @@ setOpacity(opacity)
 
 **Return Value:**  None
 
-[setOptions](#Marker.setOptions)
+[undefined](#Marker.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [MarkerOptions](MarkerOptions.md)
+*   options:  [MarkerOptions](/maps/documentation/javascript/reference/3.40/marker#MarkerOptions)
 
 **Return Value:**  None
 
-[setPosition](#Marker.setPosition)
+[undefined](#Marker.setPosition)
 
 setPosition(latlng)
 
 **Parameters:** 
 
-*   latlng:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
+*   latlng:  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)
 
 **Return Value:**  None
 
-[setShape](#Marker.setShape)
+[undefined](#Marker.setShape)
 
 setShape(shape)
 
 **Parameters:** 
 
-*   shape:  [MarkerShape](MarkerShape.md)
+*   shape:  [MarkerShape](/maps/documentation/javascript/reference/3.40/marker#MarkerShape)
 
 **Return Value:**  None
 
-[setTitle](#Marker.setTitle)
+[undefined](#Marker.setTitle)
 
 setTitle(title)
 
@@ -250,7 +249,7 @@ setTitle(title)
 
 **Return Value:**  None
 
-[setVisible](#Marker.setVisible)
+[undefined](#Marker.setVisible)
 
 setVisible(visible)
 
@@ -260,7 +259,7 @@ setVisible(visible)
 
 **Return Value:**  None
 
-[setZIndex](#Marker.setZIndex)
+[undefined](#Marker.setZIndex)
 
 setZIndex(zIndex)
 
@@ -272,13 +271,13 @@ setZIndex(zIndex)
 
 Constants
 
-[MAX\_ZINDEX](#Marker.MAX_ZINDEX)
+[undefined](#Marker.MAX_ZINDEX)
 
 The maximum default z-index that the API will assign to a marker. You may set a higher z-index to bring a marker to the front.
 
 Events
 
-[animation\_changed](#Marker.animation_changed)
+[undefined](#Marker.animation_changed)
 
 function()
 
@@ -286,17 +285,17 @@ function()
 
 This event is fired when the marker's animation property changes.
 
-[click](#Marker.click)
+[undefined](#Marker.click)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the marker icon was clicked.
 
-[clickable\_changed](#Marker.clickable_changed)
+[undefined](#Marker.clickable_changed)
 
 function()
 
@@ -304,7 +303,7 @@ function()
 
 This event is fired when the marker's clickable property changes.
 
-[cursor\_changed](#Marker.cursor_changed)
+[undefined](#Marker.cursor_changed)
 
 function()
 
@@ -312,37 +311,37 @@ function()
 
 This event is fired when the marker's cursor property changes.
 
-[dblclick](#Marker.dblclick)
+[undefined](#Marker.dblclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the marker icon was double clicked.
 
-[drag](#Marker.drag)
+[undefined](#Marker.drag)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is repeatedly fired while the user drags the marker.
 
-[dragend](#Marker.dragend)
+[undefined](#Marker.dragend)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the user stops dragging the marker.
 
-[draggable\_changed](#Marker.draggable_changed)
+[undefined](#Marker.draggable_changed)
 
 function()
 
@@ -350,17 +349,17 @@ function()
 
 This event is fired when the marker's draggable property changes.
 
-[dragstart](#Marker.dragstart)
+[undefined](#Marker.dragstart)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the user starts dragging the marker.
 
-[flat\_changed](#Marker.flat_changed)
+[undefined](#Marker.flat_changed)
 
 function()
 
@@ -368,7 +367,7 @@ function()
 
 This event is fired when the marker's flat property changes.
 
-[icon\_changed](#Marker.icon_changed)
+[undefined](#Marker.icon_changed)
 
 function()
 
@@ -376,47 +375,47 @@ function()
 
 This event is fired when the marker icon property changes.
 
-[mousedown](#Marker.mousedown)
+[undefined](#Marker.mousedown)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired for a mousedown on the marker.
 
-[mouseout](#Marker.mouseout)
+[undefined](#Marker.mouseout)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the mouse leaves the area of the marker icon.
 
-[mouseover](#Marker.mouseover)
+[undefined](#Marker.mouseover)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the mouse enters the area of the marker icon.
 
-[mouseup](#Marker.mouseup)
+[undefined](#Marker.mouseup)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired for a mouseup on the marker.
 
-[position\_changed](#Marker.position_changed)
+[undefined](#Marker.position_changed)
 
 function()
 
@@ -424,17 +423,17 @@ function()
 
 This event is fired when the marker position property changes.
 
-[rightclick](#Marker.rightclick)
+[undefined](#Marker.rightclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired for a rightclick on the marker.
 
-[shape\_changed](#Marker.shape_changed)
+[undefined](#Marker.shape_changed)
 
 function()
 
@@ -442,7 +441,7 @@ function()
 
 This event is fired when the marker's shape property changes.
 
-[title\_changed](#Marker.title_changed)
+[undefined](#Marker.title_changed)
 
 function()
 
@@ -450,7 +449,7 @@ function()
 
 This event is fired when the marker title property changes.
 
-[visible\_changed](#Marker.visible_changed)
+[undefined](#Marker.visible_changed)
 
 function()
 
@@ -458,7 +457,7 @@ function()
 
 This event is fired when the marker's visible property changes.
 
-[zindex\_changed](#Marker.zindex_changed)
+[undefined](#Marker.zindex_changed)
 
 function()
 

@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.MultiPolygon.html)
 
-
 Data.MultiPolygon class
 -----------------------
 
@@ -8,43 +7,43 @@ google.maps.Data.MultiPolygon class
 
 A MultiPolygon geometry contains a number of Data.Polygons.
 
-This class implements [Data.Geometry](Data.Geometry.md).
+This class implements [Data.Geometry](Data.md).
 
 Constructor
 
-[Data.MultiPolygon](#Data.MultiPolygon.constructor)
+[undefined](#Data.MultiPolygon.constructor)
 
 Data.MultiPolygon(elements)
 
 **Parameters:** 
 
-*   elements:  Array<[Data.Polygon](Data.Polygon.md)|Array<[Data.LinearRing](Data.LinearRing.md)|Array<[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)\>>>
+*   elements:  Array<[Data.Polygon](Data.md)|Array<[Data.LinearRing](Data.md)|Array<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)\>>>
 
 Constructs a Data.MultiPolygon from the given Data.Polygons or arrays of positions.
 
 Methods
 
-[forEachLatLng](#Data.MultiPolygon.forEachLatLng)
+[undefined](#Data.MultiPolygon.forEachLatLng)
 
 forEachLatLng(callback)
 
 **Parameters:** 
 
-*   callback:  function([LatLng](LatLng.md))
+*   callback:  function([LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng))
 
 **Return Value:**  None
 
-[getArray](#Data.MultiPolygon.getArray)
+[undefined](#Data.MultiPolygon.getArray)
 
 getArray()
 
 **Parameters:**  None
 
-**Return Value:**  Array<[Data.Polygon](Data.Polygon.md)\>
+**Return Value:**  Array<[Data.Polygon](Data.md)\>
 
 Returns an array of the contained Data.Polygons. A new array is returned each time getArray() is called.
 
-[getAt](#Data.MultiPolygon.getAt)
+[undefined](#Data.MultiPolygon.getAt)
 
 getAt(n)
 
@@ -52,11 +51,11 @@ getAt(n)
 
 *   n:  number
 
-**Return Value:**  [Data.Polygon](Data.Polygon.md)
+**Return Value:**  [Data.Polygon](Data.md)
 
 Returns the n\-th contained Data.Polygon.
 
-[getLength](#Data.MultiPolygon.getLength)
+[undefined](#Data.MultiPolygon.getLength)
 
 getLength()
 
@@ -66,7 +65,7 @@ getLength()
 
 Returns the number of contained Data.Polygons.
 
-[getType](#Data.MultiPolygon.getType)
+[undefined](#Data.MultiPolygon.getType)
 
 getType()
 

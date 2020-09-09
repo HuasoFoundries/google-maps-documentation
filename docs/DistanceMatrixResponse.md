@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DistanceMatrixResponse.html)
 
-
 DistanceMatrixResponse interface
 --------------------------------
 
@@ -10,20 +9,20 @@ The response to a DistanceMatrixService request, consisting of the formatted ori
 
 Properties
 
-[destinationAddresses](#DistanceMatrixResponse.destinationAddresses)
+[undefined](#DistanceMatrixResponse.destinationAddresses)
 
 **Type:**  Array<string>
 
 The formatted destination addresses.
 
-[originAddresses](#DistanceMatrixResponse.originAddresses)
+[undefined](#DistanceMatrixResponse.originAddresses)
 
 **Type:**  Array<string>
 
 The formatted origin addresses.
 
-[rows](#DistanceMatrixResponse.rows)
+[undefined](#DistanceMatrixResponse.rows)
 
-**Type:**  Array<[DistanceMatrixResponseRow](DistanceMatrixResponseRow.md)\>
+**Type:**  Array<[DistanceMatrixResponseRow](/maps/documentation/javascript/reference/3.40/distance-matrix#DistanceMatrixResponseRow)\>
 
 The rows of the matrix, corresponding to the origin addresses.

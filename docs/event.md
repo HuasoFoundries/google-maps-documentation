@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/event.html)
 
-
 event namespace
 ---------------
 
@@ -8,7 +7,7 @@ google.maps.event namespace
 
 Static Methods
 
-[addDomListener](#event.addDomListener)
+[undefined](#event.addDomListener)
 
 addDomListener(instance, eventName, handler\[, capture\])
 
@@ -19,11 +18,11 @@ addDomListener(instance, eventName, handler\[, capture\])
 *   handler:  Function
 *   capture:  boolean optional
 
-**Return Value:**  [MapsEventListener](MapsEventListener.md)
+**Return Value:**  [MapsEventListener](/maps/documentation/javascript/reference/3.40/event#MapsEventListener)
 
 Cross browser event handler registration. This listener is removed by calling removeListener(handle) for the handle that is returned by this function.
 
-[addDomListenerOnce](#event.addDomListenerOnce)
+[undefined](#event.addDomListenerOnce)
 
 addDomListenerOnce(instance, eventName, handler\[, capture\])
 
@@ -34,11 +33,11 @@ addDomListenerOnce(instance, eventName, handler\[, capture\])
 *   handler:  Function
 *   capture:  boolean optional
 
-**Return Value:**  [MapsEventListener](MapsEventListener.md)
+**Return Value:**  [MapsEventListener](/maps/documentation/javascript/reference/3.40/event#MapsEventListener)
 
 Wrapper around addDomListener that removes the listener after the first event.
 
-[addListener](#event.addListener)
+[undefined](#event.addListener)
 
 addListener(instance, eventName, handler)
 
@@ -48,11 +47,11 @@ addListener(instance, eventName, handler)
 *   eventName:  string
 *   handler:  Function
 
-**Return Value:**  [MapsEventListener](MapsEventListener.md)
+**Return Value:**  [MapsEventListener](/maps/documentation/javascript/reference/3.40/event#MapsEventListener)
 
 Adds the given listener function to the given event name for the given object instance. Returns an identifier for this listener that can be used with removeListener().
 
-[addListenerOnce](#event.addListenerOnce)
+[undefined](#event.addListenerOnce)
 
 addListenerOnce(instance, eventName, handler)
 
@@ -62,11 +61,11 @@ addListenerOnce(instance, eventName, handler)
 *   eventName:  string
 *   handler:  Function
 
-**Return Value:**  [MapsEventListener](MapsEventListener.md)
+**Return Value:**  [MapsEventListener](/maps/documentation/javascript/reference/3.40/event#MapsEventListener)
 
 Like addListener, but the handler removes itself after handling the first event.
 
-[clearInstanceListeners](#event.clearInstanceListeners)
+[undefined](#event.clearInstanceListeners)
 
 clearInstanceListeners(instance)
 
@@ -78,7 +77,7 @@ clearInstanceListeners(instance)
 
 Removes all listeners for all events for the given instance.
 
-[clearListeners](#event.clearListeners)
+[undefined](#event.clearListeners)
 
 clearListeners(instance, eventName)
 
@@ -91,19 +90,19 @@ clearListeners(instance, eventName)
 
 Removes all listeners for the given event for the given instance.
 
-[removeListener](#event.removeListener)
+[undefined](#event.removeListener)
 
 removeListener(listener)
 
 **Parameters:** 
 
-*   listener:  [MapsEventListener](MapsEventListener.md)
+*   listener:  [MapsEventListener](/maps/documentation/javascript/reference/3.40/event#MapsEventListener)
 
 **Return Value:**  None
 
 Removes the given listener, which should have been returned by addListener above. Equivalent to calling listener.remove().
 
-[trigger](#event.trigger)
+[undefined](#event.trigger)
 
 trigger(instance, eventName, eventArgs)
 

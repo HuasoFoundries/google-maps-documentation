@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MaxZoomService.html)
 
-
 MaxZoomService class
 --------------------
 
@@ -10,7 +9,7 @@ A service for obtaining the highest zoom level at which satellite imagery is ava
 
 Constructor
 
-[MaxZoomService](#MaxZoomService.constructor)
+[undefined](#MaxZoomService.constructor)
 
 MaxZoomService()
 
@@ -20,14 +19,14 @@ Creates a new instance of a MaxZoomService that can be used to send queries abou
 
 Methods
 
-[getMaxZoomAtLatLng](#MaxZoomService.getMaxZoomAtLatLng)
+[undefined](#MaxZoomService.getMaxZoomAtLatLng)
 
 getMaxZoomAtLatLng(latlng, callback)
 
 **Parameters:** 
 
-*   latlng:  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
-*   callback:  function([MaxZoomResult](MaxZoomResult.md))
+*   latlng:  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)
+*   callback:  function([MaxZoomResult](/maps/documentation/javascript/reference/3.40/max-zoom#MaxZoomResult))
 
 **Return Value:**  None
 

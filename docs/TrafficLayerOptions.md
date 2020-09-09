@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TrafficLayerOptions.html)
 
-
 TrafficLayerOptions interface
 -----------------------------
 
@@ -10,14 +9,14 @@ TrafficLayerOptions object used to define the properties that can be set on a Tr
 
 Properties
 
-[autoRefresh](#TrafficLayerOptions.autoRefresh)
+[undefined](#TrafficLayerOptions.autoRefresh)
 
 **Type:**  boolean optional
 
 Whether the traffic layer refreshes with updated information automatically. This is true by default.
 
-[map](#TrafficLayerOptions.map)
+[undefined](#TrafficLayerOptions.map)
 
-**Type:**  [Map](Map.md) optional
+**Type:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map) optional
 
 Map on which to display the traffic layer.

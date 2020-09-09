@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/AutocompleteService.html)
 
-
 AutocompleteService class
 -------------------------
 
@@ -14,7 +13,7 @@ places
 
 Constructor
 
-[AutocompleteService](#AutocompleteService.constructor)
+[undefined](#AutocompleteService.constructor)
 
 AutocompleteService()
 
@@ -24,27 +23,27 @@ Creates a new instance of the AutocompleteService.
 
 Methods
 
-[getPlacePredictions](#AutocompleteService.getPlacePredictions)
+[undefined](#AutocompleteService.getPlacePredictions)
 
 getPlacePredictions(request, callback)
 
 **Parameters:** 
 
-*   request:  [AutocompletionRequest](AutocompletionRequest.md)
-*   callback:  function(Array<[AutocompletePrediction](AutocompletePrediction.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md))
+*   request:  [AutocompletionRequest](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#AutocompletionRequest)
+*   callback:  function(Array<[AutocompletePrediction](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#AutocompletePrediction)\>, [PlacesServiceStatus](/maps/documentation/javascript/reference/3.40/places-service#PlacesServiceStatus))
 
 **Return Value:**  None
 
 Retrieves place autocomplete predictions based on the supplied autocomplete request.
 
-[getQueryPredictions](#AutocompleteService.getQueryPredictions)
+[undefined](#AutocompleteService.getQueryPredictions)
 
 getQueryPredictions(request, callback)
 
 **Parameters:** 
 
-*   request:  [QueryAutocompletionRequest](QueryAutocompletionRequest.md)
-*   callback:  function(Array<[QueryAutocompletePrediction](QueryAutocompletePrediction.md)\>, [PlacesServiceStatus](PlacesServiceStatus.md))
+*   request:  [QueryAutocompletionRequest](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#QueryAutocompletionRequest)
+*   callback:  function(Array<[QueryAutocompletePrediction](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#QueryAutocompletePrediction)\>, [PlacesServiceStatus](/maps/documentation/javascript/reference/3.40/places-service#PlacesServiceStatus))
 
 **Return Value:**  None
 

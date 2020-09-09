@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewService.html)
 
-
 StreetViewService class
 -----------------------
 
@@ -10,7 +9,7 @@ A StreetViewService object performs searches for Street View data.
 
 Constructor
 
-[StreetViewService](#StreetViewService.constructor)
+[undefined](#StreetViewService.constructor)
 
 StreetViewService()
 
@@ -20,14 +19,14 @@ Creates a StreetViewService, which provides an interface to the data stored in t
 
 Methods
 
-[getPanorama](#StreetViewService.getPanorama)
+[undefined](#StreetViewService.getPanorama)
 
 getPanorama(request, callback)
 
 **Parameters:** 
 
-*   request:  [StreetViewLocationRequest](StreetViewLocationRequest.md)|[StreetViewPanoRequest](StreetViewPanoRequest.md)
-*   callback:  function([StreetViewPanoramaData](StreetViewPanoramaData.md), [StreetViewStatus](StreetViewStatus.md))
+*   request:  [StreetViewLocationRequest](/maps/documentation/javascript/reference/3.40/street-view-service#StreetViewLocationRequest)|[StreetViewPanoRequest](/maps/documentation/javascript/reference/3.40/street-view-service#StreetViewPanoRequest)
+*   callback:  function([StreetViewPanoramaData](/maps/documentation/javascript/reference/3.40/street-view-service#StreetViewPanoramaData), [StreetViewStatus](/maps/documentation/javascript/reference/3.40/street-view-service#StreetViewStatus))
 
 **Return Value:**  None
 

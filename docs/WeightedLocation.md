@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/WeightedLocation.html)
 
-
 WeightedLocation interface
 --------------------------
 
@@ -14,13 +13,13 @@ visualization
 
 Properties
 
-[location](#WeightedLocation.location)
+[undefined](#WeightedLocation.location)
 
-**Type:**  [LatLng](LatLng.md)
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
 The location of the data point.
 
-[weight](#WeightedLocation.weight)
+[undefined](#WeightedLocation.weight)
 
 **Type:**  number
 

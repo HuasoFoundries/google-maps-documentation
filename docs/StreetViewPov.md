@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewPov.html)
 
-
 StreetViewPov interface
 -----------------------
 
@@ -10,13 +9,13 @@ A point of view object which specifies the camera's orientation at the Street Vi
 
 Properties
 
-[heading](#StreetViewPov.heading)
+[undefined](#StreetViewPov.heading)
 
 **Type:**  number
 
 The camera heading in degrees relative to true north. True north is 0°, east is 90°, south is 180°, west is 270°.
 
-[pitch](#StreetViewPov.pitch)
+[undefined](#StreetViewPov.pitch)
 
 **Type:**  number
 

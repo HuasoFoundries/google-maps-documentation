@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/DirectionsService.html)
 
-
 DirectionsService class
 -----------------------
 
@@ -10,7 +9,7 @@ A service for computing directions between two or more places.
 
 Constructor
 
-[DirectionsService](#DirectionsService.constructor)
+[undefined](#DirectionsService.constructor)
 
 DirectionsService()
 
@@ -20,14 +19,14 @@ Creates a new instance of a DirectionsService that sends directions queries to G
 
 Methods
 
-[route](#DirectionsService.route)
+[undefined](#DirectionsService.route)
 
 route(request, callback)
 
 **Parameters:** 
 
-*   request:  [DirectionsRequest](DirectionsRequest.md)
-*   callback:  function([DirectionsResult](DirectionsResult.md), [DirectionsStatus](DirectionsStatus.md))
+*   request:  [DirectionsRequest](/maps/documentation/javascript/reference/3.40/directions#DirectionsRequest)
+*   callback:  function([DirectionsResult](/maps/documentation/javascript/reference/3.40/directions#DirectionsResult), [DirectionsStatus](/maps/documentation/javascript/reference/3.40/directions#DirectionsStatus))
 
 **Return Value:**  None
 

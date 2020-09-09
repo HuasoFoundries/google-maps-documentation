@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Rectangle.html)
 
-
 Rectangle class
 ---------------
 
@@ -8,33 +7,33 @@ google.maps.Rectangle class
 
 A rectangle overlay.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[Rectangle](#Rectangle.constructor)
+[undefined](#Rectangle.constructor)
 
 Rectangle(\[opts\])
 
 **Parameters:** 
 
-*   opts:  [RectangleOptions](RectangleOptions.md) optional
+*   opts:  [RectangleOptions](/maps/documentation/javascript/reference/3.40/polygon#RectangleOptions) optional
 
-Create a rectangle using the passed _[RectangleOptions](RectangleOptions.md)_, which specify the bounds and style.
+Create a rectangle using the passed _[RectangleOptions](#RectangleOptions)_, which specify the bounds and style.
 
 Methods
 
-[getBounds](#Rectangle.getBounds)
+[undefined](#Rectangle.getBounds)
 
 getBounds()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLngBounds](LatLngBounds.md)
+**Return Value:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)
 
 Returns the bounds of this rectangle.
 
-[getDraggable](#Rectangle.getDraggable)
+[undefined](#Rectangle.getDraggable)
 
 getDraggable()
 
@@ -44,7 +43,7 @@ getDraggable()
 
 Returns whether this rectangle can be dragged by the user.
 
-[getEditable](#Rectangle.getEditable)
+[undefined](#Rectangle.getEditable)
 
 getEditable()
 
@@ -54,17 +53,17 @@ getEditable()
 
 Returns whether this rectangle can be edited by the user.
 
-[getMap](#Rectangle.getMap)
+[undefined](#Rectangle.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 Returns the map on which this rectangle is displayed.
 
-[getVisible](#Rectangle.getVisible)
+[undefined](#Rectangle.getVisible)
 
 getVisible()
 
@@ -74,19 +73,19 @@ getVisible()
 
 Returns whether this rectangle is visible on the map.
 
-[setBounds](#Rectangle.setBounds)
+[undefined](#Rectangle.setBounds)
 
 setBounds(bounds)
 
 **Parameters:** 
 
-*   bounds:  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
+*   bounds:  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)|[LatLngBoundsLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBoundsLiteral)
 
 **Return Value:**  None
 
 Sets the bounds of this rectangle.
 
-[setDraggable](#Rectangle.setDraggable)
+[undefined](#Rectangle.setDraggable)
 
 setDraggable(draggable)
 
@@ -98,7 +97,7 @@ setDraggable(draggable)
 
 If set to true, the user can drag this rectangle over the map.
 
-[setEditable](#Rectangle.setEditable)
+[undefined](#Rectangle.setEditable)
 
 setEditable(editable)
 
@@ -110,29 +109,29 @@ setEditable(editable)
 
 If set to true, the user can edit this rectangle by dragging the control points shown at the corners and on each edge.
 
-[setMap](#Rectangle.setMap)
+[undefined](#Rectangle.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 **Return Value:**  None
 
 Renders the rectangle on the specified map. If map is set to null, the rectangle will be removed.
 
-[setOptions](#Rectangle.setOptions)
+[undefined](#Rectangle.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [RectangleOptions](RectangleOptions.md)
+*   options:  [RectangleOptions](/maps/documentation/javascript/reference/3.40/polygon#RectangleOptions)
 
 **Return Value:**  None
 
-[setVisible](#Rectangle.setVisible)
+[undefined](#Rectangle.setVisible)
 
 setVisible(visible)
 
@@ -146,7 +145,7 @@ Hides this rectangle if set to false.
 
 Events
 
-[bounds\_changed](#Rectangle.bounds_changed)
+[undefined](#Rectangle.bounds_changed)
 
 function()
 
@@ -154,112 +153,112 @@ function()
 
 This event is fired when the rectangle's bounds are changed.
 
-[click](#Rectangle.click)
+[undefined](#Rectangle.click)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM click event is fired on the rectangle.
 
-[dblclick](#Rectangle.dblclick)
+[undefined](#Rectangle.dblclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM dblclick event is fired on the rectangle.
 
-[drag](#Rectangle.drag)
+[undefined](#Rectangle.drag)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is repeatedly fired while the user drags the rectangle.
 
-[dragend](#Rectangle.dragend)
+[undefined](#Rectangle.dragend)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the user stops dragging the rectangle.
 
-[dragstart](#Rectangle.dragstart)
+[undefined](#Rectangle.dragstart)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the user starts dragging the rectangle.
 
-[mousedown](#Rectangle.mousedown)
+[undefined](#Rectangle.mousedown)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM mousedown event is fired on the rectangle.
 
-[mousemove](#Rectangle.mousemove)
+[undefined](#Rectangle.mousemove)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM mousemove event is fired on the rectangle.
 
-[mouseout](#Rectangle.mouseout)
+[undefined](#Rectangle.mouseout)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired on rectangle mouseout.
 
-[mouseover](#Rectangle.mouseover)
+[undefined](#Rectangle.mouseover)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired on rectangle mouseover.
 
-[mouseup](#Rectangle.mouseup)
+[undefined](#Rectangle.mouseup)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM mouseup event is fired on the rectangle.
 
-[rightclick](#Rectangle.rightclick)
+[undefined](#Rectangle.rightclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the rectangle is right-clicked on.

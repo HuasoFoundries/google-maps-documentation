@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TransitStop.html)
 
-
 TransitStop interface
 ---------------------
 
@@ -10,13 +9,13 @@ Details about a transit stop or station.
 
 Properties
 
-[location](#TransitStop.location)
+[undefined](#TransitStop.location)
 
-**Type:**  [LatLng](LatLng.md)
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
 The location of this stop.
 
-[name](#TransitStop.name)
+[undefined](#TransitStop.name)
 
 **Type:**  string
 

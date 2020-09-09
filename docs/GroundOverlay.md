@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/GroundOverlay.html)
 
-
 GroundOverlay class
 -------------------
 
@@ -8,45 +7,45 @@ google.maps.GroundOverlay class
 
 A rectangular image overlay on the map.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[GroundOverlay](#GroundOverlay.constructor)
+[undefined](#GroundOverlay.constructor)
 
 GroundOverlay(url, bounds\[, opts\])
 
 **Parameters:** 
 
 *   url:  string
-*   bounds:  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md)
-*   opts:  [GroundOverlayOptions](GroundOverlayOptions.md) optional
+*   bounds:  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)|[LatLngBoundsLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBoundsLiteral)
+*   opts:  [GroundOverlayOptions](/maps/documentation/javascript/reference/3.40/image-overlay#GroundOverlayOptions) optional
 
 Creates a ground overlay from the provided image URL and its LatLngBounds. The image is scaled to fit the current bounds, and projected using the current map projection.
 
 Methods
 
-[getBounds](#GroundOverlay.getBounds)
+[undefined](#GroundOverlay.getBounds)
 
 getBounds()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLngBounds](LatLngBounds.md)
+**Return Value:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)
 
 Gets the LatLngBounds of this overlay.
 
-[getMap](#GroundOverlay.getMap)
+[undefined](#GroundOverlay.getMap)
 
 getMap()
 
 **Parameters:**  None
 
-**Return Value:**  [Map](Map.md)
+**Return Value:**  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 Returns the map on which this ground overlay is displayed.
 
-[getOpacity](#GroundOverlay.getOpacity)
+[undefined](#GroundOverlay.getOpacity)
 
 getOpacity()
 
@@ -56,7 +55,7 @@ getOpacity()
 
 Returns the opacity of this ground overlay.
 
-[getUrl](#GroundOverlay.getUrl)
+[undefined](#GroundOverlay.getUrl)
 
 getUrl()
 
@@ -66,19 +65,19 @@ getUrl()
 
 Gets the url of the projected image.
 
-[setMap](#GroundOverlay.setMap)
+[undefined](#GroundOverlay.setMap)
 
 setMap(map)
 
 **Parameters:** 
 
-*   map:  [Map](Map.md)
+*   map:  [Map](/maps/documentation/javascript/reference/3.40/map#Map)
 
 **Return Value:**  None
 
 Renders the ground overlay on the specified map. If map is set to null, the overlay is removed.
 
-[setOpacity](#GroundOverlay.setOpacity)
+[undefined](#GroundOverlay.setOpacity)
 
 setOpacity(opacity)
 
@@ -92,22 +91,22 @@ Sets the opacity of this ground overlay.
 
 Events
 
-[click](#GroundOverlay.click)
+[undefined](#GroundOverlay.click)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM click event is fired on the GroundOverlay.
 
-[dblclick](#GroundOverlay.dblclick)
+[undefined](#GroundOverlay.dblclick)
 
 function(event)
 
 **Arguments:** 
 
-*   event:  [MouseEvent](MouseEvent.md)
+*   event:  [MouseEvent](/maps/documentation/javascript/reference/3.40/map#MouseEvent)
 
 This event is fired when the DOM dblclick event is fired on the GroundOverlay.

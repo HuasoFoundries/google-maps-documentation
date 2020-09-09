@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapType.html)
 
-
 MapType interface
 -----------------
 
@@ -10,13 +9,13 @@ This interface defines the map type, and is typically used for custom map types.
 
 Methods
 
-[getTile](#MapType.getTile)
+[undefined](#MapType.getTile)
 
 getTile(tileCoord, zoom, ownerDocument)
 
 **Parameters:** 
 
-*   tileCoord:  [Point](Point.md)
+*   tileCoord:  [Point](/maps/documentation/javascript/reference/3.40/coordinates#Point)
 *   zoom:  number
 *   ownerDocument:  Document
 
@@ -24,7 +23,7 @@ getTile(tileCoord, zoom, ownerDocument)
 
 Returns a tile for the given tile coordinate (x, y) and zoom level. This tile will be appended to the given ownerDocument. Not available for base map types.
 
-[releaseTile](#MapType.releaseTile)
+[undefined](#MapType.releaseTile)
 
 releaseTile(tile)
 
@@ -38,44 +37,44 @@ Releases the given tile, performing any necessary cleanup. The provided tile wil
 
 Properties
 
-[alt](#MapType.alt)
+[undefined](#MapType.alt)
 
 **Type:**  string optional
 
 Alt text to display when this MapType's button is hovered over in the MapTypeControl. Optional.
 
-[maxZoom](#MapType.maxZoom)
+[undefined](#MapType.maxZoom)
 
 **Type:**  number
 
 The maximum zoom level for the map when displaying this MapType. Required for base MapTypes, ignored for overlay MapTypes.
 
-[minZoom](#MapType.minZoom)
+[undefined](#MapType.minZoom)
 
 **Type:**  number
 
 The minimum zoom level for the map when displaying this MapType. Optional; defaults to 0.
 
-[name](#MapType.name)
+[undefined](#MapType.name)
 
 **Type:**  string optional
 
 Name to display in the MapTypeControl. Optional.
 
-[projection](#MapType.projection)
+[undefined](#MapType.projection)
 
-**Type:**  [Projection](Projection.md) optional
+**Type:**  [Projection](/maps/documentation/javascript/reference/3.40/image-overlay#Projection) optional
 
 The Projection used to render this MapType. Optional; defaults to Mercator.
 
-[radius](#MapType.radius)
+[undefined](#MapType.radius)
 
 **Type:**  number
 
 Radius of the planet for the map, in meters. Optional; defaults to Earth's equatorial radius of 6378137 meters.
 
-[tileSize](#MapType.tileSize)
+[undefined](#MapType.tileSize)
 
-**Type:**  [Size](Size.md)
+**Type:**  [Size](/maps/documentation/javascript/reference/3.40/coordinates#Size)
 
 The dimensions of each tile. Required.

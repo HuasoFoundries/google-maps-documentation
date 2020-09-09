@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Autocomplete.html)
 
-
 Autocomplete class
 ------------------
 
@@ -8,7 +7,7 @@ google.maps.places.Autocomplete class
 
 A widget that provides Place predictions based on a user's text input. It attaches to an input element of type text, and listens for text entry in that field. The list of predictions is presented as a drop-down list, and is updated as text is entered.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 #### Library
 
@@ -16,30 +15,30 @@ places
 
 Constructor
 
-[Autocomplete](#Autocomplete.constructor)
+[undefined](#Autocomplete.constructor)
 
 Autocomplete(inputField\[, opts\])
 
 **Parameters:** 
 
 *   inputField:  HTMLInputElement
-*   opts:  [AutocompleteOptions](AutocompleteOptions.md) optional
+*   opts:  [AutocompleteOptions](/maps/documentation/javascript/reference/3.40/places-widget#AutocompleteOptions) optional
 
 Creates a new instance of Autocomplete that attaches to the specified input text field with the given options.
 
 Methods
 
-[getBounds](#Autocomplete.getBounds)
+[undefined](#Autocomplete.getBounds)
 
 getBounds()
 
 **Parameters:**  None
 
-**Return Value:**  [LatLngBounds](LatLngBounds.md) optional
+**Return Value:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds) optional
 
 Returns the bounds to which predictions are biased.
 
-[getFields](#Autocomplete.getFields)
+[undefined](#Autocomplete.getFields)
 
 getFields()
 
@@ -47,43 +46,43 @@ getFields()
 
 **Return Value:**  Array<string> optional
 
-Returns the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](PlaceResult.md).
+Returns the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult).
 
-[getPlace](#Autocomplete.getPlace)
+[undefined](#Autocomplete.getPlace)
 
 getPlace()
 
 **Parameters:**  None
 
-**Return Value:**  [PlaceResult](PlaceResult.md)
+**Return Value:**  [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult)
 
 Returns the details of the Place selected by user if the details were successfully retrieved. Otherwise returns a stub Place object, with the name property set to the current value of the input field.
 
-[setBounds](#Autocomplete.setBounds)
+[undefined](#Autocomplete.setBounds)
 
 setBounds(bounds)
 
 **Parameters:** 
 
-*   bounds:  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md) optional
+*   bounds:  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)|[LatLngBoundsLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBoundsLiteral) optional
 
 **Return Value:**  None
 
 Sets the preferred area within which to return Place results. Results are biased towards, but not restricted to, this area.
 
-[setComponentRestrictions](#Autocomplete.setComponentRestrictions)
+[undefined](#Autocomplete.setComponentRestrictions)
 
 setComponentRestrictions(restrictions)
 
 **Parameters:** 
 
-*   restrictions:  [ComponentRestrictions](ComponentRestrictions.md)
+*   restrictions:  [ComponentRestrictions](/maps/documentation/javascript/reference/3.40/places-autocomplete-service#ComponentRestrictions)
 
 **Return Value:**  None
 
 Sets the component restrictions. Component restrictions are used to restrict predictions to only those within the parent component. For example, the country.
 
-[setFields](#Autocomplete.setFields)
+[undefined](#Autocomplete.setFields)
 
 setFields(fields)
 
@@ -93,19 +92,19 @@ setFields(fields)
 
 **Return Value:**  None
 
-Sets the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](PlaceResult.md).
+Sets the fields to be included for the Place in the details response when the details are successfully retrieved. For a list of fields see [PlaceResult](/maps/documentation/javascript/reference/3.40/places-service#PlaceResult).
 
-[setOptions](#Autocomplete.setOptions)
+[undefined](#Autocomplete.setOptions)
 
 setOptions(options)
 
 **Parameters:** 
 
-*   options:  [AutocompleteOptions](AutocompleteOptions.md)
+*   options:  [AutocompleteOptions](/maps/documentation/javascript/reference/3.40/places-widget#AutocompleteOptions)
 
 **Return Value:**  None
 
-[setTypes](#Autocomplete.setTypes)
+[undefined](#Autocomplete.setTypes)
 
 setTypes(types)
 
@@ -119,7 +118,7 @@ Sets the types of predictions to be returned. For a list of supported types, see
 
 Events
 
-[place\_changed](#Autocomplete.place_changed)
+[undefined](#Autocomplete.place_changed)
 
 function()
 

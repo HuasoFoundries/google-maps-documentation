@@ -23,25 +23,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
 
 ### Table of Contents
 
-#### Event system
-
-  - [event](docs/event.md),
-  - [MapsEventListener](docs/MapsEventListener.md),
-  - [MVCObject](docs/MVCObject.md),
-  - [MVCArray](docs/MVCArray.md)
-#### Controls
-
-  - [FullscreenControlOptions](docs/FullscreenControlOptions.md),
-  - [MapTypeControlOptions](docs/MapTypeControlOptions.md),
-  - [MapTypeControlStyle](docs/MapTypeControlStyle.md),
-  - [MotionTrackingControlOptions](docs/MotionTrackingControlOptions.md),
-  - [PanControlOptions](docs/PanControlOptions.md),
-  - [RotateControlOptions](docs/RotateControlOptions.md),
-  - [ScaleControlOptions](docs/ScaleControlOptions.md),
-  - [ScaleControlStyle](docs/ScaleControlStyle.md),
-  - [StreetViewControlOptions](docs/StreetViewControlOptions.md),
-  - [ZoomControlOptions](docs/ZoomControlOptions.md),
-  - [ControlPosition](docs/ControlPosition.md)
 #### Coordinates
 
   - [LatLng](docs/LatLng.md),
@@ -66,6 +47,32 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [TrafficLayerOptions](docs/TrafficLayerOptions.md),
   - [TransitLayer](docs/TransitLayer.md),
   - [BicyclingLayer](docs/BicyclingLayer.md)
+#### Controls
+
+  - [FullscreenControlOptions](docs/FullscreenControlOptions.md),
+  - [MapTypeControlOptions](docs/MapTypeControlOptions.md),
+  - [MapTypeControlStyle](docs/MapTypeControlStyle.md),
+  - [MotionTrackingControlOptions](docs/MotionTrackingControlOptions.md),
+  - [PanControlOptions](docs/PanControlOptions.md),
+  - [RotateControlOptions](docs/RotateControlOptions.md),
+  - [ScaleControlOptions](docs/ScaleControlOptions.md),
+  - [ScaleControlStyle](docs/ScaleControlStyle.md),
+  - [StreetViewControlOptions](docs/StreetViewControlOptions.md),
+  - [ZoomControlOptions](docs/ZoomControlOptions.md),
+  - [ControlPosition](docs/ControlPosition.md)
+#### Event system
+
+  - [event](docs/event.md),
+  - [MapsEventListener](docs/MapsEventListener.md),
+  - [MVCObject](docs/MVCObject.md),
+  - [MVCArray](docs/MVCArray.md)
+#### Elevation
+
+  - [ElevationService](docs/ElevationService.md),
+  - [LocationElevationRequest](docs/LocationElevationRequest.md),
+  - [PathElevationRequest](docs/PathElevationRequest.md),
+  - [ElevationResult](docs/ElevationResult.md),
+  - [ElevationStatus](docs/ElevationStatus.md)
 #### Distance Matrix
 
   - [DistanceMatrixService](docs/DistanceMatrixService.md),
@@ -75,13 +82,28 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [DistanceMatrixResponseElement](docs/DistanceMatrixResponseElement.md),
   - [DistanceMatrixStatus](docs/DistanceMatrixStatus.md),
   - [DistanceMatrixElementStatus](docs/DistanceMatrixElementStatus.md)
-#### Elevation
+#### Places Autocomplete Service
 
-  - [ElevationService](docs/ElevationService.md),
-  - [LocationElevationRequest](docs/LocationElevationRequest.md),
-  - [PathElevationRequest](docs/PathElevationRequest.md),
-  - [ElevationResult](docs/ElevationResult.md),
-  - [ElevationStatus](docs/ElevationStatus.md)
+  - [AutocompleteService](docs/AutocompleteService.md),
+  - [AutocompletionRequest](docs/AutocompletionRequest.md),
+  - [QueryAutocompletionRequest](docs/QueryAutocompletionRequest.md),
+  - [AutocompleteSessionToken](docs/AutocompleteSessionToken.md),
+  - [ComponentRestrictions](docs/ComponentRestrictions.md),
+  - [AutocompletePrediction](docs/AutocompletePrediction.md),
+  - [QueryAutocompletePrediction](docs/QueryAutocompletePrediction.md),
+  - [PredictionTerm](docs/PredictionTerm.md),
+  - [PredictionSubstring](docs/PredictionSubstring.md),
+  - [StructuredFormatting](docs/StructuredFormatting.md)
+#### Geocoder
+
+  - [Geocoder](docs/Geocoder.md),
+  - [GeocoderRequest](docs/GeocoderRequest.md),
+  - [GeocoderComponentRestrictions](docs/GeocoderComponentRestrictions.md),
+  - [GeocoderStatus](docs/GeocoderStatus.md),
+  - [GeocoderResult](docs/GeocoderResult.md),
+  - [GeocoderAddressComponent](docs/GeocoderAddressComponent.md),
+  - [GeocoderGeometry](docs/GeocoderGeometry.md),
+  - [GeocoderLocationType](docs/GeocoderLocationType.md)
 #### Directions
 
   - [DirectionsService](docs/DirectionsService.md),
@@ -113,18 +135,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Distance](docs/Distance.md),
   - [Duration](docs/Duration.md),
   - [Time](docs/Time.md)
-#### Places Autocomplete Service
-
-  - [AutocompleteService](docs/AutocompleteService.md),
-  - [AutocompletionRequest](docs/AutocompletionRequest.md),
-  - [QueryAutocompletionRequest](docs/QueryAutocompletionRequest.md),
-  - [AutocompleteSessionToken](docs/AutocompleteSessionToken.md),
-  - [ComponentRestrictions](docs/ComponentRestrictions.md),
-  - [AutocompletePrediction](docs/AutocompletePrediction.md),
-  - [QueryAutocompletePrediction](docs/QueryAutocompletePrediction.md),
-  - [PredictionTerm](docs/PredictionTerm.md),
-  - [PredictionSubstring](docs/PredictionSubstring.md),
-  - [StructuredFormatting](docs/StructuredFormatting.md)
 #### Places Service
 
   - [PlacesService](docs/PlacesService.md),
@@ -148,22 +158,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [PlacePhoto](docs/PlacePhoto.md),
   - [PhotoOptions](docs/PhotoOptions.md),
   - [PlaceReview](docs/PlaceReview.md)
-#### Geocoder
-
-  - [Geocoder](docs/Geocoder.md),
-  - [GeocoderRequest](docs/GeocoderRequest.md),
-  - [GeocoderComponentRestrictions](docs/GeocoderComponentRestrictions.md),
-  - [GeocoderStatus](docs/GeocoderStatus.md),
-  - [GeocoderResult](docs/GeocoderResult.md),
-  - [GeocoderAddressComponent](docs/GeocoderAddressComponent.md),
-  - [GeocoderGeometry](docs/GeocoderGeometry.md),
-  - [GeocoderLocationType](docs/GeocoderLocationType.md)
-#### Places Widgets
-
-  - [Autocomplete](docs/Autocomplete.md),
-  - [AutocompleteOptions](docs/AutocompleteOptions.md),
-  - [SearchBox](docs/SearchBox.md),
-  - [SearchBoxOptions](docs/SearchBoxOptions.md)
 #### Service
 
   - [StreetViewService](docs/StreetViewService.md),
@@ -175,6 +169,12 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [StreetViewSource](docs/StreetViewSource.md),
   - [StreetViewPanoramaData](docs/StreetViewPanoramaData.md),
   - [StreetViewLink](docs/StreetViewLink.md)
+#### Places Widgets
+
+  - [Autocomplete](docs/Autocomplete.md),
+  - [AutocompleteOptions](docs/AutocompleteOptions.md),
+  - [SearchBox](docs/SearchBox.md),
+  - [SearchBoxOptions](docs/SearchBoxOptions.md)
 #### Rendering
 
   - [StreetViewPanorama](docs/StreetViewPanorama.md),
@@ -184,16 +184,23 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [StreetViewTileData](docs/StreetViewTileData.md),
   - [StreetViewPov](docs/StreetViewPov.md),
   - [StreetViewCoverageLayer](docs/StreetViewCoverageLayer.md)
-#### Heatmaps
-
-  - [HeatmapLayer](docs/HeatmapLayer.md),
-  - [HeatmapLayerOptions](docs/HeatmapLayerOptions.md),
-  - [WeightedLocation](docs/WeightedLocation.md)
 #### Max Zoom
 
   - [MaxZoomService](docs/MaxZoomService.md),
   - [MaxZoomResult](docs/MaxZoomResult.md),
   - [MaxZoomStatus](docs/MaxZoomStatus.md)
+#### Heatmaps
+
+  - [HeatmapLayer](docs/HeatmapLayer.md),
+  - [HeatmapLayerOptions](docs/HeatmapLayerOptions.md),
+  - [WeightedLocation](docs/WeightedLocation.md)
+#### Drawing Library
+
+  - [DrawingManager](docs/DrawingManager.md),
+  - [DrawingManagerOptions](docs/DrawingManagerOptions.md),
+  - [DrawingControlOptions](docs/DrawingControlOptions.md),
+  - [OverlayCompleteEvent](docs/OverlayCompleteEvent.md),
+  - [OverlayType](docs/OverlayType.md)
 #### KML
 
   - [KmlLayer](docs/KmlLayer.md),
@@ -203,11 +210,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [KmlMouseEvent](docs/KmlMouseEvent.md),
   - [KmlFeatureData](docs/KmlFeatureData.md),
   - [KmlAuthor](docs/KmlAuthor.md)
-#### DOM elements
-
-  - [OverlayView](docs/OverlayView.md),
-  - [MapPanes](docs/MapPanes.md),
-  - [MapCanvasProjection](docs/MapCanvasProjection.md)
 #### Image overlays
 
   - [MapType](docs/MapType.md),
@@ -218,13 +220,28 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [GroundOverlayOptions](docs/GroundOverlayOptions.md),
   - [StyledMapType](docs/StyledMapType.md),
   - [StyledMapTypeOptions](docs/StyledMapTypeOptions.md)
-#### Drawing Library
+#### DOM elements
 
-  - [DrawingManager](docs/DrawingManager.md),
-  - [DrawingManagerOptions](docs/DrawingManagerOptions.md),
-  - [DrawingControlOptions](docs/DrawingControlOptions.md),
-  - [OverlayCompleteEvent](docs/OverlayCompleteEvent.md),
-  - [OverlayType](docs/OverlayType.md)
+  - [OverlayView](docs/OverlayView.md),
+  - [MapPanes](docs/MapPanes.md),
+  - [MapCanvasProjection](docs/MapCanvasProjection.md)
+#### Info Window
+
+  - [InfoWindow](docs/InfoWindow.md),
+  - [InfoWindowOptions](docs/InfoWindowOptions.md)
+#### Polygons
+
+  - [Polyline](docs/Polyline.md),
+  - [PolylineOptions](docs/PolylineOptions.md),
+  - [IconSequence](docs/IconSequence.md),
+  - [Polygon](docs/Polygon.md),
+  - [PolygonOptions](docs/PolygonOptions.md),
+  - [PolyMouseEvent](docs/PolyMouseEvent.md),
+  - [Rectangle](docs/Rectangle.md),
+  - [RectangleOptions](docs/RectangleOptions.md),
+  - [Circle](docs/Circle.md),
+  - [CircleOptions](docs/CircleOptions.md),
+  - [StrokePosition](docs/StrokePosition.md)
 #### Data
 
   - [Data](docs/Data.md),
@@ -249,23 +266,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Data.SetGeometryEvent](docs/Data.SetGeometryEvent.md),
   - [Data.SetPropertyEvent](docs/Data.SetPropertyEvent.md),
   - [Data.RemovePropertyEvent](docs/Data.RemovePropertyEvent.md)
-#### Info Window
-
-  - [InfoWindow](docs/InfoWindow.md),
-  - [InfoWindowOptions](docs/InfoWindowOptions.md)
-#### Polygons
-
-  - [Polyline](docs/Polyline.md),
-  - [PolylineOptions](docs/PolylineOptions.md),
-  - [IconSequence](docs/IconSequence.md),
-  - [Polygon](docs/Polygon.md),
-  - [PolygonOptions](docs/PolygonOptions.md),
-  - [PolyMouseEvent](docs/PolyMouseEvent.md),
-  - [Rectangle](docs/Rectangle.md),
-  - [RectangleOptions](docs/RectangleOptions.md),
-  - [Circle](docs/Circle.md),
-  - [CircleOptions](docs/CircleOptions.md),
-  - [StrokePosition](docs/StrokePosition.md)
 #### Marker
 
   - [Marker](docs/Marker.md),

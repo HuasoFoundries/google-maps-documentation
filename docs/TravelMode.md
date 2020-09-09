@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/TravelMode.html)
 
-
 TravelMode constants
 --------------------
 
@@ -10,18 +9,18 @@ The valid travel modes that can be specified in a DirectionsRequest as well as t
 
 Constants
 
-[BICYCLING](#TravelMode.BICYCLING)
+[undefined](#TravelMode.BICYCLING)
 
 Specifies a bicycling directions request.
 
-[DRIVING](#TravelMode.DRIVING)
+[undefined](#TravelMode.DRIVING)
 
 Specifies a driving directions request.
 
-[TRANSIT](#TravelMode.TRANSIT)
+[undefined](#TravelMode.TRANSIT)
 
 Specifies a transit directions request.
 
-[WALKING](#TravelMode.WALKING)
+[undefined](#TravelMode.WALKING)
 
 Specifies a walking directions request.

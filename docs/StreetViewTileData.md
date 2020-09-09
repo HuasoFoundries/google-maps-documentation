@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/StreetViewTileData.html)
 
-
 StreetViewTileData interface
 ----------------------------
 
@@ -10,7 +9,7 @@ The properties of the tile set used in a Street View panorama.
 
 Methods
 
-[getTileUrl](#StreetViewTileData.getTileUrl)
+[undefined](#StreetViewTileData.getTileUrl)
 
 getTileUrl(pano, tileZoom, tileX, tileY)
 
@@ -33,20 +32,20 @@ Your custom method must return the URL for the tile image.
 
 Properties
 
-[centerHeading](#StreetViewTileData.centerHeading)
+[undefined](#StreetViewTileData.centerHeading)
 
 **Type:**  number
 
 The heading (in degrees) at the center of the panoramic tiles.
 
-[tileSize](#StreetViewTileData.tileSize)
+[undefined](#StreetViewTileData.tileSize)
 
-**Type:**  [Size](Size.md)
+**Type:**  [Size](/maps/documentation/javascript/reference/3.40/coordinates#Size)
 
 The size (in pixels) at which tiles will be rendered.
 
-[worldSize](#StreetViewTileData.worldSize)
+[undefined](#StreetViewTileData.worldSize)
 
-**Type:**  [Size](Size.md)
+**Type:**  [Size](/maps/documentation/javascript/reference/3.40/coordinates#Size)
 
 The size (in pixels) of the whole panorama's "world".

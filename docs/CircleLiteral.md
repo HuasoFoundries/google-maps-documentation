@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/CircleLiteral.html)
 
-
 CircleLiteral interface
 -----------------------
 
@@ -8,17 +7,17 @@ google.maps.CircleLiteral interface
 
 Object literal which represents a circle.
 
-This interface extends [CircleOptions](CircleOptions.md).
+This interface extends [CircleOptions](/maps/documentation/javascript/reference/3.40/polygon#CircleOptions).
 
 Properties
 
-[center](#CircleLiteral.center)
+[undefined](#CircleLiteral.center)
 
-**Type:**  [LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)
 
 The center of the Circle.
 
-[radius](#CircleLiteral.radius)
+[undefined](#CircleLiteral.radius)
 
 **Type:**  number
 

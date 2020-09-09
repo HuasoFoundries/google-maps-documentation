@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MaxZoomResult.html)
 
-
 MaxZoomResult interface
 -----------------------
 
@@ -10,13 +9,13 @@ A MaxZoom result in JSON format retrieved from the MaxZoomService.
 
 Properties
 
-[status](#MaxZoomResult.status)
+[undefined](#MaxZoomResult.status)
 
-**Type:**  [MaxZoomStatus](MaxZoomStatus.md)
+**Type:**  [MaxZoomStatus](/maps/documentation/javascript/reference/3.40/max-zoom#MaxZoomStatus)
 
 Status of the request.
 
-[zoom](#MaxZoomResult.zoom)
+[undefined](#MaxZoomResult.zoom)
 
 **Type:**  number
 

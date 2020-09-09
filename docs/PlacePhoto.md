@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlacePhoto.html)
 
-
 PlacePhoto interface
 --------------------
 
@@ -14,13 +13,13 @@ places
 
 Methods
 
-[getUrl](#PlacePhoto.getUrl)
+[undefined](#PlacePhoto.getUrl)
 
 getUrl(\[opts\])
 
 **Parameters:** 
 
-*   opts:  [PhotoOptions](PhotoOptions.md) optional
+*   opts:  [PhotoOptions](/maps/documentation/javascript/reference/3.40/places-service#PhotoOptions) optional
 
 **Return Value:**  string
 
@@ -28,19 +27,19 @@ Returns the image URL corresponding to the specified options.
 
 Properties
 
-[height](#PlacePhoto.height)
+[undefined](#PlacePhoto.height)
 
 **Type:**  number
 
 The height of the photo in pixels.
 
-[html\_attributions](#PlacePhoto.html_attributions)
+[undefined](#PlacePhoto.html_attributions)
 
 **Type:**  Array<string>
 
 Attribution text to be displayed for this photo.
 
-[width](#PlacePhoto.width)
+[undefined](#PlacePhoto.width)
 
 **Type:**  number
 

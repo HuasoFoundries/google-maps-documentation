@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlaceOpeningHoursPeriod.html)
 
-
 PlaceOpeningHoursPeriod interface
 ---------------------------------
 
@@ -14,14 +13,14 @@ places
 
 Properties
 
-[close](#PlaceOpeningHoursPeriod.close)
+[undefined](#PlaceOpeningHoursPeriod.close)
 
-**Type:**  [PlaceOpeningHoursTime](PlaceOpeningHoursTime.md) optional
+**Type:**  [PlaceOpeningHoursTime](/maps/documentation/javascript/reference/3.40/places-service#PlaceOpeningHoursTime) optional
 
 The closing time for the Place.
 
-[open](#PlaceOpeningHoursPeriod.open)
+[undefined](#PlaceOpeningHoursPeriod.open)
 
-**Type:**  [PlaceOpeningHoursTime](PlaceOpeningHoursTime.md)
+**Type:**  [PlaceOpeningHoursTime](/maps/documentation/javascript/reference/3.40/places-service#PlaceOpeningHoursTime)
 
 The opening time for the Place.

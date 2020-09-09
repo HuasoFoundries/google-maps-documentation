@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PanoProviderOptions.html)
 
-
 PanoProviderOptions interface
 -----------------------------
 
@@ -10,7 +9,7 @@ Options for the Custom Pano Provider.
 
 Properties
 
-[cors](#PanoProviderOptions.cors)
+[undefined](#PanoProviderOptions.cors)
 
 **Type:**  boolean optional
 

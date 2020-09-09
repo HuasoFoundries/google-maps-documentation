@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/ElevationService.html)
 
-
 ElevationService class
 ----------------------
 
@@ -10,7 +9,7 @@ Defines a service class that talks directly to Google servers for requesting ele
 
 Constructor
 
-[ElevationService](#ElevationService.constructor)
+[undefined](#ElevationService.constructor)
 
 ElevationService()
 
@@ -20,27 +19,27 @@ Creates a new instance of a ElevationService that sends elevation queries to Goo
 
 Methods
 
-[getElevationAlongPath](#ElevationService.getElevationAlongPath)
+[undefined](#ElevationService.getElevationAlongPath)
 
 getElevationAlongPath(request, callback)
 
 **Parameters:** 
 
-*   request:  [PathElevationRequest](PathElevationRequest.md)
-*   callback:  function(Array<[ElevationResult](ElevationResult.md)\> optional, [ElevationStatus](ElevationStatus.md))
+*   request:  [PathElevationRequest](/maps/documentation/javascript/reference/3.40/elevation#PathElevationRequest)
+*   callback:  function(Array<[ElevationResult](/maps/documentation/javascript/reference/3.40/elevation#ElevationResult)\> optional, [ElevationStatus](/maps/documentation/javascript/reference/3.40/elevation#ElevationStatus))
 
 **Return Value:**  None
 
 Makes an elevation request along a path, where the elevation data are returned as distance-based samples along that path.
 
-[getElevationForLocations](#ElevationService.getElevationForLocations)
+[undefined](#ElevationService.getElevationForLocations)
 
 getElevationForLocations(request, callback)
 
 **Parameters:** 
 
-*   request:  [LocationElevationRequest](LocationElevationRequest.md)
-*   callback:  function(Array<[ElevationResult](ElevationResult.md)\> optional, [ElevationStatus](ElevationStatus.md))
+*   request:  [LocationElevationRequest](/maps/documentation/javascript/reference/3.40/elevation#LocationElevationRequest)
+*   callback:  function(Array<[ElevationResult](/maps/documentation/javascript/reference/3.40/elevation#ElevationResult)\> optional, [ElevationStatus](/maps/documentation/javascript/reference/3.40/elevation#ElevationStatus))
 
 **Return Value:**  None
 

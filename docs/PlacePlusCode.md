@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PlacePlusCode.html)
 
-
 PlacePlusCode interface
 -----------------------
 
@@ -14,13 +13,13 @@ places
 
 Properties
 
-[compound\_code](#PlacePlusCode.compound_code)
+[undefined](#PlacePlusCode.compound_code)
 
 **Type:**  string optional
 
 A [plus code](https://plus.codes/) with a 1/8000th of a degree by 1/8000th of a degree area where the first four characters (the area code) are dropped and replaced with a locality description. For example, "9G8F+5W Zurich, Switzerland". If no suitable locality that can be found to shorten the code then this field is omitted.
 
-[global\_code](#PlacePlusCode.global_code)
+[undefined](#PlacePlusCode.global_code)
 
 **Type:**  string
 

@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/Data.LinearRing.html)
 
-
 Data.LinearRing class
 ---------------------
 
@@ -8,43 +7,43 @@ google.maps.Data.LinearRing class
 
 A LinearRing geometry contains a number of LatLngs, representing a closed LineString. There is no need to make the first LatLng equal to the last LatLng. The LinearRing is closed implicitly.
 
-This class implements [Data.Geometry](Data.Geometry.md).
+This class implements [Data.Geometry](Data.md).
 
 Constructor
 
-[Data.LinearRing](#Data.LinearRing.constructor)
+[undefined](#Data.LinearRing.constructor)
 
 Data.LinearRing(elements)
 
 **Parameters:** 
 
-*   elements:  Array<[LatLng](LatLng.md)|[LatLngLiteral](LatLngLiteral.md)\>
+*   elements:  Array<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)|[LatLngLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngLiteral)\>
 
 Constructs a Data.LinearRing from the given LatLngs or LatLngLiterals.
 
 Methods
 
-[forEachLatLng](#Data.LinearRing.forEachLatLng)
+[undefined](#Data.LinearRing.forEachLatLng)
 
 forEachLatLng(callback)
 
 **Parameters:** 
 
-*   callback:  function([LatLng](LatLng.md))
+*   callback:  function([LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng))
 
 **Return Value:**  None
 
-[getArray](#Data.LinearRing.getArray)
+[undefined](#Data.LinearRing.getArray)
 
 getArray()
 
 **Parameters:**  None
 
-**Return Value:**  Array<[LatLng](LatLng.md)\>
+**Return Value:**  Array<[LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)\>
 
 Returns an array of the contained LatLngs. A new array is returned each time getArray() is called.
 
-[getAt](#Data.LinearRing.getAt)
+[undefined](#Data.LinearRing.getAt)
 
 getAt(n)
 
@@ -52,11 +51,11 @@ getAt(n)
 
 *   n:  number
 
-**Return Value:**  [LatLng](LatLng.md)
+**Return Value:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng)
 
 Returns the n\-th contained LatLng.
 
-[getLength](#Data.LinearRing.getLength)
+[undefined](#Data.LinearRing.getLength)
 
 getLength()
 
@@ -66,7 +65,7 @@ getLength()
 
 Returns the number of contained LatLngs.
 
-[getType](#Data.LinearRing.getType)
+[undefined](#Data.LinearRing.getType)
 
 getType()
 

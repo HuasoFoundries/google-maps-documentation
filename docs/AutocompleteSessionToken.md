@@ -1,12 +1,11 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/AutocompleteSessionToken.html)
 
-
 AutocompleteSessionToken class
 ------------------------------
 
 google.maps.places.AutocompleteSessionToken class
 
-Represents a session token used for tracking an autocomplete session, which can be a series of [AutocompleteService.getPlacePredictions](/maps/documentation/javascript/reference/places-autocomplete-service#AutocompleteService.getPlacePredictions) calls followed by a single [PlacesService.getDetails](/maps/documentation/javascript/reference/places-service#PlacesService.getDetails) call.
+Represents a session token used for tracking an autocomplete session, which can be a series of [AutocompleteService.getPlacePredictions](AutocompleteService.md) calls followed by a single [PlacesService.getDetails](PlacesService.md) call.
 
 #### Library
 
@@ -14,7 +13,7 @@ places
 
 Constructor
 
-[AutocompleteSessionToken](#AutocompleteSessionToken.constructor)
+[undefined](#AutocompleteSessionToken.constructor)
 
 AutocompleteSessionToken()
 

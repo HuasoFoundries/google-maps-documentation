@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/PredictionSubstring.html)
 
-
 PredictionSubstring interface
 -----------------------------
 
@@ -14,13 +13,13 @@ places
 
 Properties
 
-[length](#PredictionSubstring.length)
+[undefined](#PredictionSubstring.length)
 
 **Type:**  number
 
 The length of the substring.
 
-[offset](#PredictionSubstring.offset)
+[undefined](#PredictionSubstring.offset)
 
 **Type:**  number
 

@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/QueryAutocompletionRequest.html)
 
-
 QueryAutocompletionRequest interface
 ------------------------------------
 
@@ -14,31 +13,31 @@ places
 
 Properties
 
-[bounds](#QueryAutocompletionRequest.bounds)
+[undefined](#QueryAutocompletionRequest.bounds)
 
-**Type:**  [LatLngBounds](LatLngBounds.md)|[LatLngBoundsLiteral](LatLngBoundsLiteral.md) optional
+**Type:**  [LatLngBounds](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBounds)|[LatLngBoundsLiteral](/maps/documentation/javascript/reference/3.40/coordinates#LatLngBoundsLiteral) optional
 
 Bounds for prediction biasing. Predictions will be biased towards, but not restricted to, the given bounds. Both location and radius will be ignored if bounds is set.
 
-[input](#QueryAutocompletionRequest.input)
+[undefined](#QueryAutocompletionRequest.input)
 
 **Type:**  string
 
 The user entered input string.
 
-[location](#QueryAutocompletionRequest.location)
+[undefined](#QueryAutocompletionRequest.location)
 
-**Type:**  [LatLng](LatLng.md) optional
+**Type:**  [LatLng](/maps/documentation/javascript/reference/3.40/coordinates#LatLng) optional
 
 Location for prediction biasing. Predictions will be biased towards the given location and radius. Alternatively, bounds can be used.
 
-[offset](#QueryAutocompletionRequest.offset)
+[undefined](#QueryAutocompletionRequest.offset)
 
 **Type:**  number optional
 
 The character position in the input term at which the service uses text for predictions (the position of the cursor in the input field).
 
-[radius](#QueryAutocompletionRequest.radius)
+[undefined](#QueryAutocompletionRequest.radius)
 
 **Type:**  number optional
 

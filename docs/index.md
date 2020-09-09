@@ -23,25 +23,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
 
 ### Table of Contents
 
-#### Event system
-
-  - [event](event.html),
-  - [MapsEventListener](MapsEventListener.html),
-  - [MVCObject](MVCObject.html),
-  - [MVCArray](MVCArray.html)
-#### Controls
-
-  - [FullscreenControlOptions](FullscreenControlOptions.html),
-  - [MapTypeControlOptions](MapTypeControlOptions.html),
-  - [MapTypeControlStyle](MapTypeControlStyle.html),
-  - [MotionTrackingControlOptions](MotionTrackingControlOptions.html),
-  - [PanControlOptions](PanControlOptions.html),
-  - [RotateControlOptions](RotateControlOptions.html),
-  - [ScaleControlOptions](ScaleControlOptions.html),
-  - [ScaleControlStyle](ScaleControlStyle.html),
-  - [StreetViewControlOptions](StreetViewControlOptions.html),
-  - [ZoomControlOptions](ZoomControlOptions.html),
-  - [ControlPosition](ControlPosition.html)
 #### Coordinates
 
   - [LatLng](LatLng.html),
@@ -66,6 +47,32 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [TrafficLayerOptions](TrafficLayerOptions.html),
   - [TransitLayer](TransitLayer.html),
   - [BicyclingLayer](BicyclingLayer.html)
+#### Controls
+
+  - [FullscreenControlOptions](FullscreenControlOptions.html),
+  - [MapTypeControlOptions](MapTypeControlOptions.html),
+  - [MapTypeControlStyle](MapTypeControlStyle.html),
+  - [MotionTrackingControlOptions](MotionTrackingControlOptions.html),
+  - [PanControlOptions](PanControlOptions.html),
+  - [RotateControlOptions](RotateControlOptions.html),
+  - [ScaleControlOptions](ScaleControlOptions.html),
+  - [ScaleControlStyle](ScaleControlStyle.html),
+  - [StreetViewControlOptions](StreetViewControlOptions.html),
+  - [ZoomControlOptions](ZoomControlOptions.html),
+  - [ControlPosition](ControlPosition.html)
+#### Event system
+
+  - [event](event.html),
+  - [MapsEventListener](MapsEventListener.html),
+  - [MVCObject](MVCObject.html),
+  - [MVCArray](MVCArray.html)
+#### Elevation
+
+  - [ElevationService](ElevationService.html),
+  - [LocationElevationRequest](LocationElevationRequest.html),
+  - [PathElevationRequest](PathElevationRequest.html),
+  - [ElevationResult](ElevationResult.html),
+  - [ElevationStatus](ElevationStatus.html)
 #### Distance Matrix
 
   - [DistanceMatrixService](DistanceMatrixService.html),
@@ -75,13 +82,28 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [DistanceMatrixResponseElement](DistanceMatrixResponseElement.html),
   - [DistanceMatrixStatus](DistanceMatrixStatus.html),
   - [DistanceMatrixElementStatus](DistanceMatrixElementStatus.html)
-#### Elevation
+#### Places Autocomplete Service
 
-  - [ElevationService](ElevationService.html),
-  - [LocationElevationRequest](LocationElevationRequest.html),
-  - [PathElevationRequest](PathElevationRequest.html),
-  - [ElevationResult](ElevationResult.html),
-  - [ElevationStatus](ElevationStatus.html)
+  - [AutocompleteService](AutocompleteService.html),
+  - [AutocompletionRequest](AutocompletionRequest.html),
+  - [QueryAutocompletionRequest](QueryAutocompletionRequest.html),
+  - [AutocompleteSessionToken](AutocompleteSessionToken.html),
+  - [ComponentRestrictions](ComponentRestrictions.html),
+  - [AutocompletePrediction](AutocompletePrediction.html),
+  - [QueryAutocompletePrediction](QueryAutocompletePrediction.html),
+  - [PredictionTerm](PredictionTerm.html),
+  - [PredictionSubstring](PredictionSubstring.html),
+  - [StructuredFormatting](StructuredFormatting.html)
+#### Geocoder
+
+  - [Geocoder](Geocoder.html),
+  - [GeocoderRequest](GeocoderRequest.html),
+  - [GeocoderComponentRestrictions](GeocoderComponentRestrictions.html),
+  - [GeocoderStatus](GeocoderStatus.html),
+  - [GeocoderResult](GeocoderResult.html),
+  - [GeocoderAddressComponent](GeocoderAddressComponent.html),
+  - [GeocoderGeometry](GeocoderGeometry.html),
+  - [GeocoderLocationType](GeocoderLocationType.html)
 #### Directions
 
   - [DirectionsService](DirectionsService.html),
@@ -113,18 +135,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Distance](Distance.html),
   - [Duration](Duration.html),
   - [Time](Time.html)
-#### Places Autocomplete Service
-
-  - [AutocompleteService](AutocompleteService.html),
-  - [AutocompletionRequest](AutocompletionRequest.html),
-  - [QueryAutocompletionRequest](QueryAutocompletionRequest.html),
-  - [AutocompleteSessionToken](AutocompleteSessionToken.html),
-  - [ComponentRestrictions](ComponentRestrictions.html),
-  - [AutocompletePrediction](AutocompletePrediction.html),
-  - [QueryAutocompletePrediction](QueryAutocompletePrediction.html),
-  - [PredictionTerm](PredictionTerm.html),
-  - [PredictionSubstring](PredictionSubstring.html),
-  - [StructuredFormatting](StructuredFormatting.html)
 #### Places Service
 
   - [PlacesService](PlacesService.html),
@@ -148,22 +158,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [PlacePhoto](PlacePhoto.html),
   - [PhotoOptions](PhotoOptions.html),
   - [PlaceReview](PlaceReview.html)
-#### Geocoder
-
-  - [Geocoder](Geocoder.html),
-  - [GeocoderRequest](GeocoderRequest.html),
-  - [GeocoderComponentRestrictions](GeocoderComponentRestrictions.html),
-  - [GeocoderStatus](GeocoderStatus.html),
-  - [GeocoderResult](GeocoderResult.html),
-  - [GeocoderAddressComponent](GeocoderAddressComponent.html),
-  - [GeocoderGeometry](GeocoderGeometry.html),
-  - [GeocoderLocationType](GeocoderLocationType.html)
-#### Places Widgets
-
-  - [Autocomplete](Autocomplete.html),
-  - [AutocompleteOptions](AutocompleteOptions.html),
-  - [SearchBox](SearchBox.html),
-  - [SearchBoxOptions](SearchBoxOptions.html)
 #### Service
 
   - [StreetViewService](StreetViewService.html),
@@ -175,6 +169,12 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [StreetViewSource](StreetViewSource.html),
   - [StreetViewPanoramaData](StreetViewPanoramaData.html),
   - [StreetViewLink](StreetViewLink.html)
+#### Places Widgets
+
+  - [Autocomplete](Autocomplete.html),
+  - [AutocompleteOptions](AutocompleteOptions.html),
+  - [SearchBox](SearchBox.html),
+  - [SearchBoxOptions](SearchBoxOptions.html)
 #### Rendering
 
   - [StreetViewPanorama](StreetViewPanorama.html),
@@ -184,16 +184,23 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [StreetViewTileData](StreetViewTileData.html),
   - [StreetViewPov](StreetViewPov.html),
   - [StreetViewCoverageLayer](StreetViewCoverageLayer.html)
-#### Heatmaps
-
-  - [HeatmapLayer](HeatmapLayer.html),
-  - [HeatmapLayerOptions](HeatmapLayerOptions.html),
-  - [WeightedLocation](WeightedLocation.html)
 #### Max Zoom
 
   - [MaxZoomService](MaxZoomService.html),
   - [MaxZoomResult](MaxZoomResult.html),
   - [MaxZoomStatus](MaxZoomStatus.html)
+#### Heatmaps
+
+  - [HeatmapLayer](HeatmapLayer.html),
+  - [HeatmapLayerOptions](HeatmapLayerOptions.html),
+  - [WeightedLocation](WeightedLocation.html)
+#### Drawing Library
+
+  - [DrawingManager](DrawingManager.html),
+  - [DrawingManagerOptions](DrawingManagerOptions.html),
+  - [DrawingControlOptions](DrawingControlOptions.html),
+  - [OverlayCompleteEvent](OverlayCompleteEvent.html),
+  - [OverlayType](OverlayType.html)
 #### KML
 
   - [KmlLayer](KmlLayer.html),
@@ -203,11 +210,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [KmlMouseEvent](KmlMouseEvent.html),
   - [KmlFeatureData](KmlFeatureData.html),
   - [KmlAuthor](KmlAuthor.html)
-#### DOM elements
-
-  - [OverlayView](OverlayView.html),
-  - [MapPanes](MapPanes.html),
-  - [MapCanvasProjection](MapCanvasProjection.html)
 #### Image overlays
 
   - [MapType](MapType.html),
@@ -218,13 +220,28 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [GroundOverlayOptions](GroundOverlayOptions.html),
   - [StyledMapType](StyledMapType.html),
   - [StyledMapTypeOptions](StyledMapTypeOptions.html)
-#### Drawing Library
+#### DOM elements
 
-  - [DrawingManager](DrawingManager.html),
-  - [DrawingManagerOptions](DrawingManagerOptions.html),
-  - [DrawingControlOptions](DrawingControlOptions.html),
-  - [OverlayCompleteEvent](OverlayCompleteEvent.html),
-  - [OverlayType](OverlayType.html)
+  - [OverlayView](OverlayView.html),
+  - [MapPanes](MapPanes.html),
+  - [MapCanvasProjection](MapCanvasProjection.html)
+#### Info Window
+
+  - [InfoWindow](InfoWindow.html),
+  - [InfoWindowOptions](InfoWindowOptions.html)
+#### Polygons
+
+  - [Polyline](Polyline.html),
+  - [PolylineOptions](PolylineOptions.html),
+  - [IconSequence](IconSequence.html),
+  - [Polygon](Polygon.html),
+  - [PolygonOptions](PolygonOptions.html),
+  - [PolyMouseEvent](PolyMouseEvent.html),
+  - [Rectangle](Rectangle.html),
+  - [RectangleOptions](RectangleOptions.html),
+  - [Circle](Circle.html),
+  - [CircleOptions](CircleOptions.html),
+  - [StrokePosition](StrokePosition.html)
 #### Data
 
   - [Data](Data.html),
@@ -249,23 +266,6 @@ Version 3.40, last updated on Tuesday, April 28, 2020.
   - [Data.SetGeometryEvent](Data.SetGeometryEvent.html),
   - [Data.SetPropertyEvent](Data.SetPropertyEvent.html),
   - [Data.RemovePropertyEvent](Data.RemovePropertyEvent.html)
-#### Info Window
-
-  - [InfoWindow](InfoWindow.html),
-  - [InfoWindowOptions](InfoWindowOptions.html)
-#### Polygons
-
-  - [Polyline](Polyline.html),
-  - [PolylineOptions](PolylineOptions.html),
-  - [IconSequence](IconSequence.html),
-  - [Polygon](Polygon.html),
-  - [PolygonOptions](PolygonOptions.html),
-  - [PolyMouseEvent](PolyMouseEvent.html),
-  - [Rectangle](Rectangle.html),
-  - [RectangleOptions](RectangleOptions.html),
-  - [Circle](Circle.html),
-  - [CircleOptions](CircleOptions.html),
-  - [StrokePosition](StrokePosition.html)
 #### Marker
 
   - [Marker](Marker.html),

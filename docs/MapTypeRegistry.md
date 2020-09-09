@@ -1,6 +1,5 @@
 [See html formatted version](https://huasofoundries.github.io/google-maps-documentation/MapTypeRegistry.html)
 
-
 MapTypeRegistry class
 ---------------------
 
@@ -8,11 +7,11 @@ google.maps.MapTypeRegistry class
 
 A registry for MapType instances, keyed by MapType id.
 
-This class extends [MVCObject](MVCObject.md).
+This class extends [MVCObject](/maps/documentation/javascript/reference/3.40/event#MVCObject).
 
 Constructor
 
-[MapTypeRegistry](#MapTypeRegistry.constructor)
+[undefined](#MapTypeRegistry.constructor)
 
 MapTypeRegistry()
 
@@ -22,14 +21,14 @@ The MapTypeRegistry holds the collection of custom map types available to the ma
 
 Methods
 
-[set](#MapTypeRegistry.set)
+[undefined](#MapTypeRegistry.set)
 
 set(id, mapType)
 
 **Parameters:** 
 
 *   id:  string
-*   mapType:  [MapType](MapType.md)|\*
+*   mapType:  [MapType](/maps/documentation/javascript/reference/3.40/image-overlay#MapType)|\*
 
 **Return Value:**  None
 
