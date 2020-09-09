@@ -19,10 +19,24 @@ Starting August 2018, this project will regularly inspect the contents of the [w
 
 ### Last Update
 
-Version 3.40, last updated on Tuesday, February 11, 2020.
+Version 3.40, last updated on Tuesday, April 28, 2020.
 
 ### Table of Contents
 
+#### Maps
+
+  - [Map](Map.html),
+  - [MapOptions](MapOptions.html),
+  - [MapTypeStyle](MapTypeStyle.html),
+  - [MouseEvent](MouseEvent.html),
+  - [IconMouseEvent](IconMouseEvent.html),
+  - [MapTypeId](MapTypeId.html),
+  - [MapTypeRegistry](MapTypeRegistry.html),
+  - [MapRestriction](MapRestriction.html),
+  - [TrafficLayer](TrafficLayer.html),
+  - [TrafficLayerOptions](TrafficLayerOptions.html),
+  - [TransitLayer](TransitLayer.html),
+  - [BicyclingLayer](BicyclingLayer.html)
 #### Controls
 
   - [FullscreenControlOptions](FullscreenControlOptions.html),
@@ -59,20 +73,6 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [PathElevationRequest](PathElevationRequest.html),
   - [ElevationResult](ElevationResult.html),
   - [ElevationStatus](ElevationStatus.html)
-#### Maps
-
-  - [Map](Map.html),
-  - [MapOptions](MapOptions.html),
-  - [MapTypeStyle](MapTypeStyle.html),
-  - [MouseEvent](MouseEvent.html),
-  - [IconMouseEvent](IconMouseEvent.html),
-  - [MapTypeId](MapTypeId.html),
-  - [MapTypeRegistry](MapTypeRegistry.html),
-  - [MapRestriction](MapRestriction.html),
-  - [TrafficLayer](TrafficLayer.html),
-  - [TrafficLayerOptions](TrafficLayerOptions.html),
-  - [TransitLayer](TransitLayer.html),
-  - [BicyclingLayer](BicyclingLayer.html)
 #### Distance Matrix
 
   - [DistanceMatrixService](DistanceMatrixService.html),
@@ -201,6 +201,21 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [DrawingControlOptions](DrawingControlOptions.html),
   - [OverlayCompleteEvent](OverlayCompleteEvent.html),
   - [OverlayType](OverlayType.html)
+#### DOM elements
+
+  - [OverlayView](OverlayView.html),
+  - [MapPanes](MapPanes.html),
+  - [MapCanvasProjection](MapCanvasProjection.html)
+#### Image overlays
+
+  - [MapType](MapType.html),
+  - [Projection](Projection.html),
+  - [ImageMapType](ImageMapType.html),
+  - [ImageMapTypeOptions](ImageMapTypeOptions.html),
+  - [GroundOverlay](GroundOverlay.html),
+  - [GroundOverlayOptions](GroundOverlayOptions.html),
+  - [StyledMapType](StyledMapType.html),
+  - [StyledMapTypeOptions](StyledMapTypeOptions.html)
 #### KML
 
   - [KmlLayer](KmlLayer.html),
@@ -234,21 +249,6 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [Data.SetGeometryEvent](Data.SetGeometryEvent.html),
   - [Data.SetPropertyEvent](Data.SetPropertyEvent.html),
   - [Data.RemovePropertyEvent](Data.RemovePropertyEvent.html)
-#### DOM elements
-
-  - [OverlayView](OverlayView.html),
-  - [MapPanes](MapPanes.html),
-  - [MapCanvasProjection](MapCanvasProjection.html)
-#### Image overlays
-
-  - [MapType](MapType.html),
-  - [Projection](Projection.html),
-  - [ImageMapType](ImageMapType.html),
-  - [ImageMapTypeOptions](ImageMapTypeOptions.html),
-  - [GroundOverlay](GroundOverlay.html),
-  - [GroundOverlayOptions](GroundOverlayOptions.html),
-  - [StyledMapType](StyledMapType.html),
-  - [StyledMapTypeOptions](StyledMapTypeOptions.html)
 #### Polygons
 
   - [Polyline](Polyline.html),

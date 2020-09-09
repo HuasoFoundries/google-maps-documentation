@@ -161,6 +161,7 @@ async function startParsing() {
     (current_data.version > last_update_entry.version ||
       current_data.last_date > last_update_entry.last_date)
   ) {
+    commitMsg = `Version ${current_data.version}, last updated on ${current_data.last_update}`;
     console.log(
       `${chalk.red('Detected updates')}, will push to version history`
     );

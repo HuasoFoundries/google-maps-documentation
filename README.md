@@ -19,10 +19,24 @@ Starting August 2018, this project will regularly inspect the contents of the [w
 
 ### Last Update
 
-Version 3.40, last updated on Tuesday, February 11, 2020.
+Version 3.40, last updated on Tuesday, April 28, 2020.
 
 ### Table of Contents
 
+#### Maps
+
+  - [Map](docs/Map.md),
+  - [MapOptions](docs/MapOptions.md),
+  - [MapTypeStyle](docs/MapTypeStyle.md),
+  - [MouseEvent](docs/MouseEvent.md),
+  - [IconMouseEvent](docs/IconMouseEvent.md),
+  - [MapTypeId](docs/MapTypeId.md),
+  - [MapTypeRegistry](docs/MapTypeRegistry.md),
+  - [MapRestriction](docs/MapRestriction.md),
+  - [TrafficLayer](docs/TrafficLayer.md),
+  - [TrafficLayerOptions](docs/TrafficLayerOptions.md),
+  - [TransitLayer](docs/TransitLayer.md),
+  - [BicyclingLayer](docs/BicyclingLayer.md)
 #### Controls
 
   - [FullscreenControlOptions](docs/FullscreenControlOptions.md),
@@ -59,20 +73,6 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [PathElevationRequest](docs/PathElevationRequest.md),
   - [ElevationResult](docs/ElevationResult.md),
   - [ElevationStatus](docs/ElevationStatus.md)
-#### Maps
-
-  - [Map](docs/Map.md),
-  - [MapOptions](docs/MapOptions.md),
-  - [MapTypeStyle](docs/MapTypeStyle.md),
-  - [MouseEvent](docs/MouseEvent.md),
-  - [IconMouseEvent](docs/IconMouseEvent.md),
-  - [MapTypeId](docs/MapTypeId.md),
-  - [MapTypeRegistry](docs/MapTypeRegistry.md),
-  - [MapRestriction](docs/MapRestriction.md),
-  - [TrafficLayer](docs/TrafficLayer.md),
-  - [TrafficLayerOptions](docs/TrafficLayerOptions.md),
-  - [TransitLayer](docs/TransitLayer.md),
-  - [BicyclingLayer](docs/BicyclingLayer.md)
 #### Distance Matrix
 
   - [DistanceMatrixService](docs/DistanceMatrixService.md),
@@ -201,6 +201,21 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [DrawingControlOptions](docs/DrawingControlOptions.md),
   - [OverlayCompleteEvent](docs/OverlayCompleteEvent.md),
   - [OverlayType](docs/OverlayType.md)
+#### DOM elements
+
+  - [OverlayView](docs/OverlayView.md),
+  - [MapPanes](docs/MapPanes.md),
+  - [MapCanvasProjection](docs/MapCanvasProjection.md)
+#### Image overlays
+
+  - [MapType](docs/MapType.md),
+  - [Projection](docs/Projection.md),
+  - [ImageMapType](docs/ImageMapType.md),
+  - [ImageMapTypeOptions](docs/ImageMapTypeOptions.md),
+  - [GroundOverlay](docs/GroundOverlay.md),
+  - [GroundOverlayOptions](docs/GroundOverlayOptions.md),
+  - [StyledMapType](docs/StyledMapType.md),
+  - [StyledMapTypeOptions](docs/StyledMapTypeOptions.md)
 #### KML
 
   - [KmlLayer](docs/KmlLayer.md),
@@ -234,21 +249,6 @@ Version 3.40, last updated on Tuesday, February 11, 2020.
   - [Data.SetGeometryEvent](docs/Data.SetGeometryEvent.md),
   - [Data.SetPropertyEvent](docs/Data.SetPropertyEvent.md),
   - [Data.RemovePropertyEvent](docs/Data.RemovePropertyEvent.md)
-#### DOM elements
-
-  - [OverlayView](docs/OverlayView.md),
-  - [MapPanes](docs/MapPanes.md),
-  - [MapCanvasProjection](docs/MapCanvasProjection.md)
-#### Image overlays
-
-  - [MapType](docs/MapType.md),
-  - [Projection](docs/Projection.md),
-  - [ImageMapType](docs/ImageMapType.md),
-  - [ImageMapTypeOptions](docs/ImageMapTypeOptions.md),
-  - [GroundOverlay](docs/GroundOverlay.md),
-  - [GroundOverlayOptions](docs/GroundOverlayOptions.md),
-  - [StyledMapType](docs/StyledMapType.md),
-  - [StyledMapTypeOptions](docs/StyledMapTypeOptions.md)
 #### Polygons
 
   - [Polyline](docs/Polyline.md),
