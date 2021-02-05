@@ -47,7 +47,7 @@
     "lodash": "^4.17.15",
     "minimist": "^1.2.5",
     "progress": "^2.0.3",
-    "puppeteer": "^2.1.1",
+    "puppeteer": "^7.0.1",
     "showdown": "^1.9.1",
     "turndown": "^5.0.3"
   },
