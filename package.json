@@ -44,7 +44,7 @@
     "gh-pages": "^2.2.0",
     "js-beautify": "^1.10.3",
     "jsdom": "^16.2.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "minimist": "^1.2.5",
     "progress": "^2.0.3",
     "puppeteer": "^2.1.1",
