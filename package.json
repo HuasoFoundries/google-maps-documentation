@@ -43,7 +43,7 @@
     "find": "^0.3.0",
     "gh-pages": "^2.2.0",
     "js-beautify": "^1.10.3",
-    "jsdom": "^16.2.1",
+    "jsdom": "^16.5.2",
     "lodash": "^4.17.15",
     "minimist": "^1.2.5",
     "progress": "^2.0.3",
