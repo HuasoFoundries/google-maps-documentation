@@ -36,7 +36,7 @@
   "homepage": "https://github.com/HuasoFoundries/google-maps-documentation#readme",
   "dependencies": {
     "bluebird": "^3.7.2",
-    "chalk": "^3.0.0",
+    "chalk": "^4.1.1",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
     "exec-sh": "^0.3.0",
